@@ -1,22 +1,472 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Keysi</title>
-<style>
-  :root { color-scheme: light dark; }
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 640px; margin: 80px auto; padding: 0 20px; line-height: 1.6; }
-  h1 { font-size: 2rem; margin-bottom: 0.2em; }
-  .tagline { color: #888; font-size: 1.1rem; margin-bottom: 2em; }
-  .cta { display: inline-block; padding: 12px 28px; background: #007aff; color: white; text-decoration: none; border-radius: 8px; font-weight: 600; }
-  .note { margin-top: 3em; font-size: 0.9rem; color: #888; }
-</style>
+<title>Keysi — hold ⌘, see every shortcut</title>
+<meta name="description" content="Keysi is a macOS menu-bar utility that shows the keyboard shortcuts of whatever app you're using — hold ⌘ for a glance, click any row to run it. €14.99 once, 14-day free trial.">
+<link rel="canonical" href="https://keysi.io/">
+<link rel="icon" href="assets/favicon/icon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Keysi">
+<meta property="og:title" content="Keysi — hold ⌘, see every shortcut">
+<meta property="og:description" content="Hold ⌘ for a moment and see every keyboard shortcut of the app you're using — grouped by menu, click any row to run it.">
+<meta property="og:url" content="https://keysi.io/">
+<meta property="og:image" content="https://keysi.io/assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://keysi.io/assets/img/og.png">
+
+<link rel="stylesheet" href="assets/css/site.css">
+<script src="assets/js/analytics.js" defer></script>
 </head>
 <body>
-  <h1>⌘ Keysi</h1>
-  <p class="tagline">Hold ⌘ to see every keyboard shortcut of the app you're using.</p>
-  <p>Keysi is coming soon. Check back for a download link.</p>
-  <p class="note">This page also hosts Keysi's update feed for existing installs.</p>
+
+<nav class="site-nav">
+  <div class="container">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">⌘</span>
+      Keysi
+    </a>
+    <ul class="nav-links">
+      <li><a href="#features">Features</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="changelog.html">Changelog</a></li>
+    </ul>
+    <a class="btn btn-primary btn-nav" href="#pricing">Buy €14.99</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container">
+    <div class="eyebrow">macOS 26+ · Menu bar utility</div>
+    <h1>Hold ⌘. See every shortcut of the app you're in.</h1>
+    <p class="lede">
+      Keysi reads the frontmost app's menus live and shows its keyboard
+      shortcuts as real keycaps. Click any row to run it.
+    </p>
+    <div class="btn-row">
+      <a class="btn btn-primary btn-lg" href="#download">Download for macOS</a>
+      <a class="btn btn-secondary btn-lg" href="#pricing">Buy — €14.99 once</a>
+    </div>
+    <p class="hero-micro">
+      <span>14-day trial, no account</span>
+      <span>macOS 26+</span>
+      <span>Signed and notarized</span>
+      <span>One-time purchase</span>
+    </p>
+
+    <div class="hero-media">
+      <video autoplay muted loop playsinline preload="metadata" poster="assets/img/demo-poster.png">
+        <source src="assets/img/demo.webm" type="video/webm">
+        <source src="assets/img/demo.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</header>
+
+<section class="story">
+  <div class="container-narrow">
+    <div class="eyebrow">Why Keysi exists</div>
+    <blockquote>
+      &ldquo;This app used to exist.&rdquo;
+    </blockquote>
+    <p>
+      <strong>CheatSheet</strong>, by Media Atelier, did exactly this for
+      years — hold a key, see the frontmost app's shortcuts. It stopped
+      working on macOS Sonoma and was discontinued.
+    </p>
+    <p>
+      Most people assumed Apple had removed the API it needed. Apple
+      didn't. The accessibility API Keysi depends on
+      (<code>AXUIElementCreateApplication</code> and the menu-bar
+      attributes) is still public and still works — verified directly
+      against TextEdit, Safari, Finder, Xcode, VS Code, Slack, and Figma.
+    </p>
+    <p>
+      Keysi is a new implementation of a technique that was never actually
+      deprecated. This project exists because a good tool disappeared, not
+      because the technique stopped working.
+    </p>
+    <p class="fine">
+      Not affiliated with Media Atelier. Keysi shares no code with
+      CheatSheet — it's a new app built on the same public API.
+    </p>
+  </div>
+</section>
+
+<section id="features" class="container">
+  <div class="feature">
+    <div class="feature-copy">
+      <div class="eyebrow">Real keycaps, real grouping</div>
+      <h2>Shortcuts, organized the way the app already is.</h2>
+      <p>
+        Every shortcut renders as a real macOS-style keycap — <span class="kbd-row"><span class="kbd">⌘</span><span class="kbd">⇧</span><span class="kbd">S</span></span> — not the string
+        "Cmd+Shift+S". Grouped by menu, with a breadcrumb for anything
+        nested in a submenu, so you can also find it by hand next time.
+        Items the app has currently disabled show up dimmed, because a
+        shortcut you can't use right now isn't a shortcut.
+      </p>
+    </div>
+    <div class="feature-media">
+      <picture>
+        <source srcset="assets/img/shot-xcode-dark@2x.png" media="(prefers-color-scheme: dark)">
+        <img src="assets/img/shot-xcode@2x.png" alt="Keysi's overlay open over Xcode, showing keyboard shortcuts grouped by menu with keycap glyphs and a breadcrumb for a submenu item" loading="lazy" width="1200" height="800">
+      </picture>
+    </div>
+  </div>
+
+  <div class="feature reverse">
+    <div class="feature-copy">
+      <div class="eyebrow">Click to run it</div>
+      <h2>It isn't a picture of the menu. It's the menu.</h2>
+      <p>
+        Every competitor in this space shows you shortcuts. Keysi runs
+        them. Click any row and Keysi fires that exact menu action, then
+        dismisses like Spotlight — no need to remember which finger goes
+        where.
+      </p>
+    </div>
+    <div class="feature-media">
+      <img src="assets/img/shot-execute@2x.png" alt="Cursor clicking a highlighted 'Export…' row in Keysi's overlay, with the app's real export dialog opening underneath" loading="lazy" width="1200" height="800">
+    </div>
+  </div>
+
+  <div class="feature">
+    <div class="feature-copy">
+      <div class="eyebrow">It tells you when a shortcut is a lie</div>
+      <h2>Know before you press it.</h2>
+      <p>
+        Keysi reads macOS's own system shortcuts and flags any app
+        shortcut the system will intercept first, so you're not left
+        wondering why nothing happened.
+      </p>
+      <span class="callout">macOS intercepts this for "Spotlight Search" — this shortcut won't fire</span>
+    </div>
+    <div class="feature-media">
+      <img src="assets/img/shot-conflict@2x.png" alt="Zoomed view of a shortcut row in Keysi with a conflict warning icon and tooltip explaining that macOS intercepts the shortcut" loading="lazy" width="1200" height="800">
+    </div>
+  </div>
+
+  <div class="feature reverse">
+    <div class="feature-copy">
+      <div class="eyebrow">Shortcuts that aren't in any menu</div>
+      <h2>Vim, tmux, and apps with no menu bar at all.</h2>
+      <p>
+        Custom JSON cheat sheets cover apps whose real shortcuts don't live
+        in a menu structure — terminal programs, and Electron apps whose
+        useful bindings are renderer-only. Vim, tmux, Figma, and Slack ship
+        built in; add your own for anything else.
+      </p>
+    </div>
+    <div class="feature-media">
+      <img src="assets/img/shot-vim@2x.png" alt="Keysi's overlay open over Vim running in a terminal, showing a custom cheat sheet of Vim motions and commands" loading="lazy" width="1200" height="800">
+    </div>
+  </div>
+
+  <div class="tight">
+    <h2 class="center" style="margin-top:64px;">The quiet details</h2>
+    <div class="details-grid">
+      <div class="detail-item">
+        <h3><span class="tick">✓</span>Never steals focus</h3>
+        <p>A non-activating panel — the app underneath stays frontmost the entire time.</p>
+      </div>
+      <div class="detail-item">
+        <h3><span class="tick">✓</span>Never flashes when you type</h3>
+        <p>Holding ⌘ on your way to a real ⌘S cancels the overlay silently before it can appear.</p>
+      </div>
+      <div class="detail-item">
+        <h3><span class="tick">✓</span>Secure-input aware</h3>
+        <p>If a password field has secure input on, Keysi says so instead of pretending everything's normal.</p>
+      </div>
+      <div class="detail-item">
+        <h3><span class="tick">✓</span>Yours to tune</h3>
+        <p>Hold delay from 0.3–2.0s, a rebindable global hotkey, optional menu bar icon, launch at login.</p>
+      </div>
+      <div class="detail-item">
+        <h3><span class="tick">✓</span>Bounded work</h3>
+        <p>An app-level cache with per-menu limits, so even Safari's largest bookmarks menu can't hang the overlay.</p>
+      </div>
+      <div class="detail-item">
+        <h3><span class="tick">✓</span>Three ways in</h3>
+        <p>Hold ⌘, press the hotkey, or click the menu bar item — whichever you'd rather use.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="limitation">
+  <div class="container">
+    <div class="eyebrow">Being upfront</div>
+    <h2>Two modes, one honest difference.</h2>
+    <p class="lede">
+      Hold-⌘ is a glance. You can't type to search while holding it down —
+      and that's deliberate, not an oversight.
+    </p>
+    <div class="mode-compare">
+      <div class="mode-card">
+        <h3><span class="kbd">⌘</span> Hold</h3>
+        <p>
+          A global event monitor can observe keystrokes, but it can't
+          consume them — so anything you typed while holding ⌘ would still
+          reach the app underneath. Keysi won't install the kind of input
+          tap that could change that. Hold-⌘ shows you everything; it just
+          can't filter it.
+        </p>
+      </div>
+      <div class="mode-card">
+        <h3><span class="kbd-row"><span class="kbd">⇧</span><span class="kbd">⌘</span><span class="kbd">K</span></span> Panel</h3>
+        <p>
+          Press the hotkey instead and the same content opens as a real
+          interactive panel: type to filter, use arrow keys to move, press
+          Escape to dismiss. Fully searchable, on purpose.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container">
+  <div class="eyebrow">Trust</div>
+  <h2>Why you can't get this from the Mac App Store.</h2>
+  <p class="lede">
+    Keysi reads other applications' menu structure through the
+    Accessibility API. Apple has confirmed directly that this does not
+    work inside the App Sandbox, which the Mac App Store requires for
+    every app. Every comparable tool — KeyCue, KeyClu, the original
+    CheatSheet — ships the same way: signed with a Developer ID
+    certificate and notarized, distributed directly.
+  </p>
+  <ul class="trust-list">
+    <li><span class="tick">✓</span><span><strong>Signed and notarized.</strong> Keysi is signed with a Developer ID certificate and notarized by Apple — it opens normally, no right-click-to-open dance.</span></li>
+    <li><span class="tick">✓</span><span><strong>Updates are cryptographically verified.</strong> Every update ships through Sparkle and is signed with an EdDSA key baked into the app.</span></li>
+    <li><span class="tick">✓</span><span><strong>Only two network calls exist.</strong> A license check to Lemon Squeezy, and an update check against the appcast. Nothing about your menus, your apps, or how you use them ever leaves your Mac — no analytics, no telemetry. Crash diagnostics are off by default and, if you turn them on, stay on your Mac too.</span></li>
+    <li><span class="tick">✓</span><span><strong>The permission, explained plainly.</strong> "Keysi needs Accessibility access to read the keyboard shortcuts of the app you're using. It never controls your keyboard or mouse without an explicit click on a shortcut row."</span></li>
+  </ul>
+  <div class="verify-box">
+    Don't take our word for it — verify the signature yourself once Keysi is installed:
+    <code>spctl -a -vvv -t install /Applications/Keysi.app</code>
+  </div>
+</section>
+
+<section class="container tight">
+  <div class="eyebrow">How it compares</div>
+  <h2>Keysi, KeyCue, KeyClu, and CheatSheet.</h2>
+  <p class="lede">
+    Only claims we could confirm directly on each project's own site are
+    marked. Where a competitor's site doesn't say one way or the other,
+    we say so instead of guessing.
+  </p>
+  <div class="table-scroll">
+    <table class="compare">
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>Keysi</th>
+          <th>KeyCue</th>
+          <th>KeyClu</th>
+          <th>CheatSheet</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Shows the frontmost app's shortcuts</td>
+          <td class="yes">Yes</td>
+          <td class="yes">Yes</td>
+          <td class="yes">Yes</td>
+          <td class="yes">Yes</td>
+        </tr>
+        <tr>
+          <td>Click a row to run it</td>
+          <td class="yes">Yes</td>
+          <td class="no">Not stated</td>
+          <td class="no">Not stated</td>
+          <td class="no">Not stated</td>
+        </tr>
+        <tr>
+          <td>Warns when macOS will intercept a shortcut</td>
+          <td class="yes">Yes</td>
+          <td class="no">Not stated</td>
+          <td class="no">Not stated</td>
+          <td class="no">Not stated</td>
+        </tr>
+        <tr>
+          <td>Custom sheets for apps with no menu bar</td>
+          <td class="yes">Yes — Vim, tmux, Figma, Slack built in</td>
+          <td class="no">Not stated</td>
+          <td class="no">Not stated</td>
+          <td class="no">Not stated</td>
+        </tr>
+        <tr>
+          <td>Price</td>
+          <td class="yes">€14.99 once</td>
+          <td>~$39.99 once (current version only), or from ~$19.99/yr subscription<sup>1</sup></td>
+          <td class="yes">Free</td>
+          <td>Discontinued</td>
+        </tr>
+        <tr>
+          <td>Actively maintained (as of Sep 2026)</td>
+          <td class="yes">Yes</td>
+          <td class="yes">Yes</td>
+          <td class="yes">Yes — v0.33, Aug 2026</td>
+          <td class="no">No — discontinued on macOS Sonoma</td>
+        </tr>
+        <tr>
+          <td>Distribution</td>
+          <td class="yes">Direct download, notarized</td>
+          <td>Direct download</td>
+          <td class="yes">Free, via Homebrew or GitHub</td>
+          <td>Was direct download</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="compare-date">
+    Compared on 2026-09-08, against each project's own website:
+    <a href="https://ergonis.com/en/keycue/features">ergonis.com/en/keycue/features</a>,
+    <a href="https://sergii.tatarenkov.name/apps/keyclu/">sergii.tatarenkov.name/apps/keyclu</a>,
+    <a href="https://www.mediaatelier.com/en/CheatSheet/feedNotes.php">mediaatelier.com/en/CheatSheet</a>.
+    <sup>1</sup> KeyCue's own pricing page renders its exact figures via
+    JavaScript we couldn't read directly; this range is from a
+    <a href="https://www.getapp.com/collaboration-software/a/keycue/">third-party listing</a>
+    and should be verified on ergonis.com before relying on it. "Not
+    stated" means the feature isn't mentioned on that project's site
+    either way — not that it's absent.
+  </p>
+</section>
+
+<section id="pricing" class="container tight">
+  <div class="center">
+    <div class="eyebrow">Pricing</div>
+    <h2>One price. No subscription.</h2>
+  </div>
+  <div class="pricing-card">
+    <div class="price-amount">€14.99 <span>once</span></div>
+    <p style="color:var(--text-secondary); margin-bottom:0;">Not a subscription. Pay once, own it.</p>
+    <ul class="pricing-list">
+      <li><span class="tick">✓</span>14-day free trial — no account, no card</li>
+      <li><span class="tick">✓</span>Works on up to 3 Macs, movable anytime</li>
+      <li><span class="tick">✓</span>Free updates, forever</li>
+      <li><span class="tick">✓</span>30-day refund, no questions asked</li>
+      <li><span class="tick">✓</span>Lemon Squeezy handles checkout and VAT as merchant of record</li>
+    </ul>
+    <div class="btn-row">
+      <a class="btn btn-primary btn-lg" href="https://keysi.lemonsqueezy.com/checkout/buy/73bfc9c6-df32-45c1-afd8-ff07861c275a">Buy license — €14.99</a>
+      <a id="download" class="btn btn-secondary btn-lg" href="https://github.com/noloman/keysi/releases/latest">Download and try first</a>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="container tight">
+  <div class="center">
+    <div class="eyebrow">FAQ</div>
+    <h2>Questions worth answering upfront.</h2>
+  </div>
+  <div style="max-width:760px; margin:32px auto 0;">
+
+    <details class="faq-item">
+      <summary>Why does Keysi need Accessibility access?</summary>
+      <div class="faq-body">
+        <p>To read the menu bar of the app you're currently using, so it can show its keyboard shortcuts. Verbatim, from the permission prompt: "Keysi needs Accessibility access to read the keyboard shortcuts of the app you're using. It never controls your keyboard or mouse without an explicit click on a shortcut row."</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>Does Keysi send anything anywhere?</summary>
+      <div class="faq-body">
+        <p>Only two network calls exist in the app: a license check to Lemon Squeezy, and an update check against Keysi's Sparkle appcast. Nothing about your menus, the apps you use, or how you use them ever leaves your Mac. No analytics, no telemetry. Crash diagnostics are off by default — if you turn them on in Settings, they're generated on-device by Apple's MetricKit and never leave your Mac unless you manually copy and share them yourself.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>Why isn't Keysi on the Mac App Store?</summary>
+      <div class="faq-body">
+        <p>The Accessibility API Keysi depends on to read another app's menu structure doesn't work inside the App Sandbox, which every Mac App Store app is required to use. This is a permanent constraint, not a launch-day limitation — every comparable tool (KeyCue, KeyClu, the original CheatSheet) ships the same way, direct and notarized.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>Can I search while holding ⌘?</summary>
+      <div class="faq-body">
+        <p>No. A global event monitor can observe your keystrokes but can't consume them, so anything typed while holding ⌘ would still reach the app underneath — Keysi won't install the kind of input tap that could change that. Press the global hotkey (⇧⌘K by default) instead: the same content opens as a real panel where search, arrow keys, and Escape all work.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>Which macOS versions and Macs does Keysi support?</summary>
+      <div class="faq-body">
+        <p>macOS 26 or later, on Apple silicon and Intel Macs.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>How many Macs can I use my license on?</summary>
+      <div class="faq-body">
+        <p>Up to 3 Macs at once. To move a license to a new Mac, open Settings → License → Deactivate This Mac on the old one, then activate on the new one with the same key.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>What's your refund policy?</summary>
+      <div class="faq-body">
+        <p>30 days, no questions asked. See <a href="terms.html">Terms &amp; refunds</a>.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>How do updates work?</summary>
+      <div class="faq-body">
+        <p>Keysi checks for updates automatically via Sparkle. Every update is cryptographically signed and verified against a key built into the app before it installs. You can also check manually from the menu bar item: "Check for Updates…"</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>An app I opened shows no shortcuts — what's wrong?</summary>
+      <div class="faq-body">
+        <p>This usually happens right after an app launches, or on its Welcome screen, before it has a real menu bar to read yet. Open a real document or project in the app and try again.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>Does Keysi work with Electron apps like Slack or VS Code?</summary>
+      <div class="faq-body">
+        <p>Yes — Slack, VS Code, and Figma all return correct menu trees. For the bindings that only exist in an app's renderer and never reach its native menu bar, built-in custom sheets fill the gap.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>Is this the original CheatSheet?</summary>
+      <div class="faq-body">
+        <p>No. Keysi is not affiliated with Media Atelier and shares no code with CheatSheet — it's a new, independent app built on the same public accessibility API.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>Can I use a modifier other than ⌘ to trigger the overlay?</summary>
+      <div class="faq-body">
+        <p>Not for the hold gesture — ⌘ is the only hold modifier today. The hold delay is adjustable, and the global hotkey (default ⇧⌘K) is fully rebindable to any key combination you like.</p>
+      </div>
+    </details>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-row">
+      <div>© 2026 Manuel Lorenzo. Not affiliated with Media Atelier.</div>
+      <ul class="footer-links">
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="terms.html">Terms &amp; refunds</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+        <li><a href="press.html">Press</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>

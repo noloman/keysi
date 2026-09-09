@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 256">
+  <!-- Wraps the app's real shipped icon (Keysi/Assets.xcassets/AppIcon.appiconset,
+       rendered by Spike/render_icon.swift) so the browser tab matches the
+       actual app rather than a separate marketing-only design. Regenerate
+       icon-256.png from the app icon if it ever changes. -->
+  <image href="icon-256.png" width="256" height="256"/>
+</svg>

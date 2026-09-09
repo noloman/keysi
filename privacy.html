@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy — Keysi</title>
+<meta name="description" content="What Keysi accesses, what it sends, and what never leaves your Mac.">
+<link rel="canonical" href="https://keysi.io/privacy.html">
+<link rel="icon" href="assets/favicon/icon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Keysi">
+<meta property="og:title" content="Privacy — Keysi">
+<meta property="og:description" content="What Keysi accesses, what it sends, and what never leaves your Mac.">
+<meta property="og:url" content="https://keysi.io/privacy.html">
+<meta property="og:image" content="https://keysi.io/assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://keysi.io/assets/img/og.png">
+<link rel="stylesheet" href="assets/css/site.css">
+<script src="assets/js/analytics.js" defer></script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">⌘</span>Keysi</a>
+    <ul class="nav-links">
+      <li><a href="index.html#features">Features</a></li>
+      <li><a href="index.html#pricing">Pricing</a></li>
+      <li><a href="index.html#faq">FAQ</a></li>
+      <li><a href="changelog.html">Changelog</a></li>
+    </ul>
+    <a class="btn btn-primary btn-nav" href="index.html#pricing">Buy €14.99</a>
+  </div>
+</nav>
+
+<section class="container-narrow doc">
+  <div class="eyebrow">Privacy</div>
+  <h1>What Keysi does — and doesn't — send anywhere</h1>
+  <p class="updated">Last updated with the 1.0.0 release.</p>
+
+  <h2>The short version</h2>
+  <p>
+    Keysi reads the menu structure of whatever app is frontmost, on your
+    Mac, to show you its keyboard shortcuts. That information never
+    leaves your Mac. Two network calls happen automatically — described in
+    full below — and nothing else does unless you turn it on yourself.
+    Crash diagnostics are off by default; if you turn them on in Settings,
+    they're generated on-device by Apple's MetricKit and never transmitted
+    anywhere automatically. Usage analytics — inside the app, and on this
+    website — are opt-in too; see <a href="#analytics">Analytics</a> below
+    for exactly what's collected when you say yes.
+  </p>
+
+  <h2>Accessibility access</h2>
+  <p>
+    Keysi asks for Accessibility permission the first time it runs. This
+    is what lets it read another app's menu bar structure via macOS's
+    Accessibility API. Verbatim, from the permission prompt itself:
+  </p>
+  <p><em>"Keysi needs Accessibility access to read the keyboard shortcuts
+  of the app you're using. It never controls your keyboard or mouse
+  without an explicit click on a shortcut row."</em></p>
+  <p>
+    Keysi only ever simulates a click on your explicit action — clicking
+    a shortcut row to run it. It never types on your behalf, never moves
+    your mouse, and never reads what you type into other apps.
+  </p>
+
+  <h2>The two network calls Keysi makes automatically</h2>
+  <ol>
+    <li>
+      <strong>License check.</strong> When you activate, deactivate, or
+      periodically revalidate a license, Keysi contacts Lemon Squeezy's
+      License API with your license key. Lemon Squeezy is the merchant of
+      record for your purchase and processes this on Keysi's behalf; see
+      their own privacy policy for how they handle payment and license
+      data.
+    </li>
+    <li>
+      <strong>Update check.</strong> Keysi periodically checks a public
+      appcast feed (hosted on GitHub Pages) to see if a new version is
+      available, using Sparkle. This is a standard, unauthenticated HTTP
+      request for a static XML file — no identifying information about
+      you or your Mac is sent with it beyond what any HTTP request
+      includes (like your IP address, visible to the hosting provider).
+    </li>
+  </ol>
+  <p>
+    Nothing else Keysi does touches the network by default. The shortcuts
+    it reads, the apps you use, your custom cheat sheets, and your
+    settings all stay on your Mac — with one opt-in exception, covered
+    next.
+  </p>
+
+  <h2 id="analytics">Analytics — always opt-in, on and off by default</h2>
+  <p>
+    Two separate analytics systems exist, covering two separate things:
+    this website, and the Keysi app itself. Neither is on unless you
+    actively turn it on, and turning either off again is one click.
+  </p>
+  <p>
+    <strong>This website</strong> uses Google Analytics to understand
+    traffic — which pages get visited, what referred you here, and
+    whether the "Buy" button gets clicked. Nothing from Google loads
+    until you click "Accept" on the banner shown on first visit; clicking
+    "Decline" (or simply ignoring the banner) means no Google request is
+    ever made. Google's own privacy policy governs how it handles this
+    data. You can withdraw consent at any time by clearing this site's
+    data in your browser, which brings the banner back on your next visit.
+  </p>
+  <p>
+    <strong>The Keysi app</strong> has a "Share usage analytics" toggle in
+    Settings → General, off by default. If you turn it on, Keysi sends a
+    small, disclosed set of anonymous events to PostHog (EU-hosted): app
+    launches, which Settings tab you open, the overlay showing, and which
+    individual shortcuts you trigger — the shortcut's name and the app it
+    ran in, so we can see which shortcuts and apps matter most to Keysi
+    users. Nothing else: never your license key, never the content of any
+    document, message, or window, never anything from a custom cheat
+    sheet. Turning the toggle back off stops all future events
+    immediately.
+  </p>
+
+  <h2>What's stored locally</h2>
+  <p>
+    Your license state, trial state, and preferences (hold delay, hotkey
+    binding, menu bar icon visibility, and so on) are stored locally on
+    your Mac — in the standard macOS locations for app preferences and
+    keychain items — and are never uploaded anywhere by Keysi itself.
+  </p>
+
+  <h2>Custom cheat sheets</h2>
+  <p>
+    Any custom JSON cheat sheets you add live in
+    <code>~/Library/Application Support/Keysi/Sheets/</code> on your own
+    Mac. Keysi never reads, uploads, or shares the contents of that
+    folder with anyone.
+  </p>
+
+  <h2>Questions</h2>
+  <p>
+    If anything here is unclear, or you want more detail on a specific
+    behavior, reach out — contact details are on the
+    <a href="press.html">press page</a>.
+  </p>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-row">
+      <div>© 2026 Manuel Lorenzo. Not affiliated with Media Atelier.</div>
+      <ul class="footer-links">
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="terms.html">Terms &amp; refunds</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+        <li><a href="press.html">Press</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
