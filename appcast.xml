@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
     <channel>
         <title>Keysi Updates</title>
-        <link>https://noloman.github.io/keysi/appcast.xml</link>
+        <link>https://keysi.io/appcast.xml</link>
         <description>Update feed for Keysi.</description>
         <language>en</language>
         <!-- No items yet — this is a valid, empty appcast. Populate it with
