@@ -5,8 +5,13 @@
         <link>https://keysi.io/appcast.xml</link>
         <description>Update feed for Keysi.</description>
         <language>en</language>
-        <!-- No items yet — this is a valid, empty appcast. Populate it with
-             scripts/appcast.sh (which wraps Sparkle's own generate_appcast
-             tool) after the first signed, notarized release. -->
+        <item>
+        <title>1.0.0</title>
+        <pubDate>Fri, 11 Sep 2026 01:00:19 +0200</pubDate>
+        <sparkle:version>1</sparkle:version>
+        <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+        <enclosure url="https://keysi.io/releases/Keysi-1.0.0.zip" length="4372902" type="application/octet-stream" sparkle:edSignature="qEot3FIcyQF18fKh3f0B45vwwXYesxFz7lZ9IxFCVXsUgAKs7KSQ+Ga0SIX/52Yk67GJcFZXi7YqPAt5A2E5Cw=="/>
+        </item>
     </channel>
 </rss>
