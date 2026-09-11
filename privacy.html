@@ -132,6 +132,13 @@
       won't let it keep its Accessibility permission — a disk image, or a
       temporary copy — and which of those two it was. No path is sent,
       only which of the two situations it recognised.</li>
+    <li>When macOS won't tell Keysi that an app has opened a menu — which
+      is exactly what Shortcut Coach needs in order to notice you picking a
+      command with the mouse — the identifier of that app and the error
+      macOS returned. Safari is the one we already know about. This is sent
+      once per app per session, and only for apps where that failed, so we
+      can find out which apps Coach can't help you in yet; it is not a
+      record of the apps you use.</li>
   </ul>
   <p>
     Nothing else. <strong>Never your license key, never the amount you
