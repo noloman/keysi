@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# thanks.html is the post-purchase page and carries <meta name="robots"
+# content="noindex">. Deliberately NOT disallowed here: a Disallow stops
+# Google fetching the page at all, so it never sees the noindex and the
+# URL can still surface bare in results. Letting it crawl is what makes
+# the noindex effective.
+
+Sitemap: https://keysi.io/sitemap.xml

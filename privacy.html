@@ -31,7 +31,7 @@
       <li><a href="index.html#faq">FAQ</a></li>
       <li><a href="changelog.html">Changelog</a></li>
     </ul>
-    <a class="btn btn-primary btn-nav" href="index.html#pricing">Buy €14.99</a>
+    <a class="btn btn-primary btn-nav" href="index.html#pricing">Pricing</a>
   </div>
 </nav>
 
@@ -71,9 +71,11 @@
   <h2>The two network calls Keysi makes automatically</h2>
   <ol>
     <li>
-      <strong>License check.</strong> When you activate, deactivate, or
-      periodically revalidate a license, Keysi contacts Lemon Squeezy's
-      License API with your license key. Lemon Squeezy is the merchant of
+      <strong>License check.</strong> When you activate a license, or
+      periodically revalidate one already active, Keysi contacts
+      Gumroad's License API with your license key. ("Deactivate This
+      Mac" itself is local only — it clears the license from this Mac's
+      Keychain without contacting Gumroad.) Gumroad is the merchant of
       record for your purchase and processes this on Keysi's behalf; see
       their own privacy policy for how they handle payment and license
       data.
@@ -113,17 +115,42 @@
   <p>
     <strong>The Keysi app</strong> has a "Share usage analytics" toggle in
     Settings → General, off by default. If you turn it on, Keysi sends a
-    small, disclosed set of anonymous events to PostHog (EU-hosted): app
-    launches, which Settings tab you open, the overlay showing, and which
-    individual shortcuts you trigger — the shortcut's name and the app it
-    ran in, so we can see which shortcuts and apps matter most to Keysi
-    users. Nothing else: never your license key, never the content of any
-    document, message, or window, never anything from a custom cheat
-    sheet. Turning the toggle back off stops all future events
-    immediately.
+    small, disclosed set of anonymous events to PostHog (EU-hosted):
   </p>
+  <ul>
+    <li>App launches, and which Settings tab you open.</li>
+    <li>The overlay showing, and which individual shortcuts you trigger —
+      the shortcut's name and the app it ran in, so we can see which
+      shortcuts and apps matter most to Keysi users.</li>
+    <li>Licensing and upgrade events: a trial starting, moving between the
+      free and Pro tiers, the progress recap being shown and which button
+      you pressed on it, opening the checkout page and which screen you
+      opened it from, a Keysi Pro feature being blocked, and whether a
+      license activation succeeded or failed — the latter with a coarse
+      reason such as "invalid key" or "network".</li>
+  </ul>
+  <p>
+    Nothing else. <strong>Never your license key, never the amount you
+    paid or any payment detail</strong>, never the content of any
+    document, message, or window, never anything from a custom cheat
+    sheet, and never the contents of any menu Keysi reads. Turning the
+    toggle back off stops all future events immediately.</p>
 
   <h2>What's stored locally</h2>
+  <p>
+    Shortcut Coach keeps a count, on your Mac only, of which menu commands you
+    pick with the mouse that already have a keyboard shortcut, and how often you
+    later press that shortcut instead. It also times how long your own menu trips
+    take, so the progress figures Keysi shows you are measured rather than
+    guessed. <strong>That counting continues on the free tier</strong>, even
+    though the coaching itself is part of Keysi Pro — it is what lets Keysi show
+    you real numbers about your own habits if you ever look. None of it is
+    transmitted anywhere; it lives in
+    <code>~/Library/Application Support/Keysi/</code>. Turning off "Suggest
+    shortcuts when you click with the mouse" in Settings → Coach stops the
+    counting entirely, and "Reset Statistics" on that same pane deletes what has
+    been collected.
+  </p>
   <p>
     Your license state, trial state, and preferences (hold delay, hotkey
     binding, menu bar icon visibility, and so on) are stored locally on

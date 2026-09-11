@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KeyCue alternative for macOS — Keysi</title>
+<meta name="description" content="Keysi is a KeyCue alternative for macOS: hold ⌘ to see the frontmost app's shortcuts, click any row to run it, and get told which shortcuts macOS will intercept. That part is free, versus KeyCue's $39.99.">
+<link rel="canonical" href="https://keysi.io/keycue-alternative.html">
+<link rel="icon" href="assets/favicon/icon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Keysi">
+<meta property="og:title" content="KeyCue alternative for macOS — Keysi">
+<meta property="og:description" content="Keysi is a KeyCue alternative for macOS: hold ⌘ to see the frontmost app's shortcuts, click any row to run it, and get told which shortcuts macOS will intercept.">
+<meta property="og:url" content="https://keysi.io/keycue-alternative.html">
+<meta property="og:image" content="https://keysi.io/assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://keysi.io/assets/img/og.png">
+<link rel="stylesheet" href="assets/css/site.css">
+<script src="assets/js/analytics.js" defer></script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">⌘</span>Keysi</a>
+    <ul class="nav-links">
+      <li><a href="index.html#features">Features</a></li>
+      <li><a href="index.html#pricing">Pricing</a></li>
+      <li><a href="index.html#faq">FAQ</a></li>
+      <li><a href="changelog.html">Changelog</a></li>
+    </ul>
+    <a class="btn btn-primary btn-nav" href="index.html#pricing">Pricing</a>
+  </div>
+</nav>
+
+<section class="container-narrow doc">
+  <div class="eyebrow">KeyCue alternative</div>
+  <h1>A KeyCue alternative that's free for what KeyCue does.</h1>
+  <p class="lede">
+    KeyCue has been around a long time and it's a real, actively
+    maintained product — this page isn't going to pretend otherwise. But
+    it's $39.99, and if what you want is "show me this app's shortcuts,
+    and let me act on them," Keysi does that for nothing at all — that
+    part is free forever, no account and no card. The $9.99 is for
+    coaching on top of it.
+  </p>
+
+  <div class="btn-row">
+    <a class="btn btn-primary btn-lg" href="index.html#download">Download for macOS</a>
+    <a class="btn btn-secondary btn-lg" href="index.html#pricing">See what $9.99 adds</a>
+  </div>
+
+  <h2>Price, first, because it's the biggest difference</h2>
+  <p>
+    KeyCue is $39.99 as a one-time purchase that doesn't include future
+    versions, or from $19.99/yr for two devices. The Keysi feature that
+    competes with it — hold a modifier, see every shortcut of the app
+    you're in, click one to run it — is <strong>free</strong>, with no
+    account, no card and no expiry. Keysi Pro is <strong>$9.99,
+    once</strong>, covering three Macs, with free updates and no
+    subscription tier at all, and it buys coaching rather than
+    reference. So the honest comparison is either free against $39.99
+    for the same job, or a quarter of KeyCue's up-front price for
+    strictly more — and the gap widens if you'd otherwise be renewing.
+  </p>
+  <p>
+    Being direct about what that buys: Keysi is a newer, smaller product
+    from one developer. It's cheap because it's one focused tool, not
+    because it's a stripped-down trial of something bigger.
+  </p>
+
+  <h2>Three things Keysi does that KeyCue's site doesn't claim</h2>
+  <ul>
+    <li>
+      <strong>Click a row to run it.</strong> Keysi reads the live menu
+      tree via the Accessibility API, so a row isn't a label — clicking
+      it fires that exact menu action and the overlay dismisses.
+    </li>
+    <li>
+      <strong>Conflict warnings.</strong> Keysi reads macOS's own system
+      shortcuts and flags any app shortcut the system will intercept
+      first, so you find out before you press it rather than after
+      nothing happens.
+    </li>
+    <li>
+      <strong>Coach mode.</strong> Keysi notices when you pick a command
+      from the menu with the mouse that already has a keyboard shortcut,
+      and offers one quiet, dismissible reminder — then tracks whether it
+      stuck, so it stops surfacing the ones you've learned. Every other
+      tool in this category, KeyCue included, waits to be asked.
+    </li>
+  </ul>
+  <p class="fine">
+    "Doesn't claim" is the precise wording, and it's deliberate. These
+    are features KeyCue's own website doesn't mention as of 2026-09-09 —
+    which isn't the same as proof they're absent. If you rely on one of
+    them, check KeyCue's current site rather than taking a competitor's
+    word for it.
+  </p>
+
+  <h2>Where KeyCue is the better choice</h2>
+  <p>
+    There are real cases, and it's worth naming them rather than leaving
+    you to find out after buying:
+  </p>
+  <ul>
+    <li>
+      <strong>You're not on macOS 26 yet.</strong> Keysi requires macOS
+      26 or later and simply won't run on older versions.
+    </li>
+    <li>
+      <strong>You want a long, established track record.</strong> KeyCue
+      has years of releases behind it. Keysi is at 1.0. The
+      <a href="changelog.html">changelog</a> is the only honest evidence
+      on offer, and right now it's short.
+    </li>
+  </ul>
+
+  <h2>One honest limitation, stated up front</h2>
+  <p>
+    You can't type to search while holding ⌘. A global event monitor can
+    observe keystrokes but not consume them, so anything typed would
+    still reach the app underneath, and Keysi won't install the kind of
+    input tap that could change that. Press the global hotkey (⇧⌘K by
+    default) instead and the same content opens as a real panel, where
+    search, arrow keys, and Escape all work. It's a deliberate trade, not
+    an oversight.
+  </p>
+
+  <h2>Try it against KeyCue directly</h2>
+  <p>
+    Run them side by side for a week on the app you actually live in —
+    that's a more useful test than any comparison table, this one
+    included. KeyCue has a trial; Keysi doesn't need one for this
+    comparison, because the part you'd be comparing never expires.
+    Installs do start with 14 days of Keysi Pro on top, and when that
+    ends the app drops to the free tier rather than stopping. Refunds on
+    Pro are 30 days, no questions asked.
+  </p>
+  <div class="btn-row">
+    <a class="btn btn-primary btn-lg" href="index.html#download">Download for macOS</a>
+    <a class="btn btn-secondary btn-lg" href="index.html#features">See the full feature comparison</a>
+  </div>
+
+  <h2>Related</h2>
+  <ul>
+    <li><a href="cheatsheet-alternative.html">Coming from CheatSheet?</a></li>
+    <li><a href="keyclu-vs-keysi.html">KeyClu is free — why pay for Keysi?</a></li>
+    <li><a href="index.html#faq">Full FAQ, including the Accessibility permission</a></li>
+  </ul>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-row">
+      <div>© 2026 Manuel Lorenzo. Not affiliated with Media Atelier.</div>
+      <ul class="footer-links">
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="terms.html">Terms &amp; refunds</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+        <li><a href="press.html">Press</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

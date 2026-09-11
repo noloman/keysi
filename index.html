@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Keysi — hold ⌘, see every shortcut</title>
-<meta name="description" content="Keysi is a macOS menu-bar utility that shows the keyboard shortcuts of whatever app you're using — hold ⌘ for a glance, click any row to run it. €14.99 once, 14-day free trial.">
+<meta name="description" content="Keysi is a macOS menu-bar utility that shows the keyboard shortcuts of whatever app you're using — hold ⌘ for a glance, click any row to run it. Free forever; Keysi Pro is $9.99 once.">
 <link rel="canonical" href="https://keysi.io/">
 <link rel="icon" href="assets/favicon/icon.svg" type="image/svg+xml">
 <link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
@@ -19,6 +19,29 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="https://keysi.io/assets/img/og.png">
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Keysi",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "macOS 26 or later",
+  "url": "https://keysi.io/",
+  "image": "https://keysi.io/assets/img/og.png",
+  "description": "Hold a modifier and see every keyboard shortcut of the Mac app you are using \u2014 grouped by menu, rendered as real keycaps, and click any row to run it. Free forever; Keysi Pro adds coaching that teaches you the shortcuts you keep missing.",
+  "softwareVersion": "1.0.0",
+  "downloadUrl": "https://github.com/noloman/keysi/releases/latest",
+  "inLanguage": ["en", "es", "fr", "de", "it", "pt-BR", "ja", "ko", "zh-Hans"],
+  "author": { "@type": "Person", "name": "Manuel Lorenzo" },
+  "offers": {
+    "@type": "AggregateOffer",
+    "priceCurrency": "USD",
+    "lowPrice": "0",
+    "highPrice": "9.99",
+    "offerCount": "2"
+  }
+}
+</script>
 <link rel="stylesheet" href="assets/css/site.css">
 <script src="assets/js/analytics.js" defer></script>
 </head>
@@ -36,7 +59,7 @@
       <li><a href="#faq">FAQ</a></li>
       <li><a href="changelog.html">Changelog</a></li>
     </ul>
-    <a class="btn btn-primary btn-nav" href="#pricing">Buy €14.99</a>
+    <a class="btn btn-primary btn-nav" href="#pricing">Pricing</a>
   </div>
 </nav>
 
@@ -50,17 +73,17 @@
     </p>
     <div class="btn-row">
       <a class="btn btn-primary btn-lg" href="#download">Download for macOS</a>
-      <a class="btn btn-secondary btn-lg" href="#pricing">Buy — €14.99 once</a>
+      <a class="btn btn-secondary btn-lg" href="#pricing">Pricing</a>
     </div>
     <p class="hero-micro">
-      <span>14-day trial, no account</span>
+      <span>Free forever, no account</span>
       <span>macOS 26+</span>
       <span>Signed and notarized</span>
-      <span>One-time purchase</span>
+      <span>Pro is $9.99 once, never a subscription</span>
     </p>
 
     <div class="hero-media">
-      <video autoplay muted loop playsinline preload="metadata" poster="assets/img/demo-poster.png">
+      <video autoplay muted loop playsinline preload="metadata" poster="assets/img/demo-poster.webp">
         <source src="assets/img/demo.webm" type="video/webm">
         <source src="assets/img/demo.mp4" type="video/mp4">
       </video>
@@ -113,8 +136,10 @@
     </div>
     <div class="feature-media">
       <picture>
+        <source srcset="assets/img/shot-xcode-dark@2x.webp" type="image/webp" media="(prefers-color-scheme: dark)">
         <source srcset="assets/img/shot-xcode-dark@2x.png" media="(prefers-color-scheme: dark)">
-        <img src="assets/img/shot-xcode@2x.png" alt="Keysi's overlay open over Xcode, showing keyboard shortcuts grouped by menu with keycap glyphs and a breadcrumb for a submenu item" loading="lazy" width="1200" height="800">
+        <source srcset="assets/img/shot-xcode@2x.webp" type="image/webp">
+        <img src="assets/img/shot-xcode@2x.png" alt="Keysi's overlay open over Xcode, showing keyboard shortcuts grouped by menu with keycap glyphs and a breadcrumb for a submenu item" loading="lazy" width="1400" height="1050">
       </picture>
     </div>
   </div>
@@ -124,18 +149,48 @@
       <div class="eyebrow">Click to run it</div>
       <h2>It isn't a picture of the menu. It's the menu.</h2>
       <p>
-        Every competitor in this space shows you shortcuts. Keysi runs
+        Most tools in this space stop at showing you shortcuts. Keysi runs
         them. Click any row and Keysi fires that exact menu action, then
         dismisses like Spotlight — no need to remember which finger goes
         where.
       </p>
     </div>
     <div class="feature-media">
-      <img src="assets/img/shot-execute@2x.png" alt="Cursor clicking a highlighted 'Export…' row in Keysi's overlay, with the app's real export dialog opening underneath" loading="lazy" width="1200" height="800">
+      <picture>
+        <source srcset="assets/img/shot-execute@2x.webp" type="image/webp">
+        <img src="assets/img/shot-execute@2x.png" alt="Keysi's overlay with the cursor resting on a highlighted “Actual Size” row, about to click it and run that menu command" loading="lazy" width="1400" height="1050">
+      </picture>
     </div>
   </div>
 
   <div class="feature">
+    <div class="feature-copy">
+      <div class="eyebrow">Coach mode</div>
+      <h2>It notices when you're still reaching for the mouse.</h2>
+      <p>
+        A shortcut reference waits to be asked. Keysi doesn't have to be:
+        it watches for menu commands you pick by hand that already have a
+        keyboard shortcut, and offers one quiet, dismissible reminder — then tracks
+        whether it stuck, so it stops nagging about the ones you've
+        learned. A reference you open is useful. A reference that teaches
+        you to stop needing it is the reason to pay for one.
+      </p>
+      <p>
+        On by default, throttled by a cooldown so it can never become
+        noise. Mute any single shortcut — or the whole feature — from
+        Settings ▸ Coach, and see what you're still learning in a list you
+        can actually work through.
+      </p>
+    </div>
+    <div class="feature-media">
+      <picture>
+        <source srcset="assets/img/shot-coach@2x.webp" type="image/webp">
+        <img src="assets/img/shot-coach@2x.png" alt="A small Keysi toast in the corner of the screen noting that the command just chosen from the menu has a keyboard shortcut, shown as keycaps" loading="lazy" width="1400" height="1050">
+      </picture>
+    </div>
+  </div>
+
+  <div class="feature reverse">
     <div class="feature-copy">
       <div class="eyebrow">It tells you when a shortcut is a lie</div>
       <h2>Know before you press it.</h2>
@@ -147,23 +202,33 @@
       <span class="callout">macOS intercepts this for "Spotlight Search" — this shortcut won't fire</span>
     </div>
     <div class="feature-media">
-      <img src="assets/img/shot-conflict@2x.png" alt="Zoomed view of a shortcut row in Keysi with a conflict warning icon and tooltip explaining that macOS intercepts the shortcut" loading="lazy" width="1200" height="800">
+      <picture>
+        <source srcset="assets/img/shot-conflict@2x.webp" type="image/webp">
+        <img src="assets/img/shot-conflict@2x.png" alt="Keysi's overlay over TextEdit, with several Move &amp; Resize rows whose keycaps are tinted orange because macOS itself claims those key combinations" loading="lazy" width="1400" height="1050">
+      </picture>
     </div>
   </div>
 
-  <div class="feature reverse">
+  <div class="feature">
     <div class="feature-copy">
       <div class="eyebrow">Shortcuts that aren't in any menu</div>
-      <h2>Vim, tmux, and apps with no menu bar at all.</h2>
+      <h2>Shortcuts that never appear in any menu.</h2>
       <p>
-        Custom JSON cheat sheets cover apps whose real shortcuts don't live
-        in a menu structure — terminal programs, and Electron apps whose
-        useful bindings are renderer-only. Vim, tmux, Figma, and Slack ship
-        built in; add your own for anything else.
+        Custom cheat sheets cover apps whose real shortcuts don't live
+        in a menu structure — Electron apps whose useful bindings are
+        renderer-only, and terminal programs. Figma and Slack ship built in
+        and attach automatically; so do Vim and tmux — Keysi looks inside
+        your terminal to see what's actually running there, not just which
+        terminal app it is, across Terminal, iTerm2, Ghostty, Warp,
+        Alacritty, WezTerm, kitty, Hyper, and Tabby. Write your own for
+        anything else in the built-in editor — no hand-editing JSON.
       </p>
     </div>
     <div class="feature-media">
-      <img src="assets/img/shot-vim@2x.png" alt="Keysi's overlay open over Vim running in a terminal, showing a custom cheat sheet of Vim motions and commands" loading="lazy" width="1200" height="800">
+      <picture>
+        <source srcset="assets/img/shot-vim@2x.webp" type="image/webp">
+        <img src="assets/img/shot-vim@2x.png" alt="Keysi's overlay open over Vim running in a terminal, showing a custom cheat sheet of Vim motions and commands" loading="lazy" width="1400" height="1050">
+      </picture>
     </div>
   </div>
 
@@ -193,6 +258,10 @@
       <div class="detail-item">
         <h3><span class="tick">✓</span>Three ways in</h3>
         <p>Hold ⌘, press the hotkey, or click the menu bar item — whichever you'd rather use.</p>
+      </div>
+      <div class="detail-item">
+        <h3><span class="tick">✓</span>Speaks your language</h3>
+        <p>Fully localized into 9: English, Spanish, French, German, Italian, Portuguese (BR), Japanese, Korean, and Simplified Chinese.</p>
       </div>
     </div>
   </div>
@@ -243,7 +312,7 @@
   <ul class="trust-list">
     <li><span class="tick">✓</span><span><strong>Signed and notarized.</strong> Keysi is signed with a Developer ID certificate and notarized by Apple — it opens normally, no right-click-to-open dance.</span></li>
     <li><span class="tick">✓</span><span><strong>Updates are cryptographically verified.</strong> Every update ships through Sparkle and is signed with an EdDSA key baked into the app.</span></li>
-    <li><span class="tick">✓</span><span><strong>Only two network calls exist.</strong> A license check to Lemon Squeezy, and an update check against the appcast. Nothing about your menus, your apps, or how you use them ever leaves your Mac — no analytics, no telemetry. Crash diagnostics are off by default and, if you turn them on, stay on your Mac too.</span></li>
+    <li><span class="tick">✓</span><span><strong>Nothing about your menus leaves your Mac.</strong> The app makes two network calls on its own: a license check to Gumroad, and an update check against the appcast. Usage analytics are <strong>off by default</strong> — if you turn them on, Keysi sends a short list of product events to a EU-hosted server, and never your menus, your shortcuts, or your license key. Crash diagnostics are off by default too and stay on your Mac even when enabled.</span></li>
     <li><span class="tick">✓</span><span><strong>The permission, explained plainly.</strong> "Keysi needs Accessibility access to read the keyboard shortcuts of the app you're using. It never controls your keyboard or mouse without an explicit click on a shortcut row."</span></li>
   </ul>
   <div class="verify-box">
@@ -256,9 +325,10 @@
   <div class="eyebrow">How it compares</div>
   <h2>Keysi, KeyCue, KeyClu, and CheatSheet.</h2>
   <p class="lede">
-    Only claims we could confirm directly on each project's own site are
-    marked. Where a competitor's site doesn't say one way or the other,
-    we say so instead of guessing.
+    KeyClu is free and genuinely good — this table doesn't pretend
+    otherwise. Only claims we could confirm directly on each project's
+    own site are marked; where a competitor's site doesn't say one way or
+    the other, we say so instead of guessing.
   </p>
   <div class="table-scroll">
     <table class="compare">
@@ -287,6 +357,13 @@
           <td class="no">Not stated</td>
         </tr>
         <tr>
+          <td>Teaches you shortcuts you're missing</td>
+          <td class="yes">Yes — Coach mode</td>
+          <td class="no">Not stated</td>
+          <td class="no">Not stated<sup>2</sup></td>
+          <td class="no">Not stated</td>
+        </tr>
+        <tr>
           <td>Warns when macOS will intercept a shortcut</td>
           <td class="yes">Yes</td>
           <td class="no">Not stated</td>
@@ -295,15 +372,22 @@
         </tr>
         <tr>
           <td>Custom sheets for apps with no menu bar</td>
-          <td class="yes">Yes — Vim, tmux, Figma, Slack built in</td>
+          <td class="yes">Yes — Figma, Slack, Vim and tmux built in, plus a built-in editor for your own</td>
           <td class="no">Not stated</td>
+          <td>Own-shortcuts registration<sup>3</sup></td>
           <td class="no">Not stated</td>
+        </tr>
+        <tr>
+          <td>Localized into multiple languages</td>
+          <td class="yes">Yes — 9 languages</td>
+          <td class="no">Not stated</td>
+          <td class="yes">Yes — 3 built in, more via community translation</td>
           <td class="no">Not stated</td>
         </tr>
         <tr>
           <td>Price</td>
-          <td class="yes">€14.99 once</td>
-          <td>~$39.99 once (current version only), or from ~$19.99/yr subscription<sup>1</sup></td>
+          <td class="yes">Free; Pro $9.99 once</td>
+          <td>$39.99 once (current version, no future updates), or from $19.99/yr<sup>1</sup></td>
           <td class="yes">Free</td>
           <td>Discontinued</td>
         </tr>
@@ -318,45 +402,109 @@
           <td>Distribution</td>
           <td class="yes">Direct download, notarized</td>
           <td>Direct download</td>
-          <td class="yes">Free, via Homebrew or GitHub</td>
+          <td class="yes">Free, open source (BSD-3-Clause-Clear)</td>
           <td>Was direct download</td>
         </tr>
       </tbody>
     </table>
   </div>
+  <p>
+    Coming from one of these in particular?
+    <a href="cheatsheet-alternative.html">Keysi as a CheatSheet alternative</a> ·
+    <a href="keycue-alternative.html">Keysi vs KeyCue</a> ·
+    <a href="keyclu-vs-keysi.html">KeyClu is free — why pay?</a>
+  </p>
+
   <p class="compare-date">
-    Compared on 2026-09-08, against each project's own website:
+    Compared on 2026-09-09, against each project's own website:
     <a href="https://ergonis.com/en/keycue/features">ergonis.com/en/keycue/features</a>,
     <a href="https://sergii.tatarenkov.name/apps/keyclu/">sergii.tatarenkov.name/apps/keyclu</a>,
     <a href="https://www.mediaatelier.com/en/CheatSheet/feedNotes.php">mediaatelier.com/en/CheatSheet</a>.
-    <sup>1</sup> KeyCue's own pricing page renders its exact figures via
-    JavaScript we couldn't read directly; this range is from a
-    <a href="https://www.getapp.com/collaboration-software/a/keycue/">third-party listing</a>
-    and should be verified on ergonis.com before relying on it. "Not
-    stated" means the feature isn't mentioned on that project's site
+    <sup>1</sup> KeyCue pricing per
+    <a href="https://www.heise.de/en/news/KeyCue-11-Learn-keyboard-shortcuts-on-the-Mac-with-a-new-look-10319360.html">heise.de's KeyCue 11 coverage</a>
+    and a <a href="https://www.capterra.com/p/10023573/KeyCue/">Capterra listing</a>:
+    $39.99 one-time (no future-version updates), $19.99/yr for 2 devices,
+    or $39.99/yr business for 5 devices.
+    <sup>2</sup> KeyClu has a "Learn" feature, but it hides shortcuts you
+    already know — it doesn't teach ones you're missing, which is the
+    opposite direction from Coach mode.
+    <sup>3</sup> KeyClu lets you register your own shortcuts manually
+    (and pair with a separate CustomShortcuts app). Keysi ships curated,
+    ready-to-use sheets <em>and</em>, since 1.0, a built-in editor for
+    writing your own — both free. Different mechanisms, both real.
+    "Not stated" means the feature isn't mentioned on that project's site
     either way — not that it's absent.
+  </p>
+</section>
+
+<section class="container tight">
+  <div class="center">
+    <div class="eyebrow">The honest question</div>
+    <h2>KeyClu is free. So is Keysi.</h2>
+  </div>
+  <p class="lede" style="max-width:640px; margin:16px auto 0;">
+    KeyClu is free and genuinely capable — filter-and-highlight search,
+    manual shortcut registration, three languages. We're not going to
+    pretend otherwise, and we're not going to charge you for a reference
+    you can already get for nothing.
+  </p>
+  <p style="max-width:640px; margin:16px auto 0;">
+    So the cheat sheet is free here too, permanently: hold your modifier,
+    see every shortcut, click one to <strong>run</strong> it, get
+    <strong>warned</strong> when macOS is about to intercept a keystroke,
+    write your own sheets. No nag screen, no countdown, no feature held
+    back.
+  </p>
+  <p style="max-width:640px; margin:16px auto 0;">
+    <strong>Keysi Pro is $9.99 for the part that teaches.</strong> Coach
+    notices when you reach for the mouse for something that already has a
+    shortcut, offers one quiet reminder, drills the ones you keep missing,
+    and — this is the part no other tool does at all — it
+    <strong>measures</strong> the result. It times how long your own menu
+    trips actually take, so it can tell you "your menu trips typically
+    take 2.4s, and you've skipped 412 of them." Not a guess multiplied by
+    a made-up constant. Two things it counted.
   </p>
 </section>
 
 <section id="pricing" class="container tight">
   <div class="center">
     <div class="eyebrow">Pricing</div>
-    <h2>One price. No subscription.</h2>
+    <h2>The cheat sheet is free. The coaching is $9.99.</h2>
   </div>
+  <div class="pricing-grid">
   <div class="pricing-card">
-    <div class="price-amount">€14.99 <span>once</span></div>
-    <p style="color:var(--text-secondary); margin-bottom:0;">Not a subscription. Pay once, own it.</p>
+    <div class="price-amount">Free <span>forever</span></div>
+    <p style="color:var(--text-secondary); margin-bottom:0;">The whole cheat sheet, not a trial of one.</p>
     <ul class="pricing-list">
-      <li><span class="tick">✓</span>14-day free trial — no account, no card</li>
-      <li><span class="tick">✓</span>Works on up to 3 Macs, movable anytime</li>
-      <li><span class="tick">✓</span>Free updates, forever</li>
-      <li><span class="tick">✓</span>30-day refund, no questions asked</li>
-      <li><span class="tick">✓</span>Lemon Squeezy handles checkout and VAT as merchant of record</li>
+      <li><span class="tick">✓</span>Hold ⌘ — or ⌥, ⌃, ⇧ — to see every shortcut</li>
+      <li><span class="tick">✓</span>Click any row to run it</li>
+      <li><span class="tick">✓</span>Searchable panel, favorites, hiding</li>
+      <li><span class="tick">✓</span>Conflict warnings when macOS will intercept</li>
+      <li><span class="tick">✓</span>Custom cheat sheets, with a built-in editor</li>
+      <li><span class="tick">✓</span>No account, no card, no nag screen</li>
     </ul>
     <div class="btn-row">
-      <a class="btn btn-primary btn-lg" href="https://keysi.lemonsqueezy.com/checkout/buy/73bfc9c6-df32-45c1-afd8-ff07861c275a">Buy license — €14.99</a>
-      <a id="download" class="btn btn-secondary btn-lg" href="https://github.com/noloman/keysi/releases/latest">Download and try first</a>
+      <a id="download" class="btn btn-primary btn-lg" href="https://github.com/noloman/keysi/releases/latest">Download Keysi</a>
     </div>
+  </div>
+  <div class="pricing-card">
+    <div class="price-amount">$9.99 <span>once</span></div>
+    <p style="color:var(--text-secondary); margin-bottom:0;">Keysi Pro. Not a subscription — pay once, own it.</p>
+    <ul class="pricing-list">
+      <li><span class="tick">✓</span>Coach — a quiet reminder when you mouse to something that has a shortcut</li>
+      <li><span class="tick">✓</span>Practice Mode, drilling the ones you keep missing</li>
+      <li><span class="tick">✓</span>Your progress, measured against your own menu-trip times</li>
+      <li><span class="tick">✓</span>A weekly summary of what stuck</li>
+      <li><span class="tick">✓</span>14 days free to try — and when it ends, the app keeps working</li>
+      <li><span class="tick">✓</span>Works on up to 3 Macs, movable anytime</li>
+      <li><span class="tick">✓</span>Free updates, forever · 30-day refund, no questions asked</li>
+      <li><span class="tick">✓</span>Gumroad handles checkout and VAT as merchant of record</li>
+    </ul>
+    <div class="btn-row">
+      <a class="btn btn-primary btn-lg" href="https://8954369651852.gumroad.com/l/mdyvqv">Get Keysi Pro — $9.99</a>
+    </div>
+  </div>
   </div>
 </section>
 
@@ -377,7 +525,8 @@
     <details class="faq-item">
       <summary>Does Keysi send anything anywhere?</summary>
       <div class="faq-body">
-        <p>Only two network calls exist in the app: a license check to Lemon Squeezy, and an update check against Keysi's Sparkle appcast. Nothing about your menus, the apps you use, or how you use them ever leaves your Mac. No analytics, no telemetry. Crash diagnostics are off by default — if you turn them on in Settings, they're generated on-device by Apple's MetricKit and never leave your Mac unless you manually copy and share them yourself.</p>
+        <p>Two network calls happen on their own: a license check to Gumroad, and an update check against Keysi's Sparkle appcast. Nothing about your menus, the apps you use, or the shortcuts you press ever leaves your Mac.</p>
+        <p>Usage analytics are <strong>off by default</strong>. If you switch them on in Settings, Keysi sends a short list of product events — app launches, which Settings tab you open, the overlay appearing, which shortcut you triggered, and licensing events like a trial starting or an upgrade prompt being shown — to a EU-hosted PostHog instance. Your license key, the amount you paid, and the contents of any menu are never sent. Crash diagnostics are off by default and, when enabled, are generated on-device by Apple's MetricKit and never leave your Mac unless you copy and share them yourself. See <a href="privacy.html">the privacy page</a> for the full list.</p>
       </div>
     </details>
 
@@ -405,7 +554,7 @@
     <details class="faq-item">
       <summary>How many Macs can I use my license on?</summary>
       <div class="faq-body">
-        <p>Up to 3 Macs at once. To move a license to a new Mac, open Settings → License → Deactivate This Mac on the old one, then activate on the new one with the same key.</p>
+        <p>Up to 3 Macs at once. To move a license to a new Mac, open Settings → Keysi Pro → Deactivate This Mac on the old one, then activate on the new one with the same key.</p>
       </div>
     </details>
 
@@ -445,9 +594,16 @@
     </details>
 
     <details class="faq-item">
+      <summary>What happens when the Keysi Pro trial ends?</summary>
+      <div class="faq-body">
+        <p>Keysi keeps working. Every install starts with 14 days of Keysi Pro; when that runs out (after a short grace period) the app drops back to the free tier rather than stopping. Holding your modifier still shows every shortcut, clicking a row still runs it, your custom sheets still load. What stops is the coaching: the reminders, Practice Mode, the progress figures and the weekly summary. Nothing you wrote or configured is deleted, and upgrading later picks up where you left off — Keysi keeps counting locally the whole time, which is how it can show you what you missed.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
       <summary>Can I use a modifier other than ⌘ to trigger the overlay?</summary>
       <div class="faq-body">
-        <p>Not for the hold gesture — ⌘ is the only hold modifier today. The hold delay is adjustable, and the global hotkey (default ⇧⌘K) is fully rebindable to any key combination you like.</p>
+        <p>Yes. Settings ▸ Triggers lets you pick ⌘, ⌥, ⌃ or ⇧ as the hold modifier, and the hold delay is adjustable. Keysi will warn you about the trade-offs of the non-⌘ options — ⌥ also reveals alternate menu items, ⌃ overlaps with secondary click and Full Keyboard Access, and ⇧ can trip Slow Keys or Sticky Keys if you have them on — but it won't stop you choosing one. The global hotkey (default ⇧⌘K) is separately rebindable to any combination you like.</p>
       </div>
     </details>
 
@@ -463,6 +619,7 @@
         <li><a href="terms.html">Terms &amp; refunds</a></li>
         <li><a href="changelog.html">Changelog</a></li>
         <li><a href="press.html">Press</a></li>
+        <li><a href="cheatsheet-alternative.html">CheatSheet alternative</a></li>
       </ul>
     </div>
   </div>

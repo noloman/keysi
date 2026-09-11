@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CheatSheet alternative for macOS — Keysi</title>
+<meta name="description" content="CheatSheet stopped working on macOS Sonoma and was discontinued. Keysi is a modern rebuild: hold ⌘ to see the frontmost app's shortcuts, and click any row to run it. $9.99 once.">
+<link rel="canonical" href="https://keysi.io/cheatsheet-alternative.html">
+<link rel="icon" href="assets/favicon/icon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Keysi">
+<meta property="og:title" content="CheatSheet alternative for macOS — Keysi">
+<meta property="og:description" content="CheatSheet stopped working on macOS Sonoma and was discontinued. Keysi is a modern rebuild: hold ⌘ to see the frontmost app's shortcuts, and click any row to run it.">
+<meta property="og:url" content="https://keysi.io/cheatsheet-alternative.html">
+<meta property="og:image" content="https://keysi.io/assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://keysi.io/assets/img/og.png">
+<link rel="stylesheet" href="assets/css/site.css">
+<script src="assets/js/analytics.js" defer></script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">⌘</span>Keysi</a>
+    <ul class="nav-links">
+      <li><a href="index.html#features">Features</a></li>
+      <li><a href="index.html#pricing">Pricing</a></li>
+      <li><a href="index.html#faq">FAQ</a></li>
+      <li><a href="changelog.html">Changelog</a></li>
+    </ul>
+    <a class="btn btn-primary btn-nav" href="index.html#pricing">Pricing</a>
+  </div>
+</nav>
+
+<section class="container-narrow doc">
+  <div class="eyebrow">CheatSheet alternative</div>
+  <h1>CheatSheet is gone. This is what replaced it.</h1>
+  <p class="lede">
+    CheatSheet, by Media Atelier, stopped working on macOS Sonoma and was
+    discontinued. Keysi is a new app built on the same public API — hold
+    ⌘ to see the frontmost app's keyboard shortcuts, and click any row to
+    run it. The part CheatSheet did is free forever; the $9.99 Pro
+    unlock is optional. macOS 26 or later.
+  </p>
+
+  <div class="btn-row">
+    <a class="btn btn-primary btn-lg" href="index.html#download">Download for macOS</a>
+    <a class="btn btn-secondary btn-lg" href="index.html#pricing">See what $9.99 adds</a>
+  </div>
+
+  <h2>What actually happened to CheatSheet</h2>
+  <p>
+    The common assumption is that Apple removed or locked down the
+    accessibility API CheatSheet relied on. That isn't what happened.
+    <code>AXUIElementCreateApplication</code> and the menu-bar AX
+    attributes are still public, still documented, and still return
+    correct data on current macOS — verified directly against TextEdit,
+    Safari, Finder, Xcode, VS Code, Slack, and Figma, the last three
+    being Electron apps.
+  </p>
+  <p>
+    CheatSheet stopped working because its maintainer moved on, not
+    because the technique stopped being possible. That distinction is the
+    whole reason Keysi exists, and it's also the honest answer to the
+    obvious follow-up question below.
+  </p>
+
+  <h2>What you get back, and what's new</h2>
+  <p>
+    If you used CheatSheet, the core is the same and you'll be at home
+    immediately: hold a modifier, the frontmost app's shortcuts appear
+    grouped by menu, release and they're gone. Three things are
+    different:
+  </p>
+  <ul>
+    <li>
+      <strong>Every row is clickable.</strong> Keysi reads the live menu
+      tree, so clicking a row fires that exact menu action. It isn't a
+      picture of the menu — it's the menu.
+    </li>
+    <li>
+      <strong>It warns you when a shortcut is a lie.</strong> Keysi reads
+      macOS's own system shortcuts and flags any app shortcut the system
+      will intercept first, so you're not left wondering why nothing
+      happened.
+    </li>
+    <li>
+      <strong>It teaches, not just displays.</strong> Coach mode notices
+      when you pick a command from the menu with the mouse that already
+      has a keyboard shortcut, and tells you once — then tracks whether
+      it stuck, so it stops mentioning the ones you've learned.
+      CheatSheet never did this, and neither does anything else in this
+      category.
+    </li>
+  </ul>
+
+  <h2>Differences worth knowing before you switch</h2>
+  <ul>
+    <li>
+      <strong>⌘ is the only hold modifier.</strong> CheatSheet let you
+      choose. Keysi currently hardcodes ⌘. If you trained yourself on a
+      different key, that's a real adjustment.
+    </li>
+    <li>
+      <strong>You can't type to search while holding ⌘.</strong> A global
+      event monitor can observe keystrokes but not consume them, so
+      anything typed would still reach the app underneath. Keysi will not
+      install the kind of input tap that could change that. There's a
+      separate global hotkey (⇧⌘K by default) that opens the same content
+      as a real panel, where search, arrow keys, and Escape all work.
+    </li>
+    <li>
+      <strong>Part of Keysi is paid.</strong> The cheat sheet — the
+      thing CheatSheet actually did — is free forever, with no account
+      and no card. The $9.99 buys Keysi Pro, which is coaching rather
+      than reference: it notices when you pick a menu command with the
+      mouse that has a shortcut, and drills the ones you keep missing.
+      If you only want CheatSheet back, you never have to pay.
+    </li>
+    <li>
+      <strong>macOS 26 or later.</strong> If you're on an older macOS,
+      Keysi won't run.
+    </li>
+  </ul>
+
+  <h2>"Won't this just die the same way?"</h2>
+  <p>
+    Fair question, and the reason to ask it is exactly right. The honest
+    answer has two parts. First, the underlying API is public and
+    unchanged — CheatSheet died of maintainer exit, not of API removal,
+    so the failure mode people remember isn't the one that was actually
+    at play. Second, no promise about the future is worth anything on a
+    marketing page. What's checkable is the
+    <a href="changelog.html">changelog</a>: that's the ongoing evidence,
+    and it's the thing to judge this on.
+  </p>
+
+  <h2>Not affiliated with Media Atelier</h2>
+  <p>
+    Keysi shares no code with CheatSheet. It's an independent app built
+    on the same public accessibility API, by someone who used CheatSheet
+    daily and wanted it back. The name, the icon, and the implementation
+    are entirely separate.
+  </p>
+
+  <h2>Try it</h2>
+  <p>
+    Free, no account, no card. If it isn't what you lost, uninstall it
+    and you're out nothing — the overlay doesn't expire, because it
+    isn't the paid part. Every install does start with 14 days of Keysi
+    Pro so you can see what the coaching is like; when that ends the app
+    drops back to the free tier rather than stopping. Refunds on Pro are
+    30 days, no questions asked.
+  </p>
+  <div class="btn-row">
+    <a class="btn btn-primary btn-lg" href="index.html#download">Download for macOS</a>
+    <a class="btn btn-secondary btn-lg" href="index.html">See how it works</a>
+  </div>
+
+  <h2>Related</h2>
+  <ul>
+    <li><a href="keycue-alternative.html">Looking at KeyCue instead?</a></li>
+    <li><a href="keyclu-vs-keysi.html">KeyClu is free — why pay for Keysi?</a></li>
+    <li><a href="index.html#faq">Full FAQ, including the Accessibility permission</a></li>
+  </ul>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-row">
+      <div>© 2026 Manuel Lorenzo. Not affiliated with Media Atelier.</div>
+      <ul class="footer-links">
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="terms.html">Terms &amp; refunds</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+        <li><a href="press.html">Press</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
