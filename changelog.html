@@ -41,6 +41,15 @@
   <p class="lede">This mirrors <code>CHANGELOG.md</code> in the repository. Kept up to date with every release.</p>
 
   <div class="release">
+    <h2>1.0.3 <span class="date">11 September 2026</span></h2>
+    <p>Two fixes to how Keysi Pro is gated outside the app itself. If you don't use the Raycast extension, there is nothing here for you.</p>
+    <ul>
+      <li>The Raycast extension's Pro gate now expires on its own. One of its commands — searching your cheat sheets — answers without ever asking Keysi, so it reads a small file Keysi writes to find out whether Pro is unlocked. Keysi only rewrites that file while it's running, and Keysi is a menu bar app people leave quit for weeks, so a trial that ran out while it was closed still read as unlocked. The file now carries the date Pro lapses, and the extension honours it. A purchased licence has no such date and is unaffected — it would be a poor thanks for buying to lock you out of Raycast for not launching the app</li>
+      <li><code>keysi://license</code> with no key now opens Settings ▸ License instead of doing nothing. That's the link the extension shows when it tells you a command needs Pro, and it was the one route out of being locked that didn't go anywhere</li>
+    </ul>
+  </div>
+
+  <div class="release">
     <h2>1.0.2 <span class="date">11 September 2026</span></h2>
     <p>Mostly reach: Keysi is now available from Spotlight, Raycast, and a <code>keysi://</code> URL, so it no longer depends on you remembering a hotkey. Pro also changed price — see the last entry.</p>
     <ul>

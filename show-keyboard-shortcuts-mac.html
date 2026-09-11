@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to see any Mac app's keyboard shortcuts — Keysi</title>
+<meta name="description" content="Three ways macOS already lets you see an app's keyboard shortcuts, where each one stops, and how Keysi shows the frontmost app's whole list at once — grouped by menu, click any row to run it. Free, with no time limit.">
+<link rel="canonical" href="https://keysi.io/show-keyboard-shortcuts-mac.html">
+<link rel="icon" href="assets/favicon/icon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Keysi">
+<meta property="og:title" content="How to see any Mac app's keyboard shortcuts — Keysi">
+<meta property="og:description" content="Three ways macOS already lets you see an app's keyboard shortcuts, where each one stops, and how Keysi shows the frontmost app's whole list at once.">
+<meta property="og:url" content="https://keysi.io/show-keyboard-shortcuts-mac.html">
+<meta property="og:image" content="https://keysi.io/assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://keysi.io/assets/img/og.png">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I see the keyboard shortcuts for the app I'm using on a Mac?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "macOS shows an app's shortcuts next to the items in its own menu bar, one menu at a time, and most apps let you search their menus from the Help menu. Neither shows you the whole list at once, and submenu items stay hidden until you open the submenu. Keysi is a menu-bar utility that reads the frontmost app's live menu structure and shows every shortcut at once, grouped by menu, when you hold a modifier key."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a built-in list of all keyboard shortcuts on a Mac?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is a built-in list of the system's own shortcuts, in System Settings under Keyboard, Keyboard Shortcuts. It does not cover the app you are currently using — each app's shortcuts live in that app's menus, and macOS has no single screen that collects them."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does a keyboard shortcut shown in an app's menu sometimes do nothing?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "macOS claims some key combinations for itself, and a system shortcut is handled before the keystroke reaches the app. The app's menu still prints the shortcut, so there is no way to tell from the menu alone. Keysi reads the system's own shortcut assignments and flags any app shortcut macOS will intercept first."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I see keyboard shortcuts for an app that has no menu bar entries for them?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some apps keep their real keyboard shortcuts out of the menu bar entirely — Figma, Slack and terminal programs like Vim and tmux are common examples. Keysi covers these with custom cheat sheets: Figma, Slack, Vim and tmux ship built in, and you can write your own for any app in Keysi's editor."
+      }
+    }
+  ]
+}
+</script>
+<link rel="stylesheet" href="assets/css/site.css">
+<script src="assets/js/analytics.js" defer></script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">⌘</span>Keysi</a>
+    <ul class="nav-links">
+      <li><a href="index.html#features">Features</a></li>
+      <li><a href="index.html#pricing">Pricing</a></li>
+      <li><a href="index.html#faq">FAQ</a></li>
+      <li><a href="changelog.html">Changelog</a></li>
+    </ul>
+    <a class="btn btn-primary btn-nav" href="index.html#pricing">Pricing</a>
+  </div>
+</nav>
+
+<section class="container-narrow doc">
+  <div class="eyebrow">Mac keyboard shortcuts</div>
+  <h1>How to see the keyboard shortcuts of the app you're using</h1>
+  <p class="lede">
+    macOS already gives you three ways to do this, and it's worth knowing
+    them before installing anything — two of them are a click away in the
+    app you're already in. Each one stops somewhere specific, though, and
+    this page is about where. Then
+    it's about Keysi, which is the tool this site sells: it shows the
+    frontmost app's whole shortcut list at once, and that part is free,
+    with no time limit.
+  </p>
+
+  <h2>What macOS gives you, and where each one stops</h2>
+  <ul>
+    <li>
+      <strong>The app's own menu bar.</strong> Every shortcut an app
+      exposes as a menu command is printed right next to it. This is the
+      real, authoritative list — but it's one menu at a time, and anything
+      nested in a submenu stays invisible until you open that submenu. If
+      you don't already know roughly where a command lives, you're
+      hunting.
+    </li>
+    <li>
+      <strong>Search the menus from the Help menu.</strong> In most Mac
+      apps, the Help menu's search field finds menu commands by name and
+      shows you where they are. Genuinely useful, and underused — but it
+      answers "where is the command I already have a name for", not "what
+      can I do here". You can't browse what you didn't know existed.
+    </li>
+    <li>
+      <strong>System Settings ▸ Keyboard ▸ Keyboard Shortcuts.</strong>
+      A complete, editable list — of <em>macOS's</em> shortcuts. Mission
+      Control, Spotlight, screenshots, input sources. It says nothing
+      about the app you're in, which is usually the thing you were asking
+      about.
+    </li>
+  </ul>
+  <p>
+    Between them, the gap is the same shape every time: there's no way to
+    see the whole of one app's shortcuts at once, at the moment you're
+    using it, without leaving it.
+  </p>
+
+  <h2>What Keysi does instead: hold ⌘</h2>
+  <p>
+    Hold <span class="kbd">⌘</span> for a moment and Keysi shows every
+    shortcut of whatever app is frontmost — grouped by the menu it came
+    from, with a breadcrumb for anything nested in a submenu, and each
+    combination rendered as a real keycap
+    (<span class="kbd-row"><span class="kbd">⌘</span><span class="kbd">⇧</span><span class="kbd">S</span></span>)
+    rather than the string "Cmd+Shift+S". Let go and it's gone. If you'd
+    rather use a different key, the hold modifier is configurable —
+    <span class="kbd">⌘</span>, <span class="kbd">⌥</span>,
+    <span class="kbd">⌃</span> or <span class="kbd">⇧</span>.
+  </p>
+  <p>
+    It isn't a stored list of shortcuts per app. Keysi reads the app's
+    live menu structure through the macOS Accessibility API at the moment
+    you ask, which is why it works in apps nobody wrote a cheat sheet
+    for, and why a command the app has currently disabled shows up dimmed
+    instead of misleading you.
+  </p>
+  <div class="feature-media">
+    <picture>
+      <source srcset="assets/img/shot-xcode-dark@2x.webp" type="image/webp" media="(prefers-color-scheme: dark)">
+      <source srcset="assets/img/shot-xcode-dark@2x.png" media="(prefers-color-scheme: dark)">
+      <source srcset="assets/img/shot-xcode@2x.webp" type="image/webp">
+      <img src="assets/img/shot-xcode@2x.png" alt="Keysi's overlay open over Xcode, showing keyboard shortcuts grouped by menu with keycap glyphs and a breadcrumb for a submenu item" loading="lazy" width="1400" height="1050">
+    </picture>
+  </div>
+  <p>
+    And because it's the live menu rather than a picture of one,
+    <strong>clicking a row runs that command</strong>. Which matters more
+    than it sounds for the case you're probably in: you looked the
+    shortcut up because you wanted the thing done. Click it now, read the
+    keycaps on the way past, and learn it on the third or fourth time
+    instead of the first.
+  </p>
+  <div class="btn-row">
+    <a class="btn btn-primary btn-lg" href="index.html#download">Download for macOS</a>
+    <a class="btn btn-secondary btn-lg" href="index.html#features">See what else it does</a>
+  </div>
+
+  <h2>When the shortcut is printed but nothing happens</h2>
+  <p>
+    This is the failure the menu bar can't warn you about. macOS claims
+    some key combinations for itself, and a system shortcut wins before
+    the keystroke ever reaches the app — but the app's menu prints its
+    shortcut either way, so the only feedback you get is that nothing
+    happened. Keysi reads macOS's own shortcut assignments and marks the
+    rows the system will intercept, so you find out while you're looking
+    at the list rather than by pressing keys at an app that can't hear
+    them.
+  </p>
+
+  <h2>Apps whose real shortcuts aren't in a menu at all</h2>
+  <p>
+    Reading the menu bar only works when the shortcuts are in the menu
+    bar. Plenty aren't — Figma and Slack keep most of theirs elsewhere,
+    and a terminal program like Vim or tmux has no Mac menu bar to put
+    them in. For those, Keysi uses custom cheat sheets: hand-written
+    lists that attach to an app by identity.
+    <a href="sheets.html">Figma, Slack, Vim and tmux ship built in</a>,
+    and there's an editor for writing your own for any app — no JSON by
+    hand unless you want to.
+  </p>
+  <p>
+    The Vim and tmux sheets work because Keysi looks <em>inside</em> your
+    terminal rather than just at it: for a known terminal emulator
+    (Terminal, iTerm2, Ghostty, Warp, Alacritty, WezTerm, kitty, Hyper,
+    Tabby) it detects which program is actually running in the
+    foreground, and matches sheets against that. With several tabs or
+    splits open it works out which one you're looking at from the
+    terminal's own window title, and falls back to showing sheets for
+    everything running across them when that's inconclusive — right most
+    of the time, not guaranteed.
+  </p>
+
+  <h2>Seeing the list is not the same as using it</h2>
+  <p>
+    Worth saying plainly, because it's the part a cheat sheet doesn't
+    fix: looking a shortcut up is a thing you can do a hundred times and
+    still reach for the menu on the hundred-and-first. A reference waits
+    to be asked.
+  </p>
+  <p>
+    That's what <strong>Keysi Pro</strong> ($19.99, one payment, three
+    Macs) adds. Shortcut Coach notices when you pick a menu command with
+    the mouse that already has a keyboard shortcut, and offers one quiet,
+    dismissible reminder; Practice Mode drills the ones you keep missing;
+    and Keysi times how long your own menu trips actually take, so the
+    figures it shows you are arithmetic on two things it counted rather
+    than an industry average. Pro also makes Keysi reachable from outside
+    itself — Raycast, Shortcuts, Spotlight, Siri, and the Services menu.
+  </p>
+  <p class="fine">
+    Everything on this page above that section is free, with no time
+    limit, no account and no card: the overlay, the searchable panel,
+    click-to-run, custom sheets and their editor, and the interception
+    warnings. Every install starts with 14 days of Pro on top, and when
+    that runs out Keysi drops back to the free tier rather than stopping.
+  </p>
+
+  <h2>One honest limitation</h2>
+  <p>
+    You can't type to search while you're holding the modifier. A global
+    event monitor can observe keystrokes but not consume them, so
+    anything you typed would still land in the app underneath, and Keysi
+    won't install the kind of input tap that could change that. Press the
+    global hotkey instead (<span class="kbd">⇧</span><span class="kbd">⌘</span><span class="kbd">K</span>
+    by default) and the same content opens as a real panel, where search,
+    arrow keys and Escape all work. It's a deliberate trade rather than
+    an oversight.
+  </p>
+
+  <h2>What it needs</h2>
+  <p>
+    macOS 26 or later, and Accessibility permission — that's the API that
+    reads another app's menu structure, and there's no way to do this
+    without it. Keysi is distributed directly rather than through the Mac
+    App Store, because the sandbox the App Store requires blocks that API
+    outright; it's signed with a Developer ID certificate and notarized
+    by Apple. The <a href="index.html#faq">FAQ</a> covers exactly what
+    the permission does and doesn't allow, and the
+    <a href="privacy.html">privacy page</a> lists every network call the
+    app makes.
+  </p>
+  <div class="btn-row">
+    <a class="btn btn-primary btn-lg" href="index.html#download">Download for macOS</a>
+    <a class="btn btn-secondary btn-lg" href="index.html#pricing">Pricing</a>
+  </div>
+
+  <h2>Related</h2>
+  <ul>
+    <li><a href="cheatsheet-alternative.html">Coming from CheatSheet?</a></li>
+    <li><a href="keycue-alternative.html">Looking at KeyCue instead?</a></li>
+    <li><a href="keyclu-vs-keysi.html">KeyClu is free — why pay for Keysi?</a></li>
+    <li><a href="sheets.html">Every cheat sheet Keysi ships</a></li>
+  </ul>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-row">
+      <div>© 2026 Manuel Lorenzo. Not affiliated with Media Atelier.</div>
+      <ul class="footer-links">
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="terms.html">Terms &amp; refunds</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+        <li><a href="press.html">Press</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
