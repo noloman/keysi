@@ -41,6 +41,16 @@
   <p class="lede">This mirrors <code>CHANGELOG.md</code> in the repository. Kept up to date with every release.</p>
 
   <div class="release">
+    <h2>1.0.4 <span class="date">11 September 2026</span></h2>
+    <p>A security review of the whole app. Nothing here was being exploited, and none of it needed anything from you — but two of them were ways something else on your Mac could have made Keysi act without your say-so, which is worth closing whether or not anyone had noticed.</p>
+    <ul>
+      <li>The "Run Menu Command" Shortcuts action now matches a command's name exactly instead of accepting any prefix of it. Asking for "Delete" could previously run "Delete All Messages…" — you name a command and get a longer, more destructive one you never asked for. A trailing "…" is still optional, so "Save As" still finds "Save As…", and a name that matches two commands now reports that rather than guessing between them</li>
+      <li>Keysi no longer takes orders from any program on your Mac that asks it to come to the front. There is a message a second copy of Keysi sends to the first so that launching it twice does something visible; it was not checked, so anything at all could send it and make Keysi steal your focus and open a window, over and over. Keysi now verifies that the request really came from another copy of itself</li>
+      <li>The <a href="privacy.html">privacy page</a> now lists two things Keysi was sending that it hadn't named: your macOS version alongside app launches, and three counters (shortcuts tracked, learned, and used) alongside the progress recap. Both were always anonymous and neither is new, but that page ends its list with "Nothing else", which is a promise rather than a summary</li>
+    </ul>
+  </div>
+
+  <div class="release">
     <h2>1.0.3 <span class="date">11 September 2026</span></h2>
     <p>Two fixes to how Keysi Pro is gated outside the app itself. If you don't use the Raycast extension, there is nothing here for you.</p>
     <ul>

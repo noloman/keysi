@@ -38,7 +38,7 @@
 <section class="container-narrow doc">
   <div class="eyebrow">Privacy</div>
   <h1>What Keysi does — and doesn't — send anywhere</h1>
-  <p class="updated">Last updated with the 1.0.2 release.</p>
+  <p class="updated">Last updated with the 1.0.4 release.</p>
 
   <h2>The short version</h2>
   <p>
@@ -118,7 +118,10 @@
     small, disclosed set of anonymous events to PostHog (EU-hosted):
   </p>
   <ul>
-    <li>App launches, and which Settings tab you open.</li>
+    <li>App launches — with Keysi's own version number and your macOS
+      version, so we can tell which releases are actually in use and which
+      macOS versions still need supporting — and which Settings tab you
+      open.</li>
     <li>The overlay showing, and which individual shortcuts you trigger —
       the shortcut's name and the app it ran in, so we can see which
       shortcuts and apps matter most to Keysi users.</li>
@@ -127,7 +130,15 @@
       you pressed on it, opening the checkout page and which screen you
       opened it from, a Keysi Pro feature being blocked, and whether a
       license activation succeeded or failed — the latter with a coarse
-      reason such as "invalid key" or "network".</li>
+      reason such as "invalid key" or "network".
+      <br>
+      The progress recap carries three numbers along with it: how many
+      shortcuts Keysi is tracking for you, how many of those you've learned,
+      and how many times you've used a shortcut instead of the mouse. They
+      are the same three figures the recap itself puts on screen, they are
+      counts rather than any record of <em>which</em> shortcuts, and they are
+      there so we can tell whether people who have got real value out of
+      Keysi upgrade at a different rate from people who haven't.</li>
     <li>Whether Keysi warned you that it was running from somewhere macOS
       won't let it keep its Accessibility permission — a disk image, or a
       temporary copy — and which of those two it was. No path is sent,
