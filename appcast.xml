@@ -3,6 +3,19 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.3</title>
+            <pubDate>Fri, 11 Sep 2026 20:37:49 +0200</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.3.zip" length="4502627" type="application/octet-stream" sparkle:edSignature="VytFQt/r75lPFM35Xr0AoFTKDNAMwsG2Iktq1mS08XvqzuCuoP+PrBsUrW1kJ/rtvVj8wnXF813FaprxIdGyCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi4-3.delta" sparkle:deltaFrom="3" length="249186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="CZr88eHBKuQB1SnbMTpwRkDWfqzusahkTfFTj8+6YBPtCkBKs5Ga+GAcC+fmyv0W9Aa2Z0dA+LrGqW90kKevAw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi4-2.delta" sparkle:deltaFrom="2" length="518698" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="zAAeQ9HTRtAv3x2Kjq67KaslOV1CDbeQ/QBvp0xDQ+ubaVUVS80SxWaH95POJ13VUntWFp2d4vd4cuOEyBlJCw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi4-1.delta" sparkle:deltaFrom="1" length="551998" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="RiEn/OK21rPmkGuB9bA7V2aekl592Y4O7xWGavB3BvDHdY9c9nYoLnwNbhNrr6+3ip/MmfhjMILNsM/l5elcCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.2</title>
             <pubDate>Fri, 11 Sep 2026 16:32:19 +0200</pubDate>
             <sparkle:version>3</sparkle:version>
@@ -20,14 +33,6 @@
             <sparkle:deltas>
                 <enclosure url="https://keysi.io/releases/Keysi2-1.delta" sparkle:deltaFrom="1" length="359318" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="k+x5InIVLUzECbr40ERqhvsw7KqerRbBhU3iFu3qUNZSI1MLk/eEqKHWnkd95Jfh3ooMOlXklwl5Df0oOFsQDw=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0.0</title>
-            <pubDate>Fri, 11 Sep 2026 01:00:19 +0200</pubDate>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://keysi.io/releases/Keysi-1.0.0.zip" length="4372902" type="application/octet-stream" sparkle:edSignature="qEot3FIcyQF18fKh3f0B45vwwXYesxFz7lZ9IxFCVXsUgAKs7KSQ+Ga0SIX/52Yk67GJcFZXi7YqPAt5A2E5Cw=="/>
         </item>
     </channel>
 </rss>
