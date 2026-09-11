@@ -383,8 +383,16 @@ section.tight { padding-block: 48px; }
   padding-block: 56px;
   border-top: 1px solid var(--border);
 }
+/* A feature with no screenshot beside it. Used where there is nothing
+   honest to show — the integrations live inside Raycast, Shortcuts and
+   Spotlight, and a picture of Keysi's own panel sitting next to that copy
+   would read as a product shot of something it isn't. One column keeps the
+   measure readable rather than letting the text run the full 1080px. */
+.feature-solo .feature-copy { max-width: 720px; }
+
 @media (min-width: 860px) {
   .feature { grid-template-columns: 1fr 1fr; gap: 56px; }
+  .feature-solo { grid-template-columns: 1fr; }
   .feature.reverse .feature-copy { order: 2; }
   .feature.reverse .feature-media { order: 1; }
 }
