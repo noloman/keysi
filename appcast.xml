@@ -1,17 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>Keysi Updates</title>
-        <link>https://keysi.io/appcast.xml</link>
-        <description>Update feed for Keysi.</description>
-        <language>en</language>
+        <title>Keysi</title>
         <item>
-        <title>1.0.0</title>
-        <pubDate>Fri, 11 Sep 2026 01:00:19 +0200</pubDate>
-        <sparkle:version>1</sparkle:version>
-        <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
-        <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-        <enclosure url="https://keysi.io/releases/Keysi-1.0.0.zip" length="4372902" type="application/octet-stream" sparkle:edSignature="qEot3FIcyQF18fKh3f0B45vwwXYesxFz7lZ9IxFCVXsUgAKs7KSQ+Ga0SIX/52Yk67GJcFZXi7YqPAt5A2E5Cw=="/>
+            <title>1.0.1</title>
+            <pubDate>Fri, 11 Sep 2026 12:05:23 +0200</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.1.zip" length="4387572" type="application/octet-stream" sparkle:edSignature="W7NnWyd7ePGJUlJQxYLf40GBfTUpiFoDBnTg6MuZRCrQgGuRMChtC7XXDjQlWNvlnhk/fEqRO9uFIh/GgtoFAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi2-1.delta" sparkle:deltaFrom="1" length="359318" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="k+x5InIVLUzECbr40ERqhvsw7KqerRbBhU3iFu3qUNZSI1MLk/eEqKHWnkd95Jfh3ooMOlXklwl5Df0oOFsQDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Fri, 11 Sep 2026 01:00:19 +0200</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.0.zip" length="4372902" type="application/octet-stream" sparkle:edSignature="qEot3FIcyQF18fKh3f0B45vwwXYesxFz7lZ9IxFCVXsUgAKs7KSQ+Ga0SIX/52Yk67GJcFZXi7YqPAt5A2E5Cw=="/>
         </item>
     </channel>
 </rss>
