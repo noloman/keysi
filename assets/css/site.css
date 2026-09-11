@@ -151,6 +151,32 @@ section.tight { padding: 48px 0; }
   margin-bottom: 12px;
 }
 
+/* Which tier a feature belongs to, stated on the feature itself rather than
+   only in the pricing table. Someone scrolling the features should never have
+   to guess whether the thing they just got interested in costs money. */
+.tier {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 999px;
+  margin-left: 10px;
+  vertical-align: 1px;
+  border: 1px solid transparent;
+}
+.tier-free {
+  color: var(--good);
+  border-color: color-mix(in srgb, var(--good) 35%, transparent);
+  background: color-mix(in srgb, var(--good) 10%, transparent);
+}
+.tier-pro {
+  color: var(--accent);
+  border-color: color-mix(in srgb, var(--accent) 45%, transparent);
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+}
+
 .lede {
   font-size: 1.15rem;
   color: var(--text-secondary);

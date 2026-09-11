@@ -41,7 +41,18 @@
   <p class="lede">This mirrors <code>CHANGELOG.md</code> in the repository. Kept up to date with every release.</p>
 
   <div class="release">
-    <h2>1.0.0 <span class="date">Initial release</span></h2>
+    <h2>1.0.1 <span class="date">11 September 2026</span></h2>
+    <p>If you're on 1.0.0, update. Two of these matter regardless of whether you ever buy anything.</p>
+    <ul>
+      <li>License activation now goes to the real Gumroad storefront. 1.0.0 shipped before the store opened, so it ran against a stand-in gateway that accepted any key — which is what makes a purchased key mean anything</li>
+      <li>Keysi now tells you when it's running from somewhere macOS won't let it keep its Accessibility permission — a mounted disk image, or the temporary copy macOS makes of an app opened straight from a download. In both cases the permission you grant silently stops applying, which looks like Keysi losing access it was just given. 1.0.0's disk image made this easy to walk into: it had no Applications folder to drag onto, so the obvious move was to run Keysi where it sat</li>
+      <li>The 1.0.1 disk image carries that Applications folder, and the copy of Keysi inside it now has its notarization ticket attached — 1.0.0's didn't, so first launch needed a working internet connection and could fail outright offline</li>
+      <li>A mistyped license key now says so, instead of reporting an unexpected server error</li>
+    </ul>
+  </div>
+
+  <div class="release">
+    <h2>1.0.0 <span class="date">11 September 2026</span></h2>
     <ul>
       <li>Hold ⌘ to reveal the frontmost app's keyboard shortcuts, grouped by menu, with breadcrumbs for submenu-nested items</li>
       <li>Real keycap rendering (⌘⇧S) instead of text notation</li>

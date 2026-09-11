@@ -34,7 +34,7 @@
   "url": "https://keysi.io/",
   "image": "https://keysi.io/assets/img/og.png",
   "description": "Hold a modifier and see every keyboard shortcut of the Mac app you are using \u2014 grouped by menu, rendered as real keycaps, and click any row to run it. Free forever; Keysi Pro adds coaching that teaches you the shortcuts you keep missing.",
-  "softwareVersion": "1.0.0",
+  "softwareVersion": "1.0.1",
   "downloadUrl": "https://github.com/noloman/keysi/releases/latest",
   "inLanguage": ["en", "es", "fr", "de", "it", "pt-BR", "ja", "ko", "zh-Hans"],
   "author": { "@type": "Person", "name": "Manuel Lorenzo" },
@@ -129,7 +129,7 @@
 <section id="features" class="container">
   <div class="feature">
     <div class="feature-copy">
-      <div class="eyebrow">Real keycaps, real grouping</div>
+      <div class="eyebrow">Real keycaps, real grouping<span class="tier tier-free">Free</span></div>
       <h2>Shortcuts, organized the way the app already is.</h2>
       <p>
         Every shortcut renders as a real macOS-style keycap — <span class="kbd-row"><span class="kbd">⌘</span><span class="kbd">⇧</span><span class="kbd">S</span></span> — not the string
@@ -151,7 +151,47 @@
 
   <div class="feature reverse">
     <div class="feature-copy">
-      <div class="eyebrow">Click to run it</div>
+      <div class="eyebrow">Coach mode<span class="tier tier-pro">Keysi Pro · $9.99</span></div>
+      <h2>It notices when you're still reaching for the mouse.</h2>
+      <p>
+        <strong>This is the part you pay for, and the only part.</strong>
+        A shortcut reference waits to be asked. Coach doesn't: it watches
+        for menu commands you pick by hand that already have a keyboard
+        shortcut, and offers one quiet, dismissible reminder — then tracks
+        whether it stuck, so it stops nagging about the ones you've
+        learned. A reference you open is useful. A reference that teaches
+        you to stop needing it is the reason to pay for one.
+      </p>
+      <p>
+        Throttled by a cooldown so it can never become noise. Mute any
+        single shortcut — or the whole feature — from Settings ▸ Coach.
+      </p>
+      <p>
+        The $9.99 also covers <strong>Practice Mode</strong>, which drills
+        the shortcuts you keep missing; <strong>progress measured against
+        your own menu-trip times</strong>, so "your menu trips typically
+        take 2.4s, and you've skipped 412 of them" is arithmetic on two
+        things Keysi counted rather than a number we made up; and a
+        <strong>weekly summary</strong> of what actually stuck.
+      </p>
+      <p style="color:var(--text-secondary); font-size:0.92rem;">
+        Every install includes 14 days of it. When those run out the app
+        drops to the free tier — it doesn't stop working, and nothing you
+        wrote or configured is deleted.
+      </p>
+    </div>
+    <div class="feature-media">
+      <picture>
+        <source srcset="assets/img/shot-coach@2x.webp" type="image/webp">
+        <img src="assets/img/shot-coach@2x.png" alt="A Keysi toast in the corner of a Finder window reading &ldquo;Edit &rsaquo; Select All &mdash; Next time, try&rdquo; followed by a Command-A keycap" loading="lazy" width="1400" height="1050">
+      </picture>
+    </div>
+  </div>
+
+
+  <div class="feature">
+    <div class="feature-copy">
+      <div class="eyebrow">Click to run it<span class="tier tier-free">Free</span></div>
       <h2>It isn't a picture of the menu. It's the menu.</h2>
       <p>
         Most tools in this space stop at showing you shortcuts. Keysi runs
@@ -168,36 +208,9 @@
     </div>
   </div>
 
-  <div class="feature">
-    <div class="feature-copy">
-      <div class="eyebrow">Coach mode</div>
-      <h2>It notices when you're still reaching for the mouse.</h2>
-      <p>
-        A shortcut reference waits to be asked. Keysi doesn't have to be:
-        it watches for menu commands you pick by hand that already have a
-        keyboard shortcut, and offers one quiet, dismissible reminder — then tracks
-        whether it stuck, so it stops nagging about the ones you've
-        learned. A reference you open is useful. A reference that teaches
-        you to stop needing it is the reason to pay for one.
-      </p>
-      <p>
-        On by default, throttled by a cooldown so it can never become
-        noise. Mute any single shortcut — or the whole feature — from
-        Settings ▸ Coach, and see what you're still learning in a list you
-        can actually work through.
-      </p>
-    </div>
-    <div class="feature-media">
-      <picture>
-        <source srcset="assets/img/shot-coach@2x.webp" type="image/webp">
-        <img src="assets/img/shot-coach@2x.png" alt="A Keysi toast in the corner of a Finder window reading &ldquo;Edit &rsaquo; Select All &mdash; Next time, try&rdquo; followed by a Command-A keycap" loading="lazy" width="1400" height="1050">
-      </picture>
-    </div>
-  </div>
-
   <div class="feature reverse">
     <div class="feature-copy">
-      <div class="eyebrow">It tells you when a shortcut is a lie</div>
+      <div class="eyebrow">It tells you when a shortcut is a lie<span class="tier tier-free">Free</span></div>
       <h2>Know before you press it.</h2>
       <p>
         Keysi reads macOS's own system shortcuts and flags any app
@@ -216,7 +229,7 @@
 
   <div class="feature">
     <div class="feature-copy">
-      <div class="eyebrow">Shortcuts that aren't in any menu</div>
+      <div class="eyebrow">Shortcuts that aren't in any menu<span class="tier tier-free">Free</span></div>
       <h2>Shortcuts that never appear in any menu.</h2>
       <p>
         Custom cheat sheets cover apps whose real shortcuts don't live
@@ -492,6 +505,11 @@
     <div class="btn-row">
       <a id="download" class="btn btn-primary btn-lg" href="https://github.com/noloman/keysi/releases/latest">Download Keysi</a>
     </div>
+    <p style="color:var(--text-secondary); font-size:0.9rem; margin:0.75rem 0 0;">
+      macOS 26 or later. Open the disk image and drag Keysi onto the Applications
+      folder before launching it — macOS ties the Accessibility permission to where
+      the app lives, so granting it from the disk image doesn't stick.
+    </p>
   </div>
   <div class="pricing-card">
     <div class="price-amount">$9.99 <span>once</span></div>
