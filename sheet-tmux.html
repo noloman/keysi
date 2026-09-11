@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>tmux keyboard shortcuts for Mac — Keysi</title>
-<meta name="description" content="9 tmux keyboard shortcuts for macOS, and how to see them in tmux itself by holding ⌘ — a free cheat sheet that ships with Keysi.">
+<meta name="description" content="37 tmux keyboard shortcuts for macOS, and how to see them in tmux itself by holding ⌘ — a free cheat sheet that ships with Keysi.">
 <link rel="canonical" href="https://keysi.io/sheet-tmux.html">
 <link rel="icon" href="assets/favicon/icon.svg" type="image/svg+xml">
 <link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
@@ -12,7 +12,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Keysi">
 <meta property="og:title" content="tmux keyboard shortcuts for Mac — Keysi">
-<meta property="og:description" content="9 tmux keyboard shortcuts for macOS, and how to see them in tmux itself by holding ⌘ — a free cheat sheet that ships with Keysi.">
+<meta property="og:description" content="37 tmux keyboard shortcuts for macOS, and how to see them in tmux itself by holding ⌘ — a free cheat sheet that ships with Keysi.">
 <meta property="og:url" content="https://keysi.io/sheet-tmux.html">
 <meta property="og:image" content="https://keysi.io/assets/img/og.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -41,7 +41,7 @@
   <div class="eyebrow"><a href="sheets.html">Cheat sheets</a></div>
   <h1>tmux keyboard shortcuts on macOS</h1>
   <p>tmux runs inside a terminal, so there is no macOS menu bar for Keysi to read — this sheet is where its shortcuts come from. Hold ⌘ while tmux is in the foreground and they appear.</p>
-  <p class="updated">9 shortcuts · adds to what Keysi reads from the app's own menus · free, and not part of Keysi Pro.</p>
+  <p class="updated">37 shortcuts · adds to what Keysi reads from the app's own menus · free, and not part of Keysi Pro.</p>
   <h2>Panes</h2>
   <div class="table-scroll">
     <table class="compare">
@@ -50,7 +50,16 @@
         <tr><td>Split horizontally</td><td><code>Ctrl-b %</code></td></tr>
         <tr><td>Split vertically</td><td><code>Ctrl-b &quot;</code></td></tr>
         <tr><td>Switch pane</td><td><code>Ctrl-b &lt;arrow&gt;</code></td></tr>
+        <tr><td>Next pane</td><td><code>Ctrl-b o</code></td></tr>
+        <tr><td>Last active pane</td><td><code>Ctrl-b ;</code></td></tr>
         <tr><td>Close pane</td><td><code>Ctrl-b x</code></td></tr>
+        <tr><td>Zoom pane</td><td><code>Ctrl-b z</code></td></tr>
+        <tr><td>Cycle pane layouts</td><td><code>Ctrl-b space</code></td></tr>
+        <tr><td>Move pane left</td><td><code>Ctrl-b {</code></td></tr>
+        <tr><td>Move pane right</td><td><code>Ctrl-b }</code></td></tr>
+        <tr><td>Resize pane</td><td><code>Ctrl-b Ctrl-&lt;arrow&gt;</code></td></tr>
+        <tr><td>Break pane into window</td><td><code>Ctrl-b !</code></td></tr>
+        <tr><td>Show pane numbers</td><td><code>Ctrl-b q</code></td></tr>
       </tbody>
     </table>
   </div>
@@ -61,7 +70,12 @@
       <tbody>
         <tr><td>New window</td><td><code>Ctrl-b c</code></td></tr>
         <tr><td>Next / previous window</td><td><code>Ctrl-b n / p</code></td></tr>
+        <tr><td>Go to window n</td><td><code>Ctrl-b {n}</code></td></tr>
         <tr><td>Rename window</td><td><code>Ctrl-b ,</code></td></tr>
+        <tr><td>List windows</td><td><code>Ctrl-b w</code></td></tr>
+        <tr><td>Kill window</td><td><code>Ctrl-b &amp;</code></td></tr>
+        <tr><td>Last active window</td><td><code>Ctrl-b l</code></td></tr>
+        <tr><td>Find window</td><td><code>Ctrl-b f</code></td></tr>
       </tbody>
     </table>
   </div>
@@ -72,6 +86,36 @@
       <tbody>
         <tr><td>Detach</td><td><code>Ctrl-b d</code></td></tr>
         <tr><td>List sessions</td><td><code>Ctrl-b s</code></td></tr>
+        <tr><td>Rename session</td><td><code>Ctrl-b $</code></td></tr>
+        <tr><td>Previous session</td><td><code>Ctrl-b (</code></td></tr>
+        <tr><td>Next session</td><td><code>Ctrl-b )</code></td></tr>
+        <tr><td>New named session</td><td><code>tmux new -s name</code></td></tr>
+        <tr><td>Attach to session</td><td><code>tmux a -t name</code></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <h2>Copy mode</h2>
+  <div class="table-scroll">
+    <table class="compare">
+      <thead><tr><th>Action</th><th>Keys</th></tr></thead>
+      <tbody>
+        <tr><td>Enter copy mode</td><td><code>Ctrl-b [</code></td></tr>
+        <tr><td>Start selection</td><td><code>space</code></td></tr>
+        <tr><td>Copy selection</td><td><code>Enter</code></td></tr>
+        <tr><td>Paste buffer</td><td><code>Ctrl-b ]</code></td></tr>
+        <tr><td>Exit copy mode</td><td><code>q</code></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <h2>Misc</h2>
+  <div class="table-scroll">
+    <table class="compare">
+      <thead><tr><th>Action</th><th>Keys</th></tr></thead>
+      <tbody>
+        <tr><td>List all key bindings</td><td><code>Ctrl-b ?</code></td></tr>
+        <tr><td>Command prompt</td><td><code>Ctrl-b :</code></td></tr>
+        <tr><td>Show clock</td><td><code>Ctrl-b t</code></td></tr>
+        <tr><td>Reload config</td><td><code>tmux source ~/.tmux.conf</code></td></tr>
       </tbody>
     </table>
   </div>

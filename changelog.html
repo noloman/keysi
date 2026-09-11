@@ -41,6 +41,20 @@
   <p class="lede">This mirrors <code>CHANGELOG.md</code> in the repository. Kept up to date with every release.</p>
 
   <div class="release">
+    <h2>1.0.2 <span class="date">11 September 2026</span></h2>
+    <p>Mostly reach: Keysi is now available from Spotlight, Raycast, and a <code>keysi://</code> URL, so it no longer depends on you remembering a hotkey. Pro also changed price — see the last entry.</p>
+    <ul>
+      <li>Keysi now asks about Pro at the right moment for people whose Coach data arrived slowly. It never shows an empty progress recap — a paywall with nothing in it is worse than none — but it only ever checked whether there was enough to show at launch and at the moment your trial ended. Keysi runs for weeks at a time, so anyone whose data was still thin on the day their trial ended was simply never asked again. It now checks when the data changes, still at most once</li>
+      <li>The overlay's footer no longer offers free-tier users a "Practice" button that can't practice. Practice Mode is part of Keysi Pro, so on the free tier that button showed the upgrade screen instead — it now says so rather than promising a drill it won't give you</li>
+      <li>Coach now catches a menu item chosen by holding the right mouse button and releasing over it, not only a left click. This matters more than it sounds: right-click menus turn out to have been within Coach's reach all along — measured in TextEdit, Chrome and Finder — and this was the one way of choosing an item in them that Keysi could not see</li>
+      <li>A new page on keysi.io lists every cheat sheet Keysi ships — all the shortcuts in each, and the JSON behind it to fork</li>
+      <li>If you have usage analytics turned on, Keysi now reports apps where macOS refuses to tell it a menu opened. Shortcut Coach can't see mouse-driven menu picks in those apps at all (Safari is the known one), and we had no idea how many others there are. It sends the app's identifier and the error, once per app per session, and nothing else — the <a href="privacy.html">privacy page</a> has the full wording. Analytics remains off unless you turn it on</li>
+      <li>Buy buttons now say which screen they came from, so it's possible to tell which ones are worth keeping. No new data is collected from you: the label rides along on the link to the store, the way any campaign link works</li>
+      <li><strong>Keysi Pro now costs $19.99 instead of $9.99.</strong> Still one payment, still three Macs, still every future update at no extra cost, and the cheat sheet is still free with no time limit — the price change touches only the coaching. For comparison, the tool this most resembles charges $19.99 <em>a year</em> for three devices, and charges it for the part of Keysi that costs nothing. If you already bought Keysi Pro, nothing changes for you and nothing ever will — it was one payment and it stays bought, including every future update</li>
+    </ul>
+  </div>
+
+  <div class="release">
     <h2>1.0.1 <span class="date">11 September 2026</span></h2>
     <p>If you're on 1.0.0, update. Two of these matter regardless of whether you ever buy anything.</p>
     <ul>

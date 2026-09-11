@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Vim keyboard shortcuts for Mac — Keysi</title>
-<meta name="description" content="14 Vim keyboard shortcuts for macOS, and how to see them in Vim itself by holding ⌘ — a free cheat sheet that ships with Keysi.">
+<meta name="description" content="73 Vim keyboard shortcuts for macOS, and how to see them in Vim itself by holding ⌘ — a free cheat sheet that ships with Keysi.">
 <link rel="canonical" href="https://keysi.io/sheet-vim.html">
 <link rel="icon" href="assets/favicon/icon.svg" type="image/svg+xml">
 <link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
@@ -12,7 +12,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Keysi">
 <meta property="og:title" content="Vim keyboard shortcuts for Mac — Keysi">
-<meta property="og:description" content="14 Vim keyboard shortcuts for macOS, and how to see them in Vim itself by holding ⌘ — a free cheat sheet that ships with Keysi.">
+<meta property="og:description" content="73 Vim keyboard shortcuts for macOS, and how to see them in Vim itself by holding ⌘ — a free cheat sheet that ships with Keysi.">
 <meta property="og:url" content="https://keysi.io/sheet-vim.html">
 <meta property="og:image" content="https://keysi.io/assets/img/og.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -41,13 +41,22 @@
   <div class="eyebrow"><a href="sheets.html">Cheat sheets</a></div>
   <h1>Vim keyboard shortcuts on macOS</h1>
   <p>Vim runs inside a terminal, so there is no macOS menu bar for Keysi to read — this sheet is where its shortcuts come from. Hold ⌘ while Vim is in the foreground and they appear.</p>
-  <p class="updated">14 shortcuts · adds to what Keysi reads from the app's own menus · free, and not part of Keysi Pro.</p>
+  <p class="updated">73 shortcuts · adds to what Keysi reads from the app's own menus · free, and not part of Keysi Pro.</p>
   <h2>Modes</h2>
   <div class="table-scroll">
     <table class="compare">
       <thead><tr><th>Action</th><th>Keys</th></tr></thead>
       <tbody>
-        <tr><td>Insert mode</td><td><code>i</code></td></tr>
+        <tr><td>Insert before cursor</td><td><code>i</code></td></tr>
+        <tr><td>Append after cursor</td><td><code>a</code></td></tr>
+        <tr><td>Insert at start of line</td><td><code>I</code></td></tr>
+        <tr><td>Append at end of line</td><td><code>A</code></td></tr>
+        <tr><td>Open line below</td><td><code>o</code></td></tr>
+        <tr><td>Open line above</td><td><code>O</code></td></tr>
+        <tr><td>Visual mode</td><td><code>v</code></td></tr>
+        <tr><td>Visual line mode</td><td><code>V</code></td></tr>
+        <tr><td>Visual block mode</td><td><code>Ctrl-v</code></td></tr>
+        <tr><td>Replace mode</td><td><code>R</code></td></tr>
         <tr><td>Command mode</td><td><code>:</code></td></tr>
         <tr><td>Normal mode</td><td><code>Esc</code></td></tr>
       </tbody>
@@ -59,9 +68,20 @@
       <thead><tr><th>Action</th><th>Keys</th></tr></thead>
       <tbody>
         <tr><td>Left / down / up / right</td><td><code>h j k l</code></td></tr>
+        <tr><td>Next word</td><td><code>w</code></td></tr>
+        <tr><td>Previous word</td><td><code>b</code></td></tr>
+        <tr><td>End of word</td><td><code>e</code></td></tr>
         <tr><td>Start / end of line</td><td><code>0 / $</code></td></tr>
+        <tr><td>First non-blank character</td><td><code>^</code></td></tr>
         <tr><td>Go to first line</td><td><code>gg</code></td></tr>
         <tr><td>Go to last line</td><td><code>G</code></td></tr>
+        <tr><td>Go to line n</td><td><code>:{n}</code></td></tr>
+        <tr><td>Half page down / up</td><td><code>Ctrl-d / Ctrl-u</code></td></tr>
+        <tr><td>Page down / up</td><td><code>Ctrl-f / Ctrl-b</code></td></tr>
+        <tr><td>Previous / next paragraph</td><td><code>{ / }</code></td></tr>
+        <tr><td>Matching bracket</td><td><code>%</code></td></tr>
+        <tr><td>Top / middle / bottom of screen</td><td><code>H M L</code></td></tr>
+        <tr><td>Jump to next character</td><td><code>f{char}</code></td></tr>
       </tbody>
     </table>
   </div>
@@ -70,10 +90,78 @@
     <table class="compare">
       <thead><tr><th>Action</th><th>Keys</th></tr></thead>
       <tbody>
+        <tr><td>Delete character</td><td><code>x</code></td></tr>
         <tr><td>Delete line</td><td><code>dd</code></td></tr>
+        <tr><td>Delete word</td><td><code>dw</code></td></tr>
+        <tr><td>Delete to end of line</td><td><code>D</code></td></tr>
+        <tr><td>Change line</td><td><code>cc</code></td></tr>
+        <tr><td>Change word</td><td><code>cw</code></td></tr>
         <tr><td>Yank (copy) line</td><td><code>yy</code></td></tr>
-        <tr><td>Paste</td><td><code>p</code></td></tr>
+        <tr><td>Yank word</td><td><code>yw</code></td></tr>
+        <tr><td>Paste after / before</td><td><code>p / P</code></td></tr>
         <tr><td>Undo</td><td><code>u</code></td></tr>
+        <tr><td>Redo</td><td><code>Ctrl-r</code></td></tr>
+        <tr><td>Repeat last change</td><td><code>.</code></td></tr>
+        <tr><td>Indent / outdent line</td><td><code>&gt;&gt; / &lt;&lt;</code></td></tr>
+        <tr><td>Join lines</td><td><code>J</code></td></tr>
+        <tr><td>Toggle case</td><td><code>~</code></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <h2>Search &amp; replace</h2>
+  <div class="table-scroll">
+    <table class="compare">
+      <thead><tr><th>Action</th><th>Keys</th></tr></thead>
+      <tbody>
+        <tr><td>Search forward</td><td><code>/{pattern}</code></td></tr>
+        <tr><td>Search backward</td><td><code>?{pattern}</code></td></tr>
+        <tr><td>Next / previous match</td><td><code>n / N</code></td></tr>
+        <tr><td>Search word under cursor</td><td><code>*</code></td></tr>
+        <tr><td>Replace in whole file</td><td><code>:%s/old/new/g</code></td></tr>
+        <tr><td>Replace with confirmation</td><td><code>:%s/old/new/gc</code></td></tr>
+        <tr><td>Clear search highlight</td><td><code>:noh</code></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <h2>Windows &amp; splits</h2>
+  <div class="table-scroll">
+    <table class="compare">
+      <thead><tr><th>Action</th><th>Keys</th></tr></thead>
+      <tbody>
+        <tr><td>Split horizontally</td><td><code>:sp</code></td></tr>
+        <tr><td>Split vertically</td><td><code>:vs</code></td></tr>
+        <tr><td>Split window</td><td><code>Ctrl-w s</code></td></tr>
+        <tr><td>Split window vertically</td><td><code>Ctrl-w v</code></td></tr>
+        <tr><td>Move between splits</td><td><code>Ctrl-w h j k l</code></td></tr>
+        <tr><td>Close split</td><td><code>Ctrl-w q</code></td></tr>
+        <tr><td>Close all other splits</td><td><code>Ctrl-w o</code></td></tr>
+        <tr><td>Equalize split sizes</td><td><code>Ctrl-w = </code></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <h2>Buffers &amp; tabs</h2>
+  <div class="table-scroll">
+    <table class="compare">
+      <thead><tr><th>Action</th><th>Keys</th></tr></thead>
+      <tbody>
+        <tr><td>List buffers</td><td><code>:ls</code></td></tr>
+        <tr><td>Next / previous buffer</td><td><code>:bn / :bp</code></td></tr>
+        <tr><td>Close buffer</td><td><code>:bd</code></td></tr>
+        <tr><td>New tab</td><td><code>:tabnew</code></td></tr>
+        <tr><td>Next / previous tab</td><td><code>gt / gT</code></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <h2>Marks &amp; macros</h2>
+  <div class="table-scroll">
+    <table class="compare">
+      <thead><tr><th>Action</th><th>Keys</th></tr></thead>
+      <tbody>
+        <tr><td>Set mark</td><td><code>m{a}</code></td></tr>
+        <tr><td>Jump to mark</td><td><code>&#x27;{a}</code></td></tr>
+        <tr><td>Record macro</td><td><code>q{a}</code></td></tr>
+        <tr><td>Play macro</td><td><code>@{a}</code></td></tr>
+        <tr><td>Repeat last macro</td><td><code>@@</code></td></tr>
       </tbody>
     </table>
   </div>
@@ -85,6 +173,9 @@
         <tr><td>Write</td><td><code>:w</code></td></tr>
         <tr><td>Quit</td><td><code>:q</code></td></tr>
         <tr><td>Write and quit</td><td><code>:wq</code></td></tr>
+        <tr><td>Quit without saving</td><td><code>:q!</code></td></tr>
+        <tr><td>Write all</td><td><code>:wa</code></td></tr>
+        <tr><td>Write if changed and quit</td><td><code>:x</code></td></tr>
       </tbody>
     </table>
   </div>

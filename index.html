@@ -34,7 +34,7 @@
   "url": "https://keysi.io/",
   "image": "https://keysi.io/assets/img/og.png",
   "description": "Hold a modifier and see every keyboard shortcut of the Mac app you are using \u2014 grouped by menu, rendered as real keycaps, and click any row to run it. Free with no time limit; Keysi Pro adds coaching that teaches you the shortcuts you keep missing.",
-  "softwareVersion": "1.0.1",
+  "softwareVersion": "1.0.2",
   "downloadUrl": "https://github.com/noloman/keysi/releases/latest",
   "inLanguage": ["en", "es", "fr", "de", "it", "pt-BR", "ja", "ko", "zh-Hans"],
   "author": { "@type": "Person", "name": "Manuel Lorenzo" },
@@ -165,6 +165,11 @@
       <p>
         Throttled by a cooldown so it can never become noise. Mute any
         single shortcut — or the whole feature — from Settings ▸ Coach.
+        It also <strong>stays quiet during Focus and Do Not Disturb</strong>,
+        which took real work: the reminder is a panel Keysi draws itself, not
+        a notification, so macOS would happily have let it talk over you. A
+        paid feature that interrupts a Focus session reads as a defect however
+        useful it is the rest of the time.
       </p>
       <p>
         The $19.99 also covers <strong>Practice Mode</strong>, which drills
@@ -254,24 +259,36 @@
     </div>
   </div>
 
-  <div class="feature feature-solo">
+  <div class="feature reverse">
     <div class="feature-copy">
       <div class="eyebrow">Reachable from outside Keysi<span class="tier tier-pro">Keysi Pro · $19.99</span></div>
       <h2>Where you already are.</h2>
       <p>
-        A <strong>Raycast extension</strong> that searches every cheat sheet —
-        including the ones for Vim and tmux — and opens Keysi's panel for the
-        app you were in a moment ago, not for Raycast. <strong>App Intents</strong>,
-        so Keysi works inside Shortcuts, Spotlight actions and Siri; a workflow
-        can look a shortcut up, or run a menu command in the frontmost app.
+        A <strong>Raycast extension</strong> that searches every cheat sheet at
+        once — type <em>split</em> and get tmux's <span class="kbd">⌃b</span>
+        <span class="kbd">%</span> next to Vim's <code>:sp</code>, because
+        neither of those shortcuts appears in any menu bar for anything to read.
+        It also opens Keysi's panel for the
+        app you were in a moment ago, not for Raycast.
+      </p>
+      <p>
+        <strong>Five App Intents</strong>, so Keysi is a building block in
+        Shortcuts, Spotlight and Siri rather than a thing you have to switch to:
+        <em>Show Shortcuts</em>, <em>Find Shortcuts</em>, <em>Run Menu
+        Command</em>, <em>Start Practice</em> and <em>Show Progress</em>. A
+        workflow can look a shortcut up or run a menu command in whatever app is
+        frontmost — and each one carries spoken phrases, so "Keysi cheat sheet"
+        or "Search shortcuts in Keysi" works out loud.
       </p>
       <p>
         A <strong>Services-menu entry</strong> that answers "what's the shortcut
         for this?" from a selection in any app — select the command's name, and
-        Keysi opens with it already searched. And your custom sheets are indexed
+        Keysi opens with it already searched. Your custom sheets are indexed
         into <strong>Spotlight</strong>, so ⌘Space finds "split pane" and shows
         you <span class="kbd">⌃b</span> <span class="kbd">%</span> without
-        opening anything at all.
+        opening anything at all. And a <code>keysi://</code> URL scheme, so
+        anything that can open a link — a Stream Deck, a Keyboard Maestro macro,
+        a shell script — can drive Keysi too.
       </p>
       <p class="fine">
         Pro, and worth being exact about why: nothing that was free became paid.
@@ -280,6 +297,19 @@
         reaching Keysi from somewhere else — a launcher, a workflow, an
         automation. A new capability, not a fence around an old one.
       </p>
+      <p class="fine">
+        The Raycast extension is <strong>waiting on Raycast Store review</strong>
+        (submitted 11 September 2026) — everything else on this list works the
+        moment you install Keysi. Said plainly because it is part of what Pro
+        costs, and a feature you cannot install yet should not be described as
+        though you can.
+      </p>
+    </div>
+    <div class="feature-media">
+      <picture>
+        <source srcset="assets/img/shot-raycast@2x.webp" type="image/webp">
+        <img src="assets/img/shot-raycast@2x.png" alt="Keysi's Raycast extension showing a search for &quot;split&quot; returning tmux and Vim shortcuts together, each with its key notation" loading="lazy" width="1400" height="1050">
+      </picture>
     </div>
   </div>
 
@@ -533,6 +563,7 @@
       <li><span class="tick">✓</span>Hold ⌘ — or ⌥, ⌃, ⇧ — to see every shortcut</li>
       <li><span class="tick">✓</span>Click any row to run it</li>
       <li><span class="tick">✓</span>Searchable panel, favorites, hiding</li>
+      <li><span class="tick">✓</span>Pin the panel open and it stays where you put it, per app</li>
       <li><span class="tick">✓</span>Conflict warnings when macOS will intercept</li>
       <li><span class="tick">✓</span>Custom cheat sheets, with a built-in editor</li>
       <li><span class="tick">✓</span>No account, no card, no nag screen</li>
@@ -559,7 +590,7 @@
       <li><span class="tick">✓</span>Practice Mode, drilling the ones you keep missing</li>
       <li><span class="tick">✓</span>Your progress, measured against your own menu-trip times</li>
       <li><span class="tick">✓</span>A weekly summary of what stuck</li>
-      <li><span class="tick">✓</span>Raycast, Shortcuts, Spotlight and the Services menu — Keysi, reachable from outside Keysi</li>
+      <li><span class="tick">✓</span>Raycast, Shortcuts, Siri, Spotlight, the Services menu and a <code>keysi://</code> URL — Keysi, reachable from outside Keysi</li>
       <li><span class="tick">✓</span>14 days free to try — and when it ends, the app keeps working</li>
       <li><span class="tick">✓</span>Works on up to 3 Macs, movable anytime</li>
       <li><span class="tick">✓</span>Free updates, forever · 30-day refund, no questions asked</li>
