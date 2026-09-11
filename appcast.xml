@@ -3,6 +3,14 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.2</title>
+            <pubDate>Fri, 11 Sep 2026 16:32:19 +0200</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.2.zip" length="4499422" type="application/octet-stream" sparkle:edSignature="eHi6I9GOSj0F6H5kaY/cu/vPR4/UitbK0xv4SJmb83M2kY4ntrm5LOoaEXcYtj8IFFSh/1WYpRl0nprXOYmFBA=="/>
+        </item>
+        <item>
             <title>1.0.1</title>
             <pubDate>Fri, 11 Sep 2026 12:05:23 +0200</pubDate>
             <sparkle:version>2</sparkle:version>
