@@ -197,6 +197,23 @@ section.tight { padding-block: 48px; }
   max-width: 620px;
 }
 
+/* A footnote qualifying the claim just above it — the dated "KeyCue's own
+   site doesn't say this" caveat, the "everything above this is free" scope
+   note, the Coach blind spots. It has to read as smaller print or it reads
+   as more of the pitch.
+   Base rule as of 2026-09-11: this used to exist only as `.story .fine` and
+   `footer .fine`, so four of the five `.fine` paragraphs then on the site
+   were rendering at full body weight — including two on the homepage, where
+   the caveat sits inside `.feature-copy` rather than `.story`, and the only
+   correctly styled one was the single instance inside `.story`. The whole point
+   of those paragraphs is to visibly de-escalate a claim, so losing the
+   styling quietly inverted their job. The two context rules below now only
+   add what actually differs (spacing, and the footer's smaller size). */
+.fine {
+  font-size: 0.9rem;
+  color: var(--text-tertiary);
+}
+
 /* ---- Nav ---- */
 .site-nav {
   position: sticky;
@@ -372,7 +389,7 @@ section.tight { padding-block: 48px; }
   margin: 0 0 20px;
   color: var(--text);
 }
-.story .fine { font-size: 0.9rem; color: var(--text-tertiary); margin-top: 24px; }
+.story .fine { margin-top: 24px; }
 
 /* ---- Feature sections ---- */
 .feature {
@@ -563,6 +580,9 @@ footer.site-footer .fine { margin-top: 18px; font-size: 0.82rem; }
 .doc ul, .doc ol { color: var(--text); padding-left: 1.3em; }
 .doc li { margin-bottom: 0.4em; }
 .doc .updated { color: var(--text-tertiary); font-size: 0.9rem; margin-top: -8px; }
+/* A screenshot in a doc page's single-column flow, rather than beside copy
+   in a `.feature` grid — it supplies the border and shadow, not the spacing. */
+.doc .feature-media { margin-block: 28px; }
 
 /* ---- Changelog ---- */
 .release { padding-block: 28px; border-bottom: 1px solid var(--border); }
