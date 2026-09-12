@@ -7,6 +7,33 @@
             <pubDate>Fri, 11 Sep 2026 21:31:23 +0200</pubDate>
             <sparkle:version>5</sparkle:version>
             <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>A security review of the whole app. Nothing here was being exploited, and none of it needed anything from you — but two of them were ways something else on your Mac could have made Keysi act without your say-so, which is worth closing whether or not anyone had noticed.</p>
+<ul>
+  <li>The "Run Menu Command" Shortcuts action now matches a command's name exactly instead of accepting any prefix of it. Asking for "Delete" could previously run "Delete All Messages…" — you name a command and get a longer, more destructive one you never asked for. A trailing "…" is still optional, so "Save As" still finds "Save As…", and a name that matches two commands now reports that rather than guessing between them.</li>
+  <li>Keysi no longer takes orders from any program on your Mac that asks it to come to the front. There is a message a second copy of Keysi sends to the first so that launching it twice does something visible; it was not checked, so anything at all could send it and make Keysi steal your focus and open a window, over and over. Keysi now verifies that the request really came from another copy of itself.</li>
+  <li>The privacy page now lists two things Keysi was sending that it hadn't named: your macOS version alongside app launches, and three counters (shortcuts tracked, learned, and used) alongside the progress recap. Both were always anonymous and neither is new, but that page ends its list with "Nothing else", which is a promise rather than a summary.</li>
+</ul>
+]]></description>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <enclosure url="https://keysi.io/releases/Keysi-1.0.4.zip" length="4505914" type="application/octet-stream" sparkle:edSignature="WHDXsctBVkNqKxFw3fw2lzyMAfchT8ytlB+c/fR2xkFNGUarPfEZQTveGHVPduZF7KY9GurhUvPDMqEvZ0XmDg=="/>
             <sparkle:deltas>
@@ -21,6 +48,32 @@
             <pubDate>Fri, 11 Sep 2026 20:37:49 +0200</pubDate>
             <sparkle:version>4</sparkle:version>
             <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>Two fixes to how Keysi Pro is gated outside the app itself. If you don't use the Raycast extension, there is nothing here for you.</p>
+<ul>
+  <li>The Raycast extension's Pro gate now expires on its own. One of its commands — searching your cheat sheets — answers without ever asking Keysi, so it reads a small file Keysi writes to find out whether Pro is unlocked. Keysi only rewrites that file while it's running, and Keysi is a menu bar app people leave quit for weeks, so a trial that ran out while it was closed still read as unlocked. The file now carries the date Pro lapses, and the extension honours it. A purchased licence has no such date and is unaffected — it would be a poor thanks for buying to lock you out of Raycast for not launching the app.</li>
+  <li><code>keysi://license</code> with no key now opens Settings ▸ License instead of doing nothing. That's the link the extension shows when it tells you a command needs Pro, and it was the one route out of being locked that didn't go anywhere.</li>
+</ul>
+]]></description>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <enclosure url="https://keysi.io/releases/Keysi-1.0.3.zip" length="4502627" type="application/octet-stream" sparkle:edSignature="VytFQt/r75lPFM35Xr0AoFTKDNAMwsG2Iktq1mS08XvqzuCuoP+PrBsUrW1kJ/rtvVj8wnXF813FaprxIdGyCw=="/>
             <sparkle:deltas>
@@ -34,6 +87,37 @@
             <pubDate>Fri, 11 Sep 2026 16:32:19 +0200</pubDate>
             <sparkle:version>3</sparkle:version>
             <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>Mostly reach: Keysi is now available from Spotlight, Raycast, and a <code>keysi://</code> URL, so it no longer depends on you remembering a hotkey. Pro also changed price — see the last entry.</p>
+<ul>
+  <li>Keysi now asks about Pro at the right moment for people whose Coach data arrived slowly. It never shows an empty progress recap — a paywall with nothing in it is worse than none — but it only ever checked whether there was enough to show at launch and at the moment your trial ended. Keysi runs for weeks at a time, so anyone whose data was still thin on the day their trial ended was simply never asked again. It now checks when the data changes, still at most once.</li>
+  <li>The overlay's footer no longer offers free-tier users a "Practice" button that can't practice. Practice Mode is part of Keysi Pro, so on the free tier that button showed the upgrade screen instead — it now says so rather than promising a drill it won't give you.</li>
+  <li>Coach now catches a menu item chosen by holding the right mouse button and releasing over it, not only a left click. This matters more than it sounds: right-click menus turn out to have been within Coach's reach all along — measured in TextEdit, Chrome and Finder — and this was the one way of choosing an item in them that Keysi could not see.</li>
+  <li>A new page on keysi.io lists every cheat sheet Keysi ships — all the shortcuts in each, and the JSON behind it to fork.</li>
+  <li>If you have usage analytics turned on, Keysi now reports apps where macOS refuses to tell it a menu opened. Shortcut Coach can't see mouse-driven menu picks in those apps at all (Safari is the known one), and we had no idea how many others there are. It sends the app's identifier and the error, once per app per session, and nothing else — <code>site/privacy.html</code> has the full wording. Analytics remains off unless you turn it on.</li>
+  <li>Buy buttons now say which screen they came from, so it's possible to tell which ones are worth keeping. No new data is collected from you: the label rides along on the link to the store, the way any campaign link works.</li>
+  <li><strong>Keysi Pro now costs $19.99 instead of $9.99.</strong> Still one payment, still three Macs, still every future update at no extra cost, and the cheat sheet is still free with no time limit — the price change touches only the coaching. For comparison, the tool this most resembles charges $19.99 *a year* for three devices, and charges it for the part of Keysi that costs nothing. If you already bought Keysi Pro, nothing changes for you and nothing ever will — it was one payment and it stays bought, including every future update.</li>
+</ul>
+]]></description>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <enclosure url="https://keysi.io/releases/Keysi-1.0.2.zip" length="4499422" type="application/octet-stream" sparkle:edSignature="eHi6I9GOSj0F6H5kaY/cu/vPR4/UitbK0xv4SJmb83M2kY4ntrm5LOoaEXcYtj8IFFSh/1WYpRl0nprXOYmFBA=="/>
         </item>
