@@ -45,7 +45,8 @@
     Keysi reads the menu structure of whatever app is frontmost, on your
     Mac, to show you its keyboard shortcuts. That information never
     leaves your Mac. Two network calls happen automatically — described in
-    full below — and nothing else does unless you turn it on yourself.
+    full below — and nothing else does unless you turn it on yourself, or
+    press Send on the feedback form.
     Crash diagnostics are off by default; if you turn them on in Settings,
     they're generated on-device by Apple's MetricKit and never transmitted
     anywhere automatically. Usage analytics — inside the app, and on this
@@ -139,6 +140,25 @@
       counts rather than any record of <em>which</em> shortcuts, and they are
       there so we can tell whether people who have got real value out of
       Keysi upgrade at a different rate from people who haven't.</li>
+    <li>Three things about Shortcut Coach and Practice Mode, because
+      otherwise there is no way to tell whether the paid half of Keysi
+      actually works for anyone: that a reminder was shown, and in which
+      app; that a practice drill finished, with how many questions were
+      asked, how many you got right first time, and how many of them came
+      from the app's own menus rather than from what Coach had watched; and
+      that a shortcut crossed into "learned", with the app's name and how
+      many times you had reached for the mouse for it first. Counts and app
+      names only — never which shortcut, and never what you were doing in
+      it. The "learned" one is sent at most once per shortcut, ever.</li>
+    <li>That you exported a cheat sheet, in which format, and how many
+      shortcuts were in it. Not the app, not the file name, and not where you
+      saved it.</li>
+    <li>That the feedback prompt was shown and how you answered it, that the
+      feedback form was opened and from where (the prompt, the menu bar, or
+      Settings), and that a message was sent, with its category and whether it
+      went out or was queued for later. Never the message itself and never a
+      reply address — those travel only with the message you pressed Send on,
+      described under <a href="#feedback">Feedback</a> below.</li>
     <li>Whether Keysi warned you that it was running from somewhere macOS
       won't let it keep its Accessibility permission — a disk image, or a
       temporary copy — and which of those two it was. No path is sent,
@@ -158,6 +178,48 @@
     sheet, and never the contents of any menu Keysi reads. Turning the
     toggle back off stops all future events immediately.</p>
 
+  <h2 id="feedback">Feedback you send us</h2>
+  <p>
+    Keysi has a feedback form — in the menu bar, in Settings → General, and
+    very occasionally offered by a one-line prompt. Nothing is sent from it
+    unless you press Send, and <strong>the form shows you the exact payload
+    first</strong>, line by line, above the button. This is the one thing
+    Keysi sends that isn't covered by the analytics toggle: whether that
+    toggle is on or off makes no difference here, because pressing Send is
+    its own decision and it covers exactly one message.
+  </p>
+  <p>What goes with it:</p>
+  <ul>
+    <li>What you wrote, and the category you picked.</li>
+    <li>An email address, <em>only</em> if you typed one in. It is used to
+      answer you and nothing else — never added to a mailing list, and never
+      published anywhere.</li>
+    <li>If you leave the box ticked — and it is shown in the preview either
+      way — your Keysi version and build, your macOS version, your language,
+      whether your licence is a trial or active, and whether Accessibility is
+      granted. Untick it and none of that is sent.</li>
+  </ul>
+  <p>
+    It goes to the same EU-hosted PostHog project as the opt-in analytics,
+    as a single event with a random one-off identifier. Two messages sent
+    from the same Mac cannot be linked to each other, or to anything the
+    analytics toggle collects, and no profile is built from them.
+  </p>
+  <p>
+    <strong>What never goes with it</strong>, whatever the boxes say: the
+    app you were using, any menu Keysi has read, anything Shortcut Coach has
+    recorded, your diagnostic log, and your licence key.
+  </p>
+  <p>
+    A short excerpt of what you write may be quoted in an issue on Keysi's
+    own development tracker, so the problem you reported can be tracked
+    until it's fixed. That tracker is private — only whoever works on Keysi
+    can see it — and your message is not published anywhere. Email
+    addresses, file paths under your home folder, links and anything shaped
+    like a licence key are stripped out of the excerpt even so, and your
+    reply address is never included in it at all.
+  </p>
+
   <h2>What's stored locally</h2>
   <p>
     Shortcut Coach keeps a count, on your Mac only, of which menu commands you
@@ -172,6 +234,16 @@
     shortcuts when you click with the mouse" in Settings → Coach stops the
     counting entirely, and "Reset Statistics" on that same pane deletes what has
     been collected.
+  </p>
+  <p>
+    If you send feedback while you're offline, the message waits in
+    <code>~/Library/Application Support/Keysi/</code> and goes out the next
+    time Keysi starts with a working connection — or is discarded after a
+    fortnight, unsent. Anything you start writing and don't send is kept in
+    the same place, so closing the window doesn't throw it away; it stays on
+    your Mac until you send it or delete it yourself. Keysi also remembers,
+    on your Mac only, whether it has already asked you for feedback, so that
+    it doesn't ask again.
   </p>
   <p>
     Your license state, trial state, and preferences (hold delay, hotkey

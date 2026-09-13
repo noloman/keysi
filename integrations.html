@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Keysi from Raycast, Alfred, the terminal and Shortcuts — Keysi</title>
+<meta name="description" content="Reach Keysi from Raycast, Alfred, a keysi terminal command, Shortcuts and Siri, Spotlight, and the Services menu. Setup for each, part of Keysi Pro.">
+<link rel="canonical" href="https://keysi.io/integrations.html">
+<link rel="icon" href="assets/favicon/icon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Keysi">
+<meta property="og:title" content="Keysi from Raycast, Alfred, the terminal and Shortcuts — Keysi">
+<meta property="og:description" content="Reach Keysi from Raycast, Alfred, a keysi terminal command, Shortcuts and Siri, Spotlight, and the Services menu. Setup for each, part of Keysi Pro.">
+<meta property="og:url" content="https://keysi.io/integrations.html">
+<meta property="og:image" content="https://keysi.io/assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://keysi.io/assets/img/og.png">
+<link rel="stylesheet" href="assets/css/site.css">
+<script src="assets/js/analytics.js" defer></script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">⌘</span>Keysi</a>
+    <ul class="nav-links">
+      <li><a href="index.html#features">Features</a></li>
+      <li><a href="index.html#pricing">Pricing</a></li>
+      <li><a href="index.html#faq">FAQ</a></li>
+      <li><a href="changelog.html">Changelog</a></li>
+    </ul>
+    <a class="btn btn-primary btn-nav" href="index.html#pricing">Pricing</a>
+  </div>
+</nav>
+
+<section class="container-narrow doc">
+  <div class="eyebrow">Integrations</div>
+  <h1>Keysi, from everywhere else</h1>
+  <p>Holding ⌘ to see an app's shortcuts is free and always will be. What Keysi Pro adds is reaching Keysi from somewhere <em>else</em> — a launcher, a terminal, an automation — so the answer can leave Keysi and land where you were already working.</p>
+  <p>The app has all of this built in: open <strong>Integrations</strong> from the Keysi menu bar icon and it will tell you which of these are ready on your Mac and which need a step. This page is the same information, for reading before you buy.</p>
+
+  <h2>Raycast</h2>
+  <p>Search any app's shortcuts, run one, or open Practice without leaving Raycast. The extension asks the Keysi app to do the work — a Raycast extension cannot read another app's menus itself, but the app that already can is right there.</p>
+  <p class="fine">The extension is <strong>waiting on Raycast Store review</strong> (submitted 11 September 2026), and ships when Raycast merges it rather than when Keysi ships. Everything else on this page works the moment you install Keysi. Said plainly because it is part of what Pro costs, and a feature you cannot install yet should not be described as though you can.</p>
+
+  <h2>Alfred</h2>
+  <p>Three keywords:</p>
+  <ul>
+    <li><code>ks</code> — show the shortcuts panel, optionally with a search already typed (<code>ks save as</code>).</li>
+    <li><code>kspractice</code> — open Practice Mode.</li>
+    <li><code>ksexport</code> — export an app's shortcuts.</li>
+  </ul>
+  <p>The workflow is three keyword objects wired straight to Open URL actions. No scripting, nothing that can drift from the app, and nothing in it can do anything you could not do by typing <code>open keysi://show</code> yourself.</p>
+
+  <h2>The terminal</h2>
+  <p>Keysi ships a <code>keysi</code> command inside the app bundle, so it is always the version matching the app you have installed. Put it on your <code>PATH</code>:</p>
+  <pre><code>sudo ln -sf /Applications/Keysi.app/Contents/Resources/keysi-cli.sh /usr/local/bin/keysi</code></pre>
+  <p>Then:</p>
+  <pre><code>keysi show            # the panel for the app you were last in
+keysi show save as    # ...with the search already filled in
+keysi practice        # open Practice Mode
+keysi progress        # open Your Keysi
+keysi integrations    # this list, inside the app
+keysi export Figma    # export an app's shortcuts (opens a save panel)</code></pre>
+  <p>The app's Integrations window will hand you that first command with the right path already in it — Keysi will not write into a directory on your <code>PATH</code> itself, and it does not run anything to work out whether the link is there.</p>
+
+  <h2>Shortcuts and Siri</h2>
+  <p>Keysi's App Intents let a Shortcuts workflow find and run menu commands, which also makes them available to Spotlight actions and to Siri. Nothing to install — they appear in Shortcuts once Keysi is running.</p>
+
+  <h2>Spotlight</h2>
+  <p>Your custom cheat sheets are indexed, so a Vim or tmux binding turns up in an ordinary Spotlight search. Nothing to set up.</p>
+
+  <h2>The Services menu</h2>
+  <p>Select a command name in any app, then Services ▸ <em>Search Shortcuts in Keysi</em>, and Keysi answers "what's the shortcut for this?" against the app you were in. macOS lists it once Keysi has run; you can give it a keyboard shortcut of its own in System Settings ▸ Keyboard ▸ Keyboard Shortcuts ▸ Services.</p>
+
+  <h2>What it costs, and what it doesn't</h2>
+  <p>All of the above is part of Keysi Pro — $19.99 once, with a 14-day trial. Nothing that was free became paid to make room for it: the overlay, the hotkey, click-to-run, custom sheets, search and the conflict warnings are exactly as free as they have always been, and stay that way. Reaching Keysi from another app is a new capability that arrived in the paid tier, not a fence built around an old one.</p>
+
+  <div class="btn-row">
+    <a class="btn btn-primary" href="index.html">Get Keysi — free</a>
+    <a class="btn" href="index.html#pricing">See Pricing</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-row">
+      <div>© 2026 Manuel Lorenzo. Not affiliated with Media Atelier.</div>
+      <ul class="footer-links">
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="terms.html">Terms &amp; refunds</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+        <li><a href="press.html">Press</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
