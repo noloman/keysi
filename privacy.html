@@ -19,6 +19,7 @@
 <meta name="twitter:image" content="https://keysi.io/assets/img/og.png">
 <link rel="stylesheet" href="assets/css/site.css">
 <script src="assets/js/analytics.js" defer></script>
+<script src="assets/js/hold.js" defer></script>
 </head>
 <body>
 
@@ -31,26 +32,37 @@
       <li><a href="index.html#faq">FAQ</a></li>
       <li><a href="changelog.html">Changelog</a></li>
     </ul>
-    <a class="btn btn-primary btn-nav" href="index.html#pricing">Pricing</a>
+    <a class="btn btn-primary btn-nav" href="https://github.com/noloman/keysi/releases/latest">Download</a>
+    <details class="nav-more">
+      <summary><span class="nav-more-glyph" aria-hidden="true"></span><span class="sr-only">Menu</span></summary>
+      <ul class="nav-more-menu">
+        <li><a href="index.html#features">Features</a></li>
+        <li><a href="index.html#pricing">Pricing</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+        <li><a href="integrations.html">Integrations</a></li>
+        <li><a href="sheets.html">Cheat sheets</a></li>
+      </ul>
+    </details>
   </div>
 </nav>
 
 <section class="container-narrow doc">
   <div class="eyebrow">Privacy</div>
-  <h1>What Keysi does — and doesn't — send anywhere</h1>
+  <h1>What Keysi sends anywhere, and what it doesn't</h1>
   <p class="updated">Last updated with the 1.0.4 release.</p>
 
   <h2>The short version</h2>
   <p>
     Keysi reads the menu structure of whatever app is frontmost, on your
     Mac, to show you its keyboard shortcuts. That information never
-    leaves your Mac. Two network calls happen automatically — described in
-    full below — and nothing else does unless you turn it on yourself, or
+    leaves your Mac. Two network calls happen automatically, both described in
+    full below, and nothing else does unless you turn it on yourself, or
     press Send on the feedback form.
     Crash diagnostics are off by default; if you turn them on in Settings,
     they're generated on-device by Apple's MetricKit and never transmitted
-    anywhere automatically. Usage analytics — inside the app, and on this
-    website — are opt-in too; see <a href="#analytics">Analytics</a> below
+    anywhere automatically. Usage analytics, inside the app and on this
+    website, are opt-in too; see <a href="#analytics">Analytics</a> below
     for exactly what's collected when you say yes.
   </p>
 
@@ -64,7 +76,7 @@
   of the app you're using. It never controls your keyboard or mouse
   without an explicit click on a shortcut row."</em></p>
   <p>
-    Keysi only ever simulates a click on your explicit action — clicking
+    Keysi only ever simulates a click on your explicit action: clicking
     a shortcut row to run it. It never types on your behalf, never moves
     your mouse, and never reads what you type into other apps.
   </p>
@@ -75,7 +87,7 @@
       <strong>License check.</strong> When you activate a license, or
       periodically revalidate one already active, Keysi contacts
       Gumroad's License API with your license key. ("Deactivate This
-      Mac" itself is local only — it clears the license from this Mac's
+      Mac" itself is local only: it clears the license from this Mac's
       Keychain without contacting Gumroad.) Gumroad is the merchant of
       record for your purchase and processes this on Keysi's behalf; see
       their own privacy policy for how they handle payment and license
@@ -85,7 +97,7 @@
       <strong>Update check.</strong> Keysi periodically checks a public
       appcast feed (hosted on GitHub Pages) to see if a new version is
       available, using Sparkle. This is a standard, unauthenticated HTTP
-      request for a static XML file — no identifying information about
+      request for a static XML file, with no identifying information about
       you or your Mac is sent with it beyond what any HTTP request
       includes (like your IP address, visible to the hosting provider).
     </li>
@@ -93,11 +105,11 @@
   <p>
     Nothing else Keysi does touches the network by default. The shortcuts
     it reads, the apps you use, your custom cheat sheets, and your
-    settings all stay on your Mac — with one opt-in exception, covered
+    settings all stay on your Mac, with one opt-in exception, covered
     next.
   </p>
 
-  <h2 id="analytics">Analytics — always opt-in, on and off by default</h2>
+  <h2 id="analytics">Analytics: always opt-in, off by default</h2>
   <p>
     Two separate analytics systems exist, covering two separate things:
     this website, and the Keysi app itself. Neither is on unless you
@@ -105,7 +117,7 @@
   </p>
   <p>
     <strong>This website</strong> uses Google Analytics to understand
-    traffic — which pages get visited, what referred you here, and
+    traffic: which pages get visited, what referred you here, and
     whether the "Buy" button gets clicked. Nothing from Google loads
     until you click "Accept" on the banner shown on first visit; clicking
     "Decline" (or simply ignoring the banner) means no Google request is
@@ -119,18 +131,18 @@
     small, disclosed set of anonymous events to PostHog (EU-hosted):
   </p>
   <ul>
-    <li>App launches — with Keysi's own version number and your macOS
+    <li>App launches, with Keysi's own version number and your macOS
       version, so we can tell which releases are actually in use and which
-      macOS versions still need supporting — and which Settings tab you
+      macOS versions still need supporting, and which Settings tab you
       open.</li>
-    <li>The overlay showing, and which individual shortcuts you trigger —
+    <li>The overlay showing, and which individual shortcuts you trigger,
       the shortcut's name and the app it ran in, so we can see which
       shortcuts and apps matter most to Keysi users.</li>
     <li>Licensing and upgrade events: a trial starting, moving between the
       free and Pro tiers, the progress recap being shown and which button
       you pressed on it, opening the checkout page and which screen you
       opened it from, a Keysi Pro feature being blocked, and whether a
-      license activation succeeded or failed — the latter with a coarse
+      license activation succeeded or failed, the latter with a coarse
       reason such as "invalid key" or "network".
       <br>
       The progress recap carries three numbers along with it: how many
@@ -148,7 +160,7 @@
       from the app's own menus rather than from what Coach had watched; and
       that a shortcut crossed into "learned", with the app's name and how
       many times you had reached for the mouse for it first. Counts and app
-      names only — never which shortcut, and never what you were doing in
+      names only, never which shortcut, and never what you were doing in
       it. The "learned" one is sent at most once per shortcut, ever.</li>
     <li>That you exported a cheat sheet, in which format, and how many
       shortcuts were in it. Not the app, not the file name, and not where you
@@ -157,15 +169,15 @@
       feedback form was opened and from where (the prompt, the menu bar, or
       Settings), and that a message was sent, with its category and whether it
       went out or was queued for later. Never the message itself and never a
-      reply address — those travel only with the message you pressed Send on,
+      reply address; those travel only with the message you pressed Send on,
       described under <a href="#feedback">Feedback</a> below.</li>
     <li>Whether Keysi warned you that it was running from somewhere macOS
-      won't let it keep its Accessibility permission — a disk image, or a
-      temporary copy — and which of those two it was. No path is sent,
+      won't let it keep its Accessibility permission (a disk image, or a
+      temporary copy) and which of those two it was. No path is sent,
       only which of the two situations it recognised.</li>
-    <li>When macOS won't tell Keysi that an app has opened a menu — which
+    <li>When macOS won't tell Keysi that an app has opened a menu, which
       is exactly what Shortcut Coach needs in order to notice you picking a
-      command with the mouse — the identifier of that app and the error
+      command with the mouse: the identifier of that app and the error
       macOS returned. Safari is the one we already know about. This is sent
       once per app per session, and only for apps where that failed, so we
       can find out which apps Coach can't help you in yet; it is not a
@@ -180,7 +192,7 @@
 
   <h2 id="feedback">Feedback you send us</h2>
   <p>
-    Keysi has a feedback form — in the menu bar, in Settings → General, and
+    Keysi has a feedback form, in the menu bar, in Settings → General, and
     very occasionally offered by a one-line prompt. Nothing is sent from it
     unless you press Send, and <strong>the form shows you the exact payload
     first</strong>, line by line, above the button. This is the one thing
@@ -192,10 +204,10 @@
   <ul>
     <li>What you wrote, and the category you picked.</li>
     <li>An email address, <em>only</em> if you typed one in. It is used to
-      answer you and nothing else — never added to a mailing list, and never
+      answer you and nothing else. It is never added to a mailing list, and never
       published anywhere.</li>
-    <li>If you leave the box ticked — and it is shown in the preview either
-      way — your Keysi version and build, your macOS version, your language,
+    <li>If you leave the box ticked, and it is shown in the preview either
+      way, your Keysi version and build, your macOS version, your language,
       whether your licence is a trial or active, and whether Accessibility is
       granted. Untick it and none of that is sent.</li>
   </ul>
@@ -213,8 +225,8 @@
   <p>
     A short excerpt of what you write may be quoted in an issue on Keysi's
     own development tracker, so the problem you reported can be tracked
-    until it's fixed. That tracker is private — only whoever works on Keysi
-    can see it — and your message is not published anywhere. Email
+    until it's fixed. That tracker is private, readable only by whoever works
+    on Keysi, and your message is not published anywhere. Email
     addresses, file paths under your home folder, links and anything shaped
     like a licence key are stripped out of the excerpt even so, and your
     reply address is never included in it at all.
@@ -227,7 +239,7 @@
     later press that shortcut instead. It also times how long your own menu trips
     take, so the progress figures Keysi shows you are measured rather than
     guessed. <strong>That counting continues on the free tier</strong>, even
-    though the coaching itself is part of Keysi Pro — it is what lets Keysi show
+    though the coaching itself is part of Keysi Pro. It is what lets Keysi show
     you real numbers about your own habits if you ever look. None of it is
     transmitted anywhere; it lives in
     <code>~/Library/Application Support/Keysi/</code>. Turning off "Suggest
@@ -238,7 +250,7 @@
   <p>
     If you send feedback while you're offline, the message waits in
     <code>~/Library/Application Support/Keysi/</code> and goes out the next
-    time Keysi starts with a working connection — or is discarded after a
+    time Keysi starts with a working connection, or is discarded after a
     fortnight, unsent. Anything you start writing and don't send is kept in
     the same place, so closing the window doesn't throw it away; it stays on
     your Mac until you send it or delete it yourself. Keysi also remembers,
@@ -248,8 +260,8 @@
   <p>
     Your license state, trial state, and preferences (hold delay, hotkey
     binding, menu bar icon visibility, and so on) are stored locally on
-    your Mac — in the standard macOS locations for app preferences and
-    keychain items — and are never uploaded anywhere by Keysi itself.
+    your Mac, in the standard macOS locations for app preferences and
+    keychain items, and are never uploaded anywhere by Keysi itself.
   </p>
 
   <h2>Custom cheat sheets</h2>
@@ -263,7 +275,7 @@
   <h2>Questions</h2>
   <p>
     If anything here is unclear, or you want more detail on a specific
-    behavior, reach out — contact details are on the
+    behavior, reach out. Contact details are on the
     <a href="press.html">press page</a>.
   </p>
 </section>

@@ -19,6 +19,7 @@
 <meta name="twitter:image" content="https://keysi.io/assets/img/og.png">
 <link rel="stylesheet" href="assets/css/site.css">
 <script src="assets/js/analytics.js" defer></script>
+<script src="assets/js/hold.js" defer></script>
 </head>
 <body>
 
@@ -31,7 +32,18 @@
       <li><a href="index.html#faq">FAQ</a></li>
       <li><a href="changelog.html">Changelog</a></li>
     </ul>
-    <a class="btn btn-primary btn-nav" href="index.html#pricing">Pricing</a>
+    <a class="btn btn-primary btn-nav" href="https://github.com/noloman/keysi/releases/latest">Download</a>
+    <details class="nav-more">
+      <summary><span class="nav-more-glyph" aria-hidden="true"></span><span class="sr-only">Menu</span></summary>
+      <ul class="nav-more-menu">
+        <li><a href="index.html#features">Features</a></li>
+        <li><a href="index.html#pricing">Pricing</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+        <li><a href="integrations.html">Integrations</a></li>
+        <li><a href="sheets.html">Cheat sheets</a></li>
+      </ul>
+    </details>
   </div>
 </nav>
 
@@ -40,15 +52,18 @@
   <h1>CheatSheet is gone. This is what replaced it.</h1>
   <p class="lede">
     CheatSheet, by Media Atelier, stopped working on macOS Sonoma and was
-    discontinued. Keysi is a new app built on the same public API — hold
+    discontinued. Keysi is a new app built on the same public API: hold
     ⌘ to see the frontmost app's keyboard shortcuts, and click any row to
     run it. The part CheatSheet did is free, with no time limit; the $19.99 Pro
     unlock is optional. macOS 26 or later.
   </p>
 
-  <div class="btn-row">
-    <a class="btn btn-primary btn-lg" href="index.html#download">Download for macOS</a>
-    <a class="btn btn-secondary btn-lg" href="index.html#pricing">See what $19.99 adds</a>
+  <div class="doc-foot">
+    <p><strong>The part CheatSheet did is free here, permanently.</strong> No time limit, no account, no card.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary btn-lg" href="index.html#download">Download for macOS</a>
+      <a class="btn btn-secondary btn-lg" href="index.html#pricing">See what $19.99 adds</a>
+    </div>
   </div>
 
   <h2>What actually happened to CheatSheet</h2>
@@ -57,7 +72,7 @@
     accessibility API CheatSheet relied on. That isn't what happened.
     <code>AXUIElementCreateApplication</code> and the menu-bar AX
     attributes are still public, still documented, and still return
-    correct data on current macOS — verified directly against TextEdit,
+    correct data on current macOS, verified directly against TextEdit,
     Safari, Finder, Xcode, VS Code, Slack, and Figma, the last three
     being Electron apps.
   </p>
@@ -79,7 +94,7 @@
     <li>
       <strong>Every row is clickable.</strong> Keysi reads the live menu
       tree, so clicking a row fires that exact menu action. It isn't a
-      picture of the menu — it's the menu.
+      picture of the menu. It is the menu.
     </li>
     <li>
       <strong>It warns you when a shortcut is a lie.</strong> Keysi reads
@@ -90,7 +105,7 @@
     <li>
       <strong>It teaches, not just displays.</strong> Coach mode notices
       when you pick a command from the menu with the mouse that already
-      has a keyboard shortcut, and tells you once — then tracks whether
+      has a keyboard shortcut, and tells you once, then tracks whether
       it stuck, so it stops mentioning the ones you've learned.
       CheatSheet never did this, and neither does anything else in this
       category.
@@ -113,8 +128,8 @@
       as a real panel, where search, arrow keys, and Escape all work.
     </li>
     <li>
-      <strong>Part of Keysi is paid.</strong> The cheat sheet — the
-      thing CheatSheet actually did — is free, with no time limit, no account
+      <strong>Part of Keysi is paid.</strong> The cheat sheet, the
+      thing CheatSheet actually did, is free, with no time limit, no account
       and no card. The $19.99 buys Keysi Pro, which is coaching rather
       than reference: it notices when you pick a menu command with the
       mouse that has a shortcut, and drills the ones you keep missing.
@@ -130,7 +145,7 @@
   <p>
     Fair question, and the reason to ask it is exactly right. The honest
     answer has two parts. First, the underlying API is public and
-    unchanged — CheatSheet died of maintainer exit, not of API removal,
+    unchanged. CheatSheet died of maintainer exit, not of API removal,
     so the failure mode people remember isn't the one that was actually
     at play. Second, no promise about the future is worth anything on a
     marketing page. What's checkable is the
@@ -149,7 +164,7 @@
   <h2>Try it</h2>
   <p>
     Free, no account, no card. If it isn't what you lost, uninstall it
-    and you're out nothing — the overlay doesn't expire, because it
+    and you're out nothing: the overlay doesn't expire, because it
     isn't the paid part. Every install does start with 14 days of Keysi
     Pro so you can see what the coaching is like; when that ends the app
     drops back to the free tier rather than stopping. Refunds on Pro are
@@ -163,7 +178,7 @@
   <h2>Related</h2>
   <ul>
     <li><a href="keycue-alternative.html">Looking at KeyCue instead?</a></li>
-    <li><a href="keyclu-vs-keysi.html">KeyClu is free — why pay for Keysi?</a></li>
+    <li><a href="keyclu-vs-keysi.html">KeyClu is free, so why pay for Keysi?</a></li>
     <li><a href="show-keyboard-shortcuts-mac.html">How to see any Mac app's keyboard shortcuts</a></li>
     <li><a href="index.html#faq">Full FAQ, including the Accessibility permission</a></li>
   </ul>

@@ -52,7 +52,7 @@
       "name": "How do I see keyboard shortcuts for an app that has no menu bar entries for them?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Some apps keep their real keyboard shortcuts out of the menu bar entirely — Figma, Slack and terminal programs like Vim and tmux are common examples. Keysi covers these with custom cheat sheets: Figma, Slack, Vim and tmux ship built in, and you can write your own for any app in Keysi's editor."
+        "text": "Some apps keep their real keyboard shortcuts out of the menu bar entirely. Figma, Slack and terminal programs like Vim and tmux are common examples. Keysi covers these with custom cheat sheets: Figma, Slack, Vim and tmux ship built in, and you can write your own for any app in Keysi's editor."
       }
     }
   ]
@@ -60,6 +60,7 @@
 </script>
 <link rel="stylesheet" href="assets/css/site.css">
 <script src="assets/js/analytics.js" defer></script>
+<script src="assets/js/hold.js" defer></script>
 </head>
 <body>
 
@@ -72,7 +73,18 @@
       <li><a href="index.html#faq">FAQ</a></li>
       <li><a href="changelog.html">Changelog</a></li>
     </ul>
-    <a class="btn btn-primary btn-nav" href="index.html#pricing">Pricing</a>
+    <a class="btn btn-primary btn-nav" href="https://github.com/noloman/keysi/releases/latest">Download</a>
+    <details class="nav-more">
+      <summary><span class="nav-more-glyph" aria-hidden="true"></span><span class="sr-only">Menu</span></summary>
+      <ul class="nav-more-menu">
+        <li><a href="index.html#features">Features</a></li>
+        <li><a href="index.html#pricing">Pricing</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+        <li><a href="integrations.html">Integrations</a></li>
+        <li><a href="sheets.html">Cheat sheets</a></li>
+      </ul>
+    </details>
   </div>
 </nav>
 
@@ -81,7 +93,7 @@
   <h1>How to see the keyboard shortcuts of the app you're using</h1>
   <p class="lede">
     macOS already gives you three ways to do this, and it's worth knowing
-    them before installing anything — two of them are a click away in the
+    them before installing anything. Two of them are a click away in the
     app you're already in. Each one stops somewhere specific, though, and
     this page is about where. Then
     it's about Keysi, which is the tool this site sells: it shows the
@@ -94,7 +106,7 @@
     <li>
       <strong>The app's own menu bar.</strong> Every shortcut an app
       exposes as a menu command is printed right next to it. This is the
-      real, authoritative list — but it's one menu at a time, and anything
+      real, authoritative list, but it's one menu at a time, and anything
       nested in a submenu stays invisible until you open that submenu. If
       you don't already know roughly where a command lives, you're
       hunting.
@@ -102,13 +114,13 @@
     <li>
       <strong>Search the menus from the Help menu.</strong> In most Mac
       apps, the Help menu's search field finds menu commands by name and
-      shows you where they are. Genuinely useful, and underused — but it
+      shows you where they are. Genuinely useful, and underused, but it
       answers "where is the command I already have a name for", not "what
       can I do here". You can't browse what you didn't know existed.
     </li>
     <li>
       <strong>System Settings ▸ Keyboard ▸ Keyboard Shortcuts.</strong>
-      A complete, editable list — of <em>macOS's</em> shortcuts. Mission
+      A complete, editable list of <em>macOS's</em> shortcuts. Mission
       Control, Spotlight, screenshots, input sources. It says nothing
       about the app you're in, which is usually the thing you were asking
       about.
@@ -123,12 +135,12 @@
   <h2>What Keysi does instead: hold ⌘</h2>
   <p>
     Hold <span class="kbd">⌘</span> for a moment and Keysi shows every
-    shortcut of whatever app is frontmost — grouped by the menu it came
+    shortcut of whatever app is frontmost, grouped by the menu it came
     from, with a breadcrumb for anything nested in a submenu, and each
     combination rendered as a real keycap
     (<span class="kbd-row"><span class="kbd">⌘</span><span class="kbd">⇧</span><span class="kbd">S</span></span>)
     rather than the string "Cmd+Shift+S". Let go and it's gone. If you'd
-    rather use a different key, the hold modifier is configurable —
+    rather use a different key, the hold modifier is configurable:
     <span class="kbd">⌘</span>, <span class="kbd">⌥</span>,
     <span class="kbd">⌃</span> or <span class="kbd">⇧</span>.
   </p>
@@ -155,16 +167,19 @@
     keycaps on the way past, and learn it on the third or fourth time
     instead of the first.
   </p>
-  <div class="btn-row">
-    <a class="btn btn-primary btn-lg" href="index.html#download">Download for macOS</a>
-    <a class="btn btn-secondary btn-lg" href="index.html#features">See what else it does</a>
+  <div class="doc-foot">
+    <p><strong>The list itself is free, with no time limit.</strong> Hold your modifier, see every shortcut, click one to run it.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary btn-lg" href="index.html#download">Download for macOS</a>
+      <a class="btn btn-secondary btn-lg" href="index.html#features">See what else it does</a>
+    </div>
   </div>
 
   <h2>When the shortcut is printed but nothing happens</h2>
   <p>
     This is the failure the menu bar can't warn you about. macOS claims
     some key combinations for itself, and a system shortcut wins before
-    the keystroke ever reaches the app — but the app's menu prints its
+    the keystroke ever reaches the app, but the app's menu prints its
     shortcut either way, so the only feedback you get is that nothing
     happened. Keysi reads macOS's own shortcut assignments and marks the
     rows the system will intercept, so you find out while you're looking
@@ -175,12 +190,12 @@
   <h2>Apps whose real shortcuts aren't in a menu at all</h2>
   <p>
     Reading the menu bar only works when the shortcuts are in the menu
-    bar. Plenty aren't — Figma and Slack keep most of theirs elsewhere,
+    bar. Plenty aren't. Figma and Slack keep most of theirs elsewhere,
     and a terminal program like Vim or tmux has no Mac menu bar to put
     them in. For those, Keysi uses custom cheat sheets: hand-written
     lists that attach to an app by identity.
     <a href="sheets.html">Figma, Slack, Vim and tmux ship built in</a>,
-    and there's an editor for writing your own for any app — no JSON by
+    and there's an editor for writing your own for any app, with no JSON by
     hand unless you want to.
   </p>
   <p>
@@ -191,7 +206,7 @@
     foreground, and matches sheets against that. With several tabs or
     splits open it works out which one you're looking at from the
     terminal's own window title, and falls back to showing sheets for
-    everything running across them when that's inconclusive — right most
+    everything running across them when that's inconclusive, right most
     of the time, not guaranteed.
   </p>
 
@@ -210,7 +225,7 @@
     and Keysi times how long your own menu trips actually take, so the
     figures it shows you are arithmetic on two things it counted rather
     than an industry average. Pro also makes Keysi reachable from outside
-    itself — Raycast, Shortcuts, Spotlight, Siri, and the Services menu.
+    itself: Raycast, Shortcuts, Spotlight, Siri, and the Services menu.
   </p>
   <p class="fine">
     Everything on this page above that section is free, with no time
@@ -234,7 +249,7 @@
 
   <h2>What it needs</h2>
   <p>
-    macOS 26 or later, and Accessibility permission — that's the API that
+    macOS 26 or later, and Accessibility permission. That's the API that
     reads another app's menu structure, and there's no way to do this
     without it. Keysi is distributed directly rather than through the Mac
     App Store, because the sandbox the App Store requires blocks that API
@@ -253,7 +268,7 @@
   <ul>
     <li><a href="cheatsheet-alternative.html">Coming from CheatSheet?</a></li>
     <li><a href="keycue-alternative.html">Looking at KeyCue instead?</a></li>
-    <li><a href="keyclu-vs-keysi.html">KeyClu is free — why pay for Keysi?</a></li>
+    <li><a href="keyclu-vs-keysi.html">KeyClu is free, so why pay for Keysi?</a></li>
     <li><a href="sheets.html">Every cheat sheet Keysi ships</a></li>
   </ul>
 </section>

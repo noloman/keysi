@@ -19,6 +19,7 @@
 <meta name="twitter:image" content="https://keysi.io/assets/img/og.png">
 <link rel="stylesheet" href="assets/css/site.css">
 <script src="assets/js/analytics.js" defer></script>
+<script src="assets/js/hold.js" defer></script>
 </head>
 <body>
 
@@ -31,7 +32,18 @@
       <li><a href="index.html#faq">FAQ</a></li>
       <li><a href="changelog.html">Changelog</a></li>
     </ul>
-    <a class="btn btn-primary btn-nav" href="index.html#pricing">Pricing</a>
+    <a class="btn btn-primary btn-nav" href="https://github.com/noloman/keysi/releases/latest">Download</a>
+    <details class="nav-more">
+      <summary><span class="nav-more-glyph" aria-hidden="true"></span><span class="sr-only">Menu</span></summary>
+      <ul class="nav-more-menu">
+        <li><a href="index.html#features">Features</a></li>
+        <li><a href="index.html#pricing">Pricing</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+        <li><a href="integrations.html">Integrations</a></li>
+        <li><a href="sheets.html">Cheat sheets</a></li>
+      </ul>
+    </details>
   </div>
 </nav>
 
@@ -54,11 +66,21 @@
       </tbody>
     </table>
   </div>
+  <figure class="shot doc-shot">
+    <picture>
+      <source srcset="assets/img/shot-vim@2x.webp" type="image/webp">
+      <img src="assets/img/shot-vim@2x.png" alt="Keysi's overlay open over Vim running in a terminal, showing a custom cheat sheet of Vim motions and commands" loading="lazy" width="1600" height="1200">
+    </picture>
+    <figcaption>The Vim sheet, over Vim in a terminal. Keysi looks at what is actually running there rather than which terminal app it is.</figcaption>
+  </figure>
   <h2>Write your own</h2>
-  <p>Any app can have one. A sheet is a JSON file in <code>~/Library/Application Support/Keysi/Sheets/</code> naming the app it applies to and the shortcuts you want listed; Keysi has a built-in editor so you don't have to write it by hand. Set <code>mode</code> to <code>augment</code> to add to whatever Keysi already found in the app's menus, or <code>replace</code> to drop that entirely — which is what you want for an Electron app whose menu bar lies about its real bindings.</p>
+  <p>Any app can have one. A sheet is a JSON file in <code>~/Library/Application Support/Keysi/Sheets/</code> naming the app it applies to and the shortcuts you want listed; Keysi has a built-in editor so you don't have to write it by hand. Set <code>mode</code> to <code>augment</code> to add to whatever Keysi already found in the app's menus, or <code>replace</code> to drop that entirely, which is what you want for an Electron app whose menu bar lies about its real bindings.</p>
   <p>Download any sheet above as a starting point.</p>
-  <div class="btn-row">
-    <a class="btn btn-primary" href="index.html">Get Keysi — free</a>
+  <div class="doc-foot">
+    <p><strong>Custom sheets are free.</strong> So is the built-in editor, and so is everything else on this page.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="https://github.com/noloman/keysi/releases/latest">Download Keysi</a>
+    </div>
   </div>
 </section>
 
