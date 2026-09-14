@@ -3,6 +3,46 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.8</title>
+            <pubDate>Mon, 14 Sep 2026 13:25:12 +0200</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>One fix.</p>
+<ul>
+  <li>Keysi no longer blames a permission problem on "a different copy of Keysi" when it has no idea. That sentence is true only when Keysi has actually seen the Accessibility grant change hands between two differently signed builds; the rest of the time it was a stopwatch running out, and someone who had simply taken more than twenty seconds to find the switch in System Settings was told a story about copies that do not exist — and lost the <strong>Grant Access…</strong> button while reading it. Keysi now says what it knows: that macOS has not applied the permission yet, with both buttons still there, and the stale-entry recovery offered underneath rather than as the diagnosis. Being sent to System Settings also buys two minutes instead of twenty seconds, since finding the row is the slow part. The diagnostic report gained the two lines this needed all along: where Keysi is running from, and where it was running from the last time it had access.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.8.zip" length="5389659" type="application/octet-stream" sparkle:edSignature="gn/lqYT+x2ahBDLW8sHohkly+MMhoAeF7Kff7iJqZKrfpjP8rg7Yax2pHU4r23JCxRIPJN1XMfDT5JvPQI+oBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi9-8.delta" sparkle:deltaFrom="8" length="414194" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="DYF8w+9X15Rk9lkzimPI1knSfDJo8GcvPbOi93V2RAGJ6yvULroINJjvHulWQ19+lc4Zc1yPiKwacCPXvIS2Bw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi9-7.delta" sparkle:deltaFrom="7" length="477782" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="dylwpC/N5rGSw8FG6s/wX4KJ+CfNv8qhrP8p0Kop7QkPGbm9OLs1+9oziUtBSslyp0nECqyZF1VHOQez8FLdBQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi9-5.delta" sparkle:deltaFrom="5" length="1589362" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="RxTYa2Qfby7Qq8kIPfBmCEeWAns1g+PtJDaZIHTxs2wGQGF9uh1vcR46LWmtD5V9za6P+mZiZLVQ/jP6nwFJAA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi9-4.delta" sparkle:deltaFrom="4" length="1597898" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="+Uvg0ccDow1mF+au9XhRB4cIao46TDM1eZeWQmzDxj/3+Tk3J9aw1dEHHZSRn73p76E4gDBHINvniFym6XDACQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi9-3.delta" sparkle:deltaFrom="3" length="1598186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="zLcGaC4ck7XBTuMhLUzu0DGFW38WIViICXn+v4eZgHow+F91VuYCYfvoqoU6Ym3kbrLLFRj9ETycL/jQHDxRDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.7</title>
             <pubDate>Mon, 14 Sep 2026 12:07:40 +0200</pubDate>
             <sparkle:version>8</sparkle:version>
