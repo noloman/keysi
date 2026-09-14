@@ -666,6 +666,78 @@ code.cmd {
   color: var(--text-tertiary);
 }
 
+/* ---- Copy button on a command ----
+   Injected by assets/js/copy.js, so none of this exists without it — the
+   page with JavaScript off is the page as it was, not a dead button. */
+.copy-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  /* The chip and its button stay on the same line as each other while the
+     line as a whole still wraps at the command's own spaces. */
+  max-width: 100%;
+}
+.copy-btn {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* 28px of ink, 44px of target: the padding is negative margin on the
+     outside, so the button hits Apple's minimum tap size without pushing
+     the line it sits on any taller. */
+  width: 28px;
+  height: 28px;
+  padding: 8px;
+  margin: -8px;
+  box-sizing: content-box;
+  border: none;
+  background: none;
+  border-radius: var(--radius-sm);
+  color: var(--text-tertiary);
+  cursor: pointer;
+  transition: color 0.12s ease, background-color 0.12s ease;
+}
+.copy-btn:hover { color: var(--text); background: var(--bg-sunken); }
+.copy-btn.is-copied { color: var(--good); }
+.copy-btn svg { display: block; }
+
+/* Announced, not drawn: the tick is invisible to a screen reader, and this
+   is what it reads instead. Not `display: none`, which is not announced. */
+.copy-status {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* In a .verify-box the command is a block, so the button goes in the
+   corner of the box rather than after the text. */
+.copy-wrap-block {
+  display: block;
+  position: relative;
+}
+.copy-wrap-block .copy-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  background: var(--bg-sunken);
+  border: 1px solid var(--border);
+}
+.copy-wrap-block .copy-btn:hover { background: var(--bg-elevated); }
+.copy-wrap-block code { padding-right: 40px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .copy-btn { transition: none; }
+}
+
 .hero-media {
   margin-top: 52px;
   border-radius: var(--radius-lg);
