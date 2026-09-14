@@ -101,6 +101,9 @@
         <div class="btn-row">
           <a class="btn btn-primary btn-lg" href="https://github.com/noloman/keysi/releases/latest">Download for macOS</a>
         </div>
+        <p class="hero-brew">
+          or <code class="cmd">brew install --cask noloman/keysi/keysi</code>
+        </p>
         <p class="hero-micro">
           <span>Free, no time limit, no account</span>
           <span>Includes 14 days of Pro</span>
@@ -320,6 +323,10 @@
       folder before launching it. macOS ties the Accessibility permission to where
       the app lives, so granting it from the disk image doesn't stick.
     </p>
+    <p class="price-after">
+      Homebrew works too, and skips the dragging:
+      <code class="cmd">brew install --cask noloman/keysi/keysi</code>
+    </p>
   </div>
   <div class="pricing-card">
     <div class="price-amount">$19.99 <span>once</span></div>
@@ -387,6 +394,18 @@
         <div class="verify-box">
           <code>spctl -a -vvv -t install /Applications/Keysi.app</code>
         </div>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>Can I install Keysi with Homebrew?</summary>
+      <div class="faq-body">
+        <p>Yes. Name the cask in full and that is the whole of it — no tapping, no trusting, nothing to add to a config file first:</p>
+        <div class="verify-box">
+          <code>brew install --cask noloman/keysi/keysi</code>
+        </div>
+        <p>It installs the same signed, notarized DMG the Download button hands out; the cask is a checksum of that exact file. It lives in Keysi's own tap rather than in Homebrew's cask repository, which requires an app to clear a popularity bar Keysi hasn't cleared yet — a tap installs identically and needs nobody's permission.</p>
+        <p>Keysi still updates itself through Sparkle, and the cask says so, so Homebrew won't fight the app's own updater or reinstall over the top of a version you already updated to. If you already have Keysi in your Applications folder, add <code>--adopt</code> and Homebrew takes over the copy that's there instead of refusing to overwrite it.</p>
       </div>
     </details>
 

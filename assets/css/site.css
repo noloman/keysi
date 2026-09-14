@@ -641,6 +641,31 @@ a:active .kbd, button:active .kbd, .kbd-press:active {
 }
 .hero-micro span:not(:last-child)::after { content: "·"; margin: 0 8px; color: var(--border-strong); }
 
+/* The Homebrew one-liner under the download button, and the same command
+   in the pricing card. A shell command is quoted, not prose, so it gets the
+   mono face and a box.
+
+   It wraps at its spaces on a narrow screen and nowhere else: `word-break`
+   stays at its default so no token is ever split, which keeps
+   `noloman/keysi/keysi` — the part a reader has to copy exactly — whole on
+   one line. Wrapping at a space is safe to copy: the clipboard takes the
+   text from the DOM, which has one space there, not the line break the
+   browser drew. Refusing to wrap is what is not safe: at 375px it grew the
+   pricing cards past the viewport and truncated the command mid-word. */
+code.cmd {
+  font-family: var(--font-mono);
+  font-size: 0.86em;
+  background: var(--bg-sunken);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 2px 6px;
+}
+.hero-brew {
+  margin-top: 14px;
+  font-size: 0.9rem;
+  color: var(--text-tertiary);
+}
+
 .hero-media {
   margin-top: 52px;
   border-radius: var(--radius-lg);

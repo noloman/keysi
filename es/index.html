@@ -112,6 +112,7 @@
         <div class="btn-row">
           <a class="btn btn-primary btn-lg" href="https://github.com/noloman/keysi/releases/latest">Descargar para macOS</a>
         </div>
+        <p class="hero-brew">o <code class="cmd">brew install --cask noloman/keysi/keysi</code></p>
         <p class="hero-micro"><span>Gratis, sin límite de tiempo, sin cuenta</span> <span>Incluye 14 días de Pro</span></p>
         <p class="hold-hint">Mantén pulsada <span class="kbd">⌘</span> en esta página para verlo.</p>
       </div>
@@ -273,6 +274,7 @@
       <a id="download" class="btn btn-primary btn-lg" href="https://github.com/noloman/keysi/releases/latest">Descargar Keysi</a>
     </div>
     <p class="price-after">macOS 26 o posterior. Abre la imagen de disco y arrastra Keysi a la carpeta Aplicaciones antes de abrirla. macOS vincula el permiso de Accesibilidad al sitio donde vive la app, así que concederlo desde la imagen de disco no sirve.</p>
+    <p class="price-after">Homebrew también funciona, y te ahorra el arrastre: <code class="cmd">brew install --cask noloman/keysi/keysi</code></p>
   </div>
   <div class="pricing-card">
     <div class="price-amount">$19.99 <span>una vez</span></div>
@@ -334,6 +336,18 @@
         <div class="verify-box">
           <code>spctl -a -vvv -t install /Applications/Keysi.app</code>
         </div>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>¿Puedo instalar Keysi con Homebrew?</summary>
+      <div class="faq-body">
+        <p>Sí. Escribe el nombre completo del cask y ya está — sin tap, sin marcar nada como de confianza, sin tocar ningún archivo de configuración antes:</p>
+        <div class="verify-box">
+          <code>brew install --cask noloman/keysi/keysi</code>
+        </div>
+        <p>Instala la misma imagen de disco firmada y notarizada que entrega el botón de descarga; el cask no es más que la suma de verificación de ese archivo exacto. Vive en el tap propio de Keysi y no en el repositorio de casks de Homebrew, que exige a una app superar un listón de popularidad que Keysi todavía no ha superado — un tap se instala igual y no necesita el permiso de nadie.</p>
+        <p>Keysi sigue actualizándose sola a través de Sparkle, y el cask lo declara, así que Homebrew no le lleva la contraria a la actualización de la propia app ni reinstala encima de una versión a la que ya te has actualizado. Si ya tienes Keysi en la carpeta Aplicaciones, añade <code>--adopt</code> y Homebrew adopta la copia que ya está ahí en vez de negarse a sobrescribirla.</p>
       </div>
     </details>
 
