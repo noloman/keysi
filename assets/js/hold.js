@@ -35,6 +35,64 @@
   var open = false;
   var armed = false; // a modifier is down and nothing has cancelled it yet
 
+  // The page may be one of the localized copies under site/<locale>/, in
+  // which case every relative href below is one directory too shallow. The
+  // prefix is read off this script's own URL rather than guessed from
+  // `location`, so it is correct at the origin root, under a GitHub Pages
+  // project subpath, and in a locale directory, without the generator
+  // having to inject anything.
+  var BASE = (function () {
+    var self = document.currentScript;
+    if (!self || !self.src) return "";
+    return self.src.replace(/assets\/js\/hold\.js(\?.*)?$/, "");
+  })();
+
+  function resolve(href) {
+    if (/^(https?:|mailto:|#|\/)/.test(href)) return href;
+    return BASE + href;
+  }
+
+  // The demo's own text, per language. A lookup table rather than a
+  // generated file: nine short labels do not justify teaching
+  // `scripts/site-i18n.py` to emit JavaScript, and `--check` fails if a
+  // locale is generated without an entry here, so the table cannot quietly
+  // fall behind the roster in `site/i18n/locales.json`.
+  //
+  // Keyed by base language (the part before any region subtag), because
+  // there is no wording here that pt-BR and pt-PT would disagree about.
+  var STRINGS = {
+    en: {
+      held: "held",
+      groups: ["Go", "Get Keysi", "Read more"],
+      items: [
+        "Features", "Pricing", "Common questions",
+        "Download for macOS", "Changelog",
+        "Integrations", "Cheat sheets", "How it compares"
+      ],
+      foot:
+        "This is what Keysi draws over any Mac app. You can’t type to " +
+        "filter while holding — that part is honest, and the reason the " +
+        "app also has a searchable panel on ⇧⌘K."
+    },
+    es: {
+      held: "pulsada",
+      groups: ["Ir a", "Consigue Keysi", "Leer más"],
+      items: [
+        "Funciones", "Precio", "Preguntas frecuentes",
+        "Descargar para macOS", "Novedades",
+        "Integraciones", "Chuletas", "Cómo se compara"
+      ],
+      foot:
+        "Esto es lo que Keysi dibuja sobre cualquier app de Mac. No puedes " +
+        "escribir para filtrar mientras la mantienes pulsada: esa parte es " +
+        "honesta, y es la razón de que la app tenga además un panel con " +
+        "búsqueda en ⇧⌘K."
+    }
+  };
+
+  var T = STRINGS[(document.documentElement.lang || "en").split("-")[0].toLowerCase()] ||
+    STRINGS.en;
+
   // A keyboard is required to hold a key. Touch-only devices get nothing,
   // which is correct rather than a limitation: there is no ⌘ to hold.
   var hasKeyboard =
@@ -48,29 +106,32 @@
   }
 
   // The page's own "menu", grouped the way Keysi groups an app's menu bar.
-  // Built at load; `defer` guarantees the document is parsed first.
+  // Labels come from the table above so the demo speaks the page's language;
+  // the hrefs live here, once, so a URL change is one edit rather than one
+  // per locale. Built at load; `defer` guarantees the document is parsed
+  // first, which is what lets `anchor()` look for the section.
   var MENU = [
     {
-      title: "Go",
+      title: T.groups[0],
       items: [
-        { label: "Features", href: anchor("features") },
-        { label: "Pricing", href: anchor("pricing") },
-        { label: "Common questions", href: anchor("faq") }
+        { label: T.items[0], href: anchor("features") },
+        { label: T.items[1], href: anchor("pricing") },
+        { label: T.items[2], href: anchor("faq") }
       ]
     },
     {
-      title: "Get Keysi",
+      title: T.groups[1],
       items: [
-        { label: "Download for macOS", href: "https://github.com/noloman/keysi/releases/latest" },
-        { label: "Changelog", href: "changelog.html" }
+        { label: T.items[3], href: "https://github.com/noloman/keysi/releases/latest" },
+        { label: T.items[4], href: "changelog.html" }
       ]
     },
     {
-      title: "Read more",
+      title: T.groups[2],
       items: [
-        { label: "Integrations", href: "integrations.html" },
-        { label: "Cheat sheets", href: "sheets.html" },
-        { label: "How it compares", href: "keyclu-vs-keysi.html" }
+        { label: T.items[5], href: "integrations.html" },
+        { label: T.items[6], href: "sheets.html" },
+        { label: T.items[7], href: "keyclu-vs-keysi.html" }
       ]
     }
   ];
@@ -102,7 +163,7 @@
     head.className = "hold-head";
     head.innerHTML =
       '<span class="hold-app">keysi.io</span>' +
-      '<span class="hold-held"><span class="kbd">⌘</span> held</span>';
+      '<span class="hold-held"><span class="kbd">⌘</span> ' + T.held + "</span>";
     panel.appendChild(head);
 
     var body = document.createElement("div");
@@ -117,7 +178,7 @@
       group.items.forEach(function (item) {
         var a = document.createElement("a");
         a.className = "hold-row";
-        a.href = item.href;
+        a.href = resolve(item.href);
         a.tabIndex = -1;
         a.textContent = item.label;
         g.appendChild(a);
@@ -128,10 +189,7 @@
 
     var foot = document.createElement("div");
     foot.className = "hold-foot";
-    foot.innerHTML =
-      "This is what Keysi draws over any Mac app. You can’t type to " +
-      "filter while holding — that part is honest, and the reason the " +
-      "app also has a searchable panel on ⇧⌘K.";
+    foot.textContent = T.foot;
     panel.appendChild(foot);
 
     root.appendChild(panel);

@@ -20,12 +20,23 @@
    every visitor's IP to a third party before the consent banner is even
    answered, which would quietly contradict privacy.html. See
    assets/fonts/README.md. */
+/* `unicode-range` is not an optimisation here, it is correctness. These are
+   latin subsets, and the site is getting localised into nine languages —
+   three of which (ja, ko, zh-Hans) are mostly outside that range. Without a
+   declared range the browser still selects these faces for a CJK heading and
+   then falls back per glyph, so a heading with any Latin in it renders in
+   two faces at once. Declaring the range means the browser never picks them
+   for CJK text and the whole heading resolves to the system stack, which on
+   the platform this app targets is the correct CJK face anyway. */
 @font-face {
   font-family: "Schibsted Grotesk";
   src: url("../fonts/schibsted-grotesk-var-latin.woff2") format("woff2");
   font-weight: 400 700;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+    U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC,
+    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 @font-face {
   font-family: "Martian Mono";
@@ -33,6 +44,9 @@
   font-weight: 400 700;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+    U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC,
+    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 :root {
@@ -1190,3 +1204,74 @@ footer.site-footer .fine { margin-top: 18px; font-size: 0.82rem; }
 .faq-list { max-width: 66ch; margin-top: 28px; }
 .error-lede { margin: 0 auto 28px; }
 .error-actions { justify-content: center; }
+
+/* ---- Language switcher and suggestion banner ------------------------
+   Nine languages in the app, one on the site until now. Two surfaces:
+
+   The switcher is server-rendered by scripts/site-i18n.py into the footer
+   of every page that has a translation, as real <a> links. It has to work
+   with JavaScript off, and it has to be crawlable — those links are the
+   internal linking that tells a crawler the locale pages exist. It sits in
+   the footer rather than the nav on purpose: a reader who wants another
+   language will look for it, and a reader who doesn't shouldn't have the
+   nav's one clear call to action competing with a list of languages.
+
+   The banner is built by assets/js/i18n.js and only ever *offers*. It is
+   styled like the consent banner above deliberately — same corner, same
+   weight, same dismissibility — because it is the same kind of thing: a
+   one-time question the page asks and then stops asking. ---- */
+.lang-switcher {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px 14px;
+  font-size: 0.82rem;
+}
+.lang-switcher-label {
+  font-family: var(--font-label);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+}
+.lang-switcher ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+}
+.lang-switcher a { color: var(--text-secondary); text-decoration: none; }
+.lang-switcher a:hover { color: var(--text); text-decoration: underline; }
+/* The current language is stated, not offered. Still a link, so it is still
+   focusable and still tells a crawler this URL is the one it is on. */
+.lang-switcher a[aria-current] { color: var(--text); cursor: default; }
+.lang-switcher a[aria-current]:hover { text-decoration: none; }
+
+.lang-banner {
+  position: fixed;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  z-index: 99; /* Under .consent-banner: consent is the question that has
+                  to be answered first, and both are bottom-anchored. */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 18px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-md);
+  font-size: 0.88rem;
+}
+.lang-banner-link { color: var(--accent); font-weight: 500; }
+@media (min-width: 640px) {
+  /* Opposite corner to the consent banner, so the two can be on screen at
+     once without one hiding the other. */
+  .lang-banner { right: auto; max-width: 420px; }
+}
