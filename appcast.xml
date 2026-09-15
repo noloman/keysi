@@ -3,6 +3,49 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.12</title>
+            <pubDate>Tue, 15 Sep 2026 13:03:32 +0200</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>Two new features and two fixes.</p>
+<ul>
+  <li>Keysi now runs on macOS 14 Sonoma and later, instead of requiring macOS 26 — the Liquid Glass panel is used where the system has it and falls back to Keysi's own opaque paper below it.</li>
+  <li>A new <strong>System Shortcuts</strong> window in the menu bar lists every key combination macOS itself is claiming on your Mac, grouped and searchable.</li>
+  <li>Conflict warnings now fire for shortcuts that use the Space bar, including ⌘Space for Spotlight, which Keysi could never match before.</li>
+  <li>Conflict warnings no longer name the wrong system function: a ⇧⌘4 shortcut was reported as clashing with "Show Notification Center" when it actually clashes with saving a screenshot of a selected area.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.12.zip" length="5598398" type="application/octet-stream" sparkle:edSignature="LIHlQlSpzrdlHcGFHg8490GI+quNc7phdWw+Z2053EojPVX7BYxLARI14+3RT3H2DvMExOOeWFiG+akwEIvDCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi13-12.delta" sparkle:deltaFrom="12" length="1691198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="8FC373XRP5mRa5T5Z/mYghbF9kuSm27mf9nKZDVqr9QG60nchSMR5y0rnsHRsmeHetCaBuAi+d3wWRAWcAygBg=="/>
+                <enclosure url="https://keysi.io/releases/Keysi13-10.delta" sparkle:deltaFrom="10" length="1706770" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="cDJ40NrAlM4Hl4u1tiNdnMfpZOqRE92pZxbcdJLLKwJNHNuvasAQ64s2YAg63lKDGFblqCNzEKhUswuJGYhbCw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi13-9.delta" sparkle:deltaFrom="9" length="1815250" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="hJBPxSOrrm0ohLOiuKbX2K1WOm7GwAFl2QW33oS1V+DVbqhWy0ywokUElM+HDvrWlm1iZde+IAsaczrV7jE7CQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi13-8.delta" sparkle:deltaFrom="8" length="1831002" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="dpVdXyKHyJm8o/ThTgNYOHsJkjPKptgfvVwItAl/AGq96TVW1JSR/XIhWqZSjeCpPUE2c+l862UFqtsQBwF8Cw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi13-7.delta" sparkle:deltaFrom="7" length="1842162" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="87O4o+A1KHTXYW+wm84EQ0T5shgvfUTOSEn7zwwJAyA4Q/Iuw/077I/tCZ1FhDfTt+bPFuBMNBvc0sfKNYcfDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.11</title>
             <pubDate>Tue, 15 Sep 2026 09:59:19 +0200</pubDate>
             <sparkle:version>12</sparkle:version>
