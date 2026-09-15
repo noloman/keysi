@@ -3,6 +3,46 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.13</title>
+            <pubDate>Tue, 15 Sep 2026 14:07:21 +0200</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>One change.</p>
+<ul>
+  <li>The overlay's text now starts at 14pt instead of 12pt, and <strong>⌘+ / ⌘− / ⌘0</strong> change the size while it's open.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.13.zip" length="5598918" type="application/octet-stream" sparkle:edSignature="19CTGlEvOJwJc+ftPXCLAXVFg9kuA1lQ1PmsNMuvMjvZy/uXueygVactNtq3L6EpG3GFTm45QRRtCwDurs4wDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi14-13.delta" sparkle:deltaFrom="13" length="340838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="L/2uv0aOV6T1EIxCDp/KOVaLaFphIqmWx7i9WFnlAXgGXmoiDHJtu/SaBOp59INIgyqneMUzYmTYD8d0ux1kBQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi14-12.delta" sparkle:deltaFrom="12" length="1695610" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="PqvGxlir623gSKhe5zqJZSv2ua77EJ03gxE9hRZgrjMrpGETAixF3xTbJWBJhSNtDwls1r1FIU8VGlztD4QbCw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi14-10.delta" sparkle:deltaFrom="10" length="1706534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="wX4+M5wNGHAUByJLyTM137tm5P2dPWhrHy+dbqQ6jR3gbg43XoVk+FzZmIJfSiOI6ksRsLv8H5pXU125H421AQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi14-9.delta" sparkle:deltaFrom="9" length="1821874" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="3POpt6PCgrTku/jZIqDdT9hOof62pfzs0Qq7RaglLdwM8judXOJU68aQOQHZZaZfv23A6XoV9ZszB6YgPwc7Ag=="/>
+                <enclosure url="https://keysi.io/releases/Keysi14-8.delta" sparkle:deltaFrom="8" length="1832790" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="a5RJZH/bqNkR86sWVDs3TOBW23VTr6Po8I2WH4/OmjJaC8nYnNTAFWNqf7ARBbVJseMvol9bnYuuqffe/c8SAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.12</title>
             <pubDate>Tue, 15 Sep 2026 13:03:32 +0200</pubDate>
             <sparkle:version>13</sparkle:version>
