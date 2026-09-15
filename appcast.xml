@@ -3,6 +3,46 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.14</title>
+            <pubDate>Tue, 15 Sep 2026 14:45:58 +0200</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>One new feature.</p>
+<ul>
+  <li>Settings ▸ Shortcuts now shows each app's real icon beside its cheat sheet, and the sheet editor's "Applies to" list shows the icon and name instead of a bare bundle identifier.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.14.zip" length="5605144" type="application/octet-stream" sparkle:edSignature="Dk6rYYJUUsFYcz9vBmhh8bGOVzuixrXYYyV1ZwOdAnFnNAMhXtrOXP+KtAoeUljftqq/oGjFB10Mvw0p/yECDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi15-14.delta" sparkle:deltaFrom="14" length="420042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="G3+8/UWQfoucPLy/irJlgemqt86LRp07egtX3BuMoIvFSyAIg94cy17VUjy9yse12MjIvPSAwHLU0lC7aA4FDA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi15-13.delta" sparkle:deltaFrom="13" length="462738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="db9OJlt3PAGNBDY35g8zQf70qNjekiTMhlYWhbNTjxRCEdbft4WV4Og0u3//38iQ+z0s7k75n5RwkR+y1T1RDA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi15-12.delta" sparkle:deltaFrom="12" length="1707534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="ICBwA/S6a7+frdh7LDAH/aL9fOaW7GNIs6tsUqRMOxQ3EEmbl7hIk7ADzIXGzjryRejuCpQjj7LV/rdu2j6+Aw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi15-10.delta" sparkle:deltaFrom="10" length="1722798" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="WAkhg8Llrx3mZJaHxLioGNA0Il4JPWSosk1kQ+IjRG44JJsCh7APndFO3s/HUAot7FQajDqHS4sen7mW9bJcCA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi15-9.delta" sparkle:deltaFrom="9" length="1834462" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="O/tkEItBuu+xCb1p67ASs3EzFw98Sw1jX3dIU6Zb6nJroCH0SbFh4tJlnh2//cZnTtbCJOm9DYCw49yau+ZlAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.13</title>
             <pubDate>Tue, 15 Sep 2026 14:07:21 +0200</pubDate>
             <sparkle:version>14</sparkle:version>
