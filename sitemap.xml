@@ -116,7 +116,22 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://keysi.io/shortcuts-automator.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://keysi.io/shortcuts-calculator.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://keysi.io/shortcuts-calendar.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://keysi.io/shortcuts-console.html</loc>
     <lastmod>2026-09-16</lastmod>
     <priority>0.6</priority>
   </url>
@@ -137,6 +152,11 @@
   </url>
   <url>
     <loc>https://keysi.io/shortcuts-db-browser-for-sqlite.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://keysi.io/shortcuts-disk-utility.html</loc>
     <lastmod>2026-09-16</lastmod>
     <priority>0.6</priority>
   </url>
@@ -216,6 +236,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://keysi.io/shortcuts-rapidapi.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://keysi.io/shortcuts-reminders.html</loc>
     <lastmod>2026-09-16</lastmod>
     <priority>0.6</priority>
@@ -247,6 +272,11 @@
   </url>
   <url>
     <loc>https://keysi.io/shortcuts-textedit.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://keysi.io/shortcuts-warp.html</loc>
     <lastmod>2026-09-16</lastmod>
     <priority>0.6</priority>
   </url>
