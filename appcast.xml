@@ -3,6 +3,63 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.15</title>
+            <pubDate>Thu, 17 Sep 2026 11:23:57 +0200</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>Six new features, three changes and nine fixes.</p>
+<ul>
+  <li>Shortcut Coach now also notices menu items you choose with the keyboard (Control-F2, the arrow keys and Return).</li>
+  <li>A built-in Ghostty sheet adds the 31 default shortcuts its menus leave out, including prompt jumping, scrollback, tab numbers, search and line editing.</li>
+  <li>On macOS 27, the shortcuts in your custom sheets are indexed into Spotlight as App Entities, the form that Spotlight's semantic search and Siri work with.</li>
+  <li>Built-in Notion and Obsidian sheets add the editing, navigation and block shortcuts their menu bars leave out — 46 for Notion and 35 for Obsidian.</li>
+  <li>Settings → Appearance has a new Style section for the overlay: a glass, tinted or solid background, raised, flat or text-only keys, your own accent colour, and subtler or rounder corners.</li>
+  <li>Feature requests now have a public page, <a href="https://keysi.io/roadmap.html">keysi.io/roadmap.html</a>, where <strong>I want this too</strong> opens Keysi's feedback form as a vote for that request, with nothing sent until you press Send.</li>
+  <li>Shortcut sheets you export as Markdown or PDF now end with a link to <a href="https://keysi.io">keysi.io</a>, so whoever you share one with can find where it came from.</li>
+  <li>Practice drills now skip the menu items every app has, such as Settings and Hide Others, so a first drill asks the app's own commands.</li>
+  <li>Overlay search now matches on each word you type rather than the whole phrase, and puts the menu with the best match first — so "hide the left sidebar" finds <strong>View ▸ Hide Sidebar</strong> instead of coming back empty.</li>
+  <li>Shortcut Coach no longer files an item from another app's menu bar icon under the app you are working in.</li>
+  <li>Shortcut Coach now records how long a menu trip took when you open the menu with one click and choose with another, instead of only when you press, drag and release.</li>
+  <li>Shortcuts that use the Globe key now show it, so <strong>Window ▸ Fill</strong> reads ⌃🌐F instead of ⌃F, and the <strong>Move &amp; Resize</strong> commands no longer carry a false warning that they clash with Mission Control.</li>
+  <li>The Globe and Dictation keys now appear as the same monochrome symbols macOS menus use, instead of colour emoji.</li>
+  <li>Typing a shortcut like ⌘K no longer brings up the overlay, even in Terminal with Secure Keyboard Entry, in password fields, or when another app owns the shortcut, and holding ⌘ now works with Caps Lock on.</li>
+  <li>The overlay's header and footer dividers no longer poke out past the panel's rounded edge.</li>
+  <li>Exported PDFs now start at the top of the page instead of floating halfway down when the list is short.</li>
+  <li>VoiceOver now reads key names such as <strong>Left Arrow</strong> and <strong>Page Up</strong> in your language instead of always in English.</li>
+  <li>Spotlight search over custom sheets no longer stalls without a word when macOS refuses Keysi's entries, as macOS 27.0 does: Keysi logs why, and the Integrations window flags it.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.15.zip" length="5766723" type="application/octet-stream" sparkle:edSignature="QpOI8HfTo58DGPWjXO49JdEgZINF3ODAzklBfg5m+ur8EJc9DoqBMRysnhnN4whpaNVrinZ+ao4jaVog1ZsGCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi16-15.delta" sparkle:deltaFrom="15" length="870322" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="DhD1Mqyw1gJrCORzCYVIMEUhvL8N2AEyG0pjM/gPIazaJqILMjQJppAmyRox3JlDnzVsu0403zKZeEWnE1O+CA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi16-14.delta" sparkle:deltaFrom="14" length="890210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="2IFdjO1IJZIGnpVYdecBOnIFT42CxWw/8pSoy7rX7LSGXesu0ituUp13Q+GYh7EQGVPq2EZwTOKl5Kkxq7Q2CQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi16-13.delta" sparkle:deltaFrom="13" length="897458" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="CJ3+e+gOlR/UHB4FQxTkrmHo9hmT2B22th66qPfX6T9hmnFyelONYT/MVAetvQFbB55SajZY8jT/Fz+xRzXyDA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi16-12.delta" sparkle:deltaFrom="12" length="1920290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="PKlXnVmsliXUMJvFJLJyx8JzwB4n2L/tJaeFjXBWLUDmEf+Owm3PG69yygBmNVbYaWnVJlpNIjBpptlfWckXBg=="/>
+                <enclosure url="https://keysi.io/releases/Keysi16-10.delta" sparkle:deltaFrom="10" length="1933746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="9FPRvyAWojrtnPqUuiDrSYc/GFevnwhrZ+jUzZ09HwK/71wPkP1aYFLuyCamMUq40aWTOIvghQV2omVkAIKbDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.14</title>
             <pubDate>Tue, 15 Sep 2026 14:45:58 +0200</pubDate>
             <sparkle:version>15</sparkle:version>
