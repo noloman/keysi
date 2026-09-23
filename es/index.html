@@ -46,7 +46,7 @@
   "url": "https://keysi.io/es/",
   "image": "https://keysi.io/assets/img/og.png",
   "description": "Mantén pulsado un modificador y verás todos los atajos de teclado de la app de Mac que estés usando, agrupados por menú, dibujados como teclas reales, y podrás pulsar cualquier fila para ejecutarla. Gratis y sin límite de tiempo; Keysi Pro añade un entrenamiento que te enseña los atajos que se te siguen escapando.",
-  "softwareVersion": "1.0.19",
+  "softwareVersion": "1.0.20",
   "downloadUrl": "https://github.com/noloman/keysi/releases/latest",
   "inLanguage": [
     "en",
@@ -363,6 +363,15 @@
       <div class="faq-body">
         <p>No, y es deliberado. Un monitor global de eventos puede observar tus pulsaciones, pero no consumirlas, así que cualquier cosa que escribieras con ⌘ pulsada llegaría igualmente a la app de debajo, y Keysi no va a instalar el tipo de captura de entrada que podría cambiarlo. Mantener ⌘ te lo enseña todo; lo único que no puede es filtrarlo.</p>
         <p>Pulsa el atajo global (⇧⌘K por omisión) en su lugar: se abre el mismo contenido como un panel interactivo de verdad, donde la búsqueda, las flechas y Escape funcionan.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>¿Qué es el candado en la cabecera del panel?</summary>
+      <div class="faq-body">
+        <p>Significa que la entrada segura está activada. Mientras lo está, macOS oculta lo que escribes a todas las apps salvo aquella en la que escribes, Keysi incluida. Las apps la activan en los campos de contraseña, y Terminal lo hace con la entrada de teclado segura.</p>
+        <p>El panel funciona con normalidad. Lo que se detiene es el recuento de Shortcut Coach de los atajos que tecleas. Pulsa el candado y Keysi te dice qué app activó la entrada segura y cómo desactivarla.</p>
+        <p>Casi siempre es el propio macOS: al desbloquear el Mac, su ventana de inicio de sesión a veces deja activada la entrada segura. Bloquea y desbloquea el Mac (⌃⌘Q) y el candado desaparece.</p>
       </div>
     </details>
 
