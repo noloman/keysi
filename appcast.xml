@@ -3,6 +3,46 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.18</title>
+            <pubDate>Wed, 23 Sep 2026 10:16:50 +0200</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>1.0.18</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>One fix.</p>
+<ul>
+  <li>With usage analytics off, Keysi no longer contacts the analytics service at all. Before, it fetched the service's settings at every launch even with the toggle off.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.18.zip" length="5783698" type="application/octet-stream" sparkle:edSignature="aUkeig7y9zO0msRzsvn1mzhnktppccFZQnUfAKv4Pc7Q4RIbln9w4Hlgzwd6qoUOJVref0FmG+D8w8nMv/ldBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi19-18.delta" sparkle:deltaFrom="18" length="407430" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="uGG8y7U6a5u6ORZl9n+F8Hj37Gu/7aTfO/cUBFW3iqO/ZXLOXfvRjHVFIXVsxs3FHTYktCFqGmK/YGBRCffQAg=="/>
+                <enclosure url="https://keysi.io/releases/Keysi19-17.delta" sparkle:deltaFrom="17" length="566810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="6hwWs6ir+23H7Ik5VLHENsbGASQq+Kj6nZ24rCE01JciUSgfSS4uARZKCOszq7QR1TTCeD6PLh0zAFJRep+EAQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi19-16.delta" sparkle:deltaFrom="16" length="575742" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="kNAyv193aWGZY3eB9CKtHah1BLoL8LdNefnxSjYdplNTfy4+X9j1VaP8L1SFqGW/nc8A6kNJSBzu/xRnYl7EDA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi19-15.delta" sparkle:deltaFrom="15" length="933698" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="tJzzycR1yle/E633n5Cjvo8CkEC6Qcs9s3ryhJi4tSVouQgwr386JfGmbudxsVIuUgCq6y17a9SwNWG2LLDoDg=="/>
+                <enclosure url="https://keysi.io/releases/Keysi19-14.delta" sparkle:deltaFrom="14" length="959950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="t2i9IQrDS06m1mI8uVhuliQeheiGKfC/IorCgG9PpAH2Wcn771L8f84lNRt/uUMOMUZOpdzrWlaYGucsDA4vAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.17</title>
             <pubDate>Tue, 22 Sep 2026 15:16:02 +0200</pubDate>
             <sparkle:version>18</sparkle:version>
