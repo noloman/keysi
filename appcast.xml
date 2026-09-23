@@ -3,6 +3,48 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.20</title>
+            <pubDate>Wed, 23 Sep 2026 15:58:50 +0200</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>1.0.20</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>One change and two fixes.</p>
+<ul>
+  <li>The lock in the overlay's header now reads <strong>Secure input</strong>, and clicking it tells you which app turned it on and how to turn it off.</li>
+  <li>Holding ⌘ now shows the overlay the first time after you switch apps with ⌘-Tab, instead of needing a second hold.</li>
+  <li>The overlay no longer loses its app icon, name and buttons off the top when an app has a long menu, and it stays put instead of freezing at a half-grown size.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.20.zip" length="5818071" type="application/octet-stream" sparkle:edSignature="wvW08Cnp63KLfhKxqDvbmG0uMWogSs+qcpaXbKKs5FQ/lJf/uW/sguBmein9JFRSKpGQd8f4lTt1zxOS8yg5Bg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi21-20.delta" sparkle:deltaFrom="20" length="573886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="+Ovr+BrnF2eZM11TYSmkeDa0Apjr8KrSsoil0aUuuRWaLWXY69EbmrD3MGwxGzYjTY1n5cmqPRNNjAUrK4OgCg=="/>
+                <enclosure url="https://keysi.io/releases/Keysi21-19.delta" sparkle:deltaFrom="19" length="601950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="FBpVI+lFG4NQhnjw2MEfzZNl4k3ps3tEBZXbsTELN/mJrfrcEvklzYv6Hvo8Fq52y6YC2ZTf2ch7EnAu0ZVqCw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi21-18.delta" sparkle:deltaFrom="18" length="612970" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="S3IUm5TObC2H/97QN/W+GM8/eMzcbABFAb3dYtXSoTpfQL7NArXh8HyKqq9rfGIFbWYFv61s5MmGBNo+ZLKtAw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi21-17.delta" sparkle:deltaFrom="17" length="688166" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="GOg0CDG66a8eqB4h16SmyzCBGkZaEX4u8/Eisk+tOgdRcwd06axDPh6bbjEMH4H/6gawkR0QK6rWyvFkK4nIBw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi21-16.delta" sparkle:deltaFrom="16" length="691762" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="JZQm6aCqx2YSsdhtxb47XdgFigcjBdO4mDOsGET97HqcmsaPjQQbJyY+gnJ+na9myxdKAtXmveKAMgh/22oUBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.19</title>
             <pubDate>Wed, 23 Sep 2026 13:00:54 +0200</pubDate>
             <sparkle:version>20</sparkle:version>
