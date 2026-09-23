@@ -3,6 +3,46 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.19</title>
+            <pubDate>Wed, 23 Sep 2026 13:00:54 +0200</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>One fix.</p>
+<ul>
+  <li>Keysi now notices Accessibility access as soon as you grant it, instead of asking again until you quit and reopen it.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.19.zip" length="5795795" type="application/octet-stream" sparkle:edSignature="EekMzfOjtwusT73/NLnxo1sVFATSSoH6BBZpmF+w+xAuTUYpWC0JSvK/CoTY7tXjA6MAiUZ6fwgx2SuFeSq1Ag=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi20-19.delta" sparkle:deltaFrom="19" length="473382" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="7BlwqHYi/IIH+w8R8w5lmpkLzmdKxrqW8S5IcjYNuhOxFpF6MpghHlyTbbBRlGbGv+kfZy6sPQUc24xmhtjkDw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi20-18.delta" sparkle:deltaFrom="18" length="504890" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="4zcLccqqoDMjz4friiLSAsWF9z+xNA26gt3gO92ny2YmJxcW84xNKLOgcOlnjqBgIdf13fwG2XOJUL7irur1CQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi20-17.delta" sparkle:deltaFrom="17" length="600742" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Vv5BOPYYbzmQP74bl2wxtkWg6wTJdad1o6IaRh73N3di1RwNBw6Rs2rx+cCFmoEItIiMP9OtlY1o37bPPfMxCA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi20-16.delta" sparkle:deltaFrom="16" length="609918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="a+ykN9VkXkZ7V8mAr4esz/SzfWTayI2Qd74AQC5eF4nyZNxcraOjnMxBH34utLp+PO0ogxBK6n9aY3TO7tZLDw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi20-15.delta" sparkle:deltaFrom="15" length="960558" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="CR6FO2k0gq35/jp3wdI6CzN6mKB++NQuKZIfuJOIVTrBnKuyq1I0YFxcpjSP2xsOfGkFULBIF3IGeL+75wYrDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.18</title>
             <pubDate>Wed, 23 Sep 2026 10:16:50 +0200</pubDate>
             <sparkle:version>19</sparkle:version>
