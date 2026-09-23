@@ -1,0 +1,759 @@
+{
+  "id": "figma",
+  "name": {
+    "en": "Figma (tool shortcuts)",
+    "es": "Figma (atajos de herramientas)",
+    "fr": "Figma (raccourcis d'outils)",
+    "de": "Figma (Werkzeug-Kurzbefehle)",
+    "it": "Figma (scorciatoie strumenti)",
+    "pt-BR": "Figma (atalhos de ferramentas)",
+    "ja": "Figma(ツールのショートカット)",
+    "zh-Hans": "Figma(工具快捷键)",
+    "ko": "Figma(도구 단축키)"
+  },
+  "match": {
+    "bundleIDs": [
+      "com.figma.Desktop"
+    ],
+    "processNames": []
+  },
+  "mode": "augment",
+  "priority": 50,
+  "groups": [
+    {
+      "title": {
+        "en": "Tools",
+        "es": "Herramientas",
+        "fr": "Outils",
+        "de": "Werkzeuge",
+        "it": "Strumenti",
+        "pt-BR": "Ferramentas",
+        "ja": "ツール",
+        "zh-Hans": "工具",
+        "ko": "도구"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Move tool",
+            "es": "Herramienta mover",
+            "fr": "Outil déplacement",
+            "de": "Verschieben-Werkzeug",
+            "it": "Strumento sposta",
+            "pt-BR": "Ferramenta mover",
+            "ja": "移動ツール",
+            "zh-Hans": "移动工具",
+            "ko": "이동 도구"
+          },
+          "keys": "V",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Frame tool",
+            "es": "Herramienta marco",
+            "fr": "Outil cadre",
+            "de": "Rahmen-Werkzeug",
+            "it": "Strumento frame",
+            "pt-BR": "Ferramenta frame",
+            "ja": "フレームツール",
+            "zh-Hans": "画板工具",
+            "ko": "프레임 도구"
+          },
+          "keys": "F",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Rectangle tool",
+            "es": "Herramienta rectángulo",
+            "fr": "Outil rectangle",
+            "de": "Rechteck-Werkzeug",
+            "it": "Strumento rettangolo",
+            "pt-BR": "Ferramenta retângulo",
+            "ja": "長方形ツール",
+            "zh-Hans": "矩形工具",
+            "ko": "사각형 도구"
+          },
+          "keys": "R",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Ellipse tool",
+            "es": "Herramienta elipse",
+            "fr": "Outil ellipse",
+            "de": "Ellipse-Werkzeug",
+            "it": "Strumento ellisse",
+            "pt-BR": "Ferramenta elipse",
+            "ja": "楕円ツール",
+            "zh-Hans": "椭圆工具",
+            "ko": "타원 도구"
+          },
+          "keys": "O",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Line tool",
+            "es": "Herramienta línea",
+            "fr": "Outil ligne",
+            "de": "Linien-Werkzeug",
+            "it": "Strumento linea",
+            "pt-BR": "Ferramenta linha",
+            "ja": "線ツール",
+            "zh-Hans": "直线工具",
+            "ko": "선 도구"
+          },
+          "keys": "L",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Text tool",
+            "es": "Herramienta texto",
+            "fr": "Outil texte",
+            "de": "Text-Werkzeug",
+            "it": "Strumento testo",
+            "pt-BR": "Ferramenta texto",
+            "ja": "テキストツール",
+            "zh-Hans": "文本工具",
+            "ko": "텍스트 도구"
+          },
+          "keys": "T",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Pen tool",
+            "es": "Herramienta pluma",
+            "fr": "Outil plume",
+            "de": "Zeichenstift",
+            "it": "Strumento penna",
+            "pt-BR": "Ferramenta caneta",
+            "ja": "ペンツール",
+            "zh-Hans": "钢笔工具",
+            "ko": "펜 도구"
+          },
+          "keys": "P",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Comment tool",
+            "es": "Herramienta comentario",
+            "fr": "Outil commentaire",
+            "de": "Kommentar-Werkzeug",
+            "it": "Strumento commento",
+            "pt-BR": "Ferramenta comentário",
+            "ja": "コメントツール",
+            "zh-Hans": "评论工具",
+            "ko": "댓글 도구"
+          },
+          "keys": "C",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Slice tool",
+            "es": "Herramienta segmento",
+            "fr": "Outil découpe",
+            "de": "Slice-Werkzeug",
+            "it": "Strumento slice",
+            "pt-BR": "Ferramenta fatia",
+            "ja": "スライスツール",
+            "zh-Hans": "切片工具",
+            "ko": "슬라이스 도구"
+          },
+          "keys": "S",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Scale tool",
+            "es": "Herramienta escala",
+            "fr": "Outil échelle",
+            "de": "Skalieren-Werkzeug",
+            "it": "Strumento scala",
+            "pt-BR": "Ferramenta escala",
+            "ja": "拡大縮小ツール",
+            "zh-Hans": "缩放工具",
+            "ko": "크기 조절 도구"
+          },
+          "keys": "K",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Zoom & view",
+        "es": "Zoom y vista",
+        "fr": "Zoom et affichage",
+        "de": "Zoom & Ansicht",
+        "it": "Zoom e vista",
+        "pt-BR": "Zoom e visualização",
+        "ja": "ズームと表示",
+        "zh-Hans": "缩放与视图",
+        "ko": "확대 및 보기"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Zoom to fit",
+            "es": "Ajustar a la pantalla",
+            "fr": "Ajuster à l'écran",
+            "de": "Einpassen",
+            "it": "Adatta allo schermo",
+            "pt-BR": "Ajustar à tela",
+            "ja": "全体を表示",
+            "zh-Hans": "缩放以适应",
+            "ko": "화면에 맞추기"
+          },
+          "keys": "shift+1",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Zoom to selection",
+            "es": "Ajustar a la selección",
+            "fr": "Ajuster à la sélection",
+            "de": "Auf Auswahl zoomen",
+            "it": "Adatta alla selezione",
+            "pt-BR": "Ajustar à seleção",
+            "ja": "選択範囲を表示",
+            "zh-Hans": "缩放到所选",
+            "ko": "선택 영역에 맞추기"
+          },
+          "keys": "shift+2",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Zoom to 100%",
+            "es": "Zoom al 100 %",
+            "fr": "Zoom à 100 %",
+            "de": "Auf 100 % zoomen",
+            "it": "Zoom al 100%",
+            "pt-BR": "Zoom para 100%",
+            "ja": "100%表示",
+            "zh-Hans": "缩放到 100%",
+            "ko": "100%로 보기"
+          },
+          "keys": "shift+0",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Zoom to previous frame",
+            "es": "Ir al marco anterior",
+            "fr": "Cadre précédent",
+            "de": "Vorheriger Rahmen",
+            "it": "Frame precedente",
+            "pt-BR": "Frame anterior",
+            "ja": "前のフレームへ",
+            "zh-Hans": "上一个画板",
+            "ko": "이전 프레임"
+          },
+          "keys": "shift+3",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Toggle rulers",
+            "es": "Mostrar u ocultar reglas",
+            "fr": "Afficher les règles",
+            "de": "Lineale ein-/ausblenden",
+            "it": "Mostra righelli",
+            "pt-BR": "Alternar réguas",
+            "ja": "ルーラーを表示切替",
+            "zh-Hans": "显示/隐藏标尺",
+            "ko": "눈금자 전환"
+          },
+          "keys": "shift+r",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Toggle layout grid",
+            "es": "Mostrar u ocultar cuadrícula",
+            "fr": "Afficher la grille",
+            "de": "Layoutraster umschalten",
+            "it": "Mostra griglia",
+            "pt-BR": "Alternar grade",
+            "ja": "レイアウトグリッド切替",
+            "zh-Hans": "显示/隐藏栅格",
+            "ko": "레이아웃 그리드 전환"
+          },
+          "keys": "ctrl+g",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Show or hide UI",
+            "es": "Mostrar u ocultar interfaz",
+            "fr": "Afficher ou masquer l'interface",
+            "de": "UI ein-/ausblenden",
+            "it": "Mostra o nascondi interfaccia",
+            "pt-BR": "Mostrar ou ocultar interface",
+            "ja": "UIの表示切替",
+            "zh-Hans": "显示或隐藏界面",
+            "ko": "UI 표시 전환"
+          },
+          "keys": "shift+cmd+\\",
+          "raw": false
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Edit",
+        "es": "Editar",
+        "fr": "Édition",
+        "de": "Bearbeiten",
+        "it": "Modifica",
+        "pt-BR": "Editar",
+        "ja": "編集",
+        "zh-Hans": "编辑",
+        "ko": "편집"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Duplicate",
+            "es": "Duplicar",
+            "fr": "Dupliquer",
+            "de": "Duplizieren",
+            "it": "Duplica",
+            "pt-BR": "Duplicar",
+            "ja": "複製",
+            "zh-Hans": "复制副本",
+            "ko": "복제"
+          },
+          "keys": "cmd+d",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Group selection",
+            "es": "Agrupar selección",
+            "fr": "Grouper la sélection",
+            "de": "Auswahl gruppieren",
+            "it": "Raggruppa selezione",
+            "pt-BR": "Agrupar seleção",
+            "ja": "選択をグループ化",
+            "zh-Hans": "编组所选",
+            "ko": "선택 그룹화"
+          },
+          "keys": "cmd+g",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Ungroup",
+            "es": "Desagrupar",
+            "fr": "Dégrouper",
+            "de": "Gruppierung aufheben",
+            "it": "Separa gruppo",
+            "pt-BR": "Desagrupar",
+            "ja": "グループ解除",
+            "zh-Hans": "取消编组",
+            "ko": "그룹 해제"
+          },
+          "keys": "shift+cmd+g",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Rename selection",
+            "es": "Cambiar nombre",
+            "fr": "Renommer la sélection",
+            "de": "Auswahl umbenennen",
+            "it": "Rinomina selezione",
+            "pt-BR": "Renomear seleção",
+            "ja": "名前を変更",
+            "zh-Hans": "重命名所选",
+            "ko": "이름 변경"
+          },
+          "keys": "cmd+r",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Show or hide selection",
+            "es": "Mostrar u ocultar selección",
+            "fr": "Afficher ou masquer",
+            "de": "Auswahl ein-/ausblenden",
+            "it": "Mostra o nascondi selezione",
+            "pt-BR": "Mostrar ou ocultar seleção",
+            "ja": "選択の表示切替",
+            "zh-Hans": "显示或隐藏所选",
+            "ko": "선택 표시 전환"
+          },
+          "keys": "shift+cmd+h",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Lock or unlock selection",
+            "es": "Bloquear o desbloquear",
+            "fr": "Verrouiller ou déverrouiller",
+            "de": "Auswahl sperren",
+            "it": "Blocca o sblocca",
+            "pt-BR": "Bloquear ou desbloquear",
+            "ja": "選択をロック切替",
+            "zh-Hans": "锁定或解锁所选",
+            "ko": "선택 잠금 전환"
+          },
+          "keys": "shift+cmd+l",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Frame selection",
+            "es": "Enmarcar selección",
+            "fr": "Encadrer la sélection",
+            "de": "Auswahl rahmen",
+            "it": "Inquadra selezione",
+            "pt-BR": "Enquadrar seleção",
+            "ja": "選択をフレーム化",
+            "zh-Hans": "将所选放入画板",
+            "ko": "선택을 프레임으로"
+          },
+          "keys": "alt+cmd+g",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Flatten selection",
+            "es": "Aplanar selección",
+            "fr": "Aplatir la sélection",
+            "de": "Auswahl reduzieren",
+            "it": "Appiattisci selezione",
+            "pt-BR": "Achatar seleção",
+            "ja": "選択を統合",
+            "zh-Hans": "拼合所选",
+            "ko": "선택 병합"
+          },
+          "keys": "cmd+e",
+          "raw": false
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Arrange",
+        "es": "Organizar",
+        "fr": "Disposition",
+        "de": "Anordnen",
+        "it": "Disponi",
+        "pt-BR": "Organizar",
+        "ja": "配置",
+        "zh-Hans": "排列",
+        "ko": "정렬"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Align left",
+            "es": "Alinear a la izquierda",
+            "fr": "Aligner à gauche",
+            "de": "Links ausrichten",
+            "it": "Allinea a sinistra",
+            "pt-BR": "Alinhar à esquerda",
+            "ja": "左揃え",
+            "zh-Hans": "左对齐",
+            "ko": "왼쪽 정렬"
+          },
+          "keys": "alt+a",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Align right",
+            "es": "Alinear a la derecha",
+            "fr": "Aligner à droite",
+            "de": "Rechts ausrichten",
+            "it": "Allinea a destra",
+            "pt-BR": "Alinhar à direita",
+            "ja": "右揃え",
+            "zh-Hans": "右对齐",
+            "ko": "오른쪽 정렬"
+          },
+          "keys": "alt+d",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Align top",
+            "es": "Alinear arriba",
+            "fr": "Aligner en haut",
+            "de": "Oben ausrichten",
+            "it": "Allinea in alto",
+            "pt-BR": "Alinhar ao topo",
+            "ja": "上揃え",
+            "zh-Hans": "顶端对齐",
+            "ko": "위쪽 정렬"
+          },
+          "keys": "alt+w",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Align bottom",
+            "es": "Alinear abajo",
+            "fr": "Aligner en bas",
+            "de": "Unten ausrichten",
+            "it": "Allinea in basso",
+            "pt-BR": "Alinhar à base",
+            "ja": "下揃え",
+            "zh-Hans": "底端对齐",
+            "ko": "아래쪽 정렬"
+          },
+          "keys": "alt+s",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Align horizontal centers",
+            "es": "Centrar horizontalmente",
+            "fr": "Centrer horizontalement",
+            "de": "Horizontal zentrieren",
+            "it": "Centra orizzontalmente",
+            "pt-BR": "Centralizar horizontalmente",
+            "ja": "左右中央揃え",
+            "zh-Hans": "水平居中",
+            "ko": "가로 가운데 정렬"
+          },
+          "keys": "alt+h",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Align vertical centers",
+            "es": "Centrar verticalmente",
+            "fr": "Centrer verticalement",
+            "de": "Vertikal zentrieren",
+            "it": "Centra verticalmente",
+            "pt-BR": "Centralizar verticalmente",
+            "ja": "上下中央揃え",
+            "zh-Hans": "垂直居中",
+            "ko": "세로 가운데 정렬"
+          },
+          "keys": "alt+v",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Bring to front",
+            "es": "Traer al frente",
+            "fr": "Mettre au premier plan",
+            "de": "In den Vordergrund",
+            "it": "Porta in primo piano",
+            "pt-BR": "Trazer para frente",
+            "ja": "最前面へ",
+            "zh-Hans": "置于顶层",
+            "ko": "맨 앞으로"
+          },
+          "keys": "shift+cmd+]",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Send to back",
+            "es": "Enviar al fondo",
+            "fr": "Mettre à l'arrière-plan",
+            "de": "In den Hintergrund",
+            "it": "Porta in fondo",
+            "pt-BR": "Enviar para trás",
+            "ja": "最背面へ",
+            "zh-Hans": "置于底层",
+            "ko": "맨 뒤로"
+          },
+          "keys": "shift+cmd+[",
+          "raw": false
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Text",
+        "es": "Texto",
+        "fr": "Texte",
+        "de": "Text",
+        "it": "Testo",
+        "pt-BR": "Texto",
+        "ja": "テキスト",
+        "zh-Hans": "文本",
+        "ko": "텍스트"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Bold",
+            "es": "Negrita",
+            "fr": "Gras",
+            "de": "Fett",
+            "it": "Grassetto",
+            "pt-BR": "Negrito",
+            "ja": "太字",
+            "zh-Hans": "加粗",
+            "ko": "굵게"
+          },
+          "keys": "cmd+b",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Italic",
+            "es": "Cursiva",
+            "fr": "Italique",
+            "de": "Kursiv",
+            "it": "Corsivo",
+            "pt-BR": "Itálico",
+            "ja": "斜体",
+            "zh-Hans": "斜体",
+            "ko": "기울임"
+          },
+          "keys": "cmd+i",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Underline",
+            "es": "Subrayado",
+            "fr": "Souligné",
+            "de": "Unterstrichen",
+            "it": "Sottolineato",
+            "pt-BR": "Sublinhado",
+            "ja": "下線",
+            "zh-Hans": "下划线",
+            "ko": "밑줄"
+          },
+          "keys": "cmd+u",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Align text left",
+            "es": "Alinear texto a la izquierda",
+            "fr": "Aligner le texte à gauche",
+            "de": "Text links ausrichten",
+            "it": "Allinea testo a sinistra",
+            "pt-BR": "Alinhar texto à esquerda",
+            "ja": "テキストを左揃え",
+            "zh-Hans": "文本左对齐",
+            "ko": "텍스트 왼쪽 정렬"
+          },
+          "keys": "alt+cmd+l",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Align text center",
+            "es": "Centrar texto",
+            "fr": "Centrer le texte",
+            "de": "Text zentrieren",
+            "it": "Centra testo",
+            "pt-BR": "Centralizar texto",
+            "ja": "テキストを中央揃え",
+            "zh-Hans": "文本居中",
+            "ko": "텍스트 가운데 정렬"
+          },
+          "keys": "alt+cmd+t",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Align text right",
+            "es": "Alinear texto a la derecha",
+            "fr": "Aligner le texte à droite",
+            "de": "Text rechts ausrichten",
+            "it": "Allinea testo a destra",
+            "pt-BR": "Alinhar texto à direita",
+            "ja": "テキストを右揃え",
+            "zh-Hans": "文本右对齐",
+            "ko": "텍스트 오른쪽 정렬"
+          },
+          "keys": "alt+cmd+r",
+          "raw": false
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Components",
+        "es": "Componentes",
+        "fr": "Composants",
+        "de": "Komponenten",
+        "it": "Componenti",
+        "pt-BR": "Componentes",
+        "ja": "コンポーネント",
+        "zh-Hans": "组件",
+        "ko": "컴포넌트"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Create component",
+            "es": "Crear componente",
+            "fr": "Créer un composant",
+            "de": "Komponente erstellen",
+            "it": "Crea componente",
+            "pt-BR": "Criar componente",
+            "ja": "コンポーネントを作成",
+            "zh-Hans": "创建组件",
+            "ko": "컴포넌트 만들기"
+          },
+          "keys": "alt+cmd+k",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Detach instance",
+            "es": "Separar instancia",
+            "fr": "Détacher l'instance",
+            "de": "Instanz lösen",
+            "it": "Stacca istanza",
+            "pt-BR": "Desanexar instância",
+            "ja": "インスタンスを切り離す",
+            "zh-Hans": "分离实例",
+            "ko": "인스턴스 분리"
+          },
+          "keys": "alt+cmd+b",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Go to main component",
+            "es": "Ir al componente principal",
+            "fr": "Aller au composant principal",
+            "de": "Zur Hauptkomponente",
+            "it": "Vai al componente principale",
+            "pt-BR": "Ir ao componente principal",
+            "ja": "メインコンポーネントへ",
+            "zh-Hans": "转到主组件",
+            "ko": "메인 컴포넌트로"
+          },
+          "keys": "alt+2",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Open assets panel",
+            "es": "Abrir panel de recursos",
+            "fr": "Ouvrir le panneau ressources",
+            "de": "Assets-Panel öffnen",
+            "it": "Apri pannello risorse",
+            "pt-BR": "Abrir painel de recursos",
+            "ja": "アセットパネルを開く",
+            "zh-Hans": "打开资源面板",
+            "ko": "에셋 패널 열기"
+          },
+          "keys": "shift+i",
+          "raw": false
+        }
+      ]
+    }
+  ]
+}

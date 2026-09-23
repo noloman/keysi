@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>How to see any Mac app's keyboard shortcuts — Keysi</title>
-<meta name="description" content="Three ways macOS already lets you see an app's keyboard shortcuts, where each one stops, and how Keysi shows the frontmost app's whole list at once — grouped by menu, click any row to run it. Free, with no time limit.">
+<meta name="description" content="Three ways macOS lets you see an app's keyboard shortcuts, where each one stops, and how Keysi shows the whole list at once. Free, with no time limit.">
 <link rel="canonical" href="https://keysi.io/show-keyboard-shortcuts-mac.html">
 <link rel="icon" href="assets/favicon/icon.svg" type="image/svg+xml">
 <link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
@@ -60,7 +60,7 @@
       "name": "How do I see keyboard shortcuts for an app that has no menu bar entries for them?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Some apps keep their real keyboard shortcuts out of the menu bar entirely. Figma, Slack and terminal programs like Vim and tmux are common examples. Keysi covers these with custom cheat sheets: Figma, Slack, Vim and tmux ship built in, and you can write your own for any app in Keysi's editor."
+        "text": "Some apps keep their real keyboard shortcuts out of the menu bar entirely. Figma, Slack and terminal programs like Vim and tmux are common examples. Keysi covers these with custom cheat sheets: ten ship built in, including Figma, Slack, Vim and tmux, and you can write your own for any app in Keysi's editor."
       }
     }
   ]
@@ -207,8 +207,8 @@
     and a terminal program like Vim or tmux has no Mac menu bar to put
     them in. For those, Keysi uses custom cheat sheets: hand-written
     lists that attach to an app by identity.
-    <a href="sheets.html">Figma, Slack, Vim and tmux ship built in</a>,
-    and there's an editor for writing your own for any app, with no JSON by
+    <a href="sheets.html">Ten ship built in</a>, including Figma, Slack,
+    Vim and tmux, and there's an editor for writing your own for any app, with no JSON by
     hand unless you want to.
   </p>
   <p>
@@ -276,6 +276,16 @@
     <a class="btn btn-primary btn-lg" href="index.html#download">Download for macOS</a>
     <a class="btn btn-secondary btn-lg" href="index.html#pricing">Pricing</a>
   </div>
+
+  <h2>Common questions</h2>
+  <h3>How do I see the keyboard shortcuts for the app I'm using on a Mac?</h3>
+  <p>macOS shows an app's shortcuts next to the items in its own menu bar, one menu at a time, and most apps let you search their menus from the Help menu. Neither shows you the whole list at once, and submenu items stay hidden until you open the submenu. Keysi is a menu-bar utility that reads the frontmost app's live menu structure and shows every shortcut at once, grouped by menu, when you hold a modifier key.</p>
+  <h3>Is there a built-in list of all keyboard shortcuts on a Mac?</h3>
+  <p>There is a built-in list of the system's own shortcuts, in System Settings under Keyboard, Keyboard Shortcuts. It does not cover the app you are currently using — each app's shortcuts live in that app's menus, and macOS has no single screen that collects them.</p>
+  <h3>Why does a keyboard shortcut shown in an app's menu sometimes do nothing?</h3>
+  <p>macOS claims some key combinations for itself, and a system shortcut is handled before the keystroke reaches the app. The app's menu still prints the shortcut, so there is no way to tell from the menu alone. Keysi reads the system's own shortcut assignments and flags any app shortcut macOS will intercept first.</p>
+  <h3>How do I see keyboard shortcuts for an app that has no menu bar entries for them?</h3>
+  <p>Some apps keep their real keyboard shortcuts out of the menu bar entirely. Figma, Slack and terminal programs like Vim and tmux are common examples. Keysi covers these with custom cheat sheets: ten ship built in, including Figma, Slack, Vim and tmux, and you can write your own for any app in Keysi's editor.</p>
 
   <h2>Related</h2>
   <ul>

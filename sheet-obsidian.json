@@ -1,0 +1,590 @@
+{
+  "id": "obsidian",
+  "name": {
+    "en": "Obsidian",
+    "es": "Obsidian",
+    "fr": "Obsidian",
+    "de": "Obsidian",
+    "it": "Obsidian",
+    "pt-BR": "Obsidian",
+    "ja": "Obsidian",
+    "zh-Hans": "Obsidian",
+    "ko": "Obsidian"
+  },
+  "match": {
+    "bundleIDs": [
+      "md.obsidian"
+    ],
+    "processNames": []
+  },
+  "mode": "augment",
+  "priority": 0,
+  "groups": [
+    {
+      "title": {
+        "en": "Finding your way",
+        "es": "Orientarse",
+        "fr": "Se repérer",
+        "de": "Navigation",
+        "it": "Orientarsi",
+        "pt-BR": "Navegação",
+        "ja": "移動と検索",
+        "zh-Hans": "导航",
+        "ko": "탐색"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Open the quick switcher",
+            "es": "Abrir el selector rápido",
+            "fr": "Ouvrir le sélecteur rapide",
+            "de": "Schnellauswahl öffnen",
+            "it": "Apri il selettore rapido",
+            "pt-BR": "Abrir o seletor rápido",
+            "ja": "クイックスイッチャーを開く",
+            "zh-Hans": "打开快速切换",
+            "ko": "빠른 전환기 열기"
+          },
+          "keys": "cmd+o"
+        },
+        {
+          "title": {
+            "en": "Open the command palette",
+            "es": "Abrir la paleta de comandos",
+            "fr": "Ouvrir la palette de commandes",
+            "de": "Befehlspalette öffnen",
+            "it": "Apri la tavolozza dei comandi",
+            "pt-BR": "Abrir a paleta de comandos",
+            "ja": "コマンドパレットを開く",
+            "zh-Hans": "打开命令面板",
+            "ko": "명령어 팔레트 열기"
+          },
+          "keys": "cmd+p"
+        },
+        {
+          "title": {
+            "en": "Search all files",
+            "es": "Buscar en todos los archivos",
+            "fr": "Rechercher dans tous les fichiers",
+            "de": "Alle Dateien durchsuchen",
+            "it": "Cerca in tutti i file",
+            "pt-BR": "Buscar em todos os arquivos",
+            "ja": "すべてのファイルを検索",
+            "zh-Hans": "搜索所有文件",
+            "ko": "모든 파일 검색"
+          },
+          "keys": "shift+cmd+f"
+        },
+        {
+          "title": {
+            "en": "Open the graph view",
+            "es": "Abrir la vista de grafo",
+            "fr": "Ouvrir la vue graphique",
+            "de": "Graphansicht öffnen",
+            "it": "Apri la vista a grafo",
+            "pt-BR": "Abrir a visualização de grafo",
+            "ja": "グラフビューを開く",
+            "zh-Hans": "打开关系图谱",
+            "ko": "그래프 보기 열기"
+          },
+          "keys": "cmd+g"
+        },
+        {
+          "title": {
+            "en": "Go back",
+            "es": "Retroceder",
+            "fr": "Revenir en arrière",
+            "de": "Zurück",
+            "it": "Indietro",
+            "pt-BR": "Voltar",
+            "ja": "戻る",
+            "zh-Hans": "后退",
+            "ko": "뒤로"
+          },
+          "keys": "opt+cmd+left"
+        },
+        {
+          "title": {
+            "en": "Go forward",
+            "es": "Avanzar",
+            "fr": "Aller en avant",
+            "de": "Vorwärts",
+            "it": "Avanti",
+            "pt-BR": "Avançar",
+            "ja": "進む",
+            "zh-Hans": "前进",
+            "ko": "앞으로"
+          },
+          "keys": "opt+cmd+right"
+        },
+        {
+          "title": {
+            "en": "Open settings",
+            "es": "Abrir los ajustes",
+            "fr": "Ouvrir les réglages",
+            "de": "Einstellungen öffnen",
+            "it": "Apri le impostazioni",
+            "pt-BR": "Abrir os ajustes",
+            "ja": "設定を開く",
+            "zh-Hans": "打开设置",
+            "ko": "설정 열기"
+          },
+          "keys": "cmd+,"
+        },
+        {
+          "title": {
+            "en": "Open help",
+            "es": "Abrir la ayuda",
+            "fr": "Ouvrir l’aide",
+            "de": "Hilfe öffnen",
+            "it": "Apri l’aiuto",
+            "pt-BR": "Abrir a ajuda",
+            "ja": "ヘルプを開く",
+            "zh-Hans": "打开帮助",
+            "ko": "도움말 열기"
+          },
+          "keys": "f1"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Tabs",
+        "es": "Pestañas",
+        "fr": "Onglets",
+        "de": "Tabs",
+        "it": "Pannelli",
+        "pt-BR": "Abas",
+        "ja": "タブ",
+        "zh-Hans": "标签页",
+        "ko": "탭"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "New tab",
+            "es": "Nueva pestaña",
+            "fr": "Nouvel onglet",
+            "de": "Neuer Tab",
+            "it": "Nuovo pannello",
+            "pt-BR": "Nova aba",
+            "ja": "新規タブ",
+            "zh-Hans": "新建标签页",
+            "ko": "새로운 탭"
+          },
+          "keys": "cmd+t"
+        },
+        {
+          "title": {
+            "en": "Go to tab 1 to 8",
+            "es": "Ir a las pestañas 1 a 8",
+            "fr": "Aller aux onglets 1 à 8",
+            "de": "Zu Tab 1 bis 8 wechseln",
+            "it": "Vai ai pannelli da 1 a 8",
+            "pt-BR": "Ir para as abas 1 a 8",
+            "ja": "タブ1〜8へ移動",
+            "zh-Hans": "前往标签页 1 至 8",
+            "ko": "탭 1~8로 이동"
+          },
+          "keys": "⌘1 … ⌘8",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Go to the last tab",
+            "es": "Ir a la última pestaña",
+            "fr": "Aller au dernier onglet",
+            "de": "Zum letzten Tab wechseln",
+            "it": "Vai all’ultimo pannello",
+            "pt-BR": "Ir para a última aba",
+            "ja": "最後のタブへ移動",
+            "zh-Hans": "前往最后一个标签页",
+            "ko": "마지막 탭으로 이동"
+          },
+          "keys": "cmd+9"
+        },
+        {
+          "title": {
+            "en": "Next tab",
+            "es": "Pestaña siguiente",
+            "fr": "Onglet suivant",
+            "de": "Nächster Tab",
+            "it": "Pannello successivo",
+            "pt-BR": "Próxima aba",
+            "ja": "次のタブ",
+            "zh-Hans": "下一个标签页",
+            "ko": "다음 탭"
+          },
+          "keys": "shift+cmd+]"
+        },
+        {
+          "title": {
+            "en": "Previous tab",
+            "es": "Pestaña anterior",
+            "fr": "Onglet précédent",
+            "de": "Vorheriger Tab",
+            "it": "Pannello precedente",
+            "pt-BR": "Aba anterior",
+            "ja": "前のタブ",
+            "zh-Hans": "上一个标签页",
+            "ko": "이전 탭"
+          },
+          "keys": "shift+cmd+["
+        },
+        {
+          "title": {
+            "en": "Next tab (alternative)",
+            "es": "Pestaña siguiente (alternativa)",
+            "fr": "Onglet suivant (autre raccourci)",
+            "de": "Nächster Tab (alternativ)",
+            "it": "Pannello successivo (alternativa)",
+            "pt-BR": "Próxima aba (alternativa)",
+            "ja": "次のタブ（別のキー）",
+            "zh-Hans": "下一个标签页（备选）",
+            "ko": "다음 탭(대체 키)"
+          },
+          "keys": "ctrl+tab"
+        },
+        {
+          "title": {
+            "en": "Previous tab (alternative)",
+            "es": "Pestaña anterior (alternativa)",
+            "fr": "Onglet précédent (autre raccourci)",
+            "de": "Vorheriger Tab (alternativ)",
+            "it": "Pannello precedente (alternativa)",
+            "pt-BR": "Aba anterior (alternativa)",
+            "ja": "前のタブ（別のキー）",
+            "zh-Hans": "上一个标签页（备选）",
+            "ko": "이전 탭(대체 키)"
+          },
+          "keys": "ctrl+shift+tab"
+        },
+        {
+          "title": {
+            "en": "Reopen the tab you just closed",
+            "es": "Volver a abrir la pestaña que acabas de cerrar",
+            "fr": "Rouvrir l’onglet que vous venez de fermer",
+            "de": "Gerade geschlossenen Tab wieder öffnen",
+            "it": "Riapri il pannello appena chiuso",
+            "pt-BR": "Reabrir a aba que você acabou de fechar",
+            "ja": "閉じたタブを再度開く",
+            "zh-Hans": "重新打开刚关闭的标签页",
+            "ko": "방금 닫은 탭 다시 열기"
+          },
+          "keys": "shift+cmd+t"
+        },
+        {
+          "title": {
+            "en": "Close the window",
+            "es": "Cerrar la ventana",
+            "fr": "Fermer la fenêtre",
+            "de": "Fenster schließen",
+            "it": "Chiudi la finestra",
+            "pt-BR": "Fechar a janela",
+            "ja": "ウインドウを閉じる",
+            "zh-Hans": "关闭窗口",
+            "ko": "윈도우 닫기"
+          },
+          "keys": "shift+cmd+w"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Notes",
+        "es": "Notas",
+        "fr": "Notes",
+        "de": "Notizen",
+        "it": "Note",
+        "pt-BR": "Notas",
+        "ja": "ノート",
+        "zh-Hans": "笔记",
+        "ko": "노트"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "New note",
+            "es": "Nueva nota",
+            "fr": "Nouvelle note",
+            "de": "Neue Notiz",
+            "it": "Nuova nota",
+            "pt-BR": "Nova nota",
+            "ja": "新規ノート",
+            "zh-Hans": "新建笔记",
+            "ko": "새로운 노트"
+          },
+          "keys": "cmd+n"
+        },
+        {
+          "title": {
+            "en": "New note in a new tab",
+            "es": "Nueva nota en una pestaña nueva",
+            "fr": "Nouvelle note dans un nouvel onglet",
+            "de": "Neue Notiz in neuem Tab",
+            "it": "Nuova nota in un nuovo pannello",
+            "pt-BR": "Nova nota em uma nova aba",
+            "ja": "新しいタブで新規ノート",
+            "zh-Hans": "在新标签页中新建笔记",
+            "ko": "새로운 탭에서 새로운 노트"
+          },
+          "keys": "shift+cmd+n"
+        },
+        {
+          "title": {
+            "en": "Rename the note",
+            "es": "Cambiar el nombre de la nota",
+            "fr": "Renommer la note",
+            "de": "Notiz umbenennen",
+            "it": "Rinomina la nota",
+            "pt-BR": "Renomear a nota",
+            "ja": "ノートの名前を変更",
+            "zh-Hans": "重命名笔记",
+            "ko": "노트 이름 변경"
+          },
+          "keys": "f2"
+        },
+        {
+          "title": {
+            "en": "Save",
+            "es": "Guardar",
+            "fr": "Enregistrer",
+            "de": "Sichern",
+            "it": "Salva",
+            "pt-BR": "Salvar",
+            "ja": "保存",
+            "zh-Hans": "保存",
+            "ko": "저장"
+          },
+          "keys": "cmd+s"
+        },
+        {
+          "title": {
+            "en": "Switch between reading and editing",
+            "es": "Alternar entre lectura y edición",
+            "fr": "Basculer entre lecture et édition",
+            "de": "Zwischen Lesen und Bearbeiten wechseln",
+            "it": "Passa tra lettura e modifica",
+            "pt-BR": "Alternar entre leitura e edição",
+            "ja": "閲覧と編集を切り替え",
+            "zh-Hans": "在阅读与编辑之间切换",
+            "ko": "읽기와 편집 전환"
+          },
+          "keys": "cmd+e"
+        },
+        {
+          "title": {
+            "en": "Add a property",
+            "es": "Añadir una propiedad",
+            "fr": "Ajouter une propriété",
+            "de": "Eigenschaft hinzufügen",
+            "it": "Aggiungi una proprietà",
+            "pt-BR": "Adicionar uma propriedade",
+            "ja": "プロパティを追加",
+            "zh-Hans": "添加属性",
+            "ko": "속성 추가"
+          },
+          "keys": "cmd+;"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Links",
+        "es": "Enlaces",
+        "fr": "Liens",
+        "de": "Links",
+        "it": "Link",
+        "pt-BR": "Links",
+        "ja": "リンク",
+        "zh-Hans": "链接",
+        "ko": "링크"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Follow the link under the cursor",
+            "es": "Seguir el enlace del cursor",
+            "fr": "Suivre le lien sous le curseur",
+            "de": "Link unter dem Cursor folgen",
+            "it": "Segui il link sotto il cursore",
+            "pt-BR": "Seguir o link sob o cursor",
+            "ja": "カーソル位置のリンクを開く",
+            "zh-Hans": "打开光标处的链接",
+            "ko": "커서 위치의 링크 열기"
+          },
+          "keys": "opt+return"
+        },
+        {
+          "title": {
+            "en": "Open the link in a new tab",
+            "es": "Abrir el enlace en una pestaña nueva",
+            "fr": "Ouvrir le lien dans un nouvel onglet",
+            "de": "Link in neuem Tab öffnen",
+            "it": "Apri il link in un nuovo pannello",
+            "pt-BR": "Abrir o link em uma nova aba",
+            "ja": "リンクを新しいタブで開く",
+            "zh-Hans": "在新标签页中打开链接",
+            "ko": "새로운 탭에서 링크 열기"
+          },
+          "keys": "cmd+return"
+        },
+        {
+          "title": {
+            "en": "Open the link in a split",
+            "es": "Abrir el enlace en una división",
+            "fr": "Ouvrir le lien dans une vue scindée",
+            "de": "Link in geteilter Ansicht öffnen",
+            "it": "Apri il link in una vista divisa",
+            "pt-BR": "Abrir o link em uma divisão",
+            "ja": "リンクを分割表示で開く",
+            "zh-Hans": "在拆分视图中打开链接",
+            "ko": "분할 화면에서 링크 열기"
+          },
+          "keys": "opt+cmd+return"
+        },
+        {
+          "title": {
+            "en": "Open the link in a new window",
+            "es": "Abrir el enlace en una ventana nueva",
+            "fr": "Ouvrir le lien dans une nouvelle fenêtre",
+            "de": "Link in neuem Fenster öffnen",
+            "it": "Apri il link in una nuova finestra",
+            "pt-BR": "Abrir o link em uma nova janela",
+            "ja": "リンクを新しいウインドウで開く",
+            "zh-Hans": "在新窗口中打开链接",
+            "ko": "새로운 윈도우에서 링크 열기"
+          },
+          "keys": "opt+shift+cmd+return"
+        },
+        {
+          "title": {
+            "en": "Insert a Markdown link",
+            "es": "Insertar un enlace Markdown",
+            "fr": "Insérer un lien Markdown",
+            "de": "Markdown-Link einfügen",
+            "it": "Inserisci un link Markdown",
+            "pt-BR": "Inserir um link Markdown",
+            "ja": "Markdownリンクを挿入",
+            "zh-Hans": "插入 Markdown 链接",
+            "ko": "Markdown 링크 삽입"
+          },
+          "keys": "cmd+k"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Formatting",
+        "es": "Formato",
+        "fr": "Mise en forme",
+        "de": "Formatierung",
+        "it": "Formattazione",
+        "pt-BR": "Formatação",
+        "ja": "書式",
+        "zh-Hans": "格式",
+        "ko": "서식"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Bold",
+            "es": "Negrita",
+            "fr": "Gras",
+            "de": "Fett",
+            "it": "Grassetto",
+            "pt-BR": "Negrito",
+            "ja": "太字",
+            "zh-Hans": "粗体",
+            "ko": "굵게"
+          },
+          "keys": "cmd+b"
+        },
+        {
+          "title": {
+            "en": "Italic",
+            "es": "Cursiva",
+            "fr": "Italique",
+            "de": "Kursiv",
+            "it": "Corsivo",
+            "pt-BR": "Itálico",
+            "ja": "斜体",
+            "zh-Hans": "斜体",
+            "ko": "기울임꼴"
+          },
+          "keys": "cmd+i"
+        },
+        {
+          "title": {
+            "en": "Comment out",
+            "es": "Convertir en comentario",
+            "fr": "Mettre en commentaire",
+            "de": "Auskommentieren",
+            "it": "Trasforma in commento",
+            "pt-BR": "Transformar em comentário",
+            "ja": "コメントにする",
+            "zh-Hans": "转为注释",
+            "ko": "주석으로 처리"
+          },
+          "keys": "cmd+/"
+        },
+        {
+          "title": {
+            "en": "Cycle the checklist state",
+            "es": "Cambiar el estado de la lista de tareas",
+            "fr": "Changer l’état de la case à cocher",
+            "de": "Checklistenstatus wechseln",
+            "it": "Cambia lo stato della checklist",
+            "pt-BR": "Alternar o estado da lista de tarefas",
+            "ja": "チェックリストの状態を切り替え",
+            "zh-Hans": "切换清单状态",
+            "ko": "체크리스트 상태 전환"
+          },
+          "keys": "cmd+l"
+        },
+        {
+          "title": {
+            "en": "Delete the paragraph",
+            "es": "Eliminar el párrafo",
+            "fr": "Supprimer le paragraphe",
+            "de": "Absatz löschen",
+            "it": "Elimina il paragrafo",
+            "pt-BR": "Apagar o parágrafo",
+            "ja": "段落を削除",
+            "zh-Hans": "删除段落",
+            "ko": "단락 삭제"
+          },
+          "keys": "cmd+d"
+        },
+        {
+          "title": {
+            "en": "Find in the note",
+            "es": "Buscar en la nota",
+            "fr": "Rechercher dans la note",
+            "de": "In der Notiz suchen",
+            "it": "Trova nella nota",
+            "pt-BR": "Buscar na nota",
+            "ja": "ノート内を検索",
+            "zh-Hans": "在笔记中查找",
+            "ko": "노트에서 찾기"
+          },
+          "keys": "cmd+f"
+        },
+        {
+          "title": {
+            "en": "Find and replace in the note",
+            "es": "Buscar y reemplazar en la nota",
+            "fr": "Rechercher et remplacer dans la note",
+            "de": "In der Notiz suchen und ersetzen",
+            "it": "Trova e sostituisci nella nota",
+            "pt-BR": "Buscar e substituir na nota",
+            "ja": "ノート内を検索して置換",
+            "zh-Hans": "在笔记中查找和替换",
+            "ko": "노트에서 찾기 및 대치"
+          },
+          "keys": "opt+cmd+f"
+        }
+      ]
+    }
+  ]
+}

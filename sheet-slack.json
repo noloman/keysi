@@ -1,0 +1,519 @@
+{
+  "id": "slack",
+  "name": {
+    "en": "Slack (extra shortcuts)",
+    "es": "Slack (atajos adicionales)",
+    "fr": "Slack (raccourcis supplémentaires)",
+    "de": "Slack (zusätzliche Kurzbefehle)",
+    "it": "Slack (scorciatoie aggiuntive)",
+    "pt-BR": "Slack (atalhos extras)",
+    "ja": "Slack(追加のショートカット)",
+    "zh-Hans": "Slack(额外快捷键)",
+    "ko": "Slack(추가 단축키)"
+  },
+  "match": {
+    "bundleIDs": [
+      "com.tinyspeck.slackmacgap"
+    ],
+    "processNames": []
+  },
+  "mode": "augment",
+  "priority": 50,
+  "groups": [
+    {
+      "title": {
+        "en": "Navigation",
+        "es": "Navegación",
+        "fr": "Navigation",
+        "de": "Navigation",
+        "it": "Navigazione",
+        "pt-BR": "Navegação",
+        "ja": "ナビゲーション",
+        "zh-Hans": "导航",
+        "ko": "탐색"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Quick switcher",
+            "es": "Cambio rápido",
+            "fr": "Navigation rapide",
+            "de": "Schnellwechsler",
+            "it": "Selettore rapido",
+            "pt-BR": "Alternador rápido",
+            "ja": "クイックスイッチャー",
+            "zh-Hans": "快速切换",
+            "ko": "빠른 전환"
+          },
+          "keys": "cmd+k",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Jump to unread",
+            "es": "Ir a no leídos",
+            "fr": "Aller aux non lus",
+            "de": "Zu Ungelesenem springen",
+            "it": "Vai ai non letti",
+            "pt-BR": "Ir para não lidos",
+            "ja": "未読へ移動",
+            "zh-Hans": "跳到未读",
+            "ko": "읽지 않음으로 이동"
+          },
+          "keys": "shift+cmd+a",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "All direct messages",
+            "es": "Todos los mensajes directos",
+            "fr": "Tous les messages directs",
+            "de": "Alle Direktnachrichten",
+            "it": "Tutti i messaggi diretti",
+            "pt-BR": "Todas as mensagens diretas",
+            "ja": "すべてのDM",
+            "zh-Hans": "所有私信",
+            "ko": "모든 다이렉트 메시지"
+          },
+          "keys": "shift+cmd+k",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Open threads",
+            "es": "Abrir hilos",
+            "fr": "Ouvrir les fils",
+            "de": "Threads öffnen",
+            "it": "Apri thread",
+            "pt-BR": "Abrir tópicos",
+            "ja": "スレッドを開く",
+            "zh-Hans": "打开话题串",
+            "ko": "스레드 열기"
+          },
+          "keys": "shift+cmd+t",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Open activity",
+            "es": "Abrir actividad",
+            "fr": "Ouvrir l'activité",
+            "de": "Aktivität öffnen",
+            "it": "Apri attività",
+            "pt-BR": "Abrir atividade",
+            "ja": "アクティビティを開く",
+            "zh-Hans": "打开动态",
+            "ko": "활동 열기"
+          },
+          "keys": "cmd+shift+e",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Next unread channel",
+            "es": "Siguiente canal no leído",
+            "fr": "Canal non lu suivant",
+            "de": "Nächster ungelesener Kanal",
+            "it": "Prossimo canale non letto",
+            "pt-BR": "Próximo canal não lido",
+            "ja": "次の未読チャンネル",
+            "zh-Hans": "下一个未读频道",
+            "ko": "다음 읽지 않은 채널"
+          },
+          "keys": "alt+shift+down",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Previous unread channel",
+            "es": "Canal no leído anterior",
+            "fr": "Canal non lu précédent",
+            "de": "Vorheriger ungelesener Kanal",
+            "it": "Canale non letto precedente",
+            "pt-BR": "Canal não lido anterior",
+            "ja": "前の未読チャンネル",
+            "zh-Hans": "上一个未读频道",
+            "ko": "이전 읽지 않은 채널"
+          },
+          "keys": "alt+shift+up",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Back in history",
+            "es": "Atrás en el historial",
+            "fr": "Précédent dans l'historique",
+            "de": "Zurück im Verlauf",
+            "it": "Indietro nella cronologia",
+            "pt-BR": "Voltar no histórico",
+            "ja": "履歴を戻る",
+            "zh-Hans": "后退",
+            "ko": "기록 뒤로"
+          },
+          "keys": "cmd+[",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Forward in history",
+            "es": "Adelante en el historial",
+            "fr": "Suivant dans l'historique",
+            "de": "Vorwärts im Verlauf",
+            "it": "Avanti nella cronologia",
+            "pt-BR": "Avançar no histórico",
+            "ja": "履歴を進む",
+            "zh-Hans": "前进",
+            "ko": "기록 앞으로"
+          },
+          "keys": "cmd+]",
+          "raw": false
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Messaging",
+        "es": "Mensajes",
+        "fr": "Messagerie",
+        "de": "Nachrichten",
+        "it": "Messaggi",
+        "pt-BR": "Mensagens",
+        "ja": "メッセージ",
+        "zh-Hans": "消息",
+        "ko": "메시지"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Mark all as read",
+            "es": "Marcar todo como leído",
+            "fr": "Tout marquer comme lu",
+            "de": "Alles als gelesen markieren",
+            "it": "Segna tutto come letto",
+            "pt-BR": "Marcar tudo como lido",
+            "ja": "すべて既読にする",
+            "zh-Hans": "全部标为已读",
+            "ko": "모두 읽음으로 표시"
+          },
+          "keys": "shift+esc",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Mark channel as read",
+            "es": "Marcar canal como leído",
+            "fr": "Marquer le canal comme lu",
+            "de": "Kanal als gelesen markieren",
+            "it": "Segna canale come letto",
+            "pt-BR": "Marcar canal como lido",
+            "ja": "チャンネルを既読にする",
+            "zh-Hans": "将频道标为已读",
+            "ko": "채널 읽음으로 표시"
+          },
+          "keys": "esc",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Edit last message",
+            "es": "Editar último mensaje",
+            "fr": "Modifier le dernier message",
+            "de": "Letzte Nachricht bearbeiten",
+            "it": "Modifica ultimo messaggio",
+            "pt-BR": "Editar última mensagem",
+            "ja": "直前のメッセージを編集",
+            "zh-Hans": "编辑上一条消息",
+            "ko": "마지막 메시지 편집"
+          },
+          "keys": "Up arrow (in empty box)",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "New line in message",
+            "es": "Nueva línea en el mensaje",
+            "fr": "Nouvelle ligne",
+            "de": "Neue Zeile",
+            "it": "Nuova riga",
+            "pt-BR": "Nova linha",
+            "ja": "メッセージ内で改行",
+            "zh-Hans": "消息内换行",
+            "ko": "메시지에 줄바꿈"
+          },
+          "keys": "shift+enter",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "React to last message",
+            "es": "Reaccionar al último mensaje",
+            "fr": "Réagir au dernier message",
+            "de": "Auf letzte Nachricht reagieren",
+            "it": "Reagisci all'ultimo messaggio",
+            "pt-BR": "Reagir à última mensagem",
+            "ja": "直前のメッセージにリアクション",
+            "zh-Hans": "对上一条消息回应",
+            "ko": "마지막 메시지에 반응"
+          },
+          "keys": "cmd+shift+\\",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Upload a file",
+            "es": "Subir un archivo",
+            "fr": "Envoyer un fichier",
+            "de": "Datei hochladen",
+            "it": "Carica un file",
+            "pt-BR": "Enviar um arquivo",
+            "ja": "ファイルをアップロード",
+            "zh-Hans": "上传文件",
+            "ko": "파일 업로드"
+          },
+          "keys": "cmd+shift+u",
+          "raw": false
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Formatting",
+        "es": "Formato",
+        "fr": "Mise en forme",
+        "de": "Formatierung",
+        "it": "Formattazione",
+        "pt-BR": "Formatação",
+        "ja": "書式",
+        "zh-Hans": "格式",
+        "ko": "서식"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Bold",
+            "es": "Negrita",
+            "fr": "Gras",
+            "de": "Fett",
+            "it": "Grassetto",
+            "pt-BR": "Negrito",
+            "ja": "太字",
+            "zh-Hans": "加粗",
+            "ko": "굵게"
+          },
+          "keys": "cmd+b",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Italic",
+            "es": "Cursiva",
+            "fr": "Italique",
+            "de": "Kursiv",
+            "it": "Corsivo",
+            "pt-BR": "Itálico",
+            "ja": "斜体",
+            "zh-Hans": "斜体",
+            "ko": "기울임"
+          },
+          "keys": "cmd+i",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Strikethrough",
+            "es": "Tachado",
+            "fr": "Barré",
+            "de": "Durchgestrichen",
+            "it": "Barrato",
+            "pt-BR": "Tachado",
+            "ja": "取り消し線",
+            "zh-Hans": "删除线",
+            "ko": "취소선"
+          },
+          "keys": "cmd+shift+x",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Inline code",
+            "es": "Código en línea",
+            "fr": "Code en ligne",
+            "de": "Inline-Code",
+            "it": "Codice inline",
+            "pt-BR": "Código embutido",
+            "ja": "インラインコード",
+            "zh-Hans": "行内代码",
+            "ko": "인라인 코드"
+          },
+          "keys": "cmd+shift+c",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Code block",
+            "es": "Bloque de código",
+            "fr": "Bloc de code",
+            "de": "Codeblock",
+            "it": "Blocco di codice",
+            "pt-BR": "Bloco de código",
+            "ja": "コードブロック",
+            "zh-Hans": "代码块",
+            "ko": "코드 블록"
+          },
+          "keys": "cmd+alt+shift+c",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Bulleted list",
+            "es": "Lista con viñetas",
+            "fr": "Liste à puces",
+            "de": "Aufzählung",
+            "it": "Elenco puntato",
+            "pt-BR": "Lista com marcadores",
+            "ja": "箇条書き",
+            "zh-Hans": "项目符号列表",
+            "ko": "글머리 기호 목록"
+          },
+          "keys": "cmd+shift+8",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Numbered list",
+            "es": "Lista numerada",
+            "fr": "Liste numérotée",
+            "de": "Nummerierte Liste",
+            "it": "Elenco numerato",
+            "pt-BR": "Lista numerada",
+            "ja": "番号付きリスト",
+            "zh-Hans": "编号列表",
+            "ko": "번호 매기기 목록"
+          },
+          "keys": "cmd+shift+7",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Blockquote",
+            "es": "Cita",
+            "fr": "Citation",
+            "de": "Zitat",
+            "it": "Citazione",
+            "pt-BR": "Citação",
+            "ja": "引用",
+            "zh-Hans": "引用块",
+            "ko": "인용"
+          },
+          "keys": "cmd+shift+9",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Toggle formatting bar",
+            "es": "Mostrar barra de formato",
+            "fr": "Afficher la barre de mise en forme",
+            "de": "Formatierleiste umschalten",
+            "it": "Mostra barra formattazione",
+            "pt-BR": "Alternar barra de formatação",
+            "ja": "書式バーの表示切替",
+            "zh-Hans": "显示/隐藏格式栏",
+            "ko": "서식 바 전환"
+          },
+          "keys": "cmd+shift+f",
+          "raw": false
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Calls & search",
+        "es": "Llamadas y búsqueda",
+        "fr": "Appels et recherche",
+        "de": "Anrufe & Suche",
+        "it": "Chiamate e ricerca",
+        "pt-BR": "Chamadas e busca",
+        "ja": "通話と検索",
+        "zh-Hans": "通话与搜索",
+        "ko": "통화 및 검색"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Start or join a huddle",
+            "es": "Iniciar o unirse a un huddle",
+            "fr": "Démarrer ou rejoindre un huddle",
+            "de": "Huddle starten oder beitreten",
+            "it": "Avvia o unisciti a un huddle",
+            "pt-BR": "Iniciar ou entrar em um huddle",
+            "ja": "ハドルを開始/参加",
+            "zh-Hans": "发起或加入 Huddle",
+            "ko": "허들 시작 또는 참여"
+          },
+          "keys": "cmd+shift+space",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Mute or unmute in huddle",
+            "es": "Silenciar o activar micrófono",
+            "fr": "Couper ou activer le micro",
+            "de": "Stumm schalten",
+            "it": "Disattiva o attiva microfono",
+            "pt-BR": "Silenciar ou ativar microfone",
+            "ja": "ミュート切替",
+            "zh-Hans": "静音/取消静音",
+            "ko": "음소거 전환"
+          },
+          "keys": "cmd+shift+m",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Search current conversation",
+            "es": "Buscar en la conversación",
+            "fr": "Rechercher dans la conversation",
+            "de": "Aktuelle Unterhaltung durchsuchen",
+            "it": "Cerca nella conversazione",
+            "pt-BR": "Buscar na conversa atual",
+            "ja": "現在の会話を検索",
+            "zh-Hans": "搜索当前会话",
+            "ko": "현재 대화 검색"
+          },
+          "keys": "cmd+f",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Search all of Slack",
+            "es": "Buscar en todo Slack",
+            "fr": "Rechercher dans tout Slack",
+            "de": "Ganz Slack durchsuchen",
+            "it": "Cerca in tutto Slack",
+            "pt-BR": "Buscar em todo o Slack",
+            "ja": "Slack全体を検索",
+            "zh-Hans": "搜索整个 Slack",
+            "ko": "Slack 전체 검색"
+          },
+          "keys": "cmd+g",
+          "raw": false
+        },
+        {
+          "title": {
+            "en": "Show keyboard shortcuts",
+            "es": "Mostrar atajos de teclado",
+            "fr": "Afficher les raccourcis clavier",
+            "de": "Tastenkürzel anzeigen",
+            "it": "Mostra scorciatoie",
+            "pt-BR": "Mostrar atalhos de teclado",
+            "ja": "キーボードショートカットを表示",
+            "zh-Hans": "显示键盘快捷键",
+            "ko": "키보드 단축키 표시"
+          },
+          "keys": "cmd+/",
+          "raw": false
+        }
+      ]
+    }
+  ]
+}

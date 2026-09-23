@@ -1,0 +1,1240 @@
+{
+  "id": "vim",
+  "name": {
+    "en": "Vim",
+    "es": "Vim",
+    "fr": "Vim",
+    "de": "Vim",
+    "it": "Vim",
+    "pt-BR": "Vim",
+    "ja": "Vim",
+    "zh-Hans": "Vim",
+    "ko": "Vim"
+  },
+  "match": {
+    "bundleIDs": [],
+    "processNames": [
+      "vim",
+      "nvim"
+    ]
+  },
+  "mode": "augment",
+  "priority": 100,
+  "groups": [
+    {
+      "title": {
+        "en": "Modes",
+        "es": "Modos",
+        "fr": "Modes",
+        "de": "Modi",
+        "it": "Modalità",
+        "pt-BR": "Modos",
+        "ja": "モード",
+        "zh-Hans": "模式",
+        "ko": "모드"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Insert before cursor",
+            "es": "Insertar antes del cursor",
+            "fr": "Insérer avant le curseur",
+            "de": "Vor dem Cursor einfügen",
+            "it": "Inserisci prima del cursore",
+            "pt-BR": "Inserir antes do cursor",
+            "ja": "カーソル前に挿入",
+            "zh-Hans": "在光标前插入",
+            "ko": "커서 앞에 삽입"
+          },
+          "keys": "i",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Append after cursor",
+            "es": "Añadir después del cursor",
+            "fr": "Ajouter après le curseur",
+            "de": "Nach dem Cursor anfügen",
+            "it": "Aggiungi dopo il cursore",
+            "pt-BR": "Inserir após o cursor",
+            "ja": "カーソル後に追加",
+            "zh-Hans": "在光标后追加",
+            "ko": "커서 뒤에 추가"
+          },
+          "keys": "a",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Insert at start of line",
+            "es": "Insertar al inicio de la línea",
+            "fr": "Insérer en début de ligne",
+            "de": "Am Zeilenanfang einfügen",
+            "it": "Inserisci a inizio riga",
+            "pt-BR": "Inserir no início da linha",
+            "ja": "行頭に挿入",
+            "zh-Hans": "在行首插入",
+            "ko": "줄 시작에 삽입"
+          },
+          "keys": "I",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Append at end of line",
+            "es": "Añadir al final de la línea",
+            "fr": "Ajouter en fin de ligne",
+            "de": "Am Zeilenende anfügen",
+            "it": "Aggiungi a fine riga",
+            "pt-BR": "Inserir no fim da linha",
+            "ja": "行末に追加",
+            "zh-Hans": "在行尾追加",
+            "ko": "줄 끝에 추가"
+          },
+          "keys": "A",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Open line below",
+            "es": "Abrir línea debajo",
+            "fr": "Ouvrir une ligne en dessous",
+            "de": "Zeile darunter öffnen",
+            "it": "Apri riga sotto",
+            "pt-BR": "Abrir linha abaixo",
+            "ja": "下に行を開く",
+            "zh-Hans": "在下方新建行",
+            "ko": "아래에 줄 열기"
+          },
+          "keys": "o",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Open line above",
+            "es": "Abrir línea encima",
+            "fr": "Ouvrir une ligne au-dessus",
+            "de": "Zeile darüber öffnen",
+            "it": "Apri riga sopra",
+            "pt-BR": "Abrir linha acima",
+            "ja": "上に行を開く",
+            "zh-Hans": "在上方新建行",
+            "ko": "위에 줄 열기"
+          },
+          "keys": "O",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Visual mode",
+            "es": "Modo visual",
+            "fr": "Mode visuel",
+            "de": "Visueller Modus",
+            "it": "Modalità visuale",
+            "pt-BR": "Modo visual",
+            "ja": "ビジュアルモード",
+            "zh-Hans": "可视模式",
+            "ko": "비주얼 모드"
+          },
+          "keys": "v",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Visual line mode",
+            "es": "Modo visual por líneas",
+            "fr": "Mode visuel ligne",
+            "de": "Visueller Zeilenmodus",
+            "it": "Modalità visuale riga",
+            "pt-BR": "Modo visual de linha",
+            "ja": "行ビジュアルモード",
+            "zh-Hans": "可视行模式",
+            "ko": "비주얼 라인 모드"
+          },
+          "keys": "V",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Visual block mode",
+            "es": "Modo visual por bloques",
+            "fr": "Mode visuel bloc",
+            "de": "Visueller Blockmodus",
+            "it": "Modalità visuale blocco",
+            "pt-BR": "Modo visual de bloco",
+            "ja": "矩形ビジュアルモード",
+            "zh-Hans": "可视块模式",
+            "ko": "비주얼 블록 모드"
+          },
+          "keys": "Ctrl-v",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Replace mode",
+            "es": "Modo reemplazo",
+            "fr": "Mode remplacement",
+            "de": "Ersetzenmodus",
+            "it": "Modalità sostituzione",
+            "pt-BR": "Modo de substituição",
+            "ja": "置換モード",
+            "zh-Hans": "替换模式",
+            "ko": "바꾸기 모드"
+          },
+          "keys": "R",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Command mode",
+            "es": "Modo comando",
+            "fr": "Mode commande",
+            "de": "Befehlsmodus",
+            "it": "Modalità comando",
+            "pt-BR": "Modo de comando",
+            "ja": "コマンドモード",
+            "zh-Hans": "命令模式",
+            "ko": "명령 모드"
+          },
+          "keys": ":",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Normal mode",
+            "es": "Modo normal",
+            "fr": "Mode normal",
+            "de": "Normalmodus",
+            "it": "Modalità normale",
+            "pt-BR": "Modo normal",
+            "ja": "ノーマルモード",
+            "zh-Hans": "普通模式",
+            "ko": "일반 모드"
+          },
+          "keys": "Esc",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Motion",
+        "es": "Movimiento",
+        "fr": "Déplacement",
+        "de": "Bewegung",
+        "it": "Movimento",
+        "pt-BR": "Movimento",
+        "ja": "移動",
+        "zh-Hans": "移动",
+        "ko": "이동"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Left / down / up / right",
+            "es": "Izquierda / abajo / arriba / derecha",
+            "fr": "Gauche / bas / haut / droite",
+            "de": "Links / unten / oben / rechts",
+            "it": "Sinistra / giù / su / destra",
+            "pt-BR": "Esquerda / baixo / cima / direita",
+            "ja": "左/下/上/右",
+            "zh-Hans": "左/下/上/右",
+            "ko": "왼쪽/아래/위/오른쪽"
+          },
+          "keys": "h j k l",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Next word",
+            "es": "Palabra siguiente",
+            "fr": "Mot suivant",
+            "de": "Nächstes Wort",
+            "it": "Parola successiva",
+            "pt-BR": "Próxima palavra",
+            "ja": "次の単語",
+            "zh-Hans": "下一个单词",
+            "ko": "다음 단어"
+          },
+          "keys": "w",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Previous word",
+            "es": "Palabra anterior",
+            "fr": "Mot précédent",
+            "de": "Vorheriges Wort",
+            "it": "Parola precedente",
+            "pt-BR": "Palavra anterior",
+            "ja": "前の単語",
+            "zh-Hans": "上一个单词",
+            "ko": "이전 단어"
+          },
+          "keys": "b",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "End of word",
+            "es": "Fin de palabra",
+            "fr": "Fin du mot",
+            "de": "Wortende",
+            "it": "Fine parola",
+            "pt-BR": "Fim da palavra",
+            "ja": "単語の末尾",
+            "zh-Hans": "单词末尾",
+            "ko": "단어 끝"
+          },
+          "keys": "e",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Start / end of line",
+            "es": "Inicio / fin de línea",
+            "fr": "Début / fin de ligne",
+            "de": "Zeilenanfang / -ende",
+            "it": "Inizio / fine riga",
+            "pt-BR": "Início / fim da linha",
+            "ja": "行頭/行末",
+            "zh-Hans": "行首/行尾",
+            "ko": "줄의 시작/끝"
+          },
+          "keys": "0 / $",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "First non-blank character",
+            "es": "Primer carácter no vacío",
+            "fr": "Premier caractère non blanc",
+            "de": "Erstes Nicht-Leerzeichen",
+            "it": "Primo carattere non vuoto",
+            "pt-BR": "Primeiro caractere não vazio",
+            "ja": "最初の非空白文字",
+            "zh-Hans": "第一个非空白字符",
+            "ko": "첫 공백 아닌 문자"
+          },
+          "keys": "^",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Go to first line",
+            "es": "Ir a la primera línea",
+            "fr": "Aller à la première ligne",
+            "de": "Zur ersten Zeile springen",
+            "it": "Vai alla prima riga",
+            "pt-BR": "Ir para a primeira linha",
+            "ja": "先頭行に移動",
+            "zh-Hans": "跳转到首行",
+            "ko": "첫 줄로 이동"
+          },
+          "keys": "gg",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Go to last line",
+            "es": "Ir a la última línea",
+            "fr": "Aller à la dernière ligne",
+            "de": "Zur letzten Zeile springen",
+            "it": "Vai all'ultima riga",
+            "pt-BR": "Ir para a última linha",
+            "ja": "最終行に移動",
+            "zh-Hans": "跳转到末行",
+            "ko": "마지막 줄로 이동"
+          },
+          "keys": "G",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Go to line n",
+            "es": "Ir a la línea n",
+            "fr": "Aller à la ligne n",
+            "de": "Zu Zeile n springen",
+            "it": "Vai alla riga n",
+            "pt-BR": "Ir para a linha n",
+            "ja": "n行目に移動",
+            "zh-Hans": "跳转到第 n 行",
+            "ko": "n번째 줄로 이동"
+          },
+          "keys": ":{n}",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Half page down / up",
+            "es": "Media página abajo / arriba",
+            "fr": "Demi-page bas / haut",
+            "de": "Halbe Seite runter / hoch",
+            "it": "Mezza pagina giù / su",
+            "pt-BR": "Meia página abaixo / acima",
+            "ja": "半ページ下/上",
+            "zh-Hans": "下/上翻半页",
+            "ko": "반 페이지 아래/위"
+          },
+          "keys": "Ctrl-d / Ctrl-u",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Page down / up",
+            "es": "Página abajo / arriba",
+            "fr": "Page bas / haut",
+            "de": "Seite runter / hoch",
+            "it": "Pagina giù / su",
+            "pt-BR": "Página abaixo / acima",
+            "ja": "1ページ下/上",
+            "zh-Hans": "下/上翻页",
+            "ko": "한 페이지 아래/위"
+          },
+          "keys": "Ctrl-f / Ctrl-b",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Previous / next paragraph",
+            "es": "Párrafo anterior / siguiente",
+            "fr": "Paragraphe précédent / suivant",
+            "de": "Vorheriger / nächster Absatz",
+            "it": "Paragrafo precedente / successivo",
+            "pt-BR": "Parágrafo anterior / seguinte",
+            "ja": "前/次の段落",
+            "zh-Hans": "上/下一段",
+            "ko": "이전/다음 문단"
+          },
+          "keys": "{ / }",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Matching bracket",
+            "es": "Paréntesis correspondiente",
+            "fr": "Parenthèse correspondante",
+            "de": "Passende Klammer",
+            "it": "Parentesi corrispondente",
+            "pt-BR": "Parêntese correspondente",
+            "ja": "対応する括弧",
+            "zh-Hans": "匹配的括号",
+            "ko": "짝이 되는 괄호"
+          },
+          "keys": "%",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Top / middle / bottom of screen",
+            "es": "Arriba / medio / abajo de pantalla",
+            "fr": "Haut / milieu / bas de l'écran",
+            "de": "Oben / Mitte / unten am Bildschirm",
+            "it": "Alto / centro / basso schermo",
+            "pt-BR": "Topo / meio / base da tela",
+            "ja": "画面の上/中央/下",
+            "zh-Hans": "屏幕顶部/中部/底部",
+            "ko": "화면 위/중간/아래"
+          },
+          "keys": "H M L",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Jump to next character",
+            "es": "Saltar al siguiente carácter",
+            "fr": "Aller au caractère suivant",
+            "de": "Zum nächsten Zeichen springen",
+            "it": "Vai al carattere successivo",
+            "pt-BR": "Ir ao próximo caractere",
+            "ja": "次の文字へジャンプ",
+            "zh-Hans": "跳到下一个字符",
+            "ko": "다음 문자로 점프"
+          },
+          "keys": "f{char}",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Editing",
+        "es": "Edición",
+        "fr": "Édition",
+        "de": "Bearbeiten",
+        "it": "Modifica",
+        "pt-BR": "Edição",
+        "ja": "編集",
+        "zh-Hans": "编辑",
+        "ko": "편집"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Delete character",
+            "es": "Eliminar carácter",
+            "fr": "Supprimer le caractère",
+            "de": "Zeichen löschen",
+            "it": "Elimina carattere",
+            "pt-BR": "Excluir caractere",
+            "ja": "文字を削除",
+            "zh-Hans": "删除字符",
+            "ko": "문자 삭제"
+          },
+          "keys": "x",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Delete line",
+            "es": "Eliminar línea",
+            "fr": "Supprimer la ligne",
+            "de": "Zeile löschen",
+            "it": "Elimina riga",
+            "pt-BR": "Excluir linha",
+            "ja": "行を削除",
+            "zh-Hans": "删除行",
+            "ko": "줄 삭제"
+          },
+          "keys": "dd",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Delete word",
+            "es": "Eliminar palabra",
+            "fr": "Supprimer le mot",
+            "de": "Wort löschen",
+            "it": "Elimina parola",
+            "pt-BR": "Excluir palavra",
+            "ja": "単語を削除",
+            "zh-Hans": "删除单词",
+            "ko": "단어 삭제"
+          },
+          "keys": "dw",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Delete to end of line",
+            "es": "Eliminar hasta fin de línea",
+            "fr": "Supprimer jusqu'en fin de ligne",
+            "de": "Bis Zeilenende löschen",
+            "it": "Elimina fino a fine riga",
+            "pt-BR": "Excluir até o fim da linha",
+            "ja": "行末まで削除",
+            "zh-Hans": "删除至行尾",
+            "ko": "줄 끝까지 삭제"
+          },
+          "keys": "D",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Change line",
+            "es": "Cambiar línea",
+            "fr": "Changer la ligne",
+            "de": "Zeile ändern",
+            "it": "Cambia riga",
+            "pt-BR": "Alterar linha",
+            "ja": "行を変更",
+            "zh-Hans": "更改行",
+            "ko": "줄 변경"
+          },
+          "keys": "cc",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Change word",
+            "es": "Cambiar palabra",
+            "fr": "Changer le mot",
+            "de": "Wort ändern",
+            "it": "Cambia parola",
+            "pt-BR": "Alterar palavra",
+            "ja": "単語を変更",
+            "zh-Hans": "更改单词",
+            "ko": "단어 변경"
+          },
+          "keys": "cw",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Yank (copy) line",
+            "es": "Copiar (yank) línea",
+            "fr": "Copier (yank) la ligne",
+            "de": "Zeile kopieren (yank)",
+            "it": "Copia (yank) riga",
+            "pt-BR": "Copiar (yank) linha",
+            "ja": "行をヤンク(コピー)",
+            "zh-Hans": "复制(yank)行",
+            "ko": "줄 복사(yank)"
+          },
+          "keys": "yy",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Yank word",
+            "es": "Copiar palabra",
+            "fr": "Copier le mot",
+            "de": "Wort kopieren",
+            "it": "Copia parola",
+            "pt-BR": "Copiar palavra",
+            "ja": "単語をヤンク",
+            "zh-Hans": "复制单词",
+            "ko": "단어 복사"
+          },
+          "keys": "yw",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Paste after / before",
+            "es": "Pegar después / antes",
+            "fr": "Coller après / avant",
+            "de": "Danach / davor einfügen",
+            "it": "Incolla dopo / prima",
+            "pt-BR": "Colar depois / antes",
+            "ja": "後/前に貼り付け",
+            "zh-Hans": "在后/前粘贴",
+            "ko": "뒤/앞에 붙여넣기"
+          },
+          "keys": "p / P",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Undo",
+            "es": "Deshacer",
+            "fr": "Annuler",
+            "de": "Rückgängig",
+            "it": "Annulla",
+            "pt-BR": "Desfazer",
+            "ja": "取り消し",
+            "zh-Hans": "撤销",
+            "ko": "실행 취소"
+          },
+          "keys": "u",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Redo",
+            "es": "Rehacer",
+            "fr": "Rétablir",
+            "de": "Wiederholen",
+            "it": "Ripristina",
+            "pt-BR": "Refazer",
+            "ja": "やり直し",
+            "zh-Hans": "重做",
+            "ko": "다시 실행"
+          },
+          "keys": "Ctrl-r",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Repeat last change",
+            "es": "Repetir último cambio",
+            "fr": "Répéter la dernière modification",
+            "de": "Letzte Änderung wiederholen",
+            "it": "Ripeti ultima modifica",
+            "pt-BR": "Repetir última alteração",
+            "ja": "直前の変更を繰り返す",
+            "zh-Hans": "重复上次更改",
+            "ko": "마지막 변경 반복"
+          },
+          "keys": ".",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Indent / outdent line",
+            "es": "Indentar / desindentar línea",
+            "fr": "Indenter / désindenter la ligne",
+            "de": "Zeile ein- / ausrücken",
+            "it": "Indenta / riduci rientro riga",
+            "pt-BR": "Recuar / remover recuo",
+            "ja": "行をインデント/解除",
+            "zh-Hans": "增加/减少缩进",
+            "ko": "들여쓰기/내어쓰기"
+          },
+          "keys": ">> / <<",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Join lines",
+            "es": "Unir líneas",
+            "fr": "Joindre les lignes",
+            "de": "Zeilen verbinden",
+            "it": "Unisci righe",
+            "pt-BR": "Juntar linhas",
+            "ja": "行を連結",
+            "zh-Hans": "合并行",
+            "ko": "줄 합치기"
+          },
+          "keys": "J",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Toggle case",
+            "es": "Alternar mayúsculas",
+            "fr": "Inverser la casse",
+            "de": "Groß-/Kleinschreibung",
+            "it": "Inverti maiuscole",
+            "pt-BR": "Alternar maiúsculas",
+            "ja": "大文字小文字を切替",
+            "zh-Hans": "切换大小写",
+            "ko": "대소문자 전환"
+          },
+          "keys": "~",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Search & replace",
+        "es": "Buscar y reemplazar",
+        "fr": "Rechercher et remplacer",
+        "de": "Suchen & ersetzen",
+        "it": "Cerca e sostituisci",
+        "pt-BR": "Buscar e substituir",
+        "ja": "検索と置換",
+        "zh-Hans": "查找与替换",
+        "ko": "찾기 및 바꾸기"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Search forward",
+            "es": "Buscar hacia adelante",
+            "fr": "Rechercher vers l'avant",
+            "de": "Vorwärts suchen",
+            "it": "Cerca in avanti",
+            "pt-BR": "Buscar para frente",
+            "ja": "前方検索",
+            "zh-Hans": "向前查找",
+            "ko": "앞으로 찾기"
+          },
+          "keys": "/{pattern}",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Search backward",
+            "es": "Buscar hacia atrás",
+            "fr": "Rechercher vers l'arrière",
+            "de": "Rückwärts suchen",
+            "it": "Cerca all'indietro",
+            "pt-BR": "Buscar para trás",
+            "ja": "後方検索",
+            "zh-Hans": "向后查找",
+            "ko": "뒤로 찾기"
+          },
+          "keys": "?{pattern}",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Next / previous match",
+            "es": "Coincidencia siguiente / anterior",
+            "fr": "Occurrence suivante / précédente",
+            "de": "Nächster / vorheriger Treffer",
+            "it": "Risultato successivo / precedente",
+            "pt-BR": "Próxima / anterior ocorrência",
+            "ja": "次/前の一致",
+            "zh-Hans": "下/上一个匹配",
+            "ko": "다음/이전 일치"
+          },
+          "keys": "n / N",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Search word under cursor",
+            "es": "Buscar palabra bajo el cursor",
+            "fr": "Rechercher le mot sous le curseur",
+            "de": "Wort unter Cursor suchen",
+            "it": "Cerca parola sotto il cursore",
+            "pt-BR": "Buscar palavra sob o cursor",
+            "ja": "カーソル下の単語を検索",
+            "zh-Hans": "查找光标处单词",
+            "ko": "커서 아래 단어 찾기"
+          },
+          "keys": "*",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Replace in whole file",
+            "es": "Reemplazar en todo el archivo",
+            "fr": "Remplacer dans tout le fichier",
+            "de": "In ganzer Datei ersetzen",
+            "it": "Sostituisci in tutto il file",
+            "pt-BR": "Substituir no arquivo todo",
+            "ja": "ファイル全体を置換",
+            "zh-Hans": "全文件替换",
+            "ko": "파일 전체 바꾸기"
+          },
+          "keys": ":%s/old/new/g",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Replace with confirmation",
+            "es": "Reemplazar con confirmación",
+            "fr": "Remplacer avec confirmation",
+            "de": "Mit Bestätigung ersetzen",
+            "it": "Sostituisci con conferma",
+            "pt-BR": "Substituir com confirmação",
+            "ja": "確認しながら置換",
+            "zh-Hans": "替换前确认",
+            "ko": "확인하며 바꾸기"
+          },
+          "keys": ":%s/old/new/gc",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Clear search highlight",
+            "es": "Quitar resaltado de búsqueda",
+            "fr": "Effacer la surbrillance",
+            "de": "Suchhervorhebung löschen",
+            "it": "Rimuovi evidenziazione",
+            "pt-BR": "Limpar destaque da busca",
+            "ja": "検索ハイライトを消去",
+            "zh-Hans": "清除查找高亮",
+            "ko": "찾기 강조 해제"
+          },
+          "keys": ":noh",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Windows & splits",
+        "es": "Ventanas y divisiones",
+        "fr": "Fenêtres et divisions",
+        "de": "Fenster & Teilungen",
+        "it": "Finestre e divisioni",
+        "pt-BR": "Janelas e divisões",
+        "ja": "ウインドウと分割",
+        "zh-Hans": "窗口与拆分",
+        "ko": "윈도우 및 분할"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Split horizontally",
+            "es": "Dividir horizontalmente",
+            "fr": "Diviser horizontalement",
+            "de": "Horizontal teilen",
+            "it": "Dividi orizzontalmente",
+            "pt-BR": "Dividir horizontalmente",
+            "ja": "水平方向に分割",
+            "zh-Hans": "水平拆分",
+            "ko": "가로로 분할"
+          },
+          "keys": ":sp",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Split vertically",
+            "es": "Dividir verticalmente",
+            "fr": "Diviser verticalement",
+            "de": "Vertikal teilen",
+            "it": "Dividi verticalmente",
+            "pt-BR": "Dividir verticalmente",
+            "ja": "垂直方向に分割",
+            "zh-Hans": "垂直拆分",
+            "ko": "세로로 분할"
+          },
+          "keys": ":vs",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Split window",
+            "es": "Dividir ventana",
+            "fr": "Diviser la fenêtre",
+            "de": "Fenster teilen",
+            "it": "Dividi finestra",
+            "pt-BR": "Dividir janela",
+            "ja": "ウインドウを分割",
+            "zh-Hans": "拆分窗口",
+            "ko": "윈도우 분할"
+          },
+          "keys": "Ctrl-w s",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Split window vertically",
+            "es": "Dividir ventana verticalmente",
+            "fr": "Diviser la fenêtre verticalement",
+            "de": "Fenster vertikal teilen",
+            "it": "Dividi finestra verticalmente",
+            "pt-BR": "Dividir janela verticalmente",
+            "ja": "ウインドウを垂直分割",
+            "zh-Hans": "垂直拆分窗口",
+            "ko": "윈도우 세로 분할"
+          },
+          "keys": "Ctrl-w v",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Move between splits",
+            "es": "Moverse entre divisiones",
+            "fr": "Naviguer entre les divisions",
+            "de": "Zwischen Teilungen wechseln",
+            "it": "Sposta tra le divisioni",
+            "pt-BR": "Mover entre divisões",
+            "ja": "分割間を移動",
+            "zh-Hans": "在拆分间移动",
+            "ko": "분할 간 이동"
+          },
+          "keys": "Ctrl-w h j k l",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Close split",
+            "es": "Cerrar división",
+            "fr": "Fermer la division",
+            "de": "Teilung schließen",
+            "it": "Chiudi divisione",
+            "pt-BR": "Fechar divisão",
+            "ja": "分割を閉じる",
+            "zh-Hans": "关闭拆分",
+            "ko": "분할 닫기"
+          },
+          "keys": "Ctrl-w q",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Close all other splits",
+            "es": "Cerrar las demás divisiones",
+            "fr": "Fermer les autres divisions",
+            "de": "Alle anderen schließen",
+            "it": "Chiudi le altre divisioni",
+            "pt-BR": "Fechar as outras divisões",
+            "ja": "他の分割を閉じる",
+            "zh-Hans": "关闭其他拆分",
+            "ko": "다른 분할 모두 닫기"
+          },
+          "keys": "Ctrl-w o",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Equalize split sizes",
+            "es": "Igualar tamaños",
+            "fr": "Égaliser les tailles",
+            "de": "Größen angleichen",
+            "it": "Uniforma dimensioni",
+            "pt-BR": "Igualar tamanhos",
+            "ja": "分割サイズを均等化",
+            "zh-Hans": "均分拆分大小",
+            "ko": "분할 크기 균등화"
+          },
+          "keys": "Ctrl-w = ",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Buffers & tabs",
+        "es": "Búferes y pestañas",
+        "fr": "Tampons et onglets",
+        "de": "Puffer & Tabs",
+        "it": "Buffer e schede",
+        "pt-BR": "Buffers e abas",
+        "ja": "バッファとタブ",
+        "zh-Hans": "缓冲区与标签页",
+        "ko": "버퍼 및 탭"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "List buffers",
+            "es": "Listar búferes",
+            "fr": "Lister les tampons",
+            "de": "Puffer auflisten",
+            "it": "Elenca buffer",
+            "pt-BR": "Listar buffers",
+            "ja": "バッファ一覧",
+            "zh-Hans": "列出缓冲区",
+            "ko": "버퍼 목록"
+          },
+          "keys": ":ls",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Next / previous buffer",
+            "es": "Búfer siguiente / anterior",
+            "fr": "Tampon suivant / précédent",
+            "de": "Nächster / vorheriger Puffer",
+            "it": "Buffer successivo / precedente",
+            "pt-BR": "Buffer seguinte / anterior",
+            "ja": "次/前のバッファ",
+            "zh-Hans": "下/上一个缓冲区",
+            "ko": "다음/이전 버퍼"
+          },
+          "keys": ":bn / :bp",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Close buffer",
+            "es": "Cerrar búfer",
+            "fr": "Fermer le tampon",
+            "de": "Puffer schließen",
+            "it": "Chiudi buffer",
+            "pt-BR": "Fechar buffer",
+            "ja": "バッファを閉じる",
+            "zh-Hans": "关闭缓冲区",
+            "ko": "버퍼 닫기"
+          },
+          "keys": ":bd",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "New tab",
+            "es": "Nueva pestaña",
+            "fr": "Nouvel onglet",
+            "de": "Neuer Tab",
+            "it": "Nuova scheda",
+            "pt-BR": "Nova aba",
+            "ja": "新規タブ",
+            "zh-Hans": "新建标签页",
+            "ko": "새 탭"
+          },
+          "keys": ":tabnew",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Next / previous tab",
+            "es": "Pestaña siguiente / anterior",
+            "fr": "Onglet suivant / précédent",
+            "de": "Nächster / vorheriger Tab",
+            "it": "Scheda successiva / precedente",
+            "pt-BR": "Aba seguinte / anterior",
+            "ja": "次/前のタブ",
+            "zh-Hans": "下/上一个标签页",
+            "ko": "다음/이전 탭"
+          },
+          "keys": "gt / gT",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Marks & macros",
+        "es": "Marcas y macros",
+        "fr": "Marques et macros",
+        "de": "Marken & Makros",
+        "it": "Segni e macro",
+        "pt-BR": "Marcas e macros",
+        "ja": "マークとマクロ",
+        "zh-Hans": "标记与宏",
+        "ko": "마크 및 매크로"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Set mark",
+            "es": "Establecer marca",
+            "fr": "Placer une marque",
+            "de": "Marke setzen",
+            "it": "Imposta segno",
+            "pt-BR": "Definir marca",
+            "ja": "マークを設定",
+            "zh-Hans": "设置标记",
+            "ko": "마크 설정"
+          },
+          "keys": "m{a}",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Jump to mark",
+            "es": "Saltar a la marca",
+            "fr": "Aller à la marque",
+            "de": "Zur Marke springen",
+            "it": "Vai al segno",
+            "pt-BR": "Ir para a marca",
+            "ja": "マークへジャンプ",
+            "zh-Hans": "跳到标记",
+            "ko": "마크로 이동"
+          },
+          "keys": "'{a}",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Record macro",
+            "es": "Grabar macro",
+            "fr": "Enregistrer une macro",
+            "de": "Makro aufzeichnen",
+            "it": "Registra macro",
+            "pt-BR": "Gravar macro",
+            "ja": "マクロを記録",
+            "zh-Hans": "录制宏",
+            "ko": "매크로 기록"
+          },
+          "keys": "q{a}",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Play macro",
+            "es": "Reproducir macro",
+            "fr": "Exécuter la macro",
+            "de": "Makro abspielen",
+            "it": "Esegui macro",
+            "pt-BR": "Executar macro",
+            "ja": "マクロを実行",
+            "zh-Hans": "执行宏",
+            "ko": "매크로 실행"
+          },
+          "keys": "@{a}",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Repeat last macro",
+            "es": "Repetir última macro",
+            "fr": "Répéter la dernière macro",
+            "de": "Letztes Makro wiederholen",
+            "it": "Ripeti ultima macro",
+            "pt-BR": "Repetir última macro",
+            "ja": "直前のマクロを繰り返す",
+            "zh-Hans": "重复上次宏",
+            "ko": "마지막 매크로 반복"
+          },
+          "keys": "@@",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Save & quit",
+        "es": "Guardar y salir",
+        "fr": "Enregistrer et quitter",
+        "de": "Speichern & beenden",
+        "it": "Salva ed esci",
+        "pt-BR": "Salvar e sair",
+        "ja": "保存して終了",
+        "zh-Hans": "保存并退出",
+        "ko": "저장 후 종료"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Write",
+            "es": "Guardar",
+            "fr": "Enregistrer",
+            "de": "Schreiben",
+            "it": "Salva",
+            "pt-BR": "Gravar",
+            "ja": "書き込み",
+            "zh-Hans": "写入",
+            "ko": "저장"
+          },
+          "keys": ":w",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Quit",
+            "es": "Salir",
+            "fr": "Quitter",
+            "de": "Beenden",
+            "it": "Esci",
+            "pt-BR": "Sair",
+            "ja": "終了",
+            "zh-Hans": "退出",
+            "ko": "종료"
+          },
+          "keys": ":q",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Write and quit",
+            "es": "Guardar y salir",
+            "fr": "Enregistrer et quitter",
+            "de": "Schreiben und beenden",
+            "it": "Salva ed esci",
+            "pt-BR": "Gravar e sair",
+            "ja": "書き込んで終了",
+            "zh-Hans": "写入并退出",
+            "ko": "저장 후 종료"
+          },
+          "keys": ":wq",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Quit without saving",
+            "es": "Salir sin guardar",
+            "fr": "Quitter sans enregistrer",
+            "de": "Ohne Speichern beenden",
+            "it": "Esci senza salvare",
+            "pt-BR": "Sair sem salvar",
+            "ja": "保存せず終了",
+            "zh-Hans": "不保存退出",
+            "ko": "저장하지 않고 종료"
+          },
+          "keys": ":q!",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Write all",
+            "es": "Guardar todo",
+            "fr": "Tout enregistrer",
+            "de": "Alles schreiben",
+            "it": "Salva tutto",
+            "pt-BR": "Gravar tudo",
+            "ja": "すべて書き込み",
+            "zh-Hans": "写入全部",
+            "ko": "모두 저장"
+          },
+          "keys": ":wa",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Write if changed and quit",
+            "es": "Guardar si cambió y salir",
+            "fr": "Enregistrer si modifié et quitter",
+            "de": "Bei Änderung speichern & beenden",
+            "it": "Salva se modificato ed esci",
+            "pt-BR": "Gravar se alterado e sair",
+            "ja": "変更時のみ保存して終了",
+            "zh-Hans": "有更改则保存并退出",
+            "ko": "변경 시 저장 후 종료"
+          },
+          "keys": ":x",
+          "raw": true
+        }
+      ]
+    }
+  ]
+}

@@ -4,18 +4,23 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Page not found — Keysi</title>
-<link rel="icon" href="assets/favicon/icon.svg" type="image/svg+xml">
-<link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
-<link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
-<link rel="stylesheet" href="assets/css/site.css">
-<script src="assets/js/analytics.js" defer></script>
-<script src="assets/js/hold.js" defer></script>
+<!-- GitHub Pages serves this page for a missing URL at any depth, so a
+     document-relative link here breaks under /es/ (the stylesheet and every
+     footer link 404). Full https://keysi.io URLs work at every depth. noindex
+     because /404.html itself answers 200. -->
+<meta name="robots" content="noindex">
+<link rel="icon" href="https://keysi.io/assets/favicon/icon.svg" type="image/svg+xml">
+<link rel="icon" href="https://keysi.io/assets/favicon/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="https://keysi.io/assets/favicon/apple-touch-icon.png">
+<link rel="stylesheet" href="https://keysi.io/assets/css/site.css">
+<script src="https://keysi.io/assets/js/analytics.js" defer></script>
+<script src="https://keysi.io/assets/js/hold.js" defer></script>
 </head>
 <body>
 
 <nav class="site-nav">
   <div class="container">
-    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">⌘</span>Keysi</a>
+    <a class="brand" href="https://keysi.io/"><span class="brand-mark" aria-hidden="true">⌘</span>Keysi</a>
   </div>
 </nav>
 
@@ -27,7 +32,7 @@
   </div>
   <h1>That shortcut doesn't exist.</h1>
   <p class="lede error-lede">This page moved, or never existed. Try the homepage instead.</p>
-  <a class="btn btn-primary btn-lg" href="index.html">Back to Keysi</a>
+  <a class="btn btn-primary btn-lg" href="https://keysi.io/">Back to Keysi</a>
 </section>
 
 <footer class="site-footer">
@@ -35,11 +40,11 @@
     <div class="footer-row">
       <div>© 2026 Manuel Lorenzo. Not affiliated with Media Atelier.</div>
       <ul class="footer-links">
-        <li><a href="privacy.html">Privacy</a></li>
-        <li><a href="terms.html">Terms &amp; refunds</a></li>
-        <li><a href="changelog.html">Changelog</a></li>
-        <li><a href="roadmap.html">Roadmap</a></li>
-        <li><a href="press.html">Press</a></li>
+        <li><a href="https://keysi.io/privacy.html">Privacy</a></li>
+        <li><a href="https://keysi.io/terms.html">Terms &amp; refunds</a></li>
+        <li><a href="https://keysi.io/changelog.html">Changelog</a></li>
+        <li><a href="https://keysi.io/roadmap.html">Roadmap</a></li>
+        <li><a href="https://keysi.io/press.html">Press</a></li>
       </ul>
     </div>
   </div>

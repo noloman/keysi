@@ -1,0 +1,551 @@
+{
+  "id": "ghostty",
+  "name": {
+    "en": "Ghostty",
+    "es": "Ghostty",
+    "fr": "Ghostty",
+    "de": "Ghostty",
+    "it": "Ghostty",
+    "pt-BR": "Ghostty",
+    "ja": "Ghostty",
+    "zh-Hans": "Ghostty",
+    "ko": "Ghostty"
+  },
+  "match": {
+    "bundleIDs": [
+      "com.mitchellh.ghostty"
+    ],
+    "processNames": []
+  },
+  "mode": "augment",
+  "priority": 0,
+  "groups": [
+    {
+      "title": {
+        "en": "Prompts and scrollback",
+        "es": "Indicadores y historial",
+        "fr": "Invites et historique",
+        "de": "Prompts und Verlauf",
+        "it": "Prompt e cronologia",
+        "pt-BR": "Prompts e histórico",
+        "ja": "プロンプトとスクロールバック",
+        "zh-Hans": "提示符与回滚",
+        "ko": "프롬프트와 스크롤백"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Jump to previous prompt",
+            "es": "Ir al indicador anterior",
+            "fr": "Aller à l’invite précédente",
+            "de": "Zum vorherigen Prompt springen",
+            "it": "Vai al prompt precedente",
+            "pt-BR": "Ir para o prompt anterior",
+            "ja": "前のプロンプトへ移動",
+            "zh-Hans": "跳到上一个提示符",
+            "ko": "이전 프롬프트로 이동"
+          },
+          "keys": "cmd+up"
+        },
+        {
+          "title": {
+            "en": "Jump to next prompt",
+            "es": "Ir al indicador siguiente",
+            "fr": "Aller à l’invite suivante",
+            "de": "Zum nächsten Prompt springen",
+            "it": "Vai al prompt successivo",
+            "pt-BR": "Ir para o próximo prompt",
+            "ja": "次のプロンプトへ移動",
+            "zh-Hans": "跳到下一个提示符",
+            "ko": "다음 프롬프트로 이동"
+          },
+          "keys": "cmd+down"
+        },
+        {
+          "title": {
+            "en": "Scroll to top",
+            "es": "Desplazarse al principio",
+            "fr": "Défiler tout en haut",
+            "de": "Ganz nach oben scrollen",
+            "it": "Scorri all’inizio",
+            "pt-BR": "Rolar até o topo",
+            "ja": "いちばん上までスクロール",
+            "zh-Hans": "滚动到顶部",
+            "ko": "맨 위로 스크롤"
+          },
+          "keys": "cmd+home"
+        },
+        {
+          "title": {
+            "en": "Scroll to bottom",
+            "es": "Desplazarse al final",
+            "fr": "Défiler tout en bas",
+            "de": "Ganz nach unten scrollen",
+            "it": "Scorri alla fine",
+            "pt-BR": "Rolar até o fim",
+            "ja": "いちばん下までスクロール",
+            "zh-Hans": "滚动到底部",
+            "ko": "맨 아래로 스크롤"
+          },
+          "keys": "cmd+end"
+        },
+        {
+          "title": {
+            "en": "Scroll up one page",
+            "es": "Subir una página",
+            "fr": "Remonter d’une page",
+            "de": "Eine Seite nach oben scrollen",
+            "it": "Scorri su di una pagina",
+            "pt-BR": "Rolar uma página para cima",
+            "ja": "1ページ上へスクロール",
+            "zh-Hans": "向上滚动一页",
+            "ko": "한 페이지 위로 스크롤"
+          },
+          "keys": "cmd+pageup"
+        },
+        {
+          "title": {
+            "en": "Scroll down one page",
+            "es": "Bajar una página",
+            "fr": "Descendre d’une page",
+            "de": "Eine Seite nach unten scrollen",
+            "it": "Scorri giù di una pagina",
+            "pt-BR": "Rolar uma página para baixo",
+            "ja": "1ページ下へスクロール",
+            "zh-Hans": "向下滚动一页",
+            "ko": "한 페이지 아래로 스크롤"
+          },
+          "keys": "cmd+pagedown"
+        },
+        {
+          "title": {
+            "en": "Scroll to the selection",
+            "es": "Desplazarse a la selección",
+            "fr": "Défiler jusqu’à la sélection",
+            "de": "Zur Auswahl scrollen",
+            "it": "Scorri fino alla selezione",
+            "pt-BR": "Rolar até a seleção",
+            "ja": "選択範囲までスクロール",
+            "zh-Hans": "滚动到所选内容",
+            "ko": "선택 영역으로 스크롤"
+          },
+          "keys": "cmd+j"
+        },
+        {
+          "title": {
+            "en": "Clear the screen",
+            "es": "Borrar la pantalla",
+            "fr": "Effacer l’écran",
+            "de": "Bildschirm leeren",
+            "it": "Pulisci lo schermo",
+            "pt-BR": "Limpar a tela",
+            "ja": "画面を消去",
+            "zh-Hans": "清除屏幕",
+            "ko": "화면 지우기"
+          },
+          "keys": "cmd+k"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Tabs",
+        "es": "Pestañas",
+        "fr": "Onglets",
+        "de": "Tabs",
+        "it": "Pannelli",
+        "pt-BR": "Abas",
+        "ja": "タブ",
+        "zh-Hans": "标签页",
+        "ko": "탭"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Go to tab 1 to 8",
+            "es": "Ir a las pestañas 1 a 8",
+            "fr": "Aller aux onglets 1 à 8",
+            "de": "Zu Tab 1 bis 8 wechseln",
+            "it": "Vai ai pannelli da 1 a 8",
+            "pt-BR": "Ir para as abas 1 a 8",
+            "ja": "タブ1〜8へ移動",
+            "zh-Hans": "前往标签页 1 至 8",
+            "ko": "탭 1~8로 이동"
+          },
+          "keys": "⌘1 … ⌘8",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Go to the last tab",
+            "es": "Ir a la última pestaña",
+            "fr": "Aller au dernier onglet",
+            "de": "Zum letzten Tab wechseln",
+            "it": "Vai all’ultimo pannello",
+            "pt-BR": "Ir para a última aba",
+            "ja": "最後のタブへ移動",
+            "zh-Hans": "前往最后一个标签页",
+            "ko": "마지막 탭으로 이동"
+          },
+          "keys": "cmd+9"
+        },
+        {
+          "title": {
+            "en": "Next tab",
+            "es": "Pestaña siguiente",
+            "fr": "Onglet suivant",
+            "de": "Nächster Tab",
+            "it": "Pannello successivo",
+            "pt-BR": "Próxima aba",
+            "ja": "次のタブ",
+            "zh-Hans": "下一个标签页",
+            "ko": "다음 탭"
+          },
+          "keys": "shift+cmd+]"
+        },
+        {
+          "title": {
+            "en": "Previous tab",
+            "es": "Pestaña anterior",
+            "fr": "Onglet précédent",
+            "de": "Vorheriger Tab",
+            "it": "Pannello precedente",
+            "pt-BR": "Aba anterior",
+            "ja": "前のタブ",
+            "zh-Hans": "上一个标签页",
+            "ko": "이전 탭"
+          },
+          "keys": "shift+cmd+["
+        },
+        {
+          "title": {
+            "en": "Next tab (alternative)",
+            "es": "Pestaña siguiente (alternativa)",
+            "fr": "Onglet suivant (autre raccourci)",
+            "de": "Nächster Tab (alternativ)",
+            "it": "Pannello successivo (alternativa)",
+            "pt-BR": "Próxima aba (alternativa)",
+            "ja": "次のタブ（別のキー）",
+            "zh-Hans": "下一个标签页（备选）",
+            "ko": "다음 탭(대체 키)"
+          },
+          "keys": "ctrl+tab"
+        },
+        {
+          "title": {
+            "en": "Previous tab (alternative)",
+            "es": "Pestaña anterior (alternativa)",
+            "fr": "Onglet précédent (autre raccourci)",
+            "de": "Vorheriger Tab (alternativ)",
+            "it": "Pannello precedente (alternativa)",
+            "pt-BR": "Aba anterior (alternativa)",
+            "ja": "前のタブ（別のキー）",
+            "zh-Hans": "上一个标签页（备选）",
+            "ko": "이전 탭(대체 키)"
+          },
+          "keys": "ctrl+shift+tab"
+        },
+        {
+          "title": {
+            "en": "Reopen what you just closed",
+            "es": "Volver a abrir lo que acabas de cerrar",
+            "fr": "Rouvrir ce que vous venez de fermer",
+            "de": "Gerade Geschlossenes wieder öffnen",
+            "it": "Riapri ciò che hai appena chiuso",
+            "pt-BR": "Reabrir o que você acabou de fechar",
+            "ja": "閉じたものを再度開く",
+            "zh-Hans": "重新打开刚关闭的内容",
+            "ko": "방금 닫은 항목 다시 열기"
+          },
+          "keys": "shift+cmd+t"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Search",
+        "es": "Búsqueda",
+        "fr": "Recherche",
+        "de": "Suche",
+        "it": "Ricerca",
+        "pt-BR": "Busca",
+        "ja": "検索",
+        "zh-Hans": "搜索",
+        "ko": "검색"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Find",
+            "es": "Buscar",
+            "fr": "Rechercher",
+            "de": "Suchen",
+            "it": "Trova",
+            "pt-BR": "Buscar",
+            "ja": "検索",
+            "zh-Hans": "查找",
+            "ko": "찾기"
+          },
+          "keys": "cmd+f"
+        },
+        {
+          "title": {
+            "en": "Find next",
+            "es": "Buscar siguiente",
+            "fr": "Occurrence suivante",
+            "de": "Weitersuchen",
+            "it": "Trova successivo",
+            "pt-BR": "Buscar próximo",
+            "ja": "次を検索",
+            "zh-Hans": "查找下一个",
+            "ko": "다음 찾기"
+          },
+          "keys": "cmd+g"
+        },
+        {
+          "title": {
+            "en": "Find previous",
+            "es": "Buscar anterior",
+            "fr": "Occurrence précédente",
+            "de": "Rückwärts suchen",
+            "it": "Trova precedente",
+            "pt-BR": "Buscar anterior",
+            "ja": "前を検索",
+            "zh-Hans": "查找上一个",
+            "ko": "이전 찾기"
+          },
+          "keys": "shift+cmd+g"
+        },
+        {
+          "title": {
+            "en": "Search for the selection",
+            "es": "Buscar la selección",
+            "fr": "Rechercher la sélection",
+            "de": "Nach der Auswahl suchen",
+            "it": "Cerca la selezione",
+            "pt-BR": "Buscar a seleção",
+            "ja": "選択範囲を検索",
+            "zh-Hans": "搜索所选内容",
+            "ko": "선택 영역 검색"
+          },
+          "keys": "cmd+e"
+        },
+        {
+          "title": {
+            "en": "Close the find bar",
+            "es": "Cerrar la barra de búsqueda",
+            "fr": "Fermer la barre de recherche",
+            "de": "Suchleiste schließen",
+            "it": "Chiudi la barra di ricerca",
+            "pt-BR": "Fechar a barra de busca",
+            "ja": "検索バーを閉じる",
+            "zh-Hans": "关闭查找栏",
+            "ko": "찾기 막대 닫기"
+          },
+          "keys": "shift+cmd+f"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Line editing",
+        "es": "Edición de la línea",
+        "fr": "Édition de la ligne",
+        "de": "Zeile bearbeiten",
+        "it": "Modifica della riga",
+        "pt-BR": "Edição da linha",
+        "ja": "行の編集",
+        "zh-Hans": "行编辑",
+        "ko": "줄 편집"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Move to the start of the line",
+            "es": "Ir al principio de la línea",
+            "fr": "Aller au début de la ligne",
+            "de": "An den Zeilenanfang",
+            "it": "Vai all’inizio della riga",
+            "pt-BR": "Ir para o início da linha",
+            "ja": "行頭へ移動",
+            "zh-Hans": "移到行首",
+            "ko": "줄의 처음으로 이동"
+          },
+          "keys": "cmd+left"
+        },
+        {
+          "title": {
+            "en": "Move to the end of the line",
+            "es": "Ir al final de la línea",
+            "fr": "Aller à la fin de la ligne",
+            "de": "An das Zeilenende",
+            "it": "Vai alla fine della riga",
+            "pt-BR": "Ir para o fim da linha",
+            "ja": "行末へ移動",
+            "zh-Hans": "移到行尾",
+            "ko": "줄의 끝으로 이동"
+          },
+          "keys": "cmd+right"
+        },
+        {
+          "title": {
+            "en": "Delete to the start of the line",
+            "es": "Borrar hasta el principio de la línea",
+            "fr": "Supprimer jusqu’au début de la ligne",
+            "de": "Bis zum Zeilenanfang löschen",
+            "it": "Elimina fino all’inizio della riga",
+            "pt-BR": "Apagar até o início da linha",
+            "ja": "行頭まで削除",
+            "zh-Hans": "删除到行首",
+            "ko": "줄의 처음까지 삭제"
+          },
+          "keys": "cmd+delete"
+        },
+        {
+          "title": {
+            "en": "Move back one word",
+            "es": "Retroceder una palabra",
+            "fr": "Reculer d’un mot",
+            "de": "Ein Wort zurück",
+            "it": "Indietro di una parola",
+            "pt-BR": "Voltar uma palavra",
+            "ja": "1単語戻る",
+            "zh-Hans": "后退一个单词",
+            "ko": "한 단어 뒤로 이동"
+          },
+          "keys": "opt+left"
+        },
+        {
+          "title": {
+            "en": "Move forward one word",
+            "es": "Avanzar una palabra",
+            "fr": "Avancer d’un mot",
+            "de": "Ein Wort vor",
+            "it": "Avanti di una parola",
+            "pt-BR": "Avançar uma palavra",
+            "ja": "1単語進む",
+            "zh-Hans": "前进一个单词",
+            "ko": "한 단어 앞으로 이동"
+          },
+          "keys": "opt+right"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Selection and screen contents",
+        "es": "Selección y contenido de la pantalla",
+        "fr": "Sélection et contenu de l’écran",
+        "de": "Auswahl und Bildschirminhalt",
+        "it": "Selezione e contenuto dello schermo",
+        "pt-BR": "Seleção e conteúdo da tela",
+        "ja": "選択範囲と画面の内容",
+        "zh-Hans": "所选内容与屏幕内容",
+        "ko": "선택 영역과 화면 내용"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Extend the selection",
+            "es": "Ampliar la selección",
+            "fr": "Étendre la sélection",
+            "de": "Auswahl erweitern",
+            "it": "Estendi la selezione",
+            "pt-BR": "Estender a seleção",
+            "ja": "選択範囲を広げる",
+            "zh-Hans": "扩展所选内容",
+            "ko": "선택 영역 확장"
+          },
+          "keys": "⇧ ← → ↑ ↓",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Extend the selection by a page",
+            "es": "Ampliar la selección una página",
+            "fr": "Étendre la sélection d’une page",
+            "de": "Auswahl um eine Seite erweitern",
+            "it": "Estendi la selezione di una pagina",
+            "pt-BR": "Estender a seleção uma página",
+            "ja": "選択範囲を1ページ広げる",
+            "zh-Hans": "将所选内容扩展一页",
+            "ko": "선택 영역을 한 페이지 확장"
+          },
+          "keys": "⇧⇞ / ⇧⇟",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Copy the screen contents",
+            "es": "Copiar el contenido de la pantalla",
+            "fr": "Copier le contenu de l’écran",
+            "de": "Bildschirminhalt kopieren",
+            "it": "Copia il contenuto dello schermo",
+            "pt-BR": "Copiar o conteúdo da tela",
+            "ja": "画面の内容をコピー",
+            "zh-Hans": "拷贝屏幕内容",
+            "ko": "화면 내용 복사"
+          },
+          "keys": "ctrl+shift+cmd+j"
+        },
+        {
+          "title": {
+            "en": "Save the screen to a file and paste its path",
+            "es": "Guardar la pantalla en un archivo y pegar su ruta",
+            "fr": "Enregistrer l’écran dans un fichier et coller son chemin",
+            "de": "Bildschirm in Datei sichern und Pfad einsetzen",
+            "it": "Salva lo schermo in un file e incollane il percorso",
+            "pt-BR": "Salvar a tela em um arquivo e colar o caminho",
+            "ja": "画面をファイルに保存してパスをペースト",
+            "zh-Hans": "将屏幕存为文件并粘贴其路径",
+            "ko": "화면을 파일로 저장하고 경로 붙여넣기"
+          },
+          "keys": "shift+cmd+j"
+        },
+        {
+          "title": {
+            "en": "Open the screen contents in an editor",
+            "es": "Abrir el contenido de la pantalla en un editor",
+            "fr": "Ouvrir le contenu de l’écran dans un éditeur",
+            "de": "Bildschirminhalt in einem Editor öffnen",
+            "it": "Apri il contenuto dello schermo in un editor",
+            "pt-BR": "Abrir o conteúdo da tela em um editor",
+            "ja": "画面の内容をエディタで開く",
+            "zh-Hans": "在编辑器中打开屏幕内容",
+            "ko": "화면 내용을 편집기에서 열기"
+          },
+          "keys": "opt+shift+cmd+j"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Window",
+        "es": "Ventana",
+        "fr": "Fenêtre",
+        "de": "Fenster",
+        "it": "Finestra",
+        "pt-BR": "Janela",
+        "ja": "ウインドウ",
+        "zh-Hans": "窗口",
+        "ko": "윈도우"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Toggle full screen",
+            "es": "Activar o desactivar pantalla completa",
+            "fr": "Activer/désactiver le plein écran",
+            "de": "Vollbild ein/aus",
+            "it": "Attiva/disattiva schermo intero",
+            "pt-BR": "Ativar/desativar tela cheia",
+            "ja": "フルスクリーンの切り替え",
+            "zh-Hans": "切换全屏幕",
+            "ko": "전체 화면 전환"
+          },
+          "keys": "cmd+return"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,756 @@
+{
+  "id": "notion",
+  "name": {
+    "en": "Notion",
+    "es": "Notion",
+    "fr": "Notion",
+    "de": "Notion",
+    "it": "Notion",
+    "pt-BR": "Notion",
+    "ja": "Notion",
+    "zh-Hans": "Notion",
+    "ko": "Notion"
+  },
+  "match": {
+    "bundleIDs": [
+      "notion.id"
+    ],
+    "processNames": []
+  },
+  "mode": "augment",
+  "priority": 0,
+  "groups": [
+    {
+      "title": {
+        "en": "Finding your way",
+        "es": "Orientarse",
+        "fr": "Se repérer",
+        "de": "Navigation",
+        "it": "Orientarsi",
+        "pt-BR": "Navegação",
+        "ja": "移動と検索",
+        "zh-Hans": "导航",
+        "ko": "탐색"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Search, or jump to a recent page",
+            "es": "Buscar o ir a una página reciente",
+            "fr": "Rechercher ou aller à une page récente",
+            "de": "Suchen oder zu einer letzten Seite springen",
+            "it": "Cerca o vai a una pagina recente",
+            "pt-BR": "Buscar ou ir para uma página recente",
+            "ja": "検索、または最近のページへ移動",
+            "zh-Hans": "搜索或跳到最近的页面",
+            "ko": "검색하거나 최근 페이지로 이동"
+          },
+          "keys": "cmd+p"
+        },
+        {
+          "title": {
+            "en": "Find in the page",
+            "es": "Buscar en la página",
+            "fr": "Rechercher dans la page",
+            "de": "Auf der Seite suchen",
+            "it": "Trova nella pagina",
+            "pt-BR": "Buscar na página",
+            "ja": "ページ内を検索",
+            "zh-Hans": "在页面中查找",
+            "ko": "페이지에서 찾기"
+          },
+          "keys": "cmd+f"
+        },
+        {
+          "title": {
+            "en": "New page",
+            "es": "Nueva página",
+            "fr": "Nouvelle page",
+            "de": "Neue Seite",
+            "it": "Nuova pagina",
+            "pt-BR": "Nova página",
+            "ja": "新規ページ",
+            "zh-Hans": "新建页面",
+            "ko": "새로운 페이지"
+          },
+          "keys": "cmd+n"
+        },
+        {
+          "title": {
+            "en": "Go up one level",
+            "es": "Subir un nivel",
+            "fr": "Remonter d’un niveau",
+            "de": "Eine Ebene nach oben",
+            "it": "Sali di un livello",
+            "pt-BR": "Subir um nível",
+            "ja": "1階層上へ移動",
+            "zh-Hans": "返回上一级",
+            "ko": "한 단계 위로 이동"
+          },
+          "keys": "shift+cmd+u"
+        },
+        {
+          "title": {
+            "en": "Switch between dark and light mode",
+            "es": "Alternar entre modo oscuro y claro",
+            "fr": "Basculer entre mode sombre et clair",
+            "de": "Zwischen dunklem und hellem Modus wechseln",
+            "it": "Passa tra modalità scura e chiara",
+            "pt-BR": "Alternar entre modo escuro e claro",
+            "ja": "ダークモードとライトモードを切り替え",
+            "zh-Hans": "在深色与浅色模式之间切换",
+            "ko": "다크 모드와 라이트 모드 전환"
+          },
+          "keys": "shift+cmd+l"
+        },
+        {
+          "title": {
+            "en": "Previous database page, in peek view",
+            "es": "Página anterior de la base de datos, en vista previa",
+            "fr": "Page précédente de la base, en aperçu",
+            "de": "Vorherige Datenbankseite (Vorschau)",
+            "it": "Pagina precedente del database, in anteprima",
+            "pt-BR": "Página anterior do banco de dados, na prévia",
+            "ja": "データベースの前のページ（プレビュー表示）",
+            "zh-Hans": "数据库上一页（预览视图）",
+            "ko": "데이터베이스 이전 페이지(미리보기)"
+          },
+          "keys": "ctrl+shift+k"
+        },
+        {
+          "title": {
+            "en": "Next database page, in peek view",
+            "es": "Página siguiente de la base de datos, en vista previa",
+            "fr": "Page suivante de la base, en aperçu",
+            "de": "Nächste Datenbankseite (Vorschau)",
+            "it": "Pagina successiva del database, in anteprima",
+            "pt-BR": "Próxima página do banco de dados, na prévia",
+            "ja": "データベースの次のページ（プレビュー表示）",
+            "zh-Hans": "数据库下一页（预览视图）",
+            "ko": "데이터베이스 다음 페이지(미리보기)"
+          },
+          "keys": "ctrl+shift+j"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Formatting selected text",
+        "es": "Formato del texto seleccionado",
+        "fr": "Mise en forme du texte sélectionné",
+        "de": "Ausgewählten Text formatieren",
+        "it": "Formattazione del testo selezionato",
+        "pt-BR": "Formatação do texto selecionado",
+        "ja": "選択したテキストの書式",
+        "zh-Hans": "所选文本的格式",
+        "ko": "선택한 텍스트 서식"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Bold",
+            "es": "Negrita",
+            "fr": "Gras",
+            "de": "Fett",
+            "it": "Grassetto",
+            "pt-BR": "Negrito",
+            "ja": "太字",
+            "zh-Hans": "粗体",
+            "ko": "굵게"
+          },
+          "keys": "cmd+b"
+        },
+        {
+          "title": {
+            "en": "Italic",
+            "es": "Cursiva",
+            "fr": "Italique",
+            "de": "Kursiv",
+            "it": "Corsivo",
+            "pt-BR": "Itálico",
+            "ja": "斜体",
+            "zh-Hans": "斜体",
+            "ko": "기울임꼴"
+          },
+          "keys": "cmd+i"
+        },
+        {
+          "title": {
+            "en": "Underline",
+            "es": "Subrayado",
+            "fr": "Souligné",
+            "de": "Unterstrichen",
+            "it": "Sottolineato",
+            "pt-BR": "Sublinhado",
+            "ja": "下線",
+            "zh-Hans": "下划线",
+            "ko": "밑줄"
+          },
+          "keys": "cmd+u"
+        },
+        {
+          "title": {
+            "en": "Strikethrough",
+            "es": "Tachado",
+            "fr": "Barré",
+            "de": "Durchgestrichen",
+            "it": "Barrato",
+            "pt-BR": "Tachado",
+            "ja": "取り消し線",
+            "zh-Hans": "删除线",
+            "ko": "취소선"
+          },
+          "keys": "shift+cmd+s"
+        },
+        {
+          "title": {
+            "en": "Inline code",
+            "es": "Código en línea",
+            "fr": "Code en ligne",
+            "de": "Inline-Code",
+            "it": "Codice in linea",
+            "pt-BR": "Código em linha",
+            "ja": "インラインコード",
+            "zh-Hans": "行内代码",
+            "ko": "인라인 코드"
+          },
+          "keys": "cmd+e"
+        },
+        {
+          "title": {
+            "en": "Add a link",
+            "es": "Añadir un enlace",
+            "fr": "Ajouter un lien",
+            "de": "Link hinzufügen",
+            "it": "Aggiungi un link",
+            "pt-BR": "Adicionar um link",
+            "ja": "リンクを追加",
+            "zh-Hans": "添加链接",
+            "ko": "링크 추가"
+          },
+          "keys": "cmd+k"
+        },
+        {
+          "title": {
+            "en": "Add a comment",
+            "es": "Añadir un comentario",
+            "fr": "Ajouter un commentaire",
+            "de": "Kommentar hinzufügen",
+            "it": "Aggiungi un commento",
+            "pt-BR": "Adicionar um comentário",
+            "ja": "コメントを追加",
+            "zh-Hans": "添加评论",
+            "ko": "댓글 추가"
+          },
+          "keys": "shift+cmd+m"
+        },
+        {
+          "title": {
+            "en": "Apply the last colour used",
+            "es": "Aplicar el último color usado",
+            "fr": "Appliquer la dernière couleur utilisée",
+            "de": "Zuletzt verwendete Farbe anwenden",
+            "it": "Applica l’ultimo colore usato",
+            "pt-BR": "Aplicar a última cor usada",
+            "ja": "最後に使った色を適用",
+            "zh-Hans": "应用上次使用的颜色",
+            "ko": "마지막으로 사용한 색상 적용"
+          },
+          "keys": "shift+cmd+h"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Turn into a block",
+        "es": "Convertir en bloque",
+        "fr": "Transformer en bloc",
+        "de": "In Block umwandeln",
+        "it": "Trasforma in blocco",
+        "pt-BR": "Transformar em bloco",
+        "ja": "ブロックに変換",
+        "zh-Hans": "转换为块",
+        "ko": "블록으로 변환"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Text",
+            "es": "Texto",
+            "fr": "Texte",
+            "de": "Text",
+            "it": "Testo",
+            "pt-BR": "Texto",
+            "ja": "テキスト",
+            "zh-Hans": "文本",
+            "ko": "텍스트"
+          },
+          "keys": "opt+cmd+0"
+        },
+        {
+          "title": {
+            "en": "Heading 1",
+            "es": "Encabezado 1",
+            "fr": "Titre 1",
+            "de": "Überschrift 1",
+            "it": "Titolo 1",
+            "pt-BR": "Título 1",
+            "ja": "見出し1",
+            "zh-Hans": "标题 1",
+            "ko": "제목 1"
+          },
+          "keys": "opt+cmd+1"
+        },
+        {
+          "title": {
+            "en": "Heading 2",
+            "es": "Encabezado 2",
+            "fr": "Titre 2",
+            "de": "Überschrift 2",
+            "it": "Titolo 2",
+            "pt-BR": "Título 2",
+            "ja": "見出し2",
+            "zh-Hans": "标题 2",
+            "ko": "제목 2"
+          },
+          "keys": "opt+cmd+2"
+        },
+        {
+          "title": {
+            "en": "Heading 3",
+            "es": "Encabezado 3",
+            "fr": "Titre 3",
+            "de": "Überschrift 3",
+            "it": "Titolo 3",
+            "pt-BR": "Título 3",
+            "ja": "見出し3",
+            "zh-Hans": "标题 3",
+            "ko": "제목 3"
+          },
+          "keys": "opt+cmd+3"
+        },
+        {
+          "title": {
+            "en": "To-do checkbox",
+            "es": "Casilla de tarea",
+            "fr": "Case à cocher",
+            "de": "To-do-Checkbox",
+            "it": "Casella di controllo",
+            "pt-BR": "Caixa de tarefa",
+            "ja": "ToDoチェックボックス",
+            "zh-Hans": "待办复选框",
+            "ko": "할 일 체크박스"
+          },
+          "keys": "opt+cmd+4"
+        },
+        {
+          "title": {
+            "en": "Bulleted list",
+            "es": "Lista con viñetas",
+            "fr": "Liste à puces",
+            "de": "Aufzählung",
+            "it": "Elenco puntato",
+            "pt-BR": "Lista com marcadores",
+            "ja": "箇条書きリスト",
+            "zh-Hans": "项目符号列表",
+            "ko": "글머리 기호 목록"
+          },
+          "keys": "opt+cmd+5"
+        },
+        {
+          "title": {
+            "en": "Numbered list",
+            "es": "Lista numerada",
+            "fr": "Liste numérotée",
+            "de": "Nummerierte Liste",
+            "it": "Elenco numerato",
+            "pt-BR": "Lista numerada",
+            "ja": "番号付きリスト",
+            "zh-Hans": "编号列表",
+            "ko": "번호 매기기 목록"
+          },
+          "keys": "opt+cmd+6"
+        },
+        {
+          "title": {
+            "en": "Toggle list",
+            "es": "Lista desplegable",
+            "fr": "Liste dépliable",
+            "de": "Aufklappbare Liste",
+            "it": "Elenco a scomparsa",
+            "pt-BR": "Lista suspensa",
+            "ja": "トグルリスト",
+            "zh-Hans": "折叠列表",
+            "ko": "토글 목록"
+          },
+          "keys": "opt+cmd+7"
+        },
+        {
+          "title": {
+            "en": "Code block",
+            "es": "Bloque de código",
+            "fr": "Bloc de code",
+            "de": "Codeblock",
+            "it": "Blocco di codice",
+            "pt-BR": "Bloco de código",
+            "ja": "コードブロック",
+            "zh-Hans": "代码块",
+            "ko": "코드 블록"
+          },
+          "keys": "opt+cmd+8"
+        },
+        {
+          "title": {
+            "en": "Page",
+            "es": "Página",
+            "fr": "Page",
+            "de": "Seite",
+            "it": "Pagina",
+            "pt-BR": "Página",
+            "ja": "ページ",
+            "zh-Hans": "页面",
+            "ko": "페이지"
+          },
+          "keys": "opt+cmd+9"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Blocks",
+        "es": "Bloques",
+        "fr": "Blocs",
+        "de": "Blöcke",
+        "it": "Blocchi",
+        "pt-BR": "Blocos",
+        "ja": "ブロック",
+        "zh-Hans": "块",
+        "ko": "블록"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Select the current block",
+            "es": "Seleccionar el bloque actual",
+            "fr": "Sélectionner le bloc actuel",
+            "de": "Aktuellen Block auswählen",
+            "it": "Seleziona il blocco corrente",
+            "pt-BR": "Selecionar o bloco atual",
+            "ja": "現在のブロックを選択",
+            "zh-Hans": "选择当前块",
+            "ko": "현재 블록 선택"
+          },
+          "keys": "escape"
+        },
+        {
+          "title": {
+            "en": "Extend the selection up or down",
+            "es": "Ampliar la selección arriba o abajo",
+            "fr": "Étendre la sélection vers le haut ou le bas",
+            "de": "Auswahl nach oben oder unten erweitern",
+            "it": "Estendi la selezione in su o in giù",
+            "pt-BR": "Estender a seleção para cima ou para baixo",
+            "ja": "選択範囲を上下に広げる",
+            "zh-Hans": "向上或向下扩展所选内容",
+            "ko": "선택 영역을 위아래로 확장"
+          },
+          "keys": "⇧↑ / ⇧↓",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Duplicate the selected blocks",
+            "es": "Duplicar los bloques seleccionados",
+            "fr": "Dupliquer les blocs sélectionnés",
+            "de": "Ausgewählte Blöcke duplizieren",
+            "it": "Duplica i blocchi selezionati",
+            "pt-BR": "Duplicar os blocos selecionados",
+            "ja": "選択したブロックを複製",
+            "zh-Hans": "复制所选块",
+            "ko": "선택한 블록 복제"
+          },
+          "keys": "cmd+d"
+        },
+        {
+          "title": {
+            "en": "Change or move the selected blocks",
+            "es": "Cambiar o mover los bloques seleccionados",
+            "fr": "Modifier ou déplacer les blocs sélectionnés",
+            "de": "Ausgewählte Blöcke ändern oder verschieben",
+            "it": "Modifica o sposta i blocchi selezionati",
+            "pt-BR": "Alterar ou mover os blocos selecionados",
+            "ja": "選択したブロックを変更または移動",
+            "zh-Hans": "更改或移动所选块",
+            "ko": "선택한 블록 변경 또는 이동"
+          },
+          "keys": "cmd+/"
+        },
+        {
+          "title": {
+            "en": "Move the selected blocks",
+            "es": "Mover los bloques seleccionados",
+            "fr": "Déplacer les blocs sélectionnés",
+            "de": "Ausgewählte Blöcke verschieben",
+            "it": "Sposta i blocchi selezionati",
+            "pt-BR": "Mover os blocos selecionados",
+            "ja": "選択したブロックを移動",
+            "zh-Hans": "移动所选块",
+            "ko": "선택한 블록 이동"
+          },
+          "keys": "⇧⌘ ← → ↑ ↓",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Open, check or expand the current block",
+            "es": "Abrir, marcar o desplegar el bloque actual",
+            "fr": "Ouvrir, cocher ou déplier le bloc actuel",
+            "de": "Aktuellen Block öffnen, abhaken oder aufklappen",
+            "it": "Apri, spunta o espandi il blocco corrente",
+            "pt-BR": "Abrir, marcar ou expandir o bloco atual",
+            "ja": "現在のブロックを開く・チェック・展開",
+            "zh-Hans": "打开、勾选或展开当前块",
+            "ko": "현재 블록 열기, 체크 또는 펼치기"
+          },
+          "keys": "cmd+return"
+        },
+        {
+          "title": {
+            "en": "Expand or collapse all toggles",
+            "es": "Desplegar o contraer todos los desplegables",
+            "fr": "Déplier ou replier toutes les listes",
+            "de": "Alle Aufklapplisten auf- oder zuklappen",
+            "it": "Espandi o comprimi tutti gli elenchi",
+            "pt-BR": "Expandir ou recolher todas as listas suspensas",
+            "ja": "すべてのトグルを展開または折りたたむ",
+            "zh-Hans": "展开或折叠所有折叠列表",
+            "ko": "모든 토글 펼치기 또는 접기"
+          },
+          "keys": "opt+cmd+t"
+        },
+        {
+          "title": {
+            "en": "Indent",
+            "es": "Aumentar sangría",
+            "fr": "Augmenter le retrait",
+            "de": "Einrücken",
+            "it": "Aumenta rientro",
+            "pt-BR": "Aumentar recuo",
+            "ja": "インデント",
+            "zh-Hans": "缩进",
+            "ko": "들여쓰기"
+          },
+          "keys": "tab"
+        },
+        {
+          "title": {
+            "en": "Outdent",
+            "es": "Reducir sangría",
+            "fr": "Diminuer le retrait",
+            "de": "Ausrücken",
+            "it": "Riduci rientro",
+            "pt-BR": "Diminuir recuo",
+            "ja": "インデント解除",
+            "zh-Hans": "取消缩进",
+            "ko": "내어쓰기"
+          },
+          "keys": "shift+tab"
+        },
+        {
+          "title": {
+            "en": "Line break inside a block",
+            "es": "Salto de línea dentro de un bloque",
+            "fr": "Saut de ligne dans un bloc",
+            "de": "Zeilenumbruch im Block",
+            "it": "A capo all’interno di un blocco",
+            "pt-BR": "Quebra de linha dentro de um bloco",
+            "ja": "ブロック内で改行",
+            "zh-Hans": "在块内换行",
+            "ko": "블록 안에서 줄 바꿈"
+          },
+          "keys": "shift+return"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Typing shortcuts",
+        "es": "Atajos al escribir",
+        "fr": "Raccourcis de saisie",
+        "de": "Tippkürzel",
+        "it": "Scorciatoie di digitazione",
+        "pt-BR": "Atalhos de digitação",
+        "ja": "入力ショートカット",
+        "zh-Hans": "输入快捷方式",
+        "ko": "입력 단축키"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Insert any block",
+            "es": "Insertar cualquier bloque",
+            "fr": "Insérer n’importe quel bloc",
+            "de": "Beliebigen Block einfügen",
+            "it": "Inserisci un blocco qualsiasi",
+            "pt-BR": "Inserir qualquer bloco",
+            "ja": "任意のブロックを挿入",
+            "zh-Hans": "插入任意块",
+            "ko": "블록 삽입"
+          },
+          "keys": "/",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Mention a person, page or date",
+            "es": "Mencionar a una persona, página o fecha",
+            "fr": "Mentionner une personne, une page ou une date",
+            "de": "Person, Seite oder Datum erwähnen",
+            "it": "Menziona una persona, una pagina o una data",
+            "pt-BR": "Mencionar uma pessoa, página ou data",
+            "ja": "人・ページ・日付をメンション",
+            "zh-Hans": "提及人员、页面或日期",
+            "ko": "사람, 페이지 또는 날짜 멘션"
+          },
+          "keys": "@",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Link to a page",
+            "es": "Enlazar a una página",
+            "fr": "Lier à une page",
+            "de": "Auf eine Seite verlinken",
+            "it": "Collega a una pagina",
+            "pt-BR": "Criar link para uma página",
+            "ja": "ページへのリンク",
+            "zh-Hans": "链接到页面",
+            "ko": "페이지에 링크"
+          },
+          "keys": "[[",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Create a sub-page",
+            "es": "Crear una subpágina",
+            "fr": "Créer une sous-page",
+            "de": "Unterseite erstellen",
+            "it": "Crea una sottopagina",
+            "pt-BR": "Criar uma subpágina",
+            "ja": "サブページを作成",
+            "zh-Hans": "创建子页面",
+            "ko": "하위 페이지 만들기"
+          },
+          "keys": "+",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Heading 1, 2 or 3",
+            "es": "Encabezado 1, 2 o 3",
+            "fr": "Titre 1, 2 ou 3",
+            "de": "Überschrift 1, 2 oder 3",
+            "it": "Titolo 1, 2 o 3",
+            "pt-BR": "Título 1, 2 ou 3",
+            "ja": "見出し1・2・3",
+            "zh-Hans": "标题 1、2 或 3",
+            "ko": "제목 1, 2 또는 3"
+          },
+          "keys": "# / ## / ### + space",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Bulleted list",
+            "es": "Lista con viñetas",
+            "fr": "Liste à puces",
+            "de": "Aufzählung",
+            "it": "Elenco puntato",
+            "pt-BR": "Lista com marcadores",
+            "ja": "箇条書きリスト",
+            "zh-Hans": "项目符号列表",
+            "ko": "글머리 기호 목록"
+          },
+          "keys": "- + space",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "To-do checkbox",
+            "es": "Casilla de tarea",
+            "fr": "Case à cocher",
+            "de": "To-do-Checkbox",
+            "it": "Casella di controllo",
+            "pt-BR": "Caixa de tarefa",
+            "ja": "ToDoチェックボックス",
+            "zh-Hans": "待办复选框",
+            "ko": "할 일 체크박스"
+          },
+          "keys": "[] + space",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Toggle list",
+            "es": "Lista desplegable",
+            "fr": "Liste dépliable",
+            "de": "Aufklappbare Liste",
+            "it": "Elenco a scomparsa",
+            "pt-BR": "Lista suspensa",
+            "ja": "トグルリスト",
+            "zh-Hans": "折叠列表",
+            "ko": "토글 목록"
+          },
+          "keys": "> + space",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Quote",
+            "es": "Cita",
+            "fr": "Citation",
+            "de": "Zitat",
+            "it": "Citazione",
+            "pt-BR": "Citação",
+            "ja": "引用",
+            "zh-Hans": "引用",
+            "ko": "인용"
+          },
+          "keys": "\" + space",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Divider",
+            "es": "Separador",
+            "fr": "Séparateur",
+            "de": "Trennlinie",
+            "it": "Divisore",
+            "pt-BR": "Divisor",
+            "ja": "区切り線",
+            "zh-Hans": "分隔线",
+            "ko": "구분선"
+          },
+          "keys": "---",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Insert an emoji by name",
+            "es": "Insertar un emoji por su nombre",
+            "fr": "Insérer un emoji par son nom",
+            "de": "Emoji nach Name einfügen",
+            "it": "Inserisci un’emoji per nome",
+            "pt-BR": "Inserir um emoji pelo nome",
+            "ja": "名前で絵文字を挿入",
+            "zh-Hans": "按名称插入表情符号",
+            "ko": "이름으로 이모티콘 삽입"
+          },
+          "keys": ":",
+          "raw": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "id": "word",
+  "name": {
+    "en": "Word",
+    "es": "Word",
+    "fr": "Word",
+    "de": "Word",
+    "it": "Word",
+    "pt-BR": "Word",
+    "ja": "Word",
+    "zh-Hans": "Word",
+    "ko": "Word"
+  },
+  "match": {
+    "bundleIDs": [
+      "com.microsoft.Word"
+    ],
+    "processNames": []
+  },
+  "mode": "augment",
+  "priority": 0,
+  "groups": [
+    {
+      "title": {
+        "en": "Paragraphs",
+        "es": "Párrafos",
+        "fr": "Paragraphes",
+        "de": "Absätze",
+        "it": "Paragrafi",
+        "pt-BR": "Parágrafos",
+        "ja": "段落",
+        "zh-Hans": "段落",
+        "ko": "단락"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Align left",
+            "es": "Alinear a la izquierda",
+            "fr": "Aligner à gauche",
+            "de": "Linksbündig",
+            "it": "Allinea a sinistra",
+            "pt-BR": "Alinhar à esquerda",
+            "ja": "左揃え",
+            "zh-Hans": "左对齐",
+            "ko": "왼쪽 정렬"
+          },
+          "keys": "cmd+l"
+        },
+        {
+          "title": {
+            "en": "Center",
+            "es": "Centrar",
+            "fr": "Centrer",
+            "de": "Zentriert",
+            "it": "Centra",
+            "pt-BR": "Centralizar",
+            "ja": "中央揃え",
+            "zh-Hans": "居中",
+            "ko": "가운데 정렬"
+          },
+          "keys": "cmd+e"
+        },
+        {
+          "title": {
+            "en": "Align right",
+            "es": "Alinear a la derecha",
+            "fr": "Aligner à droite",
+            "de": "Rechtsbündig",
+            "it": "Allinea a destra",
+            "pt-BR": "Alinhar à direita",
+            "ja": "右揃え",
+            "zh-Hans": "右对齐",
+            "ko": "오른쪽 정렬"
+          },
+          "keys": "cmd+r"
+        },
+        {
+          "title": {
+            "en": "Justify",
+            "es": "Justificar",
+            "fr": "Justifier",
+            "de": "Blocksatz",
+            "it": "Giustifica",
+            "pt-BR": "Justificar",
+            "ja": "両端揃え",
+            "zh-Hans": "两端对齐",
+            "ko": "양쪽 정렬"
+          },
+          "keys": "cmd+j"
+        },
+        {
+          "title": {
+            "en": "Single line spacing",
+            "es": "Interlineado sencillo",
+            "fr": "Interligne simple",
+            "de": "Einfacher Zeilenabstand",
+            "it": "Interlinea singola",
+            "pt-BR": "Espaçamento simples",
+            "ja": "行間を 1 行に",
+            "zh-Hans": "单倍行距",
+            "ko": "줄 간격 1"
+          },
+          "keys": "cmd+1"
+        },
+        {
+          "title": {
+            "en": "Double line spacing",
+            "es": "Interlineado doble",
+            "fr": "Interligne double",
+            "de": "Doppelter Zeilenabstand",
+            "it": "Interlinea doppia",
+            "pt-BR": "Espaçamento duplo",
+            "ja": "行間を 2 行に",
+            "zh-Hans": "双倍行距",
+            "ko": "줄 간격 2"
+          },
+          "keys": "cmd+2"
+        },
+        {
+          "title": {
+            "en": "Add or remove space before the paragraph",
+            "es": "Añadir o quitar espacio antes del párrafo",
+            "fr": "Ajouter ou retirer l’espace avant le paragraphe",
+            "de": "Abstand vor dem Absatz ein-/ausschalten",
+            "it": "Aggiungi o rimuovi spazio prima del paragrafo",
+            "pt-BR": "Adicionar ou remover espaço antes do parágrafo",
+            "ja": "段落前の間隔を追加/削除",
+            "zh-Hans": "添加或删除段前间距",
+            "ko": "단락 앞 간격 추가/제거"
+          },
+          "keys": "cmd+0"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Characters",
+        "es": "Caracteres",
+        "fr": "Caractères",
+        "de": "Zeichen",
+        "it": "Caratteri",
+        "pt-BR": "Caracteres",
+        "ja": "文字",
+        "zh-Hans": "字符",
+        "ko": "문자"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Increase the font size",
+            "es": "Aumentar el tamaño de fuente",
+            "fr": "Augmenter la taille de police",
+            "de": "Schrift vergrößern",
+            "it": "Aumenta la dimensione del carattere",
+            "pt-BR": "Aumentar o tamanho da fonte",
+            "ja": "フォントサイズを大きく",
+            "zh-Hans": "增大字号",
+            "ko": "글꼴 크기 키우기"
+          },
+          "keys": "cmd+shift+>"
+        },
+        {
+          "title": {
+            "en": "Decrease the font size",
+            "es": "Reducir el tamaño de fuente",
+            "fr": "Réduire la taille de police",
+            "de": "Schrift verkleinern",
+            "it": "Riduci la dimensione del carattere",
+            "pt-BR": "Diminuir o tamanho da fonte",
+            "ja": "フォントサイズを小さく",
+            "zh-Hans": "减小字号",
+            "ko": "글꼴 크기 줄이기"
+          },
+          "keys": "cmd+shift+<"
+        },
+        {
+          "title": {
+            "en": "Small capitals",
+            "es": "Versalitas",
+            "fr": "Petites majuscules",
+            "de": "Kapitälchen",
+            "it": "Maiuscoletto",
+            "pt-BR": "Versalete",
+            "ja": "スモールキャップ",
+            "zh-Hans": "小型大写字母",
+            "ko": "작은 대문자"
+          },
+          "keys": "cmd+shift+k"
+        },
+        {
+          "title": {
+            "en": "All capitals",
+            "es": "Todo en mayúsculas",
+            "fr": "Tout en majuscules",
+            "de": "Großbuchstaben",
+            "it": "Tutto maiuscolo",
+            "pt-BR": "Tudo em maiúsculas",
+            "ja": "すべて大文字",
+            "zh-Hans": "全部大写",
+            "ko": "모두 대문자"
+          },
+          "keys": "cmd+shift+a"
+        },
+        {
+          "title": {
+            "en": "Superscript",
+            "es": "Superíndice",
+            "fr": "Exposant",
+            "de": "Hochgestellt",
+            "it": "Apice",
+            "pt-BR": "Sobrescrito",
+            "ja": "上付き文字",
+            "zh-Hans": "上标",
+            "ko": "위 첨자"
+          },
+          "keys": "cmd+shift+="
+        },
+        {
+          "title": {
+            "en": "Subscript",
+            "es": "Subíndice",
+            "fr": "Indice",
+            "de": "Tiefgestellt",
+            "it": "Pedice",
+            "pt-BR": "Subscrito",
+            "ja": "下付き文字",
+            "zh-Hans": "下标",
+            "ko": "아래 첨자"
+          },
+          "keys": "cmd+="
+        },
+        {
+          "title": {
+            "en": "Remove character formatting",
+            "es": "Quitar el formato de carácter",
+            "fr": "Supprimer la mise en forme des caractères",
+            "de": "Zeichenformatierung entfernen",
+            "it": "Rimuovi la formattazione del carattere",
+            "pt-BR": "Remover a formatação de caractere",
+            "ja": "文字書式を解除",
+            "zh-Hans": "清除字符格式",
+            "ko": "문자 서식 지우기"
+          },
+          "keys": "ctrl+space"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Styles",
+        "es": "Estilos",
+        "fr": "Styles",
+        "de": "Formatvorlagen",
+        "it": "Stili",
+        "pt-BR": "Estilos",
+        "ja": "スタイル",
+        "zh-Hans": "样式",
+        "ko": "스타일"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Apply the Normal style",
+            "es": "Aplicar el estilo Normal",
+            "fr": "Appliquer le style Normal",
+            "de": "Formatvorlage „Standard“ anwenden",
+            "it": "Applica lo stile Normale",
+            "pt-BR": "Aplicar o estilo Normal",
+            "ja": "標準スタイルを適用",
+            "zh-Hans": "应用“正文”样式",
+            "ko": "기본 스타일 적용"
+          },
+          "keys": "cmd+shift+n"
+        },
+        {
+          "title": {
+            "en": "Apply Heading 1",
+            "es": "Aplicar Título 1",
+            "fr": "Appliquer Titre 1",
+            "de": "Überschrift 1 anwenden",
+            "it": "Applica Titolo 1",
+            "pt-BR": "Aplicar Título 1",
+            "ja": "見出し 1 を適用",
+            "zh-Hans": "应用标题 1",
+            "ko": "제목 1 적용"
+          },
+          "keys": "cmd+option+1"
+        },
+        {
+          "title": {
+            "en": "Apply Heading 2",
+            "es": "Aplicar Título 2",
+            "fr": "Appliquer Titre 2",
+            "de": "Überschrift 2 anwenden",
+            "it": "Applica Titolo 2",
+            "pt-BR": "Aplicar Título 2",
+            "ja": "見出し 2 を適用",
+            "zh-Hans": "应用标题 2",
+            "ko": "제목 2 적용"
+          },
+          "keys": "cmd+option+2"
+        },
+        {
+          "title": {
+            "en": "Apply Heading 3",
+            "es": "Aplicar Título 3",
+            "fr": "Appliquer Titre 3",
+            "de": "Überschrift 3 anwenden",
+            "it": "Applica Titolo 3",
+            "pt-BR": "Aplicar Título 3",
+            "ja": "見出し 3 を適用",
+            "zh-Hans": "应用标题 3",
+            "ko": "제목 3 적용"
+          },
+          "keys": "cmd+option+3"
+        },
+        {
+          "title": {
+            "en": "Apply the List Bullet style",
+            "es": "Aplicar el estilo Lista con viñetas",
+            "fr": "Appliquer le style Liste à puces",
+            "de": "Formatvorlage „Listenaufzählung“ anwenden",
+            "it": "Applica lo stile Elenco puntato",
+            "pt-BR": "Aplicar o estilo Lista com marcadores",
+            "ja": "箇条書きスタイルを適用",
+            "zh-Hans": "应用项目符号列表样式",
+            "ko": "글머리 기호 목록 스타일 적용"
+          },
+          "keys": "cmd+shift+l"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Copying formatting",
+        "es": "Copiar formato",
+        "fr": "Copier la mise en forme",
+        "de": "Formatierung übertragen",
+        "it": "Copiare la formattazione",
+        "pt-BR": "Copiar formatação",
+        "ja": "書式のコピー",
+        "zh-Hans": "复制格式",
+        "ko": "서식 복사"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Copy the formatting",
+            "es": "Copiar el formato",
+            "fr": "Copier la mise en forme",
+            "de": "Formatierung kopieren",
+            "it": "Copia la formattazione",
+            "pt-BR": "Copiar a formatação",
+            "ja": "書式をコピー",
+            "zh-Hans": "复制格式",
+            "ko": "서식 복사"
+          },
+          "keys": "ctrl+shift+c"
+        },
+        {
+          "title": {
+            "en": "Paste the formatting",
+            "es": "Pegar el formato",
+            "fr": "Coller la mise en forme",
+            "de": "Formatierung einfügen",
+            "it": "Incolla la formattazione",
+            "pt-BR": "Colar a formatação",
+            "ja": "書式を貼り付け",
+            "zh-Hans": "粘贴格式",
+            "ko": "서식 붙여넣기"
+          },
+          "keys": "ctrl+shift+v"
+        },
+        {
+          "title": {
+            "en": "Paste special…",
+            "es": "Pegado especial…",
+            "fr": "Collage spécial…",
+            "de": "Inhalte einfügen…",
+            "it": "Incolla speciale…",
+            "pt-BR": "Colar especial…",
+            "ja": "形式を選択して貼り付け…",
+            "zh-Hans": "选择性粘贴…",
+            "ko": "선택하여 붙여넣기…"
+          },
+          "keys": "cmd+option+v"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Moving through the document",
+        "es": "Moverse por el documento",
+        "fr": "Se déplacer dans le document",
+        "de": "Im Dokument bewegen",
+        "it": "Muoversi nel documento",
+        "pt-BR": "Mover-se pelo documento",
+        "ja": "文書内の移動",
+        "zh-Hans": "在文档中移动",
+        "ko": "문서 내 이동"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Insert a page break",
+            "es": "Insertar un salto de página",
+            "fr": "Insérer un saut de page",
+            "de": "Seitenumbruch einfügen",
+            "it": "Inserisci un’interruzione di pagina",
+            "pt-BR": "Inserir uma quebra de página",
+            "ja": "改ページを挿入",
+            "zh-Hans": "插入分页符",
+            "ko": "페이지 나누기 삽입"
+          },
+          "keys": "cmd+shift+return"
+        },
+        {
+          "title": {
+            "en": "Insert a comment",
+            "es": "Insertar un comentario",
+            "fr": "Insérer un commentaire",
+            "de": "Kommentar einfügen",
+            "it": "Inserisci un commento",
+            "pt-BR": "Inserir um comentário",
+            "ja": "コメントを挿入",
+            "zh-Hans": "插入批注",
+            "ko": "메모 삽입"
+          },
+          "keys": "cmd+option+m"
+        },
+        {
+          "title": {
+            "en": "Turn track changes on or off",
+            "es": "Activar o desactivar el control de cambios",
+            "fr": "Activer ou désactiver le suivi des modifications",
+            "de": "Änderungen nachverfolgen ein-/ausschalten",
+            "it": "Attiva o disattiva la revisione",
+            "pt-BR": "Ativar ou desativar o controle de alterações",
+            "ja": "変更履歴の記録を切り替え",
+            "zh-Hans": "打开或关闭修订",
+            "ko": "변경 내용 추적 켜기/끄기"
+          },
+          "keys": "cmd+shift+m"
+        },
+        {
+          "title": {
+            "en": "Toggle print preview",
+            "es": "Alternar la vista previa de impresión",
+            "fr": "Basculer l’aperçu avant impression",
+            "de": "Seitenansicht umschalten",
+            "it": "Attiva/disattiva l’anteprima di stampa",
+            "pt-BR": "Alternar a visualização de impressão",
+            "ja": "印刷プレビューを切り替え",
+            "zh-Hans": "切换打印预览",
+            "ko": "인쇄 미리보기 전환"
+          },
+          "keys": "cmd+option+i"
+        }
+      ]
+    }
+  ]
+}

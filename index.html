@@ -9,7 +9,7 @@
      all the reporting) if it disappears. -->
 <meta name="google-site-verification" content="H_bFVrYT_Xw4lI_pS46iR-rt7Zlpz-UUKP_uvfM3EYM">
 <title>Keysi — hold ⌘, see every shortcut</title>
-<meta name="description" content="Keysi is a macOS menu-bar utility that shows the keyboard shortcuts of whatever app you're using — hold ⌘ for a glance, click any row to run it. Free with no time limit; Keysi Pro is $19.99 once.">
+<meta name="description" content="Hold ⌘ to see every keyboard shortcut of the Mac app you're using, and click any row to run it. Free, with no time limit; Keysi Pro is $19.99 once.">
 <link rel="canonical" href="https://keysi.io/">
 <link rel="icon" href="assets/favicon/icon.svg" type="image/svg+xml">
 <link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
@@ -42,7 +42,7 @@
   "url": "https://keysi.io/",
   "image": "https://keysi.io/assets/img/og.png",
   "description": "Hold a modifier and see every keyboard shortcut of the Mac app you are using \u2014 grouped by menu, rendered as real keycaps, and click any row to run it. Free with no time limit; Keysi Pro adds coaching that teaches you the shortcuts you keep missing.",
-  "softwareVersion": "1.0.17",
+  "softwareVersion": "1.0.18",
   "downloadUrl": "https://github.com/noloman/keysi/releases/latest",
   "inLanguage": ["en", "es", "fr", "de", "it", "pt-BR", "ja", "ko", "zh-Hans"],
   "author": { "@type": "Person", "name": "Manuel Lorenzo" },
@@ -138,10 +138,10 @@
   <div class="container">
     <ul class="proof-list">
       <li><strong>Free</strong>, no time limit</li>
-      <li>macOS <strong>26+</strong></li>
+      <li>macOS <strong>14+</strong></li>
       <li><strong>Signed and notarized</strong></li>
       <li>Pro is <strong>$19.99 once</strong>, not a subscription</li>
-      <li>Nothing <strong>leaves your Mac</strong></li>
+      <li>Analytics <strong>off by default</strong></li>
     </ul>
   </div>
 </section>
@@ -390,8 +390,8 @@
     <details class="faq-item">
       <summary>Does Keysi send anything anywhere?</summary>
       <div class="faq-body">
-        <p>Two network calls happen on their own: a license check to Gumroad, and an update check against Keysi's Sparkle appcast. Nothing about your menus, the apps you use, or the shortcuts you press ever leaves your Mac.</p>
-        <p>Usage analytics are <strong>off by default</strong>. If you switch them on in Settings, Keysi sends a short list of product events — app launches, which Settings tab you open, the overlay appearing, which shortcut you triggered, and licensing events like a trial starting or an upgrade prompt being shown — to a EU-hosted PostHog instance. Your license key, the amount you paid, and the contents of any menu are never sent. Crash diagnostics are off by default and, when enabled, are generated on-device by Apple's MetricKit and never leave your Mac unless you copy and share them yourself. See <a href="privacy.html">the privacy page</a> for the full list.</p>
+        <p>Two network calls happen on their own: a license check to Gumroad, and an update check against Keysi's Sparkle appcast. With usage analytics off, which is the default, nothing about your menus, the apps you use, or the shortcuts you press leaves your Mac.</p>
+        <p>Usage analytics are <strong>off by default</strong>. If you switch them on in Settings, Keysi sends a short list of product events — app launches, which Settings tab you open, the overlay appearing, which shortcut you triggered, and licensing events like a trial starting or an upgrade prompt being shown — to a EU-hosted PostHog instance. Your license key, the amount you paid, and the menus Keysi reads are never sent, only the name of each shortcut you trigger. Crash diagnostics are off by default and, when enabled, are generated on-device by Apple's MetricKit and never leave your Mac unless you copy and share them yourself. See <a href="privacy.html">the privacy page</a> for the full list.</p>
       </div>
     </details>
 

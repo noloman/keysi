@@ -8,7 +8,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Cómo ver los atajos de teclado de cualquier app de Mac — Keysi</title>
-<meta name="description" content="Tres formas que macOS ya te da de ver los atajos de teclado de una app, dónde se queda corta cada una, y cómo Keysi muestra de golpe la lista entera de la app que tienes delante, agrupada por menú y con cualquier fila lista para ejecutarse. Gratis, sin límite de tiempo.">
+<meta name="description" content="Tres formas que macOS te da de ver los atajos de una app, dónde se queda corta cada una, y cómo Keysi muestra la lista entera de golpe. Gratis, sin límite.">
 <link rel="canonical" href="https://keysi.io/es/show-keyboard-shortcuts-mac.html">
 <link rel="icon" href="../assets/favicon/icon.svg" type="image/svg+xml">
 <link rel="icon" href="../assets/favicon/favicon.ico" sizes="any">
@@ -64,7 +64,7 @@
       "name": "¿Cómo veo los atajos de teclado de una app que no tiene entradas para ellos en la barra de menús?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Algunas apps mantienen sus atajos de teclado reales completamente fuera de la barra de menús. Figma, Slack y programas de terminal como Vim y tmux son ejemplos habituales. Keysi los cubre con hojas de referencia personalizadas: Figma, Slack, Vim y tmux vienen incluidas, y puedes escribir las tuyas para cualquier app en el editor de Keysi."
+        "text": "Algunas apps mantienen sus atajos de teclado reales completamente fuera de la barra de menús. Figma, Slack y programas de terminal como Vim y tmux son ejemplos habituales. Keysi los cubre con hojas de referencia personalizadas: diez vienen incluidas, entre ellas Figma, Slack, Vim y tmux, y puedes escribir las tuyas para cualquier app en el editor de Keysi."
       }
     }
   ]
@@ -138,7 +138,7 @@
   <p>Este es el fallo del que la barra de menús no puede avisarte. macOS reclama algunas combinaciones para sí, y un atajo del sistema gana antes de que la pulsación llegue siquiera a la app, pero el menú de la app imprime su atajo igualmente, así que la única señal que recibes es que no ha pasado nada. Keysi lee las asignaciones de atajos del propio sistema y marca las filas que este va a interceptar, así te enteras mientras miras la lista y no pulsando teclas ante una app que no puede oírlas.</p>
 
   <h2>Apps cuyos atajos reales no están en ningún menú</h2>
-  <p>Leer la barra de menús solo funciona cuando los atajos están en la barra de menús. Muchos no lo están. Figma y Slack guardan la mayoría en otro sitio, y un programa de terminal como Vim o tmux no tiene ninguna barra de menús de Mac donde ponerlos. Para esos, Keysi usa hojas de referencia personalizadas: listas escritas a mano que se asocian a una app por su identidad. <a href="../sheets.html">Figma, Slack, Vim y tmux vienen incluidas</a>, y hay un editor para escribir las tuyas para cualquier app, sin tocar JSON a mano si no quieres.</p>
+  <p>Leer la barra de menús solo funciona cuando los atajos están en la barra de menús. Muchos no lo están. Figma y Slack guardan la mayoría en otro sitio, y un programa de terminal como Vim o tmux no tiene ninguna barra de menús de Mac donde ponerlos. Para esos, Keysi usa hojas de referencia personalizadas: listas escritas a mano que se asocian a una app por su identidad. <a href="../sheets.html">Diez vienen incluidas</a>, entre ellas Figma, Slack, Vim y tmux, y hay un editor para escribir las tuyas para cualquier app, sin tocar JSON a mano si no quieres.</p>
   <p>Las hojas de Vim y tmux funcionan porque Keysi mira <em>dentro</em> de tu terminal y no solo a él: en un emulador de terminal conocido (Terminal, iTerm2, Ghostty, Warp, Alacritty, WezTerm, kitty, Hyper, Tabby) detecta qué programa se está ejecutando realmente en primer plano y busca hojas para ese. Con varias pestañas o divisiones abiertas deduce cuál estás mirando por el propio título de la ventana del terminal, y cuando eso no es concluyente recurre a mostrar las hojas de todo lo que se esté ejecutando: acierta la mayoría de las veces, sin garantías.</p>
 
   <h2>Ver la lista no es lo mismo que usarla</h2>
@@ -155,6 +155,16 @@
     <a class="btn btn-primary btn-lg" href="index.html#download">Descargar para macOS</a>
     <a class="btn btn-secondary btn-lg" href="index.html#pricing">Precio</a>
   </div>
+
+  <h2>Preguntas frecuentes</h2>
+  <h3>¿Cómo veo los atajos de teclado de la app que estoy usando en un Mac?</h3>
+  <p>macOS muestra los atajos de una app junto a los elementos de su propia barra de menús, de uno en uno, y casi todas las apps permiten buscar en sus menús desde el menú Ayuda. Ninguna de las dos cosas te enseña la lista entera de golpe, y los elementos de submenú siguen ocultos hasta que abres el submenú. Keysi es una utilidad de la barra de menús que lee la estructura de menús viva de la app que tienes delante y muestra todos los atajos a la vez, agrupados por menú, cuando mantienes pulsada una tecla modificadora.</p>
+  <h3>¿Hay una lista integrada de todos los atajos de teclado de un Mac?</h3>
+  <p>Hay una lista integrada de los atajos del propio sistema, en Ajustes del Sistema, dentro de Teclado, en Funciones rápidas de teclado. No cubre la app que estás usando en ese momento: los atajos de cada app viven en los menús de esa app, y macOS no tiene ninguna pantalla única que los reúna.</p>
+  <h3>¿Por qué un atajo de teclado que aparece en el menú de una app a veces no hace nada?</h3>
+  <p>macOS reclama algunas combinaciones de teclas para sí, y un atajo del sistema se gestiona antes de que la pulsación llegue a la app. El menú de la app sigue imprimiendo el atajo, así que no hay forma de saberlo solo por el menú. Keysi lee las asignaciones de atajos del propio sistema y marca los atajos de app que macOS va a interceptar antes.</p>
+  <h3>¿Cómo veo los atajos de teclado de una app que no tiene entradas para ellos en la barra de menús?</h3>
+  <p>Algunas apps mantienen sus atajos de teclado reales completamente fuera de la barra de menús. Figma, Slack y programas de terminal como Vim y tmux son ejemplos habituales. Keysi los cubre con hojas de referencia personalizadas: diez vienen incluidas, entre ellas Figma, Slack, Vim y tmux, y puedes escribir las tuyas para cualquier app en el editor de Keysi.</p>
 
   <h2>Relacionado</h2>
   <ul>

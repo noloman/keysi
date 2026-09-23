@@ -1,0 +1,580 @@
+{
+  "id": "emacs",
+  "name": {
+    "en": "Emacs",
+    "es": "Emacs",
+    "fr": "Emacs",
+    "de": "Emacs",
+    "it": "Emacs",
+    "pt-BR": "Emacs",
+    "ja": "Emacs",
+    "zh-Hans": "Emacs",
+    "ko": "Emacs"
+  },
+  "match": {
+    "bundleIDs": [],
+    "processNames": [
+      "emacs",
+      "emacsclient"
+    ]
+  },
+  "mode": "augment",
+  "priority": 0,
+  "groups": [
+    {
+      "title": {
+        "en": "Files and buffers",
+        "es": "Archivos y búferes",
+        "fr": "Fichiers et tampons",
+        "de": "Dateien und Puffer",
+        "it": "File e buffer",
+        "pt-BR": "Arquivos e buffers",
+        "ja": "ファイルとバッファ",
+        "zh-Hans": "文件与缓冲区",
+        "ko": "파일과 버퍼"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Open a file",
+            "es": "Abrir un archivo",
+            "fr": "Ouvrir un fichier",
+            "de": "Datei öffnen",
+            "it": "Apri un file",
+            "pt-BR": "Abrir um arquivo",
+            "ja": "ファイルを開く",
+            "zh-Hans": "打开文件",
+            "ko": "파일 열기"
+          },
+          "keys": "C-x C-f",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Save the buffer",
+            "es": "Guardar el búfer",
+            "fr": "Enregistrer le tampon",
+            "de": "Puffer speichern",
+            "it": "Salva il buffer",
+            "pt-BR": "Salvar o buffer",
+            "ja": "バッファを保存",
+            "zh-Hans": "保存缓冲区",
+            "ko": "버퍼 저장"
+          },
+          "keys": "C-x C-s",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Save some buffers",
+            "es": "Guardar varios búferes",
+            "fr": "Enregistrer plusieurs tampons",
+            "de": "Mehrere Puffer speichern",
+            "it": "Salva più buffer",
+            "pt-BR": "Salvar vários buffers",
+            "ja": "複数のバッファを保存",
+            "zh-Hans": "保存多个缓冲区",
+            "ko": "여러 버퍼 저장"
+          },
+          "keys": "C-x s",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Switch buffer",
+            "es": "Cambiar de búfer",
+            "fr": "Changer de tampon",
+            "de": "Puffer wechseln",
+            "it": "Cambia buffer",
+            "pt-BR": "Trocar de buffer",
+            "ja": "バッファを切り替え",
+            "zh-Hans": "切换缓冲区",
+            "ko": "버퍼 전환"
+          },
+          "keys": "C-x b",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Kill the buffer",
+            "es": "Cerrar el búfer",
+            "fr": "Supprimer le tampon",
+            "de": "Puffer schließen",
+            "it": "Chiudi il buffer",
+            "pt-BR": "Fechar o buffer",
+            "ja": "バッファを閉じる",
+            "zh-Hans": "关闭缓冲区",
+            "ko": "버퍼 닫기"
+          },
+          "keys": "C-x k",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Quit Emacs",
+            "es": "Salir de Emacs",
+            "fr": "Quitter Emacs",
+            "de": "Emacs beenden",
+            "it": "Esci da Emacs",
+            "pt-BR": "Sair do Emacs",
+            "ja": "Emacs を終了",
+            "zh-Hans": "退出 Emacs",
+            "ko": "Emacs 종료"
+          },
+          "keys": "C-x C-c",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Windows",
+        "es": "Ventanas",
+        "fr": "Fenêtres",
+        "de": "Fenster",
+        "it": "Finestre",
+        "pt-BR": "Janelas",
+        "ja": "ウィンドウ",
+        "zh-Hans": "窗口",
+        "ko": "창"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Split the window below",
+            "es": "Dividir la ventana abajo",
+            "fr": "Diviser la fenêtre en dessous",
+            "de": "Fenster unten teilen",
+            "it": "Dividi la finestra sotto",
+            "pt-BR": "Dividir a janela abaixo",
+            "ja": "ウィンドウを上下に分割",
+            "zh-Hans": "上下拆分窗口",
+            "ko": "위아래로 창 분할"
+          },
+          "keys": "C-x 2",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Split the window to the right",
+            "es": "Dividir la ventana a la derecha",
+            "fr": "Diviser la fenêtre à droite",
+            "de": "Fenster rechts teilen",
+            "it": "Dividi la finestra a destra",
+            "pt-BR": "Dividir a janela à direita",
+            "ja": "ウィンドウを左右に分割",
+            "zh-Hans": "左右拆分窗口",
+            "ko": "좌우로 창 분할"
+          },
+          "keys": "C-x 3",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Go to the other window",
+            "es": "Ir a la otra ventana",
+            "fr": "Aller à l’autre fenêtre",
+            "de": "Zum anderen Fenster",
+            "it": "Vai all’altra finestra",
+            "pt-BR": "Ir para a outra janela",
+            "ja": "別のウィンドウへ移動",
+            "zh-Hans": "切换到另一个窗口",
+            "ko": "다른 창으로 이동"
+          },
+          "keys": "C-x o",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Close this window",
+            "es": "Cerrar esta ventana",
+            "fr": "Fermer cette fenêtre",
+            "de": "Dieses Fenster schließen",
+            "it": "Chiudi questa finestra",
+            "pt-BR": "Fechar esta janela",
+            "ja": "このウィンドウを閉じる",
+            "zh-Hans": "关闭此窗口",
+            "ko": "이 창 닫기"
+          },
+          "keys": "C-x 0",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Close the other windows",
+            "es": "Cerrar las demás ventanas",
+            "fr": "Fermer les autres fenêtres",
+            "de": "Andere Fenster schließen",
+            "it": "Chiudi le altre finestre",
+            "pt-BR": "Fechar as outras janelas",
+            "ja": "他のウィンドウを閉じる",
+            "zh-Hans": "关闭其他窗口",
+            "ko": "다른 창 닫기"
+          },
+          "keys": "C-x 1",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Moving the cursor",
+        "es": "Mover el cursor",
+        "fr": "Déplacer le curseur",
+        "de": "Cursor bewegen",
+        "it": "Muovere il cursore",
+        "pt-BR": "Mover o cursor",
+        "ja": "カーソル移動",
+        "zh-Hans": "移动光标",
+        "ko": "커서 이동"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Start of the line",
+            "es": "Inicio de la línea",
+            "fr": "Début de ligne",
+            "de": "Zeilenanfang",
+            "it": "Inizio riga",
+            "pt-BR": "Início da linha",
+            "ja": "行頭へ",
+            "zh-Hans": "行首",
+            "ko": "줄 처음"
+          },
+          "keys": "C-a",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "End of the line",
+            "es": "Fin de la línea",
+            "fr": "Fin de ligne",
+            "de": "Zeilenende",
+            "it": "Fine riga",
+            "pt-BR": "Fim da linha",
+            "ja": "行末へ",
+            "zh-Hans": "行尾",
+            "ko": "줄 끝"
+          },
+          "keys": "C-e",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Forward one word",
+            "es": "Avanzar una palabra",
+            "fr": "Avancer d’un mot",
+            "de": "Ein Wort vorwärts",
+            "it": "Avanti di una parola",
+            "pt-BR": "Avançar uma palavra",
+            "ja": "1 単語進む",
+            "zh-Hans": "前进一个词",
+            "ko": "한 단어 앞으로"
+          },
+          "keys": "M-f",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Back one word",
+            "es": "Retroceder una palabra",
+            "fr": "Reculer d’un mot",
+            "de": "Ein Wort zurück",
+            "it": "Indietro di una parola",
+            "pt-BR": "Voltar uma palavra",
+            "ja": "1 単語戻る",
+            "zh-Hans": "后退一个词",
+            "ko": "한 단어 뒤로"
+          },
+          "keys": "M-b",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Start of the buffer",
+            "es": "Inicio del búfer",
+            "fr": "Début du tampon",
+            "de": "Pufferanfang",
+            "it": "Inizio del buffer",
+            "pt-BR": "Início do buffer",
+            "ja": "バッファの先頭へ",
+            "zh-Hans": "缓冲区开头",
+            "ko": "버퍼 처음"
+          },
+          "keys": "M-<",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "End of the buffer",
+            "es": "Fin del búfer",
+            "fr": "Fin du tampon",
+            "de": "Pufferende",
+            "it": "Fine del buffer",
+            "pt-BR": "Fim do buffer",
+            "ja": "バッファの末尾へ",
+            "zh-Hans": "缓冲区末尾",
+            "ko": "버퍼 끝"
+          },
+          "keys": "M->",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Go to line",
+            "es": "Ir a la línea",
+            "fr": "Aller à la ligne",
+            "de": "Gehe zu Zeile",
+            "it": "Vai alla riga",
+            "pt-BR": "Ir para a linha",
+            "ja": "指定行へ移動",
+            "zh-Hans": "跳转到行",
+            "ko": "줄로 이동"
+          },
+          "keys": "M-g g",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Editing",
+        "es": "Edición",
+        "fr": "Édition",
+        "de": "Bearbeiten",
+        "it": "Modifica",
+        "pt-BR": "Edição",
+        "ja": "編集",
+        "zh-Hans": "编辑",
+        "ko": "편집"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Set the mark",
+            "es": "Fijar la marca",
+            "fr": "Poser la marque",
+            "de": "Markierung setzen",
+            "it": "Imposta il marcatore",
+            "pt-BR": "Definir a marca",
+            "ja": "マークを設定",
+            "zh-Hans": "设置标记",
+            "ko": "마크 설정"
+          },
+          "keys": "C-space",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Cut the region",
+            "es": "Cortar la región",
+            "fr": "Couper la région",
+            "de": "Region ausschneiden",
+            "it": "Taglia la regione",
+            "pt-BR": "Recortar a região",
+            "ja": "リージョンを切り取り",
+            "zh-Hans": "剪切区域",
+            "ko": "영역 잘라내기"
+          },
+          "keys": "C-w",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Copy the region",
+            "es": "Copiar la región",
+            "fr": "Copier la région",
+            "de": "Region kopieren",
+            "it": "Copia la regione",
+            "pt-BR": "Copiar a região",
+            "ja": "リージョンをコピー",
+            "zh-Hans": "复制区域",
+            "ko": "영역 복사"
+          },
+          "keys": "M-w",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Paste the last kill",
+            "es": "Pegar lo último cortado",
+            "fr": "Coller le dernier élément supprimé",
+            "de": "Zuletzt Ausgeschnittenes einfügen",
+            "it": "Incolla l’ultimo taglio",
+            "pt-BR": "Colar o último recorte",
+            "ja": "直前の切り取りを貼り付け",
+            "zh-Hans": "粘贴最近剪切的内容",
+            "ko": "최근 잘라낸 내용 붙여넣기"
+          },
+          "keys": "C-y",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Cycle through earlier kills",
+            "es": "Recorrer los cortes anteriores",
+            "fr": "Parcourir les suppressions précédentes",
+            "de": "Frühere Ausschnitte durchblättern",
+            "it": "Scorri i tagli precedenti",
+            "pt-BR": "Percorrer recortes anteriores",
+            "ja": "以前の切り取りを順に貼り付け",
+            "zh-Hans": "循环粘贴更早的剪切内容",
+            "ko": "이전 잘라내기 순환"
+          },
+          "keys": "M-y",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Kill to the end of the line",
+            "es": "Cortar hasta el fin de la línea",
+            "fr": "Supprimer jusqu’à la fin de la ligne",
+            "de": "Bis Zeilenende ausschneiden",
+            "it": "Taglia fino a fine riga",
+            "pt-BR": "Recortar até o fim da linha",
+            "ja": "行末まで切り取り",
+            "zh-Hans": "剪切到行尾",
+            "ko": "줄 끝까지 잘라내기"
+          },
+          "keys": "C-k",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Undo",
+            "es": "Deshacer",
+            "fr": "Annuler",
+            "de": "Rückgängig",
+            "it": "Annulla",
+            "pt-BR": "Desfazer",
+            "ja": "元に戻す",
+            "zh-Hans": "撤销",
+            "ko": "실행 취소"
+          },
+          "keys": "C-/",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Cancel the current command",
+            "es": "Cancelar el comando actual",
+            "fr": "Annuler la commande en cours",
+            "de": "Aktuellen Befehl abbrechen",
+            "it": "Annulla il comando corrente",
+            "pt-BR": "Cancelar o comando atual",
+            "ja": "現在のコマンドを中止",
+            "zh-Hans": "取消当前命令",
+            "ko": "현재 명령 취소"
+          },
+          "keys": "C-g",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Search and commands",
+        "es": "Búsqueda y comandos",
+        "fr": "Recherche et commandes",
+        "de": "Suche und Befehle",
+        "it": "Ricerca e comandi",
+        "pt-BR": "Busca e comandos",
+        "ja": "検索とコマンド",
+        "zh-Hans": "搜索与命令",
+        "ko": "검색과 명령"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Search forwards",
+            "es": "Buscar hacia adelante",
+            "fr": "Rechercher vers l’avant",
+            "de": "Vorwärts suchen",
+            "it": "Cerca in avanti",
+            "pt-BR": "Buscar para frente",
+            "ja": "前方を検索",
+            "zh-Hans": "向前搜索",
+            "ko": "앞으로 검색"
+          },
+          "keys": "C-s",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Search backwards",
+            "es": "Buscar hacia atrás",
+            "fr": "Rechercher vers l’arrière",
+            "de": "Rückwärts suchen",
+            "it": "Cerca all’indietro",
+            "pt-BR": "Buscar para trás",
+            "ja": "後方を検索",
+            "zh-Hans": "向后搜索",
+            "ko": "뒤로 검색"
+          },
+          "keys": "C-r",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Query replace",
+            "es": "Reemplazar con confirmación",
+            "fr": "Remplacer avec confirmation",
+            "de": "Ersetzen mit Rückfrage",
+            "it": "Sostituisci con conferma",
+            "pt-BR": "Substituir com confirmação",
+            "ja": "問い合わせ置換",
+            "zh-Hans": "查询替换",
+            "ko": "확인하며 바꾸기"
+          },
+          "keys": "M-%",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Run a command by name",
+            "es": "Ejecutar un comando por su nombre",
+            "fr": "Exécuter une commande par son nom",
+            "de": "Befehl über den Namen ausführen",
+            "it": "Esegui un comando per nome",
+            "pt-BR": "Executar um comando pelo nome",
+            "ja": "コマンドを名前で実行",
+            "zh-Hans": "按名称执行命令",
+            "ko": "이름으로 명령 실행"
+          },
+          "keys": "M-x",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Describe what a key does",
+            "es": "Describir qué hace una tecla",
+            "fr": "Décrire ce que fait une touche",
+            "de": "Beschreiben, was eine Taste tut",
+            "it": "Descrivi cosa fa un tasto",
+            "pt-BR": "Descrever o que uma tecla faz",
+            "ja": "キーの説明を表示",
+            "zh-Hans": "查看某个按键的作用",
+            "ko": "키의 기능 설명"
+          },
+          "keys": "C-h k",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Evaluate the expression before the cursor",
+            "es": "Evaluar la expresión anterior al cursor",
+            "fr": "Évaluer l’expression avant le curseur",
+            "de": "Ausdruck vor dem Cursor auswerten",
+            "it": "Valuta l’espressione prima del cursore",
+            "pt-BR": "Avaliar a expressão antes do cursor",
+            "ja": "カーソル直前の式を評価",
+            "zh-Hans": "求值光标前的表达式",
+            "ko": "커서 앞 표현식 평가"
+          },
+          "keys": "C-x C-e",
+          "raw": true
+        }
+      ]
+    }
+  ]
+}

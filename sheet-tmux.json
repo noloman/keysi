@@ -1,0 +1,654 @@
+{
+  "id": "tmux",
+  "name": {
+    "en": "tmux",
+    "es": "tmux",
+    "fr": "tmux",
+    "de": "tmux",
+    "it": "tmux",
+    "pt-BR": "tmux",
+    "ja": "tmux",
+    "zh-Hans": "tmux",
+    "ko": "tmux"
+  },
+  "match": {
+    "bundleIDs": [],
+    "processNames": [
+      "tmux"
+    ]
+  },
+  "mode": "augment",
+  "priority": 100,
+  "groups": [
+    {
+      "title": {
+        "en": "Panes",
+        "es": "Paneles",
+        "fr": "Volets",
+        "de": "Bereiche",
+        "it": "Riquadri",
+        "pt-BR": "Painéis",
+        "ja": "ペイン",
+        "zh-Hans": "窗格",
+        "ko": "창"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Split horizontally",
+            "es": "Dividir horizontalmente",
+            "fr": "Diviser horizontalement",
+            "de": "Horizontal teilen",
+            "it": "Dividi orizzontalmente",
+            "pt-BR": "Dividir horizontalmente",
+            "ja": "水平方向に分割",
+            "zh-Hans": "水平拆分",
+            "ko": "가로로 분할"
+          },
+          "keys": "Ctrl-b %",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Split vertically",
+            "es": "Dividir verticalmente",
+            "fr": "Diviser verticalement",
+            "de": "Vertikal teilen",
+            "it": "Dividi verticalmente",
+            "pt-BR": "Dividir verticalmente",
+            "ja": "垂直方向に分割",
+            "zh-Hans": "垂直拆分",
+            "ko": "세로로 분할"
+          },
+          "keys": "Ctrl-b \"",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Switch pane",
+            "es": "Cambiar de panel",
+            "fr": "Changer de volet",
+            "de": "Bereich wechseln",
+            "it": "Cambia riquadro",
+            "pt-BR": "Alternar painel",
+            "ja": "ペインを切り替え",
+            "zh-Hans": "切换窗格",
+            "ko": "창 전환"
+          },
+          "keys": "Ctrl-b <arrow>",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Next pane",
+            "es": "Panel siguiente",
+            "fr": "Volet suivant",
+            "de": "Nächster Bereich",
+            "it": "Riquadro successivo",
+            "pt-BR": "Próximo painel",
+            "ja": "次のペイン",
+            "zh-Hans": "下一个窗格",
+            "ko": "다음 창"
+          },
+          "keys": "Ctrl-b o",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Last active pane",
+            "es": "Último panel activo",
+            "fr": "Dernier volet actif",
+            "de": "Zuletzt aktiver Bereich",
+            "it": "Ultimo riquadro attivo",
+            "pt-BR": "Último painel ativo",
+            "ja": "直前のペイン",
+            "zh-Hans": "上一个活动窗格",
+            "ko": "마지막 활성 창"
+          },
+          "keys": "Ctrl-b ;",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Close pane",
+            "es": "Cerrar panel",
+            "fr": "Fermer le volet",
+            "de": "Bereich schließen",
+            "it": "Chiudi riquadro",
+            "pt-BR": "Fechar painel",
+            "ja": "ペインを閉じる",
+            "zh-Hans": "关闭窗格",
+            "ko": "창 닫기"
+          },
+          "keys": "Ctrl-b x",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Zoom pane",
+            "es": "Ampliar panel",
+            "fr": "Zoomer le volet",
+            "de": "Bereich zoomen",
+            "it": "Ingrandisci riquadro",
+            "pt-BR": "Ampliar painel",
+            "ja": "ペインをズーム",
+            "zh-Hans": "缩放窗格",
+            "ko": "창 확대"
+          },
+          "keys": "Ctrl-b z",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Cycle pane layouts",
+            "es": "Cambiar disposición",
+            "fr": "Changer la disposition",
+            "de": "Layouts durchlaufen",
+            "it": "Cambia disposizione",
+            "pt-BR": "Alternar layouts",
+            "ja": "レイアウトを切替",
+            "zh-Hans": "切换窗格布局",
+            "ko": "창 배치 전환"
+          },
+          "keys": "Ctrl-b space",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Move pane left",
+            "es": "Mover panel a la izquierda",
+            "fr": "Déplacer le volet à gauche",
+            "de": "Bereich nach links",
+            "it": "Sposta riquadro a sinistra",
+            "pt-BR": "Mover painel à esquerda",
+            "ja": "ペインを左へ移動",
+            "zh-Hans": "左移窗格",
+            "ko": "창 왼쪽 이동"
+          },
+          "keys": "Ctrl-b {",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Move pane right",
+            "es": "Mover panel a la derecha",
+            "fr": "Déplacer le volet à droite",
+            "de": "Bereich nach rechts",
+            "it": "Sposta riquadro a destra",
+            "pt-BR": "Mover painel à direita",
+            "ja": "ペインを右へ移動",
+            "zh-Hans": "右移窗格",
+            "ko": "창 오른쪽 이동"
+          },
+          "keys": "Ctrl-b }",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Resize pane",
+            "es": "Redimensionar panel",
+            "fr": "Redimensionner le volet",
+            "de": "Bereich anpassen",
+            "it": "Ridimensiona riquadro",
+            "pt-BR": "Redimensionar painel",
+            "ja": "ペインをリサイズ",
+            "zh-Hans": "调整窗格大小",
+            "ko": "창 크기 조정"
+          },
+          "keys": "Ctrl-b Ctrl-<arrow>",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Break pane into window",
+            "es": "Convertir panel en ventana",
+            "fr": "Détacher le volet en fenêtre",
+            "de": "Bereich zu Fenster",
+            "it": "Sposta riquadro in finestra",
+            "pt-BR": "Separar painel em janela",
+            "ja": "ペインをウインドウ化",
+            "zh-Hans": "窗格独立为窗口",
+            "ko": "창을 윈도우로 분리"
+          },
+          "keys": "Ctrl-b !",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Show pane numbers",
+            "es": "Mostrar números de panel",
+            "fr": "Afficher les numéros de volet",
+            "de": "Bereichsnummern anzeigen",
+            "it": "Mostra numeri riquadro",
+            "pt-BR": "Mostrar números dos painéis",
+            "ja": "ペイン番号を表示",
+            "zh-Hans": "显示窗格编号",
+            "ko": "창 번호 표시"
+          },
+          "keys": "Ctrl-b q",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Windows",
+        "es": "Ventanas",
+        "fr": "Fenêtres",
+        "de": "Fenster",
+        "it": "Finestre",
+        "pt-BR": "Janelas",
+        "ja": "ウインドウ",
+        "zh-Hans": "窗口",
+        "ko": "윈도우"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "New window",
+            "es": "Nueva ventana",
+            "fr": "Nouvelle fenêtre",
+            "de": "Neues Fenster",
+            "it": "Nuova finestra",
+            "pt-BR": "Nova janela",
+            "ja": "新規ウインドウ",
+            "zh-Hans": "新建窗口",
+            "ko": "새 윈도우"
+          },
+          "keys": "Ctrl-b c",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Next / previous window",
+            "es": "Ventana siguiente / anterior",
+            "fr": "Fenêtre suivante / précédente",
+            "de": "Nächstes / vorheriges Fenster",
+            "it": "Finestra successiva / precedente",
+            "pt-BR": "Janela seguinte / anterior",
+            "ja": "次/前のウインドウ",
+            "zh-Hans": "下/上一个窗口",
+            "ko": "다음/이전 윈도우"
+          },
+          "keys": "Ctrl-b n / p",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Go to window n",
+            "es": "Ir a la ventana n",
+            "fr": "Aller à la fenêtre n",
+            "de": "Zu Fenster n",
+            "it": "Vai alla finestra n",
+            "pt-BR": "Ir para a janela n",
+            "ja": "n番のウインドウへ",
+            "zh-Hans": "跳到第 n 个窗口",
+            "ko": "n번 윈도우로"
+          },
+          "keys": "Ctrl-b {n}",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Rename window",
+            "es": "Cambiar nombre de la ventana",
+            "fr": "Renommer la fenêtre",
+            "de": "Fenster umbenennen",
+            "it": "Rinomina finestra",
+            "pt-BR": "Renomear janela",
+            "ja": "ウインドウ名を変更",
+            "zh-Hans": "重命名窗口",
+            "ko": "윈도우 이름 변경"
+          },
+          "keys": "Ctrl-b ,",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "List windows",
+            "es": "Listar ventanas",
+            "fr": "Lister les fenêtres",
+            "de": "Fenster auflisten",
+            "it": "Elenca finestre",
+            "pt-BR": "Listar janelas",
+            "ja": "ウインドウ一覧",
+            "zh-Hans": "列出窗口",
+            "ko": "윈도우 목록"
+          },
+          "keys": "Ctrl-b w",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Kill window",
+            "es": "Cerrar ventana",
+            "fr": "Fermer la fenêtre",
+            "de": "Fenster schließen",
+            "it": "Chiudi finestra",
+            "pt-BR": "Fechar janela",
+            "ja": "ウインドウを終了",
+            "zh-Hans": "关闭窗口",
+            "ko": "윈도우 종료"
+          },
+          "keys": "Ctrl-b &",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Last active window",
+            "es": "Última ventana activa",
+            "fr": "Dernière fenêtre active",
+            "de": "Zuletzt aktives Fenster",
+            "it": "Ultima finestra attiva",
+            "pt-BR": "Última janela ativa",
+            "ja": "直前のウインドウ",
+            "zh-Hans": "上一个活动窗口",
+            "ko": "마지막 활성 윈도우"
+          },
+          "keys": "Ctrl-b l",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Find window",
+            "es": "Buscar ventana",
+            "fr": "Rechercher une fenêtre",
+            "de": "Fenster suchen",
+            "it": "Trova finestra",
+            "pt-BR": "Localizar janela",
+            "ja": "ウインドウを検索",
+            "zh-Hans": "查找窗口",
+            "ko": "윈도우 찾기"
+          },
+          "keys": "Ctrl-b f",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Sessions",
+        "es": "Sesiones",
+        "fr": "Sessions",
+        "de": "Sitzungen",
+        "it": "Sessioni",
+        "pt-BR": "Sessões",
+        "ja": "セッション",
+        "zh-Hans": "会话",
+        "ko": "세션"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Detach",
+            "es": "Desconectar",
+            "fr": "Se détacher",
+            "de": "Trennen",
+            "it": "Disconnetti",
+            "pt-BR": "Desconectar",
+            "ja": "デタッチ",
+            "zh-Hans": "分离",
+            "ko": "분리"
+          },
+          "keys": "Ctrl-b d",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "List sessions",
+            "es": "Listar sesiones",
+            "fr": "Lister les sessions",
+            "de": "Sitzungen auflisten",
+            "it": "Elenca sessioni",
+            "pt-BR": "Listar sessões",
+            "ja": "セッション一覧",
+            "zh-Hans": "列出会话",
+            "ko": "세션 목록"
+          },
+          "keys": "Ctrl-b s",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Rename session",
+            "es": "Cambiar nombre de sesión",
+            "fr": "Renommer la session",
+            "de": "Sitzung umbenennen",
+            "it": "Rinomina sessione",
+            "pt-BR": "Renomear sessão",
+            "ja": "セッション名を変更",
+            "zh-Hans": "重命名会话",
+            "ko": "세션 이름 변경"
+          },
+          "keys": "Ctrl-b $",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Previous session",
+            "es": "Sesión anterior",
+            "fr": "Session précédente",
+            "de": "Vorherige Sitzung",
+            "it": "Sessione precedente",
+            "pt-BR": "Sessão anterior",
+            "ja": "前のセッション",
+            "zh-Hans": "上一个会话",
+            "ko": "이전 세션"
+          },
+          "keys": "Ctrl-b (",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Next session",
+            "es": "Sesión siguiente",
+            "fr": "Session suivante",
+            "de": "Nächste Sitzung",
+            "it": "Sessione successiva",
+            "pt-BR": "Próxima sessão",
+            "ja": "次のセッション",
+            "zh-Hans": "下一个会话",
+            "ko": "다음 세션"
+          },
+          "keys": "Ctrl-b )",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "New named session",
+            "es": "Nueva sesión con nombre",
+            "fr": "Nouvelle session nommée",
+            "de": "Neue benannte Sitzung",
+            "it": "Nuova sessione con nome",
+            "pt-BR": "Nova sessão nomeada",
+            "ja": "名前付きセッション作成",
+            "zh-Hans": "新建命名会话",
+            "ko": "이름 있는 새 세션"
+          },
+          "keys": "tmux new -s name",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Attach to session",
+            "es": "Conectar a la sesión",
+            "fr": "Rejoindre une session",
+            "de": "An Sitzung anhängen",
+            "it": "Collega a sessione",
+            "pt-BR": "Anexar à sessão",
+            "ja": "セッションにアタッチ",
+            "zh-Hans": "连接到会话",
+            "ko": "세션에 연결"
+          },
+          "keys": "tmux a -t name",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Copy mode",
+        "es": "Modo copia",
+        "fr": "Mode copie",
+        "de": "Kopiermodus",
+        "it": "Modalità copia",
+        "pt-BR": "Modo de cópia",
+        "ja": "コピーモード",
+        "zh-Hans": "复制模式",
+        "ko": "복사 모드"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Enter copy mode",
+            "es": "Entrar en modo copia",
+            "fr": "Entrer en mode copie",
+            "de": "Kopiermodus starten",
+            "it": "Entra in modalità copia",
+            "pt-BR": "Entrar no modo de cópia",
+            "ja": "コピーモードに入る",
+            "zh-Hans": "进入复制模式",
+            "ko": "복사 모드 시작"
+          },
+          "keys": "Ctrl-b [",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Start selection",
+            "es": "Iniciar selección",
+            "fr": "Démarrer la sélection",
+            "de": "Auswahl beginnen",
+            "it": "Inizia selezione",
+            "pt-BR": "Iniciar seleção",
+            "ja": "選択を開始",
+            "zh-Hans": "开始选择",
+            "ko": "선택 시작"
+          },
+          "keys": "space",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Copy selection",
+            "es": "Copiar selección",
+            "fr": "Copier la sélection",
+            "de": "Auswahl kopieren",
+            "it": "Copia selezione",
+            "pt-BR": "Copiar seleção",
+            "ja": "選択をコピー",
+            "zh-Hans": "复制所选",
+            "ko": "선택 복사"
+          },
+          "keys": "Enter",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Paste buffer",
+            "es": "Pegar búfer",
+            "fr": "Coller le tampon",
+            "de": "Puffer einfügen",
+            "it": "Incolla buffer",
+            "pt-BR": "Colar buffer",
+            "ja": "バッファを貼り付け",
+            "zh-Hans": "粘贴缓冲区",
+            "ko": "버퍼 붙여넣기"
+          },
+          "keys": "Ctrl-b ]",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Exit copy mode",
+            "es": "Salir del modo copia",
+            "fr": "Quitter le mode copie",
+            "de": "Kopiermodus verlassen",
+            "it": "Esci dalla modalità copia",
+            "pt-BR": "Sair do modo de cópia",
+            "ja": "コピーモードを終了",
+            "zh-Hans": "退出复制模式",
+            "ko": "복사 모드 종료"
+          },
+          "keys": "q",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Misc",
+        "es": "Varios",
+        "fr": "Divers",
+        "de": "Sonstiges",
+        "it": "Varie",
+        "pt-BR": "Diversos",
+        "ja": "その他",
+        "zh-Hans": "杂项",
+        "ko": "기타"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "List all key bindings",
+            "es": "Listar todos los atajos",
+            "fr": "Lister tous les raccourcis",
+            "de": "Alle Tastenkürzel anzeigen",
+            "it": "Elenca tutte le scorciatoie",
+            "pt-BR": "Listar todos os atalhos",
+            "ja": "キーバインド一覧",
+            "zh-Hans": "列出所有快捷键",
+            "ko": "모든 단축키 목록"
+          },
+          "keys": "Ctrl-b ?",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Command prompt",
+            "es": "Línea de comandos",
+            "fr": "Invite de commande",
+            "de": "Befehlszeile",
+            "it": "Prompt dei comandi",
+            "pt-BR": "Prompt de comando",
+            "ja": "コマンドプロンプト",
+            "zh-Hans": "命令提示符",
+            "ko": "명령 프롬프트"
+          },
+          "keys": "Ctrl-b :",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Show clock",
+            "es": "Mostrar reloj",
+            "fr": "Afficher l'horloge",
+            "de": "Uhr anzeigen",
+            "it": "Mostra orologio",
+            "pt-BR": "Mostrar relógio",
+            "ja": "時計を表示",
+            "zh-Hans": "显示时钟",
+            "ko": "시계 표시"
+          },
+          "keys": "Ctrl-b t",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Reload config",
+            "es": "Recargar configuración",
+            "fr": "Recharger la configuration",
+            "de": "Konfiguration neu laden",
+            "it": "Ricarica configurazione",
+            "pt-BR": "Recarregar configuração",
+            "ja": "設定を再読み込み",
+            "zh-Hans": "重新加载配置",
+            "ko": "설정 다시 불러오기"
+          },
+          "keys": "tmux source ~/.tmux.conf",
+          "raw": true
+        }
+      ]
+    }
+  ]
+}

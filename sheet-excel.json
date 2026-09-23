@@ -1,0 +1,505 @@
+{
+  "id": "excel",
+  "name": {
+    "en": "Excel",
+    "es": "Excel",
+    "fr": "Excel",
+    "de": "Excel",
+    "it": "Excel",
+    "pt-BR": "Excel",
+    "ja": "Excel",
+    "zh-Hans": "Excel",
+    "ko": "Excel"
+  },
+  "match": {
+    "bundleIDs": [
+      "com.microsoft.Excel"
+    ],
+    "processNames": []
+  },
+  "mode": "augment",
+  "priority": 0,
+  "groups": [
+    {
+      "title": {
+        "en": "Moving around the sheet",
+        "es": "Moverse por la hoja",
+        "fr": "Se déplacer dans la feuille",
+        "de": "In der Tabelle bewegen",
+        "it": "Muoversi nel foglio",
+        "pt-BR": "Mover-se pela planilha",
+        "ja": "シート内の移動",
+        "zh-Hans": "在工作表中移动",
+        "ko": "시트 내 이동"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Jump to the edge of the data",
+            "es": "Ir al borde de los datos",
+            "fr": "Aller au bord des données",
+            "de": "An den Rand der Daten springen",
+            "it": "Vai al bordo dei dati",
+            "pt-BR": "Ir para a borda dos dados",
+            "ja": "データの端へ移動",
+            "zh-Hans": "跳到数据区边缘",
+            "ko": "데이터 가장자리로 이동"
+          },
+          "keys": "cmd+down"
+        },
+        {
+          "title": {
+            "en": "Select to the edge of the data",
+            "es": "Seleccionar hasta el borde de los datos",
+            "fr": "Sélectionner jusqu’au bord des données",
+            "de": "Bis zum Rand der Daten auswählen",
+            "it": "Seleziona fino al bordo dei dati",
+            "pt-BR": "Selecionar até a borda dos dados",
+            "ja": "データの端まで選択",
+            "zh-Hans": "选择到数据区边缘",
+            "ko": "데이터 가장자리까지 선택"
+          },
+          "keys": "cmd+shift+down"
+        },
+        {
+          "title": {
+            "en": "Select the whole column",
+            "es": "Seleccionar toda la columna",
+            "fr": "Sélectionner toute la colonne",
+            "de": "Ganze Spalte auswählen",
+            "it": "Seleziona l’intera colonna",
+            "pt-BR": "Selecionar a coluna inteira",
+            "ja": "列全体を選択",
+            "zh-Hans": "选择整列",
+            "ko": "열 전체 선택"
+          },
+          "keys": "ctrl+space"
+        },
+        {
+          "title": {
+            "en": "Select the whole row",
+            "es": "Seleccionar toda la fila",
+            "fr": "Sélectionner toute la ligne",
+            "de": "Ganze Zeile auswählen",
+            "it": "Seleziona l’intera riga",
+            "pt-BR": "Selecionar a linha inteira",
+            "ja": "行全体を選択",
+            "zh-Hans": "选择整行",
+            "ko": "행 전체 선택"
+          },
+          "keys": "shift+space"
+        },
+        {
+          "title": {
+            "en": "Select the current region",
+            "es": "Seleccionar la región actual",
+            "fr": "Sélectionner la région active",
+            "de": "Aktuellen Bereich auswählen",
+            "it": "Seleziona la regione corrente",
+            "pt-BR": "Selecionar a região atual",
+            "ja": "現在の範囲を選択",
+            "zh-Hans": "选择当前区域",
+            "ko": "현재 영역 선택"
+          },
+          "keys": "cmd+a"
+        },
+        {
+          "title": {
+            "en": "Next sheet",
+            "es": "Hoja siguiente",
+            "fr": "Feuille suivante",
+            "de": "Nächstes Blatt",
+            "it": "Foglio successivo",
+            "pt-BR": "Próxima planilha",
+            "ja": "次のシート",
+            "zh-Hans": "下一个工作表",
+            "ko": "다음 시트"
+          },
+          "keys": "ctrl+pagedown"
+        },
+        {
+          "title": {
+            "en": "Previous sheet",
+            "es": "Hoja anterior",
+            "fr": "Feuille précédente",
+            "de": "Vorheriges Blatt",
+            "it": "Foglio precedente",
+            "pt-BR": "Planilha anterior",
+            "ja": "前のシート",
+            "zh-Hans": "上一个工作表",
+            "ko": "이전 시트"
+          },
+          "keys": "ctrl+pageup"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Entering data",
+        "es": "Introducir datos",
+        "fr": "Saisir des données",
+        "de": "Daten eingeben",
+        "it": "Inserire dati",
+        "pt-BR": "Inserir dados",
+        "ja": "データの入力",
+        "zh-Hans": "输入数据",
+        "ko": "데이터 입력"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Fill down from the cell above",
+            "es": "Rellenar hacia abajo desde la celda superior",
+            "fr": "Recopier vers le bas",
+            "de": "Von oben nach unten ausfüllen",
+            "it": "Riempi in basso dalla cella sopra",
+            "pt-BR": "Preencher para baixo a partir da célula acima",
+            "ja": "上のセルから下方向にコピー",
+            "zh-Hans": "从上方单元格向下填充",
+            "ko": "위 셀에서 아래로 채우기"
+          },
+          "keys": "ctrl+d"
+        },
+        {
+          "title": {
+            "en": "Fill right from the cell to the left",
+            "es": "Rellenar a la derecha desde la celda izquierda",
+            "fr": "Recopier vers la droite",
+            "de": "Von links nach rechts ausfüllen",
+            "it": "Riempi a destra dalla cella a sinistra",
+            "pt-BR": "Preencher à direita a partir da célula à esquerda",
+            "ja": "左のセルから右方向にコピー",
+            "zh-Hans": "从左侧单元格向右填充",
+            "ko": "왼쪽 셀에서 오른쪽으로 채우기"
+          },
+          "keys": "ctrl+r"
+        },
+        {
+          "title": {
+            "en": "Fill the whole selection with this entry",
+            "es": "Rellenar toda la selección con esta entrada",
+            "fr": "Remplir toute la sélection avec cette saisie",
+            "de": "Auswahl komplett mit dieser Eingabe füllen",
+            "it": "Riempi l’intera selezione con questo valore",
+            "pt-BR": "Preencher toda a seleção com esta entrada",
+            "ja": "選択範囲全体に同じ値を入力",
+            "zh-Hans": "用此内容填充整个选区",
+            "ko": "선택 영역 전체를 이 값으로 채우기"
+          },
+          "keys": "ctrl+return"
+        },
+        {
+          "title": {
+            "en": "Insert today’s date",
+            "es": "Insertar la fecha de hoy",
+            "fr": "Insérer la date du jour",
+            "de": "Heutiges Datum einfügen",
+            "it": "Inserisci la data di oggi",
+            "pt-BR": "Inserir a data de hoje",
+            "ja": "今日の日付を挿入",
+            "zh-Hans": "插入今天的日期",
+            "ko": "오늘 날짜 삽입"
+          },
+          "keys": "ctrl+;"
+        },
+        {
+          "title": {
+            "en": "Insert the current time",
+            "es": "Insertar la hora actual",
+            "fr": "Insérer l’heure actuelle",
+            "de": "Aktuelle Uhrzeit einfügen",
+            "it": "Inserisci l’ora corrente",
+            "pt-BR": "Inserir a hora atual",
+            "ja": "現在の時刻を挿入",
+            "zh-Hans": "插入当前时间",
+            "ko": "현재 시각 삽입"
+          },
+          "keys": "cmd+;"
+        },
+        {
+          "title": {
+            "en": "Edit the active cell",
+            "es": "Editar la celda activa",
+            "fr": "Modifier la cellule active",
+            "de": "Aktive Zelle bearbeiten",
+            "it": "Modifica la cella attiva",
+            "pt-BR": "Editar a célula ativa",
+            "ja": "アクティブなセルを編集",
+            "zh-Hans": "编辑当前单元格",
+            "ko": "활성 셀 편집"
+          },
+          "keys": "ctrl+u"
+        },
+        {
+          "title": {
+            "en": "New line inside the cell",
+            "es": "Nueva línea dentro de la celda",
+            "fr": "Nouvelle ligne dans la cellule",
+            "de": "Neue Zeile in der Zelle",
+            "it": "Nuova riga nella cella",
+            "pt-BR": "Nova linha dentro da célula",
+            "ja": "セル内で改行",
+            "zh-Hans": "在单元格内换行",
+            "ko": "셀 안에서 줄 바꿈"
+          },
+          "keys": "ctrl+option+return"
+        },
+        {
+          "title": {
+            "en": "AutoSum",
+            "es": "Autosuma",
+            "fr": "Somme automatique",
+            "de": "AutoSumme",
+            "it": "Somma automatica",
+            "pt-BR": "AutoSoma",
+            "ja": "オートSUM",
+            "zh-Hans": "自动求和",
+            "ko": "자동 합계"
+          },
+          "keys": "option+shift+="
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Formulas",
+        "es": "Fórmulas",
+        "fr": "Formules",
+        "de": "Formeln",
+        "it": "Formule",
+        "pt-BR": "Fórmulas",
+        "ja": "数式",
+        "zh-Hans": "公式",
+        "ko": "수식"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Toggle absolute and relative references",
+            "es": "Alternar referencias absolutas y relativas",
+            "fr": "Basculer entre références absolues et relatives",
+            "de": "Zwischen absoluten und relativen Bezügen wechseln",
+            "it": "Alterna riferimenti assoluti e relativi",
+            "pt-BR": "Alternar referências absolutas e relativas",
+            "ja": "絶対参照と相対参照を切り替え",
+            "zh-Hans": "切换绝对/相对引用",
+            "ko": "절대 참조와 상대 참조 전환"
+          },
+          "keys": "cmd+t"
+        },
+        {
+          "title": {
+            "en": "Show formulas instead of results",
+            "es": "Mostrar fórmulas en lugar de resultados",
+            "fr": "Afficher les formules au lieu des résultats",
+            "de": "Formeln statt Ergebnisse anzeigen",
+            "it": "Mostra le formule invece dei risultati",
+            "pt-BR": "Mostrar fórmulas em vez dos resultados",
+            "ja": "結果ではなく数式を表示",
+            "zh-Hans": "显示公式而非结果",
+            "ko": "결과 대신 수식 표시"
+          },
+          "keys": "ctrl+`"
+        },
+        {
+          "title": {
+            "en": "Expand or collapse the formula bar",
+            "es": "Expandir o contraer la barra de fórmulas",
+            "fr": "Développer ou réduire la barre de formule",
+            "de": "Bearbeitungsleiste ein- oder ausklappen",
+            "it": "Espandi o riduci la barra della formula",
+            "pt-BR": "Expandir ou recolher a barra de fórmulas",
+            "ja": "数式バーを展開/折りたたみ",
+            "zh-Hans": "展开或折叠编辑栏",
+            "ko": "수식 입력줄 펼치기/접기"
+          },
+          "keys": "ctrl+shift+u"
+        },
+        {
+          "title": {
+            "en": "Enter as an array formula",
+            "es": "Introducir como fórmula matricial",
+            "fr": "Valider comme formule matricielle",
+            "de": "Als Matrixformel eingeben",
+            "it": "Inserisci come formula di matrice",
+            "pt-BR": "Inserir como fórmula de matriz",
+            "ja": "配列数式として入力",
+            "zh-Hans": "以数组公式输入",
+            "ko": "배열 수식으로 입력"
+          },
+          "keys": "ctrl+shift+return"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Formatting",
+        "es": "Formato",
+        "fr": "Mise en forme",
+        "de": "Formatierung",
+        "it": "Formattazione",
+        "pt-BR": "Formatação",
+        "ja": "書式",
+        "zh-Hans": "格式",
+        "ko": "서식"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Currency format",
+            "es": "Formato de moneda",
+            "fr": "Format monétaire",
+            "de": "Währungsformat",
+            "it": "Formato valuta",
+            "pt-BR": "Formato de moeda",
+            "ja": "通貨の書式",
+            "zh-Hans": "货币格式",
+            "ko": "통화 서식"
+          },
+          "keys": "ctrl+shift+$"
+        },
+        {
+          "title": {
+            "en": "Percentage format",
+            "es": "Formato de porcentaje",
+            "fr": "Format pourcentage",
+            "de": "Prozentformat",
+            "it": "Formato percentuale",
+            "pt-BR": "Formato de porcentagem",
+            "ja": "パーセントの書式",
+            "zh-Hans": "百分比格式",
+            "ko": "백분율 서식"
+          },
+          "keys": "ctrl+shift+%"
+        },
+        {
+          "title": {
+            "en": "Date format",
+            "es": "Formato de fecha",
+            "fr": "Format date",
+            "de": "Datumsformat",
+            "it": "Formato data",
+            "pt-BR": "Formato de data",
+            "ja": "日付の書式",
+            "zh-Hans": "日期格式",
+            "ko": "날짜 서식"
+          },
+          "keys": "ctrl+shift+#"
+        },
+        {
+          "title": {
+            "en": "General format",
+            "es": "Formato general",
+            "fr": "Format standard",
+            "de": "Standardformat",
+            "it": "Formato generale",
+            "pt-BR": "Formato geral",
+            "ja": "標準の書式",
+            "zh-Hans": "常规格式",
+            "ko": "일반 서식"
+          },
+          "keys": "ctrl+shift+~"
+        },
+        {
+          "title": {
+            "en": "Format cells…",
+            "es": "Formato de celdas…",
+            "fr": "Format de cellule…",
+            "de": "Zellen formatieren…",
+            "it": "Formato celle…",
+            "pt-BR": "Formatar células…",
+            "ja": "セルの書式設定…",
+            "zh-Hans": "设置单元格格式…",
+            "ko": "셀 서식…"
+          },
+          "keys": "cmd+1"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Rows, columns and cells",
+        "es": "Filas, columnas y celdas",
+        "fr": "Lignes, colonnes et cellules",
+        "de": "Zeilen, Spalten und Zellen",
+        "it": "Righe, colonne e celle",
+        "pt-BR": "Linhas, colunas e células",
+        "ja": "行・列・セル",
+        "zh-Hans": "行、列和单元格",
+        "ko": "행, 열, 셀"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Insert cells, rows or columns",
+            "es": "Insertar celdas, filas o columnas",
+            "fr": "Insérer des cellules, lignes ou colonnes",
+            "de": "Zellen, Zeilen oder Spalten einfügen",
+            "it": "Inserisci celle, righe o colonne",
+            "pt-BR": "Inserir células, linhas ou colunas",
+            "ja": "セル・行・列を挿入",
+            "zh-Hans": "插入单元格、行或列",
+            "ko": "셀, 행 또는 열 삽입"
+          },
+          "keys": "⌃⇧+"
+        },
+        {
+          "title": {
+            "en": "Delete cells, rows or columns",
+            "es": "Eliminar celdas, filas o columnas",
+            "fr": "Supprimer des cellules, lignes ou colonnes",
+            "de": "Zellen, Zeilen oder Spalten löschen",
+            "it": "Elimina celle, righe o colonne",
+            "pt-BR": "Excluir células, linhas ou colunas",
+            "ja": "セル・行・列を削除",
+            "zh-Hans": "删除单元格、行或列",
+            "ko": "셀, 행 또는 열 삭제"
+          },
+          "keys": "⌘-"
+        },
+        {
+          "title": {
+            "en": "Hide the selected rows",
+            "es": "Ocultar las filas seleccionadas",
+            "fr": "Masquer les lignes sélectionnées",
+            "de": "Ausgewählte Zeilen ausblenden",
+            "it": "Nascondi le righe selezionate",
+            "pt-BR": "Ocultar as linhas selecionadas",
+            "ja": "選択した行を非表示",
+            "zh-Hans": "隐藏选中的行",
+            "ko": "선택한 행 숨기기"
+          },
+          "keys": "ctrl+9"
+        },
+        {
+          "title": {
+            "en": "Hide the selected columns",
+            "es": "Ocultar las columnas seleccionadas",
+            "fr": "Masquer les colonnes sélectionnées",
+            "de": "Ausgewählte Spalten ausblenden",
+            "it": "Nascondi le colonne selezionate",
+            "pt-BR": "Ocultar as colunas selecionadas",
+            "ja": "選択した列を非表示",
+            "zh-Hans": "隐藏选中的列",
+            "ko": "선택한 열 숨기기"
+          },
+          "keys": "ctrl+0"
+        },
+        {
+          "title": {
+            "en": "Show the hidden rows",
+            "es": "Mostrar las filas ocultas",
+            "fr": "Afficher les lignes masquées",
+            "de": "Ausgeblendete Zeilen einblenden",
+            "it": "Mostra le righe nascoste",
+            "pt-BR": "Exibir as linhas ocultas",
+            "ja": "非表示の行を再表示",
+            "zh-Hans": "显示隐藏的行",
+            "ko": "숨긴 행 표시"
+          },
+          "keys": "ctrl+shift+9"
+        }
+      ]
+    }
+  ]
+}
