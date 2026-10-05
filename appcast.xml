@@ -3,6 +3,54 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.22</title>
+            <pubDate>Tue, 06 Oct 2026 00:07:57 +0200</pubDate>
+            <sparkle:version>23</sparkle:version>
+            <sparkle:shortVersionString>1.0.22</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>Four new features, three changes and two fixes.</p>
+<ul>
+  <li>The welcome window now has you try holding ⌘ once, notices when the shortcuts appear, and offers a first Practice drill on that app; Skip is always there.</li>
+  <li>Keysi Pro now notices when an app updates and marks the shortcuts the update added in the overlay — a <strong>New</strong> badge on each, and a count in the header — for two weeks.</li>
+  <li>Practice Mode now uses spaced repetition: shortcuts you get right come back after 1, 2, 4, 8 and then 16 days, misses return the next day, and the drill shows how many are due today.</li>
+  <li>Keysi Pro now notices the menu commands you keep clicking that have no shortcut, and Settings ▸ Coach suggests a free key combination for each, with how to add it in System Settings.</li>
+  <li>The menu bar menu is grouped by kind, its windows come to the front and close with Escape, opening Keysi again shows Settings when the icon is hidden, and Practice speaks answers to VoiceOver.</li>
+  <li>The welcome window now goes one page at a time: a live demo to try before granting access, one permission, a first real hold, and a last page with an unticked analytics opt-in; Practice Now never opens an empty drill.</li>
+  <li>Counts read correctly in every language ("1 shortcut", not "1 shortcuts"), license errors say what to do next, and German now says Tastaturkurzbefehle, so keyboard shortcuts no longer share a name with the Shortcuts app.</li>
+  <li>Coach reminders stay put while the pointer is on them and work with VoiceOver, and the overlay now beeps when a command can't run, reads search results and the selected row aloud, and marks favorites with a star.</li>
+  <li>Keysi Pro owners now get their progress, not the paywall, from Settings; the automatic recap no longer takes the keyboard; and shortcut recorders start from the keyboard and record ⌘W or ⌘Q instead of acting on them.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.22.zip" length="6293407" type="application/octet-stream" sparkle:edSignature="nJ2rnJ4j2hnYgcwnw1ldUvwC2G4E5O+sSWeiIfaHCGitkcqtHUMsYvcRrVh0qY233n+D+PtbfP/5vTEw5y/2DA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi23-22.delta" sparkle:deltaFrom="22" length="1460882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="vEp9EndXgMeackf9bIGPz/fFdGA4KyfsnNYaUlL/WzEmX7zLACqUKbQwaMKD20u1+SjLG8Ls/n9fHXEiNg+gDA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi23-21.delta" sparkle:deltaFrom="21" length="1672770" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="WUWsIxECeucD+tdOds9LKXjlRkJe6xnd+VwCxoPe/GtdIBt2hQ9Ub78zK83U/042vsd8BEu87En4OKEzARdDBg=="/>
+                <enclosure url="https://keysi.io/releases/Keysi23-20.delta" sparkle:deltaFrom="20" length="1697938" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="3e6BNL+wtGM92F5naqRjeEQ/l9a7Gig44UEPDQ4xDhzFa7+02DdDeoxRns2AYlU5hNX6txYv9J8JXjjwXvQVBg=="/>
+                <enclosure url="https://keysi.io/releases/Keysi23-19.delta" sparkle:deltaFrom="19" length="1716534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="+0uZ+Ph7qcbYLNfwgNGPLo1pXaQH3+ktn5Qzj5P0uZygTNydbkda0gEyqIOQ9JTpZFzIhYFKk3rQoOBHoRX5AA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi23-18.delta" sparkle:deltaFrom="18" length="1719166" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="KY6L9hXq5hRbGvai/G6mEzPqYwvlu6xHYSscIhDEJvvXkc0czvMnpXOcRbJ4Lpqq2/9PE5qO5VyMTMym3C+fAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.21</title>
             <pubDate>Mon, 05 Oct 2026 20:48:05 +0200</pubDate>
             <sparkle:version>22</sparkle:version>
