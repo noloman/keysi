@@ -52,6 +52,15 @@
     return BASE + href;
   }
 
+  // This page's language's own homepage. A localized page lives in
+  // site/<locale>/, and <locale> is its `lang` lowercased (es, pt-br,
+  // zh-hans; see site/i18n/locales.json). Not "relative to the page": the
+  // 404 page is served at any depth.
+  var HOME = (function () {
+    var lang = (document.documentElement.lang || "en").toLowerCase();
+    return (lang === "en" || lang.indexOf("en-") === 0 ? "" : lang + "/") + "index.html";
+  })();
+
   // The demo's own text, per language. A lookup table rather than a
   // generated file: nine short labels do not justify teaching
   // `scripts/site-i18n.py` to emit JavaScript, and `--check` fails if a
@@ -101,8 +110,12 @@
   // An in-page anchor only resolves on the page that has that section. Every
   // page but the homepage needs it prefixed, so this resolves per page rather
   // than shipping a menu that half the site links into nothing.
+  //
+  // The fallback is the homepage of *this page's* language: a bare
+  // "index.html" went through BASE to the English one, so "Precio" on a
+  // Spanish page landed on the English pricing section.
   function anchor(id) {
-    return document.getElementById(id) ? "#" + id : "index.html#" + id;
+    return document.getElementById(id) ? "#" + id : HOME + "#" + id;
   }
 
   // The page's own "menu", grouped the way Keysi groups an app's menu bar.

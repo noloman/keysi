@@ -50,7 +50,7 @@
 <section class="container-narrow doc">
   <div class="eyebrow">Privacy</div>
   <h1>What Keysi sends anywhere, and what it doesn't</h1>
-  <p class="updated">Last updated with the 1.0.18 release.</p>
+  <p class="updated">Last updated with the 1.0.21 release.</p>
 
   <h2>The short version</h2>
   <p>
@@ -135,9 +135,10 @@
       version, so we can tell which releases are actually in use and which
       macOS versions still need supporting, and which Settings tab you
       open.</li>
-    <li>The overlay showing, and which individual shortcuts you trigger,
-      the shortcut's name and the app it ran in, so we can see which
-      shortcuts and apps matter most to Keysi users.</li>
+    <li>The overlay showing, and a shortcut being run from it, with the
+      name of the app it ran in, so we can see which apps matter most to
+      Keysi users. Not the shortcut's name: a menu item can be a window
+      title or a document name.</li>
     <li>Licensing and upgrade events: a trial starting, moving between the
       free and Pro tiers, the progress recap being shown and which button
       you pressed on it, opening the checkout page and which screen you
@@ -264,6 +265,16 @@
     shortcuts when you click with the mouse" in Settings → Coach stops the
     counting entirely, and "Reset Statistics" on that same pane deletes what has
     been collected.
+  </p>
+  <p>
+    So that an app's shortcuts appear instantly the first time you bring
+    Keysi up after it starts, it also keeps a copy of the menus it has read, on your Mac
+    only, in <code>MenuCache.json</code> in that same folder: menu command
+    names and their shortcuts, for up to 12 apps, each dropped after 30
+    days. It leaves out the menu items that are your own content rather
+    than a command, such as the list of open windows in the Window menu and
+    the names in Open Recent. "Reset Statistics" in Settings → Coach deletes
+    this file's contents too.
   </p>
   <p>
     If you send feedback while you're offline, the message waits in

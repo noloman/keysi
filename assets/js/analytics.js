@@ -22,6 +22,40 @@
   var GA_MEASUREMENT_ID = "G-RCKB9SSJXD";
   var STORAGE_KEY = "keysi_analytics_consent"; // "granted" | "denied"
 
+  // The site root, read off this script's own URL the way hold.js does it.
+  // A bare `privacy.html` resolved against /es/ pages to /es/privacy.html,
+  // which does not exist: the privacy page is English-only, at the root.
+  var BASE = (function () {
+    var self = document.currentScript;
+    if (!self || !self.src) return "";
+    return self.src.replace(/assets\/js\/analytics\.js(\?.*)?$/, "");
+  })();
+
+  // Same table shape, and the same reason, as hold.js and copy.js.
+  // `scripts/site-i18n.py --check` fails if a locale ships a page with no
+  // entry here.
+  var STRINGS = {
+    en: {
+      region: "Cookie consent",
+      before: "This site uses Google Analytics to understand traffic — nothing loads unless you accept. See the ",
+      link: "privacy page",
+      after: " for details.",
+      decline: "Decline",
+      accept: "Accept"
+    },
+    es: {
+      region: "Consentimiento de cookies",
+      before: "Este sitio usa Google Analytics para entender el tráfico; no se carga nada salvo que lo aceptes. Consulta la ",
+      link: "página de privacidad (en inglés)",
+      after: " para más detalles.",
+      decline: "Rechazar",
+      accept: "Aceptar"
+    }
+  };
+
+  var T = STRINGS[(document.documentElement.lang || "en").split("-")[0].toLowerCase()] ||
+    STRINGS.en;
+
   function storedConsent() {
     try {
       return window.localStorage.getItem(STORAGE_KEY);
@@ -66,18 +100,16 @@
     var banner = document.createElement("div");
     banner.className = "consent-banner";
     banner.setAttribute("role", "region");
-    banner.setAttribute("aria-label", "Cookie consent");
+    banner.setAttribute("aria-label", T.region);
 
     var text = document.createElement("p");
     text.className = "consent-banner-text";
-    text.appendChild(
-      document.createTextNode("This site uses Google Analytics to understand traffic — nothing loads unless you accept. See the ")
-    );
+    text.appendChild(document.createTextNode(T.before));
     var link = document.createElement("a");
-    link.href = "privacy.html#analytics";
-    link.textContent = "privacy page";
+    link.href = BASE + "privacy.html#analytics";
+    link.textContent = T.link;
     text.appendChild(link);
-    text.appendChild(document.createTextNode(" for details."));
+    text.appendChild(document.createTextNode(T.after));
 
     var actions = document.createElement("div");
     actions.className = "consent-banner-actions";
@@ -85,12 +117,12 @@
     var decline = document.createElement("button");
     decline.type = "button";
     decline.className = "btn btn-secondary btn-sm";
-    decline.textContent = "Decline";
+    decline.textContent = T.decline;
 
     var accept = document.createElement("button");
     accept.type = "button";
     accept.className = "btn btn-primary btn-sm";
-    accept.textContent = "Accept";
+    accept.textContent = T.accept;
 
     function dismiss() {
       banner.remove();
