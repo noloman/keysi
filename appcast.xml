@@ -3,6 +3,53 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.21</title>
+            <pubDate>Mon, 05 Oct 2026 20:48:05 +0200</pubDate>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>1.0.21</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>One change and seven fixes.</p>
+<ul>
+  <li>Markdown and PDF export, and showing an app's shortcuts from Raycast, Alfred, Shortcuts or the terminal, are now free; the 14-day Pro trial starts when you grant access, and the menu bar says what it is.</li>
+  <li>Keysi no longer saves window titles or recent document names in its menu cache, and Reset Statistics now clears that cache; usage analytics no longer send menu item names; Shortcut Coach stays responsive when an app hangs.</li>
+  <li>Search ignores accents, VS Code keybindings with a trailing comma and abbreviated Vim mappings are read, and Coach history survives a downgrade, the Japanese calendar and toggling Coach in browsers.</li>
+  <li>⇧⌘K no longer also reaches the app you're in, Caps Lock no longer stops it working, Tab after recording a shortcut moves on instead of rebinding it, and shortcuts like ⌘{ and ⌘? now count in Coach, Practice and conflict warnings.</li>
+  <li>Keysi now rechecks your license while it stays open, "Unlock Keysi Pro…" in Integrations opens the license pane again, and Show Shortcuts and export by app name use the app you named instead of the last one you used.</li>
+  <li>Overlay rows are clickable again after a relaunch, a pinned panel stays where you drag it, and the footer names your hold key, while its hints and VoiceOver labels are now translated.</li>
+  <li>The <strong>Run Menu Command</strong> shortcut no longer fails when Keysi answers from its saved copy of an app's menus, such as just after a relaunch.</li>
+  <li>A new sheet can no longer silently replace a built-in or another of your sheets, a failed save now says why and keeps your work, and Return moves past a wrong answer in Practice Mode.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.21.zip" length="5894921" type="application/octet-stream" sparkle:edSignature="FCBFlsg2cmue8egk9UhCSdU7GSrfl82zJemmlQBv8diq8dGGc/ZnPXZEvvyQ5kjrJbIwwztbmXOscMFAiY/UDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi22-21.delta" sparkle:deltaFrom="21" length="893114" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="KQqZhr7GFVZLYZP0Hk1H8NGp7vKKH+/ORCiWFCneji9fLLbTj5EefUr9affFT6ybQn1OZ5uPRdMk3GzUG2BFCw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi22-20.delta" sparkle:deltaFrom="20" length="944982" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="EKqH4w6Gky+BSVlF9FepNoNVEbr7yJ3uDC5kOW1QR3dL9riHc/cR98aTykadreCPxuQCH7HGxZNPmimS3xWWBA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi22-19.delta" sparkle:deltaFrom="19" length="965742" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="oap+Zhkf0MyOBLAea4ZCAC83wh0JCgsgJoJzNrYBR/MA/WP1X6ZFA3+r4QsyoLJW+BP5Qx23WqxyB5y+NsPpBw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi22-18.delta" sparkle:deltaFrom="18" length="974442" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="iP2IH5Ea5JFq3CGfPcpMgZ7Gk0SX47oQwJB30AjBSG5ZxJjBi0HLYvlNaw12BE+RMruWgag5ScIwVggNxaSfDw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi22-17.delta" sparkle:deltaFrom="17" length="1017418" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="uEdtIwbXfch3p0rleQJveeS/L1qbkXDz4CeJX8bqwlSp1PtVPH16gyVYTsyy3LMtFFngzkypXlAKzb9iMdBxAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.20</title>
             <pubDate>Wed, 23 Sep 2026 15:58:50 +0200</pubDate>
             <sparkle:version>21</sparkle:version>
