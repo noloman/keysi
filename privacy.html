@@ -50,7 +50,7 @@
 <section class="container-narrow doc">
   <div class="eyebrow">Privacy</div>
   <h1>What Keysi sends anywhere, and what it doesn't</h1>
-  <p class="updated">Last updated with the 1.0.21 release.</p>
+  <p class="updated">Last updated with the 1.0.22 release.</p>
 
   <h2>The short version</h2>
   <p>
@@ -127,7 +127,10 @@
   </p>
   <p>
     <strong>The Keysi app</strong> has a "Share usage analytics" toggle in
-    Settings → General, off by default. If you turn it on, Keysi sends a
+    Settings → General, off by default. The last page of the welcome window
+    offers the same choice once, as an unticked "Share anonymous usage data"
+    box; ticking it turns on that same setting, and leaving it unticked
+    leaves analytics off. If you turn it on, Keysi sends a
     small, disclosed set of anonymous events to PostHog (EU-hosted):
   </p>
   <ul>
@@ -139,7 +142,7 @@
       name of the app it ran in, so we can see which apps matter most to
       Keysi users. Not the shortcut's name: a menu item can be a window
       title or a document name.</li>
-    <li>Licensing and upgrade events: a trial starting, moving between the
+    <li>Licensing and upgrade events: moving between the
       free and Pro tiers, the progress recap being shown and which button
       you pressed on it, opening the checkout page and which screen you
       opened it from, a Keysi Pro feature being blocked, and whether a
@@ -177,7 +180,22 @@
       and how you answered — turned on, or not now — together with whether
       macOS actually registered the login item when you said yes. That last
       part is there because a failed registration is invisible to us
-      otherwise. It is asked once per Mac, so this is sent at most once.</li>
+      otherwise. It is asked once per Mac, so this is sent at most once.
+      <br>
+      That the overlay came up from a hold of ⌘ (or whichever key you hold)
+      for the first time on this Mac, with how many seconds that was after
+      the welcome window opened, so we can tell whether new users find out
+      how Keysi works. Nothing about the app you were in. Sent at most once,
+      and only when the welcome window was open in that session.
+      <br>
+      That the welcome window was finished, once per run of it: which of its
+      pages it ended on and which it skipped as already done, how many
+      seconds after it opened Accessibility was granted and the first hold
+      happened, whether you held the key in its demo, and whether Keysi
+      restarted part-way through. The times are kept on your Mac while the
+      window is open and sent only when it closes, and only if analytics is
+      on at that moment, so ticking the box on its last page is what lets
+      this one through.</li>
     <li>Whether Keysi warned you that it was running from somewhere macOS
       won't let it keep its Accessibility permission (a disk image, or a
       temporary copy) and which of those two it was. No path is sent,
@@ -194,8 +212,8 @@
     Nothing else. <strong>Never your license key, never the amount you
     paid or any payment detail</strong>, never the content of any
     document, message, or window, never anything from a custom cheat
-    sheet, and never the menus Keysi reads beyond the name of the one
-    shortcut you triggered. Turning the
+    sheet, and never the menus Keysi reads, not even the name of a shortcut
+    you triggered. Turning the
     toggle back off stops all future events immediately.</p>
 
   <h2 id="feedback">Feedback you send us</h2>
@@ -275,6 +293,17 @@
     than a command, such as the list of open windows in the Window menu and
     the names in Open Recent. "Reset Statistics" in Settings → Coach deletes
     this file's contents too.
+  </p>
+  <p>
+    It also counts, in <code>ShortcutlessPicks.json</code> in that same folder,
+    the menu commands you choose with the mouse that have <em>no</em> keyboard
+    shortcut, so Settings → Coach can suggest one: the app, the menu, the
+    command's name, and the dates of your clicks from the last 30 days. Older
+    clicks are dropped. It never records the menu items that are your own
+    content, such as open windows and Open Recent, and never anything from a
+    web browser's menus. Keysi only suggests a combination; adding it in
+    System Settings is up to you. The same switch stops this counting, and
+    "Reset Statistics" deletes it.
   </p>
   <p>
     If you send feedback while you're offline, the message waits in

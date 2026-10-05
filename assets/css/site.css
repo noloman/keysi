@@ -1129,6 +1129,40 @@ footer.site-footer .fine { margin-top: 18px; font-size: 0.82rem; }
 .handoff p { margin: 0; max-width: 54ch; font-size: 0.95rem; color: var(--text-secondary); }
 .handoff p strong { color: var(--text); }
 
+/* ---- A working day, before and after — what changes for the person,
+   ahead of the features that do it. One row per outcome: the outcome, the
+   day without Keysi, the day with it. The labels are words, not colour, so
+   the contrast between the columns survives a screen reader and greyscale.
+   The "after" side is the one in full-strength text. ---- */
+.day-list { list-style: none; margin: 30px 0 0; padding: 0; }
+.day-item {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px 32px;
+  padding-block: 22px;
+  border-top: 1px solid var(--border);
+}
+@media (min-width: 760px) { .day-item { grid-template-columns: 15rem 1fr 1fr; } }
+.day-item h3 { font-size: 1.05rem; margin: 0; }
+.day-item p { margin: 0; font-size: 0.93rem; line-height: 1.5; color: var(--text-secondary); }
+.day-item .day-after { color: var(--text); }
+.day-label {
+  display: block;
+  font-family: var(--font-label);
+  font-size: 0.6rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  margin-bottom: 6px;
+}
+.day-compare {
+  max-width: var(--measure);
+  padding-top: 22px;
+  border-top: 1px solid var(--border);
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
 /* ---- Footer link map. The homepage now hands four topics off to other
    pages, so the footer has to actually route people to them. ---- */
 .footer-grid {

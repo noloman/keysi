@@ -42,7 +42,7 @@
   "url": "https://keysi.io/",
   "image": "https://keysi.io/assets/img/og.png",
   "description": "Hold a modifier and see every keyboard shortcut of the Mac app you are using \u2014 grouped by menu, rendered as real keycaps, and click any row to run it. Free with no time limit; Keysi Pro adds coaching that teaches you the shortcuts you keep missing.",
-  "softwareVersion": "1.0.21",
+  "softwareVersion": "1.0.22",
   "downloadUrl": "https://github.com/noloman/keysi/releases/latest",
   "inLanguage": ["en", "es", "fr", "de", "it", "pt-BR", "ja", "ko", "zh-Hans"],
   "author": { "@type": "Person", "name": "Manuel Lorenzo" },
@@ -164,6 +164,57 @@
   </div>
 </section>
 
+<!-- What changes for the person, before the features that make it happen.
+     Every "With Keysi" line maps to a shipped feature, and nothing here is
+     a number Keysi did not count: see marketing/copy/00-core-messaging.md,
+     "A working day, before and after". -->
+<section id="day" class="container day">
+  <div class="eyebrow">A working day, before and after</div>
+  <h2>From looking shortcuts up to knowing them</h2>
+  <p class="lede">
+    A cheat sheet tells you a shortcut when you ask. Keysi shows you the
+    real ones for the app you're in, then keeps at it until you use them
+    without thinking, in the work apps you live in all day: Xcode, Logic,
+    Final Cut, Figma, Excel.
+  </p>
+  <ul class="day-list">
+    <li class="day-item">
+      <h3>The shortcut is there the moment you need it</h3>
+      <p><span class="day-label">Before</span> You open three menus to find one command, or a shortcut list written for last year's version that knows nothing about the keys you remapped.</p>
+      <p class="day-after"><span class="day-label">With Keysi <span class="tier tier-free">Free</span></span> Hold ⌘ and see every shortcut of the app you're in, read from its menus as they are right now, plus the ones you rebound yourself in Xcode, JetBrains IDEs or VS Code. Click a row and it runs.</p>
+    </li>
+    <li class="day-item">
+      <h3>You learn the ones you keep missing</h3>
+      <p><span class="day-label">Before</span> You looked a shortcut up yesterday and reached for the mouse again today. Nothing tells you that you did.</p>
+      <p class="day-after"><span class="day-label">With Keysi <span class="tier tier-pro">Pro</span></span> Coach notices when you pick a menu command by hand that has a shortcut, and shows one quiet reminder. Practice Mode drills the ones you miss and brings each one back after a day, then two, four, eight and sixteen as you get it right, until it sticks.</p>
+    </li>
+    <li class="day-item">
+      <h3>App updates and missing shortcuts stop being blind spots</h3>
+      <p><span class="day-label">Before</span> An update adds commands nobody tells you about, and the command you click all day has no shortcut at all.</p>
+      <p class="day-after"><span class="day-label">With Keysi <span class="tier tier-pro">Pro</span></span> After an app updates, the overlay marks the shortcuts the update added. When you keep clicking a command with no shortcut, Keysi suggests a key combination neither the app nor macOS uses, and shows you where to add it.</p>
+    </li>
+    <li class="day-item">
+      <h3>You can see it working, in your own numbers</h3>
+      <p><span class="day-label">Before</span> You hope the shortcuts are paying off, and nothing shows you whether they are.</p>
+      <p class="day-after"><span class="day-label">With Keysi <span class="tier tier-pro">Pro</span></span> Keysi times your own trips through the menus and counts the times you pressed the shortcut instead, and shows both numbers side by side. Until it has timed enough trips, it shows no time figure at all.</p>
+    </li>
+  </ul>
+  <p class="day-compare">
+    Every tool in this category shows you shortcuts when you ask. Neither
+    KeyCue's nor KeyClu's own website describes anything like Coach
+    (checked September 2026).
+    <a href="keyclu-vs-keysi.html">See the dated comparison</a>.
+  </p>
+  <div class="btn-row">
+    <a class="btn btn-primary btn-lg" href="https://github.com/noloman/keysi/releases/latest">Download for macOS</a>
+    <a class="btn btn-secondary btn-lg" href="#pricing">Pro: $19.99 once</a>
+  </div>
+  <p class="hero-micro">
+    <span>Free, no time limit, no account</span>
+    <span>Includes 14 days of Pro</span>
+  </p>
+</section>
+
 <section id="features" class="container">
 
   <div class="feature-lead">
@@ -182,7 +233,8 @@
         A cooldown throttles it so it can't become noise. You can mute one
         shortcut or the whole feature from Settings ▸ Coach, and it stays quiet
         during Focus and Do Not Disturb. <strong>Practice Mode</strong> drills
-        the ones you keep missing. Your progress is measured against your own
+        the ones you keep missing, with spaced repetition: one you get right
+        comes back after a day, then two, four, eight and sixteen. Your progress is measured against your own
         menu-trip times: Keysi times how long your trips through a menu actually
         take, so &ldquo;typically 2.4s, and you've skipped 412 of them&rdquo; is
         arithmetic on two numbers it counted rather than an estimate.
@@ -281,6 +333,7 @@
           <li><strong>Reachable from outside Keysi</strong> <span class="tier tier-pro">Pro</span> Raycast, Alfred, Shortcuts, Siri, Spotlight, the Services menu, a <code>keysi</code> terminal command and a <code>keysi://</code> URL. Showing an app's shortcuts from Raycast, Alfred, the terminal or a URL is free. <a href="integrations.html">How each one works</a>.</li>
         <li><strong>Export the whole sheet</strong> <span class="tier tier-free">Free</span> any app's shortcuts as Markdown or a printable PDF. A desktop picture sized to your screen is Pro.</li>
         <li><strong>Progress on the rows themselves</strong> <span class="tier tier-pro">Pro</span> the overlay marks which shortcuts you've actually learned, while you're looking at them.</li>
+        <li><strong>New after an app update</strong> <span class="tier tier-pro">Pro</span> when an app updates, the overlay marks the shortcuts the update added, so new commands don't stay hidden in the menus.</li>
         </ul>
       </div>
     </div>
@@ -345,10 +398,12 @@
     <p class="price-sub">Keysi Pro. Not a subscription: pay once, own it.</p>
     <ul class="pricing-list">
       <li><span class="tick">✓</span><span>Coach, a quiet reminder when you mouse to something that has a shortcut</span></li>
+      <li><span class="tick">✓</span><span>A suggested key combination for the commands you keep clicking that have no shortcut</span></li>
       <li><span class="tick">✓</span><span>Practice Mode, drilling the ones you keep missing</span></li>
       <li><span class="tick">✓</span><span>Your progress, measured against your own menu-trip times</span></li>
       <li><span class="tick">✓</span><span>A weekly summary of what stuck</span></li>
       <li><span class="tick">✓</span><span>The overlay marks which shortcuts you've actually learned</span></li>
+      <li><span class="tick">✓</span><span>The overlay marks the shortcuts an app's update just added</span></li>
       <li><span class="tick">✓</span><span>Any app's shortcuts as a desktop picture sized to your screen</span></li>
       <li><span class="tick">✓</span><span>Keysi from Raycast, Alfred, Shortcuts, Siri, Spotlight, the Services menu, the terminal and a <code>keysi://</code> URL</span></li>
       <li><span class="tick">✓</span><span>14 days free to try, and when it ends the app keeps working</span></li>
@@ -394,7 +449,7 @@
       <summary>Does Keysi send anything anywhere?</summary>
       <div class="faq-body">
         <p>Two network calls happen on their own: a license check to Gumroad, and an update check against Keysi's Sparkle appcast. With usage analytics off, which is the default, nothing about your menus, the apps you use, or the shortcuts you press leaves your Mac.</p>
-        <p>Usage analytics are <strong>off by default</strong>. If you switch them on in Settings, Keysi sends a short list of product events — app launches, which Settings tab you open, the overlay appearing, which shortcut you triggered, and licensing events like a trial starting or an upgrade prompt being shown — to a EU-hosted PostHog instance. Your license key, the amount you paid, and the menus Keysi reads are never sent, only the name of each shortcut you trigger. Crash diagnostics are off by default and, when enabled, are generated on-device by Apple's MetricKit and never leave your Mac unless you copy and share them yourself. See <a href="privacy.html">the privacy page</a> for the full list.</p>
+        <p>Usage analytics are <strong>off by default</strong>. If you switch them on in Settings or on the last page of the welcome window, Keysi sends a short list of product events — app launches, which Settings tab you open, the overlay appearing, the app a shortcut ran in, how setup went, and licensing events like an upgrade prompt being shown — to a EU-hosted PostHog instance. Your license key, the amount you paid, and the menus Keysi reads are never sent, not even the name of a shortcut you trigger. Crash diagnostics are off by default and, when enabled, are generated on-device by Apple's MetricKit and never leave your Mac unless you copy and share them yourself. See <a href="privacy.html">the privacy page</a> for the full list.</p>
       </div>
     </details>
 
