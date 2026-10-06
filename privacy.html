@@ -50,13 +50,16 @@
 <section class="container-narrow doc">
   <div class="eyebrow">Privacy</div>
   <h1>What Keysi sends anywhere, and what it doesn't</h1>
-  <p class="updated">Last updated with the 1.0.22 release.</p>
+  <p class="updated">Last updated with the 1.0.24 release.</p>
 
   <h2>The short version</h2>
   <p>
     Keysi reads the menu structure of whatever app is frontmost, on your
     Mac, to show you its keyboard shortcuts. That information never
-    leaves your Mac. Two network calls happen automatically, both described in
+    leaves your Mac. To warn you when another app's global hotkey would
+    swallow one of those shortcuts, it also reads, without changing them,
+    the hotkey settings that Raycast and Rectangle save on your Mac. That
+    stays on your Mac too. Two network calls happen automatically, both described in
     full below, and nothing else does unless you turn it on yourself, or
     press Send on the feedback form.
     Crash diagnostics are off by default; if you turn them on in Settings,

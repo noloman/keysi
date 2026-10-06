@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Keysi from Raycast, Alfred, the terminal and Shortcuts — Keysi</title>
-<meta name="description" content="Reach Keysi from Raycast, Alfred, a keysi terminal command, Shortcuts and Siri, Spotlight, and the Services menu. Setup for each. Showing an app's shortcuts is free; the rest is Keysi Pro.">
+<meta name="description" content="Set up Keysi in Raycast, Alfred, the terminal, Shortcuts, Siri, Spotlight and the Services menu. Showing an app's shortcuts from any of them is free.">
 <link rel="canonical" href="https://keysi.io/integrations.html">
 <link rel="icon" href="assets/favicon/icon.svg" type="image/svg+xml">
 <link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
@@ -12,7 +12,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Keysi">
 <meta property="og:title" content="Keysi from Raycast, Alfred, the terminal and Shortcuts — Keysi">
-<meta property="og:description" content="Reach Keysi from Raycast, Alfred, a keysi terminal command, Shortcuts and Siri, Spotlight, and the Services menu. Setup for each. Showing an app's shortcuts is free; the rest is Keysi Pro.">
+<meta property="og:description" content="Set up Keysi in Raycast, Alfred, the terminal, Shortcuts, Siri, Spotlight and the Services menu. Showing an app's shortcuts from any of them is free.">
 <meta property="og:url" content="https://keysi.io/integrations.html">
 <meta property="og:image" content="https://keysi.io/assets/img/og.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -98,6 +98,9 @@ keysi export Figma    # export an app's shortcuts (opens a save panel)</code></p
   <h2>Export</h2>
   <p>Keysi writes the frontmost app's whole cheat sheet out to a file: <strong>Markdown</strong> for a wiki or a repo, a <strong>printable PDF</strong> for the wall, or a <strong>desktop picture</strong> sized to the screen you're saving from, so the shortcuts sit behind your windows. Markdown and PDF from the menu bar item are free; the desktop picture is Keysi Pro.</p>
   <p>Reach it from the menu bar item, or with Keysi Pro from Shortcuts via <em>Export Shortcuts</em>, from the terminal with <code>keysi export Figma</code>, or from a <code>keysi://export</code> URL. However it's triggered, macOS's own save panel opens and you pick the location and the format — which is what keeps a one-way URL surface safe: nothing can make Keysi write a file on its own.</p>
+
+  <h2>Open in Keysi, from this site</h2>
+  <p>Every <a href="shortcuts.html">app shortcuts page</a> and <a href="sheets.html">cheat sheet</a> here has an <strong>Open in Keysi</strong> button. On an app's page it opens that app's panel, through <code>keysi://show?bundle=com.apple.dt.Xcode</code>, if the app is running; Keysi never starts an app because a link asked it to. On a cheat sheet it shows that built-in sheet in Settings ▸ Shortcuts, through <code>keysi://sheet?id=vim</code>. Both are free, and neither downloads or installs anything: a link can only point at what Keysi already has.</p>
 
   <h2>What it costs, and what it doesn't</h2>
   <p>Everything above except showing an app's shortcuts, and Markdown or PDF export from the menu bar, is part of Keysi Pro: $19.99 once, with a 14-day trial. Nothing that was free became paid to make room for it: the overlay, the hotkey, click-to-run, custom sheets, search and the conflict warnings are exactly as free as they have always been, and stay that way. Reaching Keysi from another app is a new capability that arrived in the paid tier, not a fence built around an old one.</p>

@@ -42,7 +42,7 @@
   "url": "https://keysi.io/",
   "image": "https://keysi.io/assets/img/og.png",
   "description": "Hold a modifier and see every keyboard shortcut of the Mac app you are using \u2014 grouped by menu, rendered as real keycaps, and click any row to run it. Free with no time limit; Keysi Pro adds coaching that teaches you the shortcuts you keep missing.",
-  "softwareVersion": "1.0.23",
+  "softwareVersion": "1.0.24",
   "downloadUrl": "https://github.com/noloman/keysi/releases/latest",
   "inLanguage": ["en", "es", "fr", "de", "it", "pt-BR", "ja", "ko", "zh-Hans"],
   "author": { "@type": "Person", "name": "Manuel Lorenzo" },
@@ -294,6 +294,12 @@
         from your own settings rather than a list somebody maintains, so a
         shortcut you switched off isn't in it.
       </p>
+      <p>
+        Other apps' global hotkeys count too. While Raycast or Rectangle is
+        running, Keysi reads the hotkeys it has set, plus Keysi's own, and names
+        the app when one of them takes a shortcut before the app in front sees
+        it. Nothing it reads leaves your Mac.
+      </p>
       <figure class="shot">
         <picture>
           <source srcset="assets/img/shot-conflict@2x.webp" type="image/webp">
@@ -370,7 +376,7 @@
       <li><span class="tick">✓</span><span>Click any row to run it</span></li>
       <li><span class="tick">✓</span><span>Searchable panel, favorites, hiding</span></li>
       <li><span class="tick">✓</span><span>Pin the panel open and it stays where you put it, per app</span></li>
-      <li><span class="tick">✓</span><span>Conflict warnings when macOS will intercept, plus a browsable list of every system shortcut</span></li>
+      <li><span class="tick">✓</span><span>Conflict warnings when macOS or another app's hotkey will intercept, plus a browsable list of every system shortcut</span></li>
       <li><span class="tick">✓</span><span>Custom cheat sheets, with a built-in editor</span></li>
       <li><span class="tick">✓</span><span>Export any app's shortcuts as Markdown or a printable PDF</span></li>
       <li><span class="tick">✓</span><span>Show an app's shortcuts from Raycast, Alfred or the terminal</span></li>
