@@ -3,6 +3,47 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.26</title>
+            <pubDate>Tue, 06 Oct 2026 15:08:05 +0200</pubDate>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>1.0.26</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>One change and one fix.</p>
+<ul>
+  <li>Keysi Pro now costs <strong>$14.99 once</strong> — still three Macs, a 14-day trial and every future update.</li>
+  <li>The overlay opens much faster for apps with large menus, and no longer redraws every shortcut when it refreshes in the background.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.26.zip" length="6433934" type="application/octet-stream" sparkle:edSignature="rr3PndbHGzQk3I34ee2bs2xHS9IbbMWiLutGvZ/7GjPGx9eR9Jqk3nZtPYWMh7o2XOl/59XHWAIkxm/PIpwLAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi27-26.delta" sparkle:deltaFrom="26" length="711810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="YMvUPDw8Tnn1AgAGBnm3EbislXptAI8Hs4e2rbxFmBZypgX1GPXc5WIIMfdIV4Jt8/cRnUCqlzPavuaPigLWCA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi27-25.delta" sparkle:deltaFrom="25" length="953674" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="B4DS+YLOPfkLkmtBnKo1KI7vnYu2EX0ZTSNHjmWaB/F4riIN2iXeh8u4F4WGbxch+hqQHQZjAwifn7Qgobf3BA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi27-24.delta" sparkle:deltaFrom="24" length="1106638" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="9IsBq5UaGFLx//XPHnWNu01n6fqZZg0DTCwJAXYycxJwzSw/VRDJR2tDjt4DjFaulc7z6wbND9cWtu65Kk70Dg=="/>
+                <enclosure url="https://keysi.io/releases/Keysi27-23.delta" sparkle:deltaFrom="23" length="1105186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="AfPlRg7etOaDItImKKya1E7O6EzL3c5e7srPmO2mTnT/iWMq7b13ntzLwp0GCmtkJGHHiDmDWZYwDsvKuplKAw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi27-22.delta" sparkle:deltaFrom="22" length="1746718" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="pF0NAvYm6jy/EgqzNSr298rdLDe9YUwOnO8zJPOQB61lUtqIViYUuC/v7hA1IGf2w48f0kttY5dIDQxMwCRCCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.25</title>
             <pubDate>Tue, 06 Oct 2026 14:11:51 +0200</pubDate>
             <sparkle:version>26</sparkle:version>
