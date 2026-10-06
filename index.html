@@ -42,7 +42,7 @@
   "url": "https://keysi.io/",
   "image": "https://keysi.io/assets/img/og.png",
   "description": "Hold a modifier and see every keyboard shortcut of the Mac app you are using \u2014 grouped by menu, rendered as real keycaps, and click any row to run it. Free with no time limit; Keysi Pro adds coaching that teaches you the shortcuts you keep missing.",
-  "softwareVersion": "1.0.26",
+  "softwareVersion": "1.0.27",
   "downloadUrl": "https://github.com/noloman/keysi/releases/latest",
   "inLanguage": ["en", "es", "fr", "de", "it", "pt-BR", "ja", "ko", "zh-Hans"],
   "author": { "@type": "Person", "name": "Manuel Lorenzo" },
@@ -233,8 +233,8 @@
       </p>
       <p>
         A cooldown throttles it so it can't become noise. You can mute one
-        shortcut or the whole feature from Settings ▸ Coach, and it stays quiet
-        during Focus and Do Not Disturb. <strong>Practice Mode</strong> drills
+        shortcut or the whole feature from Settings ▸ Coach, and tell it to stay
+        quiet while a Focus is on. <strong>Practice Mode</strong> drills
         the ones you keep missing, with spaced repetition: one you get right
         comes back after a day, then two, four, eight and sixteen. Your progress is measured against your own
         menu-trip times: Keysi times how long your trips through a menu actually
@@ -270,7 +270,7 @@
       <div class="eyebrow">Click to run it<span class="tier tier-free">Free</span></div>
       <h3>Click a row and it runs</h3>
       <p>
-        Most tools in this space stop at showing you shortcuts. Keysi runs them.
+        Keysi doesn't stop at showing you shortcuts. It runs them.
         Click any row and it fires that exact menu action, then dismisses like
         Spotlight. You don't have to remember which finger goes where.
       </p>
@@ -329,7 +329,7 @@
           <li><strong>Never steals focus</strong> a non-activating panel; the app underneath stays frontmost.</li>
           <li><strong>Never flashes when you type</strong> holding ⌘ on the way to a real ⌘S cancels the overlay silently.</li>
           <li><strong>Secure-input aware</strong> if a password field has secure input on, Keysi says so rather than pretending.</li>
-          <li><strong>Bounded work</strong> per-menu limits, so even Safari's largest bookmarks menu can't hang it.</li>
+          <li><strong>Bounded work</strong> a cap on how much of a menu bar it reads, and a timeout, so even Safari's largest bookmarks menu can't hang it.</li>
         </ul>
       </div>
       <div class="cap-group">
@@ -464,7 +464,7 @@
     <details class="faq-item">
       <summary>Why isn't Keysi on the Mac App Store?</summary>
       <div class="faq-body">
-        <p>The Accessibility API Keysi depends on to read another app's menu structure doesn't work inside the App Sandbox, which every Mac App Store app is required to use. Apple has confirmed this directly. It's a permanent constraint, not a launch-day limitation — every comparable tool (KeyCue, KeyClu, the original CheatSheet) ships the same way, direct and notarized.</p>
+        <p>The Accessibility API Keysi depends on to read another app's menu structure doesn't work inside the App Sandbox, which every Mac App Store app is required to use. It's a permanent constraint, not a launch-day limitation — KeyCue, KeyClu and Keylume are distributed outside the store too, and so was the original CheatSheet.</p>
         <p>So Keysi is signed with a Developer ID certificate and notarized by Apple: it opens normally, no right-click-to-open dance. Updates ship through Sparkle, each one signed with an EdDSA key built into the app and verified before it installs. Don't take our word for the signature — check it yourself once Keysi is installed:</p>
         <div class="verify-box">
           <code>spctl -a -vvv -t install /Applications/Keysi.app</code>

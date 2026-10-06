@@ -78,12 +78,12 @@
 
   <h2>Was mit CheatSheet wirklich passiert ist</h2>
   <p>Die verbreitete Annahme ist, dass Apple die Bedienungshilfen-Schnittstelle, auf die CheatSheet angewiesen war, entfernt oder gesperrt hat. So war es nicht. <code>AXUIElementCreateApplication</code> und die AX-Attribute der Menüleiste sind weiterhin öffentlich, weiterhin dokumentiert und liefern auf aktuellem macOS weiterhin korrekte Daten – direkt überprüft mit TextEdit, Safari, Finder, Xcode, VS Code, Slack und Figma, wobei die letzten drei Electron-Apps sind.</p>
-  <p>CheatSheet funktionierte nicht mehr, weil sein Entwickler weitergezogen ist, nicht weil die Technik nicht mehr möglich war. Dieser Unterschied ist der ganze Grund, warum es Keysi gibt, und zugleich die ehrliche Antwort auf die naheliegende Frage weiter unten.</p>
+  <p>CheatSheet wurde eingestellt statt aktualisiert: Laut Hinweis von Media Atelier funktionierte es mit macOS Sonoma nicht mehr. Die Technik, die es nutzte, funktioniert nach wie vor. Dieser Unterschied ist der ganze Grund, warum es Keysi gibt, und zugleich die ehrliche Antwort auf die naheliegende Frage weiter unten.</p>
 
   <h2>Was du zurückbekommst – und was neu ist</h2>
-  <p>Wenn du CheatSheet benutzt hast, ist der Kern derselbe, und du fühlst dich sofort zu Hause: Sondertaste halten, die Tastaturkurzbefehle der vordersten App erscheinen nach Menü gruppiert, loslassen, und sie sind weg. Drei Dinge sind anders:</p>
+  <p>Wenn du CheatSheet benutzt hast, ist der Kern derselbe, und du fühlst dich sofort zu Hause: Sondertaste halten, die Tastaturkurzbefehle der vordersten App erscheinen nach Menü gruppiert, loslassen, und sie sind weg. Drei Dinge solltest du wissen:</p>
   <ul>
-    <li><strong>Jede Zeile ist anklickbar.</strong> Keysi liest den aktuellen Menübaum, ein Klick auf eine Zeile löst also genau diesen Menübefehl aus. Es ist kein Bild des Menüs. Es ist das Menü.</li>
+    <li><strong>Jede Zeile ist anklickbar.</strong> Wie bei CheatSheet führt ein Klick auf eine Zeile sie aus: Keysi liest den aktuellen Menübaum und löst genau diesen Menübefehl aus. Es ist kein Bild des Menüs. Es ist das Menü.</li>
     <li><strong>Es warnt dich, wenn ein Tastaturkurzbefehl lügt.</strong> Keysi liest die Systemkurzbefehle von macOS und markiert jeden Tastaturkurzbefehl einer App, den das System vorher abfängt. So musst du nicht rätseln, warum nichts passiert ist.</li>
     <li><strong>Es bringt dir etwas bei, statt nur anzuzeigen.</strong> Der Coach-Modus bemerkt, wenn du mit der Maus einen Befehl aus dem Menü wählst, für den es schon einen Tastaturkurzbefehl gibt, sagt es dir einmal und verfolgt dann, ob er hängen geblieben ist – und hört auf, die zu erwähnen, die du gelernt hast. CheatSheet hat das nie gemacht. Keylume, eine andere kostenpflichtige App, gibt dir ähnliche Hinweise; Keysi bietet zusätzlich Übungen mit verteilter Wiederholung, und sein Spickzettel bleibt kostenlos, ohne Zeitlimit.</li>
   </ul>
@@ -96,7 +96,7 @@
   </ul>
 
   <h2>„Stirbt das nicht genauso?“</h2>
-  <p>Berechtigte Frage, und genau die richtige. Die ehrliche Antwort hat zwei Teile. Erstens: Die zugrunde liegende Schnittstelle ist öffentlich und unverändert. CheatSheet ist daran gestorben, dass sein Entwickler aufgehört hat, nicht daran, dass eine Schnittstelle entfernt wurde – das Scheitern, an das man sich erinnert, ist also nicht das, was tatsächlich passiert ist. Zweitens: Kein Versprechen über die Zukunft ist auf einer Marketingseite etwas wert. Was sich überprüfen lässt, sind die <a href="../changelog.html">Versionshinweise (auf Englisch)</a>: Sie sind der fortlaufende Beleg, und daran solltest du es messen.</p>
+  <p>Berechtigte Frage, und genau die richtige. Die ehrliche Antwort hat zwei Teile. Erstens: Die zugrunde liegende Schnittstelle ist öffentlich und unverändert. Die Schnittstelle, auf der CheatSheet aufbaute, wurde nie entfernt – das Scheitern, an das man sich erinnert, ist also keine Schnittstelle, die verschwunden ist. Zweitens: Kein Versprechen über die Zukunft ist auf einer Marketingseite etwas wert. Was sich überprüfen lässt, sind die <a href="../changelog.html">Versionshinweise (auf Englisch)</a>: Sie sind der fortlaufende Beleg, und daran solltest du es messen.</p>
 
   <h2>Nicht mit Media Atelier verbunden</h2>
   <p>Keysi teilt keinen Code mit CheatSheet. Es ist eine unabhängige App auf Basis derselben öffentlichen Bedienungshilfen-Schnittstelle, von jemandem, der CheatSheet täglich benutzt hat und es zurückhaben wollte. Name, Symbol und Umsetzung sind vollständig eigenständig.</p>

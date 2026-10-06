@@ -46,7 +46,7 @@
   "url": "https://keysi.io/es/",
   "image": "https://keysi.io/assets/img/og.png",
   "description": "Mantén pulsado un modificador y verás todos los atajos de teclado de la app de Mac que estés usando, agrupados por menú, dibujados como teclas reales, y podrás pulsar cualquier fila para ejecutarla. Gratis y sin límite de tiempo; Keysi Pro añade un entrenamiento que te enseña los atajos que se te siguen escapando.",
-  "softwareVersion": "1.0.26",
+  "softwareVersion": "1.0.27",
   "downloadUrl": "https://github.com/noloman/keysi/releases/latest",
   "inLanguage": [
     "en",
@@ -203,7 +203,7 @@
       <div class="eyebrow">Modo Coach<span class="tier tier-pro">Keysi Pro · $14.99</span></div>
       <h2>Se da cuenta de cuándo echas mano del ratón</h2>
       <p>Una lista de atajos espera a que la consultes. Coach no. Vigila los comandos de menú que eliges a mano y que ya tienen un atajo de teclado, y te ofrece un recordatorio discreto que puedes descartar. Luego comprueba si el recordatorio ha calado, y deja de mencionar los que ya has empezado a usar. Eso es lo que compran los $14.99: una referencia que trabaja para dejar de hacerte falta.</p>
-      <p>Un tiempo de espera lo limita para que no se vuelva ruido. Puedes silenciar un atajo concreto o la función entera desde Ajustes ▸ Coach, y se queda callado durante Focus y No molestar. El <strong>modo práctica</strong> entrena los que se te siguen escapando, con repetición espaciada: el que aciertas vuelve al cabo de un día, luego de dos, cuatro, ocho y dieciséis. Tu progreso se mide contra tus propios tiempos: Keysi cronometra lo que tardas de verdad en ir al menú, así que «normalmente 2,4 s, y te has ahorrado 412 viajes» es una cuenta sobre dos números que ha contado, no una estimación.</p>
+      <p>Un tiempo de espera lo limita para que no se vuelva ruido. Puedes silenciar un atajo concreto o la función entera desde Ajustes ▸ Coach, y pedirle que guarde silencio mientras haya un Focus activo. El <strong>modo práctica</strong> entrena los que se te siguen escapando, con repetición espaciada: el que aciertas vuelve al cabo de un día, luego de dos, cuatro, ocho y dieciséis. Tu progreso se mide contra tus propios tiempos: Keysi cronometra lo que tardas de verdad en ir al menú, así que «normalmente 2,4 s, y te has ahorrado 412 viajes» es una cuenta sobre dos números que ha contado, no una estimación.</p>
       <p class="fine">Cada instalación incluye 14 días. Cuando se acaban, la app pasa a la versión gratuita. No deja de funcionar, y no se borra nada de lo que hayas configurado.</p>
     </div>
     <div class="feature-shots">
@@ -228,7 +228,7 @@
     <div class="feature-copy">
       <div class="eyebrow">Pulsa y se ejecuta<span class="tier tier-free">Gratis</span></div>
       <h3>Pulsa una fila y se ejecuta</h3>
-      <p>Casi todas las herramientas de este tipo se quedan en enseñarte los atajos. Keysi los ejecuta. Pulsa cualquier fila y dispara ese comando del menú, y luego desaparece como Spotlight. No tienes que acordarte de qué dedo va dónde.</p>
+      <p>Keysi no se queda en enseñarte los atajos: los ejecuta. Pulsa cualquier fila y dispara ese comando del menú, y luego desaparece como Spotlight. No tienes que acordarte de qué dedo va dónde.</p>
       <figure class="shot">
         <picture>
           <source srcset="../assets/img/shot-execute@2x.webp" type="image/webp">
@@ -273,7 +273,7 @@
           <li><strong>Nunca roba el foco</strong> es un panel que no se activa; la app de debajo sigue delante.</li>
           <li><strong>Nunca parpadea mientras escribes</strong> mantener ⌘ camino de un ⌘S real cancela el panel en silencio.</li>
           <li><strong>Reconoce la entrada segura</strong> si un campo de contraseña tiene la entrada segura activada, Keysi lo dice en vez de disimular.</li>
-          <li><strong>Trabajo acotado</strong> hay límites por menú, así que ni el menú de marcadores más grande de Safari puede bloquearlo.</li>
+          <li><strong>Trabajo acotado</strong> un tope a cuánto lee de una barra de menús, y un tiempo límite, así que ni el menú de marcadores más grande de Safari puede bloquearlo.</li>
         </ul>
       </div>
       <div class="cap-group">
@@ -383,7 +383,7 @@
     <details class="faq-item">
       <summary>¿Por qué Keysi no está en la Mac App Store?</summary>
       <div class="faq-body">
-        <p>La API de Accesibilidad de la que depende Keysi para leer la estructura de menús de otra app no funciona dentro del App Sandbox, que toda app de la Mac App Store está obligada a usar. Apple lo ha confirmado directamente. Es una limitación permanente, no algo del lanzamiento: todas las herramientas comparables (KeyCue, KeyClu, la CheatSheet original) se distribuyen igual, de forma directa y notarizadas.</p>
+        <p>La API de Accesibilidad de la que depende Keysi para leer la estructura de menús de otra app no funciona dentro del App Sandbox, que toda app de la Mac App Store está obligada a usar. Es una limitación permanente, no algo del lanzamiento: KeyCue, KeyClu y Keylume también se distribuyen fuera de la tienda, igual que la CheatSheet original.</p>
         <p>Así que Keysi está firmada con un certificado de Developer ID y notarizada por Apple: se abre con normalidad, sin el baile de abrirla con el botón derecho. Las actualizaciones llegan por Sparkle, cada una firmada con una clave EdDSA incrustada en la app y verificada antes de instalarse. No te fíes de nuestra palabra sobre la firma: compruébala tú mismo una vez instalada Keysi:</p>
         <div class="verify-box">
           <code>spctl -a -vvv -t install /Applications/Keysi.app</code>

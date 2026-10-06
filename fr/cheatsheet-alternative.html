@@ -78,12 +78,12 @@
 
   <h2>Ce qui est vraiment arrivé à CheatSheet</h2>
   <p>On suppose souvent qu’Apple a supprimé ou verrouillé l’API d’accessibilité dont dépendait CheatSheet. Ce n’est pas ce qui s’est passé. <code>AXUIElementCreateApplication</code> et les attributs AX de la barre des menus sont toujours publics, toujours documentés, et renvoient toujours des données correctes sur le macOS actuel ; nous l’avons vérifié directement avec TextEdit, Safari, Finder, Xcode, VS Code, Slack et Figma, les trois derniers étant des apps Electron.</p>
-  <p>CheatSheet a cessé de fonctionner parce que son développeur est passé à autre chose, et non parce que la technique était devenue impossible. Cette distinction est toute la raison d’être de Keysi, et c’est aussi la réponse honnête à la question évidente posée plus bas.</p>
+  <p>CheatSheet a été abandonné plutôt que mis à jour : selon l’avis de Media Atelier, il ne fonctionnait plus avec macOS Sonoma. La technique qu’il utilisait fonctionne toujours. Cette distinction est toute la raison d’être de Keysi, et c’est aussi la réponse honnête à la question évidente posée plus bas.</p>
 
   <h2>Ce que vous retrouvez, et ce qui est nouveau</h2>
-  <p>Si vous utilisiez CheatSheet, l’essentiel est identique et vous serez tout de suite chez vous : maintenez une touche de modification, les raccourcis de l’app au premier plan s’affichent regroupés par menu, relâchez et ils disparaissent. Trois choses changent :</p>
+  <p>Si vous utilisiez CheatSheet, l’essentiel est identique et vous serez tout de suite chez vous : maintenez une touche de modification, les raccourcis de l’app au premier plan s’affichent regroupés par menu, relâchez et ils disparaissent. Trois choses à savoir :</p>
   <ul>
-    <li><strong>Chaque ligne est cliquable.</strong> Keysi lit l’arborescence des menus en direct : cliquer sur une ligne déclenche exactement cette action de menu. Ce n’est pas une image du menu. C’est le menu.</li>
+    <li><strong>Chaque ligne est cliquable.</strong> Comme dans CheatSheet, cliquer sur une ligne l’exécute : Keysi lit l’arborescence des menus en direct et déclenche exactement cette action de menu. Ce n’est pas une image du menu. C’est le menu.</li>
     <li><strong>Il vous prévient quand un raccourci ment.</strong> Keysi lit les raccourcis système de macOS et signale tout raccourci d’app que le système interceptera en premier : vous n’avez plus à vous demander pourquoi rien ne s’est passé.</li>
     <li><strong>Il vous apprend, au lieu de seulement afficher.</strong> Le mode Coach remarque quand vous choisissez à la souris une commande de menu qui a déjà un raccourci clavier, vous le signale une fois, puis vérifie si c’est acquis, et cesse de mentionner ceux que vous avez appris. CheatSheet ne l’a jamais fait. Keylume, une autre app payante, vous le signale de façon similaire ; Keysi y ajoute des exercices avec répétition espacée, et son aide-mémoire reste gratuit, sans limite de temps.</li>
   </ul>
@@ -96,7 +96,7 @@
   </ul>
 
   <h2>« Est-ce qu’il ne va pas mourir de la même façon ? »</h2>
-  <p>Question légitime, et c’est exactement la bonne. La réponse honnête tient en deux parties. D’abord, l’API sous-jacente est publique et inchangée. CheatSheet est mort parce que son développeur a arrêté, pas parce qu’une API a été retirée : l’échec dont on se souvient n’est donc pas celui qui s’est réellement produit. Ensuite, aucune promesse sur l’avenir ne vaut quoi que ce soit sur une page marketing. Ce qui se vérifie, ce sont les <a href="../changelog.html">nouveautés (en anglais)</a> : c’est la preuve au fil du temps, et c’est là-dessus qu’il faut juger.</p>
+  <p>Question légitime, et c’est exactement la bonne. La réponse honnête tient en deux parties. D’abord, l’API sous-jacente est publique et inchangée. L’API sur laquelle reposait CheatSheet n’a jamais été retirée : l’échec dont on se souvient n’est donc pas celui d’une API disparue. Ensuite, aucune promesse sur l’avenir ne vaut quoi que ce soit sur une page marketing. Ce qui se vérifie, ce sont les <a href="../changelog.html">nouveautés (en anglais)</a> : c’est la preuve au fil du temps, et c’est là-dessus qu’il faut juger.</p>
 
   <h2>Sans lien avec Media Atelier</h2>
   <p>Keysi ne partage aucun code avec CheatSheet. C’est une app indépendante construite sur la même API d’accessibilité publique, par quelqu’un qui utilisait CheatSheet tous les jours et voulait le retrouver. Le nom, l’icône et l’implémentation sont entièrement distincts.</p>
