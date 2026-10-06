@@ -3,6 +3,47 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.29</title>
+            <pubDate>Tue, 06 Oct 2026 22:37:00 +0200</pubDate>
+            <sparkle:version>30</sparkle:version>
+            <sparkle:shortVersionString>1.0.29</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>Two fixes.</p>
+<ul>
+  <li>The Integrations window's Raycast row no longer says the extension can run a command; it now says what the extension does: search cheat sheets and open an app's shortcuts, Practice or Progress in Keysi.</li>
+  <li>The "Share anonymous usage data" box on Welcome's last page now shows its tick when clicked, and the Welcome window is smaller, with each page centred instead of leaving the empty space at the bottom.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.29.zip" length="6434310" type="application/octet-stream" sparkle:edSignature="ShAJgijT60JUY7Gsn8sMzTiApj6rfl3Sqi/M5Ptu3+gjCRLISK6q3/R5G2HsJrftFgFWHixv079z/uDMCngCAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi30-29.delta" sparkle:deltaFrom="29" length="511186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="WWlJ0BvTyxAoiFBAWoC7dDNoU1cx06/ZUzgWFmBB/bMr37shlaLfHYdc82kUndnDGZiZ6+ehFsvytP7GKFNRBw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi30-28.delta" sparkle:deltaFrom="28" length="550434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="jyfYMGlO9od5KSjfE1De0D+c7NqGOHsxq5yISAAX0ODudiH23DmPlQl3rURNbLXWA3S+kH4h8lqE2Fs3hxj4Cg=="/>
+                <enclosure url="https://keysi.io/releases/Keysi30-27.delta" sparkle:deltaFrom="27" length="640034" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="EzHNQm0gPIESl++4LrxAIjc9zgclS3umAO3AWG1jsj7hEZKFyGFNWPfy5r39b1Z/C2Wz0pvcZMEQtPUw5PQjBQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi30-26.delta" sparkle:deltaFrom="26" length="837346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="XwMmR2/epRBDKKrK+9p6w+CCfaKFsheahNRjCoLsyCqZEWUr/XbsEhctyrrzWL+Ke78lDZCr+gxvStBEcJnZDQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi30-25.delta" sparkle:deltaFrom="25" length="997370" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="4e2NFAf3Gobp5NhdnFQD4pVGXuii96MyzrzsdU/YjfXofgCLNm0aYFuSNwoPr8pSeowjj9oXNedRrHPl3s0yBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.28</title>
             <pubDate>Tue, 06 Oct 2026 19:17:24 +0200</pubDate>
             <sparkle:version>29</sparkle:version>
