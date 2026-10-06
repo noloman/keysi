@@ -66,8 +66,8 @@
 <section class="container-narrow doc">
   <div class="eyebrow">Cheat sheets</div>
   <h1>Shortcuts that aren't in the menu bar</h1>
-  <p>Keysi reads an app's live menu tree, which is how it can show you every shortcut of whatever you're in without anyone maintaining a list. Some apps defeat that: Vim and tmux have no macOS menus to read, and Electron apps like Slack keep their real bindings in the renderer rather than the menu bar.</p>
-  <p>For those, Keysi ships hand-written sheets. They're free, they're not part of Keysi Pro, and you can fork any of them.</p>
+  <p>Keysi reads an app's live menus, so it can show every shortcut of the app you're in without anyone maintaining a list. Some apps get around that: Vim and tmux have no macOS menus, and Electron apps like Slack keep their real bindings out of the menu bar.</p>
+  <p>For those, Keysi ships hand-written sheets. They're free, not part of Keysi Pro, and you can fork any of them.</p>
   <p>For apps whose shortcuts <em>are</em> in the menu bar, see the <a href="shortcuts.html">shortcut lists by app</a>, read straight from those menus.</p>
   <p class="updated">10 sheets · 381 shortcuts.</p>
   <div class="table-scroll">
@@ -95,10 +95,10 @@
     <figcaption>The Vim sheet, over Vim in a terminal. Keysi looks at what is actually running there rather than which terminal app it is.</figcaption>
   </figure>
   <h2>Write your own</h2>
-  <p>Any app can have one. A sheet is a JSON file in <code>~/Library/Application Support/Keysi/Sheets/</code> naming the app it applies to and the shortcuts you want listed; Keysi has a built-in editor so you don't have to write it by hand. Set <code>mode</code> to <code>augment</code> to add to whatever Keysi already found in the app's menus, or <code>replace</code> to drop that entirely, which is what you want for an Electron app whose menu bar lies about its real bindings.</p>
+  <p>Any app can have one. A sheet is a JSON file in <code>~/Library/Application Support/Keysi/Sheets/</code> naming the app and the shortcuts to list, and Keysi's built-in editor can write it for you. Set <code>mode</code> to <code>augment</code> to add to what Keysi found in the app's menus, or <code>replace</code> to drop that, which is what you want for an Electron app whose menu bar doesn't match its real bindings.</p>
   <p>Download any sheet above as a starting point.</p>
   <div class="doc-foot">
-    <p><strong>Custom sheets are free.</strong> So is the built-in editor, and so is everything else on this page.</p>
+    <p><strong>Custom sheets are free.</strong> So is the editor, and everything else on this page.</p>
     <div class="btn-row">
       <a class="btn btn-primary" href="https://github.com/noloman/keysi/releases/latest">Download Keysi</a>
     </div>

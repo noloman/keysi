@@ -66,8 +66,8 @@
 <section class="container-narrow doc">
   <div class="eyebrow">Chuletas</div>
   <h1>Atajos que no están en la barra de menús</h1>
-  <p>Keysi lee en directo el árbol de menús de una app, y por eso puede enseñarte todos los atajos de lo que estés usando sin que nadie mantenga una lista. Algunas apps se lo impiden: Vim y tmux no tienen menús de macOS que leer, y las apps de Electron como Slack guardan sus combinaciones reales en el renderizador y no en la barra de menús.</p>
-  <p>Para esas, Keysi incluye hojas escritas a mano. Son gratis, no forman parte de Keysi Pro y puedes partir de cualquiera de ellas para hacer la tuya.</p>
+  <p>Keysi lee en directo los menús de una app, así que puede enseñarte todos los atajos de la app que uses sin que nadie mantenga una lista. Algunas apps se escapan: Vim y tmux no tienen menús de macOS, y las apps de Electron como Slack guardan sus combinaciones reales fuera de la barra de menús.</p>
+  <p>Para esas, Keysi incluye hojas escritas a mano. Son gratis, no forman parte de Keysi Pro y puedes partir de cualquiera.</p>
   <p>Para las apps cuyos atajos <em>sí</em> están en la barra de menús, consulta las <a href="../shortcuts.html">listas de atajos por app (en inglés)</a>, leídas directamente de esos menús.</p>
   <p class="updated">10 hojas · 381 atajos.</p>
   <div class="table-scroll">
@@ -95,10 +95,10 @@
     <figcaption>La hoja de Vim, sobre Vim en un terminal. Keysi se fija en lo que se está ejecutando de verdad ahí, no en qué app de terminal es.</figcaption>
   </figure>
   <h2>Escribe la tuya</h2>
-  <p>Cualquier app puede tener una. Una hoja es un archivo JSON en <code>~/Library/Application Support/Keysi/Sheets/</code> que indica a qué app se aplica y qué atajos quieres que aparezcan; Keysi trae un editor integrado para que no tengas que escribirlo a mano. Pon <code>mode</code> en <code>augment</code> para sumarlos a lo que Keysi ya encontró en los menús de la app, o en <code>replace</code> para descartar eso por completo, que es lo que te conviene con una app de Electron cuya barra de menús miente sobre sus combinaciones reales.</p>
+  <p>Cualquier app puede tener una. Una hoja es un archivo JSON en <code>~/Library/Application Support/Keysi/Sheets/</code> que indica la app y los atajos que quieres listar, y el editor integrado de Keysi puede escribirlo por ti. Pon <code>mode</code> en <code>augment</code> para sumarlos a lo que Keysi encontró en los menús de la app, o en <code>replace</code> para descartarlo, que es lo que quieres con una app de Electron cuya barra de menús no coincide con sus combinaciones reales.</p>
   <p>Descarga cualquiera de las hojas de arriba como punto de partida.</p>
   <div class="doc-foot">
-    <p><strong>Las hojas personalizadas son gratis.</strong> También el editor integrado, y todo lo demás de esta página.</p>
+    <p><strong>Las hojas personalizadas son gratis.</strong> También el editor, y todo lo demás de esta página.</p>
     <div class="btn-row">
       <a class="btn btn-primary" href="https://github.com/noloman/keysi/releases/latest">Descargar Keysi</a>
     </div>

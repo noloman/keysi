@@ -66,8 +66,8 @@
 <section class="container-narrow doc">
   <div class="eyebrow">Aide-mémoire</div>
   <h1>Les raccourcis absents de la barre des menus</h1>
-  <p>Keysi lit en direct l’arborescence des menus d’une app : c’est ce qui lui permet de vous montrer tous les raccourcis de l’app où vous êtes, sans que personne ait à tenir une liste à jour. Certaines apps y échappent : Vim et tmux n’ont aucun menu macOS à lire, et les apps Electron comme Slack gardent leurs vrais raccourcis dans le moteur de rendu plutôt que dans la barre des menus.</p>
-  <p>Pour celles-là, Keysi fournit des fiches écrites à la main. Elles sont gratuites, ne font pas partie de Keysi Pro, et vous pouvez partir de n’importe laquelle pour créer la vôtre.</p>
+  <p>Keysi lit en direct les menus d’une app : il peut ainsi vous montrer tous les raccourcis de l’app où vous êtes, sans que personne tienne une liste à jour. Certaines apps y échappent : Vim et tmux n’ont pas de menus macOS, et les apps Electron comme Slack gardent leurs vrais raccourcis hors de la barre des menus.</p>
+  <p>Pour celles-là, Keysi fournit des fiches écrites à la main. Elles sont gratuites, ne font pas partie de Keysi Pro, et vous pouvez partir de n’importe laquelle.</p>
   <p>Pour les apps dont les raccourcis <em>sont</em> bien dans la barre des menus, consultez les <a href="../shortcuts.html">listes de raccourcis par app (en anglais)</a>, lues directement dans ces menus.</p>
   <p class="updated">10 fiches · 381 raccourcis.</p>
   <div class="table-scroll">
@@ -95,10 +95,10 @@
     <figcaption>La fiche Vim, sur Vim dans un terminal. Keysi regarde ce qui s’y exécute réellement, pas de quelle app de terminal il s’agit.</figcaption>
   </figure>
   <h2>Créez la vôtre</h2>
-  <p>N’importe quelle app peut avoir la sienne. Une fiche est un fichier JSON placé dans <code>~/Library/Application Support/Keysi/Sheets/</code> qui indique l’app concernée et les raccourcis à afficher ; Keysi intègre un éditeur pour vous éviter de l’écrire à la main. Réglez <code>mode</code> sur <code>augment</code> pour compléter ce que Keysi a déjà trouvé dans les menus de l’app, ou sur <code>replace</code> pour l’écarter entièrement, ce qu’il vous faut pour une app Electron dont la barre des menus ment sur ses vrais raccourcis.</p>
+  <p>N’importe quelle app peut avoir la sienne. Une fiche est un fichier JSON placé dans <code>~/Library/Application Support/Keysi/Sheets/</code> qui indique l’app et les raccourcis à afficher, et l’éditeur intégré de Keysi peut l’écrire pour vous. Réglez <code>mode</code> sur <code>augment</code> pour compléter ce que Keysi a trouvé dans les menus de l’app, ou sur <code>replace</code> pour l’écarter, ce qu’il faut pour une app Electron dont la barre des menus ne correspond pas à ses vrais raccourcis.</p>
   <p>Téléchargez l’une des fiches ci-dessus comme point de départ.</p>
   <div class="doc-foot">
-    <p><strong>Les fiches personnalisées sont gratuites.</strong> L’éditeur intégré aussi, comme tout le reste de cette page.</p>
+    <p><strong>Les fiches personnalisées sont gratuites.</strong> L’éditeur aussi, comme tout le reste de cette page.</p>
     <div class="btn-row">
       <a class="btn btn-primary" href="https://github.com/noloman/keysi/releases/latest">Télécharger Keysi</a>
     </div>

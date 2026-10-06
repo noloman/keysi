@@ -50,12 +50,12 @@
 <section class="container-narrow doc">
   <div class="eyebrow">Integrations</div>
   <h1>Keysi, from everywhere else</h1>
-  <p>Holding ⌘ to see an app's shortcuts is free and always will be, and so is opening that panel from Raycast, Alfred, the terminal or a <code>keysi://show</code> URL. What Keysi Pro adds is the rest of reaching Keysi from somewhere <em>else</em>: a launcher, a terminal, an automation, so the answer can leave Keysi and land where you were already working.</p>
-  <p>The app has all of this built in: open <strong>Integrations</strong> from the Keysi menu bar icon and it will tell you which of these are ready on your Mac and which need a step. This page is the same information, for reading before you buy.</p>
+  <p>Holding ⌘ to see an app's shortcuts is free and always will be, and so is opening that panel from Raycast, Alfred, the terminal or a <code>keysi://show</code> URL. Keysi Pro adds the rest of reaching Keysi from somewhere <em>else</em>: a launcher, a terminal, an automation.</p>
+  <p>In the app, open <strong>Integrations</strong> from the Keysi menu bar icon to see which of these are ready on your Mac and which need a step. This page is the same list, for reading before you buy.</p>
 
   <h2>Raycast</h2>
-  <p>Search any app's shortcuts, run one, or open Practice without leaving Raycast. The extension asks the Keysi app to do the work, because a Raycast extension cannot read another app's menus itself, but the app that already can is right there.</p>
-  <p class="fine">The extension is <strong>waiting on Raycast Store review</strong> (submitted 11 September 2026), and ships when Raycast merges it rather than when Keysi ships. Everything else on this page works the moment you install Keysi. Said plainly because it is part of what Pro costs, and a feature you cannot install yet should not be described as though you can.</p>
+  <p>Search cheat sheets, open an app's shortcuts in Keysi, or open Practice and Progress without leaving Raycast. A Raycast extension can't read another app's menus, so it asks the Keysi app to do the work.</p>
+  <p class="fine">The extension is <strong>waiting on Raycast Store review</strong> (submitted 11 September 2026) and ships when Raycast merges it, not when Keysi ships. Everything else on this page works as soon as you install Keysi.</p>
 
   <figure class="shot doc-shot">
     <picture>
@@ -72,10 +72,10 @@
     <li><code>kspractice</code> opens Practice Mode.</li>
     <li><code>ksexport</code> exports an app's shortcuts.</li>
   </ul>
-  <p>The workflow is three keyword objects wired straight to Open URL actions. No scripting, nothing that can drift from the app, and nothing in it can do anything you could not do by typing <code>open keysi://show</code> yourself.</p>
+  <p>The workflow is three keywords wired to Open URL actions. No scripts, and nothing in it does more than typing <code>open keysi://show</code> yourself.</p>
 
   <h2>The terminal</h2>
-  <p>Keysi ships a <code>keysi</code> command inside the app bundle, so it is always the version matching the app you have installed. Put it on your <code>PATH</code>:</p>
+  <p>Keysi ships a <code>keysi</code> command inside the app bundle, so it always matches the app you have installed. Put it on your <code>PATH</code>:</p>
   <pre><code>sudo ln -sf /Applications/Keysi.app/Contents/Resources/keysi-cli.sh /usr/local/bin/keysi</code></pre>
   <p>Then:</p>
   <pre><code>keysi show            # the panel for the app you were last in
@@ -84,26 +84,26 @@ keysi practice        # open Practice Mode
 keysi progress        # open Your Keysi
 keysi integrations    # this list, inside the app
 keysi export Figma    # export an app's shortcuts (opens a save panel)</code></pre>
-  <p>The app's Integrations window will hand you that first command with the right path already in it. Keysi will not write into a directory on your <code>PATH</code> itself, and it does not run anything to work out whether the link is there.</p>
+  <p>The Integrations window gives you that first command with the right path filled in. Keysi won't write to a directory on your <code>PATH</code> itself, and doesn't run anything to check whether the link exists.</p>
 
   <h2>Shortcuts and Siri</h2>
-  <p>Keysi's App Intents let a Shortcuts workflow find and run menu commands, which also makes them available to Spotlight actions and to Siri. Nothing to install — they appear in Shortcuts once Keysi is running. <em>Show Shortcuts</em> is free; the rest are Keysi Pro.</p>
+  <p>Keysi's App Intents let a Shortcuts workflow find and run menu commands, which also makes them available to Spotlight actions and Siri. They appear in Shortcuts once Keysi is running. <em>Show Shortcuts</em> is free; the rest are Keysi Pro.</p>
 
   <h2>Spotlight</h2>
   <p>Your custom cheat sheets are indexed, so a Vim or tmux binding turns up in an ordinary Spotlight search. Nothing to set up.</p>
 
   <h2>The Services menu</h2>
-  <p>Select a command name in any app, then Services ▸ <em>Search Shortcuts in Keysi</em>, and Keysi answers "what's the shortcut for this?" against the app you were in. macOS lists it once Keysi has run; you can give it a keyboard shortcut of its own in System Settings ▸ Keyboard ▸ Keyboard Shortcuts ▸ Services.</p>
+  <p>Select a command name in any app, choose Services ▸ <em>Search Shortcuts in Keysi</em>, and Keysi looks up its shortcut in the app you were in. macOS lists it once Keysi has run, and you can give it a shortcut of its own in System Settings ▸ Keyboard ▸ Keyboard Shortcuts ▸ Services.</p>
 
   <h2>Export</h2>
-  <p>Keysi writes the frontmost app's whole cheat sheet out to a file: <strong>Markdown</strong> for a wiki or a repo, a <strong>printable PDF</strong> for the wall, or a <strong>desktop picture</strong> sized to the screen you're saving from, so the shortcuts sit behind your windows. Markdown and PDF from the menu bar item are free; the desktop picture is Keysi Pro.</p>
-  <p>Reach it from the menu bar item, or with Keysi Pro from Shortcuts via <em>Export Shortcuts</em>, from the terminal with <code>keysi export Figma</code>, or from a <code>keysi://export</code> URL. However it's triggered, macOS's own save panel opens and you pick the location and the format — which is what keeps a one-way URL surface safe: nothing can make Keysi write a file on its own.</p>
+  <p>Keysi writes the frontmost app's whole cheat sheet to a file: <strong>Markdown</strong> for a wiki or a repo, a <strong>printable PDF</strong> for the wall, or a <strong>desktop picture</strong> sized to your screen, so the shortcuts sit behind your windows. Markdown and PDF from the menu bar item are free; the desktop picture is Keysi Pro.</p>
+  <p>Use the menu bar item, or with Keysi Pro: <em>Export Shortcuts</em> in Shortcuts, <code>keysi export Figma</code> in the terminal, or a <code>keysi://export</code> URL. Either way, macOS's save panel opens and you pick the location and format, so nothing can make Keysi write a file on its own.</p>
 
   <h2>Open in Keysi, from this site</h2>
-  <p>Every <a href="shortcuts.html">app shortcuts page</a> and <a href="sheets.html">cheat sheet</a> here has an <strong>Open in Keysi</strong> button. On an app's page it opens that app's panel, through <code>keysi://show?bundle=com.apple.dt.Xcode</code>, if the app is running; Keysi never starts an app because a link asked it to. On a cheat sheet it shows that built-in sheet in Settings ▸ Shortcuts, through <code>keysi://sheet?id=vim</code>. Both are free, and neither downloads or installs anything: a link can only point at what Keysi already has.</p>
+  <p>Every <a href="shortcuts.html">app shortcuts page</a> and <a href="sheets.html">cheat sheet</a> here has an <strong>Open in Keysi</strong> button. On an app's page it opens that app's panel through <code>keysi://show?bundle=com.apple.dt.Xcode</code>, if the app is running; Keysi never launches an app because a link asked. On a cheat sheet it shows that built-in sheet in Settings ▸ Shortcuts through <code>keysi://sheet?id=vim</code>. Both are free, and neither downloads or installs anything.</p>
 
   <h2>What it costs, and what it doesn't</h2>
-  <p>Everything above except showing an app's shortcuts, and Markdown or PDF export from the menu bar, is part of Keysi Pro: $14.99 once, with a 14-day trial. Nothing that was free became paid to make room for it: the overlay, the hotkey, click-to-run, custom sheets, search and the conflict warnings are exactly as free as they have always been, and stay that way. Reaching Keysi from another app is a new capability that arrived in the paid tier, not a fence built around an old one.</p>
+  <p>Everything above except showing an app's shortcuts, and Markdown or PDF export from the menu bar, is Keysi Pro: $14.99 once, with a 14-day trial. Nothing free became paid to make room for it. The overlay, the hotkey, click-to-run, custom sheets, search and the conflict warnings are as free as they've always been, and stay that way.</p>
 
   <div class="doc-foot">
     <p>

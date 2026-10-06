@@ -66,8 +66,8 @@
 <section class="container-narrow doc">
   <div class="eyebrow">チートシート</div>
   <h1>メニューバーにないショートカット</h1>
-  <p>Keysi はアプリのメニュー構造をその場で読み取ります。だから誰もリストを管理しなくても、いま使っているアプリのショートカットをすべて表示できます。ただし、それが通用しないアプリもあります。Vim や tmux には読み取れる macOS のメニューがなく、Slack のような Electron アプリは実際のキー割り当てをメニューバーではなくレンダラー側に持っています。</p>
-  <p>そうしたアプリのために、Keysi には手書きのシートが付属しています。無料で、Keysi Pro には含まれず、どれでも元にして自分用に作り変えられます。</p>
+  <p>Keysi はアプリのメニューをその場で読み取るので、誰もリストを管理しなくても、いま使っているアプリのショートカットをすべて表示できます。ただし例外もあります。Vim や tmux には macOS のメニューがなく、Slack のような Electron アプリは実際のキー割り当てをメニューバーの外に持っています。</p>
+  <p>そうしたアプリのために、Keysi には手書きのシートが付属しています。無料で、Keysi Pro には含まれず、どれでも元にして作り変えられます。</p>
   <p>メニューバーにショートカットが<em>ある</em>アプリについては、そのメニューから直接読み取った<a href="../shortcuts.html">アプリ別ショートカット一覧（英語）</a>をご覧ください。</p>
   <p class="updated">シート 10 件 · ショートカット 381 件</p>
   <div class="table-scroll">
@@ -95,10 +95,10 @@
     <figcaption>ターミナル上の Vim に重ねた Vim シート。Keysi はどのターミナルアプリかではなく、そこで実際に動いているものを見ています。</figcaption>
   </figure>
   <h2>自分で作る</h2>
-  <p>シートはどのアプリにも作れます。シートは <code>~/Library/Application Support/Keysi/Sheets/</code> に置く JSON ファイルで、対象のアプリと一覧にしたいショートカットを指定します。Keysi には専用のエディタがあるので、手で書く必要はありません。<code>mode</code> を <code>augment</code> にすると Keysi がアプリのメニューで見つけたものに追加し、<code>replace</code> にするとそれを丸ごと差し替えます。メニューバーの表示が実際のキー割り当てと違う Electron アプリには、こちらが向いています。</p>
+  <p>シートはどのアプリにも作れます。シートは <code>~/Library/Application Support/Keysi/Sheets/</code> に置く JSON ファイルで、対象のアプリと一覧にするショートカットを指定します。Keysi の内蔵エディタで作ることもできます。<code>mode</code> を <code>augment</code> にすると Keysi がアプリのメニューで見つけたものに追加し、<code>replace</code> にするとそれを差し替えます。メニューバーの表示が実際のキー割り当てと合わない Electron アプリには、こちらが向いています。</p>
   <p>上のシートをどれでもダウンロードして、たたき台にしてください。</p>
   <div class="doc-foot">
-    <p><strong>カスタムシートは無料です。</strong>内蔵のエディタも、このページにあるほかのすべても無料です。</p>
+    <p><strong>カスタムシートは無料です。</strong>エディタも、このページのほかのすべても無料です。</p>
     <div class="btn-row">
       <a class="btn btn-primary" href="https://github.com/noloman/keysi/releases/latest">Keysi をダウンロード</a>
     </div>

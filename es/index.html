@@ -109,14 +109,14 @@
     <div class="hero-grid">
       <div class="hero-copy">
         <h1>Todos los atajos de teclado de la app que estás usando</h1>
-        <p class="lede">Mantén pulsada ⌘ y Keysi lee en directo los menús de la app que tienes delante, y dibuja cada atajo como una tecla. Pulsa una fila y ejecuta ese comando del menú.</p>
+        <p class="lede">Mantén pulsada ⌘ y Keysi lee en directo los menús de la app que tienes delante y muestra cada atajo como una tecla. Pulsa una fila para ejecutar el comando.</p>
         <div class="btn-row">
           <a class="btn btn-primary btn-lg" href="https://github.com/noloman/keysi/releases/latest">Descargar para macOS</a>
           <a class="btn btn-secondary btn-lg" href="#pricing">Pro: $14.99, pago único</a>
         </div>
         <p class="hero-brew">o <code class="cmd">brew install --cask noloman/keysi/keysi</code></p>
         <p class="hero-micro"><span>Gratis, sin límite de tiempo, sin cuenta</span> <span>Incluye 14 días de Pro</span></p>
-        <p class="hold-hint">Mantén pulsada <span class="kbd">⌘</span> en esta página para verlo.</p>
+        <p class="hold-hint">Mantén pulsada <span class="kbd">⌘</span> en esta página para probarlo.</p>
       </div>
 
       <!-- The gesture as an object rather than a sentence about it. Any of
@@ -153,8 +153,8 @@
 
 <section class="origin tight">
   <div class="container">
-    <p><strong>CheatSheet</strong> hizo esto durante años, hasta que dejó de funcionar en macOS Sonoma y se abandonó. Casi todo el mundo dio por hecho que Apple había retirado la API que necesitaba. No fue así. <code>AXUIElementCreateApplication</code> y los atributos de la barra de menús siguen siendo públicos y siguen funcionando, y sobre eso está construido Keysi. <a href="../cheatsheet-alternative.html">La versión larga, y qué cambia</a>.</p>
-    <p class="fine">Sin relación con Media Atelier. Keysi no comparte código con CheatSheet. Es una app nueva construida sobre la misma API pública.</p>
+    <p><strong>CheatSheet</strong> hizo esto durante años, hasta que dejó de funcionar en macOS Sonoma y se abandonó. Casi todo el mundo dio por hecho que Apple había retirado la API que usaba. No fue así. <code>AXUIElementCreateApplication</code> y los atributos de la barra de menús siguen siendo públicos, y Keysi está construido sobre ellos. <a href="../cheatsheet-alternative.html">Más sobre eso, y qué cambia (en inglés)</a>.</p>
+    <p class="fine">Sin relación con Media Atelier. Keysi es una app nueva y no comparte código con CheatSheet.</p>
   </div>
 </section>
 
@@ -165,35 +165,34 @@
 <section id="day" class="container day">
   <div class="eyebrow">Un día de trabajo, antes y después</div>
   <h2>De buscar los atajos a sabértelos</h2>
-  <p class="lede">Una chuleta te dice un atajo cuando se lo preguntas. Keysi te enseña los de verdad de la app en la que estás, y no para hasta que los usas sin pensar, en las apps de trabajo en las que pasas el día: Xcode, Logic, Final Cut, Figma, Excel.</p>
+  <p class="lede">Una chuleta responde cuando le preguntas. Keysi te enseña los atajos de verdad de la app en la que estás, y no para hasta que dejas de ir al menú. Lo hice para las apps en las que la gente trabaja todo el día: Xcode, Logic, Final Cut, Figma, Excel.</p>
   <ul class="day-list">
     <li class="day-item">
-      <h3>El atajo está ahí en cuanto lo necesitas</h3>
-      <p><span class="day-label">Antes</span> Abres tres menús para encontrar un comando, o una lista de atajos escrita para la versión del año pasado que no sabe nada de las teclas que reasignaste.</p>
-      <p class="day-after"><span class="day-label">Con Keysi <span class="tier tier-free">Gratis</span></span> Mantén pulsada ⌘ y ve todos los atajos de la app en la que estás, leídos de sus menús tal como están ahora mismo, más los que reasignaste tú en Xcode, los IDE de JetBrains o VS Code. Pulsa una fila y se ejecuta.</p>
+      <h3>El atajo está ahí cuando lo necesitas</h3>
+      <p><span class="day-label">Antes</span> Rebuscas en tres menús para un solo comando, o en una lista escrita para la versión del año pasado.</p>
+      <p class="day-after"><span class="day-label">Con Keysi <span class="tier tier-free">Gratis</span></span> Mantén pulsada ⌘ y ve todos los atajos de la app en la que estás, tal como están sus menús ahora mismo, más los que reasignaste en Xcode, los IDE de JetBrains o VS Code. Pulsa una fila y se ejecuta.</p>
     </li>
     <li class="day-item">
       <h3>Aprendes los que se te siguen escapando</h3>
-      <p><span class="day-label">Antes</span> Ayer buscaste un atajo y hoy has vuelto a echar mano del ratón. Nada te avisa de que lo has hecho.</p>
-      <p class="day-after"><span class="day-label">Con Keysi <span class="tier tier-pro">Pro</span></span> Coach se da cuenta cuando eliges a mano un comando de menú que tiene atajo y te muestra un único recordatorio discreto. El modo práctica entrena los que fallas y te vuelve a preguntar cada uno al cabo de un día, y luego de dos, cuatro, ocho y dieciséis a medida que lo aciertas, hasta que se te queda.</p>
+      <p><span class="day-label">Antes</span> Ayer buscaste un atajo y hoy has vuelto a usar el ratón.</p>
+      <p class="day-after"><span class="day-label">Con Keysi <span class="tier tier-pro">Pro</span></span> Coach te muestra un único recordatorio discreto cuando usas el menú para un comando que tiene atajo. El modo práctica entrena los que fallas hasta que se te quedan.</p>
     </li>
     <li class="day-item">
-      <h3>Las actualizaciones y los atajos que faltan dejan de ser puntos ciegos</h3>
-      <p><span class="day-label">Antes</span> Una actualización añade comandos sin que nadie te lo diga, y el comando que pulsas todo el día no tiene atajo.</p>
-      <p class="day-after"><span class="day-label">Con Keysi <span class="tier tier-pro">Pro</span></span> Cuando una app se actualiza, el panel marca los atajos que ha añadido la actualización. Si sigues pulsando un comando sin atajo, Keysi te sugiere una combinación de teclas que no usan ni la app ni macOS, y te dice dónde añadirla.</p>
+      <h3>Las actualizaciones y los atajos que faltan dejan de esconder cosas</h3>
+      <p><span class="day-label">Antes</span> Una actualización añade comandos sin que nadie lo mencione, y el que pulsas todo el día no tiene atajo.</p>
+      <p class="day-after"><span class="day-label">Con Keysi <span class="tier tier-pro">Pro</span></span> El panel marca los atajos que ha añadido una actualización. Para un comando sin atajo que sigues pulsando, Keysi te sugiere una combinación que no usan ni la app ni macOS, y te enseña dónde configurarla.</p>
     </li>
     <li class="day-item">
       <h3>Ves que funciona, con tus propios números</h3>
-      <p><span class="day-label">Antes</span> Esperas que los atajos te estén compensando, y nada te enseña si es así.</p>
-      <p class="day-after"><span class="day-label">Con Keysi <span class="tier tier-pro">Pro</span></span> Keysi cronometra tus propios viajes por los menús y cuenta las veces que pulsaste el atajo en su lugar, y te enseña los dos números uno al lado del otro. Hasta que no ha cronometrado suficientes viajes, no muestra ninguna cifra de tiempo.</p>
+      <p><span class="day-label">Antes</span> Esperas que los atajos te estén compensando.</p>
+      <p class="day-after"><span class="day-label">Con Keysi <span class="tier tier-pro">Pro</span></span> Keysi cronometra tus viajes por los menús y cuenta las veces que pulsaste el atajo en su lugar. Hasta que no ha cronometrado suficientes viajes, no muestra ninguna cifra de tiempo.</p>
     </li>
   </ul>
-  <p class="day-compare">Todas las herramientas de esta categoría te enseñan atajos cuando se los pides, y Keylume también te avisa cuando usas el menú en su lugar. Ninguna de las webs de las demás apps describe ejercicios de práctica con repetición espaciada, ni avisos cuando macOS u otra app se va a quedar antes con un atajo (comprobado en octubre de 2026). <a href="../keyclu-vs-keysi.html">Mira la comparación con fechas</a>.</p>
+  <p class="day-compare">Keylume también te avisa cuando usas el menú. Ninguna web de otra app describe ejercicios de práctica con repetición espaciada, ni avisos cuando macOS u otra app se queda antes con un atajo (comprobado en octubre de 2026). <a href="../keyclu-vs-keysi.html">Mira la comparación con fechas (en inglés)</a>.</p>
   <div class="btn-row">
     <a class="btn btn-primary btn-lg" href="https://github.com/noloman/keysi/releases/latest">Descargar para macOS</a>
     <a class="btn btn-secondary btn-lg" href="#pricing">Pro: $14.99, pago único</a>
   </div>
-  <p class="hero-micro"><span>Gratis, sin límite de tiempo, sin cuenta</span> <span>Incluye 14 días de Pro</span></p>
 </section>
 
 <section id="features" class="container">
@@ -202,9 +201,8 @@
     <div class="feature-copy">
       <div class="eyebrow">Modo Coach<span class="tier tier-pro">Keysi Pro · $14.99</span></div>
       <h2>Se da cuenta de cuándo echas mano del ratón</h2>
-      <p>Una lista de atajos espera a que la consultes. Coach no. Vigila los comandos de menú que eliges a mano y que ya tienen un atajo de teclado, y te ofrece un recordatorio discreto que puedes descartar. Luego comprueba si el recordatorio ha calado, y deja de mencionar los que ya has empezado a usar. Eso es lo que compran los $14.99: una referencia que trabaja para dejar de hacerte falta.</p>
-      <p>Un tiempo de espera lo limita para que no se vuelva ruido. Puedes silenciar un atajo concreto o la función entera desde Ajustes ▸ Coach, y pedirle que guarde silencio mientras haya un Focus activo. El <strong>modo práctica</strong> entrena los que se te siguen escapando, con repetición espaciada: el que aciertas vuelve al cabo de un día, luego de dos, cuatro, ocho y dieciséis. Tu progreso se mide contra tus propios tiempos: Keysi cronometra lo que tardas de verdad en ir al menú, así que «normalmente 2,4 s, y te has ahorrado 412 viajes» es una cuenta sobre dos números que ha contado, no una estimación.</p>
-      <p class="fine">Cada instalación incluye 14 días. Cuando se acaban, la app pasa a la versión gratuita. No deja de funcionar, y no se borra nada de lo que hayas configurado.</p>
+      <p>Una lista de atajos espera a que la consultes. Coach no. Cuando eliges a mano un comando de menú que tiene atajo, te muestra un recordatorio discreto, y deja de mencionar los que ya has empezado a usar. Eso es lo que pagas con los $14.99.</p>
+      <p>Un tiempo de espera evita que se vuelva ruido. Silencia un atajo o todo Coach en Ajustes ▸ Coach, o haz que guarde silencio durante un Focus. El <strong>modo práctica</strong> usa repetición espaciada: si aciertas uno, vuelve al cabo de un día, luego de dos, cuatro, ocho y dieciséis. Keysi cronometra tus viajes reales al menú, así que «normalmente 2,4 s, y te has ahorrado 412 viajes» son dos números que ha contado, no una estimación.</p>
     </div>
     <div class="feature-shots">
       <figure class="shot">
@@ -212,7 +210,7 @@
           <source srcset="../assets/img/shot-coach@2x.webp" type="image/webp">
           <img src="../assets/img/shot-coach@2x.png" alt="Un recordatorio de Keysi en la esquina de una ventana de TextEdit que dice «Edición › Añadir enlace…» sobre una tecla Comando-K y las palabras «La próxima vez, prueba esto»" loading="lazy" width="600" height="380">
         </picture>
-        <figcaption>Un recordatorio, después de elegirlo en el menú. Se descarta, y se puede silenciar atajo por atajo.</figcaption>
+        <figcaption>Un recordatorio, después de usar el menú. Descártalo o silencia ese atajo.</figcaption>
       </figure>
       <figure class="shot">
         <picture>
@@ -228,7 +226,7 @@
     <div class="feature-copy">
       <div class="eyebrow">Pulsa y se ejecuta<span class="tier tier-free">Gratis</span></div>
       <h3>Pulsa una fila y se ejecuta</h3>
-      <p>Keysi no se queda en enseñarte los atajos: los ejecuta. Pulsa cualquier fila y dispara ese comando del menú, y luego desaparece como Spotlight. No tienes que acordarte de qué dedo va dónde.</p>
+      <p>Pulsa cualquier fila y Keysi ejecuta ese comando del menú, y luego se quita de en medio como Spotlight.</p>
       <figure class="shot">
         <picture>
           <source srcset="../assets/img/shot-execute@2x.webp" type="image/webp">
@@ -239,13 +237,8 @@
     <div class="feature-copy">
       <div class="eyebrow">Avisos de conflicto<span class="tier tier-free">Gratis</span></div>
       <h3>Atajos que macOS se queda por el camino</h3>
-      <p>Keysi lee los atajos del propio sistema y marca los de la app que macOS va a interceptar antes, así te enteras antes de pulsarlos y no después de que no pase nada.</p>
-      <p>La misma lista se puede consultar por separado, desde la barra de menús: <strong>Atajos
-        del sistema</strong> muestra todas las combinaciones que macOS reclama
-        ahora mismo en tu Mac, agrupadas como las agrupan los Ajustes del Sistema. Se lee
-        de tus propios ajustes y no de una lista que alguien mantiene, así que un
-        atajo que hayas desactivado no aparece.</p>
-      <p>Los atajos globales de otras apps también cuentan. Mientras Raycast o Rectangle están abiertas, Keysi lee los atajos que tienen configurados, más el suyo propio, y te dice qué app se queda con un atajo antes de que llegue a la app que tienes delante. Nada de lo que lee sale de tu Mac.</p>
+      <p>Keysi marca cualquier atajo de una app que macOS vaya a capturar antes. Los atajos globales de Raycast y Rectangle también cuentan mientras están abiertas, igual que los del propio Keysi; el aviso dice qué app llega antes. Nada de esto sale de tu Mac.</p>
+      <p><strong>Atajos del sistema</strong>, en la barra de menús, lista todas las combinaciones que macOS reclama en tu Mac, leídas de tus propios ajustes y agrupadas como en los Ajustes del&nbsp;Sistema.</p>
       <figure class="shot">
         <picture>
           <source srcset="../assets/img/shot-conflict@2x.webp" type="image/webp">
@@ -263,29 +256,26 @@
         <ul>
           <li><strong>Mantén pulsado cualquier modificador</strong> <span class="kbd">⌘</span> <span class="kbd">⌥</span> <span class="kbd">⌃</span> <span class="kbd">⇧</span> el que prefieras, con un retardo ajustable.</li>
           <li><strong>Un panel con búsqueda</strong> <span class="kbd-row"><span class="kbd">⇧</span><span class="kbd">⌘</span><span class="kbd">K</span></span> escribe para filtrar, flechas para moverte, Escape para cerrar.</li>
-          <li><strong>El icono de la barra de menús</strong> el mismo contenido, sin tocar el teclado.</li>
-          <li><strong>Déjalo fijado</strong> y se queda donde lo pongas, para cada app.</li>
+          <li><strong>El icono de la barra de menús</strong> el mismo contenido, sin teclado.</li>
+          <li><strong>Déjalo fijado</strong> donde quieras, para cada app.</li>
         </ul>
       </div>
       <div class="cap-group">
         <h3>Se porta bien</h3>
         <ul>
-          <li><strong>Nunca roba el foco</strong> es un panel que no se activa; la app de debajo sigue delante.</li>
-          <li><strong>Nunca parpadea mientras escribes</strong> mantener ⌘ camino de un ⌘S real cancela el panel en silencio.</li>
-          <li><strong>Reconoce la entrada segura</strong> si un campo de contraseña tiene la entrada segura activada, Keysi lo dice en vez de disimular.</li>
-          <li><strong>Trabajo acotado</strong> un tope a cuánto lee de una barra de menús, y un tiempo límite, así que ni el menú de marcadores más grande de Safari puede bloquearlo.</li>
+          <li><strong>Nunca roba el foco</strong> la app de debajo sigue delante.</li>
+          <li><strong>Nunca parpadea mientras escribes</strong> mantener ⌘ camino de ⌘S cancela el panel en silencio.</li>
+          <li><strong>Trabajo acotado</strong> un tope de tamaño y un tiempo límite, así que ni el menú de marcadores más grande de Safari puede bloquearlo.</li>
         </ul>
       </div>
       <div class="cap-group">
         <h3>Va más allá</h3>
         <ul>
           <li><strong>Hojas de atajos</strong> <span class="tier tier-free">Gratis</span> Figma, Slack, Notion, Obsidian, Excel, Word, Ghostty, Vim, tmux y Emacs incluidas, más un editor para crear las tuyas. <a href="sheets.html">Verlas todas</a>.</li>
-          <li><strong>Lee los atajos que has cambiado</strong> <span class="tier tier-free">Gratis</span> cambia el mapa de teclas en IntelliJ IDEA, Android Studio, VS Code, Cursor o Xcode —o en tu propio <code>.vimrc</code>— y Keysi muestra las combinaciones que los menús de esas apps no pueden. Lo que ya está en un menú se queda ahí, con las palabras de la propia app.</li>
+          <li><strong>Lee los atajos que has cambiado</strong> <span class="tier tier-free">Gratis</span> en IntelliJ IDEA, Android Studio, VS Code, Cursor, Xcode o tu propio <code>.vimrc</code>, incluidas las combinaciones que los menús de esas apps no pueden mostrar.</li>
           <li><strong>Nueve idiomas</strong> inglés, español, francés, alemán, italiano, portugués (BR), japonés, coreano y chino simplificado.</li>
           <li><strong>Accesible desde fuera de Keysi</strong> <span class="tier tier-pro">Pro</span> Raycast, Alfred, Atajos, Siri, Spotlight, el menú Servicios, un comando <code>keysi</code> en el terminal y una URL <code>keysi://</code>. Mostrar los atajos de una app desde Raycast, Alfred, el terminal o una URL es gratis. <a href="../integrations.html">Cómo funciona cada uno</a>.</li>
         <li><strong>Exporta la chuleta entera</strong> <span class="tier tier-free">Gratis</span> los atajos de cualquier app en Markdown o en un PDF imprimible. El fondo de escritorio del tamaño de tu pantalla es Pro.</li>
-        <li><strong>El progreso, en las propias filas</strong> <span class="tier tier-pro">Pro</span> el panel marca qué atajos te has aprendido de verdad, mientras los estás mirando.</li>
-        <li><strong>Lo nuevo tras actualizar una app</strong> <span class="tier tier-pro">Pro</span> cuando una app se actualiza, el panel marca los atajos que ha añadido la actualización, para que los comandos nuevos no se queden escondidos en los menús.</li>
         </ul>
       </div>
     </div>
@@ -295,7 +285,7 @@
 
 <section class="container tight">
   <div class="handoff">
-    <p><strong>Cómo se compara Keysi con KeyCue, KeyClu y CheatSheet.</strong> La tabla completa, con lo que la web de cada competidor afirma y lo que no, con fuente y fecha en lugar de suposiciones.</p>
+    <p><strong>Cómo se compara Keysi con KeyCue, KeyClu y CheatSheet.</strong> La tabla completa: lo que afirma la web de cada competidor, con fuentes y fechas.</p>
     <a class="btn btn-secondary" href="../keyclu-vs-keysi.html">Ver la comparativa</a>
   </div>
   <p class="fine compare-links">¿Vienes de alguna en concreto? <a href="../cheatsheet-alternative.html">Keysi como alternativa a CheatSheet</a> · <a href="../keycue-alternative.html">Keysi frente a KeyCue</a> · <a href="../keyclu-vs-keysi.html">KeyClu es gratis, ¿por qué pagar?</a></p>
@@ -312,39 +302,39 @@
       <li><span class="tick">✓</span><span>Mantén pulsada ⌘, ⌥, ⌃ o ⇧ para ver todos los atajos</span></li>
       <li><span class="tick">✓</span><span>Pulsa cualquier fila para ejecutarla</span></li>
       <li><span class="tick">✓</span><span>Panel con búsqueda, favoritos y ocultación</span></li>
-      <li><span class="tick">✓</span><span>Fija el panel y se queda donde lo pongas, para cada app</span></li>
-      <li><span class="tick">✓</span><span>Avisos de conflicto cuando macOS o el atajo global de otra app va a interceptar, más una lista consultable de todos los atajos del sistema</span></li>
+      <li><span class="tick">✓</span><span>Fija el panel donde quieras, para cada app</span></li>
+      <li><span class="tick">✓</span><span>Avisos cuando macOS o el atajo global de otra app llega antes, más una lista de todos los atajos del sistema</span></li>
       <li><span class="tick">✓</span><span>Hojas de referencia personalizadas, con editor integrado</span></li>
       <li><span class="tick">✓</span><span>Exporta los atajos de cualquier app en Markdown o en un PDF imprimible</span></li>
       <li><span class="tick">✓</span><span>Muestra los atajos de una app desde Raycast, Alfred o el terminal</span></li>
       <li><span class="tick">✓</span><span>Sin cuenta, sin tarjeta, sin avisos insistentes</span></li>
     </ul>
-    <p class="price-note">Todo lo de esta lista sigue siendo gratis. Keysi se sigue desarrollando, y una función que llegue más adelante puede acabar en cualquiera de los dos niveles. De aquí no sale nada.</p>
+    <p class="price-note">Todo lo de esta lista sigue siendo gratis. Sigo desarrollando Keysi, y una función nueva puede acabar en cualquiera de los dos niveles, pero de aquí no sale nada.</p>
     <div class="btn-row">
       <a id="download" class="btn btn-primary btn-lg" href="https://github.com/noloman/keysi/releases/latest">Descargar Keysi</a>
     </div>
-    <p class="price-after">macOS 14 o posterior. Abre la imagen de disco y arrastra Keysi a la carpeta Aplicaciones antes de abrirla. macOS vincula el permiso de Accesibilidad al sitio donde vive la app, así que concederlo desde la imagen de disco no sirve.</p>
-    <p class="price-after">Homebrew también funciona, y te ahorra el arrastre: <code class="cmd">brew install --cask noloman/keysi/keysi</code></p>
+    <p class="price-after">macOS 14 o posterior. Arrastra Keysi a Aplicaciones antes de abrirla: macOS vincula el permiso de Accesibilidad al sitio donde vive la app, así que concederlo desde la imagen de disco no sirve.</p>
+    <p class="price-after">O sáltate el arrastre con Homebrew: <code class="cmd">brew install --cask noloman/keysi/keysi</code></p>
   </div>
   <div class="pricing-card">
     <div class="price-amount">$14.99 <span>una vez</span></div>
-    <p class="price-sub">Keysi Pro. No es una suscripción: pagas una vez y es tuya.</p>
+    <p class="price-sub">Keysi Pro. Pagas una vez, no es una suscripción.</p>
     <ul class="pricing-list">
-      <li><span class="tick">✓</span><span>Coach, un recordatorio discreto cuando vas con el ratón a algo que tiene atajo</span></li>
-      <li><span class="tick">✓</span><span>Una combinación de teclas sugerida para los comandos en los que sigues haciendo clic y que no tienen atajo</span></li>
-      <li><span class="tick">✓</span><span>El modo práctica, que entrena los que se te siguen escapando</span></li>
-      <li><span class="tick">✓</span><span>Tu progreso, medido contra tus propios tiempos de ir al menú</span></li>
+      <li><span class="tick">✓</span><span>Coach: un recordatorio discreto cuando usas el ratón para algo que tiene atajo</span></li>
+      <li><span class="tick">✓</span><span>Atajos sugeridos para los comandos sin atajo que sigues pulsando</span></li>
+      <li><span class="tick">✓</span><span>El modo práctica para los que se te siguen escapando</span></li>
+      <li><span class="tick">✓</span><span>Progreso medido contra tus propios tiempos de ir al menú</span></li>
       <li><span class="tick">✓</span><span>Un resumen semanal de lo que se te ha quedado</span></li>
-      <li><span class="tick">✓</span><span>El panel marca qué atajos te has aprendido de verdad</span></li>
-      <li><span class="tick">✓</span><span>El panel marca los atajos que acaba de añadir la actualización de una app</span></li>
+      <li><span class="tick">✓</span><span>El panel marca los atajos que te has aprendido</span></li>
+      <li><span class="tick">✓</span><span>El panel marca los atajos que ha añadido la actualización de una app</span></li>
       <li><span class="tick">✓</span><span>Los atajos de cualquier app como fondo de escritorio del tamaño de tu pantalla</span></li>
       <li><span class="tick">✓</span><span>Keysi desde Raycast, Alfred, Atajos, Siri, Spotlight, el menú Servicios, el terminal y una URL <code>keysi://</code></span></li>
-      <li><span class="tick">✓</span><span>14 días gratis para probarlo, y cuando acaban la app sigue funcionando</span></li>
+      <li><span class="tick">✓</span><span>14 días gratis para probarlo; después la app sigue funcionando</span></li>
       <li><span class="tick">✓</span><span>Funciona en hasta 3 Macs, y puedes cambiarlos cuando quieras</span></li>
       <li><span class="tick">✓</span><span>Actualizaciones gratis para siempre · 30 días de reembolso, sin preguntas</span></li>
       <li><span class="tick">✓</span><span>Gumroad gestiona el cobro y el IVA como vendedor oficial</span></li>
     </ul>
-    <p class="price-note">Para hacerse una idea, y se puede comprobar: la suscripción de KeyCue cuesta $19.99 al año, para los mismos tres dispositivos, según <a href="https://ergonis.com/en/keycue/pricing/">su propia página de precios</a> (consultada el 11/09/2026). Esto son $14.99 una sola vez. Y aquello por lo que KeyCue cobra es justo la parte de Keysi que es gratis.</p>
+    <p class="price-note">Para hacerse una idea: KeyCue cuesta $19.99 al año para los mismos tres dispositivos, según <a href="https://ergonis.com/en/keycue/pricing/">su propia página de precios</a> (consultada el 2026-09-11). Aquello por lo que cobra KeyCue es la parte gratuita de Keysi.</p>
     <div class="btn-row">
       <!-- utm_* so a sale from this button is distinguishable from one that
            started inside the app. Gumroad captures utm_source/utm_campaign at
@@ -368,23 +358,23 @@
     <details class="faq-item">
       <summary>¿Por qué necesita Keysi acceso de Accesibilidad?</summary>
       <div class="faq-body">
-        <p>Para leer la barra de menús de la app que estás usando y poder mostrar sus atajos de teclado. Literalmente, de la propia petición de permiso: «Keysi necesita acceso de Accesibilidad para leer los atajos de teclado de la app que estás usando. Nunca controla tu teclado ni tu ratón sin que pulses explícitamente la fila de un atajo.»</p>
+        <p>Para leer la barra de menús de la app que estás usando. La petición de permiso lo dice literalmente: «Keysi necesita acceso de Accesibilidad para leer los atajos de teclado de la app que estás usando. Nunca controla tu teclado ni tu ratón sin que hagas clic explícitamente en una fila de atajo.»</p>
       </div>
     </details>
 
     <details class="faq-item">
       <summary>¿Keysi envía algo a alguna parte?</summary>
       <div class="faq-body">
-        <p>Hay dos conexiones de red que ocurren por su cuenta: la comprobación de licencia con Gumroad y la comprobación de actualizaciones contra el appcast de Sparkle de Keysi. Con las estadísticas de uso desactivadas, que es lo predeterminado, nada sobre tus menús, las apps que usas o los atajos que pulsas sale de tu Mac.</p>
-        <p>Las estadísticas de uso están <strong>desactivadas por omisión</strong>. Si las activas en Ajustes o en la última página de la ventana de bienvenida, Keysi envía una lista corta de eventos de producto (aperturas de la app, qué pestaña de Ajustes abres, la aparición del panel, la app en la que se ejecutó un atajo, cómo fue la configuración inicial y eventos de licencia como la aparición de un aviso de mejora) a una instancia de PostHog alojada en la UE. Tu clave de licencia, lo que pagaste y los menús que Keysi lee no se envían nunca, ni siquiera el nombre de un atajo que activas. Los diagnósticos de fallos están desactivados por omisión y, si los activas, los genera MetricKit de Apple en el propio dispositivo y no salen de tu Mac a menos que los copies y los compartas tú. En <a href="../privacy.html">la página de privacidad</a> está la lista completa.</p>
+        <p>Hay dos conexiones de red que ocurren por su cuenta: una comprobación de licencia con Gumroad y una de actualizaciones contra el appcast de Sparkle de Keysi. Con las estadísticas desactivadas, que es lo predeterminado, nada sobre tus menús, apps o atajos sale de tu Mac.</p>
+        <p>Si <strong>activas</strong> las estadísticas de uso (en Ajustes, o en la última página de la ventana de bienvenida), Keysi envía eventos de producto a una instancia de PostHog alojada en la UE: aperturas de la app, pestañas de Ajustes abiertas, la aparición del panel, la app en la que se ejecutó un atajo, cómo fue la configuración inicial y eventos de licencia como un aviso de mejora. Nunca tu clave de licencia, lo que pagaste, los menús que lee, ni siquiera el nombre de un atajo. Los diagnósticos de fallos también están desactivados por omisión. Si los activas, los genera MetricKit de Apple en tu Mac y se quedan ahí a menos que los compartas tú. La lista completa está en la <a href="../privacy.html">página de privacidad (en inglés)</a>.</p>
       </div>
     </details>
 
     <details class="faq-item">
       <summary>¿Por qué Keysi no está en la Mac App Store?</summary>
       <div class="faq-body">
-        <p>La API de Accesibilidad de la que depende Keysi para leer la estructura de menús de otra app no funciona dentro del App Sandbox, que toda app de la Mac App Store está obligada a usar. Es una limitación permanente, no algo del lanzamiento: KeyCue, KeyClu y Keylume también se distribuyen fuera de la tienda, igual que la CheatSheet original.</p>
-        <p>Así que Keysi está firmada con un certificado de Developer ID y notarizada por Apple: se abre con normalidad, sin el baile de abrirla con el botón derecho. Las actualizaciones llegan por Sparkle, cada una firmada con una clave EdDSA incrustada en la app y verificada antes de instalarse. No te fíes de nuestra palabra sobre la firma: compruébala tú mismo una vez instalada Keysi:</p>
+        <p>La API de Accesibilidad que usa Keysi para leer los menús de otra app no funciona dentro del App Sandbox, y toda app de la Mac App Store tiene que usarlo. KeyCue, KeyClu y Keylume también se distribuyen fuera de la tienda, igual que la CheatSheet original.</p>
+        <p>Está firmada con un Developer ID y notarizada por Apple, así que se abre con normalidad. Las actualizaciones de Sparkle van firmadas con una clave EdDSA incrustada en la app y se verifican antes de instalarse. Comprueba la firma tú mismo:</p>
         <div class="verify-box">
           <code>spctl -a -vvv -t install /Applications/Keysi.app</code>
         </div>
@@ -394,60 +384,57 @@
     <details class="faq-item">
       <summary>¿Puedo instalar Keysi con Homebrew?</summary>
       <div class="faq-body">
-        <p>Sí. Escribe el nombre completo del cask y ya está — sin tap, sin marcar nada como de confianza, sin tocar ningún archivo de configuración antes:</p>
+        <p>Sí, con una línea:</p>
         <div class="verify-box">
           <code>brew install --cask noloman/keysi/keysi</code>
         </div>
-        <p>Instala la misma imagen de disco firmada y notarizada que entrega el botón de descarga; el cask no es más que la suma de verificación de ese archivo exacto. Vive en el tap propio de Keysi y no en el repositorio de casks de Homebrew, que exige a una app superar un listón de popularidad que Keysi todavía no ha superado — un tap se instala igual y no necesita el permiso de nadie.</p>
-        <p>Keysi sigue actualizándose sola a través de Sparkle, y el cask lo declara, así que Homebrew no le lleva la contraria a la actualización de la propia app ni reinstala encima de una versión a la que ya te has actualizado. Si ya tienes Keysi en la carpeta Aplicaciones, añade <code>--adopt</code> y Homebrew adopta la copia que ya está ahí en vez de negarse a sobrescribirla.</p>
+        <p>Es la misma imagen de disco firmada y notarizada que la del botón de descarga, fijada por su suma de verificación, desde el tap propio de Keysi. Sparkle se sigue encargando de las actualizaciones y el cask lo sabe, así que Homebrew no reinstalará encima de una versión más nueva. ¿Ya tienes Keysi en Aplicaciones? Añade <code>--adopt</code>.</p>
       </div>
     </details>
 
     <details class="faq-item">
       <summary>¿Puedo buscar mientras mantengo pulsada ⌘?</summary>
       <div class="faq-body">
-        <p>No, y es deliberado. Un monitor global de eventos puede observar tus pulsaciones, pero no consumirlas, así que cualquier cosa que escribieras con ⌘ pulsada llegaría igualmente a la app de debajo, y Keysi no va a instalar el tipo de captura de entrada que podría cambiarlo. Mantener ⌘ te lo enseña todo; lo único que no puede es filtrarlo.</p>
-        <p>Pulsa el atajo global (⇧⌘K por omisión) en su lugar: se abre el mismo contenido como un panel interactivo de verdad, donde la búsqueda, las flechas y Escape funcionan.</p>
+        <p>No. Keysi puede ver las pulsaciones mientras mantienes ⌘, pero no consumirlas, así que lo que escribieras llegaría también a la app de debajo, y no voy a instalar una captura de entrada para cambiarlo. Pulsa el atajo global (⇧⌘K por omisión) en su lugar: el mismo contenido, en un panel con búsqueda.</p>
       </div>
     </details>
 
     <details class="faq-item">
       <summary>¿Qué es el candado en la cabecera del panel?</summary>
       <div class="faq-body">
-        <p>Significa que la entrada segura está activada. Mientras lo está, macOS oculta lo que escribes a todas las apps salvo aquella en la que escribes, Keysi incluida. Las apps la activan en los campos de contraseña, y Terminal lo hace con la entrada de teclado segura.</p>
-        <p>El panel funciona con normalidad. Lo que se detiene es el recuento de Shortcut Coach de los atajos que tecleas. Pulsa el candado y Keysi te dice qué app activó la entrada segura y cómo desactivarla.</p>
-        <p>Casi siempre es el propio macOS: al desbloquear el Mac, su ventana de inicio de sesión a veces deja activada la entrada segura. Bloquea y desbloquea el Mac (⌃⌘Q) y el candado desaparece.</p>
+        <p>La entrada segura está activada, así que macOS oculta lo que escribes a todas las apps salvo aquella en la que escribes, Keysi incluida. La activan los campos de contraseña y la entrada de teclado segura de Terminal. El panel sigue funcionando; Shortcut Coach solo deja de contar los atajos que tecleas. Pulsa el candado para ver qué app la activó y cómo desactivarla.</p>
+        <p>A menudo es el propio macOS: la ventana de inicio de sesión a veces la deja activada después de desbloquear. Bloquea y desbloquea el Mac (⌃⌘Q) para quitarla.</p>
       </div>
     </details>
 
     <details class="faq-item">
       <summary>¿Qué pasa cuando acaba la prueba de Keysi Pro?</summary>
       <div class="faq-body">
-        <p>Keysi sigue funcionando. Cada instalación empieza con 14 días de Keysi Pro; cuando se acaban (tras un breve periodo de gracia) la app vuelve a la versión gratuita en lugar de pararse. Mantener tu modificador sigue mostrando todos los atajos, pulsar una fila la sigue ejecutando, tus hojas personalizadas siguen cargándose. Lo que se detiene es el entrenamiento: los recordatorios, el modo práctica, las cifras de progreso y el resumen semanal. No se borra nada de lo que hayas escrito o configurado, y si mejoras más adelante retomas donde lo dejaste, porque Keysi sigue contando en local todo ese tiempo. Por eso puede enseñarte lo que te has perdido.</p>
+        <p>Keysi sigue funcionando. Pasados los 14 días (y un breve periodo de gracia) vuelve a la versión gratuita: todos los atajos se siguen mostrando, las filas se siguen ejecutando y las hojas personalizadas se siguen cargando. Lo que se detiene es el entrenamiento: los recordatorios, el modo práctica, las cifras de progreso y el resumen semanal. No se borra nada de lo que hayas configurado, y Keysi sigue contando en local, así que si mejoras más adelante retomas donde lo dejaste.</p>
       </div>
     </details>
 
     <details class="faq-item">
       <summary>Licencias, reembolsos y actualizaciones</summary>
       <div class="faq-body">
-        <p><strong>Macs:</strong> hasta 3 a la vez. Para mover una licencia, abre Ajustes ▸ Keysi Pro ▸ Desactivar este Mac en el antiguo y actívala en el nuevo con la misma clave.</p>
+        <p><strong>Macs:</strong> hasta 3 a la vez. Para mover una licencia, elige Ajustes ▸ Keysi Pro ▸ Desactivar este Mac en el antiguo y actívala en el nuevo con la misma clave.</p>
         <p><strong>Reembolsos:</strong> 30 días, sin preguntas. Consulta las <a href="../terms.html">Condiciones y reembolsos</a>.</p>
-        <p><strong>Actualizaciones:</strong> gratis para siempre, comprobadas automáticamente por Sparkle o a mano desde «Buscar actualizaciones…» en el icono de la barra de menús.</p>
+        <p><strong>Actualizaciones:</strong> gratis para siempre. Sparkle las comprueba automáticamente, o usa «Buscar actualizaciones…» en el icono de la barra de menús.</p>
       </div>
     </details>
 
     <details class="faq-item">
       <summary>He abierto una app y no muestra ningún atajo</summary>
       <div class="faq-body">
-        <p>Esto suele pasar justo después de abrir una app, o en su pantalla de bienvenida, antes de que tenga una barra de menús real que leer. Abre un documento o un proyecto de verdad en esa app y vuelve a intentarlo.</p>
-        <p>Las apps de Electron funcionan: Slack, VS Code y Figma devuelven árboles de menús correctos. Para las combinaciones que solo existen dentro de la app y nunca llegan a su barra de menús nativa, las <a href="sheets.html">hojas personalizadas</a> incluidas cubren el hueco.</p>
+        <p>Suele pasar justo después de que se abra, o en su pantalla de bienvenida, antes de que tenga una barra de menús real. Abre un documento o un proyecto y vuelve a intentarlo.</p>
+        <p>Las apps de Electron funcionan: Slack, VS Code y Figma devuelven menús correctos. Para las combinaciones que nunca llegan a la barra de menús de una app, las <a href="sheets.html">hojas personalizadas</a> incluidas cubren el hueco.</p>
       </div>
     </details>
 
     <details class="faq-item">
       <summary>¿Puedo usar otro modificador distinto de ⌘ para abrir el panel?</summary>
       <div class="faq-body">
-        <p>Sí. En Ajustes ▸ Activadores puedes elegir ⌘, ⌥, ⌃ o ⇧ como modificador, y el retardo es ajustable. Keysi te avisará de lo que implica cada alternativa (⌥ también revela elementos de menú alternativos, ⌃ se solapa con el clic secundario y el Acceso Completo por Teclado, y ⇧ puede disparar las Teclas Lentas o las Teclas Persistentes si las tienes activadas), pero no te impedirá elegirla. El atajo global (⇧⌘K por omisión) se puede reasignar aparte a la combinación que quieras.</p>
+        <p>Sí. En Ajustes ▸ Activadores elige ⌘, ⌥, ⌃ o ⇧ y ajusta el retardo. Keysi te avisa de lo que implica cada una (⌥ también revela elementos de menú alternativos, ⌃ se solapa con el clic secundario y el Acceso Completo por Teclado, ⇧ puede disparar las Teclas Lentas o las Teclas Persistentes), pero te deja elegir. El atajo global (⇧⌘K por omisión) también se puede reasignar.</p>
       </div>
     </details>
 

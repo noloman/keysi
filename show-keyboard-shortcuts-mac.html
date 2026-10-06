@@ -106,69 +106,60 @@
   <div class="eyebrow">Mac keyboard shortcuts</div>
   <h1>How to see the keyboard shortcuts of the app you're using</h1>
   <p class="lede">
-    macOS already gives you three ways to do this, and it's worth knowing
-    them before installing anything. Two of them are a click away in the
-    app you're already in. Each one stops somewhere specific, though, and
-    this page is about where. Then
-    it's about Keysi, which is the tool this site sells: it shows the
-    frontmost app's whole shortcut list at once, and that part is free,
-    with no time limit.
+    macOS already gives you three ways to do this, and two are a click away
+    in the app you're in. Each one stops somewhere. This page covers where,
+    and then Keysi, the app this site sells, which shows the frontmost
+    app's whole shortcut list at once. That part is free, with no time
+    limit.
   </p>
 
   <h2>What macOS gives you, and where each one stops</h2>
   <ul>
     <li>
       <strong>The app's own menu bar.</strong> Every shortcut an app
-      exposes as a menu command is printed right next to it. This is the
-      real, authoritative list, but it's one menu at a time, and anything
-      nested in a submenu stays invisible until you open that submenu. If
-      you don't already know roughly where a command lives, you're
+      exposes as a menu command is printed next to it. It's the real list,
+      but one menu at a time, and submenu items stay hidden until you open
+      the submenu. If you don't know roughly where a command lives, you're
       hunting.
     </li>
     <li>
       <strong>Search the menus from the Help menu.</strong> In most Mac
       apps, the Help menu's search field finds menu commands by name and
-      shows you where they are. Genuinely useful, and underused, but it
-      answers "where is the command I already have a name for", not "what
-      can I do here". You can't browse what you didn't know existed.
+      shows where they are. Useful and underused, but it answers "where is
+      the command I can name", not "what can I do here".
     </li>
     <li>
       <strong>System Settings ▸ Keyboard ▸ Keyboard Shortcuts.</strong>
-      A complete, editable list of <em>macOS's</em> shortcuts. Mission
-      Control, Spotlight, screenshots, input sources. It says nothing
-      about the app you're in, which is usually the thing you were asking
-      about.
+      A complete, editable list of <em>macOS's</em> shortcuts: Mission
+      Control, Spotlight, screenshots, input sources. Nothing about the app
+      you're in.
     </li>
   </ul>
   <p>
-    Between them, the gap is the same shape every time: there's no way to
-    see the whole of one app's shortcuts at once, at the moment you're
-    using it, without leaving it.
+    None of them shows all of one app's shortcuts at once, while you're
+    using it.
   </p>
 
   <h2>What Keysi does instead: hold ⌘</h2>
   <p>
     Hold <span class="kbd">⌘</span> for a moment and Keysi shows every
-    shortcut of whatever app is frontmost, grouped by the menu it came
-    from, with a breadcrumb for anything nested in a submenu, and each
-    combination rendered as a real keycap
+    shortcut of the frontmost app, grouped by menu, with a breadcrumb for
+    submenu items, each drawn as a keycap
     (<span class="kbd-row"><span class="kbd">⌘</span><span class="kbd">⇧</span><span class="kbd">S</span></span>)
-    rather than the string "Cmd+Shift+S". Let go and it's gone. If you'd
-    rather use a different key, the hold modifier is configurable:
+    instead of "Cmd+Shift+S". Let go and it's gone. The hold key can be
     <span class="kbd">⌘</span>, <span class="kbd">⌥</span>,
     <span class="kbd">⌃</span> or <span class="kbd">⇧</span>.
   </p>
   <p>
-    It isn't a stored list of shortcuts per app. Keysi reads the app's
-    live menu structure through the macOS Accessibility API at the moment
-    you ask, which is why it works in apps nobody wrote a cheat sheet
-    for, and why a command the app has currently disabled shows up dimmed
-    instead of misleading you.
+    There's no stored list per app. Keysi reads the app's live menus
+    through the macOS Accessibility API when you ask, so it works in apps
+    nobody wrote a cheat sheet for, and a command the app has disabled
+    shows up dimmed.
   </p>
   <p>
     The same reading produced the
     <a href="shortcuts.html">shortcut lists for Xcode, Keynote, Finder, Mail and other Mac apps</a>
-    on this site, if you'd like to read one before installing anything.
+    on this site, if you want to read one first.
   </p>
   <div class="feature-media">
     <picture>
@@ -179,12 +170,10 @@
     </picture>
   </div>
   <p>
-    And because it's the live menu rather than a picture of one,
-    <strong>clicking a row runs that command</strong>. Which matters more
-    than it sounds for the case you're probably in: you looked the
-    shortcut up because you wanted the thing done. Click it now, read the
-    keycaps on the way past, and learn it on the third or fourth time
-    instead of the first.
+    Because it's the live menu, <strong>clicking a row runs that
+    command</strong>. You looked the shortcut up because you wanted the
+    thing done, so click it now, read the keycaps on the way, and you'll
+    know it by the third or fourth time.
   </p>
   <div class="doc-foot">
     <p><strong>The list itself is free, with no time limit.</strong> Hold your modifier, see every shortcut, click one to run it.</p>
@@ -196,89 +185,73 @@
 
   <h2>When the shortcut is printed but nothing happens</h2>
   <p>
-    This is the failure the menu bar can't warn you about. macOS claims
-    some key combinations for itself, and a system shortcut wins before
-    the keystroke ever reaches the app, but the app's menu prints its
-    shortcut either way, so the only feedback you get is that nothing
-    happened. Keysi reads macOS's own shortcut assignments and marks the
-    rows the system will intercept, so you find out while you're looking
-    at the list rather than by pressing keys at an app that can't hear
-    them.
+    macOS claims some key combinations for itself, and a system shortcut
+    wins before the keystroke reaches the app. The app's menu prints its
+    shortcut anyway, so all you see is nothing happening. Keysi reads
+    macOS's own shortcut assignments and marks the rows the system will
+    intercept, so you find out while reading the list.
   </p>
 
   <h2>Apps whose real shortcuts aren't in a menu at all</h2>
   <p>
-    Reading the menu bar only works when the shortcuts are in the menu
-    bar. Plenty aren't. Figma and Slack keep most of theirs elsewhere,
-    and a terminal program like Vim or tmux has no Mac menu bar to put
-    them in. For those, Keysi uses custom cheat sheets: hand-written
-    lists that attach to an app by identity.
-    <a href="sheets.html">Ten ship built in</a>, including Figma, Slack,
-    Vim and tmux, and there's an editor for writing your own for any app, with no JSON by
-    hand unless you want to.
+    Figma and Slack keep most of their shortcuts outside the menu bar, and
+    terminal programs like Vim or tmux have no Mac menu bar at all. For
+    those, Keysi uses custom cheat sheets: hand-written lists tied to an
+    app. <a href="sheets.html">Ten ship built in</a>, including Figma,
+    Slack, Vim and tmux, and there's an editor for writing your own for any
+    app, no hand-written JSON needed.
   </p>
   <p>
     The Vim and tmux sheets work because Keysi looks <em>inside</em> your
-    terminal rather than just at it: for a known terminal emulator
-    (Terminal, iTerm2, Ghostty, Warp, Alacritty, WezTerm, kitty, Hyper,
-    Tabby) it detects which program is actually running in the
-    foreground, and matches sheets against that. With several tabs or
-    splits open it works out which one you're looking at from the
-    terminal's own window title, and falls back to showing sheets for
-    everything running across them when that's inconclusive, right most
-    of the time, not guaranteed.
+    terminal. In a known terminal (Terminal, iTerm2, Ghostty, Warp,
+    Alacritty, WezTerm, kitty, Hyper, Tabby) it detects the program running
+    in the foreground and matches sheets to it. With several tabs or splits
+    open it uses the window title to tell which one you're looking at, and
+    if that's unclear it shows sheets for everything running. Right most of
+    the time, not always.
   </p>
 
   <h2>Seeing the list is not the same as using it</h2>
   <p>
-    Worth saying plainly, because it's the part a cheat sheet doesn't
-    fix: looking a shortcut up is a thing you can do a hundred times and
-    still reach for the menu on the hundred-and-first. A reference waits
-    to be asked.
+    You can look a shortcut up a hundred times and still use the menu on
+    the hundred-and-first. A reference waits to be asked.
   </p>
   <p>
-    That's what <strong>Keysi Pro</strong> ($14.99, one payment, three
-    Macs) adds. Shortcut Coach notices when you pick a menu command with
-    the mouse that already has a keyboard shortcut, and offers one quiet,
-    dismissible reminder; Practice Mode drills the ones you keep missing;
-    and Keysi times how long your own menu trips actually take, so the
-    figures it shows you are arithmetic on two things it counted rather
-    than an industry average. Pro also lets other tools drive Keysi: run
-    commands, Practice and exports from Raycast, Shortcuts, Spotlight, Siri
-    and the Services menu. Just opening an app's shortcuts from Raycast or
-    Shortcuts stays free.
+    <strong>Keysi Pro</strong> ($14.99, one payment, three Macs) adds
+    Shortcut Coach, which shows one quiet reminder when you use the mouse
+    for a menu command that has a shortcut; Practice Mode, which drills the
+    ones you keep missing; and progress figures built from your own timed
+    menu trips, not an industry average. Pro also lets other tools drive
+    Keysi: run commands, Practice and exports from Raycast, Shortcuts,
+    Spotlight, Siri and the Services menu. Just opening an app's shortcuts
+    from Raycast or Shortcuts stays free.
   </p>
   <p class="fine">
-    Everything on this page above that section is free, with no time
-    limit, no account and no card: the overlay, the searchable panel,
-    click-to-run, custom sheets and their editor, and the interception
-    warnings. Every install starts with 14 days of Pro on top, and when
-    that runs out Keysi drops back to the free tier rather than stopping.
+    Everything above that section is free, with no time limit, account or
+    card: the overlay, the searchable panel, click-to-run, custom sheets
+    and their editor, and the interception warnings. Every install starts
+    with 14 days of Pro, then drops to the free tier and keeps working.
   </p>
 
-  <h2>One honest limitation</h2>
+  <h2>One limitation</h2>
   <p>
-    You can't type to search while you're holding the modifier. A global
-    event monitor can observe keystrokes but not consume them, so
-    anything you typed would still land in the app underneath, and Keysi
-    won't install the kind of input tap that could change that. Press the
-    global hotkey instead (<span class="kbd">⇧</span><span class="kbd">⌘</span><span class="kbd">K</span>
-    by default) and the same content opens as a real panel, where search,
-    arrow keys and Escape all work. It's a deliberate trade rather than
-    an oversight.
+    You can't type to search while holding the modifier. Keysi can see
+    keystrokes but not swallow them, so typing would land in the app
+    underneath, and I won't install an input tap to change that. Press the
+    global hotkey (<span class="kbd">⇧</span><span class="kbd">⌘</span><span class="kbd">K</span>
+    by default) instead and the same content opens in a panel you can
+    search.
   </p>
 
   <h2>What it needs</h2>
   <p>
-    macOS 14 or later, and Accessibility permission. That's the API that
-    reads another app's menu structure, and there's no way to do this
-    without it. Keysi is distributed directly rather than through the Mac
-    App Store, because the sandbox the App Store requires blocks that API
-    outright; it's signed with a Developer ID certificate and notarized
-    by Apple. The <a href="index.html#faq">FAQ</a> covers exactly what
-    the permission does and doesn't allow, and the
-    <a href="privacy.html">privacy page</a> lists every network call the
-    app makes.
+    macOS 14 or later, and Accessibility permission, the API that reads
+    another app's menus. There's no way to do this without it. The Mac App
+    Store's sandbox blocks that API, so Keysi is distributed directly,
+    signed with a Developer ID and notarized by Apple. The
+    <a href="index.html#faq">FAQ</a> covers what the permission does and
+    doesn't allow, and the <a href="privacy.html">privacy page</a> lists
+    every network call the app makes.
   </p>
   <div class="btn-row">
     <a class="btn btn-primary btn-lg" href="index.html#download">Download for macOS</a>

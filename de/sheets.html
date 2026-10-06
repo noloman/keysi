@@ -66,8 +66,8 @@
 <section class="container-narrow doc">
   <div class="eyebrow">Spickzettel</div>
   <h1>Tastaturkurzbefehle, die nicht in der Menüleiste stehen</h1>
-  <p>Keysi liest den aktuellen Menübaum einer App. Deshalb kann es dir alle Tastaturkurzbefehle der App zeigen, in der du gerade bist, ohne dass jemand eine Liste pflegen muss. Bei manchen Apps klappt das nicht: Vim und tmux haben keine macOS-Menüs, die sich lesen ließen, und Electron-Apps wie Slack halten ihre echten Tastenbelegungen im Renderer statt in der Menüleiste.</p>
-  <p>Für diese Apps bringt Keysi handgeschriebene Spickzettel mit. Sie sind kostenlos, gehören nicht zu Keysi Pro, und du kannst jeden davon als Vorlage für einen eigenen nehmen.</p>
+  <p>Keysi liest die aktuellen Menüs einer App und kann dir so alle Tastaturkurzbefehle der App zeigen, in der du gerade bist, ohne dass jemand eine Liste pflegt. Manche Apps entziehen sich dem: Vim und tmux haben keine macOS-Menüs, und Electron-Apps wie Slack halten ihre echten Tastenbelegungen außerhalb der Menüleiste.</p>
+  <p>Für diese Apps bringt Keysi handgeschriebene Spickzettel mit. Sie sind kostenlos, gehören nicht zu Keysi Pro, und du kannst jeden als Vorlage nehmen.</p>
   <p>Für Apps, deren Tastaturkurzbefehle <em>sehr wohl</em> in der Menüleiste stehen, gibt es die <a href="../shortcuts.html">Listen nach App (auf Englisch)</a>, direkt aus diesen Menüs gelesen.</p>
   <p class="updated">10 Spickzettel · 381 Tastaturkurzbefehle.</p>
   <div class="table-scroll">
@@ -95,10 +95,10 @@
     <figcaption>Der Vim-Spickzettel über Vim in einem Terminal. Keysi schaut darauf, was dort tatsächlich läuft, nicht darauf, welche Terminal-App es ist.</figcaption>
   </figure>
   <h2>Schreib deinen eigenen</h2>
-  <p>Jede App kann einen bekommen. Ein Spickzettel ist eine JSON-Datei in <code>~/Library/Application Support/Keysi/Sheets/</code>, die festlegt, für welche App er gilt und welche Tastaturkurzbefehle er auflisten soll; Keysi hat einen eingebauten Editor, damit du sie nicht von Hand schreiben musst. Setze <code>mode</code> auf <code>augment</code>, um zu ergänzen, was Keysi schon in den Menüs der App gefunden hat, oder auf <code>replace</code>, um das komplett zu verwerfen – genau richtig für eine Electron-App, deren Menüleiste über ihre echten Tastenbelegungen lügt.</p>
+  <p>Jede App kann einen bekommen. Ein Spickzettel ist eine JSON-Datei in <code>~/Library/Application Support/Keysi/Sheets/</code>, die die App und die aufzulistenden Tastaturkurzbefehle nennt, und Keysis eingebauter Editor kann sie für dich schreiben. Setze <code>mode</code> auf <code>augment</code>, um zu ergänzen, was Keysi in den Menüs der App gefunden hat, oder auf <code>replace</code>, um das zu verwerfen. Das brauchst du bei einer Electron-App, deren Menüleiste nicht zu ihren echten Tastenbelegungen passt.</p>
   <p>Lade einen der Spickzettel oben als Ausgangspunkt herunter.</p>
   <div class="doc-foot">
-    <p><strong>Eigene Spickzettel sind kostenlos.</strong> Der eingebaute Editor ebenso, und alles andere auf dieser Seite auch.</p>
+    <p><strong>Eigene Spickzettel sind kostenlos.</strong> Der Editor auch, und alles andere auf dieser Seite.</p>
     <div class="btn-row">
       <a class="btn btn-primary" href="https://github.com/noloman/keysi/releases/latest">Keysi herunterladen</a>
     </div>

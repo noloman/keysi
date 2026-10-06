@@ -96,8 +96,8 @@
       <div class="hero-copy">
         <h1>Every keyboard shortcut in the app you're using</h1>
         <p class="lede">
-          Hold ⌘ and Keysi reads the frontmost app's menus live, drawing every
-          shortcut as a keycap. Click a row and it runs that menu command.
+          Hold ⌘ and Keysi reads the menus of the app in front, live, and shows
+          every shortcut as a keycap. Click a row to run the command.
         </p>
         <div class="btn-row">
           <a class="btn btn-primary btn-lg" href="https://github.com/noloman/keysi/releases/latest">Download for macOS</a>
@@ -111,7 +111,7 @@
           <span>Includes 14 days of Pro</span>
         </p>
         <p class="hold-hint">
-          Hold <span class="kbd">⌘</span> on this page to see what that looks like.
+          Hold <span class="kbd">⌘</span> on this page to try it.
         </p>
       </div>
 
@@ -150,16 +150,15 @@
 <section class="origin tight">
   <div class="container">
     <p>
-      <strong>CheatSheet</strong> did this for years, then stopped working on
-      macOS Sonoma and was discontinued. Most people assumed Apple had removed
-      the API it needed. Apple hadn't. <code>AXUIElementCreateApplication</code>
-      and the menu-bar attributes are still public and still work, and that is
-      what Keysi is built on.
-      <a href="cheatsheet-alternative.html">The longer version, and what's different</a>.
+      <strong>CheatSheet</strong> did this for years, then broke on macOS
+      Sonoma and was discontinued. Most people assumed Apple had removed the
+      API it used. It hadn't. <code>AXUIElementCreateApplication</code> and the
+      menu-bar attributes are still public, and Keysi is built on them.
+      <a href="cheatsheet-alternative.html">More on that, and what's different</a>.
     </p>
     <p class="fine">
-      Not affiliated with Media Atelier. Keysi shares no code with CheatSheet.
-      It is a new app built on the same public API.
+      Not affiliated with Media Atelier. Keysi is a new app and shares no code
+      with CheatSheet.
     </p>
   </div>
 </section>
@@ -172,49 +171,43 @@
   <div class="eyebrow">A working day, before and after</div>
   <h2>From looking shortcuts up to knowing them</h2>
   <p class="lede">
-    A cheat sheet tells you a shortcut when you ask. Keysi shows you the
-    real ones for the app you're in, then keeps at it until you use them
-    without thinking, in the work apps you live in all day: Xcode, Logic,
-    Final Cut, Figma, Excel.
+    A cheat sheet answers when you ask. Keysi shows the real shortcuts for the
+    app you're in, then keeps at it until you stop reaching for the menu. I
+    built it for the apps people work in all day: Xcode, Logic, Final Cut,
+    Figma, Excel.
   </p>
   <ul class="day-list">
     <li class="day-item">
-      <h3>The shortcut is there the moment you need it</h3>
-      <p><span class="day-label">Before</span> You open three menus to find one command, or a shortcut list written for last year's version that knows nothing about the keys you remapped.</p>
-      <p class="day-after"><span class="day-label">With Keysi <span class="tier tier-free">Free</span></span> Hold ⌘ and see every shortcut of the app you're in, read from its menus as they are right now, plus the ones you rebound yourself in Xcode, JetBrains IDEs or VS Code. Click a row and it runs.</p>
+      <h3>The shortcut is there when you need it</h3>
+      <p><span class="day-label">Before</span> You dig through three menus for one command, or a list written for last year's version.</p>
+      <p class="day-after"><span class="day-label">With Keysi <span class="tier tier-free">Free</span></span> Hold ⌘ and see every shortcut of the app you're in, as its menus are right now, plus the ones you rebound in Xcode, JetBrains IDEs or VS Code. Click a row and it runs.</p>
     </li>
     <li class="day-item">
       <h3>You learn the ones you keep missing</h3>
-      <p><span class="day-label">Before</span> You looked a shortcut up yesterday and reached for the mouse again today. Nothing tells you that you did.</p>
-      <p class="day-after"><span class="day-label">With Keysi <span class="tier tier-pro">Pro</span></span> Coach notices when you pick a menu command by hand that has a shortcut, and shows one quiet reminder. Practice Mode drills the ones you miss and brings each one back after a day, then two, four, eight and sixteen as you get it right, until it sticks.</p>
+      <p><span class="day-label">Before</span> You looked a shortcut up yesterday and used the mouse again today.</p>
+      <p class="day-after"><span class="day-label">With Keysi <span class="tier tier-pro">Pro</span></span> Coach shows one quiet reminder when you use the menu for a command that has a shortcut. Practice Mode drills the ones you miss until they stick.</p>
     </li>
     <li class="day-item">
-      <h3>App updates and missing shortcuts stop being blind spots</h3>
-      <p><span class="day-label">Before</span> An update adds commands nobody tells you about, and the command you click all day has no shortcut at all.</p>
-      <p class="day-after"><span class="day-label">With Keysi <span class="tier tier-pro">Pro</span></span> After an app updates, the overlay marks the shortcuts the update added. When you keep clicking a command with no shortcut, Keysi suggests a key combination neither the app nor macOS uses, and shows you where to add it.</p>
+      <h3>Updates and missing shortcuts stop hiding things</h3>
+      <p><span class="day-label">Before</span> An update adds commands nobody mentions, and the one you click all day has no shortcut.</p>
+      <p class="day-after"><span class="day-label">With Keysi <span class="tier tier-pro">Pro</span></span> The overlay marks shortcuts an update added. For a command you keep clicking that has none, Keysi suggests a combination neither the app nor macOS uses, and shows you where to set it.</p>
     </li>
     <li class="day-item">
       <h3>You can see it working, in your own numbers</h3>
-      <p><span class="day-label">Before</span> You hope the shortcuts are paying off, and nothing shows you whether they are.</p>
-      <p class="day-after"><span class="day-label">With Keysi <span class="tier tier-pro">Pro</span></span> Keysi times your own trips through the menus and counts the times you pressed the shortcut instead, and shows both numbers side by side. Until it has timed enough trips, it shows no time figure at all.</p>
+      <p><span class="day-label">Before</span> You hope the shortcuts are paying off.</p>
+      <p class="day-after"><span class="day-label">With Keysi <span class="tier tier-pro">Pro</span></span> Keysi times your trips through the menus and counts the times you pressed the shortcut instead. Until it has timed enough trips, it shows no time figure.</p>
     </li>
   </ul>
   <p class="day-compare">
-    Every tool in this category shows you shortcuts when you ask, and
-    Keylume also nudges you when you use the menu instead. None of the
-    other apps' own sites describes Practice drills with spaced repetition,
-    or warnings when macOS or another app will take a shortcut first
-    (checked October 2026).
+    Keylume also nudges you when you use the menu. No other app's site
+    describes Practice drills with spaced repetition, or warnings when macOS
+    or another app takes a shortcut first (checked October 2026).
     <a href="keyclu-vs-keysi.html">See the dated comparison</a>.
   </p>
   <div class="btn-row">
     <a class="btn btn-primary btn-lg" href="https://github.com/noloman/keysi/releases/latest">Download for macOS</a>
     <a class="btn btn-secondary btn-lg" href="#pricing">Pro: $14.99 once</a>
   </div>
-  <p class="hero-micro">
-    <span>Free, no time limit, no account</span>
-    <span>Includes 14 days of Pro</span>
-  </p>
 </section>
 
 <section id="features" class="container">
@@ -224,27 +217,18 @@
       <div class="eyebrow">Coach mode<span class="tier tier-pro">Keysi Pro · $14.99</span></div>
       <h2>It notices when you reach for the mouse</h2>
       <p>
-        A shortcut reference waits to be asked. Coach doesn't. It watches for
-        menu commands you pick by hand that already have a keyboard shortcut,
-        and offers one quiet, dismissible reminder. Then it tracks whether the
-        reminder stuck, so it stops mentioning the ones you've started using.
-        That is what the $14.99 buys: a reference that works to make itself
-        unnecessary.
+        A shortcut reference waits to be asked. Coach doesn't. When you pick a
+        menu command by hand that has a shortcut, it shows one quiet reminder,
+        then stops mentioning the ones you've started using. That's what the
+        $14.99 pays for.
       </p>
       <p>
-        A cooldown throttles it so it can't become noise. You can mute one
-        shortcut or the whole feature from Settings ▸ Coach, and tell it to stay
-        quiet while a Focus is on. <strong>Practice Mode</strong> drills
-        the ones you keep missing, with spaced repetition: one you get right
-        comes back after a day, then two, four, eight and sixteen. Your progress is measured against your own
-        menu-trip times: Keysi times how long your trips through a menu actually
-        take, so &ldquo;typically 2.4s, and you've skipped 412 of them&rdquo; is
-        arithmetic on two numbers it counted rather than an estimate.
-      </p>
-      <p class="fine">
-        Every install includes 14 days. When they run out the app drops to the
-        free tier. It doesn't stop working, and nothing you configured is
-        deleted.
+        A cooldown keeps it from turning into noise. Mute one shortcut or all
+        of Coach in Settings ▸ Coach, or keep it quiet during a Focus.
+        <strong>Practice Mode</strong> uses spaced repetition: get one right
+        and it comes back after a day, then two, four, eight and sixteen.
+        Keysi times your real menu trips, so &ldquo;typically 2.4s, and you've
+        skipped 412 of them&rdquo; is two numbers it counted, not an estimate.
       </p>
     </div>
     <div class="feature-shots">
@@ -253,7 +237,7 @@
           <source srcset="assets/img/shot-coach@2x.webp" type="image/webp">
           <img src="assets/img/shot-coach@2x.png" alt="A Keysi reminder in the corner of a TextEdit window reading &ldquo;Edit &rsaquo; Add Link…&rdquo; above a Command-K keycap and the words &ldquo;Next time, try this&rdquo;" loading="lazy" width="600" height="380">
         </picture>
-        <figcaption>One reminder, after you picked it from the menu. Dismissible, and muteable per shortcut.</figcaption>
+        <figcaption>One reminder, after you used the menu. Dismiss it, or mute that shortcut.</figcaption>
       </figure>
       <figure class="shot">
         <picture>
@@ -270,9 +254,8 @@
       <div class="eyebrow">Click to run it<span class="tier tier-free">Free</span></div>
       <h3>Click a row and it runs</h3>
       <p>
-        Keysi doesn't stop at showing you shortcuts. It runs them.
-        Click any row and it fires that exact menu action, then dismisses like
-        Spotlight. You don't have to remember which finger goes where.
+        Click any row and Keysi runs that menu command, then gets out of the
+        way like Spotlight.
       </p>
       <figure class="shot">
         <picture>
@@ -285,22 +268,15 @@
       <div class="eyebrow">Conflict warnings<span class="tier tier-free">Free</span></div>
       <h3>Shortcuts macOS will swallow</h3>
       <p>
-        Keysi reads macOS's own system shortcuts and flags any app shortcut the
-        system will intercept first, so you find out before you press it rather
-        than after nothing happens.
+        Keysi flags any app shortcut that macOS will grab first. Raycast's and
+        Rectangle's hotkeys count too while they're running, and so do Keysi's
+        own; the warning names the app that gets there first. None of this
+        leaves your Mac.
       </p>
       <p>
-        The same list is browsable on its own, from the menu bar: <strong>System
-        Shortcuts</strong> shows every combination macOS is currently claiming
-        on your Mac, grouped the way System&nbsp;Settings groups them. It's read
-        from your own settings rather than a list somebody maintains, so a
-        shortcut you switched off isn't in it.
-      </p>
-      <p>
-        Other apps' global hotkeys count too. While Raycast or Rectangle is
-        running, Keysi reads the hotkeys it has set, plus Keysi's own, and names
-        the app when one of them takes a shortcut before the app in front sees
-        it. Nothing it reads leaves your Mac.
+        <strong>System Shortcuts</strong>, in the menu bar, lists every
+        combination macOS claims on your Mac, read from your own settings and
+        grouped like System&nbsp;Settings.
       </p>
       <figure class="shot">
         <picture>
@@ -318,30 +294,27 @@
         <h3>Ways in</h3>
         <ul>
           <li><strong>Hold any modifier</strong> <span class="kbd">⌘</span> <span class="kbd">⌥</span> <span class="kbd">⌃</span> <span class="kbd">⇧</span> your pick, with an adjustable delay.</li>
-          <li><strong>A searchable panel</strong> <span class="kbd-row"><span class="kbd">⇧</span><span class="kbd">⌘</span><span class="kbd">K</span></span> type to filter, arrows to move, Escape to dismiss.</li>
-          <li><strong>The menu bar item</strong> same content, no keyboard at all.</li>
-          <li><strong>Pin it open</strong> and it stays where you put it, per app.</li>
+          <li><strong>A searchable panel</strong> <span class="kbd-row"><span class="kbd">⇧</span><span class="kbd">⌘</span><span class="kbd">K</span></span> type to filter, arrows to move, Escape to close.</li>
+          <li><strong>The menu bar item</strong> same content, no keyboard needed.</li>
+          <li><strong>Pin it open</strong> where you want it, per app.</li>
         </ul>
       </div>
       <div class="cap-group">
         <h3>Behaves itself</h3>
         <ul>
-          <li><strong>Never steals focus</strong> a non-activating panel; the app underneath stays frontmost.</li>
-          <li><strong>Never flashes when you type</strong> holding ⌘ on the way to a real ⌘S cancels the overlay silently.</li>
-          <li><strong>Secure-input aware</strong> if a password field has secure input on, Keysi says so rather than pretending.</li>
-          <li><strong>Bounded work</strong> a cap on how much of a menu bar it reads, and a timeout, so even Safari's largest bookmarks menu can't hang it.</li>
+          <li><strong>Never steals focus</strong> the app underneath stays in front.</li>
+          <li><strong>Never flashes when you type</strong> holding ⌘ on the way to ⌘S cancels the overlay silently.</li>
+          <li><strong>Bounded work</strong> a size cap and a timeout, so even Safari's biggest bookmarks menu can't hang it.</li>
         </ul>
       </div>
       <div class="cap-group">
         <h3>Goes further</h3>
         <ul>
           <li><strong>Custom cheat sheets</strong> <span class="tier tier-free">Free</span> Figma, Slack, Notion, Obsidian, Excel, Word, Ghostty, Vim, tmux and Emacs built in, plus an editor for your own. <a href="sheets.html">Browse them</a>.</li>
-          <li><strong>Reads the shortcuts you rebound</strong> <span class="tier tier-free">Free</span> change a keymap in IntelliJ IDEA, Android Studio, VS Code, Cursor or Xcode — or your own <code>.vimrc</code> — and Keysi shows the bindings those apps' menus can't. Anything already in a menu stays there, in the app's own words.</li>
+          <li><strong>Reads the shortcuts you rebound</strong> <span class="tier tier-free">Free</span> in IntelliJ IDEA, Android Studio, VS Code, Cursor, Xcode or your own <code>.vimrc</code>, including bindings those apps' menus can't show.</li>
           <li><strong>Nine languages</strong> English, Spanish, French, German, Italian, Portuguese (BR), Japanese, Korean, Simplified Chinese.</li>
           <li><strong>Reachable from outside Keysi</strong> <span class="tier tier-pro">Pro</span> Raycast, Alfred, Shortcuts, Siri, Spotlight, the Services menu, a <code>keysi</code> terminal command and a <code>keysi://</code> URL. Showing an app's shortcuts from Raycast, Alfred, the terminal or a URL is free. <a href="integrations.html">How each one works</a>.</li>
         <li><strong>Export the whole sheet</strong> <span class="tier tier-free">Free</span> any app's shortcuts as Markdown or a printable PDF. A desktop picture sized to your screen is Pro.</li>
-        <li><strong>Progress on the rows themselves</strong> <span class="tier tier-pro">Pro</span> the overlay marks which shortcuts you've actually learned, while you're looking at them.</li>
-        <li><strong>New after an app update</strong> <span class="tier tier-pro">Pro</span> when an app updates, the overlay marks the shortcuts the update added, so new commands don't stay hidden in the menus.</li>
         </ul>
       </div>
     </div>
@@ -353,8 +326,8 @@
   <div class="handoff">
     <p>
       <strong>How Keysi compares to KeyCue, KeyClu and CheatSheet.</strong>
-      The full table, with what each competitor's own site does and doesn't
-      claim, sourced and dated rather than guessed.
+      The full table: what each competitor's own site claims, with sources and
+      dates.
     </p>
     <a class="btn btn-secondary" href="keyclu-vs-keysi.html">See the comparison</a>
   </div>
@@ -377,54 +350,52 @@
       <li><span class="tick">✓</span><span>Hold ⌘, ⌥, ⌃ or ⇧ to see every shortcut</span></li>
       <li><span class="tick">✓</span><span>Click any row to run it</span></li>
       <li><span class="tick">✓</span><span>Searchable panel, favorites, hiding</span></li>
-      <li><span class="tick">✓</span><span>Pin the panel open and it stays where you put it, per app</span></li>
-      <li><span class="tick">✓</span><span>Conflict warnings when macOS or another app's hotkey will intercept, plus a browsable list of every system shortcut</span></li>
+      <li><span class="tick">✓</span><span>Pin the panel open where you want it, per app</span></li>
+      <li><span class="tick">✓</span><span>Warnings when macOS or another app's hotkey gets there first, plus a list of every system shortcut</span></li>
       <li><span class="tick">✓</span><span>Custom cheat sheets, with a built-in editor</span></li>
       <li><span class="tick">✓</span><span>Export any app's shortcuts as Markdown or a printable PDF</span></li>
       <li><span class="tick">✓</span><span>Show an app's shortcuts from Raycast, Alfred or the terminal</span></li>
       <li><span class="tick">✓</span><span>No account, no card, no nag screen</span></li>
     </ul>
     <p class="price-note">
-      Everything in this list stays free. Keysi is still being built, and a
-      feature added later may land in either tier. Nothing here moves out of it.
+      Everything in this list stays free. I'm still building Keysi, and a new
+      feature may land in either tier, but nothing here moves out.
     </p>
     <div class="btn-row">
       <a id="download" class="btn btn-primary btn-lg" href="https://github.com/noloman/keysi/releases/latest">Download Keysi</a>
     </div>
     <p class="price-after">
-      macOS 14 or later. Open the disk image and drag Keysi onto the Applications
-      folder before launching it. macOS ties the Accessibility permission to where
-      the app lives, so granting it from the disk image doesn't stick.
+      macOS 14 or later. Drag Keysi into Applications before opening it: macOS
+      ties the Accessibility permission to where the app lives, so a grant
+      made from the disk image doesn't stick.
     </p>
     <p class="price-after">
-      Homebrew works too, and skips the dragging:
+      Or skip the dragging with Homebrew:
       <code class="cmd">brew install --cask noloman/keysi/keysi</code>
     </p>
   </div>
   <div class="pricing-card">
     <div class="price-amount">$14.99 <span>once</span></div>
-    <p class="price-sub">Keysi Pro. Not a subscription: pay once, own it.</p>
+    <p class="price-sub">Keysi Pro. Pay once, not a subscription.</p>
     <ul class="pricing-list">
-      <li><span class="tick">✓</span><span>Coach, a quiet reminder when you mouse to something that has a shortcut</span></li>
-      <li><span class="tick">✓</span><span>A suggested key combination for the commands you keep clicking that have no shortcut</span></li>
-      <li><span class="tick">✓</span><span>Practice Mode, drilling the ones you keep missing</span></li>
-      <li><span class="tick">✓</span><span>Your progress, measured against your own menu-trip times</span></li>
+      <li><span class="tick">✓</span><span>Coach: a quiet reminder when you use the mouse for something that has a shortcut</span></li>
+      <li><span class="tick">✓</span><span>Suggested shortcuts for commands you keep clicking that have none</span></li>
+      <li><span class="tick">✓</span><span>Practice Mode for the ones you keep missing</span></li>
+      <li><span class="tick">✓</span><span>Progress measured against your own menu-trip times</span></li>
       <li><span class="tick">✓</span><span>A weekly summary of what stuck</span></li>
-      <li><span class="tick">✓</span><span>The overlay marks which shortcuts you've actually learned</span></li>
-      <li><span class="tick">✓</span><span>The overlay marks the shortcuts an app's update just added</span></li>
+      <li><span class="tick">✓</span><span>The overlay marks the shortcuts you've learned</span></li>
+      <li><span class="tick">✓</span><span>The overlay marks shortcuts an app update added</span></li>
       <li><span class="tick">✓</span><span>Any app's shortcuts as a desktop picture sized to your screen</span></li>
       <li><span class="tick">✓</span><span>Keysi from Raycast, Alfred, Shortcuts, Siri, Spotlight, the Services menu, the terminal and a <code>keysi://</code> URL</span></li>
-      <li><span class="tick">✓</span><span>14 days free to try, and when it ends the app keeps working</span></li>
+      <li><span class="tick">✓</span><span>14 days free to try; the app keeps working after</span></li>
       <li><span class="tick">✓</span><span>Works on up to 3 Macs, movable anytime</span></li>
       <li><span class="tick">✓</span><span>Free updates, forever · 30-day refund, no questions asked</span></li>
       <li><span class="tick">✓</span><span>Gumroad handles checkout and VAT as merchant of record</span></li>
     </ul>
     <p class="price-note">
-      For scale, and it's checkable: KeyCue's subscription is $19.99 a year,
-      for the same three devices, per
+      For scale: KeyCue is $19.99 a year for the same three devices, per
       <a href="https://ergonis.com/en/keycue/pricing/">their own pricing page</a>
-      (read 2026-09-11). This is $14.99 once. And the feature KeyCue charges
-      that for is the part of Keysi that's free.
+      (read 2026-09-11). What KeyCue charges for is the free part of Keysi.
     </p>
     <div class="btn-row">
       <!-- utm_* so a sale from this button is distinguishable from one that
@@ -449,23 +420,23 @@
     <details class="faq-item">
       <summary>Why does Keysi need Accessibility access?</summary>
       <div class="faq-body">
-        <p>To read the menu bar of the app you're currently using, so it can show its keyboard shortcuts. Verbatim, from the permission prompt: "Keysi needs Accessibility access to read the keyboard shortcuts of the app you're using. It never controls your keyboard or mouse without an explicit click on a shortcut row."</p>
+        <p>To read the menu bar of the app you're using. The permission prompt says it word for word: "Keysi needs Accessibility access to read the keyboard shortcuts of the app you're using. It never controls your keyboard or mouse without an explicit click on a shortcut row."</p>
       </div>
     </details>
 
     <details class="faq-item">
       <summary>Does Keysi send anything anywhere?</summary>
       <div class="faq-body">
-        <p>Two network calls happen on their own: a license check to Gumroad, and an update check against Keysi's Sparkle appcast. With usage analytics off, which is the default, nothing about your menus, the apps you use, or the shortcuts you press leaves your Mac.</p>
-        <p>Usage analytics are <strong>off by default</strong>. If you switch them on in Settings or on the last page of the welcome window, Keysi sends a short list of product events — app launches, which Settings tab you open, the overlay appearing, the app a shortcut ran in, how setup went, and licensing events like an upgrade prompt being shown — to a EU-hosted PostHog instance. Your license key, the amount you paid, and the menus Keysi reads are never sent, not even the name of a shortcut you trigger. Crash diagnostics are off by default and, when enabled, are generated on-device by Apple's MetricKit and never leave your Mac unless you copy and share them yourself. See <a href="privacy.html">the privacy page</a> for the full list.</p>
+        <p>Two network calls happen on their own: a license check to Gumroad and an update check against Keysi's Sparkle appcast. With analytics off, the default, nothing about your menus, apps or shortcuts leaves your Mac.</p>
+        <p>If you turn usage analytics <strong>on</strong> (in Settings, or on the welcome window's last page), Keysi sends product events to an EU-hosted PostHog instance: app launches, Settings tabs opened, the overlay appearing, the app a shortcut ran in, how setup went, and licensing events such as an upgrade prompt. Never your license key, what you paid, the menus it reads, or even a shortcut's name. Crash diagnostics are off by default too. When on, Apple's MetricKit generates them on your Mac and they stay there unless you share them yourself. Full list on the <a href="privacy.html">privacy page</a>.</p>
       </div>
     </details>
 
     <details class="faq-item">
       <summary>Why isn't Keysi on the Mac App Store?</summary>
       <div class="faq-body">
-        <p>The Accessibility API Keysi depends on to read another app's menu structure doesn't work inside the App Sandbox, which every Mac App Store app is required to use. It's a permanent constraint, not a launch-day limitation — KeyCue, KeyClu and Keylume are distributed outside the store too, and so was the original CheatSheet.</p>
-        <p>So Keysi is signed with a Developer ID certificate and notarized by Apple: it opens normally, no right-click-to-open dance. Updates ship through Sparkle, each one signed with an EdDSA key built into the app and verified before it installs. Don't take our word for the signature — check it yourself once Keysi is installed:</p>
+        <p>The Accessibility API Keysi uses to read another app's menus doesn't work in the App Sandbox, and every Mac App Store app must be sandboxed. KeyCue, KeyClu and Keylume are distributed outside the store too, and so was the original CheatSheet.</p>
+        <p>It's signed with a Developer ID and notarized by Apple, so it opens normally. Sparkle updates are signed with an EdDSA key built into the app and verified before they install. Check the signature yourself:</p>
         <div class="verify-box">
           <code>spctl -a -vvv -t install /Applications/Keysi.app</code>
         </div>
@@ -475,60 +446,57 @@
     <details class="faq-item">
       <summary>Can I install Keysi with Homebrew?</summary>
       <div class="faq-body">
-        <p>Yes. Name the cask in full and that is the whole of it — no tapping, no trusting, nothing to add to a config file first:</p>
+        <p>Yes, in one line:</p>
         <div class="verify-box">
           <code>brew install --cask noloman/keysi/keysi</code>
         </div>
-        <p>It installs the same signed, notarized DMG the Download button hands out; the cask is a checksum of that exact file. It lives in Keysi's own tap rather than in Homebrew's cask repository, which requires an app to clear a popularity bar Keysi hasn't cleared yet — a tap installs identically and needs nobody's permission.</p>
-        <p>Keysi still updates itself through Sparkle, and the cask says so, so Homebrew won't fight the app's own updater or reinstall over the top of a version you already updated to. If you already have Keysi in your Applications folder, add <code>--adopt</code> and Homebrew takes over the copy that's there instead of refusing to overwrite it.</p>
+        <p>It's the same signed, notarized DMG as the Download button, pinned by checksum, from Keysi's own tap. Sparkle still handles updates and the cask knows it, so Homebrew won't reinstall over a newer version. Already have Keysi in Applications? Add <code>--adopt</code>.</p>
       </div>
     </details>
 
     <details class="faq-item">
       <summary>Can I search while holding ⌘?</summary>
       <div class="faq-body">
-        <p>No, and it's deliberate. A global event monitor can observe your keystrokes but can't consume them, so anything typed while holding ⌘ would still reach the app underneath — Keysi won't install the kind of input tap that could change that. Hold-⌘ shows you everything; it just can't filter it.</p>
-        <p>Press the global hotkey (⇧⌘K by default) instead: the same content opens as a real interactive panel where search, arrow keys, and Escape all work.</p>
+        <p>No. Keysi can see keystrokes while you hold ⌘ but not swallow them, so anything you typed would reach the app underneath too, and I won't install an input tap to change that. Press the global hotkey (⇧⌘K by default) instead: same content, in a panel you can search.</p>
       </div>
     </details>
 
     <details class="faq-item">
       <summary>What's the lock in the overlay's header?</summary>
       <div class="faq-body">
-        <p>It means secure input is on. While it is, macOS hides what you type from every app except the one you're typing into, Keysi included. Apps switch it on for password fields, and Terminal does for Secure Keyboard Entry.</p>
-        <p>The overlay works as usual. What stops is Shortcut Coach counting the shortcuts you type. Click the lock and Keysi tells you which app turned secure input on and how to turn it off.</p>
-        <p>Most often it is macOS itself: after you unlock your Mac, its login window sometimes leaves secure input on. Lock and unlock your Mac (⌃⌘Q) and the lock goes away.</p>
+        <p>Secure input is on, so macOS hides your typing from every app but the one you're typing into, Keysi included. Password fields and Terminal's Secure Keyboard Entry turn it on. The overlay still works; Shortcut Coach just stops counting the shortcuts you type. Click the lock to see which app turned it on and how to turn it off.</p>
+        <p>Often it's macOS itself: the login window sometimes leaves it on after you unlock. Lock and unlock your Mac (⌃⌘Q) to clear it.</p>
       </div>
     </details>
 
     <details class="faq-item">
       <summary>What happens when the Keysi Pro trial ends?</summary>
       <div class="faq-body">
-        <p>Keysi keeps working. Every install starts with 14 days of Keysi Pro; when that runs out (after a short grace period) the app drops back to the free tier rather than stopping. Holding your modifier still shows every shortcut, clicking a row still runs it, your custom sheets still load. What stops is the coaching: the reminders, Practice Mode, the progress figures and the weekly summary. Nothing you wrote or configured is deleted, and upgrading later picks up where you left off — Keysi keeps counting locally the whole time, which is how it can show you what you missed.</p>
+        <p>Keysi keeps working. After the 14 days (and a short grace period) it drops to the free tier: every shortcut still shows, rows still run, custom sheets still load. The coaching stops: reminders, Practice Mode, progress figures and the weekly summary. Nothing you set up is deleted, and Keysi keeps counting locally, so upgrading later picks up where you left off.</p>
       </div>
     </details>
 
     <details class="faq-item">
       <summary>Licenses, refunds and updates</summary>
       <div class="faq-body">
-        <p><strong>Macs:</strong> up to 3 at once. To move a license, open Settings ▸ Keysi Pro ▸ Deactivate This Mac on the old one, then activate on the new one with the same key.</p>
+        <p><strong>Macs:</strong> up to 3 at once. To move a license, choose Settings ▸ Keysi Pro ▸ Deactivate This Mac on the old one, then activate the new one with the same key.</p>
         <p><strong>Refunds:</strong> 30 days, no questions asked. See <a href="terms.html">Terms &amp; refunds</a>.</p>
-        <p><strong>Updates:</strong> free forever, checked automatically via Sparkle, or manually from the menu bar item's "Check for Updates…".</p>
+        <p><strong>Updates:</strong> free forever. Sparkle checks automatically, or use "Check for Updates…" in the menu bar item.</p>
       </div>
     </details>
 
     <details class="faq-item">
       <summary>An app I opened shows no shortcuts</summary>
       <div class="faq-body">
-        <p>This usually happens right after an app launches, or on its Welcome screen, before it has a real menu bar to read yet. Open a real document or project in the app and try again.</p>
-        <p>Electron apps work: Slack, VS Code and Figma all return correct menu trees. For the bindings that only exist in an app's renderer and never reach its native menu bar, built-in <a href="sheets.html">custom sheets</a> fill the gap.</p>
+        <p>Usually that's right after it launches, or on its Welcome screen, before it has a real menu bar. Open a document or project and try again.</p>
+        <p>Electron apps work: Slack, VS Code and Figma all return correct menus. For bindings that never reach an app's menu bar, the built-in <a href="sheets.html">custom sheets</a> fill the gap.</p>
       </div>
     </details>
 
     <details class="faq-item">
       <summary>Can I use a modifier other than ⌘ to trigger the overlay?</summary>
       <div class="faq-body">
-        <p>Yes. Settings ▸ Triggers lets you pick ⌘, ⌥, ⌃ or ⇧ as the hold modifier, and the hold delay is adjustable. Keysi will warn you about the trade-offs of the non-⌘ options — ⌥ also reveals alternate menu items, ⌃ overlaps with secondary click and Full Keyboard Access, and ⇧ can trip Slow Keys or Sticky Keys if you have them on — but it won't stop you choosing one. The global hotkey (default ⇧⌘K) is separately rebindable to any combination you like.</p>
+        <p>Yes. In Settings ▸ Triggers pick ⌘, ⌥, ⌃ or ⇧ and set the hold delay. Keysi warns you about the trade-offs (⌥ also reveals alternate menu items, ⌃ overlaps with secondary click and Full Keyboard Access, ⇧ can trip Slow Keys or Sticky Keys) but lets you choose. The global hotkey (⇧⌘K by default) can be rebound too.</p>
       </div>
     </details>
 
