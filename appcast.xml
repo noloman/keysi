@@ -3,6 +3,48 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.30</title>
+            <pubDate>Wed, 07 Oct 2026 01:18:07 +0200</pubDate>
+            <sparkle:version>31</sparkle:version>
+            <sparkle:shortVersionString>1.0.30</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>Three security fixes.</p>
+<ul>
+  <li>Usage analytics, if you turned them on, no longer include your Mac's model, screen size, language, time zone or Wi-Fi state, which the analytics library was adding to every event on its own.</li>
+  <li>Keysi is stricter about the dates it reads back from its saved licence and trial records, so a record that does not add up is no longer taken at its word.</li>
+  <li>A cheat-sheet file over 1 MB, or a link in your Sheets folder that points at something other than a file, is now skipped instead of being read into memory; the oversized one shows up in the error list in Settings.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.30.zip" length="6441550" type="application/octet-stream" sparkle:edSignature="8D5IZ5RXZCpjLOFt5WC+w7Xzq61wB/6QiYM3/pSi827ijwzIpkblQta4o20xTPh5Pkxw+2bADmpsfFxQNb+4Cg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi31-30.delta" sparkle:deltaFrom="30" length="542406" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="998x9AEJxMhJ56TXLZWZBsO+Fg1qg/4J25syKY8dcmXH4beOwo8ZDeS+q90vwqUElGg7OSw/yxM35tvbZLIaCg=="/>
+                <enclosure url="https://keysi.io/releases/Keysi31-29.delta" sparkle:deltaFrom="29" length="591662" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="pbXkU8i9/vT3BtEgZvi3Oq09jDq65M9Opt4yybkEHGdixWQLU8a2+K1HHM+6ULVMOxsbjJQfh4WjMFs+c0xLAw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi31-28.delta" sparkle:deltaFrom="28" length="591930" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="75BmgwZVsOo5b/wX2kljZb/hL0NZgUMUNmBtNO4ofSlDjAv+KkZO2W3H1AAMR+XeflVAY0fYpHkB9Dk6rV/9AQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi31-27.delta" sparkle:deltaFrom="27" length="689806" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="5EZ9cKpaGkk6M940THEXXRwEbcGLlY4RMgXJsoALDu9sxUMs9C1EQvy/Ow8/G1W92y12nl1tWKtskdKnmLz+AQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi31-26.delta" sparkle:deltaFrom="26" length="870022" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="IvdjLz3YVyCDICp1wR8vPyQCcqgokZ6A4gZXSqujUyVffqc49gS9bxR7fHwYSSeDuygU0JByoUs0QkqDb/iXBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.29</title>
             <pubDate>Tue, 06 Oct 2026 22:37:00 +0200</pubDate>
             <sparkle:version>30</sparkle:version>
