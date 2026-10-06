@@ -3,6 +3,48 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.25</title>
+            <pubDate>Tue, 06 Oct 2026 14:11:51 +0200</pubDate>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>1.0.25</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>One new feature and two fixes.</p>
+<ul>
+  <li>Choose <strong>Welcome to Keysi</strong> in the menu bar menu to replay the welcome tour any time: the live demo, a try-it page and the reminders, without asking again for anything you have already granted or chosen.</li>
+  <li>The overlay no longer redraws every row when an app's menus haven't changed, appears without a fade when you switch apps, and records the shortcuts you press without a disk write for each one.</li>
+  <li>Window titles and project paths stay out of Coach files, Welcome can ask for Accessibility again, an unverified licence is never shown the paywall, and Keysi warns when its hotkey is taken.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.25.zip" length="6436311" type="application/octet-stream" sparkle:edSignature="3fulQ6cWy/fkyKV6LFmOmdwpkI9FNePN1r3U3ZOPEqSrm4jorlT3E/MDP1Lmlt/4jOMEbKNpzwz2agHC/SpHDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi26-25.delta" sparkle:deltaFrom="25" length="807774" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="YHFtnsq6m8WdnbEmPP4H/lF1t/XTzhOyV/YsktWMQLeLjcMaDQZfNlgRSPWDN7aMQ6CIqnT2xIG7aYDwpllLBQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi26-24.delta" sparkle:deltaFrom="24" length="990358" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="5kvWsEyauyBI4hNLze+bvJKsmkz4xUp8TRBVW89CmTyqIXZS15KoF0TFVmv03xG9gJB6PYbgau7nXO/lrtoFDQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi26-23.delta" sparkle:deltaFrom="23" length="989102" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="slrSMiZuS1QA9WgiuT6qdBfrdEp3wvngjTmqB+3cRX2oLDeXMkxpQTOC0IODWT8oI5XFrN7c/tDvJ2wW6yZlCw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi26-22.delta" sparkle:deltaFrom="22" length="1666282" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="908MaGGV3V8+Mpjnuhy8DtywrV3oURvMjsqKitTyoDy24UDn3kOF0rZEd9mCbULtGr+BARmBJ5wDJszsLhP7CA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi26-21.delta" sparkle:deltaFrom="21" length="1844914" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="siqNa8rdhUviTMys2YgbMtnogQZJUA1rVzpJWP4dBf9D50r78vP32wPt/Tl/nelJISM/Nok6ngag/p8DpKH1Ag=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.24</title>
             <pubDate>Tue, 06 Oct 2026 10:11:23 +0200</pubDate>
             <sparkle:version>25</sparkle:version>
