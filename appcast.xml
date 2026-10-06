@@ -3,6 +3,48 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.24</title>
+            <pubDate>Tue, 06 Oct 2026 10:11:23 +0200</pubDate>
+            <sparkle:version>25</sparkle:version>
+            <sparkle:shortVersionString>1.0.24</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>Three new features.</p>
+<ul>
+  <li>The overlay now warns when another running app's global hotkey (Raycast, Rectangle or Keysi's own) takes a shortcut first; System Shortcuts lists them, and Settings → Triggers flags a clash with Keysi's hotkey.</li>
+  <li>Every app and cheat sheet page on <a href="https://keysi.io/shortcuts.html">keysi.io</a> now has an <strong>Open in Keysi</strong> button that shows that app's shortcuts, or that sheet in Settings ▸ Shortcuts, in one click — free.</li>
+  <li><strong>Share Progress…</strong> in the Your Keysi window makes a picture of what you've learned — counts, your keyboard and your recent activity, with app names only if you tick the box — to send with AirDrop or Messages, copy, or save.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.24.zip" length="6393499" type="application/octet-stream" sparkle:edSignature="amdE8fDUCLb0fR4FQWYYW21pTXx+eyK1kBueDOh4WZCtUS7XUeAyQa1RWt/GniQ1SfT23KpfQuOgOngY4oQOCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi25-24.delta" sparkle:deltaFrom="24" length="792162" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="li3vn2fbWwjZLSDqlLCWYICU7WFnjklQ1kOO7gJ+43grWrfICSMDiykIocUD0M610KaFocsP+VYCkyhLkblLDw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi25-23.delta" sparkle:deltaFrom="23" length="791342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="X1Xq/a8JcPxxf53rdUDJm8qWeV1mDI+cnF9Qa1uY8rxVwod/cZtqwZaY9h3Z22kksygPVYzygm+hSWKkEeWhCg=="/>
+                <enclosure url="https://keysi.io/releases/Keysi25-22.delta" sparkle:deltaFrom="22" length="1593234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="mOF0YleYsQlWNMjeVeKf8YGGnd/CA0CU89DYAgFKkwrevy6eNthkPqGKMofmINKr0cg9sKeLSXhhk0I3bHqdCg=="/>
+                <enclosure url="https://keysi.io/releases/Keysi25-21.delta" sparkle:deltaFrom="21" length="1787706" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="8t1p5rVlCudHDY33qKh/A3Kods0p7wxIwBUv1qeToI3ZgTy4DxuX0GAuo4bik17/2Y7LzmkLfc92obEKpW2aBw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi25-20.delta" sparkle:deltaFrom="20" length="1811390" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="0FO4GS+UWEt1oT43onmPvOE3LTNQOL+vgdi5gkKSk5XLndPEYOcOgonm/6qJt0pFPSm0bzZbfYScwWorQDcFAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.23</title>
             <pubDate>Tue, 06 Oct 2026 08:36:24 +0200</pubDate>
             <sparkle:version>24</sparkle:version>
