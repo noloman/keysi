@@ -52,13 +52,16 @@
     return BASE + href;
   }
 
-  // This page's language's own homepage. A localized page lives in
-  // site/<locale>/, and <locale> is its `lang` lowercased (es, pt-br,
-  // zh-hans; see site/i18n/locales.json). Not "relative to the page": the
-  // 404 page is served at any depth.
+  // This page's language's own homepage, read off the nav's brand link,
+  // which the generators already point at the right one: `index.html` in
+  // site/es/, which has a translated homepage, `../index.html` in site/de/,
+  // which does not, and an absolute URL on the 404 page, which is served at
+  // any depth. Guessing `<lang>/index.html` from the page's `lang` sent a
+  // German page's "Preis" to a homepage that does not exist. `.href` is
+  // already absolute, so `resolve()` leaves it alone.
   var HOME = (function () {
-    var lang = (document.documentElement.lang || "en").toLowerCase();
-    return (lang === "en" || lang.indexOf("en-") === 0 ? "" : lang + "/") + "index.html";
+    var brand = document.querySelector("a.brand");
+    return brand ? brand.href.replace(/#.*$/, "") : "index.html";
   })();
 
   // The demo's own text, per language. A lookup table rather than a
@@ -96,6 +99,48 @@
         "escribir para filtrar mientras la mantienes pulsada: esa parte es " +
         "honesta, y es la razón de que la app tenga además un panel con " +
         "búsqueda en ⇧⌘K."
+    },
+    de: {
+      held: "gedrückt",
+      groups: ["Gehe zu", "Keysi holen", "Weiterlesen"],
+      items: [
+        "Funktionen", "Preis", "Häufige Fragen",
+        "Für macOS herunterladen", "Versionshinweise",
+        "Integrationen", "Spickzettel", "Im Vergleich"
+      ],
+      foot:
+        "So zeichnet Keysi die Übersicht über jede Mac-App. Während du die " +
+        "Taste hältst, kannst du nicht tippen, um zu filtern. Das sagen wir " +
+        "offen – und deshalb hat die App zusätzlich ein durchsuchbares " +
+        "Fenster auf ⇧⌘K."
+    },
+    fr: {
+      held: "maintenue",
+      groups: ["Aller à", "Obtenir Keysi", "En savoir plus"],
+      items: [
+        "Fonctionnalités", "Tarif", "Questions fréquentes",
+        "Télécharger pour macOS", "Nouveautés",
+        "Intégrations", "Aide-mémoire", "Comparatif"
+      ],
+      foot:
+        "Voici ce que Keysi affiche par-dessus n’importe quelle app Mac. On ne " +
+        "peut pas taper pour filtrer en maintenant la touche : c’est une " +
+        "limite assumée, et la raison pour laquelle l’app propose aussi une " +
+        "fenêtre avec recherche sur ⇧⌘K."
+    },
+    ja: {
+      held: "長押し中",
+      groups: ["移動", "Keysi を入手", "詳しく読む"],
+      items: [
+        "機能", "価格", "よくある質問",
+        "macOS 版をダウンロード", "更新履歴",
+        "連携", "チートシート", "比較"
+      ],
+      foot:
+        "これが、Keysi があらゆる Mac アプリの上に表示するものです。キーを押して" +
+        "いる間は文字を入力して絞り込むことはできません。これは正直にお伝えして" +
+        "おくべき制限で、そのためにアプリには ⇧⌘K で開く検索可能なパネルも" +
+        "あります。"
     }
   };
 

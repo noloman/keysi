@@ -38,6 +38,21 @@
       copy: "Copiar al portapapeles",
       copied: "Copiado",
       failed: "Pulsa ⌘C para copiar"
+    },
+    de: {
+      copy: "In die Zwischenablage kopieren",
+      copied: "Kopiert",
+      failed: "Zum Kopieren ⌘C drücken"
+    },
+    fr: {
+      copy: "Copier dans le presse-papiers",
+      copied: "Copié",
+      failed: "Appuyez sur ⌘C pour copier"
+    },
+    ja: {
+      copy: "クリップボードにコピー",
+      copied: "コピーしました",
+      failed: "⌘C でコピーしてください"
     }
   };
 

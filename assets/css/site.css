@@ -24,10 +24,11 @@
    latin subsets, and the site is getting localised into nine languages —
    three of which (ja, ko, zh-Hans) are mostly outside that range. Without a
    declared range the browser still selects these faces for a CJK heading and
-   then falls back per glyph, so a heading with any Latin in it renders in
-   two faces at once. Declaring the range means the browser never picks them
-   for CJK text and the whole heading resolves to the system stack, which on
-   the platform this app targets is the correct CJK face anyway. */
+   then falls back per glyph. Declaring the range means the browser never
+   picks them for CJK text, and a CJK page stops downloading fonts it cannot
+   use. It does not stop the Latin *inside* a CJK heading using them, which
+   still mixes two faces; the `:lang()` override after `:root` below does
+   that, by keeping CJK pages' headings and labels on the system stack. */
 @font-face {
   font-family: "Schibsted Grotesk";
   src: url("../fonts/schibsted-grotesk-var-latin.woff2") format("woff2");
@@ -128,6 +129,19 @@
   --font-label: "Martian Mono", "SF Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
   /* Literal: keycaps and code, which must look like the OS and the shell. */
   --font-mono: "SF Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+/* CJK pages: headings and labels on the system stack. The webfonts are
+   latin-only, so `unicode-range` (above) keeps them off CJK glyphs — but the
+   Latin in a mixed heading ("Mac 版 Vim の…") would still pick them up and
+   render in a second face next to the system's Japanese one. One face per
+   heading beats a display face on half of it. `:lang()` matches the
+   generated pages' `<html lang>`, including zh-Hans. */
+:root:lang(ja),
+:root:lang(ko),
+:root:lang(zh) {
+  --font-display: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "PingFang SC", "Apple SD Gothic Neo", "Helvetica Neue", Arial, sans-serif;
+  --font-label: var(--font-display);
 }
 
 @media (prefers-color-scheme: dark) {

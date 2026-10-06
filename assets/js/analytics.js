@@ -50,6 +50,30 @@
       after: " para más detalles.",
       decline: "Rechazar",
       accept: "Aceptar"
+    },
+    de: {
+      region: "Cookie-Einwilligung",
+      before: "Diese Website nutzt Google Analytics, um den Traffic zu verstehen – geladen wird nichts, solange du nicht zustimmst. Details auf der ",
+      link: "Datenschutzseite (auf Englisch)",
+      after: ".",
+      decline: "Ablehnen",
+      accept: "Zustimmen"
+    },
+    fr: {
+      region: "Consentement aux cookies",
+      before: "Ce site utilise Google Analytics pour comprendre sa fréquentation ; rien n’est chargé tant que vous n’avez pas accepté. Voir la ",
+      link: "page de confidentialité (en anglais)",
+      after: " pour en savoir plus.",
+      decline: "Refuser",
+      accept: "Accepter"
+    },
+    ja: {
+      region: "Cookie の同意",
+      before: "このサイトはアクセス状況を把握するために Google Analytics を使用します。同意されるまでは何も読み込まれません。詳しくは",
+      link: "プライバシーのページ（英語）",
+      after: "をご覧ください。",
+      decline: "拒否",
+      accept: "同意する"
     }
   };
 
