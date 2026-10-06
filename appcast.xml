@@ -3,6 +3,46 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.23</title>
+            <pubDate>Tue, 06 Oct 2026 08:36:24 +0200</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>1.0.23</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>One fix.</p>
+<ul>
+  <li>German now says Tastaturkurzbefehl everywhere it means a keyboard shortcut, including the welcome window's permission text.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.23.zip" length="6293420" type="application/octet-stream" sparkle:edSignature="6OUvwpkBfHCHBKr+2krD1AWKEDJ9z0P+hKsMBvD6mQxfoWbgeahS79sbKCELbKRyOVf3cDF7D0YVONTvfYUtAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi24-23.delta" sparkle:deltaFrom="23" length="13866" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="P484IJ6Vf+H6P/vFn2WLVwCW9ygLzELoocoEM0Ss8EUuDW39Y7mgb3uHyVWjd9pOVxVz9qxH18OHZT/Q2TRGDw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi24-22.delta" sparkle:deltaFrom="22" length="1461230" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="SAwbaKzgINHQzJ8kC8n6Xv2ivaGg1uO2T3qWrY6Z5SEVOr0B+sDpuFOwq9fX1mffvFnCN0r/ZT0+ZiETfT/KAA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi24-21.delta" sparkle:deltaFrom="21" length="1672362" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="DYg3Jg/YAOehclfBYrMad5D5HsnyP2QCpRT912CR10ATJO6lVTqfhwlmORaDL8SsW5Fha4WT7Np2qqemYlmECw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi24-20.delta" sparkle:deltaFrom="20" length="1699162" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="xMdGJsTts5od/BUOT4i04NBaSPyVIG28TeUHVoxuZKgY0mQkr/Ln5bRP0AmrxHsC+0YJFIvgzM/aBjerh5fDDw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi24-19.delta" sparkle:deltaFrom="19" length="1716882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="3aLNjsWaKedfsN2quYDu3gEZrx/jJeQCreto+DE3QlhOhGNhXv61EjYxCmulIZfYOlqTank6KiltAudz6ZOnBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.22</title>
             <pubDate>Tue, 06 Oct 2026 00:07:57 +0200</pubDate>
             <sparkle:version>23</sparkle:version>
