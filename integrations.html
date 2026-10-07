@@ -54,7 +54,7 @@
   <p>In the app, open <strong>Integrations</strong> from the Keysi menu bar icon to see which of these are ready on your Mac and which need a step. This page is the same list, for reading before you buy.</p>
 
   <h2>Raycast</h2>
-  <p>Search cheat sheets, open an app's shortcuts in Keysi, or open Practice and Progress without leaving Raycast. A Raycast extension can't read another app's menus, so it asks the Keysi app to do the work.</p>
+  <p>Search cheat sheets, open an app's shortcuts in Keysi, or open Practice and Progress without leaving Raycast. A Raycast extension can't read another app's menus, so it asks the Keysi app to do the work. <em>Show Shortcuts</em> is free; Search Cheat Sheets, Practice and Progress are Keysi Pro.</p>
   <p class="fine">The extension is <strong>waiting on Raycast Store review</strong> (submitted 11 September 2026) and ships when Raycast merges it, not when Keysi ships. Everything else on this page works as soon as you install Keysi.</p>
 
   <figure class="shot doc-shot">
@@ -68,32 +68,32 @@
   <h2>Alfred</h2>
   <p>Three keywords:</p>
   <ul>
-    <li><code>ks</code> shows the shortcuts panel, optionally with a search already typed (<code>ks save as</code>).</li>
-    <li><code>kspractice</code> opens Practice Mode.</li>
-    <li><code>ksexport</code> exports an app's shortcuts.</li>
+    <li><code>ks</code> shows the shortcuts panel, optionally with a search already typed (<code>ks save as</code>). Free.</li>
+    <li><code>kspractice</code> opens Practice Mode. Keysi Pro.</li>
+    <li><code>ksexport</code> exports an app's shortcuts. Keysi Pro.</li>
   </ul>
-  <p>The workflow is three keywords wired to Open URL actions. No scripts, and nothing in it does more than typing <code>open keysi://show</code> yourself.</p>
+  <p>The workflow is three keywords wired to Open URL actions. No scripts, and nothing in it does more than typing <code>open keysi://show</code> yourself. Download <strong>Keysi.alfredworkflow</strong> from the <a href="https://github.com/noloman/keysi/releases/latest">latest release</a> and double-click it; Alfred asks once before installing. Alfred's Powerpack is required for workflows.</p>
 
   <h2>The terminal</h2>
   <p>Keysi ships a <code>keysi</code> command inside the app bundle, so it always matches the app you have installed. Put it on your <code>PATH</code>:</p>
   <pre><code>sudo ln -sf /Applications/Keysi.app/Contents/Resources/keysi-cli.sh /usr/local/bin/keysi</code></pre>
   <p>Then:</p>
-  <pre><code>keysi show            # the panel for the app you were last in
-keysi show save as    # ...with the search already filled in
-keysi practice        # open Practice Mode
-keysi progress        # open Your Keysi
-keysi integrations    # this list, inside the app
-keysi export Figma    # export an app's shortcuts (opens a save panel)</code></pre>
+  <pre><code>keysi show            # the panel for the app you were last in (free)
+keysi show save as    # ...with the search already filled in (free)
+keysi practice        # open Practice Mode (Keysi Pro)
+keysi progress        # open Your Keysi (Keysi Pro)
+keysi integrations    # this list, inside the app (free)
+keysi export Figma    # export an app's shortcuts, opens a save panel (Keysi Pro)</code></pre>
   <p>The Integrations window gives you that first command with the right path filled in. Keysi won't write to a directory on your <code>PATH</code> itself, and doesn't run anything to check whether the link exists.</p>
 
   <h2>Shortcuts and Siri</h2>
   <p>Keysi's App Intents let a Shortcuts workflow find and run menu commands, which also makes them available to Spotlight actions and Siri. They appear in Shortcuts once Keysi is running. <em>Show Shortcuts</em> is free; the rest are Keysi Pro.</p>
 
   <h2>Spotlight</h2>
-  <p>Your custom cheat sheets are indexed, so a Vim or tmux binding turns up in an ordinary Spotlight search. Nothing to set up.</p>
+  <p>Your custom cheat sheets are indexed, so a Vim or tmux binding turns up in an ordinary Spotlight search. Nothing to set up. Keysi Pro.</p>
 
   <h2>The Services menu</h2>
-  <p>Select a command name in any app, choose Services ▸ <em>Search Shortcuts in Keysi</em>, and Keysi looks up its shortcut in the app you were in. macOS lists it once Keysi has run, and you can give it a shortcut of its own in System Settings ▸ Keyboard ▸ Keyboard Shortcuts ▸ Services.</p>
+  <p>Select a command name in any app, choose Services ▸ <em>Search Shortcuts in Keysi</em>, and Keysi looks up its shortcut in the app you were in. macOS lists it once Keysi has run, and you can give it a shortcut of its own in System Settings ▸ Keyboard ▸ Keyboard Shortcuts ▸ Services. Keysi Pro.</p>
 
   <h2>Export</h2>
   <p>Keysi writes the frontmost app's whole cheat sheet to a file: <strong>Markdown</strong> for a wiki or a repo, a <strong>printable PDF</strong> for the wall, or a <strong>desktop picture</strong> sized to your screen, so the shortcuts sit behind your windows. Markdown and PDF from the menu bar item are free; the desktop picture is Keysi Pro.</p>
