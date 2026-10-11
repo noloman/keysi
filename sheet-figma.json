@@ -9,7 +9,15 @@
     "pt-BR": "Figma (atalhos de ferramentas)",
     "ja": "Figma(ツールのショートカット)",
     "zh-Hans": "Figma(工具快捷键)",
-    "ko": "Figma(도구 단축키)"
+    "ko": "Figma(도구 단축키)",
+    "nl": "Figma (sneltoetsen voor gereedschappen)",
+    "sv": "Figma (kortkommandon för verktyg)",
+    "da": "Figma (genvejstaster til værktøjer)",
+    "nb": "Figma (hurtigtaster for verktøy)",
+    "fi": "Figma (työkalujen pikanäppäimet)",
+    "pl": "Figma (skróty narzędzi)",
+    "hi": "Figma (टूल शॉर्टकट)",
+    "zh-Hant": "Figma（工具快速鍵）"
   },
   "match": {
     "bundleIDs": [
@@ -30,7 +38,15 @@
         "pt-BR": "Ferramentas",
         "ja": "ツール",
         "zh-Hans": "工具",
-        "ko": "도구"
+        "ko": "도구",
+        "nl": "Gereedschappen",
+        "sv": "Verktyg",
+        "da": "Værktøjer",
+        "nb": "Verktøy",
+        "fi": "Työkalut",
+        "pl": "Narzędzia",
+        "hi": "टूल",
+        "zh-Hant": "工具"
       },
       "items": [
         {
@@ -43,7 +59,15 @@
             "pt-BR": "Ferramenta mover",
             "ja": "移動ツール",
             "zh-Hans": "移动工具",
-            "ko": "이동 도구"
+            "ko": "이동 도구",
+            "nl": "Verplaatsgereedschap",
+            "sv": "Flyttverktyget",
+            "da": "Flytteværktøj",
+            "nb": "Flyttverktøy",
+            "fi": "Siirtotyökalu",
+            "pl": "Narzędzie przesuwania",
+            "hi": "मूव टूल",
+            "zh-Hant": "移動工具"
           },
           "keys": "V",
           "raw": true
@@ -58,7 +82,15 @@
             "pt-BR": "Ferramenta frame",
             "ja": "フレームツール",
             "zh-Hans": "画板工具",
-            "ko": "프레임 도구"
+            "ko": "프레임 도구",
+            "nl": "Frame-gereedschap",
+            "sv": "Frame-verktyget",
+            "da": "Frame-værktøj",
+            "nb": "Frame-verktøy",
+            "fi": "Frame-työkalu",
+            "pl": "Narzędzie Frame",
+            "hi": "फ़्रेम टूल",
+            "zh-Hant": "畫框工具"
           },
           "keys": "F",
           "raw": true
@@ -73,7 +105,15 @@
             "pt-BR": "Ferramenta retângulo",
             "ja": "長方形ツール",
             "zh-Hans": "矩形工具",
-            "ko": "사각형 도구"
+            "ko": "사각형 도구",
+            "nl": "Rechthoekgereedschap",
+            "sv": "Rektangelverktyget",
+            "da": "Rektangelværktøj",
+            "nb": "Rektangelverktøy",
+            "fi": "Suorakulmiotyökalu",
+            "pl": "Narzędzie prostokąta",
+            "hi": "रेक्टैंगल टूल",
+            "zh-Hant": "矩形工具"
           },
           "keys": "R",
           "raw": true
@@ -88,7 +128,15 @@
             "pt-BR": "Ferramenta elipse",
             "ja": "楕円ツール",
             "zh-Hans": "椭圆工具",
-            "ko": "타원 도구"
+            "ko": "타원 도구",
+            "nl": "Ellipsgereedschap",
+            "sv": "Ellipsverktyget",
+            "da": "Ellipseværktøj",
+            "nb": "Ellipseverktøy",
+            "fi": "Ellipsityökalu",
+            "pl": "Narzędzie elipsy",
+            "hi": "एलिप्स टूल",
+            "zh-Hant": "橢圓工具"
           },
           "keys": "O",
           "raw": true
@@ -103,7 +151,15 @@
             "pt-BR": "Ferramenta linha",
             "ja": "線ツール",
             "zh-Hans": "直线工具",
-            "ko": "선 도구"
+            "ko": "선 도구",
+            "nl": "Lijngereedschap",
+            "sv": "Linjeverktyget",
+            "da": "Linjeværktøj",
+            "nb": "Linjeverktøy",
+            "fi": "Viivatyökalu",
+            "pl": "Narzędzie linii",
+            "hi": "लाइन टूल",
+            "zh-Hant": "線條工具"
           },
           "keys": "L",
           "raw": true
@@ -118,7 +174,15 @@
             "pt-BR": "Ferramenta texto",
             "ja": "テキストツール",
             "zh-Hans": "文本工具",
-            "ko": "텍스트 도구"
+            "ko": "텍스트 도구",
+            "nl": "Tekstgereedschap",
+            "sv": "Textverktyget",
+            "da": "Tekstværktøj",
+            "nb": "Tekstverktøy",
+            "fi": "Tekstityökalu",
+            "pl": "Narzędzie tekstu",
+            "hi": "टेक्स्ट टूल",
+            "zh-Hant": "文字工具"
           },
           "keys": "T",
           "raw": true
@@ -133,7 +197,15 @@
             "pt-BR": "Ferramenta caneta",
             "ja": "ペンツール",
             "zh-Hans": "钢笔工具",
-            "ko": "펜 도구"
+            "ko": "펜 도구",
+            "nl": "Pengereedschap",
+            "sv": "Pennverktyget",
+            "da": "Pen-værktøj",
+            "nb": "Pennverktøy",
+            "fi": "Kynätyökalu",
+            "pl": "Narzędzie pióra",
+            "hi": "पेन टूल",
+            "zh-Hant": "鋼筆工具"
           },
           "keys": "P",
           "raw": true
@@ -148,7 +220,15 @@
             "pt-BR": "Ferramenta comentário",
             "ja": "コメントツール",
             "zh-Hans": "评论工具",
-            "ko": "댓글 도구"
+            "ko": "댓글 도구",
+            "nl": "Opmerkingengereedschap",
+            "sv": "Kommentarsverktyget",
+            "da": "Kommentarværktøj",
+            "nb": "Kommentarverktøy",
+            "fi": "Kommenttityökalu",
+            "pl": "Narzędzie komentarza",
+            "hi": "कमेंट टूल",
+            "zh-Hant": "留言工具"
           },
           "keys": "C",
           "raw": true
@@ -163,7 +243,15 @@
             "pt-BR": "Ferramenta fatia",
             "ja": "スライスツール",
             "zh-Hans": "切片工具",
-            "ko": "슬라이스 도구"
+            "ko": "슬라이스 도구",
+            "nl": "Slice-gereedschap",
+            "sv": "Slice-verktyget",
+            "da": "Slice-værktøj",
+            "nb": "Slice-verktøy",
+            "fi": "Slice-työkalu",
+            "pl": "Narzędzie wycinka",
+            "hi": "स्लाइस टूल",
+            "zh-Hant": "切片工具"
           },
           "keys": "S",
           "raw": true
@@ -178,7 +266,15 @@
             "pt-BR": "Ferramenta escala",
             "ja": "拡大縮小ツール",
             "zh-Hans": "缩放工具",
-            "ko": "크기 조절 도구"
+            "ko": "크기 조절 도구",
+            "nl": "Schaalgereedschap",
+            "sv": "Skalningsverktyget",
+            "da": "Skaleringsværktøj",
+            "nb": "Skaleringsverktøy",
+            "fi": "Skaalaustyökalu",
+            "pl": "Narzędzie skalowania",
+            "hi": "स्केल टूल",
+            "zh-Hant": "縮放工具"
           },
           "keys": "K",
           "raw": true
@@ -195,7 +291,15 @@
         "pt-BR": "Zoom e visualização",
         "ja": "ズームと表示",
         "zh-Hans": "缩放与视图",
-        "ko": "확대 및 보기"
+        "ko": "확대 및 보기",
+        "nl": "Zoom en weergave",
+        "sv": "Zoom och vy",
+        "da": "Zoom og visning",
+        "nb": "Zoom og visning",
+        "fi": "Zoomaus ja näkymä",
+        "pl": "Powiększenie i widok",
+        "hi": "ज़ूम और व्यू",
+        "zh-Hant": "縮放與檢視"
       },
       "items": [
         {
@@ -208,7 +312,15 @@
             "pt-BR": "Ajustar à tela",
             "ja": "全体を表示",
             "zh-Hans": "缩放以适应",
-            "ko": "화면에 맞추기"
+            "ko": "화면에 맞추기",
+            "nl": "Passend zoomen",
+            "sv": "Zooma för att passa",
+            "da": "Zoom til tilpasning",
+            "nb": "Zoom for å tilpasse",
+            "fi": "Zoomaa sopivaksi",
+            "pl": "Dopasuj powiększenie",
+            "hi": "पूरा फ़िट करने के लिए ज़ूम करें",
+            "zh-Hant": "縮放至適當大小"
           },
           "keys": "shift+1",
           "raw": false
@@ -223,7 +335,15 @@
             "pt-BR": "Ajustar à seleção",
             "ja": "選択範囲を表示",
             "zh-Hans": "缩放到所选",
-            "ko": "선택 영역에 맞추기"
+            "ko": "선택 영역에 맞추기",
+            "nl": "Zoomen naar selectie",
+            "sv": "Zooma till markeringen",
+            "da": "Zoom til markering",
+            "nb": "Zoom til markering",
+            "fi": "Zoomaa valintaan",
+            "pl": "Powiększ do zaznaczenia",
+            "hi": "चयन पर ज़ूम करें",
+            "zh-Hant": "縮放至選取範圍"
           },
           "keys": "shift+2",
           "raw": false
@@ -238,7 +358,15 @@
             "pt-BR": "Zoom para 100%",
             "ja": "100%表示",
             "zh-Hans": "缩放到 100%",
-            "ko": "100%로 보기"
+            "ko": "100%로 보기",
+            "nl": "Zoomen naar 100%",
+            "sv": "Zooma till 100 %",
+            "da": "Zoom til 100 %",
+            "nb": "Zoom til 100 %",
+            "fi": "Zoomaa 100 %:iin",
+            "pl": "Powiększ do 100%",
+            "hi": "100% पर ज़ूम करें",
+            "zh-Hant": "縮放至 100%"
           },
           "keys": "shift+0",
           "raw": false
@@ -253,7 +381,15 @@
             "pt-BR": "Frame anterior",
             "ja": "前のフレームへ",
             "zh-Hans": "上一个画板",
-            "ko": "이전 프레임"
+            "ko": "이전 프레임",
+            "nl": "Zoomen naar vorig frame",
+            "sv": "Zooma till föregående frame",
+            "da": "Zoom til forrige frame",
+            "nb": "Zoom til forrige frame",
+            "fi": "Zoomaa edelliseen frameen",
+            "pl": "Powiększ do poprzedniej ramki",
+            "hi": "पिछले फ़्रेम पर ज़ूम करें",
+            "zh-Hant": "縮放至上一個畫框"
           },
           "keys": "shift+3",
           "raw": false
@@ -268,7 +404,15 @@
             "pt-BR": "Alternar réguas",
             "ja": "ルーラーを表示切替",
             "zh-Hans": "显示/隐藏标尺",
-            "ko": "눈금자 전환"
+            "ko": "눈금자 전환",
+            "nl": "Linialen aan- of uitzetten",
+            "sv": "Visa eller dölj linjaler",
+            "da": "Vis eller skjul linealer",
+            "nb": "Vis eller skjul linjaler",
+            "fi": "Näytä tai piilota viivaimet",
+            "pl": "Przełącz linijki",
+            "hi": "रूलर दिखाएँ या छिपाएँ",
+            "zh-Hant": "切換尺標"
           },
           "keys": "shift+r",
           "raw": false
@@ -283,7 +427,15 @@
             "pt-BR": "Alternar grade",
             "ja": "レイアウトグリッド切替",
             "zh-Hans": "显示/隐藏栅格",
-            "ko": "레이아웃 그리드 전환"
+            "ko": "레이아웃 그리드 전환",
+            "nl": "Lay-outraster aan- of uitzetten",
+            "sv": "Visa eller dölj layoutrutnät",
+            "da": "Vis eller skjul layoutgitter",
+            "nb": "Vis eller skjul layoutrutenett",
+            "fi": "Näytä tai piilota asetteluruudukko",
+            "pl": "Przełącz siatkę układu",
+            "hi": "लेआउट ग्रिड दिखाएँ या छिपाएँ",
+            "zh-Hant": "切換版面格線"
           },
           "keys": "ctrl+g",
           "raw": false
@@ -298,7 +450,15 @@
             "pt-BR": "Mostrar ou ocultar interface",
             "ja": "UIの表示切替",
             "zh-Hans": "显示或隐藏界面",
-            "ko": "UI 표시 전환"
+            "ko": "UI 표시 전환",
+            "nl": "Interface tonen of verbergen",
+            "sv": "Visa eller dölj gränssnittet",
+            "da": "Vis eller skjul brugerfladen",
+            "nb": "Vis eller skjul brukergrensesnittet",
+            "fi": "Näytä tai piilota käyttöliittymä",
+            "pl": "Pokaż lub ukryj interfejs",
+            "hi": "यूज़र इंटरफ़ेस दिखाएँ या छिपाएँ",
+            "zh-Hant": "顯示或隱藏介面"
           },
           "keys": "shift+cmd+\\",
           "raw": false
@@ -315,7 +475,15 @@
         "pt-BR": "Editar",
         "ja": "編集",
         "zh-Hans": "编辑",
-        "ko": "편집"
+        "ko": "편집",
+        "nl": "Bewerken",
+        "sv": "Redigera",
+        "da": "Rediger",
+        "nb": "Rediger",
+        "fi": "Muokkaa",
+        "pl": "Edycja",
+        "hi": "संपादित करें",
+        "zh-Hant": "編輯"
       },
       "items": [
         {
@@ -328,7 +496,15 @@
             "pt-BR": "Duplicar",
             "ja": "複製",
             "zh-Hans": "复制副本",
-            "ko": "복제"
+            "ko": "복제",
+            "nl": "Dupliceren",
+            "sv": "Duplicera",
+            "da": "Duplikér",
+            "nb": "Dupliser",
+            "fi": "Monista",
+            "pl": "Duplikuj",
+            "hi": "डुप्लिकेट करें",
+            "zh-Hant": "製作副本"
           },
           "keys": "cmd+d",
           "raw": false
@@ -343,7 +519,15 @@
             "pt-BR": "Agrupar seleção",
             "ja": "選択をグループ化",
             "zh-Hans": "编组所选",
-            "ko": "선택 그룹화"
+            "ko": "선택 그룹화",
+            "nl": "Selectie groeperen",
+            "sv": "Gruppera markeringen",
+            "da": "Gruppér markeringen",
+            "nb": "Grupper markeringen",
+            "fi": "Ryhmitä valinta",
+            "pl": "Grupuj zaznaczenie",
+            "hi": "चयन को समूहबद्ध करें",
+            "zh-Hant": "將選取項目群組"
           },
           "keys": "cmd+g",
           "raw": false
@@ -358,7 +542,15 @@
             "pt-BR": "Desagrupar",
             "ja": "グループ解除",
             "zh-Hans": "取消编组",
-            "ko": "그룹 해제"
+            "ko": "그룹 해제",
+            "nl": "Groepering opheffen",
+            "sv": "Avgruppera",
+            "da": "Opløs gruppe",
+            "nb": "Løs opp gruppe",
+            "fi": "Pura ryhmitys",
+            "pl": "Rozgrupuj",
+            "hi": "समूह हटाएँ",
+            "zh-Hant": "取消群組"
           },
           "keys": "shift+cmd+g",
           "raw": false
@@ -373,7 +565,15 @@
             "pt-BR": "Renomear seleção",
             "ja": "名前を変更",
             "zh-Hans": "重命名所选",
-            "ko": "이름 변경"
+            "ko": "이름 변경",
+            "nl": "Selectie hernoemen",
+            "sv": "Byt namn på markeringen",
+            "da": "Omdøb markeringen",
+            "nb": "Gi markeringen nytt navn",
+            "fi": "Nimeä valinta uudelleen",
+            "pl": "Zmień nazwę zaznaczenia",
+            "hi": "चयन का नाम बदलें",
+            "zh-Hant": "重新命名選取項目"
           },
           "keys": "cmd+r",
           "raw": false
@@ -388,7 +588,15 @@
             "pt-BR": "Mostrar ou ocultar seleção",
             "ja": "選択の表示切替",
             "zh-Hans": "显示或隐藏所选",
-            "ko": "선택 표시 전환"
+            "ko": "선택 표시 전환",
+            "nl": "Selectie tonen of verbergen",
+            "sv": "Visa eller dölj markeringen",
+            "da": "Vis eller skjul markeringen",
+            "nb": "Vis eller skjul markeringen",
+            "fi": "Näytä tai piilota valinta",
+            "pl": "Pokaż lub ukryj zaznaczenie",
+            "hi": "चयन दिखाएँ या छिपाएँ",
+            "zh-Hant": "顯示或隱藏選取項目"
           },
           "keys": "shift+cmd+h",
           "raw": false
@@ -403,7 +611,15 @@
             "pt-BR": "Bloquear ou desbloquear",
             "ja": "選択をロック切替",
             "zh-Hans": "锁定或解锁所选",
-            "ko": "선택 잠금 전환"
+            "ko": "선택 잠금 전환",
+            "nl": "Selectie vergrendelen of ontgrendelen",
+            "sv": "Lås eller lås upp markeringen",
+            "da": "Lås eller lås markeringen op",
+            "nb": "Lås eller lås opp markeringen",
+            "fi": "Lukitse tai avaa valinnan lukitus",
+            "pl": "Zablokuj lub odblokuj zaznaczenie",
+            "hi": "चयन को लॉक या अनलॉक करें",
+            "zh-Hant": "鎖定或解鎖選取項目"
           },
           "keys": "shift+cmd+l",
           "raw": false
@@ -418,7 +634,15 @@
             "pt-BR": "Enquadrar seleção",
             "ja": "選択をフレーム化",
             "zh-Hans": "将所选放入画板",
-            "ko": "선택을 프레임으로"
+            "ko": "선택을 프레임으로",
+            "nl": "Selectie in een frame plaatsen",
+            "sv": "Placera markeringen i en frame",
+            "da": "Placér markeringen i en frame",
+            "nb": "Plasser markeringen i en frame",
+            "fi": "Aseta valinta frameen",
+            "pl": "Umieść zaznaczenie w ramce",
+            "hi": "चयन को फ़्रेम में रखें",
+            "zh-Hant": "將選取項目放入畫框"
           },
           "keys": "alt+cmd+g",
           "raw": false
@@ -433,7 +657,15 @@
             "pt-BR": "Achatar seleção",
             "ja": "選択を統合",
             "zh-Hans": "拼合所选",
-            "ko": "선택 병합"
+            "ko": "선택 병합",
+            "nl": "Selectie platmaken",
+            "sv": "Platta ut markeringen",
+            "da": "Fladgør markeringen",
+            "nb": "Flat ut markeringen",
+            "fi": "Litistä valinta",
+            "pl": "Spłaszcz zaznaczenie",
+            "hi": "चयन को फ़्लैटन करें",
+            "zh-Hant": "平面化選取項目"
           },
           "keys": "cmd+e",
           "raw": false
@@ -450,7 +682,15 @@
         "pt-BR": "Organizar",
         "ja": "配置",
         "zh-Hans": "排列",
-        "ko": "정렬"
+        "ko": "정렬",
+        "nl": "Schikken",
+        "sv": "Ordna",
+        "da": "Arrangér",
+        "nb": "Ordne",
+        "fi": "Järjestä",
+        "pl": "Rozmieszczanie",
+        "hi": "व्यवस्थित करें",
+        "zh-Hant": "排列"
       },
       "items": [
         {
@@ -463,7 +703,15 @@
             "pt-BR": "Alinhar à esquerda",
             "ja": "左揃え",
             "zh-Hans": "左对齐",
-            "ko": "왼쪽 정렬"
+            "ko": "왼쪽 정렬",
+            "nl": "Links uitlijnen",
+            "sv": "Vänsterjustera",
+            "da": "Venstrejustér",
+            "nb": "Venstrejuster",
+            "fi": "Tasaa vasemmalle",
+            "pl": "Wyrównaj do lewej",
+            "hi": "बाएँ संरेखित करें",
+            "zh-Hant": "靠左對齊"
           },
           "keys": "alt+a",
           "raw": false
@@ -478,7 +726,15 @@
             "pt-BR": "Alinhar à direita",
             "ja": "右揃え",
             "zh-Hans": "右对齐",
-            "ko": "오른쪽 정렬"
+            "ko": "오른쪽 정렬",
+            "nl": "Rechts uitlijnen",
+            "sv": "Högerjustera",
+            "da": "Højrejustér",
+            "nb": "Høyrejuster",
+            "fi": "Tasaa oikealle",
+            "pl": "Wyrównaj do prawej",
+            "hi": "दाएँ संरेखित करें",
+            "zh-Hant": "靠右對齊"
           },
           "keys": "alt+d",
           "raw": false
@@ -493,7 +749,15 @@
             "pt-BR": "Alinhar ao topo",
             "ja": "上揃え",
             "zh-Hans": "顶端对齐",
-            "ko": "위쪽 정렬"
+            "ko": "위쪽 정렬",
+            "nl": "Boven uitlijnen",
+            "sv": "Justera uppåt",
+            "da": "Justér øverst",
+            "nb": "Juster øverst",
+            "fi": "Tasaa ylös",
+            "pl": "Wyrównaj do góry",
+            "hi": "ऊपर संरेखित करें",
+            "zh-Hant": "靠上對齊"
           },
           "keys": "alt+w",
           "raw": false
@@ -508,7 +772,15 @@
             "pt-BR": "Alinhar à base",
             "ja": "下揃え",
             "zh-Hans": "底端对齐",
-            "ko": "아래쪽 정렬"
+            "ko": "아래쪽 정렬",
+            "nl": "Onder uitlijnen",
+            "sv": "Justera nedåt",
+            "da": "Justér nederst",
+            "nb": "Juster nederst",
+            "fi": "Tasaa alas",
+            "pl": "Wyrównaj do dołu",
+            "hi": "नीचे संरेखित करें",
+            "zh-Hant": "靠下對齊"
           },
           "keys": "alt+s",
           "raw": false
@@ -523,7 +795,15 @@
             "pt-BR": "Centralizar horizontalmente",
             "ja": "左右中央揃え",
             "zh-Hans": "水平居中",
-            "ko": "가로 가운데 정렬"
+            "ko": "가로 가운데 정렬",
+            "nl": "Horizontale middens uitlijnen",
+            "sv": "Justera horisontella mittpunkter",
+            "da": "Justér vandrette midtpunkter",
+            "nb": "Juster vannrette midtpunkter",
+            "fi": "Tasaa vaakasuuntaiset keskikohdat",
+            "pl": "Wyrównaj środki w poziomie",
+            "hi": "क्षैतिज केंद्र संरेखित करें",
+            "zh-Hant": "水平置中對齊"
           },
           "keys": "alt+h",
           "raw": false
@@ -538,7 +818,15 @@
             "pt-BR": "Centralizar verticalmente",
             "ja": "上下中央揃え",
             "zh-Hans": "垂直居中",
-            "ko": "세로 가운데 정렬"
+            "ko": "세로 가운데 정렬",
+            "nl": "Verticale middens uitlijnen",
+            "sv": "Justera vertikala mittpunkter",
+            "da": "Justér lodrette midtpunkter",
+            "nb": "Juster loddrette midtpunkter",
+            "fi": "Tasaa pystysuuntaiset keskikohdat",
+            "pl": "Wyrównaj środki w pionie",
+            "hi": "ऊर्ध्वाधर केंद्र संरेखित करें",
+            "zh-Hant": "垂直置中對齊"
           },
           "keys": "alt+v",
           "raw": false
@@ -553,7 +841,15 @@
             "pt-BR": "Trazer para frente",
             "ja": "最前面へ",
             "zh-Hans": "置于顶层",
-            "ko": "맨 앞으로"
+            "ko": "맨 앞으로",
+            "nl": "Naar voren halen",
+            "sv": "Flytta längst fram",
+            "da": "Flyt forrest",
+            "nb": "Flytt fremst",
+            "fi": "Tuo eteen",
+            "pl": "Przenieś na wierzch",
+            "hi": "सबसे आगे लाएँ",
+            "zh-Hant": "移至最上層"
           },
           "keys": "shift+cmd+]",
           "raw": false
@@ -568,7 +864,15 @@
             "pt-BR": "Enviar para trás",
             "ja": "最背面へ",
             "zh-Hans": "置于底层",
-            "ko": "맨 뒤로"
+            "ko": "맨 뒤로",
+            "nl": "Naar achteren sturen",
+            "sv": "Flytta längst bak",
+            "da": "Flyt bagerst",
+            "nb": "Flytt bakerst",
+            "fi": "Vie taakse",
+            "pl": "Przenieś na spód",
+            "hi": "सबसे पीछे भेजें",
+            "zh-Hant": "移至最下層"
           },
           "keys": "shift+cmd+[",
           "raw": false
@@ -585,7 +889,15 @@
         "pt-BR": "Texto",
         "ja": "テキスト",
         "zh-Hans": "文本",
-        "ko": "텍스트"
+        "ko": "텍스트",
+        "nl": "Tekst",
+        "sv": "Text",
+        "da": "Tekst",
+        "nb": "Tekst",
+        "fi": "Teksti",
+        "pl": "Tekst",
+        "hi": "टेक्स्ट",
+        "zh-Hant": "文字"
       },
       "items": [
         {
@@ -598,7 +910,15 @@
             "pt-BR": "Negrito",
             "ja": "太字",
             "zh-Hans": "加粗",
-            "ko": "굵게"
+            "ko": "굵게",
+            "nl": "Vet",
+            "sv": "Fet",
+            "da": "Fed",
+            "nb": "Fet",
+            "fi": "Lihavointi",
+            "pl": "Pogrubienie",
+            "hi": "बोल्ड",
+            "zh-Hant": "粗體"
           },
           "keys": "cmd+b",
           "raw": false
@@ -613,7 +933,15 @@
             "pt-BR": "Itálico",
             "ja": "斜体",
             "zh-Hans": "斜体",
-            "ko": "기울임"
+            "ko": "기울임",
+            "nl": "Cursief",
+            "sv": "Kursiv",
+            "da": "Kursiv",
+            "nb": "Kursiv",
+            "fi": "Kursivointi",
+            "pl": "Kursywa",
+            "hi": "इटैलिक",
+            "zh-Hant": "斜體"
           },
           "keys": "cmd+i",
           "raw": false
@@ -628,7 +956,15 @@
             "pt-BR": "Sublinhado",
             "ja": "下線",
             "zh-Hans": "下划线",
-            "ko": "밑줄"
+            "ko": "밑줄",
+            "nl": "Onderstrepen",
+            "sv": "Understrykning",
+            "da": "Understregning",
+            "nb": "Understreking",
+            "fi": "Alleviivaus",
+            "pl": "Podkreślenie",
+            "hi": "अंडरलाइन",
+            "zh-Hant": "底線"
           },
           "keys": "cmd+u",
           "raw": false
@@ -643,7 +979,15 @@
             "pt-BR": "Alinhar texto à esquerda",
             "ja": "テキストを左揃え",
             "zh-Hans": "文本左对齐",
-            "ko": "텍스트 왼쪽 정렬"
+            "ko": "텍스트 왼쪽 정렬",
+            "nl": "Tekst links uitlijnen",
+            "sv": "Vänsterjustera text",
+            "da": "Venstrejustér tekst",
+            "nb": "Venstrejuster tekst",
+            "fi": "Tasaa teksti vasemmalle",
+            "pl": "Wyrównaj tekst do lewej",
+            "hi": "टेक्स्ट को बाएँ संरेखित करें",
+            "zh-Hant": "文字靠左對齊"
           },
           "keys": "alt+cmd+l",
           "raw": false
@@ -658,7 +1002,15 @@
             "pt-BR": "Centralizar texto",
             "ja": "テキストを中央揃え",
             "zh-Hans": "文本居中",
-            "ko": "텍스트 가운데 정렬"
+            "ko": "텍스트 가운데 정렬",
+            "nl": "Tekst centreren",
+            "sv": "Centrera text",
+            "da": "Centrér tekst",
+            "nb": "Midtstill tekst",
+            "fi": "Keskitä teksti",
+            "pl": "Wyśrodkuj tekst",
+            "hi": "टेक्स्ट को केंद्र में संरेखित करें",
+            "zh-Hant": "文字置中對齊"
           },
           "keys": "alt+cmd+t",
           "raw": false
@@ -673,7 +1025,15 @@
             "pt-BR": "Alinhar texto à direita",
             "ja": "テキストを右揃え",
             "zh-Hans": "文本右对齐",
-            "ko": "텍스트 오른쪽 정렬"
+            "ko": "텍스트 오른쪽 정렬",
+            "nl": "Tekst rechts uitlijnen",
+            "sv": "Högerjustera text",
+            "da": "Højrejustér tekst",
+            "nb": "Høyrejuster tekst",
+            "fi": "Tasaa teksti oikealle",
+            "pl": "Wyrównaj tekst do prawej",
+            "hi": "टेक्स्ट को दाएँ संरेखित करें",
+            "zh-Hant": "文字靠右對齊"
           },
           "keys": "alt+cmd+r",
           "raw": false
@@ -690,7 +1050,15 @@
         "pt-BR": "Componentes",
         "ja": "コンポーネント",
         "zh-Hans": "组件",
-        "ko": "컴포넌트"
+        "ko": "컴포넌트",
+        "nl": "Componenten",
+        "sv": "Komponenter",
+        "da": "Komponenter",
+        "nb": "Komponenter",
+        "fi": "Komponentit",
+        "pl": "Komponenty",
+        "hi": "कॉम्पोनेंट",
+        "zh-Hant": "元件"
       },
       "items": [
         {
@@ -703,7 +1071,15 @@
             "pt-BR": "Criar componente",
             "ja": "コンポーネントを作成",
             "zh-Hans": "创建组件",
-            "ko": "컴포넌트 만들기"
+            "ko": "컴포넌트 만들기",
+            "nl": "Component maken",
+            "sv": "Skapa komponent",
+            "da": "Opret komponent",
+            "nb": "Opprett komponent",
+            "fi": "Luo komponentti",
+            "pl": "Utwórz komponent",
+            "hi": "कॉम्पोनेंट बनाएँ",
+            "zh-Hant": "建立元件"
           },
           "keys": "alt+cmd+k",
           "raw": false
@@ -718,7 +1094,15 @@
             "pt-BR": "Desanexar instância",
             "ja": "インスタンスを切り離す",
             "zh-Hans": "分离实例",
-            "ko": "인스턴스 분리"
+            "ko": "인스턴스 분리",
+            "nl": "Instantie loskoppelen",
+            "sv": "Koppla bort instans",
+            "da": "Frakobl instans",
+            "nb": "Koble fra instans",
+            "fi": "Irrota instanssi",
+            "pl": "Odłącz instancję",
+            "hi": "इंस्टेंस अलग करें",
+            "zh-Hant": "分離實體"
           },
           "keys": "alt+cmd+b",
           "raw": false
@@ -733,7 +1117,15 @@
             "pt-BR": "Ir ao componente principal",
             "ja": "メインコンポーネントへ",
             "zh-Hans": "转到主组件",
-            "ko": "메인 컴포넌트로"
+            "ko": "메인 컴포넌트로",
+            "nl": "Naar het hoofdcomponent gaan",
+            "sv": "Gå till huvudkomponenten",
+            "da": "Gå til hovedkomponenten",
+            "nb": "Gå til hovedkomponenten",
+            "fi": "Siirry pääkomponenttiin",
+            "pl": "Przejdź do komponentu głównego",
+            "hi": "मुख्य कॉम्पोनेंट पर जाएँ",
+            "zh-Hant": "前往主要元件"
           },
           "keys": "alt+2",
           "raw": false
@@ -748,7 +1140,15 @@
             "pt-BR": "Abrir painel de recursos",
             "ja": "アセットパネルを開く",
             "zh-Hans": "打开资源面板",
-            "ko": "에셋 패널 열기"
+            "ko": "에셋 패널 열기",
+            "nl": "Het assetspaneel openen",
+            "sv": "Öppna resurspanelen",
+            "da": "Åbn ressourcepanelet",
+            "nb": "Åpne ressurspanelet",
+            "fi": "Avaa resurssipaneeli",
+            "pl": "Otwórz panel zasobów",
+            "hi": "एसेट पैनल खोलें",
+            "zh-Hant": "開啟資源面板"
           },
           "keys": "shift+i",
           "raw": false

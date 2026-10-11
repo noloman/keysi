@@ -111,14 +111,14 @@
       macOS will intercept first, before you press them.
     </li>
     <li>
-      <strong>Localization.</strong> Keysi ships in 9 languages. KeyClu
+      <strong>Localization.</strong> Keysi ships in 17 languages. KeyClu
       ships 4 built in (English, German, Chinese and Japanese), with more
       via community translation.
     </li>
     <li>
-      <strong>Custom sheets.</strong> Keysi ships ten curated sheets
-      (Figma, Slack, Notion, Obsidian, Excel, Word, Ghostty, Vim, tmux and
-      Emacs) and, since 1.0, an editor for your own. Both are free. KeyClu
+      <strong>Custom sheets.</strong> Keysi ships fourteen curated sheets
+      (Figma, Slack, Discord, Linear, Notion, Obsidian, Excel, Word, Ghostty, Vim, tmux,
+      Emacs, Helix and Zellij) and, since 1.0, an editor for your own. Both are free. KeyClu
       has ready-made sets you import from KeyClu Extensions, lets you
       register your own shortcuts by hand, and pairs with a separate
       CustomShortcuts app. Different approaches, both real.
@@ -157,8 +157,8 @@
       of Pro end in that free tier, not a locked app.
     </li>
     <li>
-      <strong>What the $14.99 covers beyond the nudge.</strong> Practice
-      Mode with spaced repetition, a suggested key combination for
+      <strong>What the $14.99 covers beyond the nudge.</strong> Unlimited
+      Practice Mode with spaced repetition (one drill a day is free), a suggested key combination for
       commands you keep clicking that have none, and "New" marks on the
       shortcuts an app update added.
     </li>
@@ -168,14 +168,53 @@
       own remapped shortcuts read from VS Code, JetBrains IDEs, Xcode, Vim
       and Emacs, cheat sheets for tools with no menu bar, export,
       Raycast, Alfred, Shortcuts and terminal integrations, and
-      localisation (Keysi ships in 9 languages). Not mentioned is not the
+      localisation (Keysi ships in 17 languages). Not mentioned is not the
       same as absent; check Keylume directly.
     </li>
   </ul>
 
-  <h2>The five-way table</h2>
+  <h2>And KeyMinder, which is free and open source</h2>
   <p>
-    KeyCue, Keylume and the discontinued CheatSheet belong here too. Only
+    <a href="https://keyminder.app/">KeyMinder</a> does what Keysi's free
+    tier does, and it's free and open source (GPLv3). It reads the
+    frontmost app's menu bar live, opens on a hotkey or a double-tap of
+    ⌘, ⌥ or ⌃, lets you search and click a row to run it, and adds
+    favourites, ignore lists, the macOS system shortcuts, Markdown export,
+    a flash-card quiz and 24 languages. If you want an open-source lookup
+    panel, it's a good one. Use it.
+  </p>
+  <p>
+    What's different, going by KeyMinder's own site on 2026-10-11:
+  </p>
+  <ul>
+    <li>
+      <strong>Shortcuts that aren't in a menu.</strong> Keysi ships cheat
+      sheets for Vim, tmux, Emacs, Figma, Slack and seven more, has an
+      editor for your own, and reads the shortcuts you remapped yourself in
+      VS Code, JetBrains IDEs, Xcode, Vim and Emacs. All of that is free.
+    </li>
+    <li>
+      <strong>Conflict warnings.</strong> Keysi flags a shortcut macOS or
+      another app's hotkey (Raycast, Rectangle) will take first, on the row
+      itself.
+    </li>
+    <li>
+      <strong>Learning, past flash cards.</strong> Keysi Pro reminds you
+      when you use the menu for a command that has a shortcut, schedules
+      drills with spaced repetition (one a day is free), and tracks which
+      shortcuts you've picked up.
+    </li>
+  </ul>
+  <p>
+    Where KeyMinder is ahead: it's open source, and it claims more
+    languages (24 on its site, 17 in its README, against Keysi's 17).
+    Both can sync settings through iCloud Drive: Keysi through a folder of
+    your choice, off until you turn it on.
+  </p>
+
+  <h2>The six-way table</h2>
+  <p>
+    KeyCue, Keylume, KeyMinder and the discontinued CheatSheet belong here too. Only
     claims confirmable on each project's own site are marked, apart from
     the click-to-run row, whose sources footnote 7 names. Where a site
     doesn't say either way, the table says so instead of guessing.
@@ -189,6 +228,7 @@
           <th>KeyCue</th>
           <th>KeyClu</th>
           <th>Keylume<sup>6</sup></th>
+          <th>KeyMinder<sup>8</sup></th>
           <th>CheatSheet</th>
         </tr>
       </thead>
@@ -199,6 +239,7 @@
           <td class="yes">Yes</td>
           <td class="yes">Yes</td>
           <td class="yes">Yes — hold right ⌘</td>
+          <td class="yes">Yes — hotkey or double-tap ⌘, ⌥ or ⌃</td>
           <td class="yes">Yes</td>
         </tr>
         <tr>
@@ -207,6 +248,7 @@
           <td class="yes">Yes, per Ergonis's help centre<sup>7</sup></td>
           <td class="no">Not stated on KeyClu's site (checked 2026-10-06)</td>
           <td class="no">Not stated on Keylume's site (checked 2026-10-06)</td>
+          <td class="yes">Yes</td>
           <td class="yes">Yes, while holding ⌘, per MacStories' review<sup>7</sup></td>
         </tr>
         <tr>
@@ -215,6 +257,7 @@
           <td class="no">Not stated on KeyCue's site (checked 2026-10-06)</td>
           <td class="no">Not stated on KeyClu's site (checked 2026-10-06)<sup>2</sup></td>
           <td class="yes">Yes — Coaching Nudges</td>
+          <td class="no">Not stated on KeyMinder's site (checked 2026-10-11)</td>
           <td class="no">Not stated; its page is gone (redirects to GrandTotal, checked 2026-10-06)</td>
         </tr>
         <tr>
@@ -223,14 +266,16 @@
           <td class="no">Not stated on KeyCue's site (checked 2026-10-06)</td>
           <td class="no">Not stated on KeyClu's site (checked 2026-10-06)<sup>2</sup></td>
           <td class="yes">Yes — Usage Analytics</td>
+          <td class="no">Not stated on KeyMinder's site (checked 2026-10-11)</td>
           <td class="no">Not stated; its page is gone (redirects to GrandTotal, checked 2026-10-06)</td>
         </tr>
         <tr>
           <td>Practice drills with spaced repetition</td>
-          <td class="yes">Yes — Practice Mode, with Pro</td>
+          <td class="yes">Yes — Practice Mode: one drill a day free, unlimited with Pro</td>
           <td class="no">Not stated on KeyCue's site (checked 2026-10-06)</td>
           <td class="no">Not stated on KeyClu's site (checked 2026-10-06)</td>
           <td class="no">Not stated on Keylume's site (checked 2026-10-06)</td>
+          <td class="no">Not stated; it has a flash-card quiz (checked 2026-10-11)</td>
           <td class="no">Not stated; its page is gone (redirects to GrandTotal, checked 2026-10-06)</td>
         </tr>
         <tr>
@@ -239,14 +284,16 @@
           <td class="no">Not stated on KeyCue's site (checked 2026-10-06)</td>
           <td class="no">Not stated on KeyClu's site (checked 2026-10-06)</td>
           <td class="no">Not stated on Keylume's site (checked 2026-10-06)</td>
+          <td class="no">Not stated; it lists the macOS system shortcuts (checked 2026-10-11)</td>
           <td class="no">Not stated; its page is gone (redirects to GrandTotal, checked 2026-10-06)</td>
         </tr>
         <tr>
           <td>Custom sheets for apps with no menu bar</td>
-          <td class="yes">Yes — ten built in (Figma, Slack, Vim, tmux and six more), plus a built-in editor for your own</td>
+          <td class="yes">Yes — fourteen built in (Figma, Slack, Vim, tmux and ten more), plus a built-in editor for your own</td>
           <td class="no">Not stated on KeyCue's site (checked 2026-10-06)</td>
           <td class="yes">Yes — ready-made sets to import, plus registering your own<sup>3</sup></td>
           <td class="no">Not stated on Keylume's site (checked 2026-10-06)</td>
+          <td class="no">Not stated on KeyMinder's site (checked 2026-10-11)</td>
           <td class="no">Not stated; its page is gone (redirects to GrandTotal, checked 2026-10-06)</td>
         </tr>
         <tr>
@@ -255,14 +302,16 @@
           <td class="no">Not stated on KeyCue's site (checked 2026-10-06)<sup>5</sup></td>
           <td class="yes">Yes — Markdown</td>
           <td class="no">Not stated on Keylume's site (checked 2026-10-06)</td>
+          <td class="yes">Yes — Markdown</td>
           <td class="no">Not stated; its page is gone (redirects to GrandTotal, checked 2026-10-06)</td>
         </tr>
         <tr>
           <td>Localized into multiple languages</td>
-          <td class="yes">Yes — 9 languages</td>
+          <td class="yes">Yes — 17 languages</td>
           <td class="yes">Yes — English, German and French, per its pricing page</td>
           <td class="yes">Yes — English, German, Chinese and Japanese built in<sup>4</sup>; more via Crowdin</td>
           <td class="no">Not stated on Keylume's site (checked 2026-10-06)</td>
+          <td class="yes">Yes — 24 languages, per its site</td>
           <td class="no">Not stated; its page is gone (redirects to GrandTotal, checked 2026-10-06)</td>
         </tr>
         <tr>
@@ -271,6 +320,7 @@
           <td>$39.99 once for 2 devices (no future major versions), or $19.99/yr for 3<sup>1</sup></td>
           <td class="yes">Free</td>
           <td>$12 once for 3 Macs, after a 14-day free trial</td>
+          <td class="yes">Free</td>
           <td>Discontinued</td>
         </tr>
         <tr>
@@ -279,6 +329,7 @@
           <td class="yes">Yes — 11.2.1, Aug 2026</td>
           <td class="yes">Yes — v0.33, Aug 2026</td>
           <td>v1.1.2 current; release dates not stated</td>
+          <td class="yes">Yes — v1.0.195, Sep 2026</td>
           <td class="no">No — discontinued on macOS Sonoma</td>
         </tr>
         <tr>
@@ -287,6 +338,7 @@
           <td>Direct download</td>
           <td>Free download from GitHub or Homebrew; BSD-3-Clause-Clear licence</td>
           <td>Direct download; licence sold via Ko-fi</td>
+          <td>Direct download or Homebrew; GPLv3 open source</td>
           <td>Was direct download</td>
         </tr>
       </tbody>
@@ -297,7 +349,8 @@
     project's own website:
     <a href="https://ergonis.com/en/keycue/features">ergonis.com/en/keycue/features</a>,
     <a href="https://sergii.tatarenkov.name/apps/keyclu/">sergii.tatarenkov.name/apps/keyclu</a>,
-    <a href="https://keylume.app/">keylume.app</a>. CheatSheet's page now
+    <a href="https://keylume.app/">keylume.app</a>,
+    <a href="https://keyminder.app/">keyminder.app</a>. CheatSheet's page now
     redirects to Media Atelier's GrandTotal; its column comes from
     <a href="https://web.archive.org/web/20231111022725/https://www.mediaatelier.com/CheatSheet/">the archived page</a>,
     which says it was discontinued because it no longer works with macOS
@@ -345,6 +398,14 @@
     for 3 Macs, with free updates; "fully functional for 14 days", after
     which a licence is needed to keep using it. The site has no separate
     changelog or FAQ page to check further.
+    <sup>8</sup> KeyMinder read from
+    <a href="https://keyminder.app/">its own site</a> and
+    <a href="https://github.com/dvdweyer/KeyMinder">its GitHub repository</a>
+    on 2026-10-11 (v1.0.195, Sep 14 2026, macOS 14 or later): free, GPLv3
+    from v1.0.129; opens on a hotkey (⌥⌘K by default) or a double-tap of
+    ⌘, ⌥ or ⌃; click or Tab to run; Quiz Mode flash cards; a system
+    shortcuts section; Markdown export; experimental iCloud settings sync.
+    Its site says 24 languages and its README lists 17.
   </p>
 
   <h2>Reasons to pick KeyClu instead</h2>
@@ -388,6 +449,7 @@
 
   <h2>Related</h2>
   <ul>
+    <li><a href="keyminder-vs-keysi.html">KeyMinder vs Keysi: free and open source</a></li>
     <li><a href="cheatsheet-alternative.html">Coming from CheatSheet?</a></li>
     <li><a href="keycue-alternative.html">Looking at KeyCue instead?</a></li>
     <li><a href="show-keyboard-shortcuts-mac.html">How to see any Mac app's keyboard shortcuts</a></li>
@@ -402,6 +464,7 @@
       <div>© 2026 Manuel Lorenzo. Not affiliated with Media Atelier.</div>
       <ul class="footer-links">
         <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="security.html">Security</a></li>
         <li><a href="terms.html">Terms &amp; refunds</a></li>
         <li><a href="changelog.html">Changelog</a></li>
         <li><a href="roadmap.html">Roadmap</a></li>

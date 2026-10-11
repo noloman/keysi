@@ -9,7 +9,15 @@
     "pt-BR": "Vim",
     "ja": "Vim",
     "zh-Hans": "Vim",
-    "ko": "Vim"
+    "ko": "Vim",
+    "nl": "Vim",
+    "sv": "Vim",
+    "da": "Vim",
+    "nb": "Vim",
+    "fi": "Vim",
+    "pl": "Vim",
+    "hi": "Vim",
+    "zh-Hant": "Vim"
   },
   "match": {
     "bundleIDs": [],
@@ -31,7 +39,15 @@
         "pt-BR": "Modos",
         "ja": "モード",
         "zh-Hans": "模式",
-        "ko": "모드"
+        "ko": "모드",
+        "nl": "Modi",
+        "sv": "Lägen",
+        "da": "Tilstande",
+        "nb": "Moduser",
+        "fi": "Tilat",
+        "pl": "Tryby",
+        "hi": "मोड",
+        "zh-Hant": "模式"
       },
       "items": [
         {
@@ -44,7 +60,15 @@
             "pt-BR": "Inserir antes do cursor",
             "ja": "カーソル前に挿入",
             "zh-Hans": "在光标前插入",
-            "ko": "커서 앞에 삽입"
+            "ko": "커서 앞에 삽입",
+            "nl": "Invoegen vóór de cursor",
+            "sv": "Infoga före markören",
+            "da": "Indsæt før markøren",
+            "nb": "Sett inn før markøren",
+            "fi": "Lisää kohdistimen eteen",
+            "pl": "Wstaw przed kursorem",
+            "hi": "कर्सर से पहले डालें",
+            "zh-Hant": "在游標前插入"
           },
           "keys": "i",
           "raw": true
@@ -59,7 +83,15 @@
             "pt-BR": "Inserir após o cursor",
             "ja": "カーソル後に追加",
             "zh-Hans": "在光标后追加",
-            "ko": "커서 뒤에 추가"
+            "ko": "커서 뒤에 추가",
+            "nl": "Toevoegen na de cursor",
+            "sv": "Lägg till efter markören",
+            "da": "Tilføj efter markøren",
+            "nb": "Legg til etter markøren",
+            "fi": "Lisää kohdistimen jälkeen",
+            "pl": "Dopisz za kursorem",
+            "hi": "कर्सर के बाद जोड़ें",
+            "zh-Hant": "在游標後附加"
           },
           "keys": "a",
           "raw": true
@@ -74,7 +106,15 @@
             "pt-BR": "Inserir no início da linha",
             "ja": "行頭に挿入",
             "zh-Hans": "在行首插入",
-            "ko": "줄 시작에 삽입"
+            "ko": "줄 시작에 삽입",
+            "nl": "Invoegen aan het begin van de regel",
+            "sv": "Infoga i början av raden",
+            "da": "Indsæt i begyndelsen af linjen",
+            "nb": "Sett inn i begynnelsen av linjen",
+            "fi": "Lisää rivin alkuun",
+            "pl": "Wstaw na początku wiersza",
+            "hi": "पंक्ति की शुरुआत में डालें",
+            "zh-Hant": "在行首插入"
           },
           "keys": "I",
           "raw": true
@@ -89,7 +129,15 @@
             "pt-BR": "Inserir no fim da linha",
             "ja": "行末に追加",
             "zh-Hans": "在行尾追加",
-            "ko": "줄 끝에 추가"
+            "ko": "줄 끝에 추가",
+            "nl": "Toevoegen aan het einde van de regel",
+            "sv": "Lägg till i slutet av raden",
+            "da": "Tilføj i slutningen af linjen",
+            "nb": "Legg til på slutten av linjen",
+            "fi": "Lisää rivin loppuun",
+            "pl": "Dopisz na końcu wiersza",
+            "hi": "पंक्ति के अंत में जोड़ें",
+            "zh-Hant": "在行尾附加"
           },
           "keys": "A",
           "raw": true
@@ -104,7 +152,15 @@
             "pt-BR": "Abrir linha abaixo",
             "ja": "下に行を開く",
             "zh-Hans": "在下方新建行",
-            "ko": "아래에 줄 열기"
+            "ko": "아래에 줄 열기",
+            "nl": "Regel eronder openen",
+            "sv": "Öppna en rad nedanför",
+            "da": "Åbn en linje nedenunder",
+            "nb": "Åpne en linje under",
+            "fi": "Avaa rivi alapuolelle",
+            "pl": "Otwórz wiersz poniżej",
+            "hi": "नीचे नई पंक्ति खोलें",
+            "zh-Hant": "在下方開新行"
           },
           "keys": "o",
           "raw": true
@@ -119,7 +175,15 @@
             "pt-BR": "Abrir linha acima",
             "ja": "上に行を開く",
             "zh-Hans": "在上方新建行",
-            "ko": "위에 줄 열기"
+            "ko": "위에 줄 열기",
+            "nl": "Regel erboven openen",
+            "sv": "Öppna en rad ovanför",
+            "da": "Åbn en linje ovenover",
+            "nb": "Åpne en linje over",
+            "fi": "Avaa rivi yläpuolelle",
+            "pl": "Otwórz wiersz powyżej",
+            "hi": "ऊपर नई पंक्ति खोलें",
+            "zh-Hant": "在上方開新行"
           },
           "keys": "O",
           "raw": true
@@ -134,7 +198,15 @@
             "pt-BR": "Modo visual",
             "ja": "ビジュアルモード",
             "zh-Hans": "可视模式",
-            "ko": "비주얼 모드"
+            "ko": "비주얼 모드",
+            "nl": "Visuele modus",
+            "sv": "Visuellt läge",
+            "da": "Visuel tilstand",
+            "nb": "Visuell modus",
+            "fi": "Visuaalitila",
+            "pl": "Tryb wizualny",
+            "hi": "विज़ुअल मोड",
+            "zh-Hant": "視覺模式"
           },
           "keys": "v",
           "raw": true
@@ -149,7 +221,15 @@
             "pt-BR": "Modo visual de linha",
             "ja": "行ビジュアルモード",
             "zh-Hans": "可视行模式",
-            "ko": "비주얼 라인 모드"
+            "ko": "비주얼 라인 모드",
+            "nl": "Visuele regelmodus",
+            "sv": "Visuellt radläge",
+            "da": "Visuel linjetilstand",
+            "nb": "Visuell linjemodus",
+            "fi": "Visuaalinen rivitila",
+            "pl": "Tryb wizualny wierszy",
+            "hi": "विज़ुअल लाइन मोड",
+            "zh-Hant": "視覺行模式"
           },
           "keys": "V",
           "raw": true
@@ -164,7 +244,15 @@
             "pt-BR": "Modo visual de bloco",
             "ja": "矩形ビジュアルモード",
             "zh-Hans": "可视块模式",
-            "ko": "비주얼 블록 모드"
+            "ko": "비주얼 블록 모드",
+            "nl": "Visuele blokmodus",
+            "sv": "Visuellt blockläge",
+            "da": "Visuel bloktilstand",
+            "nb": "Visuell blokkmodus",
+            "fi": "Visuaalinen lohkotila",
+            "pl": "Tryb wizualny bloków",
+            "hi": "विज़ुअल ब्लॉक मोड",
+            "zh-Hant": "視覺區塊模式"
           },
           "keys": "Ctrl-v",
           "raw": true
@@ -179,7 +267,15 @@
             "pt-BR": "Modo de substituição",
             "ja": "置換モード",
             "zh-Hans": "替换模式",
-            "ko": "바꾸기 모드"
+            "ko": "바꾸기 모드",
+            "nl": "Vervangmodus",
+            "sv": "Ersättningsläge",
+            "da": "Erstatningstilstand",
+            "nb": "Erstatningsmodus",
+            "fi": "Korvaustila",
+            "pl": "Tryb zastępowania",
+            "hi": "रिप्लेस मोड",
+            "zh-Hant": "取代模式"
           },
           "keys": "R",
           "raw": true
@@ -194,7 +290,15 @@
             "pt-BR": "Modo de comando",
             "ja": "コマンドモード",
             "zh-Hans": "命令模式",
-            "ko": "명령 모드"
+            "ko": "명령 모드",
+            "nl": "Opdrachtmodus",
+            "sv": "Kommandoläge",
+            "da": "Kommandotilstand",
+            "nb": "Kommandomodus",
+            "fi": "Komentotila",
+            "pl": "Tryb poleceń",
+            "hi": "कमांड मोड",
+            "zh-Hant": "指令模式"
           },
           "keys": ":",
           "raw": true
@@ -209,7 +313,15 @@
             "pt-BR": "Modo normal",
             "ja": "ノーマルモード",
             "zh-Hans": "普通模式",
-            "ko": "일반 모드"
+            "ko": "일반 모드",
+            "nl": "Normale modus",
+            "sv": "Normalt läge",
+            "da": "Normal tilstand",
+            "nb": "Normal modus",
+            "fi": "Normaalitila",
+            "pl": "Tryb normalny",
+            "hi": "नॉर्मल मोड",
+            "zh-Hant": "一般模式"
           },
           "keys": "Esc",
           "raw": true
@@ -226,7 +338,15 @@
         "pt-BR": "Movimento",
         "ja": "移動",
         "zh-Hans": "移动",
-        "ko": "이동"
+        "ko": "이동",
+        "nl": "Beweging",
+        "sv": "Förflyttning",
+        "da": "Bevægelse",
+        "nb": "Bevegelse",
+        "fi": "Liike",
+        "pl": "Ruch",
+        "hi": "गति",
+        "zh-Hant": "移動"
       },
       "items": [
         {
@@ -239,7 +359,15 @@
             "pt-BR": "Esquerda / baixo / cima / direita",
             "ja": "左/下/上/右",
             "zh-Hans": "左/下/上/右",
-            "ko": "왼쪽/아래/위/오른쪽"
+            "ko": "왼쪽/아래/위/오른쪽",
+            "nl": "Links / omlaag / omhoog / rechts",
+            "sv": "Vänster / ned / upp / höger",
+            "da": "Venstre / ned / op / højre",
+            "nb": "Venstre / ned / opp / høyre",
+            "fi": "Vasen / alas / ylös / oikea",
+            "pl": "Lewo / dół / góra / prawo",
+            "hi": "बाएँ / नीचे / ऊपर / दाएँ",
+            "zh-Hant": "左／下／上／右"
           },
           "keys": "h j k l",
           "raw": true
@@ -254,7 +382,15 @@
             "pt-BR": "Próxima palavra",
             "ja": "次の単語",
             "zh-Hans": "下一个单词",
-            "ko": "다음 단어"
+            "ko": "다음 단어",
+            "nl": "Volgend woord",
+            "sv": "Nästa ord",
+            "da": "Næste ord",
+            "nb": "Neste ord",
+            "fi": "Seuraava sana",
+            "pl": "Następne słowo",
+            "hi": "अगला शब्द",
+            "zh-Hant": "下一個單字"
           },
           "keys": "w",
           "raw": true
@@ -269,7 +405,15 @@
             "pt-BR": "Palavra anterior",
             "ja": "前の単語",
             "zh-Hans": "上一个单词",
-            "ko": "이전 단어"
+            "ko": "이전 단어",
+            "nl": "Vorig woord",
+            "sv": "Föregående ord",
+            "da": "Forrige ord",
+            "nb": "Forrige ord",
+            "fi": "Edellinen sana",
+            "pl": "Poprzednie słowo",
+            "hi": "पिछला शब्द",
+            "zh-Hant": "上一個單字"
           },
           "keys": "b",
           "raw": true
@@ -284,7 +428,15 @@
             "pt-BR": "Fim da palavra",
             "ja": "単語の末尾",
             "zh-Hans": "单词末尾",
-            "ko": "단어 끝"
+            "ko": "단어 끝",
+            "nl": "Einde van het woord",
+            "sv": "Slutet av ordet",
+            "da": "Slutningen af ordet",
+            "nb": "Slutten av ordet",
+            "fi": "Sanan loppu",
+            "pl": "Koniec słowa",
+            "hi": "शब्द का अंत",
+            "zh-Hant": "單字結尾"
           },
           "keys": "e",
           "raw": true
@@ -299,7 +451,15 @@
             "pt-BR": "Início / fim da linha",
             "ja": "行頭/行末",
             "zh-Hans": "行首/行尾",
-            "ko": "줄의 시작/끝"
+            "ko": "줄의 시작/끝",
+            "nl": "Begin / einde van de regel",
+            "sv": "Början / slutet av raden",
+            "da": "Begyndelsen / slutningen af linjen",
+            "nb": "Begynnelsen / slutten av linjen",
+            "fi": "Rivin alku / loppu",
+            "pl": "Początek / koniec wiersza",
+            "hi": "पंक्ति की शुरुआत / अंत",
+            "zh-Hant": "行首／行尾"
           },
           "keys": "0 / $",
           "raw": true
@@ -314,7 +474,15 @@
             "pt-BR": "Primeiro caractere não vazio",
             "ja": "最初の非空白文字",
             "zh-Hans": "第一个非空白字符",
-            "ko": "첫 공백 아닌 문자"
+            "ko": "첫 공백 아닌 문자",
+            "nl": "Eerste teken dat geen spatie is",
+            "sv": "Första tecknet som inte är blanksteg",
+            "da": "Første tegn, der ikke er mellemrum",
+            "nb": "Første tegn som ikke er blanktegn",
+            "fi": "Ensimmäinen ei-tyhjä merkki",
+            "pl": "Pierwszy znak niebędący spacją",
+            "hi": "पहला गैर-रिक्त वर्ण",
+            "zh-Hant": "第一個非空白字元"
           },
           "keys": "^",
           "raw": true
@@ -329,7 +497,15 @@
             "pt-BR": "Ir para a primeira linha",
             "ja": "先頭行に移動",
             "zh-Hans": "跳转到首行",
-            "ko": "첫 줄로 이동"
+            "ko": "첫 줄로 이동",
+            "nl": "Naar de eerste regel gaan",
+            "sv": "Gå till första raden",
+            "da": "Gå til første linje",
+            "nb": "Gå til første linje",
+            "fi": "Siirry ensimmäiselle riville",
+            "pl": "Przejdź do pierwszego wiersza",
+            "hi": "पहली पंक्ति पर जाएँ",
+            "zh-Hant": "前往第一行"
           },
           "keys": "gg",
           "raw": true
@@ -344,7 +520,15 @@
             "pt-BR": "Ir para a última linha",
             "ja": "最終行に移動",
             "zh-Hans": "跳转到末行",
-            "ko": "마지막 줄로 이동"
+            "ko": "마지막 줄로 이동",
+            "nl": "Naar de laatste regel gaan",
+            "sv": "Gå till sista raden",
+            "da": "Gå til sidste linje",
+            "nb": "Gå til siste linje",
+            "fi": "Siirry viimeiselle riville",
+            "pl": "Przejdź do ostatniego wiersza",
+            "hi": "आख़िरी पंक्ति पर जाएँ",
+            "zh-Hant": "前往最後一行"
           },
           "keys": "G",
           "raw": true
@@ -359,7 +543,15 @@
             "pt-BR": "Ir para a linha n",
             "ja": "n行目に移動",
             "zh-Hans": "跳转到第 n 行",
-            "ko": "n번째 줄로 이동"
+            "ko": "n번째 줄로 이동",
+            "nl": "Naar regel n gaan",
+            "sv": "Gå till rad n",
+            "da": "Gå til linje n",
+            "nb": "Gå til linje n",
+            "fi": "Siirry riville n",
+            "pl": "Przejdź do wiersza n",
+            "hi": "पंक्ति n पर जाएँ",
+            "zh-Hant": "前往第 n 行"
           },
           "keys": ":{n}",
           "raw": true
@@ -374,7 +566,15 @@
             "pt-BR": "Meia página abaixo / acima",
             "ja": "半ページ下/上",
             "zh-Hans": "下/上翻半页",
-            "ko": "반 페이지 아래/위"
+            "ko": "반 페이지 아래/위",
+            "nl": "Halve pagina omlaag / omhoog",
+            "sv": "Halv sida ned / upp",
+            "da": "Halv side ned / op",
+            "nb": "Halv side ned / opp",
+            "fi": "Puoli sivua alas / ylös",
+            "pl": "Pół strony w dół / w górę",
+            "hi": "आधा पेज नीचे / ऊपर",
+            "zh-Hant": "向下／向上半頁"
           },
           "keys": "Ctrl-d / Ctrl-u",
           "raw": true
@@ -389,7 +589,15 @@
             "pt-BR": "Página abaixo / acima",
             "ja": "1ページ下/上",
             "zh-Hans": "下/上翻页",
-            "ko": "한 페이지 아래/위"
+            "ko": "한 페이지 아래/위",
+            "nl": "Pagina omlaag / omhoog",
+            "sv": "Sida ned / upp",
+            "da": "Side ned / op",
+            "nb": "Side ned / opp",
+            "fi": "Sivu alas / ylös",
+            "pl": "Strona w dół / w górę",
+            "hi": "पेज नीचे / ऊपर",
+            "zh-Hant": "向下／向上一頁"
           },
           "keys": "Ctrl-f / Ctrl-b",
           "raw": true
@@ -404,7 +612,15 @@
             "pt-BR": "Parágrafo anterior / seguinte",
             "ja": "前/次の段落",
             "zh-Hans": "上/下一段",
-            "ko": "이전/다음 문단"
+            "ko": "이전/다음 문단",
+            "nl": "Vorige / volgende alinea",
+            "sv": "Föregående / nästa stycke",
+            "da": "Forrige / næste afsnit",
+            "nb": "Forrige / neste avsnitt",
+            "fi": "Edellinen / seuraava kappale",
+            "pl": "Poprzedni / następny akapit",
+            "hi": "पिछला / अगला पैराग्राफ़",
+            "zh-Hant": "上一段／下一段"
           },
           "keys": "{ / }",
           "raw": true
@@ -419,7 +635,15 @@
             "pt-BR": "Parêntese correspondente",
             "ja": "対応する括弧",
             "zh-Hans": "匹配的括号",
-            "ko": "짝이 되는 괄호"
+            "ko": "짝이 되는 괄호",
+            "nl": "Bijbehorend haakje",
+            "sv": "Matchande parentes",
+            "da": "Matchende parentes",
+            "nb": "Tilsvarende parentes",
+            "fi": "Vastaava sulje",
+            "pl": "Pasujący nawias",
+            "hi": "संगत ब्रैकेट",
+            "zh-Hant": "對應的括號"
           },
           "keys": "%",
           "raw": true
@@ -434,7 +658,15 @@
             "pt-BR": "Topo / meio / base da tela",
             "ja": "画面の上/中央/下",
             "zh-Hans": "屏幕顶部/中部/底部",
-            "ko": "화면 위/중간/아래"
+            "ko": "화면 위/중간/아래",
+            "nl": "Boven- / midden- / onderkant van het scherm",
+            "sv": "Överst / mitt / nederst på skärmen",
+            "da": "Øverst / midt / nederst på skærmen",
+            "nb": "Øverst / midt / nederst på skjermen",
+            "fi": "Näytön ylä- / keski- / alaosa",
+            "pl": "Góra / środek / dół ekranu",
+            "hi": "स्क्रीन का ऊपर / बीच / नीचे",
+            "zh-Hant": "畫面頂端／中間／底端"
           },
           "keys": "H M L",
           "raw": true
@@ -449,7 +681,15 @@
             "pt-BR": "Ir ao próximo caractere",
             "ja": "次の文字へジャンプ",
             "zh-Hans": "跳到下一个字符",
-            "ko": "다음 문자로 점프"
+            "ko": "다음 문자로 점프",
+            "nl": "Naar het volgende teken springen",
+            "sv": "Hoppa till nästa tecken",
+            "da": "Spring til næste tegn",
+            "nb": "Hopp til neste tegn",
+            "fi": "Hyppää seuraavaan merkkiin",
+            "pl": "Przeskocz do następnego znaku",
+            "hi": "अगले वर्ण पर जाएँ",
+            "zh-Hant": "跳至下一個字元"
           },
           "keys": "f{char}",
           "raw": true
@@ -466,7 +706,15 @@
         "pt-BR": "Edição",
         "ja": "編集",
         "zh-Hans": "编辑",
-        "ko": "편집"
+        "ko": "편집",
+        "nl": "Bewerken",
+        "sv": "Redigering",
+        "da": "Redigering",
+        "nb": "Redigering",
+        "fi": "Muokkaus",
+        "pl": "Edycja",
+        "hi": "संपादन",
+        "zh-Hant": "編輯"
       },
       "items": [
         {
@@ -479,7 +727,15 @@
             "pt-BR": "Excluir caractere",
             "ja": "文字を削除",
             "zh-Hans": "删除字符",
-            "ko": "문자 삭제"
+            "ko": "문자 삭제",
+            "nl": "Teken verwijderen",
+            "sv": "Radera tecken",
+            "da": "Slet tegn",
+            "nb": "Slett tegn",
+            "fi": "Poista merkki",
+            "pl": "Usuń znak",
+            "hi": "वर्ण हटाएँ",
+            "zh-Hant": "刪除字元"
           },
           "keys": "x",
           "raw": true
@@ -494,7 +750,15 @@
             "pt-BR": "Excluir linha",
             "ja": "行を削除",
             "zh-Hans": "删除行",
-            "ko": "줄 삭제"
+            "ko": "줄 삭제",
+            "nl": "Regel verwijderen",
+            "sv": "Radera rad",
+            "da": "Slet linje",
+            "nb": "Slett linje",
+            "fi": "Poista rivi",
+            "pl": "Usuń wiersz",
+            "hi": "पंक्ति हटाएँ",
+            "zh-Hant": "刪除行"
           },
           "keys": "dd",
           "raw": true
@@ -509,7 +773,15 @@
             "pt-BR": "Excluir palavra",
             "ja": "単語を削除",
             "zh-Hans": "删除单词",
-            "ko": "단어 삭제"
+            "ko": "단어 삭제",
+            "nl": "Woord verwijderen",
+            "sv": "Radera ord",
+            "da": "Slet ord",
+            "nb": "Slett ord",
+            "fi": "Poista sana",
+            "pl": "Usuń słowo",
+            "hi": "शब्द हटाएँ",
+            "zh-Hant": "刪除單字"
           },
           "keys": "dw",
           "raw": true
@@ -524,7 +796,15 @@
             "pt-BR": "Excluir até o fim da linha",
             "ja": "行末まで削除",
             "zh-Hans": "删除至行尾",
-            "ko": "줄 끝까지 삭제"
+            "ko": "줄 끝까지 삭제",
+            "nl": "Verwijderen tot het einde van de regel",
+            "sv": "Radera till slutet av raden",
+            "da": "Slet til slutningen af linjen",
+            "nb": "Slett til slutten av linjen",
+            "fi": "Poista rivin loppuun asti",
+            "pl": "Usuń do końca wiersza",
+            "hi": "पंक्ति के अंत तक हटाएँ",
+            "zh-Hant": "刪除至行尾"
           },
           "keys": "D",
           "raw": true
@@ -539,7 +819,15 @@
             "pt-BR": "Alterar linha",
             "ja": "行を変更",
             "zh-Hans": "更改行",
-            "ko": "줄 변경"
+            "ko": "줄 변경",
+            "nl": "Regel wijzigen",
+            "sv": "Ändra rad",
+            "da": "Ændr linje",
+            "nb": "Endre linje",
+            "fi": "Muuta rivi",
+            "pl": "Zmień wiersz",
+            "hi": "पंक्ति बदलें",
+            "zh-Hant": "修改行"
           },
           "keys": "cc",
           "raw": true
@@ -554,7 +842,15 @@
             "pt-BR": "Alterar palavra",
             "ja": "単語を変更",
             "zh-Hans": "更改单词",
-            "ko": "단어 변경"
+            "ko": "단어 변경",
+            "nl": "Woord wijzigen",
+            "sv": "Ändra ord",
+            "da": "Ændr ord",
+            "nb": "Endre ord",
+            "fi": "Muuta sana",
+            "pl": "Zmień słowo",
+            "hi": "शब्द बदलें",
+            "zh-Hant": "修改單字"
           },
           "keys": "cw",
           "raw": true
@@ -569,7 +865,15 @@
             "pt-BR": "Copiar (yank) linha",
             "ja": "行をヤンク(コピー)",
             "zh-Hans": "复制(yank)行",
-            "ko": "줄 복사(yank)"
+            "ko": "줄 복사(yank)",
+            "nl": "Regel yanken (kopiëren)",
+            "sv": "Yank (kopiera) rad",
+            "da": "Yank (kopiér) linje",
+            "nb": "Yank (kopier) linje",
+            "fi": "Yankkaa (kopioi) rivi",
+            "pl": "Skopiuj (yank) wiersz",
+            "hi": "पंक्ति यैंक (कॉपी) करें",
+            "zh-Hant": "拷貝（yank）行"
           },
           "keys": "yy",
           "raw": true
@@ -584,7 +888,15 @@
             "pt-BR": "Copiar palavra",
             "ja": "単語をヤンク",
             "zh-Hans": "复制单词",
-            "ko": "단어 복사"
+            "ko": "단어 복사",
+            "nl": "Woord yanken",
+            "sv": "Yank ord",
+            "da": "Yank ord",
+            "nb": "Yank ord",
+            "fi": "Yankkaa sana",
+            "pl": "Skopiuj (yank) słowo",
+            "hi": "शब्द यैंक करें",
+            "zh-Hant": "拷貝（yank）單字"
           },
           "keys": "yw",
           "raw": true
@@ -599,7 +911,15 @@
             "pt-BR": "Colar depois / antes",
             "ja": "後/前に貼り付け",
             "zh-Hans": "在后/前粘贴",
-            "ko": "뒤/앞에 붙여넣기"
+            "ko": "뒤/앞에 붙여넣기",
+            "nl": "Plakken na / vóór",
+            "sv": "Klistra in efter / före",
+            "da": "Indsæt efter / før",
+            "nb": "Lim inn etter / før",
+            "fi": "Liitä jälkeen / ennen",
+            "pl": "Wklej za / przed",
+            "hi": "बाद में / पहले पेस्ट करें",
+            "zh-Hant": "貼上於後／前"
           },
           "keys": "p / P",
           "raw": true
@@ -614,7 +934,15 @@
             "pt-BR": "Desfazer",
             "ja": "取り消し",
             "zh-Hans": "撤销",
-            "ko": "실행 취소"
+            "ko": "실행 취소",
+            "nl": "Maak ongedaan",
+            "sv": "Ångra",
+            "da": "Fortryd",
+            "nb": "Angre",
+            "fi": "Kumoa",
+            "pl": "Cofnij",
+            "hi": "पूर्ववत करें",
+            "zh-Hant": "還原"
           },
           "keys": "u",
           "raw": true
@@ -629,7 +957,15 @@
             "pt-BR": "Refazer",
             "ja": "やり直し",
             "zh-Hans": "重做",
-            "ko": "다시 실행"
+            "ko": "다시 실행",
+            "nl": "Opnieuw",
+            "sv": "Gör om",
+            "da": "Gentag",
+            "nb": "Gjør om",
+            "fi": "Tee uudelleen",
+            "pl": "Ponów",
+            "hi": "फिर से करें",
+            "zh-Hant": "重做"
           },
           "keys": "Ctrl-r",
           "raw": true
@@ -644,7 +980,15 @@
             "pt-BR": "Repetir última alteração",
             "ja": "直前の変更を繰り返す",
             "zh-Hans": "重复上次更改",
-            "ko": "마지막 변경 반복"
+            "ko": "마지막 변경 반복",
+            "nl": "Laatste wijziging herhalen",
+            "sv": "Upprepa senaste ändringen",
+            "da": "Gentag sidste ændring",
+            "nb": "Gjenta siste endring",
+            "fi": "Toista viimeisin muutos",
+            "pl": "Powtórz ostatnią zmianę",
+            "hi": "आख़िरी बदलाव दोहराएँ",
+            "zh-Hant": "重複上次修改"
           },
           "keys": ".",
           "raw": true
@@ -659,7 +1003,15 @@
             "pt-BR": "Recuar / remover recuo",
             "ja": "行をインデント/解除",
             "zh-Hans": "增加/减少缩进",
-            "ko": "들여쓰기/내어쓰기"
+            "ko": "들여쓰기/내어쓰기",
+            "nl": "Regel meer / minder laten inspringen",
+            "sv": "Öka / minska indrag på raden",
+            "da": "Indryk / ryk ud linje",
+            "nb": "Rykk inn / ut linje",
+            "fi": "Sisennä / poista rivin sisennys",
+            "pl": "Zwiększ / zmniejsz wcięcie wiersza",
+            "hi": "पंक्ति इंडेंट / आउटडेंट करें",
+            "zh-Hant": "增加／減少行縮排"
           },
           "keys": ">> / <<",
           "raw": true
@@ -674,7 +1026,15 @@
             "pt-BR": "Juntar linhas",
             "ja": "行を連結",
             "zh-Hans": "合并行",
-            "ko": "줄 합치기"
+            "ko": "줄 합치기",
+            "nl": "Regels samenvoegen",
+            "sv": "Slå ihop rader",
+            "da": "Sæt linjer sammen",
+            "nb": "Slå sammen linjer",
+            "fi": "Yhdistä rivit",
+            "pl": "Połącz wiersze",
+            "hi": "पंक्तियाँ जोड़ें",
+            "zh-Hant": "合併行"
           },
           "keys": "J",
           "raw": true
@@ -689,7 +1049,15 @@
             "pt-BR": "Alternar maiúsculas",
             "ja": "大文字小文字を切替",
             "zh-Hans": "切换大小写",
-            "ko": "대소문자 전환"
+            "ko": "대소문자 전환",
+            "nl": "Hoofd-/kleine letters wisselen",
+            "sv": "Växla mellan versaler och gemener",
+            "da": "Skift mellem store og små bogstaver",
+            "nb": "Bytt mellom store og små bokstaver",
+            "fi": "Vaihda isot ja pienet kirjaimet",
+            "pl": "Zmień wielkość liter",
+            "hi": "अक्षर का केस बदलें",
+            "zh-Hant": "切換大小寫"
           },
           "keys": "~",
           "raw": true
@@ -706,7 +1074,15 @@
         "pt-BR": "Buscar e substituir",
         "ja": "検索と置換",
         "zh-Hans": "查找与替换",
-        "ko": "찾기 및 바꾸기"
+        "ko": "찾기 및 바꾸기",
+        "nl": "Zoeken en vervangen",
+        "sv": "Sök och ersätt",
+        "da": "Søg og erstat",
+        "nb": "Søk og erstatt",
+        "fi": "Haku ja korvaus",
+        "pl": "Szukanie i zamiana",
+        "hi": "खोजें और बदलें",
+        "zh-Hant": "搜尋與取代"
       },
       "items": [
         {
@@ -719,7 +1095,15 @@
             "pt-BR": "Buscar para frente",
             "ja": "前方検索",
             "zh-Hans": "向前查找",
-            "ko": "앞으로 찾기"
+            "ko": "앞으로 찾기",
+            "nl": "Vooruit zoeken",
+            "sv": "Sök framåt",
+            "da": "Søg fremad",
+            "nb": "Søk fremover",
+            "fi": "Hae eteenpäin",
+            "pl": "Szukaj do przodu",
+            "hi": "आगे की ओर खोजें",
+            "zh-Hant": "向前搜尋"
           },
           "keys": "/{pattern}",
           "raw": true
@@ -734,7 +1118,15 @@
             "pt-BR": "Buscar para trás",
             "ja": "後方検索",
             "zh-Hans": "向后查找",
-            "ko": "뒤로 찾기"
+            "ko": "뒤로 찾기",
+            "nl": "Achteruit zoeken",
+            "sv": "Sök bakåt",
+            "da": "Søg baglæns",
+            "nb": "Søk bakover",
+            "fi": "Hae taaksepäin",
+            "pl": "Szukaj wstecz",
+            "hi": "पीछे की ओर खोजें",
+            "zh-Hant": "向後搜尋"
           },
           "keys": "?{pattern}",
           "raw": true
@@ -749,7 +1141,15 @@
             "pt-BR": "Próxima / anterior ocorrência",
             "ja": "次/前の一致",
             "zh-Hans": "下/上一个匹配",
-            "ko": "다음/이전 일치"
+            "ko": "다음/이전 일치",
+            "nl": "Volgende / vorige treffer",
+            "sv": "Nästa / föregående träff",
+            "da": "Næste / forrige match",
+            "nb": "Neste / forrige treff",
+            "fi": "Seuraava / edellinen osuma",
+            "pl": "Następne / poprzednie trafienie",
+            "hi": "अगला / पिछला मिलान",
+            "zh-Hant": "下一個／上一個符合項目"
           },
           "keys": "n / N",
           "raw": true
@@ -764,7 +1164,15 @@
             "pt-BR": "Buscar palavra sob o cursor",
             "ja": "カーソル下の単語を検索",
             "zh-Hans": "查找光标处单词",
-            "ko": "커서 아래 단어 찾기"
+            "ko": "커서 아래 단어 찾기",
+            "nl": "Zoeken naar het woord onder de cursor",
+            "sv": "Sök efter ordet under markören",
+            "da": "Søg efter ordet under markøren",
+            "nb": "Søk etter ordet under markøren",
+            "fi": "Hae kohdistimen alla olevaa sanaa",
+            "pl": "Szukaj słowa pod kursorem",
+            "hi": "कर्सर के नीचे का शब्द खोजें",
+            "zh-Hant": "搜尋游標所在的單字"
           },
           "keys": "*",
           "raw": true
@@ -779,7 +1187,15 @@
             "pt-BR": "Substituir no arquivo todo",
             "ja": "ファイル全体を置換",
             "zh-Hans": "全文件替换",
-            "ko": "파일 전체 바꾸기"
+            "ko": "파일 전체 바꾸기",
+            "nl": "In het hele bestand vervangen",
+            "sv": "Ersätt i hela filen",
+            "da": "Erstat i hele filen",
+            "nb": "Erstatt i hele filen",
+            "fi": "Korvaa koko tiedostossa",
+            "pl": "Zamień w całym pliku",
+            "hi": "पूरी फ़ाइल में बदलें",
+            "zh-Hant": "取代整個檔案"
           },
           "keys": ":%s/old/new/g",
           "raw": true
@@ -794,7 +1210,15 @@
             "pt-BR": "Substituir com confirmação",
             "ja": "確認しながら置換",
             "zh-Hans": "替换前确认",
-            "ko": "확인하며 바꾸기"
+            "ko": "확인하며 바꾸기",
+            "nl": "Vervangen met bevestiging",
+            "sv": "Ersätt med bekräftelse",
+            "da": "Erstat med bekræftelse",
+            "nb": "Erstatt med bekreftelse",
+            "fi": "Korvaa vahvistuksella",
+            "pl": "Zamień z potwierdzeniem",
+            "hi": "पुष्टि के साथ बदलें",
+            "zh-Hant": "確認後取代"
           },
           "keys": ":%s/old/new/gc",
           "raw": true
@@ -809,7 +1233,15 @@
             "pt-BR": "Limpar destaque da busca",
             "ja": "検索ハイライトを消去",
             "zh-Hans": "清除查找高亮",
-            "ko": "찾기 강조 해제"
+            "ko": "찾기 강조 해제",
+            "nl": "Zoekmarkering wissen",
+            "sv": "Ta bort sökmarkeringen",
+            "da": "Fjern søgemarkeringen",
+            "nb": "Fjern søkemarkeringen",
+            "fi": "Poista haun korostus",
+            "pl": "Wyczyść podświetlenie wyszukiwania",
+            "hi": "खोज हाइलाइट हटाएँ",
+            "zh-Hant": "清除搜尋醒目標示"
           },
           "keys": ":noh",
           "raw": true
@@ -826,7 +1258,15 @@
         "pt-BR": "Janelas e divisões",
         "ja": "ウインドウと分割",
         "zh-Hans": "窗口与拆分",
-        "ko": "윈도우 및 분할"
+        "ko": "윈도우 및 분할",
+        "nl": "Vensters en splitsingen",
+        "sv": "Fönster och delningar",
+        "da": "Vinduer og opdelinger",
+        "nb": "Vinduer og delinger",
+        "fi": "Ikkunat ja jaot",
+        "pl": "Okna i podziały",
+        "hi": "विंडो और स्प्लिट",
+        "zh-Hant": "視窗與分割"
       },
       "items": [
         {
@@ -839,7 +1279,15 @@
             "pt-BR": "Dividir horizontalmente",
             "ja": "水平方向に分割",
             "zh-Hans": "水平拆分",
-            "ko": "가로로 분할"
+            "ko": "가로로 분할",
+            "nl": "Horizontaal splitsen",
+            "sv": "Dela horisontellt",
+            "da": "Del vandret",
+            "nb": "Del vannrett",
+            "fi": "Jaa vaakasuunnassa",
+            "pl": "Podziel poziomo",
+            "hi": "क्षैतिज रूप से बाँटें",
+            "zh-Hant": "水平分割"
           },
           "keys": ":sp",
           "raw": true
@@ -854,7 +1302,15 @@
             "pt-BR": "Dividir verticalmente",
             "ja": "垂直方向に分割",
             "zh-Hans": "垂直拆分",
-            "ko": "세로로 분할"
+            "ko": "세로로 분할",
+            "nl": "Verticaal splitsen",
+            "sv": "Dela vertikalt",
+            "da": "Del lodret",
+            "nb": "Del loddrett",
+            "fi": "Jaa pystysuunnassa",
+            "pl": "Podziel pionowo",
+            "hi": "लंबवत बाँटें",
+            "zh-Hant": "垂直分割"
           },
           "keys": ":vs",
           "raw": true
@@ -869,7 +1325,15 @@
             "pt-BR": "Dividir janela",
             "ja": "ウインドウを分割",
             "zh-Hans": "拆分窗口",
-            "ko": "윈도우 분할"
+            "ko": "윈도우 분할",
+            "nl": "Venster splitsen",
+            "sv": "Dela fönstret",
+            "da": "Del vinduet",
+            "nb": "Del vinduet",
+            "fi": "Jaa ikkuna",
+            "pl": "Podziel okno",
+            "hi": "विंडो बाँटें",
+            "zh-Hant": "分割視窗"
           },
           "keys": "Ctrl-w s",
           "raw": true
@@ -884,7 +1348,15 @@
             "pt-BR": "Dividir janela verticalmente",
             "ja": "ウインドウを垂直分割",
             "zh-Hans": "垂直拆分窗口",
-            "ko": "윈도우 세로 분할"
+            "ko": "윈도우 세로 분할",
+            "nl": "Venster verticaal splitsen",
+            "sv": "Dela fönstret vertikalt",
+            "da": "Del vinduet lodret",
+            "nb": "Del vinduet loddrett",
+            "fi": "Jaa ikkuna pystysuunnassa",
+            "pl": "Podziel okno pionowo",
+            "hi": "विंडो को लंबवत बाँटें",
+            "zh-Hant": "垂直分割視窗"
           },
           "keys": "Ctrl-w v",
           "raw": true
@@ -899,7 +1371,15 @@
             "pt-BR": "Mover entre divisões",
             "ja": "分割間を移動",
             "zh-Hans": "在拆分间移动",
-            "ko": "분할 간 이동"
+            "ko": "분할 간 이동",
+            "nl": "Tussen splitsingen wisselen",
+            "sv": "Flytta mellan delningar",
+            "da": "Skift mellem opdelinger",
+            "nb": "Bytt mellom delinger",
+            "fi": "Siirry jakojen välillä",
+            "pl": "Przechodź między podziałami",
+            "hi": "स्प्लिट के बीच जाएँ",
+            "zh-Hant": "在分割之間移動"
           },
           "keys": "Ctrl-w h j k l",
           "raw": true
@@ -914,7 +1394,15 @@
             "pt-BR": "Fechar divisão",
             "ja": "分割を閉じる",
             "zh-Hans": "关闭拆分",
-            "ko": "분할 닫기"
+            "ko": "분할 닫기",
+            "nl": "Splitsing sluiten",
+            "sv": "Stäng delningen",
+            "da": "Luk opdelingen",
+            "nb": "Lukk delingen",
+            "fi": "Sulje jako",
+            "pl": "Zamknij podział",
+            "hi": "स्प्लिट बंद करें",
+            "zh-Hant": "關閉分割"
           },
           "keys": "Ctrl-w q",
           "raw": true
@@ -929,7 +1417,15 @@
             "pt-BR": "Fechar as outras divisões",
             "ja": "他の分割を閉じる",
             "zh-Hans": "关闭其他拆分",
-            "ko": "다른 분할 모두 닫기"
+            "ko": "다른 분할 모두 닫기",
+            "nl": "Alle andere splitsingen sluiten",
+            "sv": "Stäng alla andra delningar",
+            "da": "Luk alle andre opdelinger",
+            "nb": "Lukk alle andre delinger",
+            "fi": "Sulje kaikki muut jaot",
+            "pl": "Zamknij pozostałe podziały",
+            "hi": "बाकी सभी स्प्लिट बंद करें",
+            "zh-Hant": "關閉其他所有分割"
           },
           "keys": "Ctrl-w o",
           "raw": true
@@ -944,7 +1440,15 @@
             "pt-BR": "Igualar tamanhos",
             "ja": "分割サイズを均等化",
             "zh-Hans": "均分拆分大小",
-            "ko": "분할 크기 균등화"
+            "ko": "분할 크기 균등화",
+            "nl": "Splitsingen even groot maken",
+            "sv": "Gör delningarna lika stora",
+            "da": "Gør opdelingerne lige store",
+            "nb": "Gjør delingene like store",
+            "fi": "Tasaa jakojen koot",
+            "pl": "Wyrównaj rozmiary podziałów",
+            "hi": "स्प्लिट का आकार बराबर करें",
+            "zh-Hant": "平均分割大小"
           },
           "keys": "Ctrl-w = ",
           "raw": true
@@ -961,7 +1465,15 @@
         "pt-BR": "Buffers e abas",
         "ja": "バッファとタブ",
         "zh-Hans": "缓冲区与标签页",
-        "ko": "버퍼 및 탭"
+        "ko": "버퍼 및 탭",
+        "nl": "Buffers en tabbladen",
+        "sv": "Buffertar och flikar",
+        "da": "Buffere og faner",
+        "nb": "Buffere og faner",
+        "fi": "Puskurit ja välilehdet",
+        "pl": "Bufory i karty",
+        "hi": "बफ़र और टैब",
+        "zh-Hant": "緩衝區與分頁"
       },
       "items": [
         {
@@ -974,7 +1486,15 @@
             "pt-BR": "Listar buffers",
             "ja": "バッファ一覧",
             "zh-Hans": "列出缓冲区",
-            "ko": "버퍼 목록"
+            "ko": "버퍼 목록",
+            "nl": "Buffers weergeven",
+            "sv": "Lista buffertar",
+            "da": "Vis buffere",
+            "nb": "Vis buffere",
+            "fi": "Näytä puskurit",
+            "pl": "Wyświetl bufory",
+            "hi": "बफ़र की सूची",
+            "zh-Hant": "列出緩衝區"
           },
           "keys": ":ls",
           "raw": true
@@ -989,7 +1509,15 @@
             "pt-BR": "Buffer seguinte / anterior",
             "ja": "次/前のバッファ",
             "zh-Hans": "下/上一个缓冲区",
-            "ko": "다음/이전 버퍼"
+            "ko": "다음/이전 버퍼",
+            "nl": "Volgende / vorige buffer",
+            "sv": "Nästa / föregående buffert",
+            "da": "Næste / forrige buffer",
+            "nb": "Neste / forrige buffer",
+            "fi": "Seuraava / edellinen puskuri",
+            "pl": "Następny / poprzedni bufor",
+            "hi": "अगला / पिछला बफ़र",
+            "zh-Hant": "下一個／上一個緩衝區"
           },
           "keys": ":bn / :bp",
           "raw": true
@@ -1004,7 +1532,15 @@
             "pt-BR": "Fechar buffer",
             "ja": "バッファを閉じる",
             "zh-Hans": "关闭缓冲区",
-            "ko": "버퍼 닫기"
+            "ko": "버퍼 닫기",
+            "nl": "Buffer sluiten",
+            "sv": "Stäng bufferten",
+            "da": "Luk bufferen",
+            "nb": "Lukk bufferen",
+            "fi": "Sulje puskuri",
+            "pl": "Zamknij bufor",
+            "hi": "बफ़र बंद करें",
+            "zh-Hant": "關閉緩衝區"
           },
           "keys": ":bd",
           "raw": true
@@ -1019,7 +1555,15 @@
             "pt-BR": "Nova aba",
             "ja": "新規タブ",
             "zh-Hans": "新建标签页",
-            "ko": "새 탭"
+            "ko": "새 탭",
+            "nl": "Nieuw tabblad",
+            "sv": "Ny flik",
+            "da": "Ny fane",
+            "nb": "Ny fane",
+            "fi": "Uusi välilehti",
+            "pl": "Nowa karta",
+            "hi": "नया टैब",
+            "zh-Hant": "新增分頁"
           },
           "keys": ":tabnew",
           "raw": true
@@ -1034,7 +1578,15 @@
             "pt-BR": "Aba seguinte / anterior",
             "ja": "次/前のタブ",
             "zh-Hans": "下/上一个标签页",
-            "ko": "다음/이전 탭"
+            "ko": "다음/이전 탭",
+            "nl": "Volgend / vorig tabblad",
+            "sv": "Nästa / föregående flik",
+            "da": "Næste / forrige fane",
+            "nb": "Neste / forrige fane",
+            "fi": "Seuraava / edellinen välilehti",
+            "pl": "Następna / poprzednia karta",
+            "hi": "अगला / पिछला टैब",
+            "zh-Hant": "下一個／上一個分頁"
           },
           "keys": "gt / gT",
           "raw": true
@@ -1051,7 +1603,15 @@
         "pt-BR": "Marcas e macros",
         "ja": "マークとマクロ",
         "zh-Hans": "标记与宏",
-        "ko": "마크 및 매크로"
+        "ko": "마크 및 매크로",
+        "nl": "Markeringen en macro's",
+        "sv": "Markeringar och makron",
+        "da": "Mærker og makroer",
+        "nb": "Merker og makroer",
+        "fi": "Merkit ja makrot",
+        "pl": "Znaczniki i makra",
+        "hi": "मार्क और मैक्रो",
+        "zh-Hant": "標記與巨集"
       },
       "items": [
         {
@@ -1064,7 +1624,15 @@
             "pt-BR": "Definir marca",
             "ja": "マークを設定",
             "zh-Hans": "设置标记",
-            "ko": "마크 설정"
+            "ko": "마크 설정",
+            "nl": "Markering plaatsen",
+            "sv": "Sätt markering",
+            "da": "Sæt mærke",
+            "nb": "Sett merke",
+            "fi": "Aseta merkki",
+            "pl": "Ustaw znacznik",
+            "hi": "मार्क सेट करें",
+            "zh-Hant": "設定標記"
           },
           "keys": "m{a}",
           "raw": true
@@ -1079,7 +1647,15 @@
             "pt-BR": "Ir para a marca",
             "ja": "マークへジャンプ",
             "zh-Hans": "跳到标记",
-            "ko": "마크로 이동"
+            "ko": "마크로 이동",
+            "nl": "Naar markering springen",
+            "sv": "Hoppa till markering",
+            "da": "Spring til mærke",
+            "nb": "Hopp til merke",
+            "fi": "Hyppää merkkiin",
+            "pl": "Przeskocz do znacznika",
+            "hi": "मार्क पर जाएँ",
+            "zh-Hant": "跳至標記"
           },
           "keys": "'{a}",
           "raw": true
@@ -1094,7 +1670,15 @@
             "pt-BR": "Gravar macro",
             "ja": "マクロを記録",
             "zh-Hans": "录制宏",
-            "ko": "매크로 기록"
+            "ko": "매크로 기록",
+            "nl": "Macro opnemen",
+            "sv": "Spela in makro",
+            "da": "Optag makro",
+            "nb": "Ta opp makro",
+            "fi": "Nauhoita makro",
+            "pl": "Nagraj makro",
+            "hi": "मैक्रो रिकॉर्ड करें",
+            "zh-Hant": "錄製巨集"
           },
           "keys": "q{a}",
           "raw": true
@@ -1109,7 +1693,15 @@
             "pt-BR": "Executar macro",
             "ja": "マクロを実行",
             "zh-Hans": "执行宏",
-            "ko": "매크로 실행"
+            "ko": "매크로 실행",
+            "nl": "Macro afspelen",
+            "sv": "Spela upp makro",
+            "da": "Afspil makro",
+            "nb": "Spill av makro",
+            "fi": "Toista makro",
+            "pl": "Odtwórz makro",
+            "hi": "मैक्रो चलाएँ",
+            "zh-Hant": "播放巨集"
           },
           "keys": "@{a}",
           "raw": true
@@ -1124,7 +1716,15 @@
             "pt-BR": "Repetir última macro",
             "ja": "直前のマクロを繰り返す",
             "zh-Hans": "重复上次宏",
-            "ko": "마지막 매크로 반복"
+            "ko": "마지막 매크로 반복",
+            "nl": "Laatste macro herhalen",
+            "sv": "Upprepa senaste makrot",
+            "da": "Gentag sidste makro",
+            "nb": "Gjenta siste makro",
+            "fi": "Toista viimeisin makro",
+            "pl": "Powtórz ostatnie makro",
+            "hi": "आख़िरी मैक्रो दोहराएँ",
+            "zh-Hant": "重複上次的巨集"
           },
           "keys": "@@",
           "raw": true
@@ -1141,7 +1741,15 @@
         "pt-BR": "Salvar e sair",
         "ja": "保存して終了",
         "zh-Hans": "保存并退出",
-        "ko": "저장 후 종료"
+        "ko": "저장 후 종료",
+        "nl": "Bewaren en stoppen",
+        "sv": "Spara och avsluta",
+        "da": "Gem og afslut",
+        "nb": "Arkiver og avslutt",
+        "fi": "Tallenna ja lopeta",
+        "pl": "Zapisz i zakończ",
+        "hi": "सहेजें और बंद करें",
+        "zh-Hant": "儲存並結束"
       },
       "items": [
         {
@@ -1154,7 +1762,15 @@
             "pt-BR": "Gravar",
             "ja": "書き込み",
             "zh-Hans": "写入",
-            "ko": "저장"
+            "ko": "저장",
+            "nl": "Bewaren",
+            "sv": "Spara",
+            "da": "Gem",
+            "nb": "Arkiver",
+            "fi": "Tallenna",
+            "pl": "Zapisz",
+            "hi": "सहेजें",
+            "zh-Hant": "儲存"
           },
           "keys": ":w",
           "raw": true
@@ -1169,7 +1785,15 @@
             "pt-BR": "Sair",
             "ja": "終了",
             "zh-Hans": "退出",
-            "ko": "종료"
+            "ko": "종료",
+            "nl": "Stoppen",
+            "sv": "Avsluta",
+            "da": "Afslut",
+            "nb": "Avslutt",
+            "fi": "Lopeta",
+            "pl": "Zakończ",
+            "hi": "बंद करें",
+            "zh-Hant": "結束"
           },
           "keys": ":q",
           "raw": true
@@ -1184,7 +1808,15 @@
             "pt-BR": "Gravar e sair",
             "ja": "書き込んで終了",
             "zh-Hans": "写入并退出",
-            "ko": "저장 후 종료"
+            "ko": "저장 후 종료",
+            "nl": "Bewaren en stoppen",
+            "sv": "Spara och avsluta",
+            "da": "Gem og afslut",
+            "nb": "Arkiver og avslutt",
+            "fi": "Tallenna ja lopeta",
+            "pl": "Zapisz i zakończ",
+            "hi": "सहेजें और बंद करें",
+            "zh-Hant": "儲存並結束"
           },
           "keys": ":wq",
           "raw": true
@@ -1199,7 +1831,15 @@
             "pt-BR": "Sair sem salvar",
             "ja": "保存せず終了",
             "zh-Hans": "不保存退出",
-            "ko": "저장하지 않고 종료"
+            "ko": "저장하지 않고 종료",
+            "nl": "Stoppen zonder te bewaren",
+            "sv": "Avsluta utan att spara",
+            "da": "Afslut uden at gemme",
+            "nb": "Avslutt uten å arkivere",
+            "fi": "Lopeta tallentamatta",
+            "pl": "Zakończ bez zapisywania",
+            "hi": "बिना सहेजे बंद करें",
+            "zh-Hant": "不儲存直接結束"
           },
           "keys": ":q!",
           "raw": true
@@ -1214,7 +1854,15 @@
             "pt-BR": "Gravar tudo",
             "ja": "すべて書き込み",
             "zh-Hans": "写入全部",
-            "ko": "모두 저장"
+            "ko": "모두 저장",
+            "nl": "Alles bewaren",
+            "sv": "Spara alla",
+            "da": "Gem alle",
+            "nb": "Arkiver alle",
+            "fi": "Tallenna kaikki",
+            "pl": "Zapisz wszystko",
+            "hi": "सब सहेजें",
+            "zh-Hant": "全部儲存"
           },
           "keys": ":wa",
           "raw": true
@@ -1229,7 +1877,15 @@
             "pt-BR": "Gravar se alterado e sair",
             "ja": "変更時のみ保存して終了",
             "zh-Hans": "有更改则保存并退出",
-            "ko": "변경 시 저장 후 종료"
+            "ko": "변경 시 저장 후 종료",
+            "nl": "Bewaren bij wijzigingen en stoppen",
+            "sv": "Spara om ändrad och avsluta",
+            "da": "Gem hvis ændret, og afslut",
+            "nb": "Arkiver hvis endret, og avslutt",
+            "fi": "Tallenna jos muuttunut ja lopeta",
+            "pl": "Zapisz, jeśli zmieniono, i zakończ",
+            "hi": "बदलाव होने पर सहेजें और बंद करें",
+            "zh-Hant": "有變更時儲存並結束"
           },
           "keys": ":x",
           "raw": true

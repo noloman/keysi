@@ -1,0 +1,301 @@
+{
+  "id": "lazygit",
+  "name": "lazygit",
+  "match": {
+    "bundleIDs": [],
+    "processNames": [
+      "lazygit"
+    ]
+  },
+  "mode": "augment",
+  "priority": 100,
+  "source": "https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md",
+  "license": "CC0-1.0",
+  "groups": [
+    {
+      "title": "Everywhere",
+      "items": [
+        {
+          "title": "Show every keybinding for this panel",
+          "keys": "?",
+          "raw": true
+        },
+        {
+          "title": "Push",
+          "keys": "P",
+          "raw": true
+        },
+        {
+          "title": "Pull",
+          "keys": "p",
+          "raw": true
+        },
+        {
+          "title": "Refresh",
+          "keys": "R",
+          "raw": true
+        },
+        {
+          "title": "Undo (via the reflog)",
+          "keys": "z",
+          "raw": true
+        },
+        {
+          "title": "Redo",
+          "keys": "Z",
+          "raw": true
+        },
+        {
+          "title": "Cycle the screen mode (normal, half, full)",
+          "keys": "+",
+          "raw": true
+        },
+        {
+          "title": "Execute a shell command",
+          "keys": ":",
+          "raw": true
+        },
+        {
+          "title": "View merge/rebase options",
+          "keys": "m",
+          "raw": true
+        },
+        {
+          "title": "Switch to a recent repo",
+          "keys": "Ctrl-r",
+          "raw": true
+        },
+        {
+          "title": "Scroll the main window up",
+          "keys": "K",
+          "raw": true
+        },
+        {
+          "title": "Scroll the main window down",
+          "keys": "J",
+          "raw": true
+        },
+        {
+          "title": "Toggle whitespace in the diff",
+          "keys": "Ctrl-w",
+          "raw": true
+        },
+        {
+          "title": "Quit",
+          "keys": "q",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": "Files",
+      "items": [
+        {
+          "title": "Stage or unstage the file",
+          "keys": "Space",
+          "raw": true
+        },
+        {
+          "title": "Stage all files",
+          "keys": "a",
+          "raw": true
+        },
+        {
+          "title": "Stage individual lines or hunks",
+          "keys": "Enter",
+          "raw": true
+        },
+        {
+          "title": "Commit",
+          "keys": "c",
+          "raw": true
+        },
+        {
+          "title": "Commit without the pre-commit hook",
+          "keys": "w",
+          "raw": true
+        },
+        {
+          "title": "Commit using your git editor",
+          "keys": "C",
+          "raw": true
+        },
+        {
+          "title": "Amend the last commit",
+          "keys": "A",
+          "raw": true
+        },
+        {
+          "title": "Discard changes",
+          "keys": "d",
+          "raw": true
+        },
+        {
+          "title": "Edit the file",
+          "keys": "e",
+          "raw": true
+        },
+        {
+          "title": "Ignore or exclude the file",
+          "keys": "i",
+          "raw": true
+        },
+        {
+          "title": "Stash changes",
+          "keys": "s",
+          "raw": true
+        },
+        {
+          "title": "Fetch",
+          "keys": "f",
+          "raw": true
+        },
+        {
+          "title": "Toggle the file tree view",
+          "keys": "`",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": "Branches",
+      "items": [
+        {
+          "title": "Check out the branch",
+          "keys": "Space",
+          "raw": true
+        },
+        {
+          "title": "Check out by name",
+          "keys": "c",
+          "raw": true
+        },
+        {
+          "title": "Check out the previous branch",
+          "keys": "-",
+          "raw": true
+        },
+        {
+          "title": "New branch",
+          "keys": "n",
+          "raw": true
+        },
+        {
+          "title": "Delete the branch",
+          "keys": "d",
+          "raw": true
+        },
+        {
+          "title": "Rebase the checked-out branch onto this one",
+          "keys": "r",
+          "raw": true
+        },
+        {
+          "title": "Merge into the checked-out branch",
+          "keys": "M",
+          "raw": true
+        },
+        {
+          "title": "Fast-forward the branch",
+          "keys": "f",
+          "raw": true
+        },
+        {
+          "title": "Rename the branch",
+          "keys": "R",
+          "raw": true
+        },
+        {
+          "title": "Create a pull request",
+          "keys": "o",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": "Commits",
+      "items": [
+        {
+          "title": "View the commit's files",
+          "keys": "Enter",
+          "raw": true
+        },
+        {
+          "title": "Squash into the commit below",
+          "keys": "s",
+          "raw": true
+        },
+        {
+          "title": "Fixup into the commit below",
+          "keys": "f",
+          "raw": true
+        },
+        {
+          "title": "Reword",
+          "keys": "r",
+          "raw": true
+        },
+        {
+          "title": "Drop",
+          "keys": "d",
+          "raw": true
+        },
+        {
+          "title": "Edit (start an interactive rebase)",
+          "keys": "e",
+          "raw": true
+        },
+        {
+          "title": "Pick",
+          "keys": "p",
+          "raw": true
+        },
+        {
+          "title": "Move the commit down",
+          "keys": "Ctrl-j",
+          "raw": true
+        },
+        {
+          "title": "Move the commit up",
+          "keys": "Ctrl-k",
+          "raw": true
+        },
+        {
+          "title": "Amend the commit with staged changes",
+          "keys": "A",
+          "raw": true
+        },
+        {
+          "title": "Revert",
+          "keys": "t",
+          "raw": true
+        },
+        {
+          "title": "Tag the commit",
+          "keys": "T",
+          "raw": true
+        },
+        {
+          "title": "Copy (cherry-pick)",
+          "keys": "C",
+          "raw": true
+        },
+        {
+          "title": "Paste (cherry-pick)",
+          "keys": "V",
+          "raw": true
+        },
+        {
+          "title": "Create a new branch from the commit",
+          "keys": "n",
+          "raw": true
+        },
+        {
+          "title": "Check out the commit",
+          "keys": "Space",
+          "raw": true
+        }
+      ]
+    }
+  ]
+}

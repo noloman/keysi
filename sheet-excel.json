@@ -9,7 +9,15 @@
     "pt-BR": "Excel",
     "ja": "Excel",
     "zh-Hans": "Excel",
-    "ko": "Excel"
+    "ko": "Excel",
+    "nl": "Excel",
+    "sv": "Excel",
+    "da": "Excel",
+    "nb": "Excel",
+    "fi": "Excel",
+    "pl": "Excel",
+    "hi": "Excel",
+    "zh-Hant": "Excel"
   },
   "match": {
     "bundleIDs": [
@@ -30,7 +38,15 @@
         "pt-BR": "Mover-se pela planilha",
         "ja": "シート内の移動",
         "zh-Hans": "在工作表中移动",
-        "ko": "시트 내 이동"
+        "ko": "시트 내 이동",
+        "nl": "Door het werkblad navigeren",
+        "sv": "Navigera i bladet",
+        "da": "Navigér i arket",
+        "nb": "Naviger i arket",
+        "fi": "Liikkuminen taulukossa",
+        "pl": "Poruszanie się po arkuszu",
+        "hi": "शीट में घूमना",
+        "zh-Hant": "在工作表中移動"
       },
       "items": [
         {
@@ -43,7 +59,15 @@
             "pt-BR": "Ir para a borda dos dados",
             "ja": "データの端へ移動",
             "zh-Hans": "跳到数据区边缘",
-            "ko": "데이터 가장자리로 이동"
+            "ko": "데이터 가장자리로 이동",
+            "nl": "Naar de rand van de gegevens springen",
+            "sv": "Hoppa till kanten av data",
+            "da": "Spring til kanten af dataene",
+            "nb": "Hopp til kanten av dataene",
+            "fi": "Siirry tietojen reunaan",
+            "pl": "Przejdź na skraj danych",
+            "hi": "डेटा के किनारे पर जाएँ",
+            "zh-Hant": "跳至資料邊緣"
           },
           "keys": "cmd+down"
         },
@@ -57,7 +81,15 @@
             "pt-BR": "Selecionar até a borda dos dados",
             "ja": "データの端まで選択",
             "zh-Hans": "选择到数据区边缘",
-            "ko": "데이터 가장자리까지 선택"
+            "ko": "데이터 가장자리까지 선택",
+            "nl": "Selecteren tot de rand van de gegevens",
+            "sv": "Markera till kanten av data",
+            "da": "Markér til kanten af dataene",
+            "nb": "Marker til kanten av dataene",
+            "fi": "Valitse tietojen reunaan asti",
+            "pl": "Zaznacz do skraju danych",
+            "hi": "डेटा के किनारे तक चुनें",
+            "zh-Hant": "選取至資料邊緣"
           },
           "keys": "cmd+shift+down"
         },
@@ -71,7 +103,15 @@
             "pt-BR": "Selecionar a coluna inteira",
             "ja": "列全体を選択",
             "zh-Hans": "选择整列",
-            "ko": "열 전체 선택"
+            "ko": "열 전체 선택",
+            "nl": "De hele kolom selecteren",
+            "sv": "Markera hela kolumnen",
+            "da": "Markér hele kolonnen",
+            "nb": "Marker hele kolonnen",
+            "fi": "Valitse koko sarake",
+            "pl": "Zaznacz całą kolumnę",
+            "hi": "पूरा कॉलम चुनें",
+            "zh-Hant": "選取整欄"
           },
           "keys": "ctrl+space"
         },
@@ -85,7 +125,15 @@
             "pt-BR": "Selecionar a linha inteira",
             "ja": "行全体を選択",
             "zh-Hans": "选择整行",
-            "ko": "행 전체 선택"
+            "ko": "행 전체 선택",
+            "nl": "De hele rij selecteren",
+            "sv": "Markera hela raden",
+            "da": "Markér hele rækken",
+            "nb": "Marker hele raden",
+            "fi": "Valitse koko rivi",
+            "pl": "Zaznacz cały wiersz",
+            "hi": "पूरी पंक्ति चुनें",
+            "zh-Hant": "選取整列"
           },
           "keys": "shift+space"
         },
@@ -99,7 +147,15 @@
             "pt-BR": "Selecionar a região atual",
             "ja": "現在の範囲を選択",
             "zh-Hans": "选择当前区域",
-            "ko": "현재 영역 선택"
+            "ko": "현재 영역 선택",
+            "nl": "Het huidige gebied selecteren",
+            "sv": "Markera det aktuella området",
+            "da": "Markér det aktuelle område",
+            "nb": "Marker gjeldende område",
+            "fi": "Valitse nykyinen alue",
+            "pl": "Zaznacz bieżący obszar",
+            "hi": "मौजूदा क्षेत्र चुनें",
+            "zh-Hant": "選取目前區域"
           },
           "keys": "cmd+a"
         },
@@ -113,7 +169,15 @@
             "pt-BR": "Próxima planilha",
             "ja": "次のシート",
             "zh-Hans": "下一个工作表",
-            "ko": "다음 시트"
+            "ko": "다음 시트",
+            "nl": "Volgend werkblad",
+            "sv": "Nästa blad",
+            "da": "Næste ark",
+            "nb": "Neste ark",
+            "fi": "Seuraava taulukko",
+            "pl": "Następny arkusz",
+            "hi": "अगली शीट",
+            "zh-Hant": "下一個工作表"
           },
           "keys": "ctrl+pagedown"
         },
@@ -127,7 +191,15 @@
             "pt-BR": "Planilha anterior",
             "ja": "前のシート",
             "zh-Hans": "上一个工作表",
-            "ko": "이전 시트"
+            "ko": "이전 시트",
+            "nl": "Vorig werkblad",
+            "sv": "Föregående blad",
+            "da": "Forrige ark",
+            "nb": "Forrige ark",
+            "fi": "Edellinen taulukko",
+            "pl": "Poprzedni arkusz",
+            "hi": "पिछली शीट",
+            "zh-Hant": "上一個工作表"
           },
           "keys": "ctrl+pageup"
         }
@@ -143,7 +215,15 @@
         "pt-BR": "Inserir dados",
         "ja": "データの入力",
         "zh-Hans": "输入数据",
-        "ko": "데이터 입력"
+        "ko": "데이터 입력",
+        "nl": "Gegevens invoeren",
+        "sv": "Mata in data",
+        "da": "Indtast data",
+        "nb": "Skriv inn data",
+        "fi": "Tietojen syöttö",
+        "pl": "Wprowadzanie danych",
+        "hi": "डेटा दर्ज करना",
+        "zh-Hant": "輸入資料"
       },
       "items": [
         {
@@ -156,7 +236,15 @@
             "pt-BR": "Preencher para baixo a partir da célula acima",
             "ja": "上のセルから下方向にコピー",
             "zh-Hans": "从上方单元格向下填充",
-            "ko": "위 셀에서 아래로 채우기"
+            "ko": "위 셀에서 아래로 채우기",
+            "nl": "Omlaag aanvullen vanuit de cel erboven",
+            "sv": "Fyll nedåt från cellen ovanför",
+            "da": "Udfyld nedad fra cellen ovenfor",
+            "nb": "Fyll ned fra cellen over",
+            "fi": "Täytä alas yllä olevasta solusta",
+            "pl": "Wypełnij w dół z komórki powyżej",
+            "hi": "ऊपर के सेल से नीचे भरें",
+            "zh-Hant": "從上方儲存格向下填滿"
           },
           "keys": "ctrl+d"
         },
@@ -170,7 +258,15 @@
             "pt-BR": "Preencher à direita a partir da célula à esquerda",
             "ja": "左のセルから右方向にコピー",
             "zh-Hans": "从左侧单元格向右填充",
-            "ko": "왼쪽 셀에서 오른쪽으로 채우기"
+            "ko": "왼쪽 셀에서 오른쪽으로 채우기",
+            "nl": "Naar rechts aanvullen vanuit de cel links",
+            "sv": "Fyll åt höger från cellen till vänster",
+            "da": "Udfyld mod højre fra cellen til venstre",
+            "nb": "Fyll mot høyre fra cellen til venstre",
+            "fi": "Täytä oikealle vasemmanpuoleisesta solusta",
+            "pl": "Wypełnij w prawo z komórki po lewej",
+            "hi": "बाईं ओर के सेल से दाईं ओर भरें",
+            "zh-Hant": "從左側儲存格向右填滿"
           },
           "keys": "ctrl+r"
         },
@@ -184,7 +280,15 @@
             "pt-BR": "Preencher toda a seleção com esta entrada",
             "ja": "選択範囲全体に同じ値を入力",
             "zh-Hans": "用此内容填充整个选区",
-            "ko": "선택 영역 전체를 이 값으로 채우기"
+            "ko": "선택 영역 전체를 이 값으로 채우기",
+            "nl": "De hele selectie met deze invoer vullen",
+            "sv": "Fyll hela markeringen med den här inmatningen",
+            "da": "Udfyld hele markeringen med denne indtastning",
+            "nb": "Fyll hele markeringen med denne verdien",
+            "fi": "Täytä koko valinta tällä syötteellä",
+            "pl": "Wypełnij całe zaznaczenie tą wartością",
+            "hi": "पूरे चयन को इस प्रविष्टि से भरें",
+            "zh-Hant": "以此輸入內容填滿整個選取範圍"
           },
           "keys": "ctrl+return"
         },
@@ -198,7 +302,15 @@
             "pt-BR": "Inserir a data de hoje",
             "ja": "今日の日付を挿入",
             "zh-Hans": "插入今天的日期",
-            "ko": "오늘 날짜 삽입"
+            "ko": "오늘 날짜 삽입",
+            "nl": "Datum van vandaag invoegen",
+            "sv": "Infoga dagens datum",
+            "da": "Indsæt dags dato",
+            "nb": "Sett inn dagens dato",
+            "fi": "Lisää tämän päivän päivämäärä",
+            "pl": "Wstaw dzisiejszą datę",
+            "hi": "आज की तारीख़ डालें",
+            "zh-Hant": "插入今天的日期"
           },
           "keys": "ctrl+;"
         },
@@ -212,7 +324,15 @@
             "pt-BR": "Inserir a hora atual",
             "ja": "現在の時刻を挿入",
             "zh-Hans": "插入当前时间",
-            "ko": "현재 시각 삽입"
+            "ko": "현재 시각 삽입",
+            "nl": "Huidige tijd invoegen",
+            "sv": "Infoga aktuell tid",
+            "da": "Indsæt det aktuelle klokkeslæt",
+            "nb": "Sett inn gjeldende klokkeslett",
+            "fi": "Lisää nykyinen kellonaika",
+            "pl": "Wstaw bieżący czas",
+            "hi": "मौजूदा समय डालें",
+            "zh-Hant": "插入目前時間"
           },
           "keys": "cmd+;"
         },
@@ -226,7 +346,15 @@
             "pt-BR": "Editar a célula ativa",
             "ja": "アクティブなセルを編集",
             "zh-Hans": "编辑当前单元格",
-            "ko": "활성 셀 편집"
+            "ko": "활성 셀 편집",
+            "nl": "De actieve cel bewerken",
+            "sv": "Redigera den aktiva cellen",
+            "da": "Rediger den aktive celle",
+            "nb": "Rediger den aktive cellen",
+            "fi": "Muokkaa aktiivista solua",
+            "pl": "Edytuj aktywną komórkę",
+            "hi": "सक्रिय सेल संपादित करें",
+            "zh-Hant": "編輯作用儲存格"
           },
           "keys": "ctrl+u"
         },
@@ -240,7 +368,15 @@
             "pt-BR": "Nova linha dentro da célula",
             "ja": "セル内で改行",
             "zh-Hans": "在单元格内换行",
-            "ko": "셀 안에서 줄 바꿈"
+            "ko": "셀 안에서 줄 바꿈",
+            "nl": "Nieuwe regel in de cel",
+            "sv": "Ny rad i cellen",
+            "da": "Ny linje i cellen",
+            "nb": "Ny linje i cellen",
+            "fi": "Uusi rivi solun sisällä",
+            "pl": "Nowy wiersz w komórce",
+            "hi": "सेल के अंदर नई पंक्ति",
+            "zh-Hant": "在儲存格內換行"
           },
           "keys": "ctrl+option+return"
         },
@@ -254,7 +390,15 @@
             "pt-BR": "AutoSoma",
             "ja": "オートSUM",
             "zh-Hans": "自动求和",
-            "ko": "자동 합계"
+            "ko": "자동 합계",
+            "nl": "AutoSom",
+            "sv": "AutoSumma",
+            "da": "AutoSum",
+            "nb": "Autosummer",
+            "fi": "Automaattinen summa",
+            "pl": "Autosumowanie",
+            "hi": "ऑटोसम",
+            "zh-Hant": "自動加總"
           },
           "keys": "option+shift+="
         }
@@ -270,7 +414,15 @@
         "pt-BR": "Fórmulas",
         "ja": "数式",
         "zh-Hans": "公式",
-        "ko": "수식"
+        "ko": "수식",
+        "nl": "Formules",
+        "sv": "Formler",
+        "da": "Formler",
+        "nb": "Formler",
+        "fi": "Kaavat",
+        "pl": "Formuły",
+        "hi": "सूत्र",
+        "zh-Hant": "公式"
       },
       "items": [
         {
@@ -283,7 +435,15 @@
             "pt-BR": "Alternar referências absolutas e relativas",
             "ja": "絶対参照と相対参照を切り替え",
             "zh-Hans": "切换绝对/相对引用",
-            "ko": "절대 참조와 상대 참조 전환"
+            "ko": "절대 참조와 상대 참조 전환",
+            "nl": "Tussen absolute en relatieve verwijzingen wisselen",
+            "sv": "Växla mellan absoluta och relativa referenser",
+            "da": "Skift mellem absolutte og relative referencer",
+            "nb": "Bytt mellom absolutte og relative referanser",
+            "fi": "Vaihda absoluuttisten ja suhteellisten viittausten välillä",
+            "pl": "Przełącz odwołania bezwzględne i względne",
+            "hi": "निरपेक्ष और सापेक्ष संदर्भ बदलें",
+            "zh-Hant": "切換絕對與相對參照"
           },
           "keys": "cmd+t"
         },
@@ -297,7 +457,15 @@
             "pt-BR": "Mostrar fórmulas em vez dos resultados",
             "ja": "結果ではなく数式を表示",
             "zh-Hans": "显示公式而非结果",
-            "ko": "결과 대신 수식 표시"
+            "ko": "결과 대신 수식 표시",
+            "nl": "Formules tonen in plaats van resultaten",
+            "sv": "Visa formler i stället för resultat",
+            "da": "Vis formler i stedet for resultater",
+            "nb": "Vis formler i stedet for resultater",
+            "fi": "Näytä kaavat tulosten sijaan",
+            "pl": "Pokaż formuły zamiast wyników",
+            "hi": "परिणामों की जगह सूत्र दिखाएँ",
+            "zh-Hant": "顯示公式而非結果"
           },
           "keys": "ctrl+`"
         },
@@ -311,7 +479,15 @@
             "pt-BR": "Expandir ou recolher a barra de fórmulas",
             "ja": "数式バーを展開/折りたたみ",
             "zh-Hans": "展开或折叠编辑栏",
-            "ko": "수식 입력줄 펼치기/접기"
+            "ko": "수식 입력줄 펼치기/접기",
+            "nl": "De formulebalk uitvouwen of samenvouwen",
+            "sv": "Expandera eller komprimera formelfältet",
+            "da": "Udvid eller skjul formellinjen",
+            "nb": "Utvid eller skjul formellinjen",
+            "fi": "Laajenna tai tiivistä kaavapalkki",
+            "pl": "Rozwiń lub zwiń pasek formuły",
+            "hi": "फ़ॉर्मूला बार को बड़ा या छोटा करें",
+            "zh-Hant": "展開或收合編輯列"
           },
           "keys": "ctrl+shift+u"
         },
@@ -325,7 +501,15 @@
             "pt-BR": "Inserir como fórmula de matriz",
             "ja": "配列数式として入力",
             "zh-Hans": "以数组公式输入",
-            "ko": "배열 수식으로 입력"
+            "ko": "배열 수식으로 입력",
+            "nl": "Als matrixformule invoeren",
+            "sv": "Ange som matrisformel",
+            "da": "Indtast som matrixformel",
+            "nb": "Skriv inn som matriseformel",
+            "fi": "Syötä matriisikaavana",
+            "pl": "Wprowadź jako formułę tablicową",
+            "hi": "ऐरे सूत्र के रूप में दर्ज करें",
+            "zh-Hant": "以陣列公式輸入"
           },
           "keys": "ctrl+shift+return"
         }
@@ -341,7 +525,15 @@
         "pt-BR": "Formatação",
         "ja": "書式",
         "zh-Hans": "格式",
-        "ko": "서식"
+        "ko": "서식",
+        "nl": "Opmaak",
+        "sv": "Formatering",
+        "da": "Formatering",
+        "nb": "Formatering",
+        "fi": "Muotoilu",
+        "pl": "Formatowanie",
+        "hi": "फ़ॉर्मैटिंग",
+        "zh-Hant": "格式"
       },
       "items": [
         {
@@ -354,7 +546,15 @@
             "pt-BR": "Formato de moeda",
             "ja": "通貨の書式",
             "zh-Hans": "货币格式",
-            "ko": "통화 서식"
+            "ko": "통화 서식",
+            "nl": "Valutaopmaak",
+            "sv": "Valutaformat",
+            "da": "Valutaformat",
+            "nb": "Valutaformat",
+            "fi": "Valuuttamuoto",
+            "pl": "Format walutowy",
+            "hi": "मुद्रा प्रारूप",
+            "zh-Hant": "貨幣格式"
           },
           "keys": "ctrl+shift+$"
         },
@@ -368,7 +568,15 @@
             "pt-BR": "Formato de porcentagem",
             "ja": "パーセントの書式",
             "zh-Hans": "百分比格式",
-            "ko": "백분율 서식"
+            "ko": "백분율 서식",
+            "nl": "Procentopmaak",
+            "sv": "Procentformat",
+            "da": "Procentformat",
+            "nb": "Prosentformat",
+            "fi": "Prosenttimuoto",
+            "pl": "Format procentowy",
+            "hi": "प्रतिशत प्रारूप",
+            "zh-Hant": "百分比格式"
           },
           "keys": "ctrl+shift+%"
         },
@@ -382,7 +590,15 @@
             "pt-BR": "Formato de data",
             "ja": "日付の書式",
             "zh-Hans": "日期格式",
-            "ko": "날짜 서식"
+            "ko": "날짜 서식",
+            "nl": "Datumopmaak",
+            "sv": "Datumformat",
+            "da": "Datoformat",
+            "nb": "Datoformat",
+            "fi": "Päivämäärämuoto",
+            "pl": "Format daty",
+            "hi": "तारीख़ प्रारूप",
+            "zh-Hant": "日期格式"
           },
           "keys": "ctrl+shift+#"
         },
@@ -396,7 +612,15 @@
             "pt-BR": "Formato geral",
             "ja": "標準の書式",
             "zh-Hans": "常规格式",
-            "ko": "일반 서식"
+            "ko": "일반 서식",
+            "nl": "Standaardopmaak",
+            "sv": "Allmänt format",
+            "da": "Generelt format",
+            "nb": "Generelt format",
+            "fi": "Yleismuoto",
+            "pl": "Format ogólny",
+            "hi": "सामान्य प्रारूप",
+            "zh-Hant": "通用格式"
           },
           "keys": "ctrl+shift+~"
         },
@@ -410,7 +634,15 @@
             "pt-BR": "Formatar células…",
             "ja": "セルの書式設定…",
             "zh-Hans": "设置单元格格式…",
-            "ko": "셀 서식…"
+            "ko": "셀 서식…",
+            "nl": "Cellen opmaken…",
+            "sv": "Formatera celler …",
+            "da": "Formater celler …",
+            "nb": "Formater celler …",
+            "fi": "Muotoile solut…",
+            "pl": "Formatuj komórki…",
+            "hi": "सेल फ़ॉर्मैट करें…",
+            "zh-Hant": "設定儲存格格式…"
           },
           "keys": "cmd+1"
         }
@@ -426,7 +658,15 @@
         "pt-BR": "Linhas, colunas e células",
         "ja": "行・列・セル",
         "zh-Hans": "行、列和单元格",
-        "ko": "행, 열, 셀"
+        "ko": "행, 열, 셀",
+        "nl": "Rijen, kolommen en cellen",
+        "sv": "Rader, kolumner och celler",
+        "da": "Rækker, kolonner og celler",
+        "nb": "Rader, kolonner og celler",
+        "fi": "Rivit, sarakkeet ja solut",
+        "pl": "Wiersze, kolumny i komórki",
+        "hi": "पंक्तियाँ, कॉलम और सेल",
+        "zh-Hant": "列、欄與儲存格"
       },
       "items": [
         {
@@ -439,7 +679,15 @@
             "pt-BR": "Inserir células, linhas ou colunas",
             "ja": "セル・行・列を挿入",
             "zh-Hans": "插入单元格、行或列",
-            "ko": "셀, 행 또는 열 삽입"
+            "ko": "셀, 행 또는 열 삽입",
+            "nl": "Cellen, rijen of kolommen invoegen",
+            "sv": "Infoga celler, rader eller kolumner",
+            "da": "Indsæt celler, rækker eller kolonner",
+            "nb": "Sett inn celler, rader eller kolonner",
+            "fi": "Lisää soluja, rivejä tai sarakkeita",
+            "pl": "Wstaw komórki, wiersze lub kolumny",
+            "hi": "सेल, पंक्तियाँ या कॉलम डालें",
+            "zh-Hant": "插入儲存格、列或欄"
           },
           "keys": "⌃⇧+"
         },
@@ -453,7 +701,15 @@
             "pt-BR": "Excluir células, linhas ou colunas",
             "ja": "セル・行・列を削除",
             "zh-Hans": "删除单元格、行或列",
-            "ko": "셀, 행 또는 열 삭제"
+            "ko": "셀, 행 또는 열 삭제",
+            "nl": "Cellen, rijen of kolommen verwijderen",
+            "sv": "Radera celler, rader eller kolumner",
+            "da": "Slet celler, rækker eller kolonner",
+            "nb": "Slett celler, rader eller kolonner",
+            "fi": "Poista soluja, rivejä tai sarakkeita",
+            "pl": "Usuń komórki, wiersze lub kolumny",
+            "hi": "सेल, पंक्तियाँ या कॉलम हटाएँ",
+            "zh-Hant": "刪除儲存格、列或欄"
           },
           "keys": "⌘-"
         },
@@ -467,7 +723,15 @@
             "pt-BR": "Ocultar as linhas selecionadas",
             "ja": "選択した行を非表示",
             "zh-Hans": "隐藏选中的行",
-            "ko": "선택한 행 숨기기"
+            "ko": "선택한 행 숨기기",
+            "nl": "De geselecteerde rijen verbergen",
+            "sv": "Dölj de markerade raderna",
+            "da": "Skjul de markerede rækker",
+            "nb": "Skjul de merkede radene",
+            "fi": "Piilota valitut rivit",
+            "pl": "Ukryj zaznaczone wiersze",
+            "hi": "चुनी हुई पंक्तियाँ छिपाएँ",
+            "zh-Hant": "隱藏選取的列"
           },
           "keys": "ctrl+9"
         },
@@ -481,7 +745,15 @@
             "pt-BR": "Ocultar as colunas selecionadas",
             "ja": "選択した列を非表示",
             "zh-Hans": "隐藏选中的列",
-            "ko": "선택한 열 숨기기"
+            "ko": "선택한 열 숨기기",
+            "nl": "De geselecteerde kolommen verbergen",
+            "sv": "Dölj de markerade kolumnerna",
+            "da": "Skjul de markerede kolonner",
+            "nb": "Skjul de merkede kolonnene",
+            "fi": "Piilota valitut sarakkeet",
+            "pl": "Ukryj zaznaczone kolumny",
+            "hi": "चुने हुए कॉलम छिपाएँ",
+            "zh-Hant": "隱藏選取的欄"
           },
           "keys": "ctrl+0"
         },
@@ -495,7 +767,15 @@
             "pt-BR": "Exibir as linhas ocultas",
             "ja": "非表示の行を再表示",
             "zh-Hans": "显示隐藏的行",
-            "ko": "숨긴 행 표시"
+            "ko": "숨긴 행 표시",
+            "nl": "De verborgen rijen tonen",
+            "sv": "Visa de dolda raderna",
+            "da": "Vis de skjulte rækker",
+            "nb": "Vis de skjulte radene",
+            "fi": "Näytä piilotetut rivit",
+            "pl": "Pokaż ukryte wiersze",
+            "hi": "छिपी हुई पंक्तियाँ दिखाएँ",
+            "zh-Hant": "顯示隱藏的列"
           },
           "keys": "ctrl+shift+9"
         }

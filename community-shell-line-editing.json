@@ -1,0 +1,137 @@
+{
+  "id": "shell-line-editing",
+  "name": "Shell line editing (Emacs keys)",
+  "match": {
+    "bundleIDs": [],
+    "processNames": [
+      "bash",
+      "zsh",
+      "fish"
+    ]
+  },
+  "mode": "augment",
+  "priority": 50,
+  "source": [
+    "https://tiswww.case.edu/php/chet/readline/readline.html#Bindable-Readline-Commands",
+    "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html",
+    "https://fishshell.com/docs/current/interactive.html#command-line-editor"
+  ],
+  "license": "CC0-1.0",
+  "groups": [
+    {
+      "title": "Moving (⌥ needs Option as Meta in your terminal)",
+      "items": [
+        {
+          "title": "Start of the line",
+          "keys": "ctrl+a",
+          "raw": false
+        },
+        {
+          "title": "End of the line",
+          "keys": "ctrl+e",
+          "raw": false
+        },
+        {
+          "title": "Back one character",
+          "keys": "ctrl+b",
+          "raw": false
+        },
+        {
+          "title": "Forward one character",
+          "keys": "ctrl+f",
+          "raw": false
+        },
+        {
+          "title": "Back one word",
+          "keys": "alt+b",
+          "raw": false
+        },
+        {
+          "title": "Forward one word",
+          "keys": "alt+f",
+          "raw": false
+        }
+      ]
+    },
+    {
+      "title": "History",
+      "items": [
+        {
+          "title": "Previous command",
+          "keys": "ctrl+p",
+          "raw": false
+        },
+        {
+          "title": "Next command",
+          "keys": "ctrl+n",
+          "raw": false
+        },
+        {
+          "title": "Search history",
+          "keys": "ctrl+r",
+          "raw": false
+        }
+      ]
+    },
+    {
+      "title": "Editing",
+      "items": [
+        {
+          "title": "Delete the character under the cursor (exits on an empty line)",
+          "keys": "ctrl+d",
+          "raw": false
+        },
+        {
+          "title": "Delete the word before the cursor",
+          "keys": "alt+backspace",
+          "raw": false
+        },
+        {
+          "title": "Delete the word after the cursor",
+          "keys": "alt+d",
+          "raw": false
+        },
+        {
+          "title": "Cut from the cursor to the end of the line",
+          "keys": "ctrl+k",
+          "raw": false
+        },
+        {
+          "title": "Paste what you last cut",
+          "keys": "ctrl+y",
+          "raw": false
+        },
+        {
+          "title": "Cycle through earlier cuts after pasting",
+          "keys": "alt+y",
+          "raw": false
+        },
+        {
+          "title": "Swap the two characters around the cursor",
+          "keys": "ctrl+t",
+          "raw": false
+        },
+        {
+          "title": "Swap the two words around the cursor",
+          "keys": "alt+t",
+          "raw": false
+        },
+        {
+          "title": "Uppercase the word",
+          "keys": "alt+u",
+          "raw": false
+        },
+        {
+          "title": "Capitalise the word",
+          "keys": "alt+c",
+          "raw": false
+        },
+        {
+          "title": "Clear the screen",
+          "keys": "ctrl+l",
+          "raw": false
+        }
+      ]
+    }
+  ]
+}

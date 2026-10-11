@@ -9,7 +9,15 @@
     "pt-BR": "tmux",
     "ja": "tmux",
     "zh-Hans": "tmux",
-    "ko": "tmux"
+    "ko": "tmux",
+    "nl": "tmux",
+    "sv": "tmux",
+    "da": "tmux",
+    "nb": "tmux",
+    "fi": "tmux",
+    "pl": "tmux",
+    "hi": "tmux",
+    "zh-Hant": "tmux"
   },
   "match": {
     "bundleIDs": [],
@@ -30,7 +38,15 @@
         "pt-BR": "Painéis",
         "ja": "ペイン",
         "zh-Hans": "窗格",
-        "ko": "창"
+        "ko": "창",
+        "nl": "Panelen",
+        "sv": "Rutor",
+        "da": "Ruder",
+        "nb": "Ruter",
+        "fi": "Ruudut",
+        "pl": "Panele",
+        "hi": "पेन",
+        "zh-Hant": "窗格"
       },
       "items": [
         {
@@ -43,7 +59,15 @@
             "pt-BR": "Dividir horizontalmente",
             "ja": "水平方向に分割",
             "zh-Hans": "水平拆分",
-            "ko": "가로로 분할"
+            "ko": "가로로 분할",
+            "nl": "Horizontaal splitsen",
+            "sv": "Dela horisontellt",
+            "da": "Del vandret",
+            "nb": "Del vannrett",
+            "fi": "Jaa vaakasuunnassa",
+            "pl": "Podziel poziomo",
+            "hi": "क्षैतिज रूप से बाँटें",
+            "zh-Hant": "水平分割"
           },
           "keys": "Ctrl-b %",
           "raw": true
@@ -58,7 +82,15 @@
             "pt-BR": "Dividir verticalmente",
             "ja": "垂直方向に分割",
             "zh-Hans": "垂直拆分",
-            "ko": "세로로 분할"
+            "ko": "세로로 분할",
+            "nl": "Verticaal splitsen",
+            "sv": "Dela vertikalt",
+            "da": "Del lodret",
+            "nb": "Del loddrett",
+            "fi": "Jaa pystysuunnassa",
+            "pl": "Podziel pionowo",
+            "hi": "लंबवत बाँटें",
+            "zh-Hant": "垂直分割"
           },
           "keys": "Ctrl-b \"",
           "raw": true
@@ -73,7 +105,15 @@
             "pt-BR": "Alternar painel",
             "ja": "ペインを切り替え",
             "zh-Hans": "切换窗格",
-            "ko": "창 전환"
+            "ko": "창 전환",
+            "nl": "Van paneel wisselen",
+            "sv": "Byt ruta",
+            "da": "Skift rude",
+            "nb": "Bytt rute",
+            "fi": "Vaihda ruutua",
+            "pl": "Przełącz panel",
+            "hi": "पेन बदलें",
+            "zh-Hant": "切換窗格"
           },
           "keys": "Ctrl-b <arrow>",
           "raw": true
@@ -88,7 +128,15 @@
             "pt-BR": "Próximo painel",
             "ja": "次のペイン",
             "zh-Hans": "下一个窗格",
-            "ko": "다음 창"
+            "ko": "다음 창",
+            "nl": "Volgend paneel",
+            "sv": "Nästa ruta",
+            "da": "Næste rude",
+            "nb": "Neste rute",
+            "fi": "Seuraava ruutu",
+            "pl": "Następny panel",
+            "hi": "अगला पेन",
+            "zh-Hant": "下一個窗格"
           },
           "keys": "Ctrl-b o",
           "raw": true
@@ -103,7 +151,15 @@
             "pt-BR": "Último painel ativo",
             "ja": "直前のペイン",
             "zh-Hans": "上一个活动窗格",
-            "ko": "마지막 활성 창"
+            "ko": "마지막 활성 창",
+            "nl": "Laatst actieve paneel",
+            "sv": "Senast aktiva rutan",
+            "da": "Sidst aktive rude",
+            "nb": "Sist aktive rute",
+            "fi": "Viimeksi aktiivinen ruutu",
+            "pl": "Ostatnio aktywny panel",
+            "hi": "आख़िरी सक्रिय पेन",
+            "zh-Hant": "上次使用的窗格"
           },
           "keys": "Ctrl-b ;",
           "raw": true
@@ -118,7 +174,15 @@
             "pt-BR": "Fechar painel",
             "ja": "ペインを閉じる",
             "zh-Hans": "关闭窗格",
-            "ko": "창 닫기"
+            "ko": "창 닫기",
+            "nl": "Paneel sluiten",
+            "sv": "Stäng rutan",
+            "da": "Luk rude",
+            "nb": "Lukk rute",
+            "fi": "Sulje ruutu",
+            "pl": "Zamknij panel",
+            "hi": "पेन बंद करें",
+            "zh-Hant": "關閉窗格"
           },
           "keys": "Ctrl-b x",
           "raw": true
@@ -133,7 +197,15 @@
             "pt-BR": "Ampliar painel",
             "ja": "ペインをズーム",
             "zh-Hans": "缩放窗格",
-            "ko": "창 확대"
+            "ko": "창 확대",
+            "nl": "Paneel zoomen",
+            "sv": "Zooma rutan",
+            "da": "Zoom rude",
+            "nb": "Zoom rute",
+            "fi": "Zoomaa ruutua",
+            "pl": "Powiększ panel",
+            "hi": "पेन ज़ूम करें",
+            "zh-Hant": "縮放窗格"
           },
           "keys": "Ctrl-b z",
           "raw": true
@@ -148,7 +220,15 @@
             "pt-BR": "Alternar layouts",
             "ja": "レイアウトを切替",
             "zh-Hans": "切换窗格布局",
-            "ko": "창 배치 전환"
+            "ko": "창 배치 전환",
+            "nl": "Door paneelindelingen schakelen",
+            "sv": "Växla rutlayouter",
+            "da": "Skift mellem rudelayouts",
+            "nb": "Bytt mellom rutelayouter",
+            "fi": "Selaa ruutujen asetteluja",
+            "pl": "Przełączaj układy paneli",
+            "hi": "पेन लेआउट बदलते रहें",
+            "zh-Hant": "循環切換窗格版面"
           },
           "keys": "Ctrl-b space",
           "raw": true
@@ -163,7 +243,15 @@
             "pt-BR": "Mover painel à esquerda",
             "ja": "ペインを左へ移動",
             "zh-Hans": "左移窗格",
-            "ko": "창 왼쪽 이동"
+            "ko": "창 왼쪽 이동",
+            "nl": "Paneel naar links verplaatsen",
+            "sv": "Flytta rutan åt vänster",
+            "da": "Flyt rude til venstre",
+            "nb": "Flytt rute til venstre",
+            "fi": "Siirrä ruutu vasemmalle",
+            "pl": "Przenieś panel w lewo",
+            "hi": "पेन को बाईं ओर ले जाएँ",
+            "zh-Hant": "向左移動窗格"
           },
           "keys": "Ctrl-b {",
           "raw": true
@@ -178,7 +266,15 @@
             "pt-BR": "Mover painel à direita",
             "ja": "ペインを右へ移動",
             "zh-Hans": "右移窗格",
-            "ko": "창 오른쪽 이동"
+            "ko": "창 오른쪽 이동",
+            "nl": "Paneel naar rechts verplaatsen",
+            "sv": "Flytta rutan åt höger",
+            "da": "Flyt rude til højre",
+            "nb": "Flytt rute til høyre",
+            "fi": "Siirrä ruutu oikealle",
+            "pl": "Przenieś panel w prawo",
+            "hi": "पेन को दाईं ओर ले जाएँ",
+            "zh-Hant": "向右移動窗格"
           },
           "keys": "Ctrl-b }",
           "raw": true
@@ -193,7 +289,15 @@
             "pt-BR": "Redimensionar painel",
             "ja": "ペインをリサイズ",
             "zh-Hans": "调整窗格大小",
-            "ko": "창 크기 조정"
+            "ko": "창 크기 조정",
+            "nl": "Paneelgrootte aanpassen",
+            "sv": "Ändra storlek på rutan",
+            "da": "Tilpas rudens størrelse",
+            "nb": "Endre størrelse på ruten",
+            "fi": "Muuta ruudun kokoa",
+            "pl": "Zmień rozmiar panelu",
+            "hi": "पेन का आकार बदलें",
+            "zh-Hant": "調整窗格大小"
           },
           "keys": "Ctrl-b Ctrl-<arrow>",
           "raw": true
@@ -208,7 +312,15 @@
             "pt-BR": "Separar painel em janela",
             "ja": "ペインをウインドウ化",
             "zh-Hans": "窗格独立为窗口",
-            "ko": "창을 윈도우로 분리"
+            "ko": "창을 윈도우로 분리",
+            "nl": "Paneel omzetten in een eigen venster",
+            "sv": "Bryt ut rutan till ett eget fönster",
+            "da": "Gør rude til et eget vindue",
+            "nb": "Gjør rute om til et eget vindu",
+            "fi": "Irrota ruutu omaksi ikkunakseen",
+            "pl": "Wydziel panel do osobnego okna",
+            "hi": "पेन को अलग विंडो में बदलें",
+            "zh-Hant": "將窗格拆成獨立視窗"
           },
           "keys": "Ctrl-b !",
           "raw": true
@@ -223,7 +335,15 @@
             "pt-BR": "Mostrar números dos painéis",
             "ja": "ペイン番号を表示",
             "zh-Hans": "显示窗格编号",
-            "ko": "창 번호 표시"
+            "ko": "창 번호 표시",
+            "nl": "Paneelnummers tonen",
+            "sv": "Visa rutnummer",
+            "da": "Vis rudenumre",
+            "nb": "Vis rutenumre",
+            "fi": "Näytä ruutujen numerot",
+            "pl": "Pokaż numery paneli",
+            "hi": "पेन नंबर दिखाएँ",
+            "zh-Hant": "顯示窗格編號"
           },
           "keys": "Ctrl-b q",
           "raw": true
@@ -240,7 +360,15 @@
         "pt-BR": "Janelas",
         "ja": "ウインドウ",
         "zh-Hans": "窗口",
-        "ko": "윈도우"
+        "ko": "윈도우",
+        "nl": "Vensters",
+        "sv": "Fönster",
+        "da": "Vinduer",
+        "nb": "Vinduer",
+        "fi": "Ikkunat",
+        "pl": "Okna",
+        "hi": "विंडो",
+        "zh-Hant": "視窗"
       },
       "items": [
         {
@@ -253,7 +381,15 @@
             "pt-BR": "Nova janela",
             "ja": "新規ウインドウ",
             "zh-Hans": "新建窗口",
-            "ko": "새 윈도우"
+            "ko": "새 윈도우",
+            "nl": "Nieuw venster",
+            "sv": "Nytt fönster",
+            "da": "Nyt vindue",
+            "nb": "Nytt vindu",
+            "fi": "Uusi ikkuna",
+            "pl": "Nowe okno",
+            "hi": "नई विंडो",
+            "zh-Hant": "新增視窗"
           },
           "keys": "Ctrl-b c",
           "raw": true
@@ -268,7 +404,15 @@
             "pt-BR": "Janela seguinte / anterior",
             "ja": "次/前のウインドウ",
             "zh-Hans": "下/上一个窗口",
-            "ko": "다음/이전 윈도우"
+            "ko": "다음/이전 윈도우",
+            "nl": "Volgend / vorig venster",
+            "sv": "Nästa / föregående fönster",
+            "da": "Næste / forrige vindue",
+            "nb": "Neste / forrige vindu",
+            "fi": "Seuraava / edellinen ikkuna",
+            "pl": "Następne / poprzednie okno",
+            "hi": "अगली / पिछली विंडो",
+            "zh-Hant": "下一個／上一個視窗"
           },
           "keys": "Ctrl-b n / p",
           "raw": true
@@ -283,7 +427,15 @@
             "pt-BR": "Ir para a janela n",
             "ja": "n番のウインドウへ",
             "zh-Hans": "跳到第 n 个窗口",
-            "ko": "n번 윈도우로"
+            "ko": "n번 윈도우로",
+            "nl": "Naar venster n gaan",
+            "sv": "Gå till fönster n",
+            "da": "Gå til vindue n",
+            "nb": "Gå til vindu n",
+            "fi": "Siirry ikkunaan n",
+            "pl": "Przejdź do okna n",
+            "hi": "विंडो n पर जाएँ",
+            "zh-Hant": "前往視窗 n"
           },
           "keys": "Ctrl-b {n}",
           "raw": true
@@ -298,7 +450,15 @@
             "pt-BR": "Renomear janela",
             "ja": "ウインドウ名を変更",
             "zh-Hans": "重命名窗口",
-            "ko": "윈도우 이름 변경"
+            "ko": "윈도우 이름 변경",
+            "nl": "Venster hernoemen",
+            "sv": "Byt namn på fönstret",
+            "da": "Omdøb vindue",
+            "nb": "Gi vinduet nytt navn",
+            "fi": "Nimeä ikkuna uudelleen",
+            "pl": "Zmień nazwę okna",
+            "hi": "विंडो का नाम बदलें",
+            "zh-Hant": "重新命名視窗"
           },
           "keys": "Ctrl-b ,",
           "raw": true
@@ -313,7 +473,15 @@
             "pt-BR": "Listar janelas",
             "ja": "ウインドウ一覧",
             "zh-Hans": "列出窗口",
-            "ko": "윈도우 목록"
+            "ko": "윈도우 목록",
+            "nl": "Vensters weergeven",
+            "sv": "Lista fönster",
+            "da": "Vis vinduer",
+            "nb": "Vis vinduer",
+            "fi": "Näytä ikkunat",
+            "pl": "Wyświetl okna",
+            "hi": "विंडो की सूची",
+            "zh-Hant": "列出視窗"
           },
           "keys": "Ctrl-b w",
           "raw": true
@@ -328,7 +496,15 @@
             "pt-BR": "Fechar janela",
             "ja": "ウインドウを終了",
             "zh-Hans": "关闭窗口",
-            "ko": "윈도우 종료"
+            "ko": "윈도우 종료",
+            "nl": "Venster sluiten",
+            "sv": "Stäng fönstret",
+            "da": "Luk vindue",
+            "nb": "Lukk vindu",
+            "fi": "Sulje ikkuna",
+            "pl": "Zamknij okno",
+            "hi": "विंडो बंद करें",
+            "zh-Hant": "關閉視窗"
           },
           "keys": "Ctrl-b &",
           "raw": true
@@ -343,7 +519,15 @@
             "pt-BR": "Última janela ativa",
             "ja": "直前のウインドウ",
             "zh-Hans": "上一个活动窗口",
-            "ko": "마지막 활성 윈도우"
+            "ko": "마지막 활성 윈도우",
+            "nl": "Laatst actieve venster",
+            "sv": "Senast aktiva fönstret",
+            "da": "Sidst aktive vindue",
+            "nb": "Sist aktive vindu",
+            "fi": "Viimeksi aktiivinen ikkuna",
+            "pl": "Ostatnio aktywne okno",
+            "hi": "आख़िरी सक्रिय विंडो",
+            "zh-Hant": "上次使用的視窗"
           },
           "keys": "Ctrl-b l",
           "raw": true
@@ -358,7 +542,15 @@
             "pt-BR": "Localizar janela",
             "ja": "ウインドウを検索",
             "zh-Hans": "查找窗口",
-            "ko": "윈도우 찾기"
+            "ko": "윈도우 찾기",
+            "nl": "Venster zoeken",
+            "sv": "Sök fönster",
+            "da": "Find vindue",
+            "nb": "Finn vindu",
+            "fi": "Etsi ikkuna",
+            "pl": "Znajdź okno",
+            "hi": "विंडो खोजें",
+            "zh-Hant": "尋找視窗"
           },
           "keys": "Ctrl-b f",
           "raw": true
@@ -375,7 +567,15 @@
         "pt-BR": "Sessões",
         "ja": "セッション",
         "zh-Hans": "会话",
-        "ko": "세션"
+        "ko": "세션",
+        "nl": "Sessies",
+        "sv": "Sessioner",
+        "da": "Sessioner",
+        "nb": "Økter",
+        "fi": "Istunnot",
+        "pl": "Sesje",
+        "hi": "सेशन",
+        "zh-Hant": "工作階段"
       },
       "items": [
         {
@@ -388,7 +588,15 @@
             "pt-BR": "Desconectar",
             "ja": "デタッチ",
             "zh-Hans": "分离",
-            "ko": "분리"
+            "ko": "분리",
+            "nl": "Loskoppelen",
+            "sv": "Koppla från",
+            "da": "Frakobl",
+            "nb": "Koble fra",
+            "fi": "Irrota",
+            "pl": "Odłącz",
+            "hi": "डिटैच करें",
+            "zh-Hant": "分離"
           },
           "keys": "Ctrl-b d",
           "raw": true
@@ -403,7 +611,15 @@
             "pt-BR": "Listar sessões",
             "ja": "セッション一覧",
             "zh-Hans": "列出会话",
-            "ko": "세션 목록"
+            "ko": "세션 목록",
+            "nl": "Sessies weergeven",
+            "sv": "Lista sessioner",
+            "da": "Vis sessioner",
+            "nb": "Vis økter",
+            "fi": "Näytä istunnot",
+            "pl": "Wyświetl sesje",
+            "hi": "सेशन की सूची",
+            "zh-Hant": "列出工作階段"
           },
           "keys": "Ctrl-b s",
           "raw": true
@@ -418,7 +634,15 @@
             "pt-BR": "Renomear sessão",
             "ja": "セッション名を変更",
             "zh-Hans": "重命名会话",
-            "ko": "세션 이름 변경"
+            "ko": "세션 이름 변경",
+            "nl": "Sessie hernoemen",
+            "sv": "Byt namn på sessionen",
+            "da": "Omdøb session",
+            "nb": "Gi økten nytt navn",
+            "fi": "Nimeä istunto uudelleen",
+            "pl": "Zmień nazwę sesji",
+            "hi": "सेशन का नाम बदलें",
+            "zh-Hant": "重新命名工作階段"
           },
           "keys": "Ctrl-b $",
           "raw": true
@@ -433,7 +657,15 @@
             "pt-BR": "Sessão anterior",
             "ja": "前のセッション",
             "zh-Hans": "上一个会话",
-            "ko": "이전 세션"
+            "ko": "이전 세션",
+            "nl": "Vorige sessie",
+            "sv": "Föregående session",
+            "da": "Forrige session",
+            "nb": "Forrige økt",
+            "fi": "Edellinen istunto",
+            "pl": "Poprzednia sesja",
+            "hi": "पिछला सेशन",
+            "zh-Hant": "上一個工作階段"
           },
           "keys": "Ctrl-b (",
           "raw": true
@@ -448,7 +680,15 @@
             "pt-BR": "Próxima sessão",
             "ja": "次のセッション",
             "zh-Hans": "下一个会话",
-            "ko": "다음 세션"
+            "ko": "다음 세션",
+            "nl": "Volgende sessie",
+            "sv": "Nästa session",
+            "da": "Næste session",
+            "nb": "Neste økt",
+            "fi": "Seuraava istunto",
+            "pl": "Następna sesja",
+            "hi": "अगला सेशन",
+            "zh-Hant": "下一個工作階段"
           },
           "keys": "Ctrl-b )",
           "raw": true
@@ -463,7 +703,15 @@
             "pt-BR": "Nova sessão nomeada",
             "ja": "名前付きセッション作成",
             "zh-Hans": "新建命名会话",
-            "ko": "이름 있는 새 세션"
+            "ko": "이름 있는 새 세션",
+            "nl": "Nieuwe sessie met naam",
+            "sv": "Ny namngiven session",
+            "da": "Ny session med navn",
+            "nb": "Ny økt med navn",
+            "fi": "Uusi nimetty istunto",
+            "pl": "Nowa sesja z nazwą",
+            "hi": "नाम वाला नया सेशन",
+            "zh-Hant": "新增具名工作階段"
           },
           "keys": "tmux new -s name",
           "raw": true
@@ -478,7 +726,15 @@
             "pt-BR": "Anexar à sessão",
             "ja": "セッションにアタッチ",
             "zh-Hans": "连接到会话",
-            "ko": "세션에 연결"
+            "ko": "세션에 연결",
+            "nl": "Verbinden met sessie",
+            "sv": "Anslut till session",
+            "da": "Tilslut til session",
+            "nb": "Koble til økt",
+            "fi": "Liity istuntoon",
+            "pl": "Dołącz do sesji",
+            "hi": "सेशन से जुड़ें",
+            "zh-Hant": "連接到工作階段"
           },
           "keys": "tmux a -t name",
           "raw": true
@@ -495,7 +751,15 @@
         "pt-BR": "Modo de cópia",
         "ja": "コピーモード",
         "zh-Hans": "复制模式",
-        "ko": "복사 모드"
+        "ko": "복사 모드",
+        "nl": "Kopieermodus",
+        "sv": "Kopieringsläge",
+        "da": "Kopitilstand",
+        "nb": "Kopimodus",
+        "fi": "Kopiointitila",
+        "pl": "Tryb kopiowania",
+        "hi": "कॉपी मोड",
+        "zh-Hant": "拷貝模式"
       },
       "items": [
         {
@@ -508,7 +772,15 @@
             "pt-BR": "Entrar no modo de cópia",
             "ja": "コピーモードに入る",
             "zh-Hans": "进入复制模式",
-            "ko": "복사 모드 시작"
+            "ko": "복사 모드 시작",
+            "nl": "Kopieermodus openen",
+            "sv": "Gå in i kopieringsläge",
+            "da": "Gå i kopitilstand",
+            "nb": "Gå inn i kopimodus",
+            "fi": "Siirry kopiointitilaan",
+            "pl": "Wejdź w tryb kopiowania",
+            "hi": "कॉपी मोड में जाएँ",
+            "zh-Hant": "進入拷貝模式"
           },
           "keys": "Ctrl-b [",
           "raw": true
@@ -523,7 +795,15 @@
             "pt-BR": "Iniciar seleção",
             "ja": "選択を開始",
             "zh-Hans": "开始选择",
-            "ko": "선택 시작"
+            "ko": "선택 시작",
+            "nl": "Selectie starten",
+            "sv": "Starta markering",
+            "da": "Start markering",
+            "nb": "Start markering",
+            "fi": "Aloita valinta",
+            "pl": "Rozpocznij zaznaczanie",
+            "hi": "चयन शुरू करें",
+            "zh-Hant": "開始選取"
           },
           "keys": "space",
           "raw": true
@@ -538,7 +818,15 @@
             "pt-BR": "Copiar seleção",
             "ja": "選択をコピー",
             "zh-Hans": "复制所选",
-            "ko": "선택 복사"
+            "ko": "선택 복사",
+            "nl": "Selectie kopiëren",
+            "sv": "Kopiera markeringen",
+            "da": "Kopiér markeringen",
+            "nb": "Kopier markeringen",
+            "fi": "Kopioi valinta",
+            "pl": "Skopiuj zaznaczenie",
+            "hi": "चयन कॉपी करें",
+            "zh-Hant": "拷貝選取內容"
           },
           "keys": "Enter",
           "raw": true
@@ -553,7 +841,15 @@
             "pt-BR": "Colar buffer",
             "ja": "バッファを貼り付け",
             "zh-Hans": "粘贴缓冲区",
-            "ko": "버퍼 붙여넣기"
+            "ko": "버퍼 붙여넣기",
+            "nl": "Buffer plakken",
+            "sv": "Klistra in bufferten",
+            "da": "Indsæt bufferen",
+            "nb": "Lim inn bufferen",
+            "fi": "Liitä puskuri",
+            "pl": "Wklej bufor",
+            "hi": "बफ़र पेस्ट करें",
+            "zh-Hant": "貼上緩衝區"
           },
           "keys": "Ctrl-b ]",
           "raw": true
@@ -568,7 +864,15 @@
             "pt-BR": "Sair do modo de cópia",
             "ja": "コピーモードを終了",
             "zh-Hans": "退出复制模式",
-            "ko": "복사 모드 종료"
+            "ko": "복사 모드 종료",
+            "nl": "Kopieermodus verlaten",
+            "sv": "Lämna kopieringsläge",
+            "da": "Forlad kopitilstand",
+            "nb": "Avslutt kopimodus",
+            "fi": "Poistu kopiointitilasta",
+            "pl": "Wyjdź z trybu kopiowania",
+            "hi": "कॉपी मोड से बाहर निकलें",
+            "zh-Hant": "離開拷貝模式"
           },
           "keys": "q",
           "raw": true
@@ -585,7 +889,15 @@
         "pt-BR": "Diversos",
         "ja": "その他",
         "zh-Hans": "杂项",
-        "ko": "기타"
+        "ko": "기타",
+        "nl": "Overig",
+        "sv": "Övrigt",
+        "da": "Diverse",
+        "nb": "Diverse",
+        "fi": "Muut",
+        "pl": "Inne",
+        "hi": "अन्य",
+        "zh-Hant": "其他"
       },
       "items": [
         {
@@ -598,7 +910,15 @@
             "pt-BR": "Listar todos os atalhos",
             "ja": "キーバインド一覧",
             "zh-Hans": "列出所有快捷键",
-            "ko": "모든 단축키 목록"
+            "ko": "모든 단축키 목록",
+            "nl": "Alle toetscombinaties weergeven",
+            "sv": "Lista alla tangentbindningar",
+            "da": "Vis alle tastebindinger",
+            "nb": "Vis alle tastebindinger",
+            "fi": "Näytä kaikki näppäinsidonnat",
+            "pl": "Wyświetl wszystkie powiązania klawiszy",
+            "hi": "सभी कुंजी बाइंडिंग की सूची",
+            "zh-Hant": "列出所有按鍵繫結"
           },
           "keys": "Ctrl-b ?",
           "raw": true
@@ -613,7 +933,15 @@
             "pt-BR": "Prompt de comando",
             "ja": "コマンドプロンプト",
             "zh-Hans": "命令提示符",
-            "ko": "명령 프롬프트"
+            "ko": "명령 프롬프트",
+            "nl": "Opdrachtprompt",
+            "sv": "Kommandoprompt",
+            "da": "Kommandoprompt",
+            "nb": "Kommandoprompt",
+            "fi": "Komentokehote",
+            "pl": "Wiersz poleceń",
+            "hi": "कमांड प्रॉम्प्ट",
+            "zh-Hant": "指令提示列"
           },
           "keys": "Ctrl-b :",
           "raw": true
@@ -628,7 +956,15 @@
             "pt-BR": "Mostrar relógio",
             "ja": "時計を表示",
             "zh-Hans": "显示时钟",
-            "ko": "시계 표시"
+            "ko": "시계 표시",
+            "nl": "Klok tonen",
+            "sv": "Visa klocka",
+            "da": "Vis ur",
+            "nb": "Vis klokke",
+            "fi": "Näytä kello",
+            "pl": "Pokaż zegar",
+            "hi": "घड़ी दिखाएँ",
+            "zh-Hant": "顯示時鐘"
           },
           "keys": "Ctrl-b t",
           "raw": true
@@ -643,7 +979,15 @@
             "pt-BR": "Recarregar configuração",
             "ja": "設定を再読み込み",
             "zh-Hans": "重新加载配置",
-            "ko": "설정 다시 불러오기"
+            "ko": "설정 다시 불러오기",
+            "nl": "Configuratie opnieuw laden",
+            "sv": "Läs in konfigurationen igen",
+            "da": "Genindlæs konfigurationen",
+            "nb": "Last inn konfigurasjonen på nytt",
+            "fi": "Lataa asetukset uudelleen",
+            "pl": "Wczytaj konfigurację ponownie",
+            "hi": "कॉन्फ़िग फिर लोड करें",
+            "zh-Hant": "重新載入設定檔"
           },
           "keys": "tmux source ~/.tmux.conf",
           "raw": true

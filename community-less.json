@@ -1,0 +1,172 @@
+{
+  "id": "less",
+  "name": "less (pager)",
+  "match": {
+    "bundleIDs": [],
+    "processNames": [
+      "less",
+      "man"
+    ]
+  },
+  "mode": "augment",
+  "priority": 100,
+  "source": "https://man7.org/linux/man-pages/man1/less.1.html",
+  "license": "CC0-1.0",
+  "groups": [
+    {
+      "title": "Moving",
+      "items": [
+        {
+          "title": "Forward one line",
+          "keys": "j",
+          "raw": true
+        },
+        {
+          "title": "Back one line",
+          "keys": "k",
+          "raw": true
+        },
+        {
+          "title": "Forward one window",
+          "keys": "Space",
+          "raw": true
+        },
+        {
+          "title": "Back one window",
+          "keys": "b",
+          "raw": true
+        },
+        {
+          "title": "Forward half a window",
+          "keys": "d",
+          "raw": true
+        },
+        {
+          "title": "Back half a window",
+          "keys": "u",
+          "raw": true
+        },
+        {
+          "title": "Go to the start of the file",
+          "keys": "g",
+          "raw": true
+        },
+        {
+          "title": "Go to the end of the file",
+          "keys": "G",
+          "raw": true
+        },
+        {
+          "title": "Go to a percentage of the file (type the number first)",
+          "keys": "%",
+          "raw": true
+        },
+        {
+          "title": "Scroll right",
+          "keys": "Right arrow",
+          "raw": true
+        },
+        {
+          "title": "Scroll left",
+          "keys": "Left arrow",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": "Searching",
+      "items": [
+        {
+          "title": "Search forward",
+          "keys": "/pattern",
+          "raw": true
+        },
+        {
+          "title": "Search backward",
+          "keys": "?pattern",
+          "raw": true
+        },
+        {
+          "title": "Next match",
+          "keys": "n",
+          "raw": true
+        },
+        {
+          "title": "Previous match",
+          "keys": "N",
+          "raw": true
+        },
+        {
+          "title": "Turn match highlighting off",
+          "keys": "Esc-u",
+          "raw": true
+        },
+        {
+          "title": "Show only lines matching a pattern",
+          "keys": "&pattern",
+          "raw": true
+        },
+        {
+          "title": "Ignore case in searches (toggle)",
+          "keys": "-i",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": "Marks and files",
+      "items": [
+        {
+          "title": "Set a mark (then a letter)",
+          "keys": "m",
+          "raw": true
+        },
+        {
+          "title": "Go to a mark (then its letter)",
+          "keys": "'",
+          "raw": true
+        },
+        {
+          "title": "Open the file in your editor",
+          "keys": "v",
+          "raw": true
+        },
+        {
+          "title": "Run a shell command",
+          "keys": "!",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": "Display",
+      "items": [
+        {
+          "title": "Show the help summary",
+          "keys": "h",
+          "raw": true
+        },
+        {
+          "title": "Follow the file as it grows, like tail -f (Ctrl-c to stop)",
+          "keys": "F",
+          "raw": true
+        },
+        {
+          "title": "Chop long lines instead of wrapping them (toggle)",
+          "keys": "-S",
+          "raw": true
+        },
+        {
+          "title": "Repaint the screen",
+          "keys": "r",
+          "raw": true
+        },
+        {
+          "title": "Quit",
+          "keys": "q",
+          "raw": true
+        }
+      ]
+    }
+  ]
+}

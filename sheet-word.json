@@ -9,7 +9,15 @@
     "pt-BR": "Word",
     "ja": "Word",
     "zh-Hans": "Word",
-    "ko": "Word"
+    "ko": "Word",
+    "nl": "Word",
+    "sv": "Word",
+    "da": "Word",
+    "nb": "Word",
+    "fi": "Word",
+    "pl": "Word",
+    "hi": "Word",
+    "zh-Hant": "Word"
   },
   "match": {
     "bundleIDs": [
@@ -30,7 +38,15 @@
         "pt-BR": "Parágrafos",
         "ja": "段落",
         "zh-Hans": "段落",
-        "ko": "단락"
+        "ko": "단락",
+        "nl": "Alinea's",
+        "sv": "Stycken",
+        "da": "Afsnit",
+        "nb": "Avsnitt",
+        "fi": "Kappaleet",
+        "pl": "Akapity",
+        "hi": "पैराग्राफ़",
+        "zh-Hant": "段落"
       },
       "items": [
         {
@@ -43,7 +59,15 @@
             "pt-BR": "Alinhar à esquerda",
             "ja": "左揃え",
             "zh-Hans": "左对齐",
-            "ko": "왼쪽 정렬"
+            "ko": "왼쪽 정렬",
+            "nl": "Links uitlijnen",
+            "sv": "Vänsterjustera",
+            "da": "Venstrejustér",
+            "nb": "Venstrejuster",
+            "fi": "Tasaa vasemmalle",
+            "pl": "Wyrównaj do lewej",
+            "hi": "बाएँ संरेखित करें",
+            "zh-Hant": "靠左對齊"
           },
           "keys": "cmd+l"
         },
@@ -57,7 +81,15 @@
             "pt-BR": "Centralizar",
             "ja": "中央揃え",
             "zh-Hans": "居中",
-            "ko": "가운데 정렬"
+            "ko": "가운데 정렬",
+            "nl": "Centreren",
+            "sv": "Centrera",
+            "da": "Centrér",
+            "nb": "Midtstill",
+            "fi": "Keskitä",
+            "pl": "Wyśrodkuj",
+            "hi": "केंद्र में",
+            "zh-Hant": "置中"
           },
           "keys": "cmd+e"
         },
@@ -71,7 +103,15 @@
             "pt-BR": "Alinhar à direita",
             "ja": "右揃え",
             "zh-Hans": "右对齐",
-            "ko": "오른쪽 정렬"
+            "ko": "오른쪽 정렬",
+            "nl": "Rechts uitlijnen",
+            "sv": "Högerjustera",
+            "da": "Højrejustér",
+            "nb": "Høyrejuster",
+            "fi": "Tasaa oikealle",
+            "pl": "Wyrównaj do prawej",
+            "hi": "दाएँ संरेखित करें",
+            "zh-Hant": "靠右對齊"
           },
           "keys": "cmd+r"
         },
@@ -85,7 +125,15 @@
             "pt-BR": "Justificar",
             "ja": "両端揃え",
             "zh-Hans": "两端对齐",
-            "ko": "양쪽 정렬"
+            "ko": "양쪽 정렬",
+            "nl": "Uitvullen",
+            "sv": "Marginaljustera",
+            "da": "Justér",
+            "nb": "Juster",
+            "fi": "Tasaa molemmat reunat",
+            "pl": "Wyjustuj",
+            "hi": "दोनों ओर संरेखित करें",
+            "zh-Hant": "左右對齊"
           },
           "keys": "cmd+j"
         },
@@ -99,7 +147,15 @@
             "pt-BR": "Espaçamento simples",
             "ja": "行間を 1 行に",
             "zh-Hans": "单倍行距",
-            "ko": "줄 간격 1"
+            "ko": "줄 간격 1",
+            "nl": "Enkele regelafstand",
+            "sv": "Enkelt radavstånd",
+            "da": "Enkelt linjeafstand",
+            "nb": "Enkel linjeavstand",
+            "fi": "Yksinkertainen riviväli",
+            "pl": "Pojedynczy odstęp między wierszami",
+            "hi": "सिंगल लाइन स्पेसिंग",
+            "zh-Hant": "單行間距"
           },
           "keys": "cmd+1"
         },
@@ -113,7 +169,15 @@
             "pt-BR": "Espaçamento duplo",
             "ja": "行間を 2 行に",
             "zh-Hans": "双倍行距",
-            "ko": "줄 간격 2"
+            "ko": "줄 간격 2",
+            "nl": "Dubbele regelafstand",
+            "sv": "Dubbelt radavstånd",
+            "da": "Dobbelt linjeafstand",
+            "nb": "Dobbel linjeavstand",
+            "fi": "Kaksinkertainen riviväli",
+            "pl": "Podwójny odstęp między wierszami",
+            "hi": "डबल लाइन स्पेसिंग",
+            "zh-Hant": "雙行間距"
           },
           "keys": "cmd+2"
         },
@@ -127,7 +191,15 @@
             "pt-BR": "Adicionar ou remover espaço antes do parágrafo",
             "ja": "段落前の間隔を追加/削除",
             "zh-Hans": "添加或删除段前间距",
-            "ko": "단락 앞 간격 추가/제거"
+            "ko": "단락 앞 간격 추가/제거",
+            "nl": "Witruimte vóór de alinea toevoegen of verwijderen",
+            "sv": "Lägg till eller ta bort avstånd före stycket",
+            "da": "Tilføj eller fjern afstand før afsnittet",
+            "nb": "Legg til eller fjern avstand før avsnittet",
+            "fi": "Lisää tai poista väli kappaleen edestä",
+            "pl": "Dodaj lub usuń odstęp przed akapitem",
+            "hi": "पैराग्राफ़ से पहले की जगह जोड़ें या हटाएँ",
+            "zh-Hant": "增加或移除段落前的間距"
           },
           "keys": "cmd+0"
         }
@@ -143,7 +215,15 @@
         "pt-BR": "Caracteres",
         "ja": "文字",
         "zh-Hans": "字符",
-        "ko": "문자"
+        "ko": "문자",
+        "nl": "Tekens",
+        "sv": "Tecken",
+        "da": "Tegn",
+        "nb": "Tegn",
+        "fi": "Merkit",
+        "pl": "Znaki",
+        "hi": "वर्ण",
+        "zh-Hant": "字元"
       },
       "items": [
         {
@@ -156,7 +236,15 @@
             "pt-BR": "Aumentar o tamanho da fonte",
             "ja": "フォントサイズを大きく",
             "zh-Hans": "增大字号",
-            "ko": "글꼴 크기 키우기"
+            "ko": "글꼴 크기 키우기",
+            "nl": "Lettergrootte vergroten",
+            "sv": "Öka teckenstorleken",
+            "da": "Øg skriftstørrelsen",
+            "nb": "Øk skriftstørrelsen",
+            "fi": "Suurenna fonttikokoa",
+            "pl": "Zwiększ rozmiar czcionki",
+            "hi": "फ़ॉन्ट आकार बढ़ाएँ",
+            "zh-Hant": "放大字型"
           },
           "keys": "cmd+shift+>"
         },
@@ -170,7 +258,15 @@
             "pt-BR": "Diminuir o tamanho da fonte",
             "ja": "フォントサイズを小さく",
             "zh-Hans": "减小字号",
-            "ko": "글꼴 크기 줄이기"
+            "ko": "글꼴 크기 줄이기",
+            "nl": "Lettergrootte verkleinen",
+            "sv": "Minska teckenstorleken",
+            "da": "Mindsk skriftstørrelsen",
+            "nb": "Reduser skriftstørrelsen",
+            "fi": "Pienennä fonttikokoa",
+            "pl": "Zmniejsz rozmiar czcionki",
+            "hi": "फ़ॉन्ट आकार घटाएँ",
+            "zh-Hant": "縮小字型"
           },
           "keys": "cmd+shift+<"
         },
@@ -184,7 +280,15 @@
             "pt-BR": "Versalete",
             "ja": "スモールキャップ",
             "zh-Hans": "小型大写字母",
-            "ko": "작은 대문자"
+            "ko": "작은 대문자",
+            "nl": "Kleine hoofdletters",
+            "sv": "Kapitäler",
+            "da": "Kapitæler",
+            "nb": "Kapitéler",
+            "fi": "Kapiteelit",
+            "pl": "Kapitaliki",
+            "hi": "स्मॉल कैपिटल",
+            "zh-Hant": "小型大寫字母"
           },
           "keys": "cmd+shift+k"
         },
@@ -198,7 +302,15 @@
             "pt-BR": "Tudo em maiúsculas",
             "ja": "すべて大文字",
             "zh-Hans": "全部大写",
-            "ko": "모두 대문자"
+            "ko": "모두 대문자",
+            "nl": "Alle hoofdletters",
+            "sv": "Versaler",
+            "da": "Store bogstaver",
+            "nb": "Store bokstaver",
+            "fi": "Isot kirjaimet",
+            "pl": "Wielkie litery",
+            "hi": "सभी कैपिटल",
+            "zh-Hant": "全部大寫"
           },
           "keys": "cmd+shift+a"
         },
@@ -212,7 +324,15 @@
             "pt-BR": "Sobrescrito",
             "ja": "上付き文字",
             "zh-Hans": "上标",
-            "ko": "위 첨자"
+            "ko": "위 첨자",
+            "nl": "Superscript",
+            "sv": "Upphöjd",
+            "da": "Hævet skrift",
+            "nb": "Hevet skrift",
+            "fi": "Yläindeksi",
+            "pl": "Indeks górny",
+            "hi": "सुपरस्क्रिप्ट",
+            "zh-Hant": "上標"
           },
           "keys": "cmd+shift+="
         },
@@ -226,7 +346,15 @@
             "pt-BR": "Subscrito",
             "ja": "下付き文字",
             "zh-Hans": "下标",
-            "ko": "아래 첨자"
+            "ko": "아래 첨자",
+            "nl": "Subscript",
+            "sv": "Nedsänkt",
+            "da": "Sænket skrift",
+            "nb": "Senket skrift",
+            "fi": "Alaindeksi",
+            "pl": "Indeks dolny",
+            "hi": "सबस्क्रिप्ट",
+            "zh-Hant": "下標"
           },
           "keys": "cmd+="
         },
@@ -240,7 +368,15 @@
             "pt-BR": "Remover a formatação de caractere",
             "ja": "文字書式を解除",
             "zh-Hans": "清除字符格式",
-            "ko": "문자 서식 지우기"
+            "ko": "문자 서식 지우기",
+            "nl": "Tekenopmaak verwijderen",
+            "sv": "Ta bort teckenformatering",
+            "da": "Fjern tegnformatering",
+            "nb": "Fjern tegnformatering",
+            "fi": "Poista merkkimuotoilu",
+            "pl": "Usuń formatowanie znaków",
+            "hi": "वर्ण फ़ॉर्मैटिंग हटाएँ",
+            "zh-Hant": "清除字元格式"
           },
           "keys": "ctrl+space"
         }
@@ -256,7 +392,15 @@
         "pt-BR": "Estilos",
         "ja": "スタイル",
         "zh-Hans": "样式",
-        "ko": "스타일"
+        "ko": "스타일",
+        "nl": "Stijlen",
+        "sv": "Stilar",
+        "da": "Typografier",
+        "nb": "Stiler",
+        "fi": "Tyylit",
+        "pl": "Style",
+        "hi": "स्टाइल",
+        "zh-Hant": "樣式"
       },
       "items": [
         {
@@ -269,7 +413,15 @@
             "pt-BR": "Aplicar o estilo Normal",
             "ja": "標準スタイルを適用",
             "zh-Hans": "应用“正文”样式",
-            "ko": "기본 스타일 적용"
+            "ko": "기본 스타일 적용",
+            "nl": "De stijl Standaard toepassen",
+            "sv": "Använd stilen Normal",
+            "da": "Anvend typografien Normal",
+            "nb": "Bruk stilen Normal",
+            "fi": "Käytä Normaali-tyyliä",
+            "pl": "Zastosuj styl Normalny",
+            "hi": "सामान्य स्टाइल लगाएँ",
+            "zh-Hant": "套用「內文」樣式"
           },
           "keys": "cmd+shift+n"
         },
@@ -283,7 +435,15 @@
             "pt-BR": "Aplicar Título 1",
             "ja": "見出し 1 を適用",
             "zh-Hans": "应用标题 1",
-            "ko": "제목 1 적용"
+            "ko": "제목 1 적용",
+            "nl": "Kop 1 toepassen",
+            "sv": "Använd Rubrik 1",
+            "da": "Anvend Overskrift 1",
+            "nb": "Bruk Overskrift 1",
+            "fi": "Käytä Otsikko 1 -tyyliä",
+            "pl": "Zastosuj Nagłówek 1",
+            "hi": "हेडिंग 1 लगाएँ",
+            "zh-Hant": "套用「標題 1」"
           },
           "keys": "cmd+option+1"
         },
@@ -297,7 +457,15 @@
             "pt-BR": "Aplicar Título 2",
             "ja": "見出し 2 を適用",
             "zh-Hans": "应用标题 2",
-            "ko": "제목 2 적용"
+            "ko": "제목 2 적용",
+            "nl": "Kop 2 toepassen",
+            "sv": "Använd Rubrik 2",
+            "da": "Anvend Overskrift 2",
+            "nb": "Bruk Overskrift 2",
+            "fi": "Käytä Otsikko 2 -tyyliä",
+            "pl": "Zastosuj Nagłówek 2",
+            "hi": "हेडिंग 2 लगाएँ",
+            "zh-Hant": "套用「標題 2」"
           },
           "keys": "cmd+option+2"
         },
@@ -311,7 +479,15 @@
             "pt-BR": "Aplicar Título 3",
             "ja": "見出し 3 を適用",
             "zh-Hans": "应用标题 3",
-            "ko": "제목 3 적용"
+            "ko": "제목 3 적용",
+            "nl": "Kop 3 toepassen",
+            "sv": "Använd Rubrik 3",
+            "da": "Anvend Overskrift 3",
+            "nb": "Bruk Overskrift 3",
+            "fi": "Käytä Otsikko 3 -tyyliä",
+            "pl": "Zastosuj Nagłówek 3",
+            "hi": "हेडिंग 3 लगाएँ",
+            "zh-Hant": "套用「標題 3」"
           },
           "keys": "cmd+option+3"
         },
@@ -325,7 +501,15 @@
             "pt-BR": "Aplicar o estilo Lista com marcadores",
             "ja": "箇条書きスタイルを適用",
             "zh-Hans": "应用项目符号列表样式",
-            "ko": "글머리 기호 목록 스타일 적용"
+            "ko": "글머리 기호 목록 스타일 적용",
+            "nl": "De stijl Opsommingsteken toepassen",
+            "sv": "Använd stilen Punktlista",
+            "da": "Anvend typografien Punktliste",
+            "nb": "Bruk stilen Punktliste",
+            "fi": "Käytä Luettelomerkki-tyyliä",
+            "pl": "Zastosuj styl Lista punktowana",
+            "hi": "बुलेट सूची स्टाइल लगाएँ",
+            "zh-Hant": "套用「清單項目符號」樣式"
           },
           "keys": "cmd+shift+l"
         }
@@ -341,7 +525,15 @@
         "pt-BR": "Copiar formatação",
         "ja": "書式のコピー",
         "zh-Hans": "复制格式",
-        "ko": "서식 복사"
+        "ko": "서식 복사",
+        "nl": "Opmaak kopiëren",
+        "sv": "Kopiera formatering",
+        "da": "Kopiering af formatering",
+        "nb": "Kopiere formatering",
+        "fi": "Muotoilun kopiointi",
+        "pl": "Kopiowanie formatowania",
+        "hi": "फ़ॉर्मैटिंग कॉपी करना",
+        "zh-Hant": "複製格式"
       },
       "items": [
         {
@@ -354,7 +546,15 @@
             "pt-BR": "Copiar a formatação",
             "ja": "書式をコピー",
             "zh-Hans": "复制格式",
-            "ko": "서식 복사"
+            "ko": "서식 복사",
+            "nl": "De opmaak kopiëren",
+            "sv": "Kopiera formateringen",
+            "da": "Kopiér formateringen",
+            "nb": "Kopier formateringen",
+            "fi": "Kopioi muotoilu",
+            "pl": "Skopiuj formatowanie",
+            "hi": "फ़ॉर्मैटिंग कॉपी करें",
+            "zh-Hant": "複製格式"
           },
           "keys": "ctrl+shift+c"
         },
@@ -368,7 +568,15 @@
             "pt-BR": "Colar a formatação",
             "ja": "書式を貼り付け",
             "zh-Hans": "粘贴格式",
-            "ko": "서식 붙여넣기"
+            "ko": "서식 붙여넣기",
+            "nl": "De opmaak plakken",
+            "sv": "Klistra in formateringen",
+            "da": "Indsæt formateringen",
+            "nb": "Lim inn formateringen",
+            "fi": "Liitä muotoilu",
+            "pl": "Wklej formatowanie",
+            "hi": "फ़ॉर्मैटिंग पेस्ट करें",
+            "zh-Hant": "貼上格式"
           },
           "keys": "ctrl+shift+v"
         },
@@ -382,7 +590,15 @@
             "pt-BR": "Colar especial…",
             "ja": "形式を選択して貼り付け…",
             "zh-Hans": "选择性粘贴…",
-            "ko": "선택하여 붙여넣기…"
+            "ko": "선택하여 붙여넣기…",
+            "nl": "Plak speciaal…",
+            "sv": "Klistra in special …",
+            "da": "Indsæt special …",
+            "nb": "Lim inn spesial …",
+            "fi": "Liitä määräten…",
+            "pl": "Wklej specjalnie…",
+            "hi": "स्पेशल पेस्ट करें…",
+            "zh-Hant": "選擇性貼上…"
           },
           "keys": "cmd+option+v"
         }
@@ -398,7 +614,15 @@
         "pt-BR": "Mover-se pelo documento",
         "ja": "文書内の移動",
         "zh-Hans": "在文档中移动",
-        "ko": "문서 내 이동"
+        "ko": "문서 내 이동",
+        "nl": "Door het document navigeren",
+        "sv": "Navigera i dokumentet",
+        "da": "Navigér i dokumentet",
+        "nb": "Naviger i dokumentet",
+        "fi": "Liikkuminen asiakirjassa",
+        "pl": "Poruszanie się po dokumencie",
+        "hi": "दस्तावेज़ में घूमना",
+        "zh-Hant": "在文件中移動"
       },
       "items": [
         {
@@ -411,7 +635,15 @@
             "pt-BR": "Inserir uma quebra de página",
             "ja": "改ページを挿入",
             "zh-Hans": "插入分页符",
-            "ko": "페이지 나누기 삽입"
+            "ko": "페이지 나누기 삽입",
+            "nl": "Een pagina-einde invoegen",
+            "sv": "Infoga en sidbrytning",
+            "da": "Indsæt et sideskift",
+            "nb": "Sett inn et sideskift",
+            "fi": "Lisää sivunvaihto",
+            "pl": "Wstaw podział strony",
+            "hi": "पेज ब्रेक डालें",
+            "zh-Hant": "插入分頁符號"
           },
           "keys": "cmd+shift+return"
         },
@@ -425,7 +657,15 @@
             "pt-BR": "Inserir um comentário",
             "ja": "コメントを挿入",
             "zh-Hans": "插入批注",
-            "ko": "메모 삽입"
+            "ko": "메모 삽입",
+            "nl": "Een opmerking invoegen",
+            "sv": "Infoga en kommentar",
+            "da": "Indsæt en kommentar",
+            "nb": "Sett inn en kommentar",
+            "fi": "Lisää kommentti",
+            "pl": "Wstaw komentarz",
+            "hi": "टिप्पणी डालें",
+            "zh-Hant": "插入註解"
           },
           "keys": "cmd+option+m"
         },
@@ -439,7 +679,15 @@
             "pt-BR": "Ativar ou desativar o controle de alterações",
             "ja": "変更履歴の記録を切り替え",
             "zh-Hans": "打开或关闭修订",
-            "ko": "변경 내용 추적 켜기/끄기"
+            "ko": "변경 내용 추적 켜기/끄기",
+            "nl": "Wijzigingen bijhouden in- of uitschakelen",
+            "sv": "Slå spåra ändringar på eller av",
+            "da": "Slå sporing af ændringer til eller fra",
+            "nb": "Slå endringssporing på eller av",
+            "fi": "Ota muutosten seuranta käyttöön tai pois",
+            "pl": "Włącz lub wyłącz śledzenie zmian",
+            "hi": "ट्रैक चेंज चालू या बंद करें",
+            "zh-Hant": "開啟或關閉追蹤修訂"
           },
           "keys": "cmd+shift+m"
         },
@@ -453,7 +701,15 @@
             "pt-BR": "Alternar a visualização de impressão",
             "ja": "印刷プレビューを切り替え",
             "zh-Hans": "切换打印预览",
-            "ko": "인쇄 미리보기 전환"
+            "ko": "인쇄 미리보기 전환",
+            "nl": "Afdrukvoorbeeld aan- of uitzetten",
+            "sv": "Visa eller dölj förhandsgranskning",
+            "da": "Vis eller skjul udskriftsvisning",
+            "nb": "Vis eller skjul utskriftsforhåndsvisning",
+            "fi": "Näytä tai piilota tulostuksen esikatselu",
+            "pl": "Przełącz podgląd wydruku",
+            "hi": "प्रिंट प्रीव्यू बदलें",
+            "zh-Hant": "切換預覽列印"
           },
           "keys": "cmd+option+i"
         }

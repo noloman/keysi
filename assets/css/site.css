@@ -807,6 +807,9 @@ code.cmd {
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
 }
+/* On a doc page the boxes follow a sentence that introduces them, so they
+   sit closer to it than the FAQ's stand-alone ones do. */
+.doc .verify-box { margin-top: 12px; margin-bottom: 20px; }
 .verify-box code {
   display: block;
   margin-top: 8px;
@@ -821,6 +824,10 @@ code.cmd {
 table.compare { width: 100%; border-collapse: collapse; min-width: 620px; font-size: 0.92rem; }
 table.compare th, table.compare td { padding: 12px 16px; text-align: left; border-bottom: 1px solid var(--border); }
 table.compare th { background: var(--bg-sunken); font-family: var(--font-display); font-weight: 700; }
+/* The security page's inventory tables hold API names and paths, which have
+   no spaces to wrap at. */
+.doc table.compare td { vertical-align: top; }
+.doc table.compare code { overflow-wrap: anywhere; }
 table.compare td.yes { color: var(--good); font-weight: 600; }
 table.compare td.no { color: var(--text-tertiary); }
 table.compare tr:last-child td { border-bottom: none; }
@@ -854,6 +861,7 @@ table.compare tr:last-child td { border-bottom: none; }
 /* Grow the list, not the gaps, so both cards end at the same height and
    the two CTAs line up. */
 .pricing-card .pricing-list { flex: 1; align-content: start; }
+.free-summary-list { grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); column-gap: 24px; }
 @media (min-width: 860px) { .pricing-grid { grid-template-columns: 1fr 1fr; gap: 24px; } }
 
 /* ---- FAQ ---- */

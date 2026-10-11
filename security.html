@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What Keysi can see and send — Keysi</title>
+<meta name="description" content="Every Accessibility call, network request and file read in Keysi, and how to check each one on your own Mac.">
+<link rel="canonical" href="https://keysi.io/security.html">
+<link rel="icon" href="assets/favicon/icon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Keysi">
+<meta property="og:title" content="What Keysi can see and send — Keysi">
+<meta property="og:description" content="Every Accessibility call, network request and file read in Keysi, and how to check each one on your own Mac.">
+<meta property="og:url" content="https://keysi.io/security.html">
+<meta property="og:image" content="https://keysi.io/assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://keysi.io/assets/img/og.png">
+<link rel="stylesheet" href="assets/css/site.css">
+<script src="assets/js/analytics.js" defer></script>
+<script src="assets/js/hold.js" defer></script>
+<script src="assets/js/copy.js" defer></script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">⌘</span>Keysi</a>
+    <ul class="nav-links">
+      <li><a href="./#features">Features</a></li>
+      <li><a href="./#pricing">Pricing</a></li>
+      <li><a href="./#faq">FAQ</a></li>
+      <li><a href="changelog.html">Changelog</a></li>
+    </ul>
+    <a class="btn btn-primary btn-nav" href="https://github.com/noloman/keysi/releases/latest">Download</a>
+    <details class="nav-more">
+      <summary><span class="nav-more-glyph" aria-hidden="true"></span><span class="sr-only">Menu</span></summary>
+      <ul class="nav-more-menu">
+        <li><a href="./#features">Features</a></li>
+        <li><a href="./#pricing">Pricing</a></li>
+        <li><a href="./#faq">FAQ</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+        <li><a href="integrations.html">Integrations</a></li>
+        <li><a href="sheets.html">Cheat sheets</a></li>
+      </ul>
+    </details>
+  </div>
+</nav>
+
+<section class="container-narrow doc">
+  <div class="eyebrow">Security</div>
+  <h1>What Keysi can see, and what it sends</h1>
+  <p class="updated">Written from the source of Keysi 1.0.30, October 2026.</p>
+
+  <p>
+    Keysi is closed source and will stay that way. An app that asks for
+    Accessibility access deserves more than &ldquo;trust me&rdquo;, so this page
+    does the next best thing. It lists every call Keysi makes with that
+    permission, every network request, and every file outside its own folder
+    that it reads, and then shows you how to watch each one happen on your
+    own Mac instead of taking my word for it. Every claim below was checked
+    against the code, not remembered.
+  </p>
+
+  <h2>The short version</h2>
+  <ul>
+    <li><strong>Accessibility is used for the menu bar.</strong> Keysi reads the
+      menu bar of the app in front, and presses one menu item when you click
+      its row. It never reads a document, a text field or what is selected.</li>
+    <li><strong>It watches keys and clicks, and cannot change them.</strong>
+      Keysi has no event tap, so it cannot block, alter or inject a keystroke.
+      It does not keep what you type.</li>
+    <li><strong>With analytics off, the default, the network is quiet.</strong>
+      An update check, plus a licence check if you have entered a licence key.
+      The feedback form sends one message, only when you press Send.</li>
+    <li><strong>The files it reads are listed below.</strong> Your own keymaps
+      and a few preference files, read-only.</li>
+    <li><strong>It asks for nothing else.</strong> Signed with a Developer ID,
+      notarized, hardened runtime, and an empty entitlements file.</li>
+  </ul>
+  <p>
+    What is collected when you opt in to analytics, and how feedback is
+    handled, is on the <a href="privacy.html">privacy page</a>. This page is
+    the technical inventory behind it.
+  </p>
+
+  <h2 id="accessibility">Every Accessibility call, and why</h2>
+  <p>
+    These are all of them. The calls are Apple&rsquo;s public Accessibility API;
+    nothing here is private or undocumented.
+  </p>
+  <div class="table-scroll">
+    <table class="compare">
+      <thead>
+        <tr><th>What Keysi does</th><th>The macOS call</th><th>Why, and when</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Checks whether you have granted access</td>
+          <td><code>AXIsProcessTrusted</code>, <code>AXIsProcessTrustedWithOptions</code></td>
+          <td>To know whether it can start. The system prompt appears once, on first run.</td>
+        </tr>
+        <tr>
+          <td>Reads the menu bar of the app in front</td>
+          <td><code>AXUIElementCreateApplication</code>, <code>AXUIElementCopyAttributeValue</code> for <code>AXMenuBar</code> and <code>AXChildren</code>. For each menu item: <code>AXRole</code>, <code>AXTitle</code>, <code>AXEnabled</code>, <code>AXIdentifier</code> and the key-equivalent attributes (<code>AXMenuItemCmdChar</code>, <code>…CmdVirtualKey</code>, <code>…CmdGlyph</code>, <code>…CmdModifiers</code>, <code>…MarkChar</code>)</td>
+          <td>This is the product: the list of shortcuts. It runs when you hold the trigger key or open the panel, and for Practice, an export, or a Shortcuts or Siri action you started. Each read is capped at a fraction of a second so a stuck app can&rsquo;t hang Keysi.</td>
+        </tr>
+        <tr>
+          <td>Presses a menu item</td>
+          <td><code>AXUIElementPerformAction</code> with <code>AXPress</code></td>
+          <td>Click-to-run. Only when you click a row in Keysi&rsquo;s overlay. This is the one thing Keysi does <em>to</em> another app.</td>
+        </tr>
+        <tr>
+          <td>Hears that a menu opened or closed</td>
+          <td><code>AXObserverCreate</code>, <code>AXObserverAddNotification</code> for <code>AXMenuOpened</code>, <code>AXMenuClosed</code> and <code>AXSelectedChildrenChanged</code>, on the app in front</td>
+          <td>Shortcut Coach uses it to time your menu trips and to notice a command you picked by hand. As you move the highlight in an open menu it reads that one item: its title, its key equivalent and the names of the menus above it. With Coach off (Settings &#9656; Coach) the notifications are ignored and nothing is read.</td>
+        </tr>
+        <tr>
+          <td>Looks at what is under the pointer</td>
+          <td><code>AXUIElementCopyElementAtPosition</code>, <code>AXUIElementGetPid</code>, <code>AXParent</code></td>
+          <td>When you release a mouse button while one of the front app&rsquo;s menus is open, to learn which command you chose. It checks the element&rsquo;s role first and discards it unless it is a menu item belonging to that app. For a menu item it reads the title, the key equivalent and the names of the menus above it. In an app that refuses menu notifications it makes that check on every click in the app instead, and discards the same things.</td>
+        </tr>
+        <tr>
+          <td>Reads a terminal&rsquo;s window title</td>
+          <td><code>AXFocusedWindow</code>, <code>AXTitle</code></td>
+          <td>Only when the app in front is a known terminal (Terminal, iTerm2, Ghostty, Warp, Alacritty, WezTerm, kitty, Hyper, Tabby, or one you added). With Vim in one tab and a bare prompt in another, the title helps pick which program&rsquo;s sheet to show. It is compared in memory and then dropped: not stored, not logged, not sent.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="keys">Watching keys and clicks</h2>
+  <p>
+    Holding a modifier to open the overlay means Keysi has to notice a key
+    held down in other apps. It does that with Apple&rsquo;s global event
+    monitors (<code>NSEvent.addGlobalMonitorForEvents</code>) for modifier
+    changes, key presses, mouse buttons and scrolling. A global monitor can
+    observe an event but cannot consume, change or inject one. Keysi installs
+    no event tap (<code>CGEventTapCreate</code> appears nowhere in it) and
+    posts no key or mouse events (nor <code>CGEventPost</code>).
+  </p>
+  <p>What it does with what it observes:</p>
+  <ul>
+    <li>Modifier changes start and stop the hold timer. Any other key press,
+      click or scroll while you are holding cancels it, which is why holding
+      &#8984; on the way to &#8984;S never flashes the overlay.</li>
+    <li>While Coach is on, a key press in the app in front (a browser is
+      skipped by default) is turned into a modifier-and-key pair in memory and
+      compared with the shortcuts Coach has already seen you reach for by
+      mouse. Only a match changes anything: a counter. The letters you type are
+      not kept, there is no key log, and nothing is written for a key that
+      matches nothing.</li>
+    <li>While you hold, Keysi also polls the system key-state table
+      (<code>CGEventSource.keyState</code>), which holds key codes and no
+      characters, to catch a key a monitor can&rsquo;t see, such as one
+      another app has claimed as a hotkey. Under secure input, such as a
+      password field, macOS does not report the key to Keysi at all, and the
+      overlay shows a lock.</li>
+  </ul>
+
+  <h2 id="never">What Keysi never does</h2>
+  <ul>
+    <li><strong>It never blocks or changes a keystroke.</strong> No event tap.
+      This is also why you can&rsquo;t type to search while holding &#8984;: Keysi can
+      see the key but not stop it reaching the app underneath.</li>
+    <li><strong>It never types, clicks or moves the pointer for you.</strong> It
+      sends no synthetic key or mouse events. The only action is the menu
+      press you asked for.</li>
+    <li><strong>It never reads window contents, documents, text fields or
+      what you have selected.</strong> It does not request <code>AXValue</code>,
+      <code>AXSelectedText</code> or any document attribute, and it uses no
+      screen-capture API, so it never needs Screen Recording. It never reads
+      the clipboard. It only writes to it when you press a Copy button. The
+      one time it receives text is when you pick &ldquo;Search Shortcuts in
+      Keysi&rdquo; from the Services menu, which hands it your selection.</li>
+    <li><strong>Coach never records window titles.</strong> Menu rows that name
+      your own content, such as the list of open windows in the Window menu or
+      Open Recent, are marked as yours and left out of Coach&rsquo;s statistics, its
+      suggestions and the menu cache on disk. The terminal title above is the
+      only window title Keysi reads at all, and it is not recorded.</li>
+    <li><strong>Coach ignores browsers by default.</strong> A browser&rsquo;s menus
+      are never counted unless you turn on &ldquo;Coach in browsers&rdquo; yourself.</li>
+    <li><strong>It asks for no other permission.</strong> The Info.plist carries
+      two usage descriptions: Accessibility, and Focus, which tells Keysi only
+      whether a Focus is on, never which one. The entitlements file is empty.</li>
+  </ul>
+
+  <h2 id="network">Every network request</h2>
+  <p>
+    The networking code is in three places: the licence check, the feedback
+    sender, and two open-source libraries, Sparkle (updates) and PostHog
+    (analytics), whose code you can read. There are no others, and no
+    embedded web views.
+  </p>
+  <div class="table-scroll">
+    <table class="compare">
+      <thead>
+        <tr><th>Request</th><th>Host</th><th>When</th><th>What is sent</th><th>Off switch</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Update check (Sparkle)</td>
+          <td><code>keysi.io</code>, the file <code>appcast.xml</code></td>
+          <td>Once a day while Keysi runs, and when you choose Check for Updates</td>
+          <td>A plain request for a static file. Sparkle&rsquo;s User-Agent names Keysi and its version. Keysi does not turn on Sparkle&rsquo;s system profile, so nothing about your Mac is added. If you accept an update, the signed download comes from <code>keysi.io/releases</code> and is verified against a key built into the app before it installs.</td>
+          <td>Settings &#9656; Updates</td>
+        </tr>
+        <tr>
+          <td>Licence check</td>
+          <td><code>api.gumroad.com</code></td>
+          <td>Only if you have entered a licence key: when you activate it, then at most once a week. A free or trial install makes no request.</td>
+          <td>The product id and your licence key, to Gumroad&rsquo;s licence endpoint, plus whether this counts as an activation. Nothing about your Mac.</td>
+          <td>Deactivate This Mac, or don&rsquo;t enter a key</td>
+        </tr>
+        <tr>
+          <td>Usage analytics</td>
+          <td><code>eu.i.posthog.com</code>, and PostHog&rsquo;s config host <code>eu-assets.i.posthog.com</code></td>
+          <td><strong>Only after you opt in.</strong> The library isn&rsquo;t even started until you do.</td>
+          <td>The anonymous events listed on the <a href="privacy.html#analytics">privacy page</a>, under a random install id that is discarded when you turn it off. Never a licence key, a shortcut&rsquo;s name or a menu.</td>
+          <td>Off by default. Settings &#9656; General</td>
+        </tr>
+        <tr>
+          <td>Feedback message</td>
+          <td><code>eu.i.posthog.com</code></td>
+          <td>Only when you press Send in the feedback form (or when a message queued while you were offline goes out on the next start).</td>
+          <td>Exactly the payload the form shows you first. Nothing is sent in the background.</td>
+          <td>Don&rsquo;t press Send</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p>
+    Links in Keysi that open keysi.io pages, the checkout or the changelog
+    open in your browser. They are not requests Keysi makes. This website has
+    its own analytics, off until you accept its banner, described on the
+    <a href="privacy.html#analytics">privacy page</a>.
+  </p>
+
+  <h2 id="files">Every file outside its own folder that Keysi reads</h2>
+  <p>
+    Keysi reads these and changes none of them. Everything it stores goes to
+    <code>~/Library/Application Support/Keysi/</code>, its own preferences
+    (<code>me.manulorenzo.Keysi</code>), the Keychain item that holds your
+    licence, a Spotlight index entry for each custom sheet if you use them, and
+    wherever you choose to save an export.
+  </p>
+  <div class="table-scroll">
+    <table class="compare">
+      <thead>
+        <tr><th>What</th><th>Where</th><th>Why, and when</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>macOS&rsquo;s own shortcuts</td>
+          <td><code>~/Library/Preferences/com.apple.symbolichotkeys.plist</code></td>
+          <td>To warn you when macOS will grab a shortcut first, and to list the system shortcuts.</td>
+        </tr>
+        <tr>
+          <td>Raycast&rsquo;s and Rectangle&rsquo;s hotkeys</td>
+          <td><code>~/Library/Preferences/com.raycast.macos.plist</code>, <code>~/Library/Preferences/com.knollsoft.Rectangle.plist</code></td>
+          <td>To warn you when one of their hotkeys swallows a shortcut. Only while that app is running. Keysi reads the file and uses only the hotkey settings.</td>
+        </tr>
+        <tr>
+          <td>App Shortcuts you set in System Settings</td>
+          <td>The <code>NSUserKeyEquivalents</code> key in the front app&rsquo;s own preferences, read through macOS</td>
+          <td>To show a menu command you remapped. Nothing else in those preferences is read.</td>
+        </tr>
+        <tr>
+          <td>Your editor keymaps</td>
+          <td>
+            VS Code and forks (Cursor, Windsurf, VSCodium and others): <code>~/Library/Application Support/&lt;editor&gt;/User/keybindings.json</code><br>
+            JetBrains IDEs and Android Studio: <code>~/Library/Application Support/JetBrains/&lt;product&gt;&lt;version&gt;/</code> (or <code>Google/</code>), the <code>options/keymap.xml</code> file and the active keymap in <code>keymaps/</code><br>
+            Xcode: <code>~/Library/Developer/Xcode/UserData/KeyBindings/</code>, and Xcode&rsquo;s setting that names the active set<br>
+            Sublime Text and Sublime Merge: <code>~/Library/Application Support/&lt;Sublime Text | Sublime Text 3 | Sublime Merge&gt;/Packages/User/Default (OSX).sublime-keymap</code> (or <code>Default.sublime-keymap</code>)<br>
+            Zed: <code>~/.config/zed/keymap.json</code><br>
+            Final Cut Pro: the command set in <code>~/Library/Application Support/Final Cut Pro/Command Sets/</code> that Final Cut&rsquo;s &ldquo;Active Command Set&rdquo; setting names
+          </td>
+          <td>To show the bindings you changed that an app&rsquo;s menus can&rsquo;t show. Only when that app is the one in front. For an editor Keysi has not been told about, it looks for the same folder under the app&rsquo;s own name.</td>
+        </tr>
+        <tr>
+          <td>Vim and Emacs config</td>
+          <td><code>~/.vimrc</code>, <code>~/.vim/vimrc</code>, <code>~/.config/nvim/init.vim</code>, <code>~/.emacs.d/init.el</code>, <code>~/.config/emacs/init.el</code>, <code>~/.emacs</code></td>
+          <td>The first one that exists, only when Vim, Neovim or Emacs is the running program in the terminal in front. Keysi reads the file in memory and uses only the key-mapping lines.</td>
+        </tr>
+        <tr>
+          <td>The sync folder, if you turn Sync on</td>
+          <td>The folder you choose in Settings &#9656; Sync (by default <code>~/Library/Mobile Documents/com~apple~CloudDocs/Keysi</code> in iCloud Drive)</td>
+          <td>Off until you turn it on. Keysi reads and writes its own <code>keysi-sync-*.json</code> files there: your custom sheets, favourites, hidden shortcuts and appearance and trigger settings. Moving them between Macs is iCloud Drive&rsquo;s (or your sync app&rsquo;s) job; Keysi makes no network request for it.</td>
+        </tr>
+        <tr>
+          <td>Which programs are running</td>
+          <td>The process list (<code>sysctl</code>), the running-apps list and the front app</td>
+          <td>To find the foreground program in a terminal, to know whether Raycast or Rectangle is running, and to name the app that turned on secure input. Process names and parent links only. Nothing is stored.</td>
+        </tr>
+        <tr>
+          <td>Whether Raycast, Alfred and the <code>keysi</code> command are set up</td>
+          <td>Application lookup by bundle id; the existence of a <code>keysi</code> link in <code>/usr/local/bin</code>, <code>/opt/homebrew/bin</code>, <code>~/.local/bin</code> and <code>~/bin</code></td>
+          <td>Only when you open the Integrations window, so it can show what is installed. File contents aren&rsquo;t read.</td>
+        </tr>
+        <tr>
+          <td>Files you choose</td>
+          <td>Anything you pick in an Open or Save panel</td>
+          <td>Importing a sheet, exporting shortcuts. Keysi sees only what you pick.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <p>
+    Keysi starts two programs, and no others. It runs its own executable with
+    a flag that asks a fresh process whether Accessibility is granted, because
+    the answer inside a running app can be stale. And if you press the repair
+    button after macOS keeps a stale entry, it runs
+    <code>/usr/bin/tccutil reset Accessibility me.manulorenzo.Keysi</code>,
+    which clears Keysi&rsquo;s own entry and nobody else&rsquo;s.
+  </p>
+
+  <h2 id="verify">Check it yourself</h2>
+  <p>
+    Nothing below needs my help or my build tools. Each command is yours to run.
+  </p>
+
+  <h3>That it is the signed, notarized build</h3>
+  <p>Apple&rsquo;s Gatekeeper verdict. Expect <code>accepted</code> and <code>source=Notarized Developer ID</code>.</p>
+  <div class="verify-box">
+    <code>spctl -a -vv /Applications/Keysi.app</code>
+  </div>
+  <p>
+    The signature details. Expect <code>TeamIdentifier=2357A78TMR</code>, an
+    <code>Authority=Developer ID Application</code> line ending in that same
+    team id, and <code>flags=0x10000(runtime)</code>, which is the hardened
+    runtime.
+  </p>
+  <div class="verify-box">
+    <code>codesign -dv --verbose=4 /Applications/Keysi.app</code>
+  </div>
+  <p>That nothing has been altered since it was signed, and that Apple&rsquo;s notarization ticket is attached:</p>
+  <div class="verify-box">
+    <code>codesign --verify --deep --strict --verbose=2 /Applications/Keysi.app &amp;&amp; xcrun stapler validate /Applications/Keysi.app</code>
+  </div>
+
+  <h3>That it asks for nothing else</h3>
+  <p>The entitlements should print nothing. The usage descriptions should be the two named above.</p>
+  <div class="verify-box">
+    <code>codesign -d --entitlements - /Applications/Keysi.app</code>
+  </div>
+  <div class="verify-box">
+    <code>plutil -p /Applications/Keysi.app/Contents/Info.plist | grep -i UsageDescription</code>
+  </div>
+
+  <h3>What it sends</h3>
+  <p>
+    Use a firewall that shows connections per app, such as Little Snitch or
+    LuLu (free and open source). Leave analytics off and expect <code>keysi.io</code>
+    and, if you have entered a licence key, <code>api.gumroad.com</code>, and
+    nothing else. Deny both and everything in the free tier keeps working;
+    updates and the licence check simply don&rsquo;t happen. Without a firewall,
+    ask macOS for Keysi&rsquo;s open connections:
+  </p>
+  <div class="verify-box">
+    <code>lsof -a -i -n -P -c Keysi</code>
+  </div>
+
+  <h3>What it is doing right now</h3>
+  <p>
+    Keysi writes its own log, by category (AX, Hold, License, Updates and so
+    on). Watch it live while you hold &#8984;, open a menu or run a shortcut:
+  </p>
+  <div class="verify-box">
+    <code>log stream --level info --predicate 'subsystem == "me.manulorenzo.Keysi"'</code>
+  </div>
+
+  <h3>What it keeps</h3>
+  <p>
+    Everything Keysi stores lives in two places. Open them and read them; they
+    are JSON and a preferences domain.
+  </p>
+  <div class="verify-box">
+    <code>ls -l ~/Library/Application\ Support/Keysi/</code>
+  </div>
+  <div class="verify-box">
+    <code>defaults read me.manulorenzo.Keysi</code>
+  </div>
+
+  <h3>And the off switch</h3>
+  <p>
+    System Settings &#9656; Privacy &amp; Security &#9656; Accessibility lets you
+    switch Keysi off at any time. Without it Keysi cannot read another app&rsquo;s
+    menus or see a key held, and it says so rather than guessing.
+  </p>
+
+  <h2 id="review">Independent review</h2>
+  <p>
+    Keysi has not had an independent security review. The checks above are how
+    you can verify it without one, and if you need a review for your
+    organization, tell me and I will support it.
+  </p>
+
+  <h2>Found something?</h2>
+  <p>
+    If anything here is wrong, or you find Keysi doing something this page
+    doesn&rsquo;t say, email <a href="mailto:support@keysi.io">support@keysi.io</a>.
+    I answer myself, and a mismatch between this page and the app is a bug in
+    one of them.
+  </p>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-row">
+      <div>© 2026 Manuel Lorenzo. Not affiliated with Media Atelier.</div>
+      <ul class="footer-links">
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="security.html">Security</a></li>
+        <li><a href="terms.html">Terms &amp; refunds</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+        <li><a href="roadmap.html">Roadmap</a></li>
+        <li><a href="press.html">Press</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

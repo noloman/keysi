@@ -46,7 +46,7 @@
   "url": "https://keysi.io/es/",
   "image": "https://keysi.io/assets/img/og.png",
   "description": "Mantén pulsado un modificador y verás todos los atajos de teclado de la app de Mac que estés usando, agrupados por menú, dibujados como teclas reales, y podrás pulsar cualquier fila para ejecutarla. Gratis y sin límite de tiempo; Keysi Pro añade un entrenamiento que te enseña los atajos que se te siguen escapando.",
-  "softwareVersion": "1.0.30",
+  "softwareVersion": "1.0.31",
   "downloadUrl": "https://github.com/noloman/keysi/releases/latest",
   "inLanguage": [
     "en",
@@ -115,7 +115,7 @@
           <a class="btn btn-secondary btn-lg" href="#pricing">Pro: $14.99, pago único</a>
         </div>
         <p class="hero-brew">o <code class="cmd">brew install --cask noloman/keysi/keysi</code></p>
-        <p class="hero-micro"><span>Gratis, sin límite de tiempo, sin cuenta</span> <span>Incluye 14 días de Pro</span></p>
+        <p class="hero-micro"><span>Gratis: sin prueba, sin límite de tiempo, sin cuenta</span> <span>Incluye 14 días de Pro</span></p>
         <p class="hold-hint">Mantén pulsada <span class="kbd">⌘</span> en esta página para probarlo.</p>
       </div>
 
@@ -149,6 +149,24 @@
       <li>Estadísticas <strong>desactivadas por omisión</strong></li>
     </ul>
   </div>
+</section>
+
+<!-- The free tier, near the top: a Reddit reader (2026-10-11) pointed out
+     that many visitors leave before they scroll to pricing. Keep this in
+     step with the Free card in #pricing. -->
+<section id="free" class="container tight free-summary">
+  <h2>Lo que tienes gratis, sin límite de tiempo</h2>
+  <ul class="pricing-list free-summary-list">
+    <li><span class="tick">✓</span><span>Los atajos de cualquier app al mantener ⌘, ⌥, ⌃ o ⇧</span></li>
+    <li><span class="tick">✓</span><span>Búsqueda, favoritos, ocultar y clic para ejecutar</span></li>
+    <li><span class="tick">✓</span><span>Catorce chuletas para Vim, tmux, Figma, Slack y más, y las tuyas propias</span></li>
+    <li><span class="tick">✓</span><span>Tus propios atajos reasignados en VS Code, JetBrains, Xcode, Sublime Text, Zed, Final Cut Pro, Vim y Emacs</span></li>
+    <li><span class="tick">✓</span><span>Avisos cuando macOS u otra app se queda antes con un atajo</span></li>
+    <li><span class="tick">✓</span><span>Exportación a Markdown y PDF, y ajustes sincronizados entre tus Mac</span></li>
+    <li><span class="tick">✓</span><span>Un ejercicio de práctica al día</span></li>
+    <li><span class="tick">✓</span><span>Sin cuenta, sin tarjeta, sin avisos insistentes</span></li>
+  </ul>
+  <p class="fine">Pro añade el entrenamiento por $14.99, en un solo pago. <a href="#pricing">Compara Gratis y Pro</a>.</p>
 </section>
 
 <section class="origin tight">
@@ -256,6 +274,7 @@
         <ul>
           <li><strong>Mantén pulsado cualquier modificador</strong> <span class="kbd">⌘</span> <span class="kbd">⌥</span> <span class="kbd">⌃</span> <span class="kbd">⇧</span> el que prefieras, con un retardo ajustable.</li>
           <li><strong>Un panel con búsqueda</strong> <span class="kbd-row"><span class="kbd">⇧</span><span class="kbd">⌘</span><span class="kbd">K</span></span> escribe para filtrar, flechas para moverte, Escape para cerrar.</li>
+          <li><strong>Un doble toque</strong> <span class="tier tier-free">Gratis</span> si prefieres no mantener pulsada una tecla, toca dos veces <span class="kbd">⌘</span>, <span class="kbd">⌥</span> o <span class="kbd">⌃</span>. Está desactivado hasta que lo actives, y un ⌘C ⌘V rápido nunca cuenta.</li>
           <li><strong>El icono de la barra de menús</strong> el mismo contenido, sin teclado.</li>
           <li><strong>Déjalo fijado</strong> donde quieras, para cada app.</li>
         </ul>
@@ -271,9 +290,12 @@
       <div class="cap-group">
         <h3>Va más allá</h3>
         <ul>
-          <li><strong>Hojas de atajos</strong> <span class="tier tier-free">Gratis</span> Figma, Slack, Notion, Obsidian, Excel, Word, Ghostty, Vim, tmux y Emacs incluidas, más un editor para crear las tuyas. <a href="sheets.html">Verlas todas</a>.</li>
-          <li><strong>Lee los atajos que has cambiado</strong> <span class="tier tier-free">Gratis</span> en IntelliJ IDEA, Android Studio, VS Code, Cursor, Xcode o tu propio <code>.vimrc</code>, incluidas las combinaciones que los menús de esas apps no pueden mostrar.</li>
-          <li><strong>Nueve idiomas</strong> inglés, español, francés, alemán, italiano, portugués (BR), japonés, coreano y chino simplificado.</li>
+          <li><strong>Más allá de la barra de menús</strong> <span class="tier tier-free">Gratis</span> tus propios atajos reasignados, hojas para Vim, tmux y Figma, y un aviso cuando otra app se queda antes con un atajo.</li>
+          <li><strong>Hojas de atajos</strong> <span class="tier tier-free">Gratis</span> Figma, Slack, Notion, Obsidian, Excel, Word, Ghostty, Discord, Linear, Vim, tmux, Emacs, Helix y Zellij incluidas, más un editor para crear las tuyas. <a href="sheets.html">Verlas todas</a>.</li>
+          <li><strong>Lee los atajos que reasignaste</strong> <span class="tier tier-free">Gratis</span> en IntelliJ IDEA, Android Studio, VS Code, Cursor, Xcode, Sublime Text, Sublime Merge, Zed, Final Cut Pro o en tu propio <code>.vimrc</code>, incluidos los atajos de dos pasos como ⌃K ⌃B y otros que los menús de esas apps no pueden mostrar.</li>
+          <li><strong>Importa una hoja</strong> <span class="tier tier-free">Gratis</span> añade una hoja de atajos desde un archivo JSON después de que Keysi te muestre lo que contiene. <a href="sheets.html">Hojas de la comunidad</a> para lazygit, k9s y más; nada se instala desde un enlace.</li>
+          <li><strong>Igual en cada Mac</strong> <span class="tier tier-free">Gratis</span> Ajustes &#9656; Sincronización mantiene tus hojas personalizadas, favoritos y apariencia en una carpeta que eliges, como iCloud Drive. Desactivado hasta que lo actives.</li>
+          <li><strong>Diecisiete idiomas</strong> inglés, español, francés, alemán, italiano, portugués (BR), japonés, coreano, chino simplificado y tradicional, neerlandés, sueco, danés, noruego, finés, polaco, hindi.</li>
           <li><strong>Accesible desde fuera de Keysi</strong> <span class="tier tier-pro">Pro</span> Raycast, Alfred, Atajos, Siri, Spotlight, el menú Servicios, un comando <code>keysi</code> en el terminal y una URL <code>keysi://</code>. Mostrar los atajos de una app desde Raycast, Alfred, el terminal o una URL es gratis. <a href="../integrations.html">Cómo funciona cada uno</a>.</li>
         <li><strong>Exporta la chuleta entera</strong> <span class="tier tier-free">Gratis</span> los atajos de cualquier app en Markdown o en un PDF imprimible. El fondo de escritorio del tamaño de tu pantalla es Pro.</li>
         </ul>
@@ -281,6 +303,89 @@
     </div>
   </div>
 
+</section>
+
+<section class="container tight">
+  <div class="eyebrow">Y mucho más</div>
+  <h2>Más allá de la barra de menús</h2>
+  <div class="feature-pair">
+    <div class="feature-copy">
+      <div class="eyebrow">Tus propios atajos<span class="tier tier-free">Gratis</span></div>
+      <h3>Los atajos que un menú no puede mostrar</h3>
+      <p>Keysi lee el mapa de atajos que reasignaste en VS Code, Cursor, JetBrains, Sublime Text, Zed, Final Cut Pro y Xcode, y lo muestra como un grupo propio junto a las filas del menú.</p>
+      <figure class="shot">
+        <picture>
+          <source srcset="../assets/img/shot-beyond-menu@2x.webp" type="image/webp">
+          <img src="../assets/img/shot-beyond-menu@2x.png" alt="La superposición de Keysi sobre VS Code: grupos de menú Edición, Selección, Ir y Terminal, y un grupo Tus atajos con atajos reasignados como Unir líneas y Renombrar" loading="lazy" width="1991" height="1659">
+        </picture>
+        <figcaption>Los menús de VS Code más un grupo &ldquo;Tus atajos&rdquo;. Los atajos reasignados son un ejemplo, no una configuración real.</figcaption>
+      </figure>
+    </div>
+    <div class="feature-copy">
+      <div class="eyebrow">Hojas de atajos<span class="tier tier-free">Gratis</span></div>
+      <h3>Hojas para terminal y editores, incluidas</h3>
+      <p>Vim, tmux, Emacs, Helix, Zellij, Figma, Slack, Discord, Linear y más vienen con Keysi, y puedes importar más o escribir las tuyas.</p>
+      <figure class="shot">
+        <picture>
+          <source srcset="../assets/img/shot-helix@2x.webp" type="image/webp">
+          <img src="../assets/img/shot-helix@2x.png" alt="La hoja de Helix incluida en Keysi: grupos Insertar, Selecciones, Coincidir y rodear, Ventanas, Movimiento, Edición, Ir a, Buscar y Menú de espacio, cada uno con la tecla que pulsar" loading="lazy" width="1991" height="1659">
+        </picture>
+        <figcaption>La hoja de Helix incluida. Aparece cuando la terminal que ejecuta Helix está delante.</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="feature-pair">
+    <div class="feature-copy">
+      <div class="eyebrow">Otra forma de abrirlo<span class="tier tier-free">Gratis</span></div>
+      <h3>Doble toque en lugar de mantener pulsada</h3>
+      <p>¿Prefieres no mantener pulsada una tecla? Activa el doble toque de &#8984;, &#8997; o &#8963; en Ajustes &#9656; Activadores. Está desactivado hasta que lo actives, y un &#8984;C &#8984;V rápido nunca cuenta.</p>
+      <figure class="shot">
+        <picture>
+          <source srcset="../assets/img/shot-double-tap@2x.webp" type="image/webp">
+          <img src="../assets/img/shot-double-tap@2x.png" alt="Los ajustes de activación de Keysi con Abrir con doble toque activado y Comando elegido, debajo de los controles de la tecla y el retardo al mantener pulsada" loading="lazy" width="1280" height="1420">
+        </picture>
+        <figcaption>Ajustes &#9656; Activadores, con el doble toque activado.</figcaption>
+      </figure>
+    </div>
+    <div class="feature-copy">
+      <div class="eyebrow">Apps en las que trabajas<span class="tier tier-free">Gratis</span></div>
+      <h3>Las apps con menús escasos también tienen hoja</h3>
+      <p>Linear, Discord y Notion dejan la mayoría de sus atajos fuera de la barra de menús. Sus hojas incluidas muestran las teclas igualmente.</p>
+      <figure class="shot">
+        <picture>
+          <source srcset="../assets/img/shot-linear@2x.webp" type="image/webp">
+          <img src="../assets/img/shot-linear@2x.png" alt="La hoja de Linear incluida en Keysi: grupos General, Relaciones, Filtrar y copiar, Crear y editar, Propiedades e Ir a, con sus atajos" loading="lazy" width="1411" height="1659">
+        </picture>
+        <figcaption>La hoja de Linear incluida.</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="feature-pair">
+    <div class="feature-copy">
+      <div class="eyebrow">Tu Keysi<span class="tier tier-pro">Keysi Pro · $14.99</span></div>
+      <h3>Mira lo que has aprendido, app por app</h3>
+      <p>Un objetivo semanal de 3, 5 o 10 atajos nuevos, tu racha y tu año, y un ranking de las apps en las que más has aprendido, cada una con su porcentaje de dominio. Cuenta pulsaciones que Keysi vio, no suposiciones.</p>
+      <figure class="shot">
+        <picture>
+          <source srcset="../assets/img/shot-progress@2x.webp" type="image/webp">
+          <img src="../assets/img/shot-progress@2x.png" alt="La ventana Tu Keysi: 17 atajos aprendidos, una racha de 9 días, una barra con 2 de 5 atajos nuevos esta semana, un año de actividad, un mapa de calor del teclado, y Xcode, Figma, Slack y Finder ordenados por atajos aprendidos" loading="lazy" width="1520" height="2200">
+        </picture>
+        <figcaption>Tu Keysi, con cifras de ejemplo para la captura.</figcaption>
+      </figure>
+    </div>
+    <div class="feature-copy">
+      <div class="eyebrow">Sincronización<span class="tier tier-free">Gratis</span></div>
+      <h3>Las mismas hojas y ajustes en cada Mac</h3>
+      <p>Elige una carpeta, como iCloud Drive o Dropbox, y Keysi guarda en ella tus hojas personalizadas, favoritos y ajustes de apariencia. Keysi solo escribe archivos allí y no hace ninguna conexión de red propia para esto. Nunca tu licencia, tu prueba ni tu progreso de Coach.</p>
+      <figure class="shot">
+        <picture>
+          <source srcset="../assets/img/shot-sync@2x.webp" type="image/webp">
+          <img src="../assets/img/shot-sync@2x.png" alt="Los ajustes de Sincronización de Keysi con Sincronizar entre Macs activado, la carpeta de sincronización dentro de la carpeta personal, y los botones Elegir carpeta, Usar la carpeta de iCloud Drive y Sincronizar ahora" loading="lazy" width="1280" height="1400">
+        </picture>
+        <figcaption>Ajustes &#9656; Sincronización. Desactivada hasta que la actives.</figcaption>
+      </figure>
+    </div>
+  </div>
 </section>
 
 <section class="container tight">
@@ -307,6 +412,7 @@
       <li><span class="tick">✓</span><span>Hojas de referencia personalizadas, con editor integrado</span></li>
       <li><span class="tick">✓</span><span>Exporta los atajos de cualquier app en Markdown o en un PDF imprimible</span></li>
       <li><span class="tick">✓</span><span>Muestra los atajos de una app desde Raycast, Alfred o el terminal</span></li>
+      <li><span class="tick">✓</span><span>Un ejercicio de práctica al día, para probar la repetición espaciada</span></li>
       <li><span class="tick">✓</span><span>Sin cuenta, sin tarjeta, sin avisos insistentes</span></li>
     </ul>
     <p class="price-note">Todo lo de esta lista sigue siendo gratis. Sigo desarrollando Keysi, y una función nueva puede acabar en cualquiera de los dos niveles, pero de aquí no sale nada.</p>
@@ -322,9 +428,10 @@
     <ul class="pricing-list">
       <li><span class="tick">✓</span><span>Coach: un recordatorio discreto cuando usas el ratón para algo que tiene atajo</span></li>
       <li><span class="tick">✓</span><span>Atajos sugeridos para los comandos sin atajo que sigues pulsando</span></li>
-      <li><span class="tick">✓</span><span>El modo práctica para los que se te siguen escapando</span></li>
+      <li><span class="tick">✓</span><span>El modo práctica sin límite para los que se te siguen escapando</span></li>
       <li><span class="tick">✓</span><span>Progreso medido contra tus propios tiempos de ir al menú</span></li>
-      <li><span class="tick">✓</span><span>Un resumen semanal de lo que se te ha quedado</span></li>
+      <li><span class="tick">✓</span><span>Un resumen semanal de lo que se te quedó y un objetivo semanal de 3, 5 o 10 atajos nuevos</span></li>
+      <li><span class="tick">✓</span><span>Tu Keysi: las apps en las que más has aprendido, ordenadas, con un porcentaje de dominio de cada una</span></li>
       <li><span class="tick">✓</span><span>El panel marca los atajos que te has aprendido</span></li>
       <li><span class="tick">✓</span><span>El panel marca los atajos que ha añadido la actualización de una app</span></li>
       <li><span class="tick">✓</span><span>Los atajos de cualquier app como fondo de escritorio del tamaño de tu pantalla</span></li>
@@ -359,6 +466,7 @@
       <summary>¿Por qué necesita Keysi acceso de Accesibilidad?</summary>
       <div class="faq-body">
         <p>Para leer la barra de menús de la app que estás usando. La petición de permiso lo dice literalmente: «Keysi necesita acceso de Accesibilidad para leer los atajos de teclado de la app que estás usando. Nunca controla tu teclado ni tu ratón sin que hagas clic explícitamente en una fila de atajo.»</p>
+        <p>Keysi es de código cerrado, así que he listado cada llamada de Accesibilidad que hace, cada petición de red y cada archivo que lee, con los comandos para comprobarlo tú mismo (en inglés): <a href="../security.html">lo que Keysi puede ver y lo que envía</a>.</p>
       </div>
     </details>
 
@@ -410,7 +518,7 @@
     <details class="faq-item">
       <summary>¿Qué pasa cuando acaba la prueba de Keysi Pro?</summary>
       <div class="faq-body">
-        <p>Keysi sigue funcionando. Pasados los 14 días (y un breve periodo de gracia) vuelve a la versión gratuita: todos los atajos se siguen mostrando, las filas se siguen ejecutando y las hojas personalizadas se siguen cargando. Lo que se detiene es el entrenamiento: los recordatorios, el modo práctica, las cifras de progreso y el resumen semanal. No se borra nada de lo que hayas configurado, y Keysi sigue contando en local, así que si mejoras más adelante retomas donde lo dejaste.</p>
+        <p>Keysi sigue funcionando. Pasados los 14 días (y un breve periodo de gracia) vuelve a la versión gratuita: todos los atajos se siguen mostrando, las filas se siguen ejecutando y las hojas personalizadas se siguen cargando. Lo que se detiene es el entrenamiento: los recordatorios, el modo práctica sin límite, las cifras de progreso y el resumen semanal. Sigues teniendo un ejercicio de práctica gratuito al día. No se borra nada de lo que hayas configurado, y Keysi sigue contando en local, así que si mejoras más adelante retomas donde lo dejaste.</p>
       </div>
     </details>
 
@@ -468,6 +576,7 @@
         <h3>Comparado con</h3>
         <ul>
           <li><a href="../keyclu-vs-keysi.html">KeyClu</a></li>
+          <li><a href="../keyminder-vs-keysi.html">KeyMinder</a></li>
           <li><a href="../keycue-alternative.html">KeyCue</a></li>
           <li><a href="../cheatsheet-alternative.html">CheatSheet</a></li>
         </ul>
@@ -476,6 +585,7 @@
         <h3>Legal</h3>
         <ul>
           <li><a href="../privacy.html">Privacidad</a></li>
+          <li><a href="../security.html">Seguridad</a></li>
           <li><a href="../terms.html">Condiciones y reembolsos</a></li>
           <li><a href="../press.html">Prensa</a></li>
         </ul>

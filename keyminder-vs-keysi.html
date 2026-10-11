@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KeyMinder vs Keysi — both free viewers, one open source</title>
+<meta name="description" content="KeyMinder is free and open source (GPL-3.0). Keysi's viewer is free too, with no trial, but closed source. A dated, honest comparison of what each does.">
+<link rel="canonical" href="https://keysi.io/keyminder-vs-keysi.html">
+<link rel="icon" href="assets/favicon/icon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Keysi">
+<meta property="og:title" content="KeyMinder vs Keysi — both free viewers, one open source">
+<meta property="og:description" content="KeyMinder is free and open source. Keysi's viewer is free with no trial, and goes past the menu bar. Compared against KeyMinder's own site on 2026-10-11.">
+<meta property="og:url" content="https://keysi.io/keyminder-vs-keysi.html">
+<meta property="og:image" content="https://keysi.io/assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://keysi.io/assets/img/og.png">
+<link rel="stylesheet" href="assets/css/site.css">
+<script src="assets/js/analytics.js" defer></script>
+<script src="assets/js/hold.js" defer></script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">⌘</span>Keysi</a>
+    <ul class="nav-links">
+      <li><a href="./#features">Features</a></li>
+      <li><a href="./#pricing">Pricing</a></li>
+      <li><a href="./#faq">FAQ</a></li>
+      <li><a href="changelog.html">Changelog</a></li>
+    </ul>
+    <a class="btn btn-primary btn-nav" href="https://github.com/noloman/keysi/releases/latest">Download</a>
+    <details class="nav-more">
+      <summary><span class="nav-more-glyph" aria-hidden="true"></span><span class="sr-only">Menu</span></summary>
+      <ul class="nav-more-menu">
+        <li><a href="./#features">Features</a></li>
+        <li><a href="./#pricing">Pricing</a></li>
+        <li><a href="./#faq">FAQ</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+        <li><a href="integrations.html">Integrations</a></li>
+        <li><a href="sheets.html">Cheat sheets</a></li>
+      </ul>
+    </details>
+  </div>
+</nav>
+
+<section class="container-narrow doc">
+  <div class="eyebrow">KeyMinder vs Keysi</div>
+  <h1>KeyMinder and Keysi: two free shortcut viewers, one of them open source.</h1>
+  <p class="lede">
+    Both show the frontmost Mac app's keyboard shortcuts when you ask. Both
+    are free to use. KeyMinder is open source; Keysi is not. If you want
+    open source, use KeyMinder. This page is about everything else.
+  </p>
+  <p class="fine">Compared against KeyMinder's own site and GitHub repository on 2026-10-11.</p>
+
+  <h2>What KeyMinder does well</h2>
+  <p>
+    <a href="https://keyminder.app/">KeyMinder</a>, by Donald van de Weyer,
+    is free and GPL-3.0 licensed (the code is on
+    <a href="https://github.com/dvdweyer/KeyMinder">GitHub</a>, so you can
+    read it, build it and change it). It needs macOS 14 or later and
+    Accessibility permission, reads the frontmost app's menu bar live, and
+    opens on a global hotkey (⌥⌘K by default) or a double-tap of ⌘, ⌥ or ⌃.
+    You can search, click a row (or Tab to it) to run the command, filter by
+    an exact modifier combination, pin favourites, ignore commands, menus or
+    apps (wildcards included), see the macOS system shortcuts, export an
+    app's shortcuts as Markdown, and drill yourself with a flash-card Quiz
+    Mode. It supports VoiceOver, has experimental iCloud settings sync,
+    installs from a notarized DMG or Homebrew, and its site lists 24
+    languages (its README lists 17).
+  </p>
+
+  <h2>What Keysi's free viewer does</h2>
+  <p>
+    Keysi's viewer is free: no trial, no time limit, no account. You can
+    hold a modifier key, press a hotkey or double-tap to show the panel;
+    search it; click a row to run it; export Markdown or a printable PDF;
+    and use it in 17 languages with VoiceOver. It also warns when macOS or
+    another app's hotkey will take a shortcut first, and can sync settings
+    through a folder you choose (off until you turn it on).
+  </p>
+  <p>
+    <strong>Keysi is closed source.</strong> If that matters to you, that is
+    a fair reason to pick KeyMinder. What Keysi offers instead is a plain
+    account of what it does and doesn't do on your Mac, on
+    <a href="security.html">its security page</a>.
+  </p>
+
+  <h2>Where the free viewers differ</h2>
+  <ul>
+    <li>
+      <strong>Past the menu bar.</strong> Many shortcuts never appear in a
+      menu: Vim, tmux, Emacs, editors, chat and design tools. Keysi ships
+      fourteen curated cheat sheets for those (Figma, Slack, Notion, Obsidian,
+      Excel, Word, Ghostty, Vim, tmux, Emacs, Helix, Zellij, Discord, Linear), imports
+      community sheets, and has an editor for your own. KeyMinder's site
+      says setting your own shortcuts inside it is planned, not built.
+    </li>
+    <li>
+      <strong>Your remapped keys.</strong> Keysi reads the keymaps you
+      customised in VS Code and its forks, JetBrains IDEs, Xcode, Vim and
+      Neovim, Emacs, Sublime Text and Zed, so the panel shows your shortcuts
+      rather than the defaults. Not stated on KeyMinder's site (checked
+      2026-10-11).
+    </li>
+    <li>
+      <strong>Conflict warnings.</strong> Keysi flags a shortcut that macOS
+      or another app's hotkey will intercept, on the row. KeyMinder lists the
+      macOS system shortcuts and, per its site, has an experimental
+      duplicate-shortcut indicator; interception by other apps is not stated
+      on KeyMinder's site (checked 2026-10-11).
+    </li>
+    <li>
+      <strong>Things KeyMinder does that Keysi's free viewer doesn't.</strong>
+      Favourites, ignore lists with wildcards, an exact-modifier filter, a
+      system-shortcuts section, a flash-card quiz in the free app, and
+      open-source code. Different strengths; both are real.
+    </li>
+    <li>
+      <strong>Hold-to-show.</strong> KeyMinder opens by hotkey or
+      double-tap; Keysi also lets you hold a modifier to peek and let go.
+      That is a preference, not a ranking.
+    </li>
+  </ul>
+
+  <h2>The paid part</h2>
+  <p>
+    Keysi Pro is $14.99 once. It adds Coach (a quiet reminder when you use the
+    menu for a command that has a shortcut), unlimited spaced-repetition
+    Practice (one drill a day is free), a weekly goal, per-app progress and
+    integrations. KeyMinder's site
+    describes a flash-card quiz, but not reminders, progress tracking or
+    spaced repetition (checked 2026-10-11). You do not need Pro to use the
+    viewer.
+  </p>
+
+  <h2>The table</h2>
+  <div class="table-scroll">
+    <table class="compare">
+      <thead>
+        <tr><th>Feature</th><th>Keysi</th><th>KeyMinder</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Price</td><td class="yes">Free viewer, no trial, time limit or account; Pro $14.99 once</td><td class="yes">Free</td></tr>
+        <tr><td>Source</td><td class="no">Closed source (see <a href="security.html">security</a>)</td><td class="yes">Open source, GPL-3.0</td></tr>
+        <tr><td>Requires</td><td>macOS 14 or later</td><td>macOS 14 or later</td></tr>
+        <tr><td>Shows the frontmost app's shortcuts</td><td class="yes">Yes</td><td class="yes">Yes, live from the menu bar</td></tr>
+        <tr><td>How it opens</td><td class="yes">Hold a modifier, hotkey or double-tap</td><td class="yes">Hotkey (⌥⌘K default) or double-tap ⌘, ⌥ or ⌃</td></tr>
+        <tr><td>Hold-to-show</td><td class="yes">Yes</td><td class="no">Not stated on KeyMinder's site (checked 2026-10-11)</td></tr>
+        <tr><td>Search and click to run</td><td class="yes">Yes</td><td class="yes">Yes, click or Tab to a result</td></tr>
+        <tr><td>Favourites and ignore lists</td><td class="no">Not a Keysi feature today</td><td class="yes">Yes, with per-app and wildcard ignores</td></tr>
+        <tr><td>macOS system shortcuts</td><td class="no">Used for conflict warnings</td><td class="yes">Yes, a section of their own</td></tr>
+        <tr><td>Cheat sheets for apps with no menu bar</td><td class="yes">Yes: fourteen built in, community sheets, import, editor</td><td class="no">Not stated on KeyMinder's site (checked 2026-10-11); custom shortcuts are planned</td></tr>
+        <tr><td>Reads your remapped keymaps</td><td class="yes">Yes: VS Code and forks, JetBrains, Xcode, Vim/Neovim, Emacs, Sublime Text, Zed</td><td class="no">Not stated on KeyMinder's site (checked 2026-10-11)</td></tr>
+        <tr><td>Warns when another app or macOS takes a shortcut</td><td class="yes">Yes</td><td class="no">Not stated; it has an experimental duplicate indicator (checked 2026-10-11)</td></tr>
+        <tr><td>Coaching reminders and progress</td><td class="yes">Yes, with Pro</td><td class="no">Not stated on KeyMinder's site (checked 2026-10-11)</td></tr>
+        <tr><td>Practice</td><td class="yes">Spaced repetition: one drill a day free, unlimited with Pro</td><td class="yes">Flash-card Quiz Mode, free</td></tr>
+        <tr><td>Integrations</td><td class="yes">Yes, with Pro</td><td class="no">Not stated on KeyMinder's site (checked 2026-10-11)</td></tr>
+        <tr><td>Export</td><td class="yes">Markdown or PDF, free</td><td class="yes">Markdown</td></tr>
+        <tr><td>Settings sync</td><td class="yes">Via a folder you choose</td><td class="yes">Experimental iCloud sync</td></tr>
+        <tr><td>Languages</td><td class="yes">17</td><td class="yes">24 per its site, 17 per its README</td></tr>
+        <tr><td>VoiceOver</td><td class="yes">Yes</td><td class="yes">Yes</td></tr>
+        <tr><td>Install</td><td>Direct download, notarized</td><td>Notarized DMG or Homebrew tap; build from source</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="compare-date">
+    Compared on 2026-10-11 against
+    <a href="https://keyminder.app/">keyminder.app</a> and
+    <a href="https://github.com/dvdweyer/KeyMinder">its GitHub repository</a>
+    (v1.0.195, GPL-3.0-or-later from v1.0.129; earlier releases MIT).
+    "Not stated" means the feature isn't mentioned there either way, not
+    that it's absent. Check KeyMinder directly rather than taking a
+    competitor's word. The wider
+    <a href="keyclu-vs-keysi.html">six-way table</a> compares KeyCue, KeyClu,
+    Keylume and CheatSheet as well.
+  </p>
+
+  <h2>Pick KeyMinder if</h2>
+  <ul>
+    <li><strong>You want open source.</strong> You can read the code and build it yourself. Keysi can't offer that.</li>
+    <li><strong>You want favourites and ignore lists</strong> to trim a long menu down.</li>
+    <li><strong>You want a free quiz</strong> and Homebrew install, or the extra languages its site lists.</li>
+  </ul>
+
+  <h2>Pick Keysi if</h2>
+  <ul>
+    <li>You want shortcuts from tools with no menu bar, or your own remapped keymaps, in the same panel.</li>
+    <li>You want warnings when a shortcut will be intercepted.</li>
+    <li>You might later want coaching, and are happy for that to be a separate, optional $14.99.</li>
+  </ul>
+
+  <h2>Try both</h2>
+  <p>
+    They are both free, they don't conflict, and each takes a minute to
+    install. Run them side by side for a day and keep the one that fits.
+  </p>
+  <div class="doc-foot">
+    <p><strong>The viewer is free, with no trial.</strong> Pro is optional.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary btn-lg" href="./#download">Download for macOS</a>
+      <a class="btn btn-secondary btn-lg" href="./#pricing">See what Pro costs</a>
+    </div>
+  </div>
+
+  <h2>Related</h2>
+  <ul>
+    <li><a href="keyclu-vs-keysi.html">KeyClu is free, so why pay for Keysi? (six-way table)</a></li>
+    <li><a href="keycue-alternative.html">Looking at KeyCue instead?</a></li>
+    <li><a href="cheatsheet-alternative.html">Coming from CheatSheet?</a></li>
+    <li><a href="show-keyboard-shortcuts-mac.html">How to see any Mac app's keyboard shortcuts</a></li>
+    <li><a href="security.html">Security: what Keysi does on your Mac</a></li>
+  </ul>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-row">
+      <div>© 2026 Manuel Lorenzo. Not affiliated with Media Atelier.</div>
+      <ul class="footer-links">
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="security.html">Security</a></li>
+        <li><a href="terms.html">Terms &amp; refunds</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+        <li><a href="roadmap.html">Roadmap</a></li>
+        <li><a href="press.html">Press</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

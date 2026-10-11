@@ -9,7 +9,15 @@
     "pt-BR": "Emacs",
     "ja": "Emacs",
     "zh-Hans": "Emacs",
-    "ko": "Emacs"
+    "ko": "Emacs",
+    "nl": "Emacs",
+    "sv": "Emacs",
+    "da": "Emacs",
+    "nb": "Emacs",
+    "fi": "Emacs",
+    "pl": "Emacs",
+    "hi": "Emacs",
+    "zh-Hant": "Emacs"
   },
   "match": {
     "bundleIDs": [],
@@ -31,7 +39,15 @@
         "pt-BR": "Arquivos e buffers",
         "ja": "ファイルとバッファ",
         "zh-Hans": "文件与缓冲区",
-        "ko": "파일과 버퍼"
+        "ko": "파일과 버퍼",
+        "nl": "Bestanden en buffers",
+        "sv": "Filer och buffertar",
+        "da": "Filer og buffere",
+        "nb": "Filer og buffere",
+        "fi": "Tiedostot ja puskurit",
+        "pl": "Pliki i bufory",
+        "hi": "फ़ाइलें और बफ़र",
+        "zh-Hant": "檔案與緩衝區"
       },
       "items": [
         {
@@ -44,7 +60,15 @@
             "pt-BR": "Abrir um arquivo",
             "ja": "ファイルを開く",
             "zh-Hans": "打开文件",
-            "ko": "파일 열기"
+            "ko": "파일 열기",
+            "nl": "Een bestand openen",
+            "sv": "Öppna en fil",
+            "da": "Åbn en fil",
+            "nb": "Åpne en fil",
+            "fi": "Avaa tiedosto",
+            "pl": "Otwórz plik",
+            "hi": "फ़ाइल खोलें",
+            "zh-Hant": "開啟檔案"
           },
           "keys": "C-x C-f",
           "raw": true
@@ -59,7 +83,15 @@
             "pt-BR": "Salvar o buffer",
             "ja": "バッファを保存",
             "zh-Hans": "保存缓冲区",
-            "ko": "버퍼 저장"
+            "ko": "버퍼 저장",
+            "nl": "De buffer bewaren",
+            "sv": "Spara bufferten",
+            "da": "Gem bufferen",
+            "nb": "Arkiver bufferen",
+            "fi": "Tallenna puskuri",
+            "pl": "Zapisz bufor",
+            "hi": "बफ़र सहेजें",
+            "zh-Hant": "儲存緩衝區"
           },
           "keys": "C-x C-s",
           "raw": true
@@ -74,7 +106,15 @@
             "pt-BR": "Salvar vários buffers",
             "ja": "複数のバッファを保存",
             "zh-Hans": "保存多个缓冲区",
-            "ko": "여러 버퍼 저장"
+            "ko": "여러 버퍼 저장",
+            "nl": "Enkele buffers bewaren",
+            "sv": "Spara några buffertar",
+            "da": "Gem nogle buffere",
+            "nb": "Arkiver noen buffere",
+            "fi": "Tallenna joitakin puskureita",
+            "pl": "Zapisz wybrane bufory",
+            "hi": "कुछ बफ़र सहेजें",
+            "zh-Hant": "儲存部分緩衝區"
           },
           "keys": "C-x s",
           "raw": true
@@ -89,7 +129,15 @@
             "pt-BR": "Trocar de buffer",
             "ja": "バッファを切り替え",
             "zh-Hans": "切换缓冲区",
-            "ko": "버퍼 전환"
+            "ko": "버퍼 전환",
+            "nl": "Van buffer wisselen",
+            "sv": "Byt buffert",
+            "da": "Skift buffer",
+            "nb": "Bytt buffer",
+            "fi": "Vaihda puskuria",
+            "pl": "Przełącz bufor",
+            "hi": "बफ़र बदलें",
+            "zh-Hant": "切換緩衝區"
           },
           "keys": "C-x b",
           "raw": true
@@ -104,7 +152,15 @@
             "pt-BR": "Fechar o buffer",
             "ja": "バッファを閉じる",
             "zh-Hans": "关闭缓冲区",
-            "ko": "버퍼 닫기"
+            "ko": "버퍼 닫기",
+            "nl": "De buffer sluiten",
+            "sv": "Stäng bufferten",
+            "da": "Luk bufferen",
+            "nb": "Lukk bufferen",
+            "fi": "Sulje puskuri",
+            "pl": "Zamknij bufor",
+            "hi": "बफ़र बंद करें",
+            "zh-Hant": "關閉緩衝區"
           },
           "keys": "C-x k",
           "raw": true
@@ -119,7 +175,15 @@
             "pt-BR": "Sair do Emacs",
             "ja": "Emacs を終了",
             "zh-Hans": "退出 Emacs",
-            "ko": "Emacs 종료"
+            "ko": "Emacs 종료",
+            "nl": "Emacs stoppen",
+            "sv": "Avsluta Emacs",
+            "da": "Afslut Emacs",
+            "nb": "Avslutt Emacs",
+            "fi": "Lopeta Emacs",
+            "pl": "Zakończ Emacs",
+            "hi": "Emacs बंद करें",
+            "zh-Hant": "結束 Emacs"
           },
           "keys": "C-x C-c",
           "raw": true
@@ -136,7 +200,15 @@
         "pt-BR": "Janelas",
         "ja": "ウィンドウ",
         "zh-Hans": "窗口",
-        "ko": "창"
+        "ko": "창",
+        "nl": "Vensters",
+        "sv": "Fönster",
+        "da": "Vinduer",
+        "nb": "Vinduer",
+        "fi": "Ikkunat",
+        "pl": "Okna",
+        "hi": "विंडो",
+        "zh-Hant": "視窗"
       },
       "items": [
         {
@@ -149,7 +221,15 @@
             "pt-BR": "Dividir a janela abaixo",
             "ja": "ウィンドウを上下に分割",
             "zh-Hans": "上下拆分窗口",
-            "ko": "위아래로 창 분할"
+            "ko": "위아래로 창 분할",
+            "nl": "Het venster naar beneden splitsen",
+            "sv": "Dela fönstret nedåt",
+            "da": "Del vinduet nedad",
+            "nb": "Del vinduet nedover",
+            "fi": "Jaa ikkuna alaspäin",
+            "pl": "Podziel okno w dół",
+            "hi": "विंडो को नीचे की ओर बाँटें",
+            "zh-Hant": "向下分割視窗"
           },
           "keys": "C-x 2",
           "raw": true
@@ -164,7 +244,15 @@
             "pt-BR": "Dividir a janela à direita",
             "ja": "ウィンドウを左右に分割",
             "zh-Hans": "左右拆分窗口",
-            "ko": "좌우로 창 분할"
+            "ko": "좌우로 창 분할",
+            "nl": "Het venster naar rechts splitsen",
+            "sv": "Dela fönstret åt höger",
+            "da": "Del vinduet til højre",
+            "nb": "Del vinduet til høyre",
+            "fi": "Jaa ikkuna oikealle",
+            "pl": "Podziel okno w prawo",
+            "hi": "विंडो को दाईं ओर बाँटें",
+            "zh-Hant": "向右分割視窗"
           },
           "keys": "C-x 3",
           "raw": true
@@ -179,7 +267,15 @@
             "pt-BR": "Ir para a outra janela",
             "ja": "別のウィンドウへ移動",
             "zh-Hans": "切换到另一个窗口",
-            "ko": "다른 창으로 이동"
+            "ko": "다른 창으로 이동",
+            "nl": "Naar het andere venster gaan",
+            "sv": "Gå till det andra fönstret",
+            "da": "Gå til det andet vindue",
+            "nb": "Gå til det andre vinduet",
+            "fi": "Siirry toiseen ikkunaan",
+            "pl": "Przejdź do drugiego okna",
+            "hi": "दूसरी विंडो पर जाएँ",
+            "zh-Hant": "前往另一個視窗"
           },
           "keys": "C-x o",
           "raw": true
@@ -194,7 +290,15 @@
             "pt-BR": "Fechar esta janela",
             "ja": "このウィンドウを閉じる",
             "zh-Hans": "关闭此窗口",
-            "ko": "이 창 닫기"
+            "ko": "이 창 닫기",
+            "nl": "Dit venster sluiten",
+            "sv": "Stäng det här fönstret",
+            "da": "Luk dette vindue",
+            "nb": "Lukk dette vinduet",
+            "fi": "Sulje tämä ikkuna",
+            "pl": "Zamknij to okno",
+            "hi": "यह विंडो बंद करें",
+            "zh-Hant": "關閉此視窗"
           },
           "keys": "C-x 0",
           "raw": true
@@ -209,7 +313,15 @@
             "pt-BR": "Fechar as outras janelas",
             "ja": "他のウィンドウを閉じる",
             "zh-Hans": "关闭其他窗口",
-            "ko": "다른 창 닫기"
+            "ko": "다른 창 닫기",
+            "nl": "De andere vensters sluiten",
+            "sv": "Stäng de andra fönstren",
+            "da": "Luk de andre vinduer",
+            "nb": "Lukk de andre vinduene",
+            "fi": "Sulje muut ikkunat",
+            "pl": "Zamknij pozostałe okna",
+            "hi": "बाकी विंडो बंद करें",
+            "zh-Hant": "關閉其他視窗"
           },
           "keys": "C-x 1",
           "raw": true
@@ -226,7 +338,15 @@
         "pt-BR": "Mover o cursor",
         "ja": "カーソル移動",
         "zh-Hans": "移动光标",
-        "ko": "커서 이동"
+        "ko": "커서 이동",
+        "nl": "De cursor verplaatsen",
+        "sv": "Flytta markören",
+        "da": "Flyt markøren",
+        "nb": "Flytt markøren",
+        "fi": "Kohdistimen siirtäminen",
+        "pl": "Przemieszczanie kursora",
+        "hi": "कर्सर घुमाना",
+        "zh-Hant": "移動游標"
       },
       "items": [
         {
@@ -239,7 +359,15 @@
             "pt-BR": "Início da linha",
             "ja": "行頭へ",
             "zh-Hans": "行首",
-            "ko": "줄 처음"
+            "ko": "줄 처음",
+            "nl": "Begin van de regel",
+            "sv": "Början av raden",
+            "da": "Begyndelsen af linjen",
+            "nb": "Begynnelsen av linjen",
+            "fi": "Rivin alku",
+            "pl": "Początek wiersza",
+            "hi": "पंक्ति की शुरुआत",
+            "zh-Hant": "行首"
           },
           "keys": "C-a",
           "raw": true
@@ -254,7 +382,15 @@
             "pt-BR": "Fim da linha",
             "ja": "行末へ",
             "zh-Hans": "行尾",
-            "ko": "줄 끝"
+            "ko": "줄 끝",
+            "nl": "Einde van de regel",
+            "sv": "Slutet av raden",
+            "da": "Slutningen af linjen",
+            "nb": "Slutten av linjen",
+            "fi": "Rivin loppu",
+            "pl": "Koniec wiersza",
+            "hi": "पंक्ति का अंत",
+            "zh-Hant": "行尾"
           },
           "keys": "C-e",
           "raw": true
@@ -269,7 +405,15 @@
             "pt-BR": "Avançar uma palavra",
             "ja": "1 単語進む",
             "zh-Hans": "前进一个词",
-            "ko": "한 단어 앞으로"
+            "ko": "한 단어 앞으로",
+            "nl": "Een woord vooruit",
+            "sv": "Ett ord framåt",
+            "da": "Ét ord frem",
+            "nb": "Ett ord frem",
+            "fi": "Sana eteenpäin",
+            "pl": "Słowo do przodu",
+            "hi": "एक शब्द आगे",
+            "zh-Hant": "前進一個單字"
           },
           "keys": "M-f",
           "raw": true
@@ -284,7 +428,15 @@
             "pt-BR": "Voltar uma palavra",
             "ja": "1 単語戻る",
             "zh-Hans": "后退一个词",
-            "ko": "한 단어 뒤로"
+            "ko": "한 단어 뒤로",
+            "nl": "Een woord terug",
+            "sv": "Ett ord bakåt",
+            "da": "Ét ord tilbage",
+            "nb": "Ett ord tilbake",
+            "fi": "Sana taaksepäin",
+            "pl": "Słowo do tyłu",
+            "hi": "एक शब्द पीछे",
+            "zh-Hant": "後退一個單字"
           },
           "keys": "M-b",
           "raw": true
@@ -299,7 +451,15 @@
             "pt-BR": "Início do buffer",
             "ja": "バッファの先頭へ",
             "zh-Hans": "缓冲区开头",
-            "ko": "버퍼 처음"
+            "ko": "버퍼 처음",
+            "nl": "Begin van de buffer",
+            "sv": "Början av bufferten",
+            "da": "Begyndelsen af bufferen",
+            "nb": "Begynnelsen av bufferen",
+            "fi": "Puskurin alku",
+            "pl": "Początek bufora",
+            "hi": "बफ़र की शुरुआत",
+            "zh-Hant": "緩衝區開頭"
           },
           "keys": "M-<",
           "raw": true
@@ -314,7 +474,15 @@
             "pt-BR": "Fim do buffer",
             "ja": "バッファの末尾へ",
             "zh-Hans": "缓冲区末尾",
-            "ko": "버퍼 끝"
+            "ko": "버퍼 끝",
+            "nl": "Einde van de buffer",
+            "sv": "Slutet av bufferten",
+            "da": "Slutningen af bufferen",
+            "nb": "Slutten av bufferen",
+            "fi": "Puskurin loppu",
+            "pl": "Koniec bufora",
+            "hi": "बफ़र का अंत",
+            "zh-Hant": "緩衝區結尾"
           },
           "keys": "M->",
           "raw": true
@@ -329,7 +497,15 @@
             "pt-BR": "Ir para a linha",
             "ja": "指定行へ移動",
             "zh-Hans": "跳转到行",
-            "ko": "줄로 이동"
+            "ko": "줄로 이동",
+            "nl": "Naar regel gaan",
+            "sv": "Gå till rad",
+            "da": "Gå til linje",
+            "nb": "Gå til linje",
+            "fi": "Siirry riville",
+            "pl": "Przejdź do wiersza",
+            "hi": "पंक्ति पर जाएँ",
+            "zh-Hant": "前往指定行"
           },
           "keys": "M-g g",
           "raw": true
@@ -346,7 +522,15 @@
         "pt-BR": "Edição",
         "ja": "編集",
         "zh-Hans": "编辑",
-        "ko": "편집"
+        "ko": "편집",
+        "nl": "Bewerken",
+        "sv": "Redigering",
+        "da": "Redigering",
+        "nb": "Redigering",
+        "fi": "Muokkaus",
+        "pl": "Edycja",
+        "hi": "संपादन",
+        "zh-Hant": "編輯"
       },
       "items": [
         {
@@ -359,7 +543,15 @@
             "pt-BR": "Definir a marca",
             "ja": "マークを設定",
             "zh-Hans": "设置标记",
-            "ko": "마크 설정"
+            "ko": "마크 설정",
+            "nl": "De markering plaatsen",
+            "sv": "Sätt markeringen",
+            "da": "Sæt mærket",
+            "nb": "Sett merket",
+            "fi": "Aseta merkki",
+            "pl": "Ustaw znacznik",
+            "hi": "मार्क सेट करें",
+            "zh-Hant": "設定標記"
           },
           "keys": "C-space",
           "raw": true
@@ -374,7 +566,15 @@
             "pt-BR": "Recortar a região",
             "ja": "リージョンを切り取り",
             "zh-Hans": "剪切区域",
-            "ko": "영역 잘라내기"
+            "ko": "영역 잘라내기",
+            "nl": "Het gebied knippen",
+            "sv": "Klipp ut området",
+            "da": "Klip området",
+            "nb": "Klipp ut området",
+            "fi": "Leikkaa alue",
+            "pl": "Wytnij region",
+            "hi": "क्षेत्र काटें",
+            "zh-Hant": "剪下區域"
           },
           "keys": "C-w",
           "raw": true
@@ -389,7 +589,15 @@
             "pt-BR": "Copiar a região",
             "ja": "リージョンをコピー",
             "zh-Hans": "复制区域",
-            "ko": "영역 복사"
+            "ko": "영역 복사",
+            "nl": "Het gebied kopiëren",
+            "sv": "Kopiera området",
+            "da": "Kopiér området",
+            "nb": "Kopier området",
+            "fi": "Kopioi alue",
+            "pl": "Skopiuj region",
+            "hi": "क्षेत्र कॉपी करें",
+            "zh-Hant": "拷貝區域"
           },
           "keys": "M-w",
           "raw": true
@@ -404,7 +612,15 @@
             "pt-BR": "Colar o último recorte",
             "ja": "直前の切り取りを貼り付け",
             "zh-Hans": "粘贴最近剪切的内容",
-            "ko": "최근 잘라낸 내용 붙여넣기"
+            "ko": "최근 잘라낸 내용 붙여넣기",
+            "nl": "De laatst geknipte tekst plakken",
+            "sv": "Klistra in det senast klippta",
+            "da": "Indsæt det sidst klippede",
+            "nb": "Lim inn det sist klippede",
+            "fi": "Liitä viimeksi leikattu",
+            "pl": "Wklej ostatnio wycięty tekst",
+            "hi": "आख़िरी कटा हुआ पेस्ट करें",
+            "zh-Hant": "貼上最近剪下的內容"
           },
           "keys": "C-y",
           "raw": true
@@ -419,7 +635,15 @@
             "pt-BR": "Percorrer recortes anteriores",
             "ja": "以前の切り取りを順に貼り付け",
             "zh-Hans": "循环粘贴更早的剪切内容",
-            "ko": "이전 잘라내기 순환"
+            "ko": "이전 잘라내기 순환",
+            "nl": "Door eerder geknipte teksten bladeren",
+            "sv": "Bläddra bland tidigare klipp",
+            "da": "Gennemgå tidligere klip",
+            "nb": "Bla gjennom tidligere klipp",
+            "fi": "Selaa aiempia leikkeitä",
+            "pl": "Przeglądaj wcześniej wycięte teksty",
+            "hi": "पहले कटे हुए पाठ में घूमें",
+            "zh-Hant": "循環切換先前剪下的內容"
           },
           "keys": "M-y",
           "raw": true
@@ -434,7 +658,15 @@
             "pt-BR": "Recortar até o fim da linha",
             "ja": "行末まで切り取り",
             "zh-Hans": "剪切到行尾",
-            "ko": "줄 끝까지 잘라내기"
+            "ko": "줄 끝까지 잘라내기",
+            "nl": "Knippen tot het einde van de regel",
+            "sv": "Klipp till slutet av raden",
+            "da": "Klip til slutningen af linjen",
+            "nb": "Klipp til slutten av linjen",
+            "fi": "Leikkaa rivin loppuun",
+            "pl": "Wytnij do końca wiersza",
+            "hi": "पंक्ति के अंत तक काटें",
+            "zh-Hant": "剪下至行尾"
           },
           "keys": "C-k",
           "raw": true
@@ -449,7 +681,15 @@
             "pt-BR": "Desfazer",
             "ja": "元に戻す",
             "zh-Hans": "撤销",
-            "ko": "실행 취소"
+            "ko": "실행 취소",
+            "nl": "Maak ongedaan",
+            "sv": "Ångra",
+            "da": "Fortryd",
+            "nb": "Angre",
+            "fi": "Kumoa",
+            "pl": "Cofnij",
+            "hi": "पूर्ववत करें",
+            "zh-Hant": "還原"
           },
           "keys": "C-/",
           "raw": true
@@ -464,7 +704,15 @@
             "pt-BR": "Cancelar o comando atual",
             "ja": "現在のコマンドを中止",
             "zh-Hans": "取消当前命令",
-            "ko": "현재 명령 취소"
+            "ko": "현재 명령 취소",
+            "nl": "De huidige opdracht annuleren",
+            "sv": "Avbryt det aktuella kommandot",
+            "da": "Annuller den aktuelle kommando",
+            "nb": "Avbryt gjeldende kommando",
+            "fi": "Peruuta nykyinen komento",
+            "pl": "Anuluj bieżące polecenie",
+            "hi": "मौजूदा कमांड रद्द करें",
+            "zh-Hant": "取消目前的指令"
           },
           "keys": "C-g",
           "raw": true
@@ -481,7 +729,15 @@
         "pt-BR": "Busca e comandos",
         "ja": "検索とコマンド",
         "zh-Hans": "搜索与命令",
-        "ko": "검색과 명령"
+        "ko": "검색과 명령",
+        "nl": "Zoeken en opdrachten",
+        "sv": "Sök och kommandon",
+        "da": "Søgning og kommandoer",
+        "nb": "Søk og kommandoer",
+        "fi": "Haku ja komennot",
+        "pl": "Wyszukiwanie i polecenia",
+        "hi": "खोज और कमांड",
+        "zh-Hant": "搜尋與指令"
       },
       "items": [
         {
@@ -494,7 +750,15 @@
             "pt-BR": "Buscar para frente",
             "ja": "前方を検索",
             "zh-Hans": "向前搜索",
-            "ko": "앞으로 검색"
+            "ko": "앞으로 검색",
+            "nl": "Vooruit zoeken",
+            "sv": "Sök framåt",
+            "da": "Søg fremad",
+            "nb": "Søk fremover",
+            "fi": "Hae eteenpäin",
+            "pl": "Szukaj do przodu",
+            "hi": "आगे की ओर खोजें",
+            "zh-Hant": "向前搜尋"
           },
           "keys": "C-s",
           "raw": true
@@ -509,7 +773,15 @@
             "pt-BR": "Buscar para trás",
             "ja": "後方を検索",
             "zh-Hans": "向后搜索",
-            "ko": "뒤로 검색"
+            "ko": "뒤로 검색",
+            "nl": "Achteruit zoeken",
+            "sv": "Sök bakåt",
+            "da": "Søg baglæns",
+            "nb": "Søk bakover",
+            "fi": "Hae taaksepäin",
+            "pl": "Szukaj wstecz",
+            "hi": "पीछे की ओर खोजें",
+            "zh-Hant": "向後搜尋"
           },
           "keys": "C-r",
           "raw": true
@@ -524,7 +796,15 @@
             "pt-BR": "Substituir com confirmação",
             "ja": "問い合わせ置換",
             "zh-Hans": "查询替换",
-            "ko": "확인하며 바꾸기"
+            "ko": "확인하며 바꾸기",
+            "nl": "Zoeken en vervangen met bevestiging",
+            "sv": "Sök och ersätt med bekräftelse",
+            "da": "Søg og erstat med bekræftelse",
+            "nb": "Søk og erstatt med bekreftelse",
+            "fi": "Korvaa kyselemällä",
+            "pl": "Zamiana z potwierdzeniem",
+            "hi": "पूछकर बदलें",
+            "zh-Hant": "逐一詢問後取代"
           },
           "keys": "M-%",
           "raw": true
@@ -539,7 +819,15 @@
             "pt-BR": "Executar um comando pelo nome",
             "ja": "コマンドを名前で実行",
             "zh-Hans": "按名称执行命令",
-            "ko": "이름으로 명령 실행"
+            "ko": "이름으로 명령 실행",
+            "nl": "Een opdracht op naam uitvoeren",
+            "sv": "Kör ett kommando med namn",
+            "da": "Kør en kommando ved navn",
+            "nb": "Kjør en kommando ved navn",
+            "fi": "Suorita komento nimellä",
+            "pl": "Uruchom polecenie według nazwy",
+            "hi": "नाम से कमांड चलाएँ",
+            "zh-Hant": "依名稱執行指令"
           },
           "keys": "M-x",
           "raw": true
@@ -554,7 +842,15 @@
             "pt-BR": "Descrever o que uma tecla faz",
             "ja": "キーの説明を表示",
             "zh-Hans": "查看某个按键的作用",
-            "ko": "키의 기능 설명"
+            "ko": "키의 기능 설명",
+            "nl": "Beschrijven wat een toets doet",
+            "sv": "Beskriv vad en tangent gör",
+            "da": "Beskriv, hvad en tast gør",
+            "nb": "Beskriv hva en tast gjør",
+            "fi": "Kerro, mitä näppäin tekee",
+            "pl": "Opisz działanie klawisza",
+            "hi": "बताएँ कि कोई कुंजी क्या करती है",
+            "zh-Hant": "說明按鍵的功能"
           },
           "keys": "C-h k",
           "raw": true
@@ -569,7 +865,15 @@
             "pt-BR": "Avaliar a expressão antes do cursor",
             "ja": "カーソル直前の式を評価",
             "zh-Hans": "求值光标前的表达式",
-            "ko": "커서 앞 표현식 평가"
+            "ko": "커서 앞 표현식 평가",
+            "nl": "De expressie vóór de cursor uitvoeren",
+            "sv": "Utvärdera uttrycket före markören",
+            "da": "Evaluer udtrykket før markøren",
+            "nb": "Evaluer uttrykket før markøren",
+            "fi": "Suorita kohdistimen edellä oleva lauseke",
+            "pl": "Wykonaj wyrażenie przed kursorem",
+            "hi": "कर्सर से पहले की अभिव्यक्ति का मूल्यांकन करें",
+            "zh-Hant": "對游標前的運算式求值"
           },
           "keys": "C-x C-e",
           "raw": true

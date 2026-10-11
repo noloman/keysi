@@ -9,7 +9,15 @@
     "pt-BR": "Ghostty",
     "ja": "Ghostty",
     "zh-Hans": "Ghostty",
-    "ko": "Ghostty"
+    "ko": "Ghostty",
+    "nl": "Ghostty",
+    "sv": "Ghostty",
+    "da": "Ghostty",
+    "nb": "Ghostty",
+    "fi": "Ghostty",
+    "pl": "Ghostty",
+    "hi": "Ghostty",
+    "zh-Hant": "Ghostty"
   },
   "match": {
     "bundleIDs": [
@@ -30,7 +38,15 @@
         "pt-BR": "Prompts e histórico",
         "ja": "プロンプトとスクロールバック",
         "zh-Hans": "提示符与回滚",
-        "ko": "프롬프트와 스크롤백"
+        "ko": "프롬프트와 스크롤백",
+        "nl": "Prompts en scrollback",
+        "sv": "Prompter och rullningshistorik",
+        "da": "Prompts og rullehistorik",
+        "nb": "Prompter og rullehistorikk",
+        "fi": "Kehotteet ja vierityshistoria",
+        "pl": "Znaki zachęty i historia przewijania",
+        "hi": "प्रॉम्प्ट और स्क्रोलबैक",
+        "zh-Hant": "提示符號與捲動歷史"
       },
       "items": [
         {
@@ -43,7 +59,15 @@
             "pt-BR": "Ir para o prompt anterior",
             "ja": "前のプロンプトへ移動",
             "zh-Hans": "跳到上一个提示符",
-            "ko": "이전 프롬프트로 이동"
+            "ko": "이전 프롬프트로 이동",
+            "nl": "Naar de vorige prompt springen",
+            "sv": "Hoppa till föregående prompt",
+            "da": "Spring til forrige prompt",
+            "nb": "Hopp til forrige prompt",
+            "fi": "Siirry edelliseen kehotteeseen",
+            "pl": "Przejdź do poprzedniego znaku zachęty",
+            "hi": "पिछले प्रॉम्प्ट पर जाएँ",
+            "zh-Hant": "跳至上一個提示符號"
           },
           "keys": "cmd+up"
         },
@@ -57,7 +81,15 @@
             "pt-BR": "Ir para o próximo prompt",
             "ja": "次のプロンプトへ移動",
             "zh-Hans": "跳到下一个提示符",
-            "ko": "다음 프롬프트로 이동"
+            "ko": "다음 프롬프트로 이동",
+            "nl": "Naar de volgende prompt springen",
+            "sv": "Hoppa till nästa prompt",
+            "da": "Spring til næste prompt",
+            "nb": "Hopp til neste prompt",
+            "fi": "Siirry seuraavaan kehotteeseen",
+            "pl": "Przejdź do następnego znaku zachęty",
+            "hi": "अगले प्रॉम्प्ट पर जाएँ",
+            "zh-Hant": "跳至下一個提示符號"
           },
           "keys": "cmd+down"
         },
@@ -71,7 +103,15 @@
             "pt-BR": "Rolar até o topo",
             "ja": "いちばん上までスクロール",
             "zh-Hans": "滚动到顶部",
-            "ko": "맨 위로 스크롤"
+            "ko": "맨 위로 스크롤",
+            "nl": "Naar boven scrollen",
+            "sv": "Rulla till toppen",
+            "da": "Rul til toppen",
+            "nb": "Rull til toppen",
+            "fi": "Vieritä alkuun",
+            "pl": "Przewiń na początek",
+            "hi": "सबसे ऊपर स्क्रोल करें",
+            "zh-Hant": "捲動至頂端"
           },
           "keys": "cmd+home"
         },
@@ -85,7 +125,15 @@
             "pt-BR": "Rolar até o fim",
             "ja": "いちばん下までスクロール",
             "zh-Hans": "滚动到底部",
-            "ko": "맨 아래로 스크롤"
+            "ko": "맨 아래로 스크롤",
+            "nl": "Naar beneden scrollen",
+            "sv": "Rulla till botten",
+            "da": "Rul til bunden",
+            "nb": "Rull til bunnen",
+            "fi": "Vieritä loppuun",
+            "pl": "Przewiń na koniec",
+            "hi": "सबसे नीचे स्क्रोल करें",
+            "zh-Hant": "捲動至底部"
           },
           "keys": "cmd+end"
         },
@@ -99,7 +147,15 @@
             "pt-BR": "Rolar uma página para cima",
             "ja": "1ページ上へスクロール",
             "zh-Hans": "向上滚动一页",
-            "ko": "한 페이지 위로 스크롤"
+            "ko": "한 페이지 위로 스크롤",
+            "nl": "Een pagina omhoog scrollen",
+            "sv": "Rulla upp en sida",
+            "da": "Rul en side op",
+            "nb": "Rull én side opp",
+            "fi": "Vieritä sivu ylös",
+            "pl": "Przewiń o stronę w górę",
+            "hi": "एक पेज ऊपर स्क्रोल करें",
+            "zh-Hant": "向上捲動一頁"
           },
           "keys": "cmd+pageup"
         },
@@ -113,7 +169,15 @@
             "pt-BR": "Rolar uma página para baixo",
             "ja": "1ページ下へスクロール",
             "zh-Hans": "向下滚动一页",
-            "ko": "한 페이지 아래로 스크롤"
+            "ko": "한 페이지 아래로 스크롤",
+            "nl": "Een pagina omlaag scrollen",
+            "sv": "Rulla ned en sida",
+            "da": "Rul en side ned",
+            "nb": "Rull én side ned",
+            "fi": "Vieritä sivu alas",
+            "pl": "Przewiń o stronę w dół",
+            "hi": "एक पेज नीचे स्क्रोल करें",
+            "zh-Hant": "向下捲動一頁"
           },
           "keys": "cmd+pagedown"
         },
@@ -127,7 +191,15 @@
             "pt-BR": "Rolar até a seleção",
             "ja": "選択範囲までスクロール",
             "zh-Hans": "滚动到所选内容",
-            "ko": "선택 영역으로 스크롤"
+            "ko": "선택 영역으로 스크롤",
+            "nl": "Naar de selectie scrollen",
+            "sv": "Rulla till markeringen",
+            "da": "Rul til markeringen",
+            "nb": "Rull til markeringen",
+            "fi": "Vieritä valintaan",
+            "pl": "Przewiń do zaznaczenia",
+            "hi": "चयन तक स्क्रोल करें",
+            "zh-Hant": "捲動至選取範圍"
           },
           "keys": "cmd+j"
         },
@@ -141,7 +213,15 @@
             "pt-BR": "Limpar a tela",
             "ja": "画面を消去",
             "zh-Hans": "清除屏幕",
-            "ko": "화면 지우기"
+            "ko": "화면 지우기",
+            "nl": "Het scherm wissen",
+            "sv": "Rensa skärmen",
+            "da": "Ryd skærmen",
+            "nb": "Tøm skjermen",
+            "fi": "Tyhjennä näyttö",
+            "pl": "Wyczyść ekran",
+            "hi": "स्क्रीन साफ़ करें",
+            "zh-Hant": "清除畫面"
           },
           "keys": "cmd+k"
         }
@@ -157,7 +237,15 @@
         "pt-BR": "Abas",
         "ja": "タブ",
         "zh-Hans": "标签页",
-        "ko": "탭"
+        "ko": "탭",
+        "nl": "Tabbladen",
+        "sv": "Flikar",
+        "da": "Faner",
+        "nb": "Faner",
+        "fi": "Välilehdet",
+        "pl": "Karty",
+        "hi": "टैब",
+        "zh-Hant": "分頁"
       },
       "items": [
         {
@@ -170,7 +258,15 @@
             "pt-BR": "Ir para as abas 1 a 8",
             "ja": "タブ1〜8へ移動",
             "zh-Hans": "前往标签页 1 至 8",
-            "ko": "탭 1~8로 이동"
+            "ko": "탭 1~8로 이동",
+            "nl": "Naar tabblad 1 tot 8 gaan",
+            "sv": "Gå till flik 1 till 8",
+            "da": "Gå til fane 1 til 8",
+            "nb": "Gå til fane 1 til 8",
+            "fi": "Siirry välilehteen 1–8",
+            "pl": "Przejdź do karty od 1 do 8",
+            "hi": "टैब 1 से 8 पर जाएँ",
+            "zh-Hant": "前往分頁 1 至 8"
           },
           "keys": "⌘1 … ⌘8",
           "raw": true
@@ -185,7 +281,15 @@
             "pt-BR": "Ir para a última aba",
             "ja": "最後のタブへ移動",
             "zh-Hans": "前往最后一个标签页",
-            "ko": "마지막 탭으로 이동"
+            "ko": "마지막 탭으로 이동",
+            "nl": "Naar het laatste tabblad gaan",
+            "sv": "Gå till sista fliken",
+            "da": "Gå til sidste fane",
+            "nb": "Gå til siste fane",
+            "fi": "Siirry viimeiseen välilehteen",
+            "pl": "Przejdź do ostatniej karty",
+            "hi": "आख़िरी टैब पर जाएँ",
+            "zh-Hant": "前往最後一個分頁"
           },
           "keys": "cmd+9"
         },
@@ -199,7 +303,15 @@
             "pt-BR": "Próxima aba",
             "ja": "次のタブ",
             "zh-Hans": "下一个标签页",
-            "ko": "다음 탭"
+            "ko": "다음 탭",
+            "nl": "Volgend tabblad",
+            "sv": "Nästa flik",
+            "da": "Næste fane",
+            "nb": "Neste fane",
+            "fi": "Seuraava välilehti",
+            "pl": "Następna karta",
+            "hi": "अगला टैब",
+            "zh-Hant": "下一個分頁"
           },
           "keys": "shift+cmd+]"
         },
@@ -213,7 +325,15 @@
             "pt-BR": "Aba anterior",
             "ja": "前のタブ",
             "zh-Hans": "上一个标签页",
-            "ko": "이전 탭"
+            "ko": "이전 탭",
+            "nl": "Vorig tabblad",
+            "sv": "Föregående flik",
+            "da": "Forrige fane",
+            "nb": "Forrige fane",
+            "fi": "Edellinen välilehti",
+            "pl": "Poprzednia karta",
+            "hi": "पिछला टैब",
+            "zh-Hant": "上一個分頁"
           },
           "keys": "shift+cmd+["
         },
@@ -227,7 +347,15 @@
             "pt-BR": "Próxima aba (alternativa)",
             "ja": "次のタブ（別のキー）",
             "zh-Hans": "下一个标签页（备选）",
-            "ko": "다음 탭(대체 키)"
+            "ko": "다음 탭(대체 키)",
+            "nl": "Volgend tabblad (alternatief)",
+            "sv": "Nästa flik (alternativ)",
+            "da": "Næste fane (alternativ)",
+            "nb": "Neste fane (alternativ)",
+            "fi": "Seuraava välilehti (vaihtoehtoinen)",
+            "pl": "Następna karta (alternatywnie)",
+            "hi": "अगला टैब (वैकल्पिक)",
+            "zh-Hant": "下一個分頁（替代）"
           },
           "keys": "ctrl+tab"
         },
@@ -241,7 +369,15 @@
             "pt-BR": "Aba anterior (alternativa)",
             "ja": "前のタブ（別のキー）",
             "zh-Hans": "上一个标签页（备选）",
-            "ko": "이전 탭(대체 키)"
+            "ko": "이전 탭(대체 키)",
+            "nl": "Vorig tabblad (alternatief)",
+            "sv": "Föregående flik (alternativ)",
+            "da": "Forrige fane (alternativ)",
+            "nb": "Forrige fane (alternativ)",
+            "fi": "Edellinen välilehti (vaihtoehtoinen)",
+            "pl": "Poprzednia karta (alternatywnie)",
+            "hi": "पिछला टैब (वैकल्पिक)",
+            "zh-Hant": "上一個分頁（替代）"
           },
           "keys": "ctrl+shift+tab"
         },
@@ -255,7 +391,15 @@
             "pt-BR": "Reabrir o que você acabou de fechar",
             "ja": "閉じたものを再度開く",
             "zh-Hans": "重新打开刚关闭的内容",
-            "ko": "방금 닫은 항목 다시 열기"
+            "ko": "방금 닫은 항목 다시 열기",
+            "nl": "Het zojuist gesloten onderdeel heropenen",
+            "sv": "Öppna igen det du just stängde",
+            "da": "Åbn igen det, du lige har lukket",
+            "nb": "Åpne igjen det du nettopp lukket",
+            "fi": "Avaa uudelleen juuri sulkemasi",
+            "pl": "Otwórz ponownie to, co właśnie zamknięto",
+            "hi": "हाल ही में बंद की गई चीज़ फिर खोलें",
+            "zh-Hant": "重新開啟剛關閉的項目"
           },
           "keys": "shift+cmd+t"
         }
@@ -271,7 +415,15 @@
         "pt-BR": "Busca",
         "ja": "検索",
         "zh-Hans": "搜索",
-        "ko": "검색"
+        "ko": "검색",
+        "nl": "Zoeken",
+        "sv": "Sök",
+        "da": "Søgning",
+        "nb": "Søk",
+        "fi": "Haku",
+        "pl": "Wyszukiwanie",
+        "hi": "खोज",
+        "zh-Hant": "搜尋"
       },
       "items": [
         {
@@ -284,7 +436,15 @@
             "pt-BR": "Buscar",
             "ja": "検索",
             "zh-Hans": "查找",
-            "ko": "찾기"
+            "ko": "찾기",
+            "nl": "Zoeken",
+            "sv": "Sök",
+            "da": "Find",
+            "nb": "Finn",
+            "fi": "Etsi",
+            "pl": "Znajdź",
+            "hi": "खोजें",
+            "zh-Hant": "尋找"
           },
           "keys": "cmd+f"
         },
@@ -298,7 +458,15 @@
             "pt-BR": "Buscar próximo",
             "ja": "次を検索",
             "zh-Hans": "查找下一个",
-            "ko": "다음 찾기"
+            "ko": "다음 찾기",
+            "nl": "Volgende zoeken",
+            "sv": "Sök nästa",
+            "da": "Find næste",
+            "nb": "Finn neste",
+            "fi": "Etsi seuraava",
+            "pl": "Znajdź następny",
+            "hi": "अगला खोजें",
+            "zh-Hant": "尋找下一個"
           },
           "keys": "cmd+g"
         },
@@ -312,7 +480,15 @@
             "pt-BR": "Buscar anterior",
             "ja": "前を検索",
             "zh-Hans": "查找上一个",
-            "ko": "이전 찾기"
+            "ko": "이전 찾기",
+            "nl": "Vorige zoeken",
+            "sv": "Sök föregående",
+            "da": "Find forrige",
+            "nb": "Finn forrige",
+            "fi": "Etsi edellinen",
+            "pl": "Znajdź poprzedni",
+            "hi": "पिछला खोजें",
+            "zh-Hant": "尋找上一個"
           },
           "keys": "shift+cmd+g"
         },
@@ -326,7 +502,15 @@
             "pt-BR": "Buscar a seleção",
             "ja": "選択範囲を検索",
             "zh-Hans": "搜索所选内容",
-            "ko": "선택 영역 검색"
+            "ko": "선택 영역 검색",
+            "nl": "Zoeken naar de selectie",
+            "sv": "Sök efter markeringen",
+            "da": "Søg efter markeringen",
+            "nb": "Søk etter markeringen",
+            "fi": "Hae valintaa",
+            "pl": "Szukaj zaznaczonego tekstu",
+            "hi": "चयनित पाठ खोजें",
+            "zh-Hant": "搜尋選取的內容"
           },
           "keys": "cmd+e"
         },
@@ -340,7 +524,15 @@
             "pt-BR": "Fechar a barra de busca",
             "ja": "検索バーを閉じる",
             "zh-Hans": "关闭查找栏",
-            "ko": "찾기 막대 닫기"
+            "ko": "찾기 막대 닫기",
+            "nl": "De zoekbalk sluiten",
+            "sv": "Stäng sökfältet",
+            "da": "Luk søgelinjen",
+            "nb": "Lukk søkefeltet",
+            "fi": "Sulje hakupalkki",
+            "pl": "Zamknij pasek wyszukiwania",
+            "hi": "खोज बार बंद करें",
+            "zh-Hant": "關閉搜尋列"
           },
           "keys": "shift+cmd+f"
         }
@@ -356,7 +548,15 @@
         "pt-BR": "Edição da linha",
         "ja": "行の編集",
         "zh-Hans": "行编辑",
-        "ko": "줄 편집"
+        "ko": "줄 편집",
+        "nl": "Regelbewerking",
+        "sv": "Radredigering",
+        "da": "Linjeredigering",
+        "nb": "Linjeredigering",
+        "fi": "Rivin muokkaus",
+        "pl": "Edycja wiersza",
+        "hi": "पंक्ति संपादन",
+        "zh-Hant": "行編輯"
       },
       "items": [
         {
@@ -369,7 +569,15 @@
             "pt-BR": "Ir para o início da linha",
             "ja": "行頭へ移動",
             "zh-Hans": "移到行首",
-            "ko": "줄의 처음으로 이동"
+            "ko": "줄의 처음으로 이동",
+            "nl": "Naar het begin van de regel gaan",
+            "sv": "Gå till början av raden",
+            "da": "Gå til begyndelsen af linjen",
+            "nb": "Gå til begynnelsen av linjen",
+            "fi": "Siirry rivin alkuun",
+            "pl": "Przejdź na początek wiersza",
+            "hi": "पंक्ति की शुरुआत पर जाएँ",
+            "zh-Hant": "移至行首"
           },
           "keys": "cmd+left"
         },
@@ -383,7 +591,15 @@
             "pt-BR": "Ir para o fim da linha",
             "ja": "行末へ移動",
             "zh-Hans": "移到行尾",
-            "ko": "줄의 끝으로 이동"
+            "ko": "줄의 끝으로 이동",
+            "nl": "Naar het einde van de regel gaan",
+            "sv": "Gå till slutet av raden",
+            "da": "Gå til slutningen af linjen",
+            "nb": "Gå til slutten av linjen",
+            "fi": "Siirry rivin loppuun",
+            "pl": "Przejdź na koniec wiersza",
+            "hi": "पंक्ति के अंत पर जाएँ",
+            "zh-Hant": "移至行尾"
           },
           "keys": "cmd+right"
         },
@@ -397,7 +613,15 @@
             "pt-BR": "Apagar até o início da linha",
             "ja": "行頭まで削除",
             "zh-Hans": "删除到行首",
-            "ko": "줄의 처음까지 삭제"
+            "ko": "줄의 처음까지 삭제",
+            "nl": "Verwijderen tot het begin van de regel",
+            "sv": "Radera till början av raden",
+            "da": "Slet til begyndelsen af linjen",
+            "nb": "Slett til begynnelsen av linjen",
+            "fi": "Poista rivin alkuun asti",
+            "pl": "Usuń do początku wiersza",
+            "hi": "पंक्ति की शुरुआत तक हटाएँ",
+            "zh-Hant": "刪除至行首"
           },
           "keys": "cmd+delete"
         },
@@ -411,7 +635,15 @@
             "pt-BR": "Voltar uma palavra",
             "ja": "1単語戻る",
             "zh-Hans": "后退一个单词",
-            "ko": "한 단어 뒤로 이동"
+            "ko": "한 단어 뒤로 이동",
+            "nl": "Een woord terug gaan",
+            "sv": "Gå ett ord bakåt",
+            "da": "Gå ét ord tilbage",
+            "nb": "Gå ett ord tilbake",
+            "fi": "Siirry sana taaksepäin",
+            "pl": "Cofnij się o słowo",
+            "hi": "एक शब्द पीछे जाएँ",
+            "zh-Hant": "後退一個單字"
           },
           "keys": "opt+left"
         },
@@ -425,7 +657,15 @@
             "pt-BR": "Avançar uma palavra",
             "ja": "1単語進む",
             "zh-Hans": "前进一个单词",
-            "ko": "한 단어 앞으로 이동"
+            "ko": "한 단어 앞으로 이동",
+            "nl": "Een woord vooruit gaan",
+            "sv": "Gå ett ord framåt",
+            "da": "Gå ét ord frem",
+            "nb": "Gå ett ord frem",
+            "fi": "Siirry sana eteenpäin",
+            "pl": "Przejdź o słowo do przodu",
+            "hi": "एक शब्द आगे जाएँ",
+            "zh-Hant": "前進一個單字"
           },
           "keys": "opt+right"
         }
@@ -441,7 +681,15 @@
         "pt-BR": "Seleção e conteúdo da tela",
         "ja": "選択範囲と画面の内容",
         "zh-Hans": "所选内容与屏幕内容",
-        "ko": "선택 영역과 화면 내용"
+        "ko": "선택 영역과 화면 내용",
+        "nl": "Selectie en inhoud van het scherm",
+        "sv": "Markering och skärminnehåll",
+        "da": "Markering og skærmindhold",
+        "nb": "Markering og skjerminnhold",
+        "fi": "Valinta ja näytön sisältö",
+        "pl": "Zaznaczenie i zawartość ekranu",
+        "hi": "चयन और स्क्रीन की सामग्री",
+        "zh-Hant": "選取範圍與畫面內容"
       },
       "items": [
         {
@@ -454,7 +702,15 @@
             "pt-BR": "Estender a seleção",
             "ja": "選択範囲を広げる",
             "zh-Hans": "扩展所选内容",
-            "ko": "선택 영역 확장"
+            "ko": "선택 영역 확장",
+            "nl": "De selectie uitbreiden",
+            "sv": "Utöka markeringen",
+            "da": "Udvid markeringen",
+            "nb": "Utvid markeringen",
+            "fi": "Laajenna valintaa",
+            "pl": "Rozszerz zaznaczenie",
+            "hi": "चयन बढ़ाएँ",
+            "zh-Hant": "擴大選取範圍"
           },
           "keys": "⇧ ← → ↑ ↓",
           "raw": true
@@ -469,7 +725,15 @@
             "pt-BR": "Estender a seleção uma página",
             "ja": "選択範囲を1ページ広げる",
             "zh-Hans": "将所选内容扩展一页",
-            "ko": "선택 영역을 한 페이지 확장"
+            "ko": "선택 영역을 한 페이지 확장",
+            "nl": "De selectie met een pagina uitbreiden",
+            "sv": "Utöka markeringen med en sida",
+            "da": "Udvid markeringen med en side",
+            "nb": "Utvid markeringen med én side",
+            "fi": "Laajenna valintaa sivulla",
+            "pl": "Rozszerz zaznaczenie o stronę",
+            "hi": "चयन को एक पेज बढ़ाएँ",
+            "zh-Hant": "以一頁為單位擴大選取範圍"
           },
           "keys": "⇧⇞ / ⇧⇟",
           "raw": true
@@ -484,7 +748,15 @@
             "pt-BR": "Copiar o conteúdo da tela",
             "ja": "画面の内容をコピー",
             "zh-Hans": "拷贝屏幕内容",
-            "ko": "화면 내용 복사"
+            "ko": "화면 내용 복사",
+            "nl": "De inhoud van het scherm kopiëren",
+            "sv": "Kopiera skärminnehållet",
+            "da": "Kopiér skærmindholdet",
+            "nb": "Kopier skjerminnholdet",
+            "fi": "Kopioi näytön sisältö",
+            "pl": "Skopiuj zawartość ekranu",
+            "hi": "स्क्रीन की सामग्री कॉपी करें",
+            "zh-Hant": "拷貝畫面內容"
           },
           "keys": "ctrl+shift+cmd+j"
         },
@@ -498,7 +770,15 @@
             "pt-BR": "Salvar a tela em um arquivo e colar o caminho",
             "ja": "画面をファイルに保存してパスをペースト",
             "zh-Hans": "将屏幕存为文件并粘贴其路径",
-            "ko": "화면을 파일로 저장하고 경로 붙여넣기"
+            "ko": "화면을 파일로 저장하고 경로 붙여넣기",
+            "nl": "Het scherm in een bestand bewaren en het pad plakken",
+            "sv": "Spara skärmen i en fil och klistra in sökvägen",
+            "da": "Gem skærmen i en fil og indsæt stien",
+            "nb": "Arkiver skjermen i en fil og lim inn banen",
+            "fi": "Tallenna näyttö tiedostoon ja liitä sen polku",
+            "pl": "Zapisz ekran do pliku i wklej jego ścieżkę",
+            "hi": "स्क्रीन को फ़ाइल में सहेजें और उसका पाथ पेस्ट करें",
+            "zh-Hant": "將畫面儲存為檔案並貼上其路徑"
           },
           "keys": "shift+cmd+j"
         },
@@ -512,7 +792,15 @@
             "pt-BR": "Abrir o conteúdo da tela em um editor",
             "ja": "画面の内容をエディタで開く",
             "zh-Hans": "在编辑器中打开屏幕内容",
-            "ko": "화면 내용을 편집기에서 열기"
+            "ko": "화면 내용을 편집기에서 열기",
+            "nl": "De inhoud van het scherm in een editor openen",
+            "sv": "Öppna skärminnehållet i en redigerare",
+            "da": "Åbn skærmindholdet i en editor",
+            "nb": "Åpne skjerminnholdet i et redigeringsprogram",
+            "fi": "Avaa näytön sisältö editorissa",
+            "pl": "Otwórz zawartość ekranu w edytorze",
+            "hi": "स्क्रीन की सामग्री को एडिटर में खोलें",
+            "zh-Hant": "在編輯器中開啟畫面內容"
           },
           "keys": "opt+shift+cmd+j"
         }
@@ -528,7 +816,15 @@
         "pt-BR": "Janela",
         "ja": "ウインドウ",
         "zh-Hans": "窗口",
-        "ko": "윈도우"
+        "ko": "윈도우",
+        "nl": "Venster",
+        "sv": "Fönster",
+        "da": "Vindue",
+        "nb": "Vindu",
+        "fi": "Ikkuna",
+        "pl": "Okno",
+        "hi": "विंडो",
+        "zh-Hant": "視窗"
       },
       "items": [
         {
@@ -541,7 +837,15 @@
             "pt-BR": "Ativar/desativar tela cheia",
             "ja": "フルスクリーンの切り替え",
             "zh-Hans": "切换全屏幕",
-            "ko": "전체 화면 전환"
+            "ko": "전체 화면 전환",
+            "nl": "Volledig scherm aan- of uitzetten",
+            "sv": "Växla helskärm",
+            "da": "Skift fuld skærm",
+            "nb": "Slå fullskjerm av eller på",
+            "fi": "Vaihda koko näytön tila",
+            "pl": "Przełącz pełny ekran",
+            "hi": "फ़ुल स्क्रीन बदलें",
+            "zh-Hant": "切換全螢幕"
           },
           "keys": "cmd+return"
         }

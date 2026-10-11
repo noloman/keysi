@@ -1,0 +1,151 @@
+{
+  "id": "k9s",
+  "name": "k9s",
+  "match": {
+    "bundleIDs": [],
+    "processNames": [
+      "k9s"
+    ]
+  },
+  "mode": "augment",
+  "priority": 100,
+  "source": "https://k9scli.io/topics/commands/",
+  "license": "CC0-1.0",
+  "groups": [
+    {
+      "title": "Commands",
+      "items": [
+        {
+          "title": "Show the key mnemonics and help",
+          "keys": "?",
+          "raw": true
+        },
+        {
+          "title": "Open command mode",
+          "keys": ":",
+          "raw": true
+        },
+        {
+          "title": "View a resource by name, plural or short name",
+          "keys": ":pod",
+          "raw": true
+        },
+        {
+          "title": "View a resource in a namespace",
+          "keys": ":pod ns-x",
+          "raw": true
+        },
+        {
+          "title": "Switch Kubernetes context",
+          "keys": ":ctx",
+          "raw": true
+        },
+        {
+          "title": "Switch namespace",
+          "keys": ":ns",
+          "raw": true
+        },
+        {
+          "title": "Show all available resource aliases",
+          "keys": "ctrl+a",
+          "raw": false
+        },
+        {
+          "title": "Launch the pulses view",
+          "keys": ":pulses",
+          "raw": true
+        },
+        {
+          "title": "Launch the XRay view for a resource",
+          "keys": ":xray RESOURCE",
+          "raw": true
+        },
+        {
+          "title": "Quit k9s",
+          "keys": ":q",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": "Filtering",
+      "items": [
+        {
+          "title": "Filter the view with a regex",
+          "keys": "/filter",
+          "raw": true
+        },
+        {
+          "title": "Inverse regex filter",
+          "keys": "/! filter",
+          "raw": true
+        },
+        {
+          "title": "Filter by label selector",
+          "keys": "/-l label-selector",
+          "raw": true
+        },
+        {
+          "title": "Fuzzy-find a resource",
+          "keys": "/-f filter",
+          "raw": true
+        },
+        {
+          "title": "Leave the view, command or filter",
+          "keys": "Esc",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": "On the selected resource",
+      "items": [
+        {
+          "title": "Describe",
+          "keys": "d",
+          "raw": true
+        },
+        {
+          "title": "View the YAML",
+          "keys": "y",
+          "raw": true
+        },
+        {
+          "title": "Edit",
+          "keys": "e",
+          "raw": true
+        },
+        {
+          "title": "View logs",
+          "keys": "l",
+          "raw": true
+        },
+        {
+          "title": "View the previous container's logs",
+          "keys": "p",
+          "raw": true
+        },
+        {
+          "title": "Shell into the container",
+          "keys": "s",
+          "raw": true
+        },
+        {
+          "title": "Start a port-forward",
+          "keys": "shift+f",
+          "raw": false
+        },
+        {
+          "title": "Delete (Tab and Enter to confirm)",
+          "keys": "ctrl+d",
+          "raw": false
+        },
+        {
+          "title": "Kill, with no confirmation",
+          "keys": "ctrl+k",
+          "raw": false
+        }
+      ]
+    }
+  ]
+}

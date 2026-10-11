@@ -9,7 +9,15 @@
     "pt-BR": "Slack (atalhos extras)",
     "ja": "Slack(追加のショートカット)",
     "zh-Hans": "Slack(额外快捷键)",
-    "ko": "Slack(추가 단축키)"
+    "ko": "Slack(추가 단축키)",
+    "nl": "Slack (extra sneltoetsen)",
+    "sv": "Slack (extra kortkommandon)",
+    "da": "Slack (ekstra genvejstaster)",
+    "nb": "Slack (ekstra hurtigtaster)",
+    "fi": "Slack (lisäpikanäppäimet)",
+    "pl": "Slack (dodatkowe skróty)",
+    "hi": "Slack (अतिरिक्त शॉर्टकट)",
+    "zh-Hant": "Slack（額外快速鍵）"
   },
   "match": {
     "bundleIDs": [
@@ -30,7 +38,15 @@
         "pt-BR": "Navegação",
         "ja": "ナビゲーション",
         "zh-Hans": "导航",
-        "ko": "탐색"
+        "ko": "탐색",
+        "nl": "Navigatie",
+        "sv": "Navigering",
+        "da": "Navigation",
+        "nb": "Navigering",
+        "fi": "Navigointi",
+        "pl": "Nawigacja",
+        "hi": "नेविगेशन",
+        "zh-Hant": "導覽"
       },
       "items": [
         {
@@ -43,7 +59,15 @@
             "pt-BR": "Alternador rápido",
             "ja": "クイックスイッチャー",
             "zh-Hans": "快速切换",
-            "ko": "빠른 전환"
+            "ko": "빠른 전환",
+            "nl": "Snelle schakelaar",
+            "sv": "Snabbväxlare",
+            "da": "Hurtigskifter",
+            "nb": "Hurtigbytter",
+            "fi": "Pikavaihtaja",
+            "pl": "Szybki przełącznik",
+            "hi": "क्विक स्विचर",
+            "zh-Hant": "快速切換器"
           },
           "keys": "cmd+k",
           "raw": false
@@ -58,7 +82,15 @@
             "pt-BR": "Ir para não lidos",
             "ja": "未読へ移動",
             "zh-Hans": "跳到未读",
-            "ko": "읽지 않음으로 이동"
+            "ko": "읽지 않음으로 이동",
+            "nl": "Naar ongelezen springen",
+            "sv": "Hoppa till olästa",
+            "da": "Spring til ulæste",
+            "nb": "Hopp til uleste",
+            "fi": "Siirry lukemattomiin",
+            "pl": "Przejdź do nieprzeczytanych",
+            "hi": "अपठित पर जाएँ",
+            "zh-Hant": "跳至未讀"
           },
           "keys": "shift+cmd+a",
           "raw": false
@@ -73,7 +105,15 @@
             "pt-BR": "Todas as mensagens diretas",
             "ja": "すべてのDM",
             "zh-Hans": "所有私信",
-            "ko": "모든 다이렉트 메시지"
+            "ko": "모든 다이렉트 메시지",
+            "nl": "Alle directe berichten",
+            "sv": "Alla direktmeddelanden",
+            "da": "Alle direkte beskeder",
+            "nb": "Alle direktemeldinger",
+            "fi": "Kaikki yksityisviestit",
+            "pl": "Wszystkie wiadomości bezpośrednie",
+            "hi": "सभी डायरेक्ट मैसेज",
+            "zh-Hant": "所有私訊"
           },
           "keys": "shift+cmd+k",
           "raw": false
@@ -88,7 +128,15 @@
             "pt-BR": "Abrir tópicos",
             "ja": "スレッドを開く",
             "zh-Hans": "打开话题串",
-            "ko": "스레드 열기"
+            "ko": "스레드 열기",
+            "nl": "Threads openen",
+            "sv": "Öppna trådar",
+            "da": "Åbn tråde",
+            "nb": "Åpne tråder",
+            "fi": "Avaa ketjut",
+            "pl": "Otwórz wątki",
+            "hi": "थ्रेड खोलें",
+            "zh-Hant": "開啟討論串"
           },
           "keys": "shift+cmd+t",
           "raw": false
@@ -103,7 +151,15 @@
             "pt-BR": "Abrir atividade",
             "ja": "アクティビティを開く",
             "zh-Hans": "打开动态",
-            "ko": "활동 열기"
+            "ko": "활동 열기",
+            "nl": "Activiteit openen",
+            "sv": "Öppna aktivitet",
+            "da": "Åbn aktivitet",
+            "nb": "Åpne aktivitet",
+            "fi": "Avaa toiminta",
+            "pl": "Otwórz aktywność",
+            "hi": "गतिविधि खोलें",
+            "zh-Hant": "開啟動態"
           },
           "keys": "cmd+shift+e",
           "raw": false
@@ -118,7 +174,15 @@
             "pt-BR": "Próximo canal não lido",
             "ja": "次の未読チャンネル",
             "zh-Hans": "下一个未读频道",
-            "ko": "다음 읽지 않은 채널"
+            "ko": "다음 읽지 않은 채널",
+            "nl": "Volgend ongelezen kanaal",
+            "sv": "Nästa olästa kanal",
+            "da": "Næste ulæste kanal",
+            "nb": "Neste uleste kanal",
+            "fi": "Seuraava lukematon kanava",
+            "pl": "Następny nieprzeczytany kanał",
+            "hi": "अगला अपठित चैनल",
+            "zh-Hant": "下一個未讀頻道"
           },
           "keys": "alt+shift+down",
           "raw": false
@@ -133,7 +197,15 @@
             "pt-BR": "Canal não lido anterior",
             "ja": "前の未読チャンネル",
             "zh-Hans": "上一个未读频道",
-            "ko": "이전 읽지 않은 채널"
+            "ko": "이전 읽지 않은 채널",
+            "nl": "Vorig ongelezen kanaal",
+            "sv": "Föregående olästa kanal",
+            "da": "Forrige ulæste kanal",
+            "nb": "Forrige uleste kanal",
+            "fi": "Edellinen lukematon kanava",
+            "pl": "Poprzedni nieprzeczytany kanał",
+            "hi": "पिछला अपठित चैनल",
+            "zh-Hant": "上一個未讀頻道"
           },
           "keys": "alt+shift+up",
           "raw": false
@@ -148,7 +220,15 @@
             "pt-BR": "Voltar no histórico",
             "ja": "履歴を戻る",
             "zh-Hans": "后退",
-            "ko": "기록 뒤로"
+            "ko": "기록 뒤로",
+            "nl": "Terug in de geschiedenis",
+            "sv": "Bakåt i historiken",
+            "da": "Tilbage i historikken",
+            "nb": "Bakover i historikken",
+            "fi": "Taaksepäin historiassa",
+            "pl": "Wstecz w historii",
+            "hi": "इतिहास में पीछे",
+            "zh-Hant": "歷史記錄中返回"
           },
           "keys": "cmd+[",
           "raw": false
@@ -163,7 +243,15 @@
             "pt-BR": "Avançar no histórico",
             "ja": "履歴を進む",
             "zh-Hans": "前进",
-            "ko": "기록 앞으로"
+            "ko": "기록 앞으로",
+            "nl": "Vooruit in de geschiedenis",
+            "sv": "Framåt i historiken",
+            "da": "Frem i historikken",
+            "nb": "Fremover i historikken",
+            "fi": "Eteenpäin historiassa",
+            "pl": "Dalej w historii",
+            "hi": "इतिहास में आगे",
+            "zh-Hant": "歷史記錄中前進"
           },
           "keys": "cmd+]",
           "raw": false
@@ -180,7 +268,15 @@
         "pt-BR": "Mensagens",
         "ja": "メッセージ",
         "zh-Hans": "消息",
-        "ko": "메시지"
+        "ko": "메시지",
+        "nl": "Berichten",
+        "sv": "Meddelanden",
+        "da": "Beskeder",
+        "nb": "Meldinger",
+        "fi": "Viestit",
+        "pl": "Wiadomości",
+        "hi": "मैसेजिंग",
+        "zh-Hant": "訊息"
       },
       "items": [
         {
@@ -193,7 +289,15 @@
             "pt-BR": "Marcar tudo como lido",
             "ja": "すべて既読にする",
             "zh-Hans": "全部标为已读",
-            "ko": "모두 읽음으로 표시"
+            "ko": "모두 읽음으로 표시",
+            "nl": "Alles als gelezen markeren",
+            "sv": "Markera allt som läst",
+            "da": "Markér alt som læst",
+            "nb": "Marker alt som lest",
+            "fi": "Merkitse kaikki luetuiksi",
+            "pl": "Oznacz wszystko jako przeczytane",
+            "hi": "सभी को पढ़ा हुआ चिह्नित करें",
+            "zh-Hant": "全部標示為已讀"
           },
           "keys": "shift+esc",
           "raw": true
@@ -208,7 +312,15 @@
             "pt-BR": "Marcar canal como lido",
             "ja": "チャンネルを既読にする",
             "zh-Hans": "将频道标为已读",
-            "ko": "채널 읽음으로 표시"
+            "ko": "채널 읽음으로 표시",
+            "nl": "Kanaal als gelezen markeren",
+            "sv": "Markera kanalen som läst",
+            "da": "Markér kanalen som læst",
+            "nb": "Marker kanalen som lest",
+            "fi": "Merkitse kanava luetuksi",
+            "pl": "Oznacz kanał jako przeczytany",
+            "hi": "चैनल को पढ़ा हुआ चिह्नित करें",
+            "zh-Hant": "將頻道標示為已讀"
           },
           "keys": "esc",
           "raw": true
@@ -223,7 +335,15 @@
             "pt-BR": "Editar última mensagem",
             "ja": "直前のメッセージを編集",
             "zh-Hans": "编辑上一条消息",
-            "ko": "마지막 메시지 편집"
+            "ko": "마지막 메시지 편집",
+            "nl": "Laatste bericht bewerken",
+            "sv": "Redigera senaste meddelandet",
+            "da": "Rediger seneste besked",
+            "nb": "Rediger siste melding",
+            "fi": "Muokkaa viimeisintä viestiä",
+            "pl": "Edytuj ostatnią wiadomość",
+            "hi": "आख़िरी मैसेज संपादित करें",
+            "zh-Hant": "編輯最後一則訊息"
           },
           "keys": "Up arrow (in empty box)",
           "raw": true
@@ -238,7 +358,15 @@
             "pt-BR": "Nova linha",
             "ja": "メッセージ内で改行",
             "zh-Hans": "消息内换行",
-            "ko": "메시지에 줄바꿈"
+            "ko": "메시지에 줄바꿈",
+            "nl": "Nieuwe regel in bericht",
+            "sv": "Ny rad i meddelandet",
+            "da": "Ny linje i beskeden",
+            "nb": "Ny linje i meldingen",
+            "fi": "Uusi rivi viestissä",
+            "pl": "Nowy wiersz w wiadomości",
+            "hi": "मैसेज में नई पंक्ति",
+            "zh-Hant": "在訊息中換行"
           },
           "keys": "shift+enter",
           "raw": false
@@ -253,7 +381,15 @@
             "pt-BR": "Reagir à última mensagem",
             "ja": "直前のメッセージにリアクション",
             "zh-Hans": "对上一条消息回应",
-            "ko": "마지막 메시지에 반응"
+            "ko": "마지막 메시지에 반응",
+            "nl": "Reageren op het laatste bericht",
+            "sv": "Reagera på senaste meddelandet",
+            "da": "Reagér på seneste besked",
+            "nb": "Reager på siste melding",
+            "fi": "Reagoi viimeisimpään viestiin",
+            "pl": "Zareaguj na ostatnią wiadomość",
+            "hi": "आख़िरी मैसेज पर प्रतिक्रिया दें",
+            "zh-Hant": "對最後一則訊息做出回應"
           },
           "keys": "cmd+shift+\\",
           "raw": false
@@ -268,7 +404,15 @@
             "pt-BR": "Enviar um arquivo",
             "ja": "ファイルをアップロード",
             "zh-Hans": "上传文件",
-            "ko": "파일 업로드"
+            "ko": "파일 업로드",
+            "nl": "Een bestand uploaden",
+            "sv": "Ladda upp en fil",
+            "da": "Upload en fil",
+            "nb": "Last opp en fil",
+            "fi": "Lähetä tiedosto",
+            "pl": "Prześlij plik",
+            "hi": "फ़ाइल अपलोड करें",
+            "zh-Hant": "上傳檔案"
           },
           "keys": "cmd+shift+u",
           "raw": false
@@ -285,7 +429,15 @@
         "pt-BR": "Formatação",
         "ja": "書式",
         "zh-Hans": "格式",
-        "ko": "서식"
+        "ko": "서식",
+        "nl": "Opmaak",
+        "sv": "Formatering",
+        "da": "Formatering",
+        "nb": "Formatering",
+        "fi": "Muotoilu",
+        "pl": "Formatowanie",
+        "hi": "फ़ॉर्मैटिंग",
+        "zh-Hant": "格式"
       },
       "items": [
         {
@@ -298,7 +450,15 @@
             "pt-BR": "Negrito",
             "ja": "太字",
             "zh-Hans": "加粗",
-            "ko": "굵게"
+            "ko": "굵게",
+            "nl": "Vet",
+            "sv": "Fet",
+            "da": "Fed",
+            "nb": "Fet",
+            "fi": "Lihavointi",
+            "pl": "Pogrubienie",
+            "hi": "बोल्ड",
+            "zh-Hant": "粗體"
           },
           "keys": "cmd+b",
           "raw": false
@@ -313,7 +473,15 @@
             "pt-BR": "Itálico",
             "ja": "斜体",
             "zh-Hans": "斜体",
-            "ko": "기울임"
+            "ko": "기울임",
+            "nl": "Cursief",
+            "sv": "Kursiv",
+            "da": "Kursiv",
+            "nb": "Kursiv",
+            "fi": "Kursivointi",
+            "pl": "Kursywa",
+            "hi": "इटैलिक",
+            "zh-Hant": "斜體"
           },
           "keys": "cmd+i",
           "raw": false
@@ -328,7 +496,15 @@
             "pt-BR": "Tachado",
             "ja": "取り消し線",
             "zh-Hans": "删除线",
-            "ko": "취소선"
+            "ko": "취소선",
+            "nl": "Doorhalen",
+            "sv": "Genomstruken",
+            "da": "Gennemstreget",
+            "nb": "Gjennomstreking",
+            "fi": "Yliviivaus",
+            "pl": "Przekreślenie",
+            "hi": "स्ट्राइकथ्रू",
+            "zh-Hant": "刪除線"
           },
           "keys": "cmd+shift+x",
           "raw": false
@@ -343,7 +519,15 @@
             "pt-BR": "Código embutido",
             "ja": "インラインコード",
             "zh-Hans": "行内代码",
-            "ko": "인라인 코드"
+            "ko": "인라인 코드",
+            "nl": "Inline code",
+            "sv": "Inbäddad kod",
+            "da": "Inline kode",
+            "nb": "Innebygd kode",
+            "fi": "Rivinsisäinen koodi",
+            "pl": "Kod w wierszu",
+            "hi": "इनलाइन कोड",
+            "zh-Hant": "行內程式碼"
           },
           "keys": "cmd+shift+c",
           "raw": false
@@ -358,7 +542,15 @@
             "pt-BR": "Bloco de código",
             "ja": "コードブロック",
             "zh-Hans": "代码块",
-            "ko": "코드 블록"
+            "ko": "코드 블록",
+            "nl": "Codeblok",
+            "sv": "Kodblock",
+            "da": "Kodeblok",
+            "nb": "Kodeblokk",
+            "fi": "Koodilohko",
+            "pl": "Blok kodu",
+            "hi": "कोड ब्लॉक",
+            "zh-Hant": "程式碼區塊"
           },
           "keys": "cmd+alt+shift+c",
           "raw": false
@@ -373,7 +565,15 @@
             "pt-BR": "Lista com marcadores",
             "ja": "箇条書き",
             "zh-Hans": "项目符号列表",
-            "ko": "글머리 기호 목록"
+            "ko": "글머리 기호 목록",
+            "nl": "Lijst met opsommingstekens",
+            "sv": "Punktlista",
+            "da": "Punktliste",
+            "nb": "Punktliste",
+            "fi": "Luettelo luettelomerkein",
+            "pl": "Lista punktowana",
+            "hi": "बुलेट वाली सूची",
+            "zh-Hant": "項目符號清單"
           },
           "keys": "cmd+shift+8",
           "raw": false
@@ -388,7 +588,15 @@
             "pt-BR": "Lista numerada",
             "ja": "番号付きリスト",
             "zh-Hans": "编号列表",
-            "ko": "번호 매기기 목록"
+            "ko": "번호 매기기 목록",
+            "nl": "Genummerde lijst",
+            "sv": "Numrerad lista",
+            "da": "Nummereret liste",
+            "nb": "Nummerert liste",
+            "fi": "Numeroitu luettelo",
+            "pl": "Lista numerowana",
+            "hi": "क्रमांकित सूची",
+            "zh-Hant": "編號清單"
           },
           "keys": "cmd+shift+7",
           "raw": false
@@ -403,7 +611,15 @@
             "pt-BR": "Citação",
             "ja": "引用",
             "zh-Hans": "引用块",
-            "ko": "인용"
+            "ko": "인용",
+            "nl": "Blokcitaat",
+            "sv": "Blockcitat",
+            "da": "Blokcitat",
+            "nb": "Blokksitat",
+            "fi": "Lainauslohko",
+            "pl": "Cytat blokowy",
+            "hi": "ब्लॉक कोट",
+            "zh-Hant": "引用區塊"
           },
           "keys": "cmd+shift+9",
           "raw": false
@@ -418,7 +634,15 @@
             "pt-BR": "Alternar barra de formatação",
             "ja": "書式バーの表示切替",
             "zh-Hans": "显示/隐藏格式栏",
-            "ko": "서식 바 전환"
+            "ko": "서식 바 전환",
+            "nl": "Opmaakbalk tonen of verbergen",
+            "sv": "Visa eller dölj formateringsfältet",
+            "da": "Vis eller skjul formateringslinjen",
+            "nb": "Vis eller skjul formateringslinjen",
+            "fi": "Näytä tai piilota muotoilupalkki",
+            "pl": "Pokaż lub ukryj pasek formatowania",
+            "hi": "फ़ॉर्मैटिंग बार दिखाएँ या छिपाएँ",
+            "zh-Hant": "顯示或隱藏格式列"
           },
           "keys": "cmd+shift+f",
           "raw": false
@@ -435,7 +659,15 @@
         "pt-BR": "Chamadas e busca",
         "ja": "通話と検索",
         "zh-Hans": "通话与搜索",
-        "ko": "통화 및 검색"
+        "ko": "통화 및 검색",
+        "nl": "Gesprekken en zoeken",
+        "sv": "Samtal och sök",
+        "da": "Opkald og søgning",
+        "nb": "Samtaler og søk",
+        "fi": "Puhelut ja haku",
+        "pl": "Połączenia i wyszukiwanie",
+        "hi": "कॉल और खोज",
+        "zh-Hant": "通話與搜尋"
       },
       "items": [
         {
@@ -448,7 +680,15 @@
             "pt-BR": "Iniciar ou entrar em um huddle",
             "ja": "ハドルを開始/参加",
             "zh-Hans": "发起或加入 Huddle",
-            "ko": "허들 시작 또는 참여"
+            "ko": "허들 시작 또는 참여",
+            "nl": "Een huddle starten of eraan deelnemen",
+            "sv": "Starta eller gå med i en huddle",
+            "da": "Start eller deltag i en huddle",
+            "nb": "Start eller bli med i en huddle",
+            "fi": "Aloita huddle tai liity siihen",
+            "pl": "Rozpocznij lub dołącz do huddle",
+            "hi": "हडल शुरू करें या उसमें शामिल हों",
+            "zh-Hant": "開始或加入 Huddle"
           },
           "keys": "cmd+shift+space",
           "raw": false
@@ -463,7 +703,15 @@
             "pt-BR": "Silenciar ou ativar microfone",
             "ja": "ミュート切替",
             "zh-Hans": "静音/取消静音",
-            "ko": "음소거 전환"
+            "ko": "음소거 전환",
+            "nl": "In de huddle dempen of dempen opheffen",
+            "sv": "Stäng av eller slå på ljudet i huddle",
+            "da": "Slå lyden fra eller til i huddle",
+            "nb": "Slå av eller på lyden i huddle",
+            "fi": "Mykistä tai poista mykistys huddlessa",
+            "pl": "Wycisz lub włącz dźwięk w huddle",
+            "hi": "हडल में म्यूट या अनम्यूट करें",
+            "zh-Hant": "在 Huddle 中靜音或取消靜音"
           },
           "keys": "cmd+shift+m",
           "raw": false
@@ -478,7 +726,15 @@
             "pt-BR": "Buscar na conversa atual",
             "ja": "現在の会話を検索",
             "zh-Hans": "搜索当前会话",
-            "ko": "현재 대화 검색"
+            "ko": "현재 대화 검색",
+            "nl": "In het huidige gesprek zoeken",
+            "sv": "Sök i den aktuella konversationen",
+            "da": "Søg i den aktuelle samtale",
+            "nb": "Søk i gjeldende samtale",
+            "fi": "Hae nykyisestä keskustelusta",
+            "pl": "Szukaj w bieżącej rozmowie",
+            "hi": "मौजूदा बातचीत में खोजें",
+            "zh-Hant": "搜尋目前的對話"
           },
           "keys": "cmd+f",
           "raw": false
@@ -493,7 +749,15 @@
             "pt-BR": "Buscar em todo o Slack",
             "ja": "Slack全体を検索",
             "zh-Hans": "搜索整个 Slack",
-            "ko": "Slack 전체 검색"
+            "ko": "Slack 전체 검색",
+            "nl": "In heel Slack zoeken",
+            "sv": "Sök i hela Slack",
+            "da": "Søg i hele Slack",
+            "nb": "Søk i hele Slack",
+            "fi": "Hae koko Slackista",
+            "pl": "Szukaj w całym Slacku",
+            "hi": "पूरे Slack में खोजें",
+            "zh-Hant": "搜尋整個 Slack"
           },
           "keys": "cmd+g",
           "raw": false
@@ -508,7 +772,15 @@
             "pt-BR": "Mostrar atalhos de teclado",
             "ja": "キーボードショートカットを表示",
             "zh-Hans": "显示键盘快捷键",
-            "ko": "키보드 단축키 표시"
+            "ko": "키보드 단축키 표시",
+            "nl": "Sneltoetsen tonen",
+            "sv": "Visa kortkommandon",
+            "da": "Vis genvejstaster",
+            "nb": "Vis hurtigtaster",
+            "fi": "Näytä pikanäppäimet",
+            "pl": "Pokaż skróty klawiszowe",
+            "hi": "कीबोर्ड शॉर्टकट दिखाएँ",
+            "zh-Hant": "顯示鍵盤快速鍵"
           },
           "keys": "cmd+/",
           "raw": false

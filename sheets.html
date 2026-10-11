@@ -69,21 +69,25 @@
   <p>Keysi reads an app's live menus, so it can show every shortcut of the app you're in without anyone maintaining a list. Some apps get around that: Vim and tmux have no macOS menus, and Electron apps like Slack keep their real bindings out of the menu bar.</p>
   <p>For those, Keysi ships hand-written sheets. They're free, not part of Keysi Pro, and you can fork any of them.</p>
   <p>For apps whose shortcuts <em>are</em> in the menu bar, see the <a href="shortcuts.html">shortcut lists by app</a>, read straight from those menus.</p>
-  <p class="updated">10 sheets · 381 shortcuts.</p>
+  <p class="updated">14 sheets · 561 shortcuts.</p>
   <div class="table-scroll">
     <table class="compare">
       <thead><tr><th>App</th><th>Shortcuts</th><th>Matched by</th></tr></thead>
       <tbody>
+        <tr><td><a href="sheet-discord.html">Discord</a></td><td>38</td><td>Bundle ID</td></tr>
         <tr><td><a href="sheet-emacs.html">Emacs</a></td><td>32</td><td>Terminal foreground process</td></tr>
         <tr><td><a href="sheet-excel.html">Excel</a></td><td>29</td><td>Bundle ID</td></tr>
         <tr><td><a href="sheet-figma.html">Figma</a></td><td>43</td><td>Bundle ID</td></tr>
         <tr><td><a href="sheet-ghostty.html">Ghostty</a></td><td>31</td><td>Bundle ID</td></tr>
+        <tr><td><a href="sheet-helix.html">Helix</a></td><td>50</td><td>Terminal foreground process</td></tr>
+        <tr><td><a href="sheet-linear.html">Linear</a></td><td>48</td><td>Bundle ID</td></tr>
         <tr><td><a href="sheet-notion.html">Notion</a></td><td>46</td><td>Bundle ID</td></tr>
         <tr><td><a href="sheet-obsidian.html">Obsidian</a></td><td>35</td><td>Bundle ID</td></tr>
         <tr><td><a href="sheet-slack.html">Slack</a></td><td>29</td><td>Bundle ID</td></tr>
         <tr><td><a href="sheet-tmux.html">tmux</a></td><td>37</td><td>Terminal foreground process</td></tr>
         <tr><td><a href="sheet-vim.html">Vim</a></td><td>73</td><td>Terminal foreground process</td></tr>
         <tr><td><a href="sheet-word.html">Word</a></td><td>26</td><td>Bundle ID</td></tr>
+        <tr><td><a href="sheet-zellij.html">Zellij</a></td><td>44</td><td>Terminal foreground process</td></tr>
       </tbody>
     </table>
   </div>
@@ -94,6 +98,22 @@
     </picture>
     <figcaption>The Vim sheet, over Vim in a terminal. Keysi looks at what is actually running there rather than which terminal app it is.</figcaption>
   </figure>
+  <h2 id="community">Community sheets</h2>
+  <p>Sheets written by Keysi users for tools that have no macOS menu bar to read. Each one is checked against the same rules Keysi applies to your own sheets, lists the documentation its shortcuts come from, and is released into the public domain (<a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>). Free, like every sheet.</p>
+  <p>To use one: download its JSON file, then in Keysi open <strong>Settings ▸ Sheets ▸ Import Sheet…</strong> and choose it, or drop it onto the Sheets list. Keysi shows the sheet's name, the app it applies to and how many shortcuts it holds, and saves nothing until you confirm. The website never installs anything.</p>
+  <p class="updated">4 community sheets · 124 shortcuts.</p>
+  <div class="table-scroll">
+    <table class="compare">
+      <thead><tr><th>Tool</th><th>Shortcuts</th><th>Matched by</th><th>File</th></tr></thead>
+      <tbody>
+        <tr><td><a href="community-k9s.html">k9s</a></td><td>24</td><td>Terminal foreground process</td><td><a href="community-k9s.json" download>JSON</a></td></tr>
+        <tr><td><a href="community-lazygit.html">lazygit</a></td><td>53</td><td>Terminal foreground process</td><td><a href="community-lazygit.json" download>JSON</a></td></tr>
+        <tr><td><a href="community-less.html">less</a></td><td>27</td><td>Terminal foreground process</td><td><a href="community-less.json" download>JSON</a></td></tr>
+        <tr><td><a href="community-shell-line-editing.html">Shell line editing</a></td><td>20</td><td>Terminal foreground process</td><td><a href="community-shell-line-editing.json" download>JSON</a></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Wrote a sheet for a tool that isn't here? Email it to <a href="mailto:support@keysi.io">support@keysi.io</a>, or send it from Keysi's menu bar ▸ Send Feedback… Releasing it under CC0 is the only condition; it is checked before it is added.</p>
   <h2>Write your own</h2>
   <p>Any app can have one. A sheet is a JSON file in <code>~/Library/Application Support/Keysi/Sheets/</code> naming the app and the shortcuts to list, and Keysi's built-in editor can write it for you. Set <code>mode</code> to <code>augment</code> to add to what Keysi found in the app's menus, or <code>replace</code> to drop that, which is what you want for an Electron app whose menu bar doesn't match its real bindings.</p>
   <p>Download any sheet above as a starting point.</p>
@@ -111,6 +131,7 @@
       <div>© 2026 Manuel Lorenzo. Not affiliated with Media Atelier.</div>
       <ul class="footer-links">
         <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="security.html">Security</a></li>
         <li><a href="terms.html">Terms &amp; refunds</a></li>
         <li><a href="changelog.html">Changelog</a></li>
         <li><a href="roadmap.html">Roadmap</a></li>

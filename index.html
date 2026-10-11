@@ -42,7 +42,7 @@
   "url": "https://keysi.io/",
   "image": "https://keysi.io/assets/img/og.png",
   "description": "Hold a modifier and see every keyboard shortcut of the Mac app you are using \u2014 grouped by menu, rendered as real keycaps, and click any row to run it. Free with no time limit; Keysi Pro adds coaching that teaches you the shortcuts you keep missing.",
-  "softwareVersion": "1.0.30",
+  "softwareVersion": "1.0.31",
   "downloadUrl": "https://github.com/noloman/keysi/releases/latest",
   "inLanguage": ["en", "es", "fr", "de", "it", "pt-BR", "ja", "ko", "zh-Hans"],
   "author": { "@type": "Person", "name": "Manuel Lorenzo" },
@@ -107,7 +107,7 @@
           or <code class="cmd">brew install --cask noloman/keysi/keysi</code>
         </p>
         <p class="hero-micro">
-          <span>Free, no time limit, no account</span>
+          <span>Free: no trial, no time limit, no account</span>
           <span>Includes 14 days of Pro</span>
         </p>
         <p class="hold-hint">
@@ -145,6 +145,24 @@
       <li>Analytics <strong>off by default</strong></li>
     </ul>
   </div>
+</section>
+
+<!-- The free tier, near the top: a Reddit reader (2026-10-11) pointed out
+     that many visitors leave before they scroll to pricing. Keep this in
+     step with the Free card in #pricing. -->
+<section id="free" class="container tight free-summary">
+  <h2>What you get free, with no time limit</h2>
+  <ul class="pricing-list free-summary-list">
+    <li><span class="tick">✓</span><span>Every app's shortcuts on a held ⌘, ⌥, ⌃ or ⇧</span></li>
+    <li><span class="tick">✓</span><span>Search, favorites, hiding, click to run</span></li>
+    <li><span class="tick">✓</span><span>Fourteen cheat sheets for Vim, tmux, Figma, Slack and more, plus your own</span></li>
+    <li><span class="tick">✓</span><span>Your own remapped keys from VS Code, JetBrains, Xcode, Sublime Text, Zed, Final Cut Pro, Vim and Emacs</span></li>
+    <li><span class="tick">✓</span><span>Warnings when macOS or another app takes a shortcut first</span></li>
+    <li><span class="tick">✓</span><span>Markdown and PDF export, settings sync between your Macs</span></li>
+    <li><span class="tick">✓</span><span>One Practice drill a day</span></li>
+    <li><span class="tick">✓</span><span>No account, no card, no nag screen</span></li>
+  </ul>
+  <p class="fine">Pro adds the coaching for $14.99 once. <a href="#pricing">Compare Free and Pro</a>.</p>
 </section>
 
 <section class="origin tight">
@@ -295,6 +313,7 @@
         <ul>
           <li><strong>Hold any modifier</strong> <span class="kbd">⌘</span> <span class="kbd">⌥</span> <span class="kbd">⌃</span> <span class="kbd">⇧</span> your pick, with an adjustable delay.</li>
           <li><strong>A searchable panel</strong> <span class="kbd-row"><span class="kbd">⇧</span><span class="kbd">⌘</span><span class="kbd">K</span></span> type to filter, arrows to move, Escape to close.</li>
+          <li><strong>A double-tap</strong> <span class="tier tier-free">Free</span> if you'd rather not hold a key, double-tap <span class="kbd">⌘</span>, <span class="kbd">⌥</span> or <span class="kbd">⌃</span>. Off until you turn it on, and a quick ⌘C ⌘V never counts.</li>
           <li><strong>The menu bar item</strong> same content, no keyboard needed.</li>
           <li><strong>Pin it open</strong> where you want it, per app.</li>
         </ul>
@@ -310,9 +329,12 @@
       <div class="cap-group">
         <h3>Goes further</h3>
         <ul>
-          <li><strong>Custom cheat sheets</strong> <span class="tier tier-free">Free</span> Figma, Slack, Notion, Obsidian, Excel, Word, Ghostty, Vim, tmux and Emacs built in, plus an editor for your own. <a href="sheets.html">Browse them</a>.</li>
-          <li><strong>Reads the shortcuts you rebound</strong> <span class="tier tier-free">Free</span> in IntelliJ IDEA, Android Studio, VS Code, Cursor, Xcode or your own <code>.vimrc</code>, including bindings those apps' menus can't show.</li>
-          <li><strong>Nine languages</strong> English, Spanish, French, German, Italian, Portuguese (BR), Japanese, Korean, Simplified Chinese.</li>
+          <li><strong>Beyond the menu bar</strong> <span class="tier tier-free">Free</span> your own remapped keymaps, sheets for Vim, tmux and Figma, and a warning when another app takes a shortcut first.</li>
+          <li><strong>Custom cheat sheets</strong> <span class="tier tier-free">Free</span> Figma, Slack, Notion, Obsidian, Excel, Word, Ghostty, Discord, Linear, Vim, tmux, Emacs, Helix and Zellij built in, plus an editor for your own. <a href="sheets.html">Browse them</a>.</li>
+          <li><strong>Reads the shortcuts you rebound</strong> <span class="tier tier-free">Free</span> in IntelliJ IDEA, Android Studio, VS Code, Cursor, Xcode, Sublime Text, Sublime Merge, Zed, Final Cut Pro or your own <code>.vimrc</code>, including two-step bindings such as ⌃K ⌃B and others those apps' menus can't show.</li>
+          <li><strong>Import a sheet</strong> <span class="tier tier-free">Free</span> add a cheat sheet from a JSON file after Keysi shows what's in it. <a href="sheets.html">Community sheets</a> for lazygit, k9s and more; nothing installs from a link.</li>
+          <li><strong>The same on every Mac</strong> <span class="tier tier-free">Free</span> Settings &#9656; Sync keeps your custom sheets, favorites and appearance in a folder you pick, such as iCloud Drive. Off until you turn it on.</li>
+          <li><strong>Seventeen languages</strong> English, Spanish, French, German, Italian, Portuguese (BR), Japanese, Korean, Simplified and Traditional Chinese, Dutch, Swedish, Danish, Norwegian, Finnish, Polish, Hindi.</li>
           <li><strong>Reachable from outside Keysi</strong> <span class="tier tier-pro">Pro</span> Raycast, Alfred, Shortcuts, Siri, Spotlight, the Services menu, a <code>keysi</code> terminal command and a <code>keysi://</code> URL. Showing an app's shortcuts from Raycast, Alfred, the terminal or a URL is free. <a href="integrations.html">How each one works</a>.</li>
         <li><strong>Export the whole sheet</strong> <span class="tier tier-free">Free</span> any app's shortcuts as Markdown or a printable PDF. A desktop picture sized to your screen is Pro.</li>
         </ul>
@@ -320,6 +342,112 @@
     </div>
   </div>
 
+</section>
+
+<section class="container tight">
+  <div class="eyebrow">More of what's in it</div>
+  <h2>Past the menu bar</h2>
+  <div class="feature-pair">
+    <div class="feature-copy">
+      <div class="eyebrow">Your own keymaps<span class="tier tier-free">Free</span></div>
+      <h3>The shortcuts a menu can't show</h3>
+      <p>
+        Keysi reads the keymap you rebound in VS Code, Cursor, JetBrains,
+        Sublime Text, Zed, Final Cut Pro and Xcode, and lists it as its own
+        group beside the menu rows.
+      </p>
+      <figure class="shot">
+        <picture>
+          <source srcset="assets/img/shot-beyond-menu@2x.webp" type="image/webp">
+          <img src="assets/img/shot-beyond-menu@2x.png" alt="Keysi's overlay over VS Code: Edit, Selection, Go and Terminal menu groups, and a Your Keymap group of rebound shortcuts such as Join Lines and Rename" loading="lazy" width="1991" height="1659">
+        </picture>
+        <figcaption>VS Code's menus plus a &ldquo;Your keymap&rdquo; group. The rebinds shown are an example keymap, not a real setup.</figcaption>
+      </figure>
+    </div>
+    <div class="feature-copy">
+      <div class="eyebrow">Cheat sheets<span class="tier tier-free">Free</span></div>
+      <h3>Terminal and editor sheets, built in</h3>
+      <p>
+        Vim, tmux, Emacs, Helix, Zellij, Figma, Slack, Discord, Linear and
+        more ship with Keysi, and you can import more or write your own.
+      </p>
+      <figure class="shot">
+        <picture>
+          <source srcset="assets/img/shot-helix@2x.webp" type="image/webp">
+          <img src="assets/img/shot-helix@2x.png" alt="Keysi's built-in Helix sheet: Insert, Selections, Match and surround, Windows, Movement, Editing, Goto, Search and Space menu groups, each with the key to press" loading="lazy" width="1991" height="1659">
+        </picture>
+        <figcaption>The built-in Helix sheet. It shows when the terminal running Helix is in front.</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="feature-pair">
+    <div class="feature-copy">
+      <div class="eyebrow">Another way in<span class="tier tier-free">Free</span></div>
+      <h3>Double-tap instead of hold</h3>
+      <p>
+        Prefer not to hold a key? Turn on a double-tap of &#8984;, &#8997; or
+        &#8963; in Settings &#9656; Triggers. It's off until you enable it, and a
+        quick &#8984;C &#8984;V never counts.
+      </p>
+      <figure class="shot">
+        <picture>
+          <source srcset="assets/img/shot-double-tap@2x.webp" type="image/webp">
+          <img src="assets/img/shot-double-tap@2x.png" alt="Keysi's Triggers settings with Open with a double-tap switched on and Command chosen, below the hold modifier and hold delay controls" loading="lazy" width="1280" height="1420">
+        </picture>
+        <figcaption>Settings &#9656; Triggers, with the double-tap switched on.</figcaption>
+      </figure>
+    </div>
+    <div class="feature-copy">
+      <div class="eyebrow">Apps you work in<span class="tier tier-free">Free</span></div>
+      <h3>Apps with thin menus get a sheet too</h3>
+      <p>
+        Linear, Discord and Notion keep most of their shortcuts out of the
+        menu bar. Their built-in sheets list the keys anyway.
+      </p>
+      <figure class="shot">
+        <picture>
+          <source srcset="assets/img/shot-linear@2x.webp" type="image/webp">
+          <img src="assets/img/shot-linear@2x.png" alt="Keysi's built-in Linear sheet: General, Relations, Filter and copy, Create and edit, Properties and Go to groups with their shortcuts" loading="lazy" width="1411" height="1659">
+        </picture>
+        <figcaption>The built-in Linear sheet.</figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="feature-pair">
+    <div class="feature-copy">
+      <div class="eyebrow">Your Keysi<span class="tier tier-pro">Keysi Pro · $14.99</span></div>
+      <h3>See what you've learned, app by app</h3>
+      <p>
+        A weekly goal of 3, 5 or 10 new shortcuts, your streak and your year,
+        and a ranking of the apps where you've picked the most up, each with a
+        mastery percentage. It counts key presses Keysi saw, not guesses.
+      </p>
+      <figure class="shot">
+        <picture>
+          <source srcset="assets/img/shot-progress@2x.webp" type="image/webp">
+          <img src="assets/img/shot-progress@2x.png" alt="Keysi's Your Keysi window: 17 shortcuts learned, a 9 day streak, a bar showing 2 of 5 new shortcuts this week, a year of activity, a keyboard heat map, and Xcode, Figma, Slack and Finder ranked by shortcuts learned" loading="lazy" width="1520" height="2200">
+        </picture>
+        <figcaption>Your Keysi, with sample numbers for the screenshot.</figcaption>
+      </figure>
+    </div>
+    <div class="feature-copy">
+      <div class="eyebrow">Sync<span class="tier tier-free">Free</span></div>
+      <h3>The same sheets and settings on every Mac</h3>
+      <p>
+        Pick a folder, such as iCloud Drive or Dropbox, and Keysi keeps your
+        custom sheets, favorites and appearance settings in it. Keysi only
+        writes files there and makes no network connection of its own for
+        this. Never your license, trial or Coach progress.
+      </p>
+      <figure class="shot">
+        <picture>
+          <source srcset="assets/img/shot-sync@2x.webp" type="image/webp">
+          <img src="assets/img/shot-sync@2x.png" alt="Keysi's Sync settings with Sync between Macs switched on, the sync folder shown as a folder in the home directory, and Choose Folder, Use iCloud Drive Folder and Sync Now buttons" loading="lazy" width="1280" height="1400">
+        </picture>
+        <figcaption>Settings &#9656; Sync. Off until you turn it on.</figcaption>
+      </figure>
+    </div>
+  </div>
 </section>
 
 <section class="container tight">
@@ -355,6 +483,7 @@
       <li><span class="tick">✓</span><span>Custom cheat sheets, with a built-in editor</span></li>
       <li><span class="tick">✓</span><span>Export any app's shortcuts as Markdown or a printable PDF</span></li>
       <li><span class="tick">✓</span><span>Show an app's shortcuts from Raycast, Alfred or the terminal</span></li>
+      <li><span class="tick">✓</span><span>One Practice drill a day, to try spaced repetition</span></li>
       <li><span class="tick">✓</span><span>No account, no card, no nag screen</span></li>
     </ul>
     <p class="price-note">
@@ -380,9 +509,10 @@
     <ul class="pricing-list">
       <li><span class="tick">✓</span><span>Coach: a quiet reminder when you use the mouse for something that has a shortcut</span></li>
       <li><span class="tick">✓</span><span>Suggested shortcuts for commands you keep clicking that have none</span></li>
-      <li><span class="tick">✓</span><span>Practice Mode for the ones you keep missing</span></li>
+      <li><span class="tick">✓</span><span>Unlimited Practice Mode for the ones you keep missing</span></li>
       <li><span class="tick">✓</span><span>Progress measured against your own menu-trip times</span></li>
-      <li><span class="tick">✓</span><span>A weekly summary of what stuck</span></li>
+      <li><span class="tick">✓</span><span>A weekly summary of what stuck, and a weekly goal of 3, 5 or 10 new shortcuts</span></li>
+      <li><span class="tick">✓</span><span>Your Keysi: your most-learned apps ranked, with a mastery percentage for each</span></li>
       <li><span class="tick">✓</span><span>The overlay marks the shortcuts you've learned</span></li>
       <li><span class="tick">✓</span><span>The overlay marks shortcuts an app update added</span></li>
       <li><span class="tick">✓</span><span>Any app's shortcuts as a desktop picture sized to your screen</span></li>
@@ -421,6 +551,7 @@
       <summary>Why does Keysi need Accessibility access?</summary>
       <div class="faq-body">
         <p>To read the menu bar of the app you're using. The permission prompt says it word for word: "Keysi needs Accessibility access to read the keyboard shortcuts of the app you're using. It never controls your keyboard or mouse without an explicit click on a shortcut row."</p>
+        <p>Keysi is closed source, so I've listed every Accessibility call it makes, every network request and every file it reads, with the commands to check each one yourself: <a href="security.html">what Keysi can see, and what it sends</a>.</p>
       </div>
     </details>
 
@@ -472,7 +603,7 @@
     <details class="faq-item">
       <summary>What happens when the Keysi Pro trial ends?</summary>
       <div class="faq-body">
-        <p>Keysi keeps working. After the 14 days (and a short grace period) it drops to the free tier: every shortcut still shows, rows still run, custom sheets still load. The coaching stops: reminders, Practice Mode, progress figures and the weekly summary. Nothing you set up is deleted, and Keysi keeps counting locally, so upgrading later picks up where you left off.</p>
+        <p>Keysi keeps working. After the 14 days (and a short grace period) it drops to the free tier: every shortcut still shows, rows still run, custom sheets still load. The coaching stops: reminders, unlimited Practice Mode, progress figures and the weekly summary. You keep one free Practice drill a day. Nothing you set up is deleted, and Keysi keeps counting locally, so upgrading later picks up where you left off.</p>
       </div>
     </details>
 
@@ -530,6 +661,7 @@
         <h3>Compared with</h3>
         <ul>
           <li><a href="keyclu-vs-keysi.html">KeyClu</a></li>
+          <li><a href="keyminder-vs-keysi.html">KeyMinder</a></li>
           <li><a href="keycue-alternative.html">KeyCue</a></li>
           <li><a href="cheatsheet-alternative.html">CheatSheet</a></li>
         </ul>
@@ -538,6 +670,7 @@
         <h3>Legal</h3>
         <ul>
           <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="security.html">Security</a></li>
           <li><a href="terms.html">Terms &amp; refunds</a></li>
           <li><a href="press.html">Press</a></li>
         </ul>

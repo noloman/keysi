@@ -9,7 +9,15 @@
     "pt-BR": "Notion",
     "ja": "Notion",
     "zh-Hans": "Notion",
-    "ko": "Notion"
+    "ko": "Notion",
+    "nl": "Notion",
+    "sv": "Notion",
+    "da": "Notion",
+    "nb": "Notion",
+    "fi": "Notion",
+    "pl": "Notion",
+    "hi": "Notion",
+    "zh-Hant": "Notion"
   },
   "match": {
     "bundleIDs": [
@@ -30,7 +38,15 @@
         "pt-BR": "Navegação",
         "ja": "移動と検索",
         "zh-Hans": "导航",
-        "ko": "탐색"
+        "ko": "탐색",
+        "nl": "Je weg vinden",
+        "sv": "Navigera",
+        "da": "Navigation",
+        "nb": "Navigering",
+        "fi": "Navigointi",
+        "pl": "Nawigacja",
+        "hi": "नेविगेशन",
+        "zh-Hant": "導覽"
       },
       "items": [
         {
@@ -43,7 +59,15 @@
             "pt-BR": "Buscar ou ir para uma página recente",
             "ja": "検索、または最近のページへ移動",
             "zh-Hans": "搜索或跳到最近的页面",
-            "ko": "검색하거나 최근 페이지로 이동"
+            "ko": "검색하거나 최근 페이지로 이동",
+            "nl": "Zoeken of naar een recente pagina springen",
+            "sv": "Sök eller hoppa till en nyligen öppnad sida",
+            "da": "Søg, eller spring til en nylig side",
+            "nb": "Søk, eller hopp til en nylig side",
+            "fi": "Hae tai siirry viimeaikaiseen sivuun",
+            "pl": "Szukaj lub przejdź do ostatniej strony",
+            "hi": "खोजें, या हाल के पेज पर जाएँ",
+            "zh-Hant": "搜尋或跳至最近的頁面"
           },
           "keys": "cmd+p"
         },
@@ -57,7 +81,15 @@
             "pt-BR": "Buscar na página",
             "ja": "ページ内を検索",
             "zh-Hans": "在页面中查找",
-            "ko": "페이지에서 찾기"
+            "ko": "페이지에서 찾기",
+            "nl": "Zoeken op de pagina",
+            "sv": "Sök på sidan",
+            "da": "Søg på siden",
+            "nb": "Søk på siden",
+            "fi": "Etsi sivulta",
+            "pl": "Znajdź na stronie",
+            "hi": "पेज में खोजें",
+            "zh-Hant": "在頁面中尋找"
           },
           "keys": "cmd+f"
         },
@@ -71,7 +103,15 @@
             "pt-BR": "Nova página",
             "ja": "新規ページ",
             "zh-Hans": "新建页面",
-            "ko": "새로운 페이지"
+            "ko": "새로운 페이지",
+            "nl": "Nieuwe pagina",
+            "sv": "Ny sida",
+            "da": "Ny side",
+            "nb": "Ny side",
+            "fi": "Uusi sivu",
+            "pl": "Nowa strona",
+            "hi": "नया पेज",
+            "zh-Hant": "新頁面"
           },
           "keys": "cmd+n"
         },
@@ -85,7 +125,15 @@
             "pt-BR": "Subir um nível",
             "ja": "1階層上へ移動",
             "zh-Hans": "返回上一级",
-            "ko": "한 단계 위로 이동"
+            "ko": "한 단계 위로 이동",
+            "nl": "Eén niveau omhoog",
+            "sv": "Gå upp en nivå",
+            "da": "Gå ét niveau op",
+            "nb": "Gå ett nivå opp",
+            "fi": "Siirry yksi taso ylös",
+            "pl": "Przejdź poziom wyżej",
+            "hi": "एक स्तर ऊपर जाएँ",
+            "zh-Hant": "回到上一層"
           },
           "keys": "shift+cmd+u"
         },
@@ -99,7 +147,15 @@
             "pt-BR": "Alternar entre modo escuro e claro",
             "ja": "ダークモードとライトモードを切り替え",
             "zh-Hans": "在深色与浅色模式之间切换",
-            "ko": "다크 모드와 라이트 모드 전환"
+            "ko": "다크 모드와 라이트 모드 전환",
+            "nl": "Wisselen tussen donkere en lichte modus",
+            "sv": "Växla mellan mörkt och ljust läge",
+            "da": "Skift mellem mørk og lys tilstand",
+            "nb": "Bytt mellom mørk og lys modus",
+            "fi": "Vaihda tumman ja vaalean tilan välillä",
+            "pl": "Przełącz tryb ciemny i jasny",
+            "hi": "डार्क और लाइट मोड बदलें",
+            "zh-Hant": "切換深色與淺色模式"
           },
           "keys": "shift+cmd+l"
         },
@@ -113,7 +169,15 @@
             "pt-BR": "Página anterior do banco de dados, na prévia",
             "ja": "データベースの前のページ（プレビュー表示）",
             "zh-Hans": "数据库上一页（预览视图）",
-            "ko": "데이터베이스 이전 페이지(미리보기)"
+            "ko": "데이터베이스 이전 페이지(미리보기)",
+            "nl": "Vorige databasepagina in de voorvertoning",
+            "sv": "Föregående databassida i förhandsvisningen",
+            "da": "Forrige databaseside i forhåndsvisningen",
+            "nb": "Forrige databaseside i forhåndsvisningen",
+            "fi": "Edellinen tietokantasivu esikatselussa",
+            "pl": "Poprzednia strona bazy danych w podglądzie",
+            "hi": "पीक व्यू में पिछला डेटाबेस पेज",
+            "zh-Hant": "預覽檢視中的上一個資料庫頁面"
           },
           "keys": "ctrl+shift+k"
         },
@@ -127,7 +191,15 @@
             "pt-BR": "Próxima página do banco de dados, na prévia",
             "ja": "データベースの次のページ（プレビュー表示）",
             "zh-Hans": "数据库下一页（预览视图）",
-            "ko": "데이터베이스 다음 페이지(미리보기)"
+            "ko": "데이터베이스 다음 페이지(미리보기)",
+            "nl": "Volgende databasepagina in de voorvertoning",
+            "sv": "Nästa databassida i förhandsvisningen",
+            "da": "Næste databaseside i forhåndsvisningen",
+            "nb": "Neste databaseside i forhåndsvisningen",
+            "fi": "Seuraava tietokantasivu esikatselussa",
+            "pl": "Następna strona bazy danych w podglądzie",
+            "hi": "पीक व्यू में अगला डेटाबेस पेज",
+            "zh-Hant": "預覽檢視中的下一個資料庫頁面"
           },
           "keys": "ctrl+shift+j"
         }
@@ -143,7 +215,15 @@
         "pt-BR": "Formatação do texto selecionado",
         "ja": "選択したテキストの書式",
         "zh-Hans": "所选文本的格式",
-        "ko": "선택한 텍스트 서식"
+        "ko": "선택한 텍스트 서식",
+        "nl": "Geselecteerde tekst opmaken",
+        "sv": "Formatera markerad text",
+        "da": "Formatér markeret tekst",
+        "nb": "Formater merket tekst",
+        "fi": "Valitun tekstin muotoilu",
+        "pl": "Formatowanie zaznaczonego tekstu",
+        "hi": "चयनित टेक्स्ट की फ़ॉर्मैटिंग",
+        "zh-Hant": "格式化選取的文字"
       },
       "items": [
         {
@@ -156,7 +236,15 @@
             "pt-BR": "Negrito",
             "ja": "太字",
             "zh-Hans": "粗体",
-            "ko": "굵게"
+            "ko": "굵게",
+            "nl": "Vet",
+            "sv": "Fet",
+            "da": "Fed",
+            "nb": "Fet",
+            "fi": "Lihavointi",
+            "pl": "Pogrubienie",
+            "hi": "बोल्ड",
+            "zh-Hant": "粗體"
           },
           "keys": "cmd+b"
         },
@@ -170,7 +258,15 @@
             "pt-BR": "Itálico",
             "ja": "斜体",
             "zh-Hans": "斜体",
-            "ko": "기울임꼴"
+            "ko": "기울임꼴",
+            "nl": "Cursief",
+            "sv": "Kursiv",
+            "da": "Kursiv",
+            "nb": "Kursiv",
+            "fi": "Kursivointi",
+            "pl": "Kursywa",
+            "hi": "इटैलिक",
+            "zh-Hant": "斜體"
           },
           "keys": "cmd+i"
         },
@@ -184,7 +280,15 @@
             "pt-BR": "Sublinhado",
             "ja": "下線",
             "zh-Hans": "下划线",
-            "ko": "밑줄"
+            "ko": "밑줄",
+            "nl": "Onderstrepen",
+            "sv": "Understrykning",
+            "da": "Understregning",
+            "nb": "Understreking",
+            "fi": "Alleviivaus",
+            "pl": "Podkreślenie",
+            "hi": "अंडरलाइन",
+            "zh-Hant": "底線"
           },
           "keys": "cmd+u"
         },
@@ -198,7 +302,15 @@
             "pt-BR": "Tachado",
             "ja": "取り消し線",
             "zh-Hans": "删除线",
-            "ko": "취소선"
+            "ko": "취소선",
+            "nl": "Doorhalen",
+            "sv": "Genomstruken",
+            "da": "Gennemstreget",
+            "nb": "Gjennomstreking",
+            "fi": "Yliviivaus",
+            "pl": "Przekreślenie",
+            "hi": "स्ट्राइकथ्रू",
+            "zh-Hant": "刪除線"
           },
           "keys": "shift+cmd+s"
         },
@@ -212,7 +324,15 @@
             "pt-BR": "Código em linha",
             "ja": "インラインコード",
             "zh-Hans": "行内代码",
-            "ko": "인라인 코드"
+            "ko": "인라인 코드",
+            "nl": "Inline code",
+            "sv": "Inbäddad kod",
+            "da": "Inline kode",
+            "nb": "Innebygd kode",
+            "fi": "Rivinsisäinen koodi",
+            "pl": "Kod w wierszu",
+            "hi": "इनलाइन कोड",
+            "zh-Hant": "行內程式碼"
           },
           "keys": "cmd+e"
         },
@@ -226,7 +346,15 @@
             "pt-BR": "Adicionar um link",
             "ja": "リンクを追加",
             "zh-Hans": "添加链接",
-            "ko": "링크 추가"
+            "ko": "링크 추가",
+            "nl": "Een link toevoegen",
+            "sv": "Lägg till en länk",
+            "da": "Tilføj et link",
+            "nb": "Legg til en lenke",
+            "fi": "Lisää linkki",
+            "pl": "Dodaj link",
+            "hi": "लिंक जोड़ें",
+            "zh-Hant": "加入連結"
           },
           "keys": "cmd+k"
         },
@@ -240,7 +368,15 @@
             "pt-BR": "Adicionar um comentário",
             "ja": "コメントを追加",
             "zh-Hans": "添加评论",
-            "ko": "댓글 추가"
+            "ko": "댓글 추가",
+            "nl": "Een opmerking toevoegen",
+            "sv": "Lägg till en kommentar",
+            "da": "Tilføj en kommentar",
+            "nb": "Legg til en kommentar",
+            "fi": "Lisää kommentti",
+            "pl": "Dodaj komentarz",
+            "hi": "टिप्पणी जोड़ें",
+            "zh-Hant": "加入留言"
           },
           "keys": "shift+cmd+m"
         },
@@ -254,7 +390,15 @@
             "pt-BR": "Aplicar a última cor usada",
             "ja": "最後に使った色を適用",
             "zh-Hans": "应用上次使用的颜色",
-            "ko": "마지막으로 사용한 색상 적용"
+            "ko": "마지막으로 사용한 색상 적용",
+            "nl": "De laatst gebruikte kleur toepassen",
+            "sv": "Använd senast använda färg",
+            "da": "Anvend den senest brugte farve",
+            "nb": "Bruk den sist brukte fargen",
+            "fi": "Käytä viimeksi käytettyä väriä",
+            "pl": "Zastosuj ostatnio użyty kolor",
+            "hi": "आख़िरी बार इस्तेमाल किया गया रंग लगाएँ",
+            "zh-Hant": "套用上次使用的顏色"
           },
           "keys": "shift+cmd+h"
         }
@@ -270,7 +414,15 @@
         "pt-BR": "Transformar em bloco",
         "ja": "ブロックに変換",
         "zh-Hans": "转换为块",
-        "ko": "블록으로 변환"
+        "ko": "블록으로 변환",
+        "nl": "Omzetten in een blok",
+        "sv": "Gör om till ett block",
+        "da": "Omdan til en blok",
+        "nb": "Gjør om til en blokk",
+        "fi": "Muunna lohkoksi",
+        "pl": "Zamień na blok",
+        "hi": "ब्लॉक में बदलें",
+        "zh-Hant": "轉換為區塊"
       },
       "items": [
         {
@@ -283,7 +435,15 @@
             "pt-BR": "Texto",
             "ja": "テキスト",
             "zh-Hans": "文本",
-            "ko": "텍스트"
+            "ko": "텍스트",
+            "nl": "Tekst",
+            "sv": "Text",
+            "da": "Tekst",
+            "nb": "Tekst",
+            "fi": "Teksti",
+            "pl": "Tekst",
+            "hi": "टेक्स्ट",
+            "zh-Hant": "文字"
           },
           "keys": "opt+cmd+0"
         },
@@ -297,7 +457,15 @@
             "pt-BR": "Título 1",
             "ja": "見出し1",
             "zh-Hans": "标题 1",
-            "ko": "제목 1"
+            "ko": "제목 1",
+            "nl": "Kop 1",
+            "sv": "Rubrik 1",
+            "da": "Overskrift 1",
+            "nb": "Overskrift 1",
+            "fi": "Otsikko 1",
+            "pl": "Nagłówek 1",
+            "hi": "हेडिंग 1",
+            "zh-Hant": "標題 1"
           },
           "keys": "opt+cmd+1"
         },
@@ -311,7 +479,15 @@
             "pt-BR": "Título 2",
             "ja": "見出し2",
             "zh-Hans": "标题 2",
-            "ko": "제목 2"
+            "ko": "제목 2",
+            "nl": "Kop 2",
+            "sv": "Rubrik 2",
+            "da": "Overskrift 2",
+            "nb": "Overskrift 2",
+            "fi": "Otsikko 2",
+            "pl": "Nagłówek 2",
+            "hi": "हेडिंग 2",
+            "zh-Hant": "標題 2"
           },
           "keys": "opt+cmd+2"
         },
@@ -325,7 +501,15 @@
             "pt-BR": "Título 3",
             "ja": "見出し3",
             "zh-Hans": "标题 3",
-            "ko": "제목 3"
+            "ko": "제목 3",
+            "nl": "Kop 3",
+            "sv": "Rubrik 3",
+            "da": "Overskrift 3",
+            "nb": "Overskrift 3",
+            "fi": "Otsikko 3",
+            "pl": "Nagłówek 3",
+            "hi": "हेडिंग 3",
+            "zh-Hant": "標題 3"
           },
           "keys": "opt+cmd+3"
         },
@@ -339,7 +523,15 @@
             "pt-BR": "Caixa de tarefa",
             "ja": "ToDoチェックボックス",
             "zh-Hans": "待办复选框",
-            "ko": "할 일 체크박스"
+            "ko": "할 일 체크박스",
+            "nl": "To-do-selectievakje",
+            "sv": "Att göra-kryssruta",
+            "da": "Opgave-afkrydsningsfelt",
+            "nb": "Gjøremål-avkrysningsboks",
+            "fi": "Tehtävän valintaruutu",
+            "pl": "Pole wyboru zadania",
+            "hi": "टू-डू चेकबॉक्स",
+            "zh-Hant": "待辦事項核取方塊"
           },
           "keys": "opt+cmd+4"
         },
@@ -353,7 +545,15 @@
             "pt-BR": "Lista com marcadores",
             "ja": "箇条書きリスト",
             "zh-Hans": "项目符号列表",
-            "ko": "글머리 기호 목록"
+            "ko": "글머리 기호 목록",
+            "nl": "Lijst met opsommingstekens",
+            "sv": "Punktlista",
+            "da": "Punktliste",
+            "nb": "Punktliste",
+            "fi": "Luettelo luettelomerkein",
+            "pl": "Lista punktowana",
+            "hi": "बुलेट वाली सूची",
+            "zh-Hant": "項目符號清單"
           },
           "keys": "opt+cmd+5"
         },
@@ -367,7 +567,15 @@
             "pt-BR": "Lista numerada",
             "ja": "番号付きリスト",
             "zh-Hans": "编号列表",
-            "ko": "번호 매기기 목록"
+            "ko": "번호 매기기 목록",
+            "nl": "Genummerde lijst",
+            "sv": "Numrerad lista",
+            "da": "Nummereret liste",
+            "nb": "Nummerert liste",
+            "fi": "Numeroitu luettelo",
+            "pl": "Lista numerowana",
+            "hi": "क्रमांकित सूची",
+            "zh-Hant": "編號清單"
           },
           "keys": "opt+cmd+6"
         },
@@ -381,7 +589,15 @@
             "pt-BR": "Lista suspensa",
             "ja": "トグルリスト",
             "zh-Hans": "折叠列表",
-            "ko": "토글 목록"
+            "ko": "토글 목록",
+            "nl": "Uitklaplijst",
+            "sv": "Utfällbar lista",
+            "da": "Sammenklappelig liste",
+            "nb": "Sammenleggbar liste",
+            "fi": "Laajennettava luettelo",
+            "pl": "Lista rozwijana",
+            "hi": "टॉगल सूची",
+            "zh-Hant": "摺疊清單"
           },
           "keys": "opt+cmd+7"
         },
@@ -395,7 +611,15 @@
             "pt-BR": "Bloco de código",
             "ja": "コードブロック",
             "zh-Hans": "代码块",
-            "ko": "코드 블록"
+            "ko": "코드 블록",
+            "nl": "Codeblok",
+            "sv": "Kodblock",
+            "da": "Kodeblok",
+            "nb": "Kodeblokk",
+            "fi": "Koodilohko",
+            "pl": "Blok kodu",
+            "hi": "कोड ब्लॉक",
+            "zh-Hant": "程式碼區塊"
           },
           "keys": "opt+cmd+8"
         },
@@ -409,7 +633,15 @@
             "pt-BR": "Página",
             "ja": "ページ",
             "zh-Hans": "页面",
-            "ko": "페이지"
+            "ko": "페이지",
+            "nl": "Pagina",
+            "sv": "Sida",
+            "da": "Side",
+            "nb": "Side",
+            "fi": "Sivu",
+            "pl": "Strona",
+            "hi": "पेज",
+            "zh-Hant": "頁面"
           },
           "keys": "opt+cmd+9"
         }
@@ -425,7 +657,15 @@
         "pt-BR": "Blocos",
         "ja": "ブロック",
         "zh-Hans": "块",
-        "ko": "블록"
+        "ko": "블록",
+        "nl": "Blokken",
+        "sv": "Block",
+        "da": "Blokke",
+        "nb": "Blokker",
+        "fi": "Lohkot",
+        "pl": "Bloki",
+        "hi": "ब्लॉक",
+        "zh-Hant": "區塊"
       },
       "items": [
         {
@@ -438,7 +678,15 @@
             "pt-BR": "Selecionar o bloco atual",
             "ja": "現在のブロックを選択",
             "zh-Hans": "选择当前块",
-            "ko": "현재 블록 선택"
+            "ko": "현재 블록 선택",
+            "nl": "Het huidige blok selecteren",
+            "sv": "Markera det aktuella blocket",
+            "da": "Markér den aktuelle blok",
+            "nb": "Marker gjeldende blokk",
+            "fi": "Valitse nykyinen lohko",
+            "pl": "Zaznacz bieżący blok",
+            "hi": "मौजूदा ब्लॉक चुनें",
+            "zh-Hant": "選取目前的區塊"
           },
           "keys": "escape"
         },
@@ -452,7 +700,15 @@
             "pt-BR": "Estender a seleção para cima ou para baixo",
             "ja": "選択範囲を上下に広げる",
             "zh-Hans": "向上或向下扩展所选内容",
-            "ko": "선택 영역을 위아래로 확장"
+            "ko": "선택 영역을 위아래로 확장",
+            "nl": "De selectie omhoog of omlaag uitbreiden",
+            "sv": "Utöka markeringen uppåt eller nedåt",
+            "da": "Udvid markeringen op eller ned",
+            "nb": "Utvid markeringen opp eller ned",
+            "fi": "Laajenna valintaa ylös tai alas",
+            "pl": "Rozszerz zaznaczenie w górę lub w dół",
+            "hi": "चयन को ऊपर या नीचे बढ़ाएँ",
+            "zh-Hant": "向上或向下擴大選取範圍"
           },
           "keys": "⇧↑ / ⇧↓",
           "raw": true
@@ -467,7 +723,15 @@
             "pt-BR": "Duplicar os blocos selecionados",
             "ja": "選択したブロックを複製",
             "zh-Hans": "复制所选块",
-            "ko": "선택한 블록 복제"
+            "ko": "선택한 블록 복제",
+            "nl": "De geselecteerde blokken dupliceren",
+            "sv": "Duplicera de markerade blocken",
+            "da": "Duplikér de markerede blokke",
+            "nb": "Dupliser de merkede blokkene",
+            "fi": "Monista valitut lohkot",
+            "pl": "Duplikuj zaznaczone bloki",
+            "hi": "चुने हुए ब्लॉक डुप्लिकेट करें",
+            "zh-Hant": "製作選取區塊的副本"
           },
           "keys": "cmd+d"
         },
@@ -481,7 +745,15 @@
             "pt-BR": "Alterar ou mover os blocos selecionados",
             "ja": "選択したブロックを変更または移動",
             "zh-Hans": "更改或移动所选块",
-            "ko": "선택한 블록 변경 또는 이동"
+            "ko": "선택한 블록 변경 또는 이동",
+            "nl": "De geselecteerde blokken wijzigen of verplaatsen",
+            "sv": "Ändra eller flytta de markerade blocken",
+            "da": "Ændr eller flyt de markerede blokke",
+            "nb": "Endre eller flytt de merkede blokkene",
+            "fi": "Muuta tai siirrä valittuja lohkoja",
+            "pl": "Zmień lub przenieś zaznaczone bloki",
+            "hi": "चुने हुए ब्लॉक बदलें या ले जाएँ",
+            "zh-Hant": "變更或移動選取的區塊"
           },
           "keys": "cmd+/"
         },
@@ -495,7 +767,15 @@
             "pt-BR": "Mover os blocos selecionados",
             "ja": "選択したブロックを移動",
             "zh-Hans": "移动所选块",
-            "ko": "선택한 블록 이동"
+            "ko": "선택한 블록 이동",
+            "nl": "De geselecteerde blokken verplaatsen",
+            "sv": "Flytta de markerade blocken",
+            "da": "Flyt de markerede blokke",
+            "nb": "Flytt de merkede blokkene",
+            "fi": "Siirrä valitut lohkot",
+            "pl": "Przenieś zaznaczone bloki",
+            "hi": "चुने हुए ब्लॉक ले जाएँ",
+            "zh-Hant": "移動選取的區塊"
           },
           "keys": "⇧⌘ ← → ↑ ↓",
           "raw": true
@@ -510,7 +790,15 @@
             "pt-BR": "Abrir, marcar ou expandir o bloco atual",
             "ja": "現在のブロックを開く・チェック・展開",
             "zh-Hans": "打开、勾选或展开当前块",
-            "ko": "현재 블록 열기, 체크 또는 펼치기"
+            "ko": "현재 블록 열기, 체크 또는 펼치기",
+            "nl": "Het huidige blok openen, aanvinken of uitvouwen",
+            "sv": "Öppna, bocka av eller expandera det aktuella blocket",
+            "da": "Åbn, afkryds eller udvid den aktuelle blok",
+            "nb": "Åpne, kryss av eller utvid gjeldende blokk",
+            "fi": "Avaa, merkitse tai laajenna nykyinen lohko",
+            "pl": "Otwórz, zaznacz lub rozwiń bieżący blok",
+            "hi": "मौजूदा ब्लॉक खोलें, चेक करें या फैलाएँ",
+            "zh-Hant": "開啟、勾選或展開目前的區塊"
           },
           "keys": "cmd+return"
         },
@@ -524,7 +812,15 @@
             "pt-BR": "Expandir ou recolher todas as listas suspensas",
             "ja": "すべてのトグルを展開または折りたたむ",
             "zh-Hans": "展开或折叠所有折叠列表",
-            "ko": "모든 토글 펼치기 또는 접기"
+            "ko": "모든 토글 펼치기 또는 접기",
+            "nl": "Alle uitklapblokken uit- of inklappen",
+            "sv": "Expandera eller fäll ihop alla utfällbara listor",
+            "da": "Udvid eller sammenklap alle sammenklappelige lister",
+            "nb": "Utvid eller skjul alle sammenleggbare lister",
+            "fi": "Laajenna tai kutista kaikki laajennettavat luettelot",
+            "pl": "Rozwiń lub zwiń wszystkie listy rozwijane",
+            "hi": "सभी टॉगल फैलाएँ या समेटें",
+            "zh-Hant": "展開或收合所有摺疊項目"
           },
           "keys": "opt+cmd+t"
         },
@@ -538,7 +834,15 @@
             "pt-BR": "Aumentar recuo",
             "ja": "インデント",
             "zh-Hans": "缩进",
-            "ko": "들여쓰기"
+            "ko": "들여쓰기",
+            "nl": "Inspringen",
+            "sv": "Öka indrag",
+            "da": "Indryk",
+            "nb": "Rykk inn",
+            "fi": "Sisennä",
+            "pl": "Zwiększ wcięcie",
+            "hi": "इंडेंट करें",
+            "zh-Hant": "增加縮排"
           },
           "keys": "tab"
         },
@@ -552,7 +856,15 @@
             "pt-BR": "Diminuir recuo",
             "ja": "インデント解除",
             "zh-Hans": "取消缩进",
-            "ko": "내어쓰기"
+            "ko": "내어쓰기",
+            "nl": "Minder inspringen",
+            "sv": "Minska indrag",
+            "da": "Ryk ud",
+            "nb": "Rykk ut",
+            "fi": "Poista sisennys",
+            "pl": "Zmniejsz wcięcie",
+            "hi": "इंडेंट घटाएँ",
+            "zh-Hant": "減少縮排"
           },
           "keys": "shift+tab"
         },
@@ -566,7 +878,15 @@
             "pt-BR": "Quebra de linha dentro de um bloco",
             "ja": "ブロック内で改行",
             "zh-Hans": "在块内换行",
-            "ko": "블록 안에서 줄 바꿈"
+            "ko": "블록 안에서 줄 바꿈",
+            "nl": "Regeleinde binnen een blok",
+            "sv": "Radbrytning i ett block",
+            "da": "Linjeskift i en blok",
+            "nb": "Linjeskift i en blokk",
+            "fi": "Rivinvaihto lohkon sisällä",
+            "pl": "Podział wiersza w bloku",
+            "hi": "ब्लॉक के अंदर लाइन ब्रेक",
+            "zh-Hant": "在區塊內換行"
           },
           "keys": "shift+return"
         }
@@ -582,7 +902,15 @@
         "pt-BR": "Atalhos de digitação",
         "ja": "入力ショートカット",
         "zh-Hans": "输入快捷方式",
-        "ko": "입력 단축키"
+        "ko": "입력 단축키",
+        "nl": "Sneltoetsen tijdens het typen",
+        "sv": "Kortkommandon när du skriver",
+        "da": "Genvejstaster under skrivning",
+        "nb": "Hurtigtaster mens du skriver",
+        "fi": "Pikanäppäimet kirjoittaessa",
+        "pl": "Skróty podczas pisania",
+        "hi": "टाइप करते समय शॉर्टकट",
+        "zh-Hant": "輸入時的快速鍵"
       },
       "items": [
         {
@@ -595,7 +923,15 @@
             "pt-BR": "Inserir qualquer bloco",
             "ja": "任意のブロックを挿入",
             "zh-Hans": "插入任意块",
-            "ko": "블록 삽입"
+            "ko": "블록 삽입",
+            "nl": "Een willekeurig blok invoegen",
+            "sv": "Infoga valfritt block",
+            "da": "Indsæt en vilkårlig blok",
+            "nb": "Sett inn en hvilken som helst blokk",
+            "fi": "Lisää mikä tahansa lohko",
+            "pl": "Wstaw dowolny blok",
+            "hi": "कोई भी ब्लॉक डालें",
+            "zh-Hant": "插入任何區塊"
           },
           "keys": "/",
           "raw": true
@@ -610,7 +946,15 @@
             "pt-BR": "Mencionar uma pessoa, página ou data",
             "ja": "人・ページ・日付をメンション",
             "zh-Hans": "提及人员、页面或日期",
-            "ko": "사람, 페이지 또는 날짜 멘션"
+            "ko": "사람, 페이지 또는 날짜 멘션",
+            "nl": "Een persoon, pagina of datum vermelden",
+            "sv": "Nämn en person, sida eller datum",
+            "da": "Nævn en person, side eller dato",
+            "nb": "Nevn en person, side eller dato",
+            "fi": "Mainitse henkilö, sivu tai päivämäärä",
+            "pl": "Wspomnij osobę, stronę lub datę",
+            "hi": "किसी व्यक्ति, पेज या तारीख़ का उल्लेख करें",
+            "zh-Hant": "提及人員、頁面或日期"
           },
           "keys": "@",
           "raw": true
@@ -625,7 +969,15 @@
             "pt-BR": "Criar link para uma página",
             "ja": "ページへのリンク",
             "zh-Hans": "链接到页面",
-            "ko": "페이지에 링크"
+            "ko": "페이지에 링크",
+            "nl": "Naar een pagina linken",
+            "sv": "Länka till en sida",
+            "da": "Link til en side",
+            "nb": "Lenke til en side",
+            "fi": "Linkitä sivuun",
+            "pl": "Utwórz link do strony",
+            "hi": "किसी पेज से लिंक करें",
+            "zh-Hant": "連結到頁面"
           },
           "keys": "[[",
           "raw": true
@@ -640,7 +992,15 @@
             "pt-BR": "Criar uma subpágina",
             "ja": "サブページを作成",
             "zh-Hans": "创建子页面",
-            "ko": "하위 페이지 만들기"
+            "ko": "하위 페이지 만들기",
+            "nl": "Een subpagina maken",
+            "sv": "Skapa en undersida",
+            "da": "Opret en underside",
+            "nb": "Opprett en underside",
+            "fi": "Luo alasivu",
+            "pl": "Utwórz podstronę",
+            "hi": "सब-पेज बनाएँ",
+            "zh-Hant": "建立子頁面"
           },
           "keys": "+",
           "raw": true
@@ -655,7 +1015,15 @@
             "pt-BR": "Título 1, 2 ou 3",
             "ja": "見出し1・2・3",
             "zh-Hans": "标题 1、2 或 3",
-            "ko": "제목 1, 2 또는 3"
+            "ko": "제목 1, 2 또는 3",
+            "nl": "Kop 1, 2 of 3",
+            "sv": "Rubrik 1, 2 eller 3",
+            "da": "Overskrift 1, 2 eller 3",
+            "nb": "Overskrift 1, 2 eller 3",
+            "fi": "Otsikko 1, 2 tai 3",
+            "pl": "Nagłówek 1, 2 lub 3",
+            "hi": "हेडिंग 1, 2 या 3",
+            "zh-Hant": "標題 1、2 或 3"
           },
           "keys": "# / ## / ### + space",
           "raw": true
@@ -670,7 +1038,15 @@
             "pt-BR": "Lista com marcadores",
             "ja": "箇条書きリスト",
             "zh-Hans": "项目符号列表",
-            "ko": "글머리 기호 목록"
+            "ko": "글머리 기호 목록",
+            "nl": "Lijst met opsommingstekens",
+            "sv": "Punktlista",
+            "da": "Punktliste",
+            "nb": "Punktliste",
+            "fi": "Luettelo luettelomerkein",
+            "pl": "Lista punktowana",
+            "hi": "बुलेट वाली सूची",
+            "zh-Hant": "項目符號清單"
           },
           "keys": "- + space",
           "raw": true
@@ -685,7 +1061,15 @@
             "pt-BR": "Caixa de tarefa",
             "ja": "ToDoチェックボックス",
             "zh-Hans": "待办复选框",
-            "ko": "할 일 체크박스"
+            "ko": "할 일 체크박스",
+            "nl": "To-do-selectievakje",
+            "sv": "Att göra-kryssruta",
+            "da": "Opgave-afkrydsningsfelt",
+            "nb": "Gjøremål-avkrysningsboks",
+            "fi": "Tehtävän valintaruutu",
+            "pl": "Pole wyboru zadania",
+            "hi": "टू-डू चेकबॉक्स",
+            "zh-Hant": "待辦事項核取方塊"
           },
           "keys": "[] + space",
           "raw": true
@@ -700,7 +1084,15 @@
             "pt-BR": "Lista suspensa",
             "ja": "トグルリスト",
             "zh-Hans": "折叠列表",
-            "ko": "토글 목록"
+            "ko": "토글 목록",
+            "nl": "Uitklaplijst",
+            "sv": "Utfällbar lista",
+            "da": "Sammenklappelig liste",
+            "nb": "Sammenleggbar liste",
+            "fi": "Laajennettava luettelo",
+            "pl": "Lista rozwijana",
+            "hi": "टॉगल सूची",
+            "zh-Hant": "摺疊清單"
           },
           "keys": "> + space",
           "raw": true
@@ -715,7 +1107,15 @@
             "pt-BR": "Citação",
             "ja": "引用",
             "zh-Hans": "引用",
-            "ko": "인용"
+            "ko": "인용",
+            "nl": "Citaat",
+            "sv": "Citat",
+            "da": "Citat",
+            "nb": "Sitat",
+            "fi": "Lainaus",
+            "pl": "Cytat",
+            "hi": "उद्धरण",
+            "zh-Hant": "引言"
           },
           "keys": "\" + space",
           "raw": true
@@ -730,7 +1130,15 @@
             "pt-BR": "Divisor",
             "ja": "区切り線",
             "zh-Hans": "分隔线",
-            "ko": "구분선"
+            "ko": "구분선",
+            "nl": "Scheidingslijn",
+            "sv": "Avdelare",
+            "da": "Skillelinje",
+            "nb": "Skillelinje",
+            "fi": "Erotin",
+            "pl": "Separator",
+            "hi": "विभाजक",
+            "zh-Hant": "分隔線"
           },
           "keys": "---",
           "raw": true
@@ -745,7 +1153,15 @@
             "pt-BR": "Inserir um emoji pelo nome",
             "ja": "名前で絵文字を挿入",
             "zh-Hans": "按名称插入表情符号",
-            "ko": "이름으로 이모티콘 삽입"
+            "ko": "이름으로 이모티콘 삽입",
+            "nl": "Een emoji invoegen op naam",
+            "sv": "Infoga en emoji med namn",
+            "da": "Indsæt en emoji ved navn",
+            "nb": "Sett inn en emoji ved navn",
+            "fi": "Lisää emoji nimellä",
+            "pl": "Wstaw emoji według nazwy",
+            "hi": "नाम से इमोजी डालें",
+            "zh-Hant": "依名稱插入表情符號"
           },
           "keys": ":",
           "raw": true

@@ -81,7 +81,13 @@
   <p>
     Keysi only ever simulates a click on your explicit action: clicking
     a shortcut row to run it. It never types on your behalf, never moves
-    your mouse, and never reads what you type into other apps.
+    your mouse, and never records what you type into other apps. It does
+    see that keys are pressed, which is how holding &#8984; works.
+  </p>
+  <p>
+    Keysi is closed source, so the <a href="security.html">security page</a>
+    lists every Accessibility call it makes, every network request and every
+    file it reads, with commands to check each one on your own Mac.
   </p>
 
   <h2>The two network calls Keysi makes automatically</h2>
@@ -332,8 +338,23 @@
   <p>
     Any custom JSON cheat sheets you add live in
     <code>~/Library/Application Support/Keysi/Sheets/</code> on your own
-    Mac. Keysi never reads, uploads, or shares the contents of that
-    folder with anyone.
+    Mac. Keysi never uploads or shares the contents of that folder with
+    anyone.
+  </p>
+
+  <h2>Syncing between your Macs</h2>
+  <p>
+    Settings → Sync is off until you turn it on. When it is on, Keysi
+    copies your custom cheat sheets, favorites, hidden shortcuts and your
+    appearance and trigger settings into a folder that you choose &mdash;
+    your iCloud Drive, Dropbox, or any other folder &mdash; and reads what
+    your other Macs put there. Whatever service owns that folder carries
+    the files between your Macs, under its own terms; Keysi itself makes no
+    network connection for this and has no server that sees them. Your
+    license, trial state, analytics choice, Coach statistics and window
+    positions are never copied. Turn it off, or delete the files, and
+    Keysi stops. &ldquo;Export Settings&rdquo; and &ldquo;Import Settings&rdquo;
+    do the same with a single file you save and open yourself.
   </p>
 
   <h2>Questions</h2>
@@ -350,6 +371,7 @@
       <div>© 2026 Manuel Lorenzo. Not affiliated with Media Atelier.</div>
       <ul class="footer-links">
         <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="security.html">Security</a></li>
         <li><a href="terms.html">Terms &amp; refunds</a></li>
         <li><a href="changelog.html">Changelog</a></li>
         <li><a href="roadmap.html">Roadmap</a></li>
