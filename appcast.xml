@@ -3,6 +3,60 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.31</title>
+            <pubDate>Sun, 11 Oct 2026 22:06:14 +0200</pubDate>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>1.0.31</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>One security fix, 11 new features, two changes and one fix.</p>
+<ul>
+  <li>Keysi now ignores a keysi://license link when a license is already active, refuses keymap and sync files that are oversized or are links to somewhere else, and rejects out-of-range synced settings.</li>
+  <li>Two new built-in cheat sheets, <strong>Discord</strong> and <strong>Linear</strong>, appear when those apps are in front: 38 and 48 default Mac shortcuts, free like the other twelve.</li>
+  <li>Two new built-in cheat sheets, <strong>Helix</strong> and <strong>Zellij</strong>, appear when <code>hx</code> or <code>zellij</code> is running in your terminal: 50 and 44 default shortcuts, free like the other twelve.</li>
+  <li><strong>Settings ▸ Sheets ▸ Import Sheet…</strong> adds a sheet from a JSON file after showing what is in it, and keysi.io now has community sheets (lazygit, k9s, less, shell line editing) to import; nothing is installed from a link.</li>
+  <li>Keysi can now open on a double-tap of ⌘, ⌥ or ⌃, as an alternative to holding a key; it is off until you turn it on in Settings ▸ Triggers, and a quick ⌘C ⌘V never counts as a double-tap.</li>
+  <li>Keysi now reads your own Final Cut Pro command set and shows the shortcuts you have assigned that the menus do not show.</li>
+  <li>Practice Mode now gives you one free drill a day, even after the trial ends or without Pro; unlimited Practice, and the rest of the coaching, stays in Keysi Pro.</li>
+  <li>Keysi is now available in Finnish, Polish, Hindi and Traditional Chinese, bringing the app to seventeen languages; it follows your Mac's language automatically.</li>
+  <li>Keysi now speaks Dutch, Swedish, Danish and Norwegian Bokmål: the overlay, Settings, Coach, Practice Mode and every message follow your Mac's language.</li>
+  <li>New <strong>Sync</strong> tab in Settings keeps your custom cheat sheets, favorites and appearance settings the same on every Mac through a folder you pick, such as iCloud Drive; free, and off until you turn it on.</li>
+  <li>Keysi now reads your own rebound shortcuts in Sublime Text, Sublime Merge and Zed, including two-step bindings such as ⌃K ⌃B, and shows them next to the shortcuts from the menus.</li>
+  <li>Keysi Pro can now track a weekly goal of 3, 5 or 10 new shortcuts, shown in the menu bar menu and in Your Keysi and counted from the shortcuts you actually learned that week (off until you choose one in Settings ▸ Coach).</li>
+  <li>Your Keysi now ranks up to eight apps by shortcuts learned, with a mastery percentage and a note on exactly what is counted.</li>
+  <li>VoiceOver now announces the overlay when it opens, favorite and hide changes and each Practice question, reads menu paths and the key hints as words, and Practice's Next button can be pressed again.</li>
+  <li>The activity grid in Your Keysi no longer cuts its first week, and that week's month name, in half.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.31.zip" length="7126120" type="application/octet-stream" sparkle:edSignature="n6AoUPRow94U/JYg9/kdAdSJObDg17mq4BfClbOpBg63kPQzT2SgEiSEILI3rz1HX9qIPXFWKNGDxa9dGp6cDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi32-31.delta" sparkle:deltaFrom="31" length="1423450" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="SRI7blwlcM5g4OvKp/WTkRgOS2Zx/BJIDsIAFflYNPM7eHGLTgtmu0KpoyOhHzvABGCmuSaHViwzkHlHTsDRBw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi32-30.delta" sparkle:deltaFrom="30" length="1451830" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="jxi33PtsX+Ql3tRMCa+KKMZL3NzTqd45r2vqqjj/5PQDxdoI98Qh1wVoCzsVA7+waStPkb87nnG5lu2Ec1xqDw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi32-29.delta" sparkle:deltaFrom="29" length="1467706" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Fe6WlE1obvKqCqcgu7HV1hoS/6bySWBEtWVsZ/mBA6gsa1QgpC3nA6SjOuiW80SFjUyCgxzAPjNYvWtEpbznCA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi32-28.delta" sparkle:deltaFrom="28" length="1471014" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="DnvAtsG4ZUt9UTIuuqLqxd+UyulvzaADedmTo+8hjilYmOJD6Av4t3jctCnm6KJdIiNRFi5oauqndFdliS5oBQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi32-27.delta" sparkle:deltaFrom="27" length="1511062" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="nL11FJ7M9Goqnz9RSGCoQo8hJbcmL/OKfxJMBtMJo1EZVFMAPFANfvneaoCIpnDMh3UlKgiUBhgg2YuhIDJcAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.30</title>
             <pubDate>Wed, 07 Oct 2026 01:18:07 +0200</pubDate>
             <sparkle:version>31</sparkle:version>
