@@ -3,6 +3,47 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.32</title>
+            <pubDate>Wed, 14 Oct 2026 23:18:15 +0200</pubDate>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>1.0.32</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>Two new features.</p>
+<ul>
+  <li>You can now sort the shortcuts panel by "Biggest time savers first", which puts the commands you keep clicking through menus for at the top, deeper menus weighted higher.</li>
+  <li>When two commands in the same app use one key combination, the panel now marks both and names the other, so you can see why one of them never fires.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.32.zip" length="7138736" type="application/octet-stream" sparkle:edSignature="KMMaAXjcxW4y8/XP1QnGUo4/Qk2xqyC0nGHSOg/B9NjPdZ83hihUbGVbujrr+KWn8dthw5nzgtR1734asiNYCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi33-32.delta" sparkle:deltaFrom="32" length="605050" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="5AAYkzBAt2577GFcvE3YmCqFTYU3ONoZmt4/31F53UzRtHEcPlIUJhoZHwWr0bSuOCEKYVUSMwo5n2JG+gA8CA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi33-31.delta" sparkle:deltaFrom="31" length="1467666" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="6uR+aISd//JuWq3yB4zILaBlk+5G+Vv5sMS/rsIRpVC9L62Xaft9fDiaTvu8iu/ggEyFrAT6JK2Q2DJ8UuBkCQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi33-30.delta" sparkle:deltaFrom="30" length="1490750" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="TxwEghblk3gg5NfPeq45FrMNc/MxzmlCCqw/h+2d7YIwzwU/rQMs1AohlszuuC+qGdyNI7/1Xbjg85FzKOiSDw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi33-29.delta" sparkle:deltaFrom="29" length="1508210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="YKQBv7xSzn6hAy+ekx6TwU5b9YAQpGfyCUK37XDfHppOEL9srU4WDqC1x4wO8fnG7VCjl7xFGwKyxDopejrWBg=="/>
+                <enclosure url="https://keysi.io/releases/Keysi33-28.delta" sparkle:deltaFrom="28" length="1513174" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="+QcWD6lOwhZeFmxD2dNbEG0w0ZFbenqWMY1R7eH9NLL9xYzvf4elrAhpgXbX1Ejxl+rrp+5DC7Ejnh+fC6IrBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.31</title>
             <pubDate>Sun, 11 Oct 2026 22:06:14 +0200</pubDate>
             <sparkle:version>32</sparkle:version>
