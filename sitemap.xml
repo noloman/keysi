@@ -523,7 +523,17 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://keysi.io/shortcuts-audio-midi-setup.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://keysi.io/shortcuts-automator.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://keysi.io/shortcuts-avdbuddy.html</loc>
     <lastmod>2026-10-16</lastmod>
     <priority>0.6</priority>
   </url>
@@ -574,6 +584,11 @@
   </url>
   <url>
     <loc>https://keysi.io/shortcuts-db-browser-for-sqlite.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://keysi.io/shortcuts-dictionary.html</loc>
     <lastmod>2026-10-16</lastmod>
     <priority>0.6</priority>
   </url>
@@ -678,6 +693,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://keysi.io/shortcuts-screen-sharing.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://keysi.io/shortcuts-script-editor.html</loc>
     <lastmod>2026-10-16</lastmod>
     <priority>0.6</priority>
@@ -694,6 +714,11 @@
   </url>
   <url>
     <loc>https://keysi.io/shortcuts-sourcetree.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://keysi.io/shortcuts-stickies.html</loc>
     <lastmod>2026-10-16</lastmod>
     <priority>0.6</priority>
   </url>
