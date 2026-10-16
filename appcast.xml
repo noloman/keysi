@@ -3,6 +3,46 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.33</title>
+            <pubDate>Fri, 16 Oct 2026 09:03:18 +0200</pubDate>
+            <sparkle:version>34</sparkle:version>
+            <sparkle:shortVersionString>1.0.33</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>One new feature.</p>
+<ul>
+  <li>The chip in the panel now says whether macOS, another app or another command in the same app shares a shortcut, with a click to show only those.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.33.zip" length="7142513" type="application/octet-stream" sparkle:edSignature="tH6m5gciVPVKPE75CvVbQzfEn3mfp8g6fiE9bD2YLspQPVEnF9QetI257gjSBcxRifHFa1xU/Gmg2cOr7BdBCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi34-33.delta" sparkle:deltaFrom="33" length="485278" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="4d/6PZ60m2JfFefmD8OeiLUglbvasnnRS+WzJ0og/Mt8xs076y7fzemnyp1/kmD7TQxKrWtSI2//+uDBzTlFAQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi34-32.delta" sparkle:deltaFrom="32" length="655134" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="tl7RaBkhVN943eqtL87iiFGkNVP3pqSjkve/Y3+loDJk7WbiDkjxDN2mFuE0C0p8apE5m1tsTbNko0sf1ATKBQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi34-31.delta" sparkle:deltaFrom="31" length="1486626" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="84i4Q/CebsBUHxp+Qt6SP/gZ8WhekTyCra0XM2jNVDe0cZhTcHlfKYoXMLK39qsrZVjKmTIHFbq0ftOORlTJAA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi34-30.delta" sparkle:deltaFrom="30" length="1510390" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="tlklaxZjzv/wna0olbqidX+O23uxcoDxdNWEdD8MCkRNGZpTr1HrC7cvT6vKioqnLxR9JQe8GS2SHqvRLEeVCw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi34-29.delta" sparkle:deltaFrom="29" length="1526550" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="pNzqCJk0lObwfpno9fpNCPcIm4Gq8XPmi9JhEw5kNgO9+sL7uWh1XUbF/VGgzHXAun9earDAlSMGq7Ef5aB5CQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.32</title>
             <pubDate>Wed, 14 Oct 2026 23:18:15 +0200</pubDate>
             <sparkle:version>33</sparkle:version>
