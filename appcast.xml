@@ -3,6 +3,46 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.35</title>
+            <pubDate>Mon, 26 Oct 2026 12:23:58 +0100</pubDate>
+            <sparkle:version>36</sparkle:version>
+            <sparkle:shortVersionString>1.0.35</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>One new feature.</p>
+<ul>
+  <li>Keysi Pro can now keep your Coach progress the same on every Mac that shares your sync folder, with its own switch in Settings ▸ Sync that stays off until you turn it on.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.35.zip" length="7193445" type="application/octet-stream" sparkle:edSignature="uO+nFsnV7drV7A4l1QPyiYfidxv1AOF7l9Wx+nQC8qKifNtOe80UVi9vGBK+XrdVrkyXtgf6NpK1fR7LtD97CQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi36-35.delta" sparkle:deltaFrom="35" length="658030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="7jGV2N1RlmLh1T+YNi7Uhd/oI9fe+oZ/ECIPhwr2bC672PJzsU5pmJ/IiK+tOUa0Lg8mduwXxrfMo1jl18inBw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi36-34.delta" sparkle:deltaFrom="34" length="660374" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="0bWItb0clu5mnT/ssKrcs7k5c0drFsVjZmnQ2jcj+MP00AXeZ2ShUfb48WHld5UX+sY3T+X5xzkgjoReISvaCA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi36-33.delta" sparkle:deltaFrom="33" length="704014" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="2kMRp17yhWTa6GDMSi/Z0LP4xOShitLs4niw0T6YyXZ6CADexQcce2ZIv+1ZZM+AVkpQB0eFjIZGUECV4Fc1Bw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi36-32.delta" sparkle:deltaFrom="32" length="796182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="H7mWt1s7+ZeAox2wH1J5ijKQJt50dBq+oaLOrMIYuaX6uVJ4ZKYZt2BdWnxASVKT+Dwv3TzlT/V0+RmlVs6qCA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi36-31.delta" sparkle:deltaFrom="31" length="1535242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="E2p11hHUhHyTfXkkKBEzDW9NAN7vGW40e/79CGtbJ0RxUh0uchmvFMaAKEsaoALW7sun03RIO9EmgkhVFK2SCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.34</title>
             <pubDate>Mon, 26 Oct 2026 11:07:32 +0100</pubDate>
             <sparkle:version>35</sparkle:version>
