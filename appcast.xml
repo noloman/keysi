@@ -3,6 +3,52 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.36</title>
+            <pubDate>Tue, 03 Nov 2026 11:11:20 +0100</pubDate>
+            <sparkle:version>37</sparkle:version>
+            <sparkle:shortVersionString>1.0.36</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>Seven fixes.</p>
+<ul>
+  <li>A Mac whose clock is wrong at startup no longer makes a Keysi Pro license look years out of date, and the trial countdown can no longer show more days than the trial has.</li>
+  <li>Keysi Pro no longer switches off for a customer whose payment dispute was settled in the seller's favour.</li>
+  <li>On Keysi Free, Practice Again now follows the one-drill-a-day limit, and a Practice window with nothing to practise no longer uses up the day's drill.</li>
+  <li>A Keysi Pro license that hasn't been checked for a long time now says so in the menu bar instead of offering Pro for sale again, and Settings ▸ License has a <strong>Check Now</strong> button.</li>
+  <li>Keysi Pro no longer shows as Keysi Free when Keysi starts before your keychain is unlocked, and activating a license no longer freezes Keysi on networks with slow name lookups.</li>
+  <li>Coach progress sync no longer erases your progress on your other Macs when one Mac's statistics file can't be read; that Mac gets its progress back from the others instead.</li>
+  <li>Buying Keysi Pro now turns on Spotlight results right away, and the end of a trial is noticed straight away rather than after a relaunch.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.36.zip" length="7211716" type="application/octet-stream" sparkle:edSignature="iKVNqk8zQZpc2GvzXWUWKW7AHoyIHH/IBaktaprjy2nLKR4e1QFEg+6a/5w4csbMkw4BQuHQb9jEaxYCP1zzAg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi37-36.delta" sparkle:deltaFrom="36" length="678286" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="zqX76hPlzjyyqgk/FZmV9lZPsKcaZZTGDnFcA/IbI9qmBFaec80FXWcd/MkwO6JnvBh4ypFeTKZzd32Pj5puBg=="/>
+                <enclosure url="https://keysi.io/releases/Keysi37-35.delta" sparkle:deltaFrom="35" length="787522" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="w2QAW1EdhsCpKWeYcYVIN6kqsXH3rCgfqEsCpTPeO5QkT8t3uytGtCPrv2rBqMPlddn2yp5AfkPGbQ2PK4QbBA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi37-34.delta" sparkle:deltaFrom="34" length="791042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="LayJv99UTR/vO4kIifqeXXj+oTKnbnmODwyDv//vWWP18fzCD3R7AUMUoGzbAoOystcaXcJnMFUlyYaB5Rp/Dw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi37-33.delta" sparkle:deltaFrom="33" length="825938" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="dKXkrvD5Lo4lfnOeD6s+MUSOF5EfXiCroGorNTt+kJs5gFIMZNnCi7yQ3207OAwByxOwokclb7XsZo8ngz2FBQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi37-32.delta" sparkle:deltaFrom="32" length="892902" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="wQnkvNBcOnodo935TiF3djrPsAQ60E9g+GWGPUwH5Xk+Z4TXhytzBvkv6QSgxJgkMnfm7vwuJe7XdjdkPGSqCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.35</title>
             <pubDate>Mon, 26 Oct 2026 12:23:58 +0100</pubDate>
             <sparkle:version>36</sparkle:version>
