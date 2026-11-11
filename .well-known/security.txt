@@ -1,0 +1,7 @@
+# Keysi is a one-person project with no paid bounty program.
+# Responsible disclosure is welcome: see the policy link below.
+Contact: mailto:support@keysi.io
+Expires: 2027-10-31T00:00:00.000Z
+Preferred-Languages: en, es
+Canonical: https://keysi.io/.well-known/security.txt
+Policy: https://keysi.io/security.html#disclosure
