@@ -3,6 +3,48 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.37</title>
+            <pubDate>Thu, 12 Nov 2026 14:20:58 +0100</pubDate>
+            <sparkle:version>38</sparkle:version>
+            <sparkle:shortVersionString>1.0.37</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>Three new features.</p>
+<ul>
+  <li>From 24 November to Cyber Monday, Keysi Pro is 30% off ($10.49 instead of $14.99) and the app says so beside every Unlock button, with the discount already applied at checkout.</li>
+  <li>Keysi Pro now builds learning plans: pick an app in Your Keysi and get up to seven days of its shortcuts, five a day starting with the ones you keep reaching for the mouse to use, drilled in Practice and tracked day by day.</li>
+  <li>Built-in cheat sheets for five more apps: Visual Studio Code, Photoshop (tools and layers), Zoom, Spotify and IntelliJ IDEA / Android Studio, in all 17 languages, shown automatically when you hold ⌘ in those apps.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.37.zip" length="7383790" type="application/octet-stream" sparkle:edSignature="0XnBu2i2CTgySa9HtySwTcdmw8Eczj9om+Ed+gDMO4EosnsHChZqWeSW8oIdZ1cgD+WRcAI0RGglwoGne0H+CA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi38-37.delta" sparkle:deltaFrom="37" length="1015926" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="a6nEM1TX2OC0SdQmwtDOype/GTnxqUyP8Vf1/kJukiRw3Qu7b4eBa/JQ3L6gPlBU/699ydDeXtuNT/kw6pZFDA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi38-36.delta" sparkle:deltaFrom="36" length="1079118" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="cTRHUmktCOSZHtHUc2eu39uUJH09hnuUUyb1prfcYCcPad9jGtpmXRL5C1ZdIlbDqKBYeWeJ9SlytuTnD4OwBw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi38-35.delta" sparkle:deltaFrom="35" length="1157302" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="Nl8SMrMRO8vz+uB/UbIjL4mT7fBkT4dZcUuuV5n27Fg8Uk4cMPjwyrlrM2810ZgrgJFWZ60PipMUq7gfBB6vCg=="/>
+                <enclosure url="https://keysi.io/releases/Keysi38-34.delta" sparkle:deltaFrom="34" length="1160650" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="+mWeSN33kLTsXtZk2foFZOrUeKJ4qM+PJ9nbYuTvgcxsN8JeXitPQBvdUAKTp91M4/vdFc0RcjKDaQF7akhBBw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi38-33.delta" sparkle:deltaFrom="33" length="1187166" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="DVaTpRkv4Itw8yqkXG3dskCIc3oPMNMAuQfhBbD/9ugMZzsVh0r95TV5rNnYk9dxTCelL7FXDnjuWN+iDTVWCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.36</title>
             <pubDate>Tue, 03 Nov 2026 11:11:20 +0100</pubDate>
             <sparkle:version>37</sparkle:version>
