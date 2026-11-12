@@ -1,0 +1,653 @@
+{
+  "id": "vscode",
+  "name": {
+    "en": "VS Code",
+    "es": "VS Code",
+    "fr": "VS Code",
+    "de": "VS Code",
+    "it": "VS Code",
+    "pt-BR": "VS Code",
+    "ja": "VS Code",
+    "zh-Hans": "VS Code",
+    "ko": "VS Code",
+    "nl": "VS Code",
+    "sv": "VS Code",
+    "da": "VS Code",
+    "nb": "VS Code",
+    "fi": "VS Code",
+    "pl": "VS Code",
+    "hi": "VS Code",
+    "zh-Hant": "VS Code"
+  },
+  "match": {
+    "bundleIDs": [
+      "com.microsoft.VSCode",
+      "com.microsoft.VSCodeInsiders"
+    ],
+    "processNames": []
+  },
+  "mode": "augment",
+  "priority": 50,
+  "groups": [
+    {
+      "title": {
+        "en": "Navigation",
+        "es": "Navegación",
+        "fr": "Navigation",
+        "de": "Navigation",
+        "it": "Navigazione",
+        "pt-BR": "Navegação",
+        "ja": "ナビゲーション",
+        "zh-Hans": "导航",
+        "ko": "탐색",
+        "nl": "Navigatie",
+        "sv": "Navigering",
+        "da": "Navigation",
+        "nb": "Navigasjon",
+        "fi": "Navigointi",
+        "pl": "Nawigacja",
+        "hi": "नेविगेशन",
+        "zh-Hant": "導覽"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Go to file",
+            "es": "Ir a archivo",
+            "fr": "Aller au fichier",
+            "de": "Gehe zu Datei",
+            "it": "Vai al file",
+            "pt-BR": "Ir para arquivo",
+            "ja": "ファイルへ移動",
+            "zh-Hans": "转到文件",
+            "ko": "파일로 이동",
+            "nl": "Naar bestand gaan",
+            "sv": "Gå till fil",
+            "da": "Gå til fil",
+            "nb": "Gå til fil",
+            "fi": "Siirry tiedostoon",
+            "pl": "Przejdź do pliku",
+            "hi": "फ़ाइल पर जाएं",
+            "zh-Hant": "前往檔案"
+          },
+          "keys": "cmd+p"
+        },
+        {
+          "title": {
+            "en": "Command Palette",
+            "es": "Paleta de comandos",
+            "fr": "Palette de commandes",
+            "de": "Befehlspalette",
+            "it": "Riquadro comandi",
+            "pt-BR": "Paleta de comandos",
+            "ja": "コマンドパレット",
+            "zh-Hans": "命令面板",
+            "ko": "명령 팔레트",
+            "nl": "Opdrachtenpalet",
+            "sv": "Kommandopalett",
+            "da": "Kommandopalet",
+            "nb": "Kommandopalett",
+            "fi": "Komentopaletti",
+            "pl": "Paleta poleceń",
+            "hi": "कमांड पैलेट",
+            "zh-Hant": "命令選擇區"
+          },
+          "keys": "cmd+shift+p"
+        },
+        {
+          "title": {
+            "en": "Go to symbol in file",
+            "es": "Ir a símbolo en archivo",
+            "fr": "Aller au symbole dans le fichier",
+            "de": "Gehe zu Symbol in Datei",
+            "it": "Vai al simbolo nel file",
+            "pt-BR": "Ir para símbolo no arquivo",
+            "ja": "ファイル内のシンボルへ移動",
+            "zh-Hans": "转到文件中的符号",
+            "ko": "파일의 기호로 이동",
+            "nl": "Naar symbool in bestand gaan",
+            "sv": "Gå till symbol i fil",
+            "da": "Gå til symbol i fil",
+            "nb": "Gå til symbol i fil",
+            "fi": "Siirry tiedoston symboliin",
+            "pl": "Przejdź do symbolu w pliku",
+            "hi": "फ़ाइल में सिंबल पर जाएं",
+            "zh-Hant": "前往檔案中的符號"
+          },
+          "keys": "cmd+shift+o"
+        },
+        {
+          "title": {
+            "en": "Go to line",
+            "es": "Ir a línea",
+            "fr": "Aller à la ligne",
+            "de": "Gehe zu Zeile",
+            "it": "Vai alla riga",
+            "pt-BR": "Ir para linha",
+            "ja": "行へ移動",
+            "zh-Hans": "转到行",
+            "ko": "줄로 이동",
+            "nl": "Naar regel gaan",
+            "sv": "Gå till rad",
+            "da": "Gå til linje",
+            "nb": "Gå til linje",
+            "fi": "Siirry riville",
+            "pl": "Przejdź do wiersza",
+            "hi": "लाइन पर जाएं",
+            "zh-Hant": "前往行"
+          },
+          "keys": "ctrl+g"
+        },
+        {
+          "title": {
+            "en": "Toggle sidebar",
+            "es": "Mostrar u ocultar barra lateral",
+            "fr": "Afficher ou masquer la barre latérale",
+            "de": "Seitenleiste ein- oder ausblenden",
+            "it": "Mostra o nascondi barra laterale",
+            "pt-BR": "Mostrar ou ocultar barra lateral",
+            "ja": "サイドバーの表示切替",
+            "zh-Hans": "切换侧边栏",
+            "ko": "사이드바 전환",
+            "nl": "Zijbalk tonen of verbergen",
+            "sv": "Visa eller dölj sidofält",
+            "da": "Vis eller skjul sidepanel",
+            "nb": "Vis eller skjul sidepanel",
+            "fi": "Näytä tai piilota sivupalkki",
+            "pl": "Przełącz pasek boczny",
+            "hi": "साइडबार टॉगल करें",
+            "zh-Hant": "切換側邊欄"
+          },
+          "keys": "cmd+b"
+        },
+        {
+          "title": {
+            "en": "Toggle terminal",
+            "es": "Mostrar u ocultar terminal",
+            "fr": "Afficher ou masquer le terminal",
+            "de": "Terminal ein- oder ausblenden",
+            "it": "Mostra o nascondi terminale",
+            "pt-BR": "Mostrar ou ocultar terminal",
+            "ja": "ターミナルの表示切替",
+            "zh-Hans": "切换终端",
+            "ko": "터미널 전환",
+            "nl": "Terminal tonen of verbergen",
+            "sv": "Visa eller dölj terminal",
+            "da": "Vis eller skjul terminal",
+            "nb": "Vis eller skjul terminal",
+            "fi": "Näytä tai piilota pääte",
+            "pl": "Przełącz terminal",
+            "hi": "टर्मिनल टॉगल करें",
+            "zh-Hant": "切換終端機"
+          },
+          "keys": "ctrl+`",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Search across files",
+            "es": "Buscar en todos los archivos",
+            "fr": "Rechercher dans les fichiers",
+            "de": "In Dateien suchen",
+            "it": "Cerca nei file",
+            "pt-BR": "Pesquisar em todos os arquivos",
+            "ja": "ファイル全体を検索",
+            "zh-Hans": "在文件中搜索",
+            "ko": "파일 전체 검색",
+            "nl": "Zoeken in bestanden",
+            "sv": "Sök i alla filer",
+            "da": "Søg i alle filer",
+            "nb": "Søk i alle filer",
+            "fi": "Hae kaikista tiedostoista",
+            "pl": "Szukaj w plikach",
+            "hi": "सभी फ़ाइलों में खोजें",
+            "zh-Hant": "在檔案中搜尋"
+          },
+          "keys": "cmd+shift+f"
+        },
+        {
+          "title": {
+            "en": "Show Explorer",
+            "es": "Mostrar explorador",
+            "fr": "Afficher l'explorateur",
+            "de": "Explorer anzeigen",
+            "it": "Mostra Esplora risorse",
+            "pt-BR": "Mostrar Explorer",
+            "ja": "エクスプローラーを表示",
+            "zh-Hans": "显示资源管理器",
+            "ko": "탐색기 표시",
+            "nl": "Verkenner tonen",
+            "sv": "Visa Utforskaren",
+            "da": "Vis Stifinder",
+            "nb": "Vis Utforsker",
+            "fi": "Näytä Resurssienhallinta",
+            "pl": "Pokaż Eksplorator",
+            "hi": "एक्सप्लोरर दिखाएं",
+            "zh-Hant": "顯示檔案總管"
+          },
+          "keys": "cmd+shift+e"
+        },
+        {
+          "title": {
+            "en": "Split editor",
+            "es": "Dividir editor",
+            "fr": "Fractionner l'éditeur",
+            "de": "Editor teilen",
+            "it": "Dividi editor",
+            "pt-BR": "Dividir editor",
+            "ja": "エディターを分割",
+            "zh-Hans": "拆分编辑器",
+            "ko": "편집기 분할",
+            "nl": "Editor splitsen",
+            "sv": "Dela redigeraren",
+            "da": "Opdel editor",
+            "nb": "Del editoren",
+            "fi": "Jaa editori",
+            "pl": "Podziel edytor",
+            "hi": "एडिटर विभाजित करें",
+            "zh-Hant": "分割編輯器"
+          },
+          "keys": "cmd+\\"
+        },
+        {
+          "title": {
+            "en": "Go to definition",
+            "es": "Ir a la definición",
+            "fr": "Aller à la définition",
+            "de": "Gehe zu Definition",
+            "it": "Vai alla definizione",
+            "pt-BR": "Ir para a definição",
+            "ja": "定義へ移動",
+            "zh-Hans": "转到定义",
+            "ko": "정의로 이동",
+            "nl": "Naar definitie gaan",
+            "sv": "Gå till definition",
+            "da": "Gå til definition",
+            "nb": "Gå til definisjon",
+            "fi": "Siirry määritykseen",
+            "pl": "Przejdź do definicji",
+            "hi": "परिभाषा पर जाएं",
+            "zh-Hant": "前往定義"
+          },
+          "keys": "f12"
+        },
+        {
+          "title": {
+            "en": "Find all references",
+            "es": "Buscar todas las referencias",
+            "fr": "Trouver toutes les références",
+            "de": "Alle Verweise suchen",
+            "it": "Trova tutti i riferimenti",
+            "pt-BR": "Localizar todas as referências",
+            "ja": "すべての参照を検索",
+            "zh-Hans": "查找所有引用",
+            "ko": "모든 참조 찾기",
+            "nl": "Alle verwijzingen zoeken",
+            "sv": "Hitta alla referenser",
+            "da": "Find alle referencer",
+            "nb": "Finn alle referanser",
+            "fi": "Etsi kaikki viittaukset",
+            "pl": "Znajdź wszystkie odwołania",
+            "hi": "सभी संदर्भ खोजें",
+            "zh-Hant": "尋找所有參考"
+          },
+          "keys": "shift+f12"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Editing",
+        "es": "Edición",
+        "fr": "Édition",
+        "de": "Bearbeiten",
+        "it": "Modifica",
+        "pt-BR": "Edição",
+        "ja": "編集",
+        "zh-Hans": "编辑",
+        "ko": "편집",
+        "nl": "Bewerken",
+        "sv": "Redigering",
+        "da": "Redigering",
+        "nb": "Redigering",
+        "fi": "Muokkaus",
+        "pl": "Edycja",
+        "hi": "संपादन",
+        "zh-Hant": "編輯"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Select next occurrence",
+            "es": "Seleccionar siguiente coincidencia",
+            "fr": "Sélectionner l'occurrence suivante",
+            "de": "Nächstes Vorkommen auswählen",
+            "it": "Seleziona occorrenza successiva",
+            "pt-BR": "Selecionar próxima ocorrência",
+            "ja": "次の出現箇所を選択",
+            "zh-Hans": "选择下一个匹配项",
+            "ko": "다음 항목 선택",
+            "nl": "Volgende overeenkomst selecteren",
+            "sv": "Markera nästa förekomst",
+            "da": "Markér næste forekomst",
+            "nb": "Merk neste forekomst",
+            "fi": "Valitse seuraava esiintymä",
+            "pl": "Zaznacz następne wystąpienie",
+            "hi": "अगला मिलान चुनें",
+            "zh-Hant": "選取下一個相符項目"
+          },
+          "keys": "cmd+d"
+        },
+        {
+          "title": {
+            "en": "Select all occurrences",
+            "es": "Seleccionar todas las coincidencias",
+            "fr": "Sélectionner toutes les occurrences",
+            "de": "Alle Vorkommen auswählen",
+            "it": "Seleziona tutte le occorrenze",
+            "pt-BR": "Selecionar todas as ocorrências",
+            "ja": "すべての出現箇所を選択",
+            "zh-Hans": "选择所有匹配项",
+            "ko": "모든 항목 선택",
+            "nl": "Alle overeenkomsten selecteren",
+            "sv": "Markera alla förekomster",
+            "da": "Markér alle forekomster",
+            "nb": "Merk alle forekomster",
+            "fi": "Valitse kaikki esiintymät",
+            "pl": "Zaznacz wszystkie wystąpienia",
+            "hi": "सभी मिलान चुनें",
+            "zh-Hant": "選取所有相符項目"
+          },
+          "keys": "cmd+shift+l"
+        },
+        {
+          "title": {
+            "en": "Move line up",
+            "es": "Mover línea hacia arriba",
+            "fr": "Déplacer la ligne vers le haut",
+            "de": "Zeile nach oben verschieben",
+            "it": "Sposta riga in alto",
+            "pt-BR": "Mover linha para cima",
+            "ja": "行を上へ移動",
+            "zh-Hans": "向上移动行",
+            "ko": "줄 위로 이동",
+            "nl": "Regel omhoog verplaatsen",
+            "sv": "Flytta rad uppåt",
+            "da": "Flyt linje op",
+            "nb": "Flytt linje opp",
+            "fi": "Siirrä rivi ylös",
+            "pl": "Przesuń wiersz w górę",
+            "hi": "लाइन ऊपर ले जाएं",
+            "zh-Hant": "將行上移"
+          },
+          "keys": "alt+up"
+        },
+        {
+          "title": {
+            "en": "Move line down",
+            "es": "Mover línea hacia abajo",
+            "fr": "Déplacer la ligne vers le bas",
+            "de": "Zeile nach unten verschieben",
+            "it": "Sposta riga in basso",
+            "pt-BR": "Mover linha para baixo",
+            "ja": "行を下へ移動",
+            "zh-Hans": "向下移动行",
+            "ko": "줄 아래로 이동",
+            "nl": "Regel omlaag verplaatsen",
+            "sv": "Flytta rad nedåt",
+            "da": "Flyt linje ned",
+            "nb": "Flytt linje ned",
+            "fi": "Siirrä rivi alas",
+            "pl": "Przesuń wiersz w dół",
+            "hi": "लाइन नीचे ले जाएं",
+            "zh-Hant": "將行下移"
+          },
+          "keys": "alt+down"
+        },
+        {
+          "title": {
+            "en": "Copy line down",
+            "es": "Copiar línea hacia abajo",
+            "fr": "Copier la ligne vers le bas",
+            "de": "Zeile nach unten kopieren",
+            "it": "Copia riga in basso",
+            "pt-BR": "Copiar linha para baixo",
+            "ja": "行を下へコピー",
+            "zh-Hans": "向下复制行",
+            "ko": "줄 아래로 복사",
+            "nl": "Regel omlaag kopiëren",
+            "sv": "Kopiera rad nedåt",
+            "da": "Kopiér linje ned",
+            "nb": "Kopier linje ned",
+            "fi": "Kopioi rivi alas",
+            "pl": "Kopiuj wiersz w dół",
+            "hi": "लाइन नीचे कॉपी करें",
+            "zh-Hant": "將行向下複製"
+          },
+          "keys": "shift+alt+down"
+        },
+        {
+          "title": {
+            "en": "Delete line",
+            "es": "Eliminar línea",
+            "fr": "Supprimer la ligne",
+            "de": "Zeile löschen",
+            "it": "Elimina riga",
+            "pt-BR": "Excluir linha",
+            "ja": "行を削除",
+            "zh-Hans": "删除行",
+            "ko": "줄 삭제",
+            "nl": "Regel verwijderen",
+            "sv": "Ta bort rad",
+            "da": "Slet linje",
+            "nb": "Slett linje",
+            "fi": "Poista rivi",
+            "pl": "Usuń wiersz",
+            "hi": "लाइन हटाएं",
+            "zh-Hant": "刪除行"
+          },
+          "keys": "cmd+shift+k"
+        },
+        {
+          "title": {
+            "en": "Toggle line comment",
+            "es": "Comentar o descomentar línea",
+            "fr": "Commenter ou décommenter la ligne",
+            "de": "Zeilenkommentar umschalten",
+            "it": "Commenta o decommenta riga",
+            "pt-BR": "Comentar ou descomentar linha",
+            "ja": "行コメントの切替",
+            "zh-Hans": "切换行注释",
+            "ko": "줄 주석 전환",
+            "nl": "Regelcommentaar wisselen",
+            "sv": "Växla radkommentar",
+            "da": "Skift linjekommentar",
+            "nb": "Veksle linjekommentar",
+            "fi": "Vaihda rivikommentti",
+            "pl": "Przełącz komentarz wiersza",
+            "hi": "लाइन टिप्पणी टॉगल करें",
+            "zh-Hant": "切換行註解"
+          },
+          "keys": "cmd+/"
+        },
+        {
+          "title": {
+            "en": "Rename symbol",
+            "es": "Renombrar símbolo",
+            "fr": "Renommer le symbole",
+            "de": "Symbol umbenennen",
+            "it": "Rinomina simbolo",
+            "pt-BR": "Renomear símbolo",
+            "ja": "シンボルの名前を変更",
+            "zh-Hans": "重命名符号",
+            "ko": "기호 이름 바꾸기",
+            "nl": "Symbool hernoemen",
+            "sv": "Byt namn på symbol",
+            "da": "Omdøb symbol",
+            "nb": "Gi symbol nytt navn",
+            "fi": "Nimeä symboli uudelleen",
+            "pl": "Zmień nazwę symbolu",
+            "hi": "सिंबल का नाम बदलें",
+            "zh-Hant": "重新命名符號"
+          },
+          "keys": "f2"
+        },
+        {
+          "title": {
+            "en": "Quick fix",
+            "es": "Corrección rápida",
+            "fr": "Correction rapide",
+            "de": "Schnellkorrektur",
+            "it": "Correzione rapida",
+            "pt-BR": "Correção rápida",
+            "ja": "クイック修正",
+            "zh-Hans": "快速修复",
+            "ko": "빠른 수정",
+            "nl": "Snelle oplossing",
+            "sv": "Snabbkorrigering",
+            "da": "Hurtig rettelse",
+            "nb": "Hurtigreparasjon",
+            "fi": "Pikakorjaus",
+            "pl": "Szybka poprawka",
+            "hi": "त्वरित सुधार",
+            "zh-Hant": "快速修正"
+          },
+          "keys": "cmd+."
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Run and debug",
+        "es": "Ejecutar y depurar",
+        "fr": "Exécuter et déboguer",
+        "de": "Ausführen und Debuggen",
+        "it": "Esegui e debug",
+        "pt-BR": "Executar e depurar",
+        "ja": "実行とデバッグ",
+        "zh-Hans": "运行和调试",
+        "ko": "실행 및 디버그",
+        "nl": "Uitvoeren en debuggen",
+        "sv": "Kör och felsök",
+        "da": "Kør og fejlfind",
+        "nb": "Kjør og feilsøk",
+        "fi": "Suorita ja debuggaa",
+        "pl": "Uruchamianie i debugowanie",
+        "hi": "चलाएं और डीबग करें",
+        "zh-Hant": "執行與偵錯"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Start debugging",
+            "es": "Iniciar depuración",
+            "fr": "Démarrer le débogage",
+            "de": "Debugging starten",
+            "it": "Avvia debug",
+            "pt-BR": "Iniciar depuração",
+            "ja": "デバッグを開始",
+            "zh-Hans": "开始调试",
+            "ko": "디버깅 시작",
+            "nl": "Debuggen starten",
+            "sv": "Starta felsökning",
+            "da": "Start fejlfinding",
+            "nb": "Start feilsøking",
+            "fi": "Aloita debuggaus",
+            "pl": "Rozpocznij debugowanie",
+            "hi": "डीबगिंग शुरू करें",
+            "zh-Hant": "開始偵錯"
+          },
+          "keys": "f5"
+        },
+        {
+          "title": {
+            "en": "Toggle breakpoint",
+            "es": "Alternar punto de interrupción",
+            "fr": "Basculer le point d'arrêt",
+            "de": "Haltepunkt umschalten",
+            "it": "Attiva o disattiva breakpoint",
+            "pt-BR": "Alternar ponto de interrupção",
+            "ja": "ブレークポイントの切替",
+            "zh-Hans": "切换断点",
+            "ko": "중단점 전환",
+            "nl": "Breakpoint wisselen",
+            "sv": "Växla brytpunkt",
+            "da": "Skift brudpunkt",
+            "nb": "Veksle bruddpunkt",
+            "fi": "Vaihda katkaisupiste",
+            "pl": "Przełącz punkt przerwania",
+            "hi": "ब्रेकपॉइंट टॉगल करें",
+            "zh-Hant": "切換中斷點"
+          },
+          "keys": "f9"
+        },
+        {
+          "title": {
+            "en": "Step over",
+            "es": "Paso por encima",
+            "fr": "Pas à pas principal",
+            "de": "Prozedurschritt",
+            "it": "Passo successivo",
+            "pt-BR": "Passar por cima",
+            "ja": "ステップ オーバー",
+            "zh-Hans": "单步跳过",
+            "ko": "프로시저 단위 실행",
+            "nl": "Stap over",
+            "sv": "Stega över",
+            "da": "Træd over",
+            "nb": "Gå over",
+            "fi": "Astu yli",
+            "pl": "Wykonaj krok nad",
+            "hi": "स्टेप ओवर",
+            "zh-Hant": "逐程序執行"
+          },
+          "keys": "f10"
+        },
+        {
+          "title": {
+            "en": "Step into",
+            "es": "Paso adentro",
+            "fr": "Pas à pas détaillé",
+            "de": "Einzelschritt",
+            "it": "Entra nel passo",
+            "pt-BR": "Entrar na função",
+            "ja": "ステップ イン",
+            "zh-Hans": "单步调试",
+            "ko": "한 단계씩 코드 실행",
+            "nl": "Stap in",
+            "sv": "Stega in",
+            "da": "Træd ind",
+            "nb": "Gå inn i",
+            "fi": "Astu sisään",
+            "pl": "Wykonaj krok do wewnątrz",
+            "hi": "स्टेप इन",
+            "zh-Hant": "逐步執行"
+          },
+          "keys": "f11"
+        },
+        {
+          "title": {
+            "en": "Run and Debug view",
+            "es": "Vista Ejecutar y depurar",
+            "fr": "Vue Exécuter et déboguer",
+            "de": "Ansicht Ausführen und Debuggen",
+            "it": "Vista Esegui e debug",
+            "pt-BR": "Exibição Executar e depurar",
+            "ja": "実行とデバッグ ビュー",
+            "zh-Hans": "运行和调试视图",
+            "ko": "실행 및 디버그 보기",
+            "nl": "Weergave Uitvoeren en debuggen",
+            "sv": "Vyn Kör och felsök",
+            "da": "Visning Kør og fejlfind",
+            "nb": "Visning Kjør og feilsøk",
+            "fi": "Suorita ja debuggaa -näkymä",
+            "pl": "Widok Uruchamianie i debugowanie",
+            "hi": "चलाएं और डीबग करें दृश्य",
+            "zh-Hant": "執行與偵錯檢視"
+          },
+          "keys": "cmd+shift+d"
+        }
+      ]
+    }
+  ]
+}

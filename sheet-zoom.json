@@ -1,0 +1,319 @@
+{
+  "id": "zoom",
+  "name": {
+    "en": "Zoom (meeting shortcuts)",
+    "es": "Zoom (atajos de reuniones)",
+    "fr": "Zoom (raccourcis de réunion)",
+    "de": "Zoom (Besprechungs-Kurzbefehle)",
+    "it": "Zoom (scorciatoie riunione)",
+    "pt-BR": "Zoom (atalhos de reunião)",
+    "ja": "Zoom(ミーティングのショートカット)",
+    "zh-Hans": "Zoom(会议快捷键)",
+    "ko": "Zoom(회의 단축키)",
+    "nl": "Zoom (sneltoetsen voor vergaderingen)",
+    "sv": "Zoom (kortkommandon för möten)",
+    "da": "Zoom (genvejstaster til møder)",
+    "nb": "Zoom (hurtigtaster for møter)",
+    "fi": "Zoom (kokouksen pikanäppäimet)",
+    "pl": "Zoom (skróty spotkań)",
+    "hi": "Zoom (मीटिंग शॉर्टकट)",
+    "zh-Hant": "Zoom（會議快速鍵）"
+  },
+  "match": {
+    "bundleIDs": [
+      "us.zoom.xos"
+    ],
+    "processNames": []
+  },
+  "mode": "augment",
+  "priority": 50,
+  "groups": [
+    {
+      "title": {
+        "en": "In a meeting",
+        "es": "En una reunión",
+        "fr": "En réunion",
+        "de": "In einer Besprechung",
+        "it": "In una riunione",
+        "pt-BR": "Em uma reunião",
+        "ja": "ミーティング中",
+        "zh-Hans": "会议中",
+        "ko": "회의 중",
+        "nl": "In een vergadering",
+        "sv": "I ett möte",
+        "da": "I et møde",
+        "nb": "I et møte",
+        "fi": "Kokouksessa",
+        "pl": "Na spotkaniu",
+        "hi": "मीटिंग में",
+        "zh-Hant": "會議中"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Mute or unmute your microphone",
+            "es": "Silenciar o activar el micrófono",
+            "fr": "Couper ou activer le micro",
+            "de": "Mikrofon stumm- oder einschalten",
+            "it": "Disattiva o attiva il microfono",
+            "pt-BR": "Silenciar ou ativar o microfone",
+            "ja": "マイクのミュート/ミュート解除",
+            "zh-Hans": "静音或取消静音",
+            "ko": "마이크 음소거 또는 해제",
+            "nl": "Microfoon dempen of dempen opheffen",
+            "sv": "Stäng av eller slå på mikrofonen",
+            "da": "Slå mikrofonen fra eller til",
+            "nb": "Slå av eller på mikrofonen",
+            "fi": "Mykistä tai poista mikrofonin mykistys",
+            "pl": "Wycisz lub włącz mikrofon",
+            "hi": "माइक्रोफ़ोन म्यूट या अनम्यूट करें",
+            "zh-Hant": "將麥克風靜音或取消靜音"
+          },
+          "keys": "cmd+shift+a"
+        },
+        {
+          "title": {
+            "en": "Start or stop video",
+            "es": "Iniciar o detener vídeo",
+            "fr": "Démarrer ou arrêter la vidéo",
+            "de": "Video starten oder beenden",
+            "it": "Avvia o interrompi il video",
+            "pt-BR": "Iniciar ou parar vídeo",
+            "ja": "ビデオの開始/停止",
+            "zh-Hans": "开启或停止视频",
+            "ko": "비디오 시작 또는 중지",
+            "nl": "Video starten of stoppen",
+            "sv": "Starta eller stoppa video",
+            "da": "Start eller stop video",
+            "nb": "Start eller stopp video",
+            "fi": "Aloita tai lopeta video",
+            "pl": "Włącz lub wyłącz wideo",
+            "hi": "वीडियो शुरू या बंद करें",
+            "zh-Hant": "開始或停止視訊"
+          },
+          "keys": "cmd+shift+v"
+        },
+        {
+          "title": {
+            "en": "Start or stop screen share",
+            "es": "Iniciar o detener compartir pantalla",
+            "fr": "Démarrer ou arrêter le partage d'écran",
+            "de": "Bildschirmfreigabe starten oder beenden",
+            "it": "Avvia o interrompi condivisione schermo",
+            "pt-BR": "Iniciar ou parar compartilhamento de tela",
+            "ja": "画面共有の開始/停止",
+            "zh-Hans": "开始或停止屏幕共享",
+            "ko": "화면 공유 시작 또는 중지",
+            "nl": "Scherm delen starten of stoppen",
+            "sv": "Starta eller stoppa skärmdelning",
+            "da": "Start eller stop skærmdeling",
+            "nb": "Start eller stopp skjermdeling",
+            "fi": "Aloita tai lopeta näytön jako",
+            "pl": "Rozpocznij lub zakończ udostępnianie ekranu",
+            "hi": "स्क्रीन शेयर शुरू या बंद करें",
+            "zh-Hant": "開始或停止螢幕分享"
+          },
+          "keys": "cmd+shift+s"
+        },
+        {
+          "title": {
+            "en": "Pause or resume screen share",
+            "es": "Pausar o reanudar compartir pantalla",
+            "fr": "Suspendre ou reprendre le partage d'écran",
+            "de": "Bildschirmfreigabe pausieren oder fortsetzen",
+            "it": "Sospendi o riprendi condivisione schermo",
+            "pt-BR": "Pausar ou retomar compartilhamento de tela",
+            "ja": "画面共有の一時停止/再開",
+            "zh-Hans": "暂停或继续屏幕共享",
+            "ko": "화면 공유 일시 중지 또는 재개",
+            "nl": "Scherm delen pauzeren of hervatten",
+            "sv": "Pausa eller återuppta skärmdelning",
+            "da": "Sæt skærmdeling på pause eller genoptag",
+            "nb": "Sett skjermdeling på pause eller gjenoppta",
+            "fi": "Keskeytä tai jatka näytön jakoa",
+            "pl": "Wstrzymaj lub wznów udostępnianie ekranu",
+            "hi": "स्क्रीन शेयर रोकें या फिर शुरू करें",
+            "zh-Hant": "暫停或繼續螢幕分享"
+          },
+          "keys": "cmd+shift+t"
+        },
+        {
+          "title": {
+            "en": "Show or hide participants",
+            "es": "Mostrar u ocultar participantes",
+            "fr": "Afficher ou masquer les participants",
+            "de": "Teilnehmer ein- oder ausblenden",
+            "it": "Mostra o nascondi partecipanti",
+            "pt-BR": "Mostrar ou ocultar participantes",
+            "ja": "参加者の表示/非表示",
+            "zh-Hans": "显示或隐藏参会者",
+            "ko": "참가자 표시 또는 숨기기",
+            "nl": "Deelnemers tonen of verbergen",
+            "sv": "Visa eller dölj deltagare",
+            "da": "Vis eller skjul deltagere",
+            "nb": "Vis eller skjul deltakere",
+            "fi": "Näytä tai piilota osallistujat",
+            "pl": "Pokaż lub ukryj uczestników",
+            "hi": "प्रतिभागी दिखाएं या छिपाएं",
+            "zh-Hant": "顯示或隱藏參加者"
+          },
+          "keys": "cmd+u"
+        },
+        {
+          "title": {
+            "en": "Show or hide chat",
+            "es": "Mostrar u ocultar chat",
+            "fr": "Afficher ou masquer le chat",
+            "de": "Chat ein- oder ausblenden",
+            "it": "Mostra o nascondi chat",
+            "pt-BR": "Mostrar ou ocultar chat",
+            "ja": "チャットの表示/非表示",
+            "zh-Hans": "显示或隐藏聊天",
+            "ko": "채팅 표시 또는 숨기기",
+            "nl": "Chat tonen of verbergen",
+            "sv": "Visa eller dölj chatt",
+            "da": "Vis eller skjul chat",
+            "nb": "Vis eller skjul chat",
+            "fi": "Näytä tai piilota chat",
+            "pl": "Pokaż lub ukryj czat",
+            "hi": "चैट दिखाएं या छिपाएं",
+            "zh-Hant": "顯示或隱藏聊天"
+          },
+          "keys": "cmd+shift+h"
+        },
+        {
+          "title": {
+            "en": "Raise or lower hand",
+            "es": "Levantar o bajar la mano",
+            "fr": "Lever ou baisser la main",
+            "de": "Hand heben oder senken",
+            "it": "Alza o abbassa la mano",
+            "pt-BR": "Levantar ou baixar a mão",
+            "ja": "挙手/手を下げる",
+            "zh-Hans": "举手或放下",
+            "ko": "손 들기 또는 내리기",
+            "nl": "Hand opsteken of laten zakken",
+            "sv": "Räck upp eller sänk handen",
+            "da": "Ræk eller sænk hånden",
+            "nb": "Rekk opp eller senk hånden",
+            "fi": "Nosta tai laske käsi",
+            "pl": "Podnieś lub opuść rękę",
+            "hi": "हाथ उठाएं या नीचे करें",
+            "zh-Hant": "舉手或放下"
+          },
+          "keys": "alt+y"
+        },
+        {
+          "title": {
+            "en": "Start or stop local recording",
+            "es": "Iniciar o detener grabación local",
+            "fr": "Démarrer ou arrêter l'enregistrement local",
+            "de": "Lokale Aufnahme starten oder beenden",
+            "it": "Avvia o interrompi registrazione locale",
+            "pt-BR": "Iniciar ou parar gravação local",
+            "ja": "ローカル録画の開始/停止",
+            "zh-Hans": "开始或停止本地录制",
+            "ko": "로컬 녹화 시작 또는 중지",
+            "nl": "Lokale opname starten of stoppen",
+            "sv": "Starta eller stoppa lokal inspelning",
+            "da": "Start eller stop lokal optagelse",
+            "nb": "Start eller stopp lokal opptak",
+            "fi": "Aloita tai lopeta paikallinen tallennus",
+            "pl": "Rozpocznij lub zakończ nagrywanie lokalne",
+            "hi": "लोकल रिकॉर्डिंग शुरू या बंद करें",
+            "zh-Hant": "開始或停止本機錄製"
+          },
+          "keys": "cmd+shift+r"
+        },
+        {
+          "title": {
+            "en": "Switch between speaker and gallery view",
+            "es": "Cambiar entre vista de orador y galería",
+            "fr": "Basculer entre vue intervenant et galerie",
+            "de": "Zwischen Sprecher- und Galerieansicht wechseln",
+            "it": "Passa tra vista relatore e galleria",
+            "pt-BR": "Alternar entre visualização de orador e galeria",
+            "ja": "スピーカービューとギャラリービューを切替",
+            "zh-Hans": "切换演讲者视图和画廊视图",
+            "ko": "스피커 보기와 갤러리 보기 전환",
+            "nl": "Wisselen tussen sprekers- en galerijweergave",
+            "sv": "Växla mellan talar- och gallerivy",
+            "da": "Skift mellem taler- og gallerivisning",
+            "nb": "Bytt mellom taler- og gallerivisning",
+            "fi": "Vaihda puhuja- ja galleriänäkymän välillä",
+            "pl": "Przełącz widok mówcy i galerii",
+            "hi": "स्पीकर और गैलरी दृश्य बदलें",
+            "zh-Hant": "切換講者檢視與圖庫檢視"
+          },
+          "keys": "cmd+shift+w"
+        },
+        {
+          "title": {
+            "en": "Enter or exit full screen",
+            "es": "Entrar o salir de pantalla completa",
+            "fr": "Passer en plein écran ou le quitter",
+            "de": "Vollbild starten oder beenden",
+            "it": "Entra o esci dal schermo intero",
+            "pt-BR": "Entrar ou sair da tela cheia",
+            "ja": "全画面の開始/終了",
+            "zh-Hans": "进入或退出全屏",
+            "ko": "전체 화면 시작 또는 종료",
+            "nl": "Volledig scherm openen of sluiten",
+            "sv": "Aktivera eller avsluta helskärm",
+            "da": "Åbn eller afslut fuld skærm",
+            "nb": "Åpne eller avslutt fullskjerm",
+            "fi": "Siirry koko näyttöön tai poistu siitä",
+            "pl": "Włącz lub wyłącz pełny ekran",
+            "hi": "फ़ुल स्क्रीन में जाएं या बाहर निकलें",
+            "zh-Hant": "進入或退出全螢幕"
+          },
+          "keys": "cmd+shift+f"
+        },
+        {
+          "title": {
+            "en": "End or leave the meeting",
+            "es": "Finalizar o salir de la reunión",
+            "fr": "Terminer ou quitter la réunion",
+            "de": "Besprechung beenden oder verlassen",
+            "it": "Termina o lascia la riunione",
+            "pt-BR": "Encerrar ou sair da reunião",
+            "ja": "ミーティングを終了または退出",
+            "zh-Hans": "结束或离开会议",
+            "ko": "회의 종료 또는 나가기",
+            "nl": "Vergadering beëindigen of verlaten",
+            "sv": "Avsluta eller lämna mötet",
+            "da": "Afslut eller forlad mødet",
+            "nb": "Avslutt eller forlat møtet",
+            "fi": "Lopeta kokous tai poistu siitä",
+            "pl": "Zakończ lub opuść spotkanie",
+            "hi": "मीटिंग समाप्त करें या छोड़ें",
+            "zh-Hant": "結束或離開會議"
+          },
+          "keys": "cmd+w"
+        },
+        {
+          "title": {
+            "en": "Mute or unmute everyone (host)",
+            "es": "Silenciar o activar a todos (anfitrión)",
+            "fr": "Couper ou activer tous les micros (hôte)",
+            "de": "Alle stumm- oder einschalten (Host)",
+            "it": "Disattiva o attiva tutti (host)",
+            "pt-BR": "Silenciar ou ativar todos (anfitrião)",
+            "ja": "全員のミュート/解除(ホスト)",
+            "zh-Hans": "全体静音或取消静音(主持人)",
+            "ko": "모두 음소거 또는 해제(호스트)",
+            "nl": "Iedereen dempen of dempen opheffen (host)",
+            "sv": "Stäng av eller slå på alla (värd)",
+            "da": "Slå alle fra eller til (vært)",
+            "nb": "Slå av eller på alle (vert)",
+            "fi": "Mykistä tai poista kaikkien mykistys (isäntä)",
+            "pl": "Wycisz lub włącz wszystkich (gospodarz)",
+            "hi": "सभी को म्यूट या अनम्यूट करें (होस्ट)",
+            "zh-Hant": "全體靜音或取消靜音（主持人）"
+          },
+          "keys": "cmd+ctrl+m"
+        }
+      ]
+    }
+  ]
+}

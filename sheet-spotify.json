@@ -1,0 +1,386 @@
+{
+  "id": "spotify",
+  "name": {
+    "en": "Spotify",
+    "es": "Spotify",
+    "fr": "Spotify",
+    "de": "Spotify",
+    "it": "Spotify",
+    "pt-BR": "Spotify",
+    "ja": "Spotify",
+    "zh-Hans": "Spotify",
+    "ko": "Spotify",
+    "nl": "Spotify",
+    "sv": "Spotify",
+    "da": "Spotify",
+    "nb": "Spotify",
+    "fi": "Spotify",
+    "pl": "Spotify",
+    "hi": "Spotify",
+    "zh-Hant": "Spotify"
+  },
+  "match": {
+    "bundleIDs": [
+      "com.spotify.client"
+    ],
+    "processNames": []
+  },
+  "mode": "augment",
+  "priority": 50,
+  "groups": [
+    {
+      "title": {
+        "en": "Playback",
+        "es": "Reproducción",
+        "fr": "Lecture",
+        "de": "Wiedergabe",
+        "it": "Riproduzione",
+        "pt-BR": "Reprodução",
+        "ja": "再生",
+        "zh-Hans": "播放",
+        "ko": "재생",
+        "nl": "Afspelen",
+        "sv": "Uppspelning",
+        "da": "Afspilning",
+        "nb": "Avspilling",
+        "fi": "Toisto",
+        "pl": "Odtwarzanie",
+        "hi": "प्लेबैक",
+        "zh-Hant": "播放"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Play or pause",
+            "es": "Reproducir o pausar",
+            "fr": "Lecture ou pause",
+            "de": "Wiedergabe oder Pause",
+            "it": "Riproduci o metti in pausa",
+            "pt-BR": "Reproduzir ou pausar",
+            "ja": "再生/一時停止",
+            "zh-Hans": "播放或暂停",
+            "ko": "재생 또는 일시 중지",
+            "nl": "Afspelen of pauzeren",
+            "sv": "Spela eller pausa",
+            "da": "Afspil eller sæt på pause",
+            "nb": "Spill av eller pause",
+            "fi": "Toista tai keskeytä",
+            "pl": "Odtwórz lub wstrzymaj",
+            "hi": "चलाएं या रोकें",
+            "zh-Hant": "播放或暫停"
+          },
+          "keys": "space"
+        },
+        {
+          "title": {
+            "en": "Next track",
+            "es": "Pista siguiente",
+            "fr": "Piste suivante",
+            "de": "Nächster Titel",
+            "it": "Brano successivo",
+            "pt-BR": "Próxima faixa",
+            "ja": "次の曲",
+            "zh-Hans": "下一首",
+            "ko": "다음 곡",
+            "nl": "Volgend nummer",
+            "sv": "Nästa spår",
+            "da": "Næste nummer",
+            "nb": "Neste spor",
+            "fi": "Seuraava kappale",
+            "pl": "Następny utwór",
+            "hi": "अगला ट्रैक",
+            "zh-Hant": "下一首"
+          },
+          "keys": "cmd+right"
+        },
+        {
+          "title": {
+            "en": "Previous track",
+            "es": "Pista anterior",
+            "fr": "Piste précédente",
+            "de": "Vorheriger Titel",
+            "it": "Brano precedente",
+            "pt-BR": "Faixa anterior",
+            "ja": "前の曲",
+            "zh-Hans": "上一首",
+            "ko": "이전 곡",
+            "nl": "Vorig nummer",
+            "sv": "Föregående spår",
+            "da": "Forrige nummer",
+            "nb": "Forrige spor",
+            "fi": "Edellinen kappale",
+            "pl": "Poprzedni utwór",
+            "hi": "पिछला ट्रैक",
+            "zh-Hant": "上一首"
+          },
+          "keys": "cmd+left"
+        },
+        {
+          "title": {
+            "en": "Volume up",
+            "es": "Subir volumen",
+            "fr": "Augmenter le volume",
+            "de": "Lauter",
+            "it": "Alza il volume",
+            "pt-BR": "Aumentar volume",
+            "ja": "音量を上げる",
+            "zh-Hans": "调高音量",
+            "ko": "볼륨 높이기",
+            "nl": "Volume omhoog",
+            "sv": "Höj volymen",
+            "da": "Skru op for lyden",
+            "nb": "Øk volumet",
+            "fi": "Lisää äänenvoimakkuutta",
+            "pl": "Zwiększ głośność",
+            "hi": "वॉल्यूम बढ़ाएं",
+            "zh-Hant": "調高音量"
+          },
+          "keys": "cmd+up"
+        },
+        {
+          "title": {
+            "en": "Volume down",
+            "es": "Bajar volumen",
+            "fr": "Baisser le volume",
+            "de": "Leiser",
+            "it": "Abbassa il volume",
+            "pt-BR": "Diminuir volume",
+            "ja": "音量を下げる",
+            "zh-Hans": "调低音量",
+            "ko": "볼륨 낮추기",
+            "nl": "Volume omlaag",
+            "sv": "Sänk volymen",
+            "da": "Skru ned for lyden",
+            "nb": "Reduser volumet",
+            "fi": "Vähennä äänenvoimakkuutta",
+            "pl": "Zmniejsz głośność",
+            "hi": "वॉल्यूम घटाएं",
+            "zh-Hant": "調低音量"
+          },
+          "keys": "cmd+down"
+        },
+        {
+          "title": {
+            "en": "Shuffle",
+            "es": "Reproducción aleatoria",
+            "fr": "Lecture aléatoire",
+            "de": "Zufallswiedergabe",
+            "it": "Riproduzione casuale",
+            "pt-BR": "Aleatório",
+            "ja": "シャッフル",
+            "zh-Hans": "随机播放",
+            "ko": "셔플",
+            "nl": "Willekeurig afspelen",
+            "sv": "Blanda",
+            "da": "Bland",
+            "nb": "Tilfeldig rekkefølge",
+            "fi": "Sekoita",
+            "pl": "Losowo",
+            "hi": "शफ़ल",
+            "zh-Hant": "隨機播放"
+          },
+          "keys": "cmd+s"
+        },
+        {
+          "title": {
+            "en": "Repeat",
+            "es": "Repetir",
+            "fr": "Répéter",
+            "de": "Wiederholen",
+            "it": "Ripeti",
+            "pt-BR": "Repetir",
+            "ja": "リピート",
+            "zh-Hans": "重复播放",
+            "ko": "반복",
+            "nl": "Herhalen",
+            "sv": "Upprepa",
+            "da": "Gentag",
+            "nb": "Gjenta",
+            "fi": "Toista uudelleen",
+            "pl": "Powtarzaj",
+            "hi": "दोहराएं",
+            "zh-Hant": "重複播放"
+          },
+          "keys": "cmd+r"
+        },
+        {
+          "title": {
+            "en": "Like the current song",
+            "es": "Me gusta la canción actual",
+            "fr": "Aimer le titre en cours",
+            "de": "Aktuellen Song liken",
+            "it": "Mi piace il brano attuale",
+            "pt-BR": "Curtir a música atual",
+            "ja": "再生中の曲に「いいね」",
+            "zh-Hans": "喜欢当前歌曲",
+            "ko": "현재 곡 좋아요",
+            "nl": "Huidig nummer leuk vinden",
+            "sv": "Gilla aktuell låt",
+            "da": "Synes godt om aktuel sang",
+            "nb": "Lik gjeldende sang",
+            "fi": "Tykkää nykyisestä kappaleesta",
+            "pl": "Polub bieżący utwór",
+            "hi": "मौजूदा गाना पसंद करें",
+            "zh-Hant": "喜歡目前歌曲"
+          },
+          "keys": "alt+shift+b"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Navigation",
+        "es": "Navegación",
+        "fr": "Navigation",
+        "de": "Navigation",
+        "it": "Navigazione",
+        "pt-BR": "Navegação",
+        "ja": "ナビゲーション",
+        "zh-Hans": "导航",
+        "ko": "탐색",
+        "nl": "Navigatie",
+        "sv": "Navigering",
+        "da": "Navigation",
+        "nb": "Navigasjon",
+        "fi": "Navigointi",
+        "pl": "Nawigacja",
+        "hi": "नेविगेशन",
+        "zh-Hant": "導覽"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Search",
+            "es": "Buscar",
+            "fr": "Rechercher",
+            "de": "Suchen",
+            "it": "Cerca",
+            "pt-BR": "Pesquisar",
+            "ja": "検索",
+            "zh-Hans": "搜索",
+            "ko": "검색",
+            "nl": "Zoeken",
+            "sv": "Sök",
+            "da": "Søg",
+            "nb": "Søk",
+            "fi": "Haku",
+            "pl": "Szukaj",
+            "hi": "खोजें",
+            "zh-Hant": "搜尋"
+          },
+          "keys": "cmd+k"
+        },
+        {
+          "title": {
+            "en": "Focus the search box",
+            "es": "Ir al cuadro de búsqueda",
+            "fr": "Placer le curseur dans la recherche",
+            "de": "Suchfeld aktivieren",
+            "it": "Vai alla casella di ricerca",
+            "pt-BR": "Ir para a caixa de pesquisa",
+            "ja": "検索ボックスに移動",
+            "zh-Hans": "聚焦搜索框",
+            "ko": "검색창으로 이동",
+            "nl": "Naar zoekvak gaan",
+            "sv": "Gå till sökrutan",
+            "da": "Gå til søgefeltet",
+            "nb": "Gå til søkefeltet",
+            "fi": "Siirry hakukenttään",
+            "pl": "Przejdź do pola wyszukiwania",
+            "hi": "खोज बॉक्स पर जाएं",
+            "zh-Hant": "聚焦搜尋框"
+          },
+          "keys": "cmd+l"
+        },
+        {
+          "title": {
+            "en": "Go back",
+            "es": "Atrás",
+            "fr": "Retour",
+            "de": "Zurück",
+            "it": "Indietro",
+            "pt-BR": "Voltar",
+            "ja": "戻る",
+            "zh-Hans": "后退",
+            "ko": "뒤로",
+            "nl": "Terug",
+            "sv": "Bakåt",
+            "da": "Tilbage",
+            "nb": "Tilbake",
+            "fi": "Takaisin",
+            "pl": "Wstecz",
+            "hi": "वापस जाएं",
+            "zh-Hant": "返回"
+          },
+          "keys": "cmd+alt+left"
+        },
+        {
+          "title": {
+            "en": "Go forward",
+            "es": "Adelante",
+            "fr": "Avancer",
+            "de": "Vorwärts",
+            "it": "Avanti",
+            "pt-BR": "Avançar",
+            "ja": "進む",
+            "zh-Hans": "前进",
+            "ko": "앞으로",
+            "nl": "Vooruit",
+            "sv": "Framåt",
+            "da": "Frem",
+            "nb": "Fremover",
+            "fi": "Eteenpäin",
+            "pl": "Dalej",
+            "hi": "आगे जाएं",
+            "zh-Hant": "前往"
+          },
+          "keys": "cmd+alt+right"
+        },
+        {
+          "title": {
+            "en": "New playlist",
+            "es": "Nueva lista",
+            "fr": "Nouvelle playlist",
+            "de": "Neue Playlist",
+            "it": "Nuova playlist",
+            "pt-BR": "Nova playlist",
+            "ja": "新規プレイリスト",
+            "zh-Hans": "新建播放列表",
+            "ko": "새 플레이리스트",
+            "nl": "Nieuwe afspeellijst",
+            "sv": "Ny spellista",
+            "da": "Ny afspilningsliste",
+            "nb": "Ny spilleliste",
+            "fi": "Uusi soittolista",
+            "pl": "Nowa playlista",
+            "hi": "नई प्लेलिस्ट",
+            "zh-Hant": "新增播放清單"
+          },
+          "keys": "cmd+n"
+        },
+        {
+          "title": {
+            "en": "Open the Now Playing view",
+            "es": "Abrir Reproduciendo ahora",
+            "fr": "Ouvrir En cours de lecture",
+            "de": "Ansicht Aktuelle Wiedergabe öffnen",
+            "it": "Apri In riproduzione",
+            "pt-BR": "Abrir Tocando agora",
+            "ja": "再生中ビューを開く",
+            "zh-Hans": "打开正在播放视图",
+            "ko": "지금 재생 중 보기 열기",
+            "nl": "Nu-afspelen-weergave openen",
+            "sv": "Öppna Spelas nu",
+            "da": "Åbn Afspiller nu",
+            "nb": "Åpne Spilles nå",
+            "fi": "Avaa Nyt soi -näkymä",
+            "pl": "Otwórz widok Teraz odtwarzane",
+            "hi": "अभी चल रहा है दृश्य खोलें",
+            "zh-Hant": "開啟正在播放檢視"
+          },
+          "keys": "cmd+shift+w"
+        }
+      ]
+    }
+  ]
+}

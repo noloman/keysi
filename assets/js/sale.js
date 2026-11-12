@@ -12,14 +12,20 @@
  * showing the old price struck through. The base price in the HTML never
  * changes, so site-check's price guard and the structured data stay right.
  *
- * To run another sale: change the constants below and the Gumroad code.
+ * The app runs the same sale from 1.0.37 (PromoOffer in
+ * Keysi/Core/LicenseConfig.swift), and LicenseConfigTests reads CODE,
+ * SALE_PRICE, FULL_PRICE, SALE_START and SALE_END back from this file, so
+ * keep their exact shape.
+ *
+ * To run another sale: change the constants below, the app's PromoOffer and
+ * the Gumroad code.
  * To remove this one for good: delete this file and its <script> tags.
  * No analytics event, same reason as copy.js: privacy.html promises nothing else.
  */
 (function () {
   "use strict";
 
-  var SALE_START = Date.UTC(2026, 10, 24, 0, 0, 0);  // Mon 24 Nov 2026
+  var SALE_START = Date.UTC(2026, 10, 24, 0, 0, 0);  // Tue 24 Nov 2026
   var SALE_END = Date.UTC(2026, 11, 1, 8, 0, 0);     // Cyber Monday ends 1 Dec 08:00 UTC (midnight Pacific)
   var CODE = "BLACKFRIDAY26";
   var SALE_PRICE = "$10.49";
