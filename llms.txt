@@ -17,7 +17,8 @@ learning plans and progress.
 ## Important pages
 
 - [Download and product overview](https://keysi.io/)
-- [Pricing](https://keysi.io/pricing.md)
+- [Pricing](https://keysi.io/pricing.html)
+- [Machine-readable pricing](https://keysi.io/pricing.md)
 - [CheatSheet alternative](https://keysi.io/cheatsheet-alternative.html)
 - [KeyCue alternative](https://keysi.io/keycue-alternative.html)
 - [KeyClu comparison](https://keysi.io/keyclu-vs-keysi.html)
