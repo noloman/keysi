@@ -3,6 +3,48 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.39</title>
+            <pubDate>Mon, 16 Nov 2026 16:29:39 +0100</pubDate>
+            <sparkle:version>40</sparkle:version>
+            <sparkle:shortVersionString>1.0.39</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>One new feature and two changes.</p>
+<ul>
+  <li>After activating Keysi Pro, Settings offers a clear first step: start a Practice drill or open Coach settings.</li>
+  <li>Welcome now makes a ready three-shortcut Practice drill the default next step, while keeping Done available when you want to finish setup.</li>
+  <li>Practice now closes with Escape from every stage of a drill, including loading, empty, answer and results screens.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.39.zip" length="7415804" type="application/octet-stream" sparkle:edSignature="mbwQTYtl/pfcieH8jPHw2aeJTrZxvPMLX2bv8f2jFC+aDeSYVi/Bk+nZmiiJ75tg/GhjIUsq6+ngaryWGSn0Cw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi40-39.delta" sparkle:deltaFrom="39" length="602150" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="8Y25nGGedzD8F4BwHSmq6SnLyVIf+whu6ujYqVmc8S9Dcp7FhbP36MTkDqXeq1b5d4qnrYAncweUy9to71mOBw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi40-38.delta" sparkle:deltaFrom="38" length="783086" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="ZfYrLxPUOZD3vG9K/ayBIVmtRLiS3fAerpg8K51BxssdItr6b75GxISkP9ggUxyhfx4CV9kaR1TpXzN5Nmo+Ag=="/>
+                <enclosure url="https://keysi.io/releases/Keysi40-37.delta" sparkle:deltaFrom="37" length="1105410" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="igx/FIVhu+iLYtW0ebe2KkX9zD1VcehIZzsTHAzfodo9WXNviVi0UISGKyLWG3j3mvfB6Kn1C483xWmOeWg8Aw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi40-36.delta" sparkle:deltaFrom="36" length="1155562" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="ipH77YQpkrJcGOktEI4aB6LPJUQ/CHBGb1wIGt/OMayCHc/I+gVHp+fZ6I14Llgc1jdceJIdFfWwvwRHS7B0Aw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi40-35.delta" sparkle:deltaFrom="35" length="1237882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="15o3Td9jqwXqQJwefYpUPPRHU4nLaj0/qI8H94KhgX5guLryVOMnydN2P4TN3eIyJWDYjlDDTVT9GOy4VtPPCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.38</title>
             <pubDate>Mon, 16 Nov 2026 12:36:19 +0100</pubDate>
             <sparkle:version>39</sparkle:version>
