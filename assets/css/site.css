@@ -1360,6 +1360,21 @@ footer.site-footer .fine { margin-top: 18px; font-size: 0.82rem; }
 .error-lede { margin: 0 auto 28px; }
 .error-actions { justify-content: center; }
 
+.activation-steps {
+  max-width: 620px;
+  margin: 42px auto 0;
+  padding: 24px 28px 24px 48px;
+  text-align: left;
+  color: var(--text);
+  background: var(--bg-sunken);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+}
+
+.activation-steps li { padding: 8px 0 8px 8px; }
+.activation-steps li + li { border-top: 1px solid var(--border); }
+.activation-help { max-width: 620px; margin: 18px auto 0; }
+
 /* ---- Language switcher and suggestion banner ------------------------
    Nine languages in the app, one on the site until now. Two surfaces:
 
