@@ -1,0 +1,28 @@
+# Keysi
+
+Keysi is a macOS shortcut-learning app. Hold Command to see the frontmost
+app's live menu shortcuts; the reference is free. Keysi Pro teaches shortcuts
+you repeatedly reach for with the mouse through Coach reminders, Practice,
+learning plans and progress.
+
+## Product facts
+
+- Platform: macOS 14 or later.
+- Free: live shortcut overlay, searchable cheat sheets, no account or time
+  limit.
+- Pro: $14.99 one-time, 14-day trial, up to three Macs, no subscription.
+- Distribution: signed/notarized direct download; licence checkout is Gumroad.
+- Privacy: menu data stays on the Mac. Usage analytics are opt-in.
+
+## Important pages
+
+- [Download and product overview](https://keysi.io/)
+- [Pricing](https://keysi.io/pricing.md)
+- [CheatSheet alternative](https://keysi.io/cheatsheet-alternative.html)
+- [KeyCue alternative](https://keysi.io/keycue-alternative.html)
+- [KeyClu comparison](https://keysi.io/keyclu-vs-keysi.html)
+- [KeyMinder comparison](https://keysi.io/keyminder-vs-keysi.html)
+- [Keyboard shortcut guides](https://keysi.io/shortcuts.html)
+- [Learn keyboard shortcuts on Mac](https://keysi.io/learn-keyboard-shortcuts-mac.html)
+- [Privacy](https://keysi.io/privacy.html)
+- [Integrations](https://keysi.io/integrations.html)
