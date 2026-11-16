@@ -3,6 +3,55 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.38</title>
+            <pubDate>Mon, 16 Nov 2026 12:36:19 +0100</pubDate>
+            <sparkle:version>39</sparkle:version>
+            <sparkle:shortVersionString>1.0.38</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>Five new features, three changes and two fixes.</p>
+<ul>
+  <li>Keysi now shows essential fzf controls when its picker is active in a supported terminal.</li>
+  <li>Keysi now shows essential k9s command-mode shortcuts when you use k9s in a terminal.</li>
+  <li>Keysi now shows essential lazygit shortcuts when you use lazygit in a terminal.</li>
+  <li>After a successful Pro Practice session, you can now open and share your Keysi progress card directly from the results.</li>
+  <li>Keysi now shows essential shell line-editing shortcuts in zsh, bash and fish.</li>
+  <li>After Keysi notices your first mouse-to-shortcut moment, Coach settings now explain how Pro’s reminders help you use it next time.</li>
+  <li>After your free daily Practice drill, Keysi now focuses the Pro screen on unlimited practice, progress and learning plans.</li>
+  <li>Welcome now offers a focused three-shortcut Practice session immediately after setup, using commands from the app you were working in.</li>
+  <li>Keysi Pro settings now link to the official purchase-recovery guide when you cannot find your license key.</li>
+  <li>Trial-expiry messages now clearly distinguish the free shortcut overlay from Pro-only coaching and integrations.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.38.zip" length="7405385" type="application/octet-stream" sparkle:edSignature="KgmznTo+milGX3xN3Al2pYq+V+hh5SyR4/IUhAj01K5twh1RjN8M7l49a/j90wtyQ1bW77mOVFn7wQqwPYmAAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi39-38.delta" sparkle:deltaFrom="38" length="704262" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="ZBBklhM7Zm0rd9NkSoEPF/4lCCF2CW1p4sd+HC/AeaeIwzeoj4HkAHhihM6tTD8jSsUqSX+qfSDA+JEe5H+JCA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi39-37.delta" sparkle:deltaFrom="37" length="1070506" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="gNEAOT62LoioH3Z5YKZmrfZJBr752oySDVo8vhwjiWEPnaJgRZ1DHfw0eVKUMm0cvIvZ84HdVH5M7H+TW4PyBA=="/>
+                <enclosure url="https://keysi.io/releases/Keysi39-36.delta" sparkle:deltaFrom="36" length="1118842" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="6GqDTBI2NEdkcmUvLMwBRRQyQyiHkb0zjRgenbaXmHf2wTynb/ReIGalwXHOdjPEb8tjupaeheQMxXbWWVvECw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi39-35.delta" sparkle:deltaFrom="35" length="1203198" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="QOOEQhivNm8fMxQcPU9iITjPQH+65jJycW6eLVpceEf7yfcage46WEAIJfTAWaYC2s1BZQn7uhdwwbbpdSCaCQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi39-34.delta" sparkle:deltaFrom="34" length="1205166" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="WdtIDl5C9unY4PR17aQP7QeTUyotP+U/xAVoOidPX30DaNa8hDgMjxhv+EWjsyDQ5NeDVpf5kesC8JDyJnCACA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.37</title>
             <pubDate>Thu, 12 Nov 2026 14:20:58 +0100</pubDate>
             <sparkle:version>38</sparkle:version>
