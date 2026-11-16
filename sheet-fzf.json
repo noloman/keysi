@@ -1,0 +1,18 @@
+{
+  "id": "fzf",
+  "name": {"en":"fzf Essentials","es":"fzf Essentials","fr":"fzf Essentials","de":"fzf Essentials","it":"fzf Essentials","pt-BR":"fzf Essentials","ja":"fzf Essentials","zh-Hans":"fzf Essentials","ko":"fzf Essentials","nl":"fzf Essentials","sv":"fzf Essentials","da":"fzf Essentials","nb":"fzf Essentials","fi":"fzf Essentials","pl":"fzf Essentials","hi":"fzf Essentials","zh-Hant":"fzf Essentials"},
+  "match": {"bundleIDs": [], "processNames": ["fzf"]},
+  "mode": "augment",
+  "priority": 100,
+  "groups": [{
+    "title": {"en":"Selection","es":"Selección","fr":"Sélection","de":"Auswahl","it":"Selezione","pt-BR":"Seleção","ja":"選択","zh-Hans":"选择","ko":"선택","nl":"Selectie","sv":"Markering","da":"Markering","nb":"Valg","fi":"Valinta","pl":"Wybór","hi":"चयन","zh-Hant":"選取"},
+    "items": [
+      {"title":{"en":"Accept selection","es":"Aceptar selección","fr":"Valider la sélection","de":"Auswahl übernehmen","it":"Accetta selezione","pt-BR":"Aceitar seleção","ja":"選択を決定","zh-Hans":"确认选择","ko":"선택 수락","nl":"Selectie bevestigen","sv":"Bekräfta markering","da":"Acceptér markering","nb":"Godta valg","fi":"Hyväksy valinta","pl":"Zatwierdź wybór","hi":"चयन स्वीकार करें","zh-Hant":"確認選取"},"keys":"enter","raw":false},
+      {"title":{"en":"Cancel","es":"Cancelar","fr":"Annuler","de":"Abbrechen","it":"Annulla","pt-BR":"Cancelar","ja":"キャンセル","zh-Hans":"取消","ko":"취소","nl":"Annuleren","sv":"Avbryt","da":"Annuller","nb":"Avbryt","fi":"Peruuta","pl":"Anuluj","hi":"रद्द करें","zh-Hant":"取消"},"keys":"esc","raw":false},
+      {"title":{"en":"Select or deselect result","es":"Seleccionar o deseleccionar resultado","fr":"Sélectionner ou désélectionner le résultat","de":"Ergebnis auswählen oder abwählen","it":"Seleziona o deseleziona risultato","pt-BR":"Selecionar ou desmarcar resultado","ja":"結果を選択または解除","zh-Hans":"选择或取消选择结果","ko":"결과 선택 또는 선택 해제","nl":"Resultaat selecteren of deselecteren","sv":"Markera eller avmarkera resultat","da":"Vælg eller fravælg resultat","nb":"Velg eller fjern valg av resultat","fi":"Valitse tai poista tuloksen valinta","pl":"Wybierz lub odznacz wynik","hi":"परिणाम चुनें या हटाएँ","zh-Hant":"選取或取消選取結果"},"keys":"tab","raw":false},
+      {"title":{"en":"Move down","es":"Bajar","fr":"Descendre","de":"Nach unten","it":"Sposta giù","pt-BR":"Mover para baixo","ja":"下へ移動","zh-Hans":"向下移动","ko":"아래로 이동","nl":"Omlaag","sv":"Flytta ned","da":"Flyt ned","nb":"Flytt ned","fi":"Siirry alas","pl":"Przejdź w dół","hi":"नीचे जाएँ","zh-Hant":"向下移動"},"keys":"ctrl+j","raw":false},
+      {"title":{"en":"Move up","es":"Subir","fr":"Monter","de":"Nach oben","it":"Sposta su","pt-BR":"Mover para cima","ja":"上へ移動","zh-Hans":"向上移动","ko":"위로 이동","nl":"Omhoog","sv":"Flytta upp","da":"Flyt op","nb":"Flytt opp","fi":"Siirry ylös","pl":"Przejdź w górę","hi":"ऊपर जाएँ","zh-Hant":"向上移動"},"keys":"ctrl+k","raw":false},
+      {"title":{"en":"Clear query","es":"Borrar consulta","fr":"Effacer la requête","de":"Suchanfrage löschen","it":"Cancella query","pt-BR":"Limpar consulta","ja":"検索語を消去","zh-Hans":"清除查询","ko":"검색어 지우기","nl":"Zoekopdracht wissen","sv":"Rensa sökning","da":"Ryd søgning","nb":"Tøm søk","fi":"Tyhjennä haku","pl":"Wyczyść zapytanie","hi":"खोज साफ़ करें","zh-Hant":"清除查詢"},"keys":"ctrl+u","raw":false}
+    ]
+  }]
+}
