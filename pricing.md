@@ -10,7 +10,7 @@
 ## Keysi Pro
 
 - Price: $14.99 one-time.
-- Trial: 14 days.
+- Trial: 14 days of Pro, followed by a 7-day Pro grace period.
 - Licence: up to three Macs.
 - Includes: Shortcut Coach reminders, unlimited Practice, learning plans,
   progress, weekly digest, desktop-picture shortcut export, and integrations

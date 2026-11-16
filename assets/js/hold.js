@@ -180,7 +180,7 @@
     {
       title: T.groups[1],
       items: [
-        { label: T.items[3], href: "https://github.com/noloman/keysi/releases/latest" },
+{ label: T.items[3], href: "https://github.com/noloman/keysi/releases/latest/download/Keysi.dmg" },
         { label: T.items[4], href: "changelog.html" }
       ]
     },
