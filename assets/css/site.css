@@ -1354,6 +1354,10 @@ footer.site-footer .fine { margin-top: 18px; font-size: 0.82rem; }
    could not be reused, could not be themed, and could not be found. */
 .price-sub { color: var(--text-secondary); margin-bottom: 0; }
 .price-note { color: var(--text-secondary); font-size: 0.85rem; margin: 0 0 0.5rem; }
+.buyer-quote { margin: 18px 0 8px; padding: 14px 16px; border: 1px solid var(--border); border-radius: 12px; background: var(--bg-elevated); }
+.buyer-quote .buyer-stars { color: #e8a317; letter-spacing: 2px; font-size: 1rem; }
+.buyer-quote blockquote { margin: 6px 0 4px; font-size: 1.05rem; font-style: italic; }
+.buyer-quote figcaption { color: var(--text-secondary); font-size: 0.82rem; }
 .price-after { color: var(--text-secondary); font-size: 0.9rem; margin: 0.75rem 0 0; }
 .compare-links { margin-top: 14px; }
 .faq-list { max-width: 66ch; margin-top: 28px; }
