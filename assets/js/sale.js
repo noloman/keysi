@@ -108,6 +108,29 @@
     if (big) big.textContent = big.textContent.replace(FULL_PRICE, SALE_PRICE);
   }
 
-  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
-  else init();
+  // Every other visible mention of the full price says the sale price for
+  // the length of the sale, so a page never shows $10.49 in one place and
+  // $14.99 in another. Text only: the HTML, the structured data and the
+  // meta tags keep the real price, which is what site-check guards. The
+  // struck-through "was" price stays, and so does the changelog, which is
+  // history.
+  function repriceText() {
+    if (/changelog\.html$/.test(location.pathname)) return;
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null);
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function (n) {
+      if (n.nodeValue.indexOf(FULL_PRICE) === -1) return;
+      var el = n.parentNode;
+      if (!el || /^(SCRIPT|STYLE|NOSCRIPT)$/.test(el.tagName)) return;
+      if (el.closest("s, .price-was")) return;
+      n.nodeValue = n.nodeValue.split(FULL_PRICE).join(SALE_PRICE);
+    });
+    document.title = document.title.split(FULL_PRICE).join(SALE_PRICE);
+  }
+
+  function start() { init(); repriceText(); }
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", start);
+  else start();
 })();
