@@ -23,7 +23,10 @@
     "bundleIDs": [
       "com.tinyspeck.slackmacgap"
     ],
-    "processNames": []
+    "processNames": [],
+    "hosts": [
+      "app.slack.com"
+    ]
   },
   "mode": "augment",
   "priority": 50,

@@ -23,7 +23,10 @@
     "bundleIDs": [
       "com.linear"
     ],
-    "processNames": []
+    "processNames": [],
+    "hosts": [
+      "linear.app"
+    ]
   },
   "mode": "augment",
   "priority": 50,

@@ -23,7 +23,10 @@
     "bundleIDs": [
       "com.hnc.Discord"
     ],
-    "processNames": []
+    "processNames": [],
+    "hosts": [
+      "discord.com/channels"
+    ]
   },
   "mode": "augment",
   "priority": 50,

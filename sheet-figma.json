@@ -23,7 +23,11 @@
     "bundleIDs": [
       "com.figma.Desktop"
     ],
-    "processNames": []
+    "processNames": [],
+    "hosts": [
+      "figma.com/design",
+      "figma.com/file"
+    ]
   },
   "mode": "augment",
   "priority": 50,

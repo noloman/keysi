@@ -23,7 +23,11 @@
     "bundleIDs": [
       "notion.id"
     ],
-    "processNames": []
+    "processNames": [],
+    "hosts": [
+      "notion.so",
+      "notion.com"
+    ]
   },
   "mode": "augment",
   "priority": 0,
