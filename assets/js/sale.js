@@ -31,6 +31,8 @@
   var SALE_PRICE = "$10.49";
   var FULL_PRICE = "$14.99";
 
+  var SELF = document.currentScript; // null once the page has loaded, so read it now
+
   // ?sale=preview shows the banner outside the window, for checking only.
   var preview = /[?&]sale=preview\b/.test(location.search);
   var now = Date.now();
@@ -38,7 +40,10 @@
 
   var TEXT = {
     en: { msg: "Black Friday: Keysi Pro is 30% off, " + SALE_PRICE + " once, through Cyber Monday.", cta: "Get Pro for " + SALE_PRICE, free: "The free overlay stays free." },
-    es: { msg: "Black Friday: Keysi Pro con un 30% de descuento, " + SALE_PRICE + " una sola vez, hasta el Cyber Monday.", cta: "Conseguir Pro por " + SALE_PRICE, free: "El panel gratuito sigue siendo gratis." }
+    es: { msg: "Black Friday: Keysi Pro con un 30% de descuento, " + SALE_PRICE + " una sola vez, hasta el Cyber Monday.", cta: "Conseguir Pro por " + SALE_PRICE, free: "El panel gratuito sigue siendo gratis." },
+    de: { msg: "Black Friday: Keysi Pro mit 30 % Rabatt, " + SALE_PRICE + " einmalig, bis Cyber Monday.", cta: "Pro für " + SALE_PRICE, free: "Das kostenlose Overlay bleibt kostenlos." },
+    fr: { msg: "Black Friday : Keysi Pro à -30 %, " + SALE_PRICE + " une seule fois, jusqu'au Cyber Monday.", cta: "Obtenir Pro pour " + SALE_PRICE, free: "L'overlay gratuit reste gratuit." },
+    ja: { msg: "ブラックフライデー: Keysi Pro が30%オフ、" + SALE_PRICE + "（買い切り）、サイバーマンデーまで。", cta: SALE_PRICE + " で Pro を入手", free: "無料のオーバーレイはこれからも無料です。" }
   };
   var lang = (document.documentElement.lang || "en").slice(0, 2);
   var t = TEXT[lang] || TEXT.en;
@@ -56,7 +61,16 @@
       a.href = withCode(a.getAttribute("href"));
       if (!buy) buy = a.href.replace(/utm_campaign=[^&]*/, "utm_campaign=black_friday_banner");
     }
-    if (!buy) return;
+    // Most pages (shortcut pages, comparisons, guides) have no Gumroad link
+    // of their own: they send people to the home page's pricing section.
+    // The bar still has to appear there, or the visitors a search brings in
+    // would never hear about the sale, so it points at that section (which
+    // carries the code itself). The site root is read off this script's own
+    // URL, the way analytics.js does it, so locale pages find it too.
+    if (!buy) {
+      var root = SELF && SELF.src ? SELF.src.replace(/assets\/js\/sale\.js(\?.*)?$/, "") : "";
+      buy = root + "?utm_source=keysi-site&utm_medium=website&utm_campaign=black_friday_banner#pricing";
+    }
 
     var bar = document.createElement("div");
     bar.className = "sale-bar";
