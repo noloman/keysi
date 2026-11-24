@@ -3,6 +3,51 @@
     <channel>
         <title>Keysi</title>
         <item>
+            <title>1.0.41</title>
+            <pubDate>Tue, 24 Nov 2026 18:16:13 +0100</pubDate>
+            <sparkle:version>42</sparkle:version>
+            <sparkle:shortVersionString>1.0.41</sparkle:shortVersionString>
+            <description><![CDATA[
+<style>
+:root { color-scheme: light dark; }
+body {
+  font: -apple-system-body, 13px/1.5 -apple-system, "SF Pro Text", sans-serif;
+  margin: 0; padding: 0 2px; color: #1d1d1f;
+}
+p { margin: 0 0 12px; }
+ul { margin: 0; padding-left: 20px; }
+li { margin-bottom: 8px; }
+code {
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 0.92em; background: rgba(0,0,0,0.06);
+  padding: 1px 4px; border-radius: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  code { background: rgba(255,255,255,0.12); }
+}
+</style>
+<p>Five new features and one fix.</p>
+<ul>
+  <li>A custom sheet can now attach to a website: add a web address such as mail.google.com under Advanced in the sheet editor.</li>
+  <li>Practice now helps you find another eligible app when the current app has no shortcuts to drill.</li>
+  <li>Completed Practice drills now offer an optional path to keep learning with Keysi Pro.</li>
+  <li>After you tell Keysi it's working for you, the feedback window offers a link to rate it publicly, which is how other people find it.</li>
+  <li>Hold ⌘ in your browser to see the shortcuts of the web app you have open: Gmail, Google Docs, Sheets, Calendar, GitHub and YouTube are new, Notion, Figma, Slack, Linear and Discord work on the web, and Practice drills them.</li>
+  <li>Reference-only shortcut rows now keep Favorite and Hide actions available to VoiceOver and Full Keyboard Access without pretending the row itself can run a command.</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://keysi.io/releases/Keysi-1.0.41.zip" length="7546678" type="application/octet-stream" sparkle:edSignature="uTYOsSkWjWtamnlpolJU9GIlH2MZ4SY25IV0LKXiuH7MxYdZW9syJ+0aR9ADwxRWW3tvE+iiMMJzjSEBEvm1CQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keysi.io/releases/Keysi42-41.delta" sparkle:deltaFrom="41" length="952578" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="R2O3kIUEwVwEmsEPSjx0/vdoLI1n6WcneC4a+045YW6PY9B1RGmw7NEzucgRBwFNsCUJ6LFa/3XtG2kFY8kkCQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi42-40.delta" sparkle:deltaFrom="40" length="990990" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="vCzGod/YKWGgrv36JlH6H6Xb0PJC+Ttp6D0AG83ZuDdadFTynEXRIPOX2vCXtQtxdG6Kxp3mZ+Mgk1gZ86+2AQ=="/>
+                <enclosure url="https://keysi.io/releases/Keysi42-39.delta" sparkle:deltaFrom="39" length="1011870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="bZFEYa3FXyOZPU4CO6VfjJCcRqMRwk5OLy0nAammbdLoBnDFn44lAm4nfXZg8WUb7V3JyTaFjhnyysEwE2O/Cw=="/>
+                <enclosure url="https://keysi.io/releases/Keysi42-38.delta" sparkle:deltaFrom="38" length="1083270" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="xeEAX0k6wKY8jTGH9XZfbPgVEeOGDwogew0cCB7kWV2bgHUoj3fRNYij8tnXl87HDYvXcsW4Dl4G7dZB3k3vBg=="/>
+                <enclosure url="https://keysi.io/releases/Keysi42-37.delta" sparkle:deltaFrom="37" length="1364058" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="862448" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,en" sparkle:edSignature="EWGlGcuR7iTaIFDDYAkSgYFJqagzzswJshvCEQ7zjQ/Ej9XTku10vfQtaZeb5e8SYiYksa1ReAXSqsdYrPOGCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.40</title>
             <pubDate>Mon, 16 Nov 2026 18:20:48 +0100</pubDate>
             <sparkle:version>41</sparkle:version>
