@@ -1,0 +1,699 @@
+{
+  "id": "confluence",
+  "name": {
+    "en": "Confluence",
+    "es": "Confluence",
+    "fr": "Confluence",
+    "de": "Confluence",
+    "it": "Confluence",
+    "pt-BR": "Confluence",
+    "ja": "Confluence",
+    "zh-Hans": "Confluence",
+    "ko": "Confluence",
+    "nl": "Confluence",
+    "sv": "Confluence",
+    "da": "Confluence",
+    "nb": "Confluence",
+    "fi": "Confluence",
+    "pl": "Confluence",
+    "hi": "Confluence",
+    "zh-Hant": "Confluence"
+  },
+  "match": {
+    "bundleIDs": [],
+    "processNames": [],
+    "hosts": [
+      "*.atlassian.net/wiki"
+    ]
+  },
+  "mode": "augment",
+  "priority": 0,
+  "groups": [
+    {
+      "title": {
+        "en": "Anywhere in Confluence",
+        "es": "En cualquier parte de Confluence",
+        "fr": "Partout dans Confluence",
+        "de": "Überall in Confluence",
+        "it": "Ovunque in Confluence",
+        "pt-BR": "Em qualquer lugar do Confluence",
+        "ja": "Confluence 全体",
+        "zh-Hans": "在 Confluence 中任意位置",
+        "ko": "Confluence 어디서나",
+        "nl": "Overal in Confluence",
+        "sv": "Överallt i Confluence",
+        "da": "Overalt i Confluence",
+        "nb": "Overalt i Confluence",
+        "fi": "Missä tahansa Confluencessa",
+        "pl": "W dowolnym miejscu Confluence",
+        "hi": "Confluence में कहीं भी",
+        "zh-Hant": "在 Confluence 中任何位置"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Show keyboard shortcuts",
+            "es": "Mostrar atajos de teclado",
+            "fr": "Afficher les raccourcis clavier",
+            "de": "Tastenkürzel anzeigen",
+            "it": "Mostra scorciatoie",
+            "pt-BR": "Mostrar atalhos de teclado",
+            "ja": "キーボードショートカットを表示",
+            "zh-Hans": "显示键盘快捷键",
+            "ko": "키보드 단축키 표시",
+            "nl": "Sneltoetsen tonen",
+            "sv": "Visa kortkommandon",
+            "da": "Vis genvejstaster",
+            "nb": "Vis hurtigtaster",
+            "fi": "Näytä pikanäppäimet",
+            "pl": "Pokaż skróty klawiszowe",
+            "hi": "कीबोर्ड शॉर्टकट दिखाएँ",
+            "zh-Hant": "顯示鍵盤快速鍵"
+          },
+          "keys": "ctrl+shift+/"
+        },
+        {
+          "title": {
+            "en": "Quick search",
+            "es": "Búsqueda rápida",
+            "fr": "Recherche rapide",
+            "de": "Schnellsuche",
+            "it": "Ricerca rapida",
+            "pt-BR": "Pesquisa rápida",
+            "ja": "クイック検索",
+            "zh-Hans": "快速搜索",
+            "ko": "빠른 검색",
+            "nl": "Snel zoeken",
+            "sv": "Snabbsökning",
+            "da": "Hurtig søgning",
+            "nb": "Hurtigsøk",
+            "fi": "Pikahaku",
+            "pl": "Szybkie wyszukiwanie",
+            "hi": "त्वरित खोज",
+            "zh-Hant": "快速搜尋"
+          },
+          "keys": "ctrl+alt+z"
+        },
+        {
+          "title": {
+            "en": "Go to Home",
+            "es": "Ir a Inicio",
+            "fr": "Aller à l'accueil",
+            "de": "Zur Startseite",
+            "it": "Vai alla Home",
+            "pt-BR": "Ir para a Página inicial",
+            "ja": "ホームに移動",
+            "zh-Hans": "转到主页",
+            "ko": "홈으로 이동",
+            "nl": "Naar Start",
+            "sv": "Gå till Start",
+            "da": "Gå til Start",
+            "nb": "Gå til Hjem",
+            "fi": "Siirry etusivulle",
+            "pl": "Przejdź do strony głównej",
+            "hi": "होम पर जाएँ",
+            "zh-Hant": "前往首頁"
+          },
+          "keys": "alt+cmd+h"
+        },
+        {
+          "title": {
+            "en": "Open notifications",
+            "es": "Abrir notificaciones",
+            "fr": "Ouvrir les notifications",
+            "de": "Benachrichtigungen öffnen",
+            "it": "Apri le notifiche",
+            "pt-BR": "Abrir notificações",
+            "ja": "通知を開く",
+            "zh-Hans": "打开通知",
+            "ko": "알림 열기",
+            "nl": "Meldingen openen",
+            "sv": "Öppna aviseringar",
+            "da": "Åbn notifikationer",
+            "nb": "Åpne varsler",
+            "fi": "Avaa ilmoitukset",
+            "pl": "Otwórz powiadomienia",
+            "hi": "सूचनाएँ खोलें",
+            "zh-Hant": "開啟通知"
+          },
+          "keys": "alt+cmd+o"
+        },
+        {
+          "title": {
+            "en": "Recent items",
+            "es": "Elementos recientes",
+            "fr": "Éléments récents",
+            "de": "Zuletzt verwendet",
+            "it": "Elementi recenti",
+            "pt-BR": "Itens recentes",
+            "ja": "最近のアイテム",
+            "zh-Hans": "最近的项目",
+            "ko": "최근 항목",
+            "nl": "Recente items",
+            "sv": "Senaste objekt",
+            "da": "Seneste elementer",
+            "nb": "Nylige elementer",
+            "fi": "Viimeisimmät kohteet",
+            "pl": "Ostatnie elementy",
+            "hi": "हाल के आइटम",
+            "zh-Hant": "最近的項目"
+          },
+          "keys": "alt+cmd+g"
+        },
+        {
+          "title": {
+            "en": "Starred items",
+            "es": "Elementos destacados",
+            "fr": "Éléments favoris",
+            "de": "Markierte Elemente",
+            "it": "Elementi speciali",
+            "pt-BR": "Itens com estrela",
+            "ja": "スター付きアイテム",
+            "zh-Hans": "已加星标的项目",
+            "ko": "별표 표시한 항목",
+            "nl": "Items met ster",
+            "sv": "Stjärnmärkta objekt",
+            "da": "Stjernemarkerede elementer",
+            "nb": "Stjernemerkede elementer",
+            "fi": "Tähdellä merkityt kohteet",
+            "pl": "Elementy oznaczone gwiazdką",
+            "hi": "तारांकित आइटम",
+            "zh-Hant": "已加星號的項目"
+          },
+          "keys": "alt+cmd+8"
+        },
+        {
+          "title": {
+            "en": "Toggle sidebar",
+            "es": "Mostrar u ocultar barra lateral",
+            "fr": "Afficher ou masquer la barre latérale",
+            "de": "Seitenleiste ein- oder ausblenden",
+            "it": "Mostra o nascondi barra laterale",
+            "pt-BR": "Mostrar ou ocultar barra lateral",
+            "ja": "サイドバーの表示切替",
+            "zh-Hans": "切换侧边栏",
+            "ko": "사이드바 전환",
+            "nl": "Zijbalk tonen of verbergen",
+            "sv": "Visa eller dölj sidofält",
+            "da": "Vis eller skjul sidepanel",
+            "nb": "Vis eller skjul sidepanel",
+            "fi": "Näytä tai piilota sivupalkki",
+            "pl": "Przełącz pasek boczny",
+            "hi": "साइडबार टॉगल करें",
+            "zh-Hant": "切換側邊欄"
+          },
+          "keys": "ctrl+["
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Pages",
+        "es": "Páginas",
+        "fr": "Pages",
+        "de": "Seiten",
+        "it": "Pagine",
+        "pt-BR": "Páginas",
+        "ja": "ページ",
+        "zh-Hans": "页面",
+        "ko": "페이지",
+        "nl": "Pagina's",
+        "sv": "Sidor",
+        "da": "Sider",
+        "nb": "Sider",
+        "fi": "Sivut",
+        "pl": "Strony",
+        "hi": "पेज",
+        "zh-Hant": "頁面"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Create a page",
+            "es": "Crear una página",
+            "fr": "Créer une page",
+            "de": "Seite erstellen",
+            "it": "Crea una pagina",
+            "pt-BR": "Criar uma página",
+            "ja": "ページを作成",
+            "zh-Hans": "创建页面",
+            "ko": "페이지 만들기",
+            "nl": "Een pagina maken",
+            "sv": "Skapa en sida",
+            "da": "Opret en side",
+            "nb": "Opprett en side",
+            "fi": "Luo sivu",
+            "pl": "Utwórz stronę",
+            "hi": "पेज बनाएँ",
+            "zh-Hant": "建立頁面"
+          },
+          "keys": "ctrl+alt+c"
+        },
+        {
+          "title": {
+            "en": "Create a blog post",
+            "es": "Crear una entrada de blog",
+            "fr": "Créer un article de blog",
+            "de": "Blogbeitrag erstellen",
+            "it": "Crea un post del blog",
+            "pt-BR": "Criar uma postagem de blog",
+            "ja": "ブログ投稿を作成",
+            "zh-Hans": "创建博文",
+            "ko": "블로그 게시물 만들기",
+            "nl": "Een blogbericht maken",
+            "sv": "Skapa ett blogginlägg",
+            "da": "Opret et blogindlæg",
+            "nb": "Opprett et blogginnlegg",
+            "fi": "Luo blogikirjoitus",
+            "pl": "Utwórz wpis na blogu",
+            "hi": "ब्लॉग पोस्ट बनाएँ",
+            "zh-Hant": "建立部落格文章"
+          },
+          "keys": "alt+shift+cmd+b"
+        },
+        {
+          "title": {
+            "en": "Edit",
+            "es": "Editar",
+            "fr": "Édition",
+            "de": "Bearbeiten",
+            "it": "Modifica",
+            "pt-BR": "Editar",
+            "ja": "編集",
+            "zh-Hans": "编辑",
+            "ko": "편집",
+            "nl": "Bewerken",
+            "sv": "Redigera",
+            "da": "Rediger",
+            "nb": "Rediger",
+            "fi": "Muokkaa",
+            "pl": "Edycja",
+            "hi": "संपादित करें",
+            "zh-Hant": "編輯"
+          },
+          "keys": "e",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Publish",
+            "es": "Publicar",
+            "fr": "Publier",
+            "de": "Veröffentlichen",
+            "it": "Pubblica",
+            "pt-BR": "Publicar",
+            "ja": "公開",
+            "zh-Hans": "发布",
+            "ko": "게시",
+            "nl": "Publiceren",
+            "sv": "Publicera",
+            "da": "Udgiv",
+            "nb": "Publiser",
+            "fi": "Julkaise",
+            "pl": "Opublikuj",
+            "hi": "प्रकाशित करें",
+            "zh-Hant": "發佈"
+          },
+          "keys": "cmd+return"
+        },
+        {
+          "title": {
+            "en": "Publish with a note",
+            "es": "Publicar con una nota",
+            "fr": "Publier avec une note",
+            "de": "Mit Anmerkung veröffentlichen",
+            "it": "Pubblica con una nota",
+            "pt-BR": "Publicar com uma observação",
+            "ja": "メモを付けて公開",
+            "zh-Hans": "附带备注发布",
+            "ko": "메모와 함께 게시",
+            "nl": "Publiceren met een notitie",
+            "sv": "Publicera med en anteckning",
+            "da": "Udgiv med en note",
+            "nb": "Publiser med et notat",
+            "fi": "Julkaise huomautuksen kanssa",
+            "pl": "Opublikuj z notatką",
+            "hi": "नोट के साथ प्रकाशित करें",
+            "zh-Hant": "附上備註發佈"
+          },
+          "keys": "shift+cmd+return"
+        },
+        {
+          "title": {
+            "en": "Watch",
+            "es": "Seguir",
+            "fr": "Suivre",
+            "de": "Beobachten",
+            "it": "Osserva",
+            "pt-BR": "Acompanhar",
+            "ja": "ウォッチ",
+            "zh-Hans": "关注",
+            "ko": "보기",
+            "nl": "Volgen",
+            "sv": "Bevaka",
+            "da": "Følg",
+            "nb": "Følg",
+            "fi": "Seuraa",
+            "pl": "Obserwuj",
+            "hi": "देखें",
+            "zh-Hant": "關注"
+          },
+          "keys": "alt+cmd+w"
+        },
+        {
+          "title": {
+            "en": "Share",
+            "es": "Compartir",
+            "fr": "Partager",
+            "de": "Teilen",
+            "it": "Condividi",
+            "pt-BR": "Compartilhar",
+            "ja": "共有",
+            "zh-Hans": "共享",
+            "ko": "공유",
+            "nl": "Delen",
+            "sv": "Dela",
+            "da": "Del",
+            "nb": "Del",
+            "fi": "Jaa",
+            "pl": "Udostępnij",
+            "hi": "शेयर करें",
+            "zh-Hant": "共用"
+          },
+          "keys": "alt+cmd+s"
+        },
+        {
+          "title": {
+            "en": "Edit labels",
+            "es": "Editar etiquetas",
+            "fr": "Modifier les étiquettes",
+            "de": "Labels bearbeiten",
+            "it": "Modifica etichette",
+            "pt-BR": "Editar etiquetas",
+            "ja": "ラベルを編集",
+            "zh-Hans": "编辑标签",
+            "ko": "레이블 편집",
+            "nl": "Labels bewerken",
+            "sv": "Redigera etiketter",
+            "da": "Rediger etiketter",
+            "nb": "Rediger etiketter",
+            "fi": "Muokkaa tunnisteita",
+            "pl": "Edytuj etykiety",
+            "hi": "लेबल संपादित करें",
+            "zh-Hant": "編輯標籤"
+          },
+          "keys": "ctrl+alt+a"
+        },
+        {
+          "title": {
+            "en": "Presenter mode",
+            "es": "Modo presentador",
+            "fr": "Mode présentateur",
+            "de": "Präsentationsmodus",
+            "it": "Modalità relatore",
+            "pt-BR": "Modo apresentador",
+            "ja": "プレゼンター モード",
+            "zh-Hans": "演示者模式",
+            "ko": "발표자 모드",
+            "nl": "Presentatiemodus",
+            "sv": "Presentatörsläge",
+            "da": "Præsentationstilstand",
+            "nb": "Presentasjonsmodus",
+            "fi": "Esittäjätila",
+            "pl": "Tryb prezentera",
+            "hi": "प्रस्तुतकर्ता मोड",
+            "zh-Hant": "簡報者模式"
+          },
+          "keys": "alt+cmd+r"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Comments",
+        "es": "Comentarios",
+        "fr": "Commentaires",
+        "de": "Kommentare",
+        "it": "Commenti",
+        "pt-BR": "Comentários",
+        "ja": "コメント",
+        "zh-Hans": "评论",
+        "ko": "댓글",
+        "nl": "Opmerkingen",
+        "sv": "Kommentarer",
+        "da": "Kommentarer",
+        "nb": "Kommentarer",
+        "fi": "Kommentit",
+        "pl": "Komentarze",
+        "hi": "टिप्पणियाँ",
+        "zh-Hant": "留言"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Add a comment",
+            "es": "Añadir un comentario",
+            "fr": "Ajouter un commentaire",
+            "de": "Kommentar hinzufügen",
+            "it": "Aggiungi un commento",
+            "pt-BR": "Adicionar um comentário",
+            "ja": "コメントを追加",
+            "zh-Hans": "添加评论",
+            "ko": "댓글 추가",
+            "nl": "Een opmerking toevoegen",
+            "sv": "Lägg till en kommentar",
+            "da": "Tilføj en kommentar",
+            "nb": "Legg til en kommentar",
+            "fi": "Lisää kommentti",
+            "pl": "Dodaj komentarz",
+            "hi": "टिप्पणी जोड़ें",
+            "zh-Hant": "加入留言"
+          },
+          "keys": "alt+cmd+c"
+        },
+        {
+          "title": {
+            "en": "Next comment",
+            "es": "Comentario siguiente",
+            "fr": "Commentaire suivant",
+            "de": "Nächster Kommentar",
+            "it": "Commento successivo",
+            "pt-BR": "Próximo comentário",
+            "ja": "次のコメント",
+            "zh-Hans": "下一条评论",
+            "ko": "다음 댓글",
+            "nl": "Volgende opmerking",
+            "sv": "Nästa kommentar",
+            "da": "Næste kommentar",
+            "nb": "Neste kommentar",
+            "fi": "Seuraava kommentti",
+            "pl": "Następny komentarz",
+            "hi": "अगली टिप्पणी",
+            "zh-Hant": "下一則留言"
+          },
+          "keys": "ctrl+."
+        },
+        {
+          "title": {
+            "en": "Previous comment",
+            "es": "Comentario anterior",
+            "fr": "Commentaire précédent",
+            "de": "Vorheriger Kommentar",
+            "it": "Commento precedente",
+            "pt-BR": "Comentário anterior",
+            "ja": "前のコメント",
+            "zh-Hans": "上一条评论",
+            "ko": "이전 댓글",
+            "nl": "Vorige opmerking",
+            "sv": "Föregående kommentar",
+            "da": "Forrige kommentar",
+            "nb": "Forrige kommentar",
+            "fi": "Edellinen kommentti",
+            "pl": "Poprzedni komentarz",
+            "hi": "पिछली टिप्पणी",
+            "zh-Hant": "上一則留言"
+          },
+          "keys": "ctrl+,"
+        },
+        {
+          "title": {
+            "en": "Next unread comment",
+            "es": "Siguiente comentario no leído",
+            "fr": "Commentaire non lu suivant",
+            "de": "Nächster ungelesener Kommentar",
+            "it": "Commento non letto successivo",
+            "pt-BR": "Próximo comentário não lido",
+            "ja": "次の未読コメント",
+            "zh-Hans": "下一条未读评论",
+            "ko": "다음 읽지 않은 댓글",
+            "nl": "Volgende ongelezen opmerking",
+            "sv": "Nästa olästa kommentar",
+            "da": "Næste ulæste kommentar",
+            "nb": "Neste uleste kommentar",
+            "fi": "Seuraava lukematon kommentti",
+            "pl": "Następny nieprzeczytany komentarz",
+            "hi": "अगली अपठित टिप्पणी",
+            "zh-Hant": "下一則未讀留言"
+          },
+          "keys": "shift+cmd+u"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Formatting",
+        "es": "Formato",
+        "fr": "Mise en forme",
+        "de": "Formatierung",
+        "it": "Formattazione",
+        "pt-BR": "Formatação",
+        "ja": "書式",
+        "zh-Hans": "格式",
+        "ko": "서식",
+        "nl": "Opmaak",
+        "sv": "Formatering",
+        "da": "Formatering",
+        "nb": "Formatering",
+        "fi": "Muotoilu",
+        "pl": "Formatowanie",
+        "hi": "फ़ॉर्मैटिंग",
+        "zh-Hant": "格式"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Normal text",
+            "es": "Texto normal",
+            "fr": "Texte normal",
+            "de": "Normaler Text",
+            "it": "Testo normale",
+            "pt-BR": "Texto normal",
+            "ja": "標準テキスト",
+            "zh-Hans": "正文",
+            "ko": "일반 텍스트",
+            "nl": "Normale tekst",
+            "sv": "Normal text",
+            "da": "Normal tekst",
+            "nb": "Normal tekst",
+            "fi": "Normaali teksti",
+            "pl": "Zwykły tekst",
+            "hi": "सामान्य टेक्स्ट",
+            "zh-Hant": "一般文字"
+          },
+          "keys": "alt+cmd+0"
+        },
+        {
+          "title": {
+            "en": "Numbered list",
+            "es": "Lista numerada",
+            "fr": "Liste numérotée",
+            "de": "Nummerierte Liste",
+            "it": "Elenco numerato",
+            "pt-BR": "Lista numerada",
+            "ja": "番号付きリスト",
+            "zh-Hans": "编号列表",
+            "ko": "번호 매기기 목록",
+            "nl": "Genummerde lijst",
+            "sv": "Numrerad lista",
+            "da": "Nummereret liste",
+            "nb": "Nummerert liste",
+            "fi": "Numeroitu luettelo",
+            "pl": "Lista numerowana",
+            "hi": "क्रमांकित सूची",
+            "zh-Hant": "編號清單"
+          },
+          "keys": "shift+cmd+7"
+        },
+        {
+          "title": {
+            "en": "Bulleted list",
+            "es": "Lista con viñetas",
+            "fr": "Liste à puces",
+            "de": "Aufzählungsliste",
+            "it": "Elenco puntato",
+            "pt-BR": "Lista com marcadores",
+            "ja": "箇条書きリスト",
+            "zh-Hans": "项目符号列表",
+            "ko": "글머리 기호 목록",
+            "nl": "Lijst met opsommingstekens",
+            "sv": "Punktlista",
+            "da": "Punktopstilling",
+            "nb": "Punktliste",
+            "fi": "Luettelomerkeillä varustettu luettelo",
+            "pl": "Lista punktowana",
+            "hi": "बुलेट सूची",
+            "zh-Hant": "項目符號清單"
+          },
+          "keys": "shift+cmd+8"
+        },
+        {
+          "title": {
+            "en": "Quote",
+            "es": "Cita",
+            "fr": "Citation",
+            "de": "Zitat",
+            "it": "Citazione",
+            "pt-BR": "Citação",
+            "ja": "引用",
+            "zh-Hans": "引用",
+            "ko": "인용",
+            "nl": "Citaat",
+            "sv": "Citat",
+            "da": "Citat",
+            "nb": "Sitat",
+            "fi": "Lainaus",
+            "pl": "Cytat",
+            "hi": "उद्धरण",
+            "zh-Hant": "引用"
+          },
+          "keys": "shift+cmd+9"
+        },
+        {
+          "title": {
+            "en": "Insert a link",
+            "es": "Insertar un enlace",
+            "fr": "Insérer un lien",
+            "de": "Link einfügen",
+            "it": "Inserisci un link",
+            "pt-BR": "Inserir um link",
+            "ja": "リンクを挿入",
+            "zh-Hans": "插入链接",
+            "ko": "링크 삽입",
+            "nl": "Een link invoegen",
+            "sv": "Infoga en länk",
+            "da": "Indsæt et link",
+            "nb": "Sett inn en lenke",
+            "fi": "Lisää linkki",
+            "pl": "Wstaw link",
+            "hi": "लिंक डालें",
+            "zh-Hant": "插入連結"
+          },
+          "keys": "cmd+k"
+        },
+        {
+          "title": {
+            "en": "Insert any block",
+            "es": "Insertar cualquier bloque",
+            "fr": "Insérer n’importe quel bloc",
+            "de": "Beliebigen Block einfügen",
+            "it": "Inserisci un blocco qualsiasi",
+            "pt-BR": "Inserir qualquer bloco",
+            "ja": "任意のブロックを挿入",
+            "zh-Hans": "插入任意块",
+            "ko": "블록 삽입",
+            "nl": "Een willekeurig blok invoegen",
+            "sv": "Infoga valfritt block",
+            "da": "Indsæt en vilkårlig blok",
+            "nb": "Sett inn en hvilken som helst blokk",
+            "fi": "Lisää mikä tahansa lohko",
+            "pl": "Wstaw dowolny blok",
+            "hi": "कोई भी ब्लॉक डालें",
+            "zh-Hant": "插入任何區塊"
+          },
+          "keys": "/",
+          "raw": true
+        }
+      ]
+    }
+  ]
+}

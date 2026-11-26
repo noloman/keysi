@@ -1,0 +1,812 @@
+{
+  "id": "google-slides",
+  "name": {
+    "en": "Google Slides",
+    "es": "Google Slides",
+    "fr": "Google Slides",
+    "de": "Google Slides",
+    "it": "Google Slides",
+    "pt-BR": "Google Slides",
+    "ja": "Google Slides",
+    "zh-Hans": "Google Slides",
+    "ko": "Google Slides",
+    "nl": "Google Slides",
+    "sv": "Google Slides",
+    "da": "Google Slides",
+    "nb": "Google Slides",
+    "fi": "Google Slides",
+    "pl": "Google Slides",
+    "hi": "Google Slides",
+    "zh-Hant": "Google Slides"
+  },
+  "match": {
+    "bundleIDs": [],
+    "processNames": [],
+    "hosts": [
+      "docs.google.com/presentation"
+    ]
+  },
+  "mode": "augment",
+  "priority": 0,
+  "groups": [
+    {
+      "title": {
+        "en": "Common actions",
+        "es": "Acciones habituales",
+        "fr": "Actions courantes",
+        "de": "Häufige Aktionen",
+        "it": "Azioni comuni",
+        "pt-BR": "Ações comuns",
+        "ja": "よく使う操作",
+        "zh-Hans": "常用操作",
+        "ko": "자주 쓰는 작업",
+        "nl": "Veelgebruikte acties",
+        "sv": "Vanliga åtgärder",
+        "da": "Almindelige handlinger",
+        "nb": "Vanlige handlinger",
+        "fi": "Yleiset toiminnot",
+        "pl": "Typowe czynności",
+        "hi": "सामान्य कार्य",
+        "zh-Hant": "常用操作"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Show keyboard shortcuts",
+            "es": "Mostrar atajos de teclado",
+            "fr": "Afficher les raccourcis clavier",
+            "de": "Tastenkürzel anzeigen",
+            "it": "Mostra scorciatoie",
+            "pt-BR": "Mostrar atalhos de teclado",
+            "ja": "キーボードショートカットを表示",
+            "zh-Hans": "显示键盘快捷键",
+            "ko": "키보드 단축키 표시",
+            "nl": "Sneltoetsen tonen",
+            "sv": "Visa kortkommandon",
+            "da": "Vis genvejstaster",
+            "nb": "Vis hurtigtaster",
+            "fi": "Näytä pikanäppäimet",
+            "pl": "Pokaż skróty klawiszowe",
+            "hi": "कीबोर्ड शॉर्टकट दिखाएँ",
+            "zh-Hant": "顯示鍵盤快速鍵"
+          },
+          "keys": "cmd+/"
+        },
+        {
+          "title": {
+            "en": "Find a menu command",
+            "es": "Buscar un comando de menú",
+            "fr": "Rechercher une commande de menu",
+            "de": "Menübefehl suchen",
+            "it": "Cerca un comando di menu",
+            "pt-BR": "Pesquisar um comando de menu",
+            "ja": "メニューのコマンドを検索",
+            "zh-Hans": "搜索菜单命令",
+            "ko": "메뉴 명령 검색",
+            "nl": "Een menuopdracht zoeken",
+            "sv": "Sök efter ett menykommando",
+            "da": "Søg efter en menukommando",
+            "nb": "Søk etter en menykommando",
+            "fi": "Hae valikkokomentoa",
+            "pl": "Wyszukaj polecenie menu",
+            "hi": "मेन्यू कमांड खोजें",
+            "zh-Hant": "搜尋選單指令"
+          },
+          "keys": "alt+/"
+        },
+        {
+          "title": {
+            "en": "New slide",
+            "es": "Nueva diapositiva",
+            "fr": "Nouvelle diapositive",
+            "de": "Neue Folie",
+            "it": "Nuova diapositiva",
+            "pt-BR": "Novo slide",
+            "ja": "新しいスライド",
+            "zh-Hans": "新建幻灯片",
+            "ko": "새 슬라이드",
+            "nl": "Nieuwe dia",
+            "sv": "Ny bild",
+            "da": "Nyt dias",
+            "nb": "Nytt lysbilde",
+            "fi": "Uusi dia",
+            "pl": "Nowy slajd",
+            "hi": "नई स्लाइड",
+            "zh-Hant": "新增投影片"
+          },
+          "keys": "ctrl+m"
+        },
+        {
+          "title": {
+            "en": "Duplicate",
+            "es": "Duplicar",
+            "fr": "Dupliquer",
+            "de": "Duplizieren",
+            "it": "Duplica",
+            "pt-BR": "Duplicar",
+            "ja": "複製",
+            "zh-Hans": "复制副本",
+            "ko": "복제",
+            "nl": "Dupliceren",
+            "sv": "Duplicera",
+            "da": "Duplikér",
+            "nb": "Dupliser",
+            "fi": "Monista",
+            "pl": "Duplikuj",
+            "hi": "डुप्लिकेट करें",
+            "zh-Hant": "製作副本"
+          },
+          "keys": "cmd+d"
+        },
+        {
+          "title": {
+            "en": "Insert or edit a link",
+            "es": "Insertar o editar un enlace",
+            "fr": "Insérer ou modifier un lien",
+            "de": "Link einfügen oder bearbeiten",
+            "it": "Inserisci o modifica un link",
+            "pt-BR": "Inserir ou editar um link",
+            "ja": "リンクを挿入・編集",
+            "zh-Hans": "插入或修改链接",
+            "ko": "링크 삽입 또는 수정",
+            "nl": "Een link invoegen of bewerken",
+            "sv": "Infoga eller redigera en länk",
+            "da": "Indsæt eller rediger et link",
+            "nb": "Sett inn eller rediger en lenke",
+            "fi": "Lisää tai muokkaa linkkiä",
+            "pl": "Wstaw lub edytuj link",
+            "hi": "लिंक डालें या संपादित करें",
+            "zh-Hant": "插入或編輯連結"
+          },
+          "keys": "cmd+k"
+        },
+        {
+          "title": {
+            "en": "Find and replace",
+            "es": "Buscar y reemplazar",
+            "fr": "Rechercher et remplacer",
+            "de": "Suchen und ersetzen",
+            "it": "Trova e sostituisci",
+            "pt-BR": "Localizar e substituir",
+            "ja": "検索と置換",
+            "zh-Hans": "查找和替换",
+            "ko": "찾기 및 바꾸기",
+            "nl": "Zoeken en vervangen",
+            "sv": "Sök och ersätt",
+            "da": "Søg og erstat",
+            "nb": "Søk og erstatt",
+            "fi": "Etsi ja korvaa",
+            "pl": "Znajdź i zamień",
+            "hi": "खोजें और बदलें",
+            "zh-Hant": "尋找與取代"
+          },
+          "keys": "shift+cmd+h"
+        },
+        {
+          "title": {
+            "en": "Insert a comment",
+            "es": "Insertar un comentario",
+            "fr": "Insérer un commentaire",
+            "de": "Kommentar einfügen",
+            "it": "Inserisci un commento",
+            "pt-BR": "Inserir um comentário",
+            "ja": "コメントを挿入",
+            "zh-Hans": "插入评论",
+            "ko": "댓글 삽입",
+            "nl": "Een opmerking invoegen",
+            "sv": "Infoga en kommentar",
+            "da": "Indsæt en kommentar",
+            "nb": "Sett inn en kommentar",
+            "fi": "Lisää kommentti",
+            "pl": "Wstaw komentarz",
+            "hi": "टिप्पणी डालें",
+            "zh-Hant": "插入註解"
+          },
+          "keys": "alt+cmd+m"
+        },
+        {
+          "title": {
+            "en": "Open version history",
+            "es": "Abrir el historial de versiones",
+            "fr": "Ouvrir l'historique des versions",
+            "de": "Versionsverlauf öffnen",
+            "it": "Apri la cronologia delle versioni",
+            "pt-BR": "Abrir o histórico de versões",
+            "ja": "変更履歴を開く",
+            "zh-Hans": "打开版本记录",
+            "ko": "버전 기록 열기",
+            "nl": "Versiegeschiedenis openen",
+            "sv": "Öppna versionshistoriken",
+            "da": "Åbn versionshistorikken",
+            "nb": "Åpne versjonsloggen",
+            "fi": "Avaa versiohistoria",
+            "pl": "Otwórz historię wersji",
+            "hi": "वर्शन इतिहास खोलें",
+            "zh-Hant": "開啟版本記錄"
+          },
+          "keys": "alt+shift+cmd+h"
+        },
+        {
+          "title": {
+            "en": "Open the speaker notes panel",
+            "es": "Abrir el panel de notas del orador",
+            "fr": "Ouvrir le panneau des notes du présentateur",
+            "de": "Bereich mit Vortragsnotizen öffnen",
+            "it": "Apri il pannello delle note del relatore",
+            "pt-BR": "Abrir o painel de anotações do apresentador",
+            "ja": "スピーカー ノートのパネルを開く",
+            "zh-Hans": "打开演讲者备注面板",
+            "ko": "발표자 노트 패널 열기",
+            "nl": "Paneel met sprekersnotities openen",
+            "sv": "Öppna panelen med talaranteckningar",
+            "da": "Åbn panelet med talernoter",
+            "nb": "Åpne panelet med foredragsnotater",
+            "fi": "Avaa puhujan muistiinpanojen paneeli",
+            "pl": "Otwórz panel notatek prelegenta",
+            "hi": "स्पीकर नोट्स पैनल खोलें",
+            "zh-Hant": "開啟演講者備忘稿面板"
+          },
+          "keys": "alt+shift+cmd+s"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Presenting",
+        "es": "Presentar",
+        "fr": "Présenter",
+        "de": "Präsentieren",
+        "it": "Presentare",
+        "pt-BR": "Apresentar",
+        "ja": "プレゼンテーション",
+        "zh-Hans": "演示",
+        "ko": "프레젠테이션",
+        "nl": "Presenteren",
+        "sv": "Presentera",
+        "da": "Præsentere",
+        "nb": "Presentere",
+        "fi": "Esittäminen",
+        "pl": "Prezentowanie",
+        "hi": "प्रस्तुत करना",
+        "zh-Hant": "簡報播放"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Start presenting",
+            "es": "Iniciar presentación",
+            "fr": "Lancer la présentation",
+            "de": "Präsentation starten",
+            "it": "Avvia la presentazione",
+            "pt-BR": "Iniciar apresentação",
+            "ja": "プレゼンテーションを開始",
+            "zh-Hans": "开始演示",
+            "ko": "프레젠테이션 시작",
+            "nl": "Presentatie starten",
+            "sv": "Starta presentationen",
+            "da": "Start præsentationen",
+            "nb": "Start presentasjonen",
+            "fi": "Aloita esitys",
+            "pl": "Rozpocznij prezentację",
+            "hi": "प्रस्तुति शुरू करें",
+            "zh-Hant": "開始播放簡報"
+          },
+          "keys": "cmd+return"
+        },
+        {
+          "title": {
+            "en": "Present from the beginning",
+            "es": "Presentar desde el principio",
+            "fr": "Présenter depuis le début",
+            "de": "Von Anfang an präsentieren",
+            "it": "Presenta dall'inizio",
+            "pt-BR": "Apresentar do início",
+            "ja": "最初から表示",
+            "zh-Hans": "从头开始演示",
+            "ko": "처음부터 프레젠테이션",
+            "nl": "Vanaf het begin presenteren",
+            "sv": "Presentera från början",
+            "da": "Præsenter fra begyndelsen",
+            "nb": "Presenter fra begynnelsen",
+            "fi": "Esitä alusta",
+            "pl": "Prezentuj od początku",
+            "hi": "शुरुआत से प्रस्तुत करें",
+            "zh-Hant": "從頭開始播放"
+          },
+          "keys": "shift+cmd+return"
+        },
+        {
+          "title": {
+            "en": "Stop presenting",
+            "es": "Detener la presentación",
+            "fr": "Arrêter la présentation",
+            "de": "Präsentation beenden",
+            "it": "Interrompi la presentazione",
+            "pt-BR": "Parar a apresentação",
+            "ja": "プレゼンテーションを終了",
+            "zh-Hans": "停止演示",
+            "ko": "프레젠테이션 중지",
+            "nl": "Presentatie stoppen",
+            "sv": "Sluta presentera",
+            "da": "Stop præsentationen",
+            "nb": "Stopp presentasjonen",
+            "fi": "Lopeta esitys",
+            "pl": "Zakończ prezentację",
+            "hi": "प्रस्तुति रोकें",
+            "zh-Hant": "停止播放簡報"
+          },
+          "keys": "escape"
+        },
+        {
+          "title": {
+            "en": "Open speaker notes (while presenting)",
+            "es": "Abrir las notas del orador (al presentar)",
+            "fr": "Ouvrir les notes du présentateur (en présentation)",
+            "de": "Vortragsnotizen öffnen (beim Präsentieren)",
+            "it": "Apri le note del relatore (durante la presentazione)",
+            "pt-BR": "Abrir anotações do apresentador (ao apresentar)",
+            "ja": "スピーカー ノートを開く(表示中)",
+            "zh-Hans": "打开演讲者备注(演示时)",
+            "ko": "발표자 노트 열기(발표 중)",
+            "nl": "Sprekersnotities openen (tijdens presenteren)",
+            "sv": "Öppna talaranteckningar (under presentation)",
+            "da": "Åbn talernoter (under præsentation)",
+            "nb": "Åpne foredragsnotater (under presentasjon)",
+            "fi": "Avaa puhujan muistiinpanot (esityksen aikana)",
+            "pl": "Otwórz notatki prelegenta (podczas prezentacji)",
+            "hi": "स्पीकर नोट्स खोलें (प्रस्तुति के दौरान)",
+            "zh-Hant": "開啟演講者備忘稿（播放時）"
+          },
+          "keys": "s",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Laser pointer on or off",
+            "es": "Activar o desactivar el puntero láser",
+            "fr": "Activer ou désactiver le pointeur laser",
+            "de": "Laserpointer ein oder aus",
+            "it": "Attiva o disattiva il puntatore laser",
+            "pt-BR": "Ativar ou desativar o apontador laser",
+            "ja": "レーザー ポインタのオン / オフ",
+            "zh-Hans": "开启或关闭激光笔",
+            "ko": "레이저 포인터 켜기/끄기",
+            "nl": "Laserpointer aan of uit",
+            "sv": "Laserpekare på eller av",
+            "da": "Laserpointer til eller fra",
+            "nb": "Laserpeker av eller på",
+            "fi": "Laserosoitin päälle tai pois",
+            "pl": "Włącz lub wyłącz wskaźnik laserowy",
+            "hi": "लेज़र पॉइंटर चालू या बंद करें",
+            "zh-Hant": "開啟或關閉雷射筆"
+          },
+          "keys": "l",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Show a black slide",
+            "es": "Mostrar una diapositiva negra",
+            "fr": "Afficher une diapositive noire",
+            "de": "Schwarze Folie anzeigen",
+            "it": "Mostra una diapositiva nera",
+            "pt-BR": "Mostrar um slide preto",
+            "ja": "黒いスライドを表示",
+            "zh-Hans": "显示黑色幻灯片",
+            "ko": "검은색 슬라이드 표시",
+            "nl": "Zwarte dia tonen",
+            "sv": "Visa en svart bild",
+            "da": "Vis et sort dias",
+            "nb": "Vis et svart lysbilde",
+            "fi": "Näytä musta dia",
+            "pl": "Pokaż czarny slajd",
+            "hi": "काली स्लाइड दिखाएँ",
+            "zh-Hant": "顯示黑色投影片"
+          },
+          "keys": "b",
+          "raw": true
+        },
+        {
+          "title": {
+            "en": "Show a white slide",
+            "es": "Mostrar una diapositiva blanca",
+            "fr": "Afficher une diapositive blanche",
+            "de": "Weiße Folie anzeigen",
+            "it": "Mostra una diapositiva bianca",
+            "pt-BR": "Mostrar um slide branco",
+            "ja": "白いスライドを表示",
+            "zh-Hans": "显示白色幻灯片",
+            "ko": "흰색 슬라이드 표시",
+            "nl": "Witte dia tonen",
+            "sv": "Visa en vit bild",
+            "da": "Vis et hvidt dias",
+            "nb": "Vis et hvitt lysbilde",
+            "fi": "Näytä valkoinen dia",
+            "pl": "Pokaż biały slajd",
+            "hi": "सफ़ेद स्लाइड दिखाएँ",
+            "zh-Hant": "顯示白色投影片"
+          },
+          "keys": "w",
+          "raw": true
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Text formatting",
+        "es": "Formato de texto",
+        "fr": "Mise en forme du texte",
+        "de": "Textformatierung",
+        "it": "Formattazione del testo",
+        "pt-BR": "Formatação de texto",
+        "ja": "テキストの書式",
+        "zh-Hans": "文本格式",
+        "ko": "텍스트 서식",
+        "nl": "Tekstopmaak",
+        "sv": "Textformatering",
+        "da": "Tekstformatering",
+        "nb": "Tekstformatering",
+        "fi": "Tekstin muotoilu",
+        "pl": "Formatowanie tekstu",
+        "hi": "टेक्स्ट फ़ॉर्मैटिंग",
+        "zh-Hant": "文字格式"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Bold",
+            "es": "Negrita",
+            "fr": "Gras",
+            "de": "Fett",
+            "it": "Grassetto",
+            "pt-BR": "Negrito",
+            "ja": "太字",
+            "zh-Hans": "加粗",
+            "ko": "굵게",
+            "nl": "Vet",
+            "sv": "Fet",
+            "da": "Fed",
+            "nb": "Fet",
+            "fi": "Lihavointi",
+            "pl": "Pogrubienie",
+            "hi": "बोल्ड",
+            "zh-Hant": "粗體"
+          },
+          "keys": "cmd+b"
+        },
+        {
+          "title": {
+            "en": "Italic",
+            "es": "Cursiva",
+            "fr": "Italique",
+            "de": "Kursiv",
+            "it": "Corsivo",
+            "pt-BR": "Itálico",
+            "ja": "斜体",
+            "zh-Hans": "斜体",
+            "ko": "기울임",
+            "nl": "Cursief",
+            "sv": "Kursiv",
+            "da": "Kursiv",
+            "nb": "Kursiv",
+            "fi": "Kursivointi",
+            "pl": "Kursywa",
+            "hi": "इटैलिक",
+            "zh-Hant": "斜體"
+          },
+          "keys": "cmd+i"
+        },
+        {
+          "title": {
+            "en": "Underline",
+            "es": "Subrayado",
+            "fr": "Souligné",
+            "de": "Unterstrichen",
+            "it": "Sottolineato",
+            "pt-BR": "Sublinhado",
+            "ja": "下線",
+            "zh-Hans": "下划线",
+            "ko": "밑줄",
+            "nl": "Onderstrepen",
+            "sv": "Understrykning",
+            "da": "Understregning",
+            "nb": "Understreking",
+            "fi": "Alleviivaus",
+            "pl": "Podkreślenie",
+            "hi": "अंडरलाइन",
+            "zh-Hant": "底線"
+          },
+          "keys": "cmd+u"
+        },
+        {
+          "title": {
+            "en": "Strikethrough",
+            "es": "Tachado",
+            "fr": "Barré",
+            "de": "Durchgestrichen",
+            "it": "Barrato",
+            "pt-BR": "Tachado",
+            "ja": "取り消し線",
+            "zh-Hans": "删除线",
+            "ko": "취소선",
+            "nl": "Doorhalen",
+            "sv": "Genomstrykning",
+            "da": "Gennemstregning",
+            "nb": "Gjennomstreking",
+            "fi": "Yliviivaus",
+            "pl": "Przekreślenie",
+            "hi": "स्ट्राइकथ्रू",
+            "zh-Hant": "刪除線"
+          },
+          "keys": "shift+cmd+x"
+        },
+        {
+          "title": {
+            "en": "Clear formatting",
+            "es": "Borrar formato",
+            "fr": "Effacer la mise en forme",
+            "de": "Formatierung löschen",
+            "it": "Cancella formattazione",
+            "pt-BR": "Limpar formatação",
+            "ja": "書式をクリア",
+            "zh-Hans": "清除格式",
+            "ko": "서식 지우기",
+            "nl": "Opmaak wissen",
+            "sv": "Rensa formatering",
+            "da": "Ryd formatering",
+            "nb": "Fjern formatering",
+            "fi": "Tyhjennä muotoilu",
+            "pl": "Wyczyść formatowanie",
+            "hi": "फ़ॉर्मैटिंग हटाएँ",
+            "zh-Hant": "清除格式"
+          },
+          "keys": "cmd+\\"
+        },
+        {
+          "title": {
+            "en": "Increase font size",
+            "es": "Aumentar el tamaño de fuente",
+            "fr": "Augmenter la taille de police",
+            "de": "Schrift vergrößern",
+            "it": "Aumenta la dimensione del carattere",
+            "pt-BR": "Aumentar o tamanho da fonte",
+            "ja": "フォントサイズを大きく",
+            "zh-Hans": "增大字号",
+            "ko": "글꼴 크기 늘리기",
+            "nl": "Tekengrootte vergroten",
+            "sv": "Öka teckenstorleken",
+            "da": "Forøg skriftstørrelsen",
+            "nb": "Øk skriftstørrelsen",
+            "fi": "Suurenna fonttikokoa",
+            "pl": "Zwiększ rozmiar czcionki",
+            "hi": "फ़ॉन्ट का आकार बढ़ाएँ",
+            "zh-Hant": "放大字型"
+          },
+          "keys": "shift+cmd+."
+        },
+        {
+          "title": {
+            "en": "Decrease font size",
+            "es": "Reducir el tamaño de fuente",
+            "fr": "Réduire la taille de police",
+            "de": "Schrift verkleinern",
+            "it": "Riduci la dimensione del carattere",
+            "pt-BR": "Diminuir o tamanho da fonte",
+            "ja": "フォントサイズを小さく",
+            "zh-Hans": "减小字号",
+            "ko": "글꼴 크기 줄이기",
+            "nl": "Tekengrootte verkleinen",
+            "sv": "Minska teckenstorleken",
+            "da": "Formindsk skriftstørrelsen",
+            "nb": "Reduser skriftstørrelsen",
+            "fi": "Pienennä fonttikokoa",
+            "pl": "Zmniejsz rozmiar czcionki",
+            "hi": "फ़ॉन्ट का आकार घटाएँ",
+            "zh-Hant": "縮小字型"
+          },
+          "keys": "shift+cmd+,"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Paragraphs",
+        "es": "Párrafos",
+        "fr": "Paragraphes",
+        "de": "Absätze",
+        "it": "Paragrafi",
+        "pt-BR": "Parágrafos",
+        "ja": "段落",
+        "zh-Hans": "段落",
+        "ko": "단락",
+        "nl": "Alinea's",
+        "sv": "Stycken",
+        "da": "Afsnit",
+        "nb": "Avsnitt",
+        "fi": "Kappaleet",
+        "pl": "Akapity",
+        "hi": "अनुच्छेद",
+        "zh-Hant": "段落"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Align left",
+            "es": "Alinear a la izquierda",
+            "fr": "Aligner à gauche",
+            "de": "Links ausrichten",
+            "it": "Allinea a sinistra",
+            "pt-BR": "Alinhar à esquerda",
+            "ja": "左揃え",
+            "zh-Hans": "左对齐",
+            "ko": "왼쪽 정렬",
+            "nl": "Links uitlijnen",
+            "sv": "Vänsterjustera",
+            "da": "Venstrejustér",
+            "nb": "Venstrejuster",
+            "fi": "Tasaa vasemmalle",
+            "pl": "Wyrównaj do lewej",
+            "hi": "बाएँ संरेखित करें",
+            "zh-Hant": "靠左對齊"
+          },
+          "keys": "shift+cmd+l"
+        },
+        {
+          "title": {
+            "en": "Align center",
+            "es": "Centrar",
+            "fr": "Centrer",
+            "de": "Zentriert",
+            "it": "Centra",
+            "pt-BR": "Centralizar",
+            "ja": "中央揃え",
+            "zh-Hans": "居中对齐",
+            "ko": "가운데 정렬",
+            "nl": "Centreren",
+            "sv": "Centrera",
+            "da": "Centrér",
+            "nb": "Midtstill",
+            "fi": "Keskitä",
+            "pl": "Wyśrodkuj",
+            "hi": "बीच में संरेखित करें",
+            "zh-Hant": "置中對齊"
+          },
+          "keys": "shift+cmd+e"
+        },
+        {
+          "title": {
+            "en": "Align right",
+            "es": "Alinear a la derecha",
+            "fr": "Aligner à droite",
+            "de": "Rechts ausrichten",
+            "it": "Allinea a destra",
+            "pt-BR": "Alinhar à direita",
+            "ja": "右揃え",
+            "zh-Hans": "右对齐",
+            "ko": "오른쪽 정렬",
+            "nl": "Rechts uitlijnen",
+            "sv": "Högerjustera",
+            "da": "Højrejustér",
+            "nb": "Høyrejuster",
+            "fi": "Tasaa oikealle",
+            "pl": "Wyrównaj do prawej",
+            "hi": "दाएँ संरेखित करें",
+            "zh-Hant": "靠右對齊"
+          },
+          "keys": "shift+cmd+r"
+        },
+        {
+          "title": {
+            "en": "Numbered list",
+            "es": "Lista numerada",
+            "fr": "Liste numérotée",
+            "de": "Nummerierte Liste",
+            "it": "Elenco numerato",
+            "pt-BR": "Lista numerada",
+            "ja": "番号付きリスト",
+            "zh-Hans": "编号列表",
+            "ko": "번호 매기기 목록",
+            "nl": "Genummerde lijst",
+            "sv": "Numrerad lista",
+            "da": "Nummereret liste",
+            "nb": "Nummerert liste",
+            "fi": "Numeroitu luettelo",
+            "pl": "Lista numerowana",
+            "hi": "क्रमांकित सूची",
+            "zh-Hant": "編號清單"
+          },
+          "keys": "shift+cmd+7"
+        },
+        {
+          "title": {
+            "en": "Bulleted list",
+            "es": "Lista con viñetas",
+            "fr": "Liste à puces",
+            "de": "Aufzählungsliste",
+            "it": "Elenco puntato",
+            "pt-BR": "Lista com marcadores",
+            "ja": "箇条書きリスト",
+            "zh-Hans": "项目符号列表",
+            "ko": "글머리 기호 목록",
+            "nl": "Lijst met opsommingstekens",
+            "sv": "Punktlista",
+            "da": "Punktopstilling",
+            "nb": "Punktliste",
+            "fi": "Luettelomerkeillä varustettu luettelo",
+            "pl": "Lista punktowana",
+            "hi": "बुलेट सूची",
+            "zh-Hant": "項目符號清單"
+          },
+          "keys": "shift+cmd+8"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "Arrange",
+        "es": "Organizar",
+        "fr": "Disposition",
+        "de": "Anordnen",
+        "it": "Disponi",
+        "pt-BR": "Organizar",
+        "ja": "配置",
+        "zh-Hans": "排列",
+        "ko": "정렬",
+        "nl": "Schikken",
+        "sv": "Ordna",
+        "da": "Arrangér",
+        "nb": "Ordne",
+        "fi": "Järjestä",
+        "pl": "Rozmieszczanie",
+        "hi": "व्यवस्थित करें",
+        "zh-Hant": "排列"
+      },
+      "items": [
+        {
+          "title": {
+            "en": "Group selection",
+            "es": "Agrupar selección",
+            "fr": "Grouper la sélection",
+            "de": "Auswahl gruppieren",
+            "it": "Raggruppa selezione",
+            "pt-BR": "Agrupar seleção",
+            "ja": "選択をグループ化",
+            "zh-Hans": "编组所选",
+            "ko": "선택 그룹화",
+            "nl": "Selectie groeperen",
+            "sv": "Gruppera markeringen",
+            "da": "Gruppér markeringen",
+            "nb": "Grupper markeringen",
+            "fi": "Ryhmitä valinta",
+            "pl": "Grupuj zaznaczenie",
+            "hi": "चयन को समूहबद्ध करें",
+            "zh-Hant": "將選取項目群組"
+          },
+          "keys": "alt+cmd+g"
+        },
+        {
+          "title": {
+            "en": "Ungroup",
+            "es": "Desagrupar",
+            "fr": "Dégrouper",
+            "de": "Gruppierung aufheben",
+            "it": "Separa gruppo",
+            "pt-BR": "Desagrupar",
+            "ja": "グループ解除",
+            "zh-Hans": "取消编组",
+            "ko": "그룹 해제",
+            "nl": "Groepering opheffen",
+            "sv": "Avgruppera",
+            "da": "Opløs gruppe",
+            "nb": "Løs opp gruppe",
+            "fi": "Pura ryhmitys",
+            "pl": "Rozgrupuj",
+            "hi": "समूह हटाएँ",
+            "zh-Hant": "取消群組"
+          },
+          "keys": "alt+shift+cmd+g"
+        }
+      ]
+    }
+  ]
+}
