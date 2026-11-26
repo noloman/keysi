@@ -27,5 +27,6 @@ learning plans and progress.
 - [macOS keyboard shortcuts guide](https://keysi.io/macos-keyboard-shortcuts.html)
 - [How to see any Mac app's keyboard shortcuts](https://keysi.io/show-keyboard-shortcuts-mac.html)
 - [Learn keyboard shortcuts on Mac](https://keysi.io/learn-keyboard-shortcuts-mac.html)
+- [Keyboard shortcut quizzes for Mac apps](https://keysi.io/quiz.html)
 - [Privacy](https://keysi.io/privacy.html)
 - [Integrations](https://keysi.io/integrations.html)

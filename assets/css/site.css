@@ -1871,3 +1871,44 @@ footer.site-footer::before {
 #features > .tight { margin-top: 64px; }
 .pricing-card { max-width: none; }
 @media (min-width: 860px) { .pricing-grid { max-width: none; } }
+
+/* ---------------------------------------------------------------------------
+   Shortcut quizzes (quiz-*.html, scripts/quiz-render.py + assets/js/quiz.js).
+   --------------------------------------------------------------------------- */
+.quiz {
+  margin: 28px 0 8px;
+  padding: 24px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+.quiz-progress { margin: 0 0 6px; font-family: var(--font-label); font-size: 0.78rem; color: var(--text-tertiary); }
+.quiz-prompt { margin: 0 0 18px; font-size: 1.25rem; line-height: 1.45; color: var(--text); }
+.quiz-prompt .kbd-row { vertical-align: middle; }
+.quiz-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+@media (max-width: 560px) { .quiz-options { grid-template-columns: 1fr; } }
+.quiz-option {
+  display: flex; align-items: center; gap: 12px;
+  min-height: 52px; padding: 10px 14px;
+  font: inherit; color: var(--text); text-align: left;
+  background: var(--bg); border: 1px solid var(--border-strong); border-radius: var(--radius-md);
+  cursor: pointer;
+}
+.quiz-option:hover:not(:disabled) { border-color: var(--accent); }
+.quiz-option:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.quiz-option:disabled { cursor: default; }
+.quiz-option.is-right { border-color: var(--good); box-shadow: inset 0 0 0 1px var(--good); }
+.quiz-option.is-wrong { border-color: var(--warn-border); background: var(--warn-bg); color: var(--warn-text); }
+.quiz-key {
+  flex: none; width: 24px; height: 24px; border-radius: 50%;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-family: var(--font-label); font-size: 0.72rem;
+  color: var(--text-secondary); background: var(--bg-sunken);
+}
+.quiz-feedback { min-height: 1.6em; margin: 16px 0 12px; color: var(--text-secondary); }
+.quiz-feedback .kbd-row { vertical-align: middle; }
+.quiz-score { margin: 0; font-family: var(--font-display); font-size: 4rem; font-weight: 800; line-height: 1; color: var(--text); }
+.quiz-verdict { margin: 8px 0 18px; font-size: 1.1rem; color: var(--text-secondary); }
+.quiz-status { margin-top: 10px; word-break: break-word; }
+.quiz-after { margin-top: 24px; }
