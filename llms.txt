@@ -23,6 +23,8 @@ learning plans and progress.
 - [KeyCue alternative](https://keysi.io/keycue-alternative.html)
 - [KeyClu comparison](https://keysi.io/keyclu-vs-keysi.html)
 - [KeyMinder comparison](https://keysi.io/keyminder-vs-keysi.html)
+- [HotkeyClash comparison](https://keysi.io/hotkeyclash-vs-keysi.html)
+- [Why doesn't my Mac keyboard shortcut work?](https://keysi.io/mac-keyboard-shortcut-not-working.html)
 - [Keyboard shortcut guides](https://keysi.io/shortcuts.html)
 - [macOS keyboard shortcuts guide](https://keysi.io/macos-keyboard-shortcuts.html)
 - [How to see any Mac app's keyboard shortcuts](https://keysi.io/show-keyboard-shortcuts-mac.html)

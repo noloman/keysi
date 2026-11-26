@@ -67,7 +67,8 @@
   <h2>The short version</h2>
   <ul>
     <li><strong>Accessibility is used for the menu bar.</strong> Keysi reads the
-      menu bar of the app in front, and presses one menu item when you click
+      menu bar of the app in front (and, only when you open Shortcut Health,
+      of your other running apps), and presses one menu item when you click
       its row. It never reads a document, a text field or what is selected.</li>
     <li><strong>It watches keys and clicks, and cannot change them.</strong>
       Keysi has no event tap, so it cannot block, alter or inject a keystroke.
@@ -76,7 +77,8 @@
       An update check, plus a licence check if you have entered a licence key.
       The feedback form sends one message, only when you press Send.</li>
     <li><strong>The files it reads are listed below.</strong> Your own keymaps
-      and a few preference files, read-only.</li>
+      and a few preference files, read-only. The one exception is an App
+      Shortcut you ask Keysi Pro to add, after confirming it.</li>
     <li><strong>It asks for nothing else.</strong> Signed with a Developer ID,
       notarized, hardened runtime, and an empty entitlements file.</li>
   </ul>
@@ -103,9 +105,9 @@
           <td>To know whether it can start. The system prompt appears once, on first run.</td>
         </tr>
         <tr>
-          <td>Reads the menu bar of the app in front</td>
+          <td>Reads the menu bar of the app in front, and of other running apps for Shortcut Health</td>
           <td><code>AXUIElementCreateApplication</code>, <code>AXUIElementCopyAttributeValue</code> for <code>AXMenuBar</code> and <code>AXChildren</code>. For each menu item: <code>AXRole</code>, <code>AXTitle</code>, <code>AXEnabled</code>, <code>AXIdentifier</code> and the key-equivalent attributes (<code>AXMenuItemCmdChar</code>, <code>…CmdVirtualKey</code>, <code>…CmdGlyph</code>, <code>…CmdModifiers</code>, <code>…MarkChar</code>)</td>
-          <td>This is the product: the list of shortcuts. It runs when you hold the trigger key or open the panel, and for Practice, an export, or a Shortcuts or Siri action you started. Each read is capped at a fraction of a second so a stuck app can&rsquo;t hang Keysi.</td>
+          <td>This is the product: the list of shortcuts. It runs when you hold the trigger key or open the panel, and for Practice, an export, or a Shortcuts or Siri action you started. Opening Shortcut Health (or pressing Scan Again there) reads every running app&rsquo;s menus once, the same attributes. Each read has a time limit. With Keysi Pro the window orders its results by the counts Shortcut Coach already keeps of shortcuts you pressed, and records nothing new for that.</td>
         </tr>
         <tr>
           <td>Presses a menu item</td>
@@ -240,7 +242,9 @@
 
   <h2 id="files">Every file outside its own folder that Keysi reads</h2>
   <p>
-    Keysi reads these and changes none of them. Everything it stores goes to
+    Keysi reads these and changes only one thing in one of them: with Keysi Pro,
+    <em>Add This Shortcut</em> or a Shortcut Health fix writes one App Shortcut
+    into that app&rsquo;s preferences after you confirm it. Everything it stores goes to
     <code>~/Library/Application Support/Keysi/</code>, its own preferences
     (<code>me.manulorenzo.Keysi</code>), the Keychain item that holds your
     licence, a Spotlight index entry for each custom sheet if you use them, and
@@ -263,9 +267,14 @@
           <td>To warn you when one of their hotkeys swallows a shortcut. Only while that app is running. Keysi reads the file and uses only the hotkey settings.</td>
         </tr>
         <tr>
+          <td>Karabiner-Elements, skhd and Hammerspoon hotkeys</td>
+          <td><code>~/.config/karabiner/karabiner.json</code>, <code>~/.config/skhd/skhdrc</code> or <code>~/.skhdrc</code>, <code>~/.hammerspoon/init.lua</code> (and Hammerspoon&rsquo;s setting that names its config file)</td>
+          <td>To warn you when one of their hotkeys swallows a shortcut. Only while that tool is running. Keysi reads the file in memory and uses only the key bindings.</td>
+        </tr>
+        <tr>
           <td>App Shortcuts you set in System Settings</td>
-          <td>The <code>NSUserKeyEquivalents</code> key in the front app&rsquo;s own preferences, read through macOS</td>
-          <td>To show a menu command you remapped. Nothing else in those preferences is read.</td>
+          <td>The <code>NSUserKeyEquivalents</code> key in an app&rsquo;s own preferences, read through macOS: the app in front, and with Keysi Pro the apps it suggests a free key for</td>
+          <td>To show a menu command you remapped. Nothing else in those preferences is read. The same key is the one thing Keysi can write: one entry, only after you confirm it (Keysi Pro), whether from <em>Add This Shortcut</em> or from a Shortcut Health fix, and Settings &#9656; Coach lists every entry Keysi added and removes it again. System Settings may not list such an entry, because macOS protects the list it shows; <code>defaults read &lt;bundle id&gt; NSUserKeyEquivalents</code> in Terminal does. Sandboxed apps are never written to.</td>
         </tr>
         <tr>
           <td>Your editor keymaps</td>
@@ -292,7 +301,7 @@
         <tr>
           <td>Which programs are running</td>
           <td>The process list (<code>sysctl</code>), the running-apps list and the front app</td>
-          <td>To find the foreground program in a terminal, to know whether Raycast or Rectangle is running, and to name the app that turned on secure input. Process names and parent links only. Nothing is stored.</td>
+          <td>To find the foreground program in a terminal, to know whether Raycast, Rectangle, Karabiner-Elements, skhd or Hammerspoon is running, and to name the app that turned on secure input. Process names and parent links only. Nothing is stored.</td>
         </tr>
         <tr>
           <td>Whether Raycast, Alfred and the <code>keysi</code> command are set up</td>

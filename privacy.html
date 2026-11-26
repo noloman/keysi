@@ -56,11 +56,13 @@
   <h2>The short version</h2>
   <p>
     Keysi reads the menu structure of whatever app is frontmost, on your
-    Mac, to show you its keyboard shortcuts. That information never
-    leaves your Mac. To warn you when another app's global hotkey would
+    Mac, to show you its keyboard shortcuts. When you open Shortcut Health,
+    it reads your other running apps' menus too, to find collisions. That
+    information never leaves your Mac. To warn you when another app's global hotkey would
     swallow one of those shortcuts, it also reads, without changing them,
-    the hotkey settings that Raycast and Rectangle save on your Mac. That
-    stays on your Mac too. Two network calls happen automatically, both described in
+    the hotkey settings that Raycast and Rectangle save on your Mac and the
+    key bindings in your Karabiner-Elements, skhd and Hammerspoon config
+    files. That stays on your Mac too. Two network calls happen automatically, both described in
     full below, and nothing else does unless you turn it on yourself, or
     press Send on the feedback form.
     Crash diagnostics are off by default; if you turn them on in Settings,
@@ -224,6 +226,11 @@
       once per app per session, and only for apps where that failed, so we
       can find out which apps Coach can't help you in yet; it is not a
       record of the apps you use.</li>
+    <li>When you run a Shortcut Health scan, how many running apps it read
+      and how many collisions it found, each only as a range such as
+      &ldquo;3-5&rdquo;. And when you use it to set a replacement key, which
+      of its groups the collision was in. No app name, shortcut or command
+      name.</li>
   </ul>
   <p>
     Nothing else. <strong>Never your license key, never the amount you

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HotkeyClash vs Keysi — two shortcut collision finders compared</title>
+<meta name="description" content="HotkeyClash is a free, open-source Mac shortcut collision finder. Keysi's Shortcut Health scan is free too, and Pro can fix many of them. A dated comparison.">
+<link rel="canonical" href="https://keysi.io/hotkeyclash-vs-keysi.html">
+<link rel="icon" href="assets/favicon/icon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Keysi">
+<meta property="og:title" content="HotkeyClash vs Keysi — two shortcut collision finders compared">
+<meta property="og:description" content="HotkeyClash is a free, open-source Mac shortcut collision finder. Keysi's Shortcut Health scan is free too, and Pro can fix many of them. A dated comparison.">
+<meta property="og:url" content="https://keysi.io/hotkeyclash-vs-keysi.html">
+<meta property="og:image" content="https://keysi.io/assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://keysi.io/assets/img/og.png">
+<link rel="stylesheet" href="assets/css/site.css">
+<script src="assets/js/analytics.js" defer></script>
+<script src="assets/js/sale.js" defer></script>
+<script src="assets/js/hold.js" defer></script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">⌘</span>Keysi</a>
+    <ul class="nav-links">
+      <li><a href="./#features">Features</a></li>
+      <li><a href="./#pricing">Pricing</a></li>
+      <li><a href="./#faq">FAQ</a></li>
+      <li><a href="changelog.html">Changelog</a></li>
+    </ul>
+    <a class="btn btn-primary btn-nav" href="https://github.com/noloman/keysi/releases/latest">Download</a>
+    <details class="nav-more">
+      <summary><span class="nav-more-glyph" aria-hidden="true"></span><span class="sr-only">Menu</span></summary>
+      <ul class="nav-more-menu">
+        <li><a href="./#features">Features</a></li>
+        <li><a href="./#pricing">Pricing</a></li>
+        <li><a href="./#faq">FAQ</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+        <li><a href="integrations.html">Integrations</a></li>
+        <li><a href="sheets.html">Cheat sheets</a></li>
+      </ul>
+    </details>
+  </div>
+</nav>
+
+<section class="container-narrow doc">
+  <div class="eyebrow">HotkeyClash vs Keysi</div>
+  <h1>HotkeyClash and Keysi both find shortcut collisions. Here's how they differ.</h1>
+  <p class="lede">
+    HotkeyClash is a free, open-source app whose one job is finding keyboard
+    shortcuts that collide on your Mac. Keysi's Shortcut Health does a similar
+    scan, also free, inside a shortcut viewer and coach. If open source
+    matters most, use HotkeyClash. This page is about the rest.
+  </p>
+  <p class="fine">Compared against HotkeyClash's own site on 2026-11-26.</p>
+
+  <h2>What HotkeyClash does well</h2>
+  <p>
+    <a href="https://hotkeyclash.pages.dev/">HotkeyClash</a>, by Wunderlandmedia, is
+    free and GPL-2.0 licensed (the code is on
+    <a href="https://github.com/wunderlandmedia/hotkeyclash">GitHub</a>). It
+    needs macOS 14 or later, and runs on Apple silicon and Intel. It reads every
+    running app's menu bar with Accessibility, parses Karabiner-Elements and
+    skhd configs, and reads the macOS system shortcuts. Then it sorts what it
+    finds into definite conflicts (two global hotkeys on one key) and potential
+    conflicts (a global hotkey over an app's menu shortcut), and explains which
+    app wins. It's small and native, makes no network requests, keeps nothing
+    once you quit, and installs from a DMG or a Homebrew tap. Its site says
+    on purpose that it reports collisions and doesn't edit shortcuts.
+  </p>
+
+  <h2>What Keysi's free Shortcut Health does</h2>
+  <figure class="shot">
+    <picture>
+      <source srcset="assets/img/shot-health@2x.webp" type="image/webp">
+      <img src="assets/img/shot-health@2x.png" alt="Keysi's Shortcut Health window: five shortcuts that never fire, grouped into macOS, other apps, hotkeys and same app, each row showing the keys, the app that loses and the app that wins" loading="lazy" width="1600" height="1200">
+    </picture>
+  </figure>
+  <p>
+    Shortcut Health is free, with no trial, time limit or account. It scans the
+    menus of every running app, plus the apps whose menus Keysi has already
+    read for you. It reads the macOS system shortcuts, the App Shortcuts you set in
+    System Settings, and global hotkeys from Raycast, Rectangle,
+    Karabiner-Elements, skhd and Hammerspoon. Each collision gets one line
+    saying who wins. You can press any key combination to see everything
+    Keysi can see that claims it, hide a collision you've accepted, and copy
+    the report as Markdown. It opens from the menu bar menu or the System
+    Shortcuts window. Hotkeys from apps it doesn't read yet, such as
+    Alfred, Keyboard Maestro or BetterTouchTool, won't show up. HotkeyClash
+    doesn't read those either (checked 2026-11-26).
+  </p>
+  <p>
+    <strong>Keysi is closed source.</strong> If that matters to you, that is a
+    fair reason to pick HotkeyClash. What Keysi offers instead is a plain
+    account of what it does on your Mac, on <a href="security.html">its
+    security page</a>.
+  </p>
+
+  <h2>Where they differ</h2>
+  <ul>
+    <li>
+      <strong>Fixing, not just finding.</strong> With Pro, Keysi can give the
+      losing menu command a free key, as a macOS App Shortcut. It asks first,
+      lists everything it added in Settings ▸ Coach, and removes any of it in
+      one click (that part is free). For sandboxed apps, including most App
+      Store apps, it gives you the steps to do it yourself instead. A clash between
+      two global hotkeys still has to be changed in one of those apps.
+      HotkeyClash's site says it deliberately doesn't edit shortcuts.
+    </li>
+    <li>
+      <strong>Which collisions matter to you.</strong> Keysi's Coach counts
+      which shortcuts you use, so with Pro the ones you use come first and the
+      ones you never touch sink. It can also tell you when an app you
+      open starts taking a key you use, with one line in
+      the menu bar menu and no notification.
+    </li>
+    <li>
+      <strong>More hotkey apps read.</strong> Keysi also reads Raycast,
+      Rectangle and Hammerspoon. HotkeyClash's site lists Hammerspoon, Raycast,
+      Alfred, Keyboard Maestro and BetterTouchTool readers as planned (checked
+      2026-11-26).
+    </li>
+    <li>
+      <strong>"Which app takes this key?"</strong> Keysi lets you press a combination
+      and see who claims it today. HotkeyClash's site lists a live test mode
+      as planned (checked 2026-11-26).
+    </li>
+    <li>
+      <strong>Everything else Keysi is.</strong> Shortcut Health is one window
+      of a shortcut viewer: hold a modifier to see the app in front's
+      shortcuts, click a row to run it, and use thirty-five cheat sheets for
+      apps with no menu bar. Pro adds coaching and spaced-repetition practice.
+      HotkeyClash does one job and keeps it small. Both are fair choices.
+    </li>
+  </ul>
+
+  <h2>The table</h2>
+  <div class="table-scroll">
+    <table class="compare">
+      <thead>
+        <tr><th>Feature</th><th>Keysi</th><th>HotkeyClash</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Price</td><td class="yes">Shortcut Health scan free, with no trial; Pro $14.99 once</td><td class="yes">Free</td></tr>
+        <tr><td>Source</td><td class="no">Closed source (see <a href="security.html">security</a>)</td><td class="yes">Open source, GPL-2.0</td></tr>
+        <tr><td>Requires</td><td>macOS 14 or later</td><td>macOS 14 or later</td></tr>
+        <tr><td>Running apps' menus</td><td class="yes">Yes, plus apps Keysi has read before</td><td class="yes">Yes</td></tr>
+        <tr><td>macOS system shortcuts</td><td class="yes">Yes</td><td class="yes">Yes</td></tr>
+        <tr><td>Apps that aren't running</td><td class="yes">Yes, for apps Keysi has read before</td><td class="no">No, it scans running apps</td></tr>
+        <tr><td>Global hotkey apps read</td><td class="yes">Raycast, Rectangle, Karabiner-Elements, skhd, Hammerspoon</td><td class="yes">Karabiner-Elements, skhd; more planned</td></tr>
+        <tr><td>Says which app wins</td><td class="yes">Yes</td><td class="yes">Yes</td></tr>
+        <tr><td>Press a key to see who claims it</td><td class="yes">Yes, free</td><td class="no">Planned, per its site</td></tr>
+        <tr><td>Hide a collision you've accepted</td><td class="yes">Yes, free</td><td class="no">Not stated on HotkeyClash's site (checked 2026-11-26)</td></tr>
+        <tr><td>Export the report</td><td class="yes">Copy as Markdown, free</td><td class="no">Not stated on HotkeyClash's site (checked 2026-11-26)</td></tr>
+        <tr><td>Fix a collision</td><td class="yes">Yes, with Pro, for menu commands: sets a macOS App Shortcut, undoable</td><td class="no">No, by design</td></tr>
+        <tr><td>Ranked by the shortcuts you use</td><td class="yes">Yes, with Pro</td><td class="no">Sorted by severity</td></tr>
+        <tr><td>Watch for new collisions</td><td class="yes">Yes, with Pro</td><td class="no">Optional scan on launch</td></tr>
+        <tr><td>Shortcut viewer, cheat sheets, coaching</td><td class="yes">Yes</td><td class="no">No, it only finds collisions</td></tr>
+        <tr><td>Install</td><td>Notarized download or Homebrew tap</td><td>DMG or Homebrew tap</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="compare-date">
+    Compared on 2026-11-26 against <a href="https://hotkeyclash.pages.dev/">HotkeyClash's site</a>
+    and its features and download pages. "Not stated" means the feature isn't
+    mentioned there either way, not that it's absent. Check HotkeyClash
+    directly rather than taking a competitor's word.
+  </p>
+
+  <h2>Pick HotkeyClash if</h2>
+  <ul>
+    <li><strong>You want open source.</strong> You can read the code and build it yourself. Keysi can't offer that.</li>
+    <li><strong>You only want a collision report</strong> from a small app that does nothing else.</li>
+    <li><strong>You'd rather change shortcuts yourself</strong>, in each app's own settings.</li>
+  </ul>
+
+  <h2>Pick Keysi if</h2>
+  <ul>
+    <li>You use Raycast, Rectangle or Hammerspoon and want their hotkeys in the scan.</li>
+    <li>You want to fix a menu-shortcut collision after one confirmation, and undo it later.</li>
+    <li>You'd also like a shortcut viewer and coach in the same app.</li>
+  </ul>
+
+  <h2>Try both</h2>
+  <p>
+    They're both free for the scan, they don't get in each other's way, and each takes a
+    minute to install. Run both once and keep the one that fits.
+  </p>
+  <div class="doc-foot">
+    <p><strong>The scan and the viewer are free, with no trial.</strong> Pro is optional.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary btn-lg" href="./#download">Download for macOS</a>
+      <a class="btn btn-secondary btn-lg" href="./#pricing">See what Pro costs</a>
+    </div>
+  </div>
+
+  <h2>Related</h2>
+  <ul>
+    <li><a href="mac-keyboard-shortcut-not-working.html">Why doesn't my Mac keyboard shortcut work?</a></li>
+    <li><a href="keyminder-vs-keysi.html">KeyMinder is free and open source: how it compares</a></li>
+    <li><a href="keyclu-vs-keysi.html">KeyClu is free, so why pay for Keysi? (six-way table)</a></li>
+    <li><a href="security.html">Security: what Keysi does on your Mac</a></li>
+  </ul>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-row">
+      <div>© 2026 Manuel Lorenzo. Not affiliated with Media Atelier.</div>
+      <ul class="footer-links">
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="security.html">Security</a></li>
+        <li><a href="terms.html">Terms &amp; refunds</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+        <li><a href="roadmap.html">Roadmap</a></li>
+        <li><a href="press.html">Press</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -4,7 +4,8 @@
 
 - Price: $0.
 - Includes: hold-Command shortcut overlay, live menu shortcuts, search,
-  clickable shortcut execution, built-in and custom cheat sheets.
+  clickable shortcut execution, built-in and custom cheat sheets, and Shortcut
+  Health (a scan of running apps for shortcuts that never fire).
 - Limits: no time limit, account, or card required.
 
 ## Keysi Pro
@@ -14,7 +15,8 @@
 - Licence: up to three Macs.
 - Includes: Shortcut Coach reminders, unlimited Practice, learning plans,
   progress, weekly digest, desktop-picture shortcut export, and integrations
-  with Raycast, Alfred, Shortcuts and the terminal.
+  with Raycast, Alfred, Shortcuts and the terminal. Adding a suggested macOS App
+  Shortcut in one click, and Shortcut Health fixes.
 - Subscription: none.
 
 Download Keysi from [keysi.io](https://keysi.io/). Purchase Pro through the

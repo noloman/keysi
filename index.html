@@ -42,7 +42,7 @@
   "url": "https://keysi.io/",
   "image": "https://keysi.io/assets/img/og.png",
   "description": "Hold a modifier and see every keyboard shortcut of the Mac app you are using \u2014 grouped by menu, rendered as real keycaps, and click any row to run it. Free with no time limit; Keysi Pro adds coaching that teaches you the shortcuts you keep missing.",
-  "softwareVersion": "1.0.41",
+  "softwareVersion": "1.0.42",
   "downloadUrl": "https://github.com/noloman/keysi/releases/latest/download/Keysi.dmg",
   "inLanguage": ["en", "es", "fr", "de", "it", "pt-BR", "ja", "ko", "zh-Hans"],
   "author": { "@type": "Person", "name": "Manuel Lorenzo" },
@@ -58,6 +58,7 @@
 <link rel="stylesheet" href="assets/css/site.css">
 <script src="assets/js/analytics.js" defer></script>
 <script src="assets/js/hold.js" defer></script>
+<script src="assets/js/motion.js" defer></script>
 <script src="assets/js/copy.js" defer></script>
 <script src="assets/js/sale.js" defer></script>
 </head>
@@ -309,6 +310,26 @@
     </div>
   </div>
 
+  <div class="feature-lead">
+    <div class="feature-copy">
+      <div class="eyebrow">Shortcut Health<span class="tier tier-free">Free</span></div>
+      <h2>Find the shortcuts that never fire</h2>
+      <p>
+        One scan of your Mac shows the shortcuts that macOS or another app
+        takes first, and who wins. Keysi Pro can give the losing command a
+        free key, after you confirm.
+      </p>
+      <p><a href="mac-keyboard-shortcut-not-working.html">Why a Mac shortcut stops working</a></p>
+    </div>
+    <div class="feature-shots is-single">
+      <figure class="shot">
+        <video autoplay muted loop playsinline preload="metadata" poster="assets/img/shot-health@2x.webp" width="1280" height="960" aria-label="Keysi's Shortcut Health window scanning a Mac and listing five shortcuts that never fire, grouped by what takes them first">
+          <source src="assets/video/health-scan.mp4" type="video/mp4">
+        </video>
+      </figure>
+    </div>
+  </div>
+
   <div class="tight">
     <h2>Everything else</h2>
     <div class="capabilities">
@@ -518,6 +539,7 @@
       <li><span class="tick">✓</span><span>Searchable panel, favorites, hiding</span></li>
       <li><span class="tick">✓</span><span>Pin the panel open where you want it, per app</span></li>
       <li><span class="tick">✓</span><span>Warnings when macOS or another app's hotkey gets there first, plus a list of every system shortcut</span></li>
+      <li><span class="tick">✓</span><span>Shortcut Health: scan your running apps for shortcuts that never fire, and see who wins</span></li>
       <li><span class="tick">✓</span><span>Custom cheat sheets, with a built-in editor</span></li>
       <li><span class="tick">✓</span><span>Export any app's shortcuts as Markdown or a printable PDF</span></li>
       <li><span class="tick">✓</span><span>Show an app's shortcuts from Raycast, Alfred or the terminal</span></li>
@@ -546,7 +568,8 @@
     <p class="price-sub">Turn the shortcuts you keep missing into muscle memory. Pay once, not a subscription.</p>
     <ul class="pricing-list">
       <li><span class="tick">✓</span><span>Coach: a quiet reminder when you use the mouse for something that has a shortcut</span></li>
-      <li><span class="tick">✓</span><span>Suggested shortcuts for commands you keep clicking that have none</span></li>
+      <li><span class="tick">✓</span><span>Suggested shortcuts for commands you keep clicking that have none, added in one click in most apps from outside the App Store</span></li>
+      <li><span class="tick">✓</span><span>Shortcut Health fixes: the collisions you actually hit first, a free key to set, and a heads-up when a newly opened app whose hotkeys Keysi reads takes a shortcut you use</span></li>
       <li><span class="tick">✓</span><span>Unlimited Practice Mode for the ones you keep missing</span></li>
       <li><span class="tick">✓</span><span>Learning plans: pick an app and learn its shortcuts in a week, five a day</span></li>
       <li><span class="tick">✓</span><span>Progress measured against your own menu-trip times</span></li>
@@ -708,6 +731,7 @@
         <ul>
           <li><a href="keyclu-vs-keysi.html">KeyClu</a></li>
           <li><a href="keyminder-vs-keysi.html">KeyMinder</a></li>
+          <li><a href="hotkeyclash-vs-keysi.html">HotkeyClash</a></li>
           <li><a href="keycue-alternative.html">KeyCue</a></li>
           <li><a href="cheatsheet-alternative.html">CheatSheet</a></li>
         </ul>

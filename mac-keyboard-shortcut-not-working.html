@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why doesn't my Mac keyboard shortcut work? 7 causes and fixes</title>
+<meta name="description" content="A Mac shortcut that does nothing is usually taken by macOS or another app first. Seven causes, the fix for each, and how to find which app took the key.">
+<link rel="canonical" href="https://keysi.io/mac-keyboard-shortcut-not-working.html">
+<link rel="icon" href="assets/favicon/icon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Keysi">
+<meta property="og:title" content="Why doesn't my Mac keyboard shortcut work? 7 causes and fixes">
+<meta property="og:description" content="A Mac shortcut that does nothing is usually taken by macOS or another app first. Seven causes, the fix for each, and how to find which app took the key.">
+<meta property="og:url" content="https://keysi.io/mac-keyboard-shortcut-not-working.html">
+<meta property="og:image" content="https://keysi.io/assets/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://keysi.io/assets/img/og.png">
+<link rel="stylesheet" href="assets/css/site.css">
+<script src="assets/js/analytics.js" defer></script>
+<script src="assets/js/sale.js" defer></script>
+<script src="assets/js/hold.js" defer></script>
+<script src="assets/js/motion.js" defer></script>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="container">
+    <a class="brand" href="./"><span class="brand-mark" aria-hidden="true">⌘</span>Keysi</a>
+    <ul class="nav-links">
+      <li><a href="./#features">Features</a></li>
+      <li><a href="./#pricing">Pricing</a></li>
+      <li><a href="./#faq">FAQ</a></li>
+      <li><a href="changelog.html">Changelog</a></li>
+    </ul>
+    <a class="btn btn-primary btn-nav" href="https://github.com/noloman/keysi/releases/latest">Download</a>
+    <details class="nav-more">
+      <summary><span class="nav-more-glyph" aria-hidden="true"></span><span class="sr-only">Menu</span></summary>
+      <ul class="nav-more-menu">
+        <li><a href="./#features">Features</a></li>
+        <li><a href="./#pricing">Pricing</a></li>
+        <li><a href="./#faq">FAQ</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+        <li><a href="integrations.html">Integrations</a></li>
+        <li><a href="sheets.html">Cheat sheets</a></li>
+      </ul>
+    </details>
+  </div>
+</nav>
+
+<section class="container-narrow doc">
+  <div class="eyebrow">Troubleshooting</div>
+  <h1>Why doesn't my Mac keyboard shortcut work?</h1>
+  <p class="lede">
+    You press the keys and nothing happens, or something else happens. Most
+    of the time another app or macOS itself took the key first. Here are the
+    usual causes, in the order worth checking, and how to find which app
+    took it.
+  </p>
+
+  <h2>1. macOS takes it first</h2>
+  <p>
+    macOS's own shortcuts win over the app in front. ⌘Space opens Spotlight,
+    ⌃Space switches input source, ⌃← and ⌃→ move between Spaces, and ⌘⇧3, ⌘⇧4
+    and ⌘⇧5 take screenshots. If an app gives one of these to a menu command,
+    the command never fires.
+  </p>
+  <p>
+    <strong>Fix:</strong> open System Settings ▸ Keyboard, click Keyboard
+    Shortcuts…, find the shortcut and turn it off or change it. Or give the
+    app's command a different key: in the same window, open App Shortcuts,
+    click +, pick the app, type the menu title exactly as it appears, and
+    press the new keys. Type "…" with ⌥; (Option-semicolon).
+  </p>
+
+  <h2>2. Another app's global hotkey takes it</h2>
+  <p>
+    Launchers, window managers and remappers such as Raycast, Alfred,
+    Rectangle, Karabiner-Elements, skhd and Hammerspoon listen for keys in
+    every app. If one of them uses the key, the app in front never hears it.
+    This is the most common cause after installing something new.
+  </p>
+  <p>
+    <strong>Fix:</strong> change the hotkey in that app's settings, or quit
+    it for a moment and press the shortcut again to confirm it's the culprit.
+  </p>
+
+  <h2>3. Two commands in the same app share a key</h2>
+  <p>
+    It happens, especially after you add your own shortcuts. The app runs
+    whichever command it finds first, which may not be the one you wanted.
+  </p>
+  <p>
+    <strong>Fix:</strong> give one of the two commands a different key, in
+    the app's own settings or as an App Shortcut (see step 1).
+  </p>
+
+  <h2>4. The command isn't available right now</h2>
+  <p>
+    A greyed-out menu item does nothing when you press its shortcut. Check
+    the menu: many commands need a selection, an open document or a
+    particular mode. Also check that the right app is in front, and that
+    focus isn't in a text field that uses the key itself.
+  </p>
+  <p>
+    <strong>Fix:</strong> click into the document or window the command
+    acts on, select something if it needs a selection, and try again.
+  </p>
+
+  <h2>5. A custom App Shortcut doesn't match the menu</h2>
+  <p>
+    In System Settings ▸ Keyboard ▸ Keyboard Shortcuts… ▸ App Shortcuts, the
+    menu title must match exactly, including capitals and the "…" character
+    (three dots typed as periods don't count). Some apps also need to be
+    quit and reopened before a new App Shortcut works.
+  </p>
+
+  <h2>6. Function keys, modifier keys and keyboard layout</h2>
+  <ul>
+    <li>
+      <strong>F1, F2 and the rest:</strong> on most Mac keyboards they control
+      brightness and volume unless you hold fn. Turn on "Use F1, F2, etc.
+      keys as standard function keys" under Keyboard Shortcuts… ▸ Function
+      Keys if you use them a lot.
+    </li>
+    <li>
+      <strong>Remapped modifiers:</strong> if Caps Lock, ⌃, ⌥ or ⌘ was swapped
+      under Keyboard Shortcuts… ▸ Modifier Keys, or by a tool like
+      Karabiner-Elements, the key you press isn't the one the shortcut wants.
+    </li>
+    <li>
+      <strong>Keyboard layout:</strong> on non-US layouts, keys like ` [ ] and
+      \ are elsewhere or need ⌥, so a shortcut written for a US keyboard can
+      need different keys.
+    </li>
+  </ul>
+
+  <h2>7. A password field is active</h2>
+  <p>
+    While a password field has focus, macOS turns on secure input, and some
+    hotkey apps stop hearing keys until you leave the field. Some apps can
+    also leave it on: Terminal's Secure Keyboard Entry, or a password manager
+    that didn't turn it off again. If a launcher or window manager hotkey only
+    fails sometimes, this is a likely reason. Keysi's overlay shows a lock
+    while secure input is on.
+  </p>
+
+  <h2>Find which app takes a shortcut</h2>
+  <figure class="shot">
+    <video autoplay muted loop playsinline preload="metadata" poster="assets/img/shot-health@2x.webp" width="1280" height="960" aria-label="Keysi's Shortcut Health window scanning a Mac and listing the shortcuts that never fire">
+      <source src="assets/video/health-scan.mp4" type="video/mp4">
+    </video>
+  </figure>
+  <p>
+    Checking every app by hand is slow. <strong>Keysi's Shortcut Health</strong>
+    (free, no trial) scans the menus of every running app, macOS's own
+    shortcuts, your App Shortcuts, and global hotkeys from Raycast, Rectangle,
+    Karabiner-Elements, skhd and Hammerspoon. It lists each collision it finds with
+    one line saying who wins. You can also press any key combination to see
+    everything Keysi can see that claims it. Hotkeys from apps it doesn't read
+    yet, such as Alfred, Keyboard Maestro or BetterTouchTool, won't show up,
+    so for those use the quit-and-retry check in step 2.
+  </p>
+  <p>
+    With Keysi Pro ($14.99 once), it puts the shortcuts Coach has seen you
+    use first. It can fix a menu-shortcut collision by giving the losing
+    command a free key, as a macOS App Shortcut: it asks first, and you can
+    remove it in one click. Sandboxed apps, including most App Store apps,
+    get step-by-step instructions instead. It also tells you when an app you open
+    starts taking a key you use.
+  </p>
+  <p class="fine">
+    Prefer a free open-source tool that only finds collisions? See
+    <a href="hotkeyclash-vs-keysi.html">HotkeyClash vs Keysi</a>.
+  </p>
+  <div class="doc-foot">
+    <p><strong>Shortcut Health and the shortcut viewer are free.</strong> Pro is optional.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary btn-lg" href="./#download">Download for macOS</a>
+      <a class="btn btn-secondary btn-lg" href="./#pricing">See what Pro costs</a>
+    </div>
+  </div>
+
+  <h2>Related</h2>
+  <ul>
+    <li><a href="macos-keyboard-shortcuts.html">macOS keyboard shortcuts guide</a></li>
+    <li><a href="show-keyboard-shortcuts-mac.html">How to see any Mac app's keyboard shortcuts</a></li>
+    <li><a href="hotkeyclash-vs-keysi.html">HotkeyClash vs Keysi</a></li>
+    <li><a href="quiz.html">Shortcut quizzes for Mac apps</a></li>
+  </ul>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-row">
+      <div>© 2026 Manuel Lorenzo. Not affiliated with Media Atelier.</div>
+      <ul class="footer-links">
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="security.html">Security</a></li>
+        <li><a href="terms.html">Terms &amp; refunds</a></li>
+        <li><a href="changelog.html">Changelog</a></li>
+        <li><a href="roadmap.html">Roadmap</a></li>
+        <li><a href="press.html">Press</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
